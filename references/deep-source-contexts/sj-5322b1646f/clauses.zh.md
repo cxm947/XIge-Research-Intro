@@ -1,0 +1,2321 @@
+# Practical FL：句法矩阵、话语前景与有界局部释义
+
+- scope_note: Rhetorical/source analysis. Fifty local fields are bounded Chinese source-aligned glosses, not enacted English rewrites. Five full variants are separately typed, including one explicitly evidential-scope-changing case. Implementation detail is not expanded.
+
+## P1.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: FL概念由Google于2016年首次提出
+- discourse_foreground: 以边缘计算中的有前景范式进入领域
+- incremental_information: 历史起点与研究对象
+- clause_sentence_form: 前置角色性as短语＋被动主句；不是原因从句
+- length_proxy: 28
+- length_and_context_function: 28词先定位不展开协议；下一句才承担定义，历史归属为作者背景陈述
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 角色性开头
+  - replacement_zh: 作为边缘计算时代一种有前景的分布式学习范式
+  - unchanged_context: FL概念、Google、2016、首次提出的被动主干及引文保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 73
+      - absolute_char_range:
+        - 0
+        - 73
+      - source_span_sha256: b557ea67fe5e60d75e4090a88501ec219237b2efc22213759ef3bbaba9bdbfcb
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 73
+        - 165
+      - sha256: 6ab9bc97611fb827538c27ed376ebac785e13f3b02352b70cf8e1734f4a1586c
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删掉被动后误写本文首次提出FL，换了主体和时间
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: b3c2227c2890ede9d46db615ac0f6f6ba21e78592032b7274746f761811a8746
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P1.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: FL的主要思路是以分布于终端的数据构建深度模型
+- discourse_foreground: 读者理解协作机制及隐私目标
+- incremental_information: 数据所在位置和保护方式
+- clause_sentence_form: 系词主句＋不定式表语；关系从句限定数据集；终端括注命名客户端
+- length_proxy: 28
+- length_and_context_function: 28词把概念解开；长于短聚焦句，但没有P1.S3的应用/原因双重负载
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 对终端的括注
+  - replacement_zh: 也就是客户端
+  - unchanged_context: 主干的隐私保护建模思路、分布数据与终端位置保留；只释义括注称谓
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 131
+        - 146
+      - absolute_char_range:
+        - 297
+        - 312
+      - source_span_sha256: 05d4cbfed8227a1b251b14c8b63e8e56f66c2caa9fa32d233592722b5803ac89
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 131
+      - sha256: 31f7a39cf7d4adac09104fd530d3aea78ae365fba75d922aba51f9acec70c441
+    - 
+      - sentence_relative_char_range:
+        - 146
+        - 175
+      - sha256: 41c2819d98b73256c5f27dc0f65e03ea0029ac70868385b45690550644fda515
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把本地分布数据改成上传全部原始数据，反转后文前提
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 70a7e1e8079473aba4200c594493e4317deb5f60e45be0ad054d4723bb22277b
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P1.S3
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: FL已在移动应用与敏感领域得到广泛应用
+- discourse_foreground: 应用价值依赖不能集中数据的现实条件
+- incremental_information: 具体使用域及知识产权/监管/物理约束
+- clause_sentence_form: 主句应用谓词；举例与including扩展；where解释应用条件；due to列原因
+- length_proxy: 67
+- length_and_context_function: 67词承担例子→条件→原因的长句；末部原因给P2隐私机制的需要，不是行业名堆砌
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: where部分的核心条件
+  - replacement_zh: 在这些场景中，分散的数据不能直接集中到服务器训练模型
+  - unchanged_context: 主句的广泛应用、应用例子和后续限制原因保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 248
+        - 353
+      - absolute_char_range:
+        - 590
+        - 695
+      - source_span_sha256: fb0c930742ecdfe76c85ea4a46334226f4d5f4feae60c450264f6714ea164e12
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 248
+      - sha256: 0d49f8b5dfacf73bcbbc388a05ecaf2d476107d5f7c6d45e9bab3092bec9acf7
+    - 
+      - sentence_relative_char_range:
+        - 353
+        - 475
+      - sha256: 2d87f7be178bf8a142a360144a451a96098a9d5d407913d5e14430d94d792e88
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 将不能直接集中改成所有场景都禁止数据流动，扩大限制
+- body_or_context_evidence: P1.S3→P2；§IX隐私/鲁棒性讨论
+- source_sentence_sha256: e098852e3519e4e08c0765c99c2a1643048b2a62e641aebf6d323885d8b48c8d
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+- retained_prior_analysis: 主句应用广泛，where从句解释不能集中数据，due to列实际约束；应用名与任务必要条件同句，非无关行业名。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P2.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 每个客户端独占其本地数据集的访问权
+- discourse_foreground: 将隐私价值具体为可观察范围
+- incremental_information: 他方和服务器看不到本地数据
+- clause_sentence_form: As短语标角色；which补充说明数据集不可见；不是客户端不可见
+- length_proxy: 29
+- length_and_context_function: 29词从应用转到权限边界，使下一句再加更新保密不显得重复
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: which补充从句完整跨度
+  - replacement_zh: 该数据集按设计对FL系统中的其他参与方或服务器不可见
+  - unchanged_context: 每个客户端独占本地数据访问的主句和数据所有者角色保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 76
+        - 163
+      - absolute_char_range:
+        - 894
+        - 981
+      - source_span_sha256: 7345119a7d7072afd585b847fa602b9bc47625173e4074334d67d40cc8b5ca06
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 76
+      - sha256: f0353033ca8ee55195bba57d54f052e4a4615b9d1cfc373c2624ba14a2bca66a
+    - 
+      - sentence_relative_char_range:
+        - 163
+        - 164
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 误令which指客户端身份不可见，会改变威胁条件
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 7fb1400e03ac904bc6edb41584560e9769f32baa482e5f0bb9803a3e5bfaff57
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P2.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 现实FL实现进一步使用MPC技术
+- discourse_foreground: 在原始数据之外增加中间计算结果保护
+- incremental_information: 隐私保护有第二层对象，包含本地更新
+- clause_sentence_form: 前置追加框架；主句采用技术；目的不定式保护中间结果；such as例子内部which限定更新用途
+- length_proxy: 55
+- length_and_context_function: 55词用于对象层级展开；补充本地更新是为S3的载荷不可见提供前提，不能只压成更隐私
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 前置追加框架
+  - replacement_zh: 除上述固有隐私保护外
+  - unchanged_context: 现实实现采用MPC、保护中间结果、本地更新例子与用途保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 60
+      - absolute_char_range:
+        - 983
+        - 1043
+      - source_span_sha256: eea0ba2d591f2fbd47d78e0e4b2586ca2db3fa400d81c135075cdc4748684c73
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 60
+        - 384
+      - sha256: 2c746d5759ab516cca681072f32d580fbd8d3eb63801a070b43ea4cc8252be15
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成MPC保证上传更新无害，把保密性变成完整性
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 3bce4e5227e803c22bf5be256f1968399f888e1c706ce117dc14a19506fe321d
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P2.S3
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 此前隐私保护使FL更易受既有恶意攻击，按作者判断
+- discourse_foreground: 同一机制的收益转为攻击载荷隐蔽条件
+- incremental_information: 恶意客户端存在时可提交任意载荷
+- clause_sentence_form: Despite介词让步；it makes矩阵；as解释原因；if any插入保存在条件
+- length_proxy: 43
+- length_and_context_function: 43词把让步、风险和原因合并；主命题为风险，原因才给机制，不能仅留下转折标记
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 插入条件
+  - replacement_zh: 如果存在这样的恶意客户端
+  - unchanged_context: 隐私让步、风险矩阵及恶意客户端提交载荷的原因链保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 171
+        - 177
+      - absolute_char_range:
+        - 1539
+        - 1545
+      - source_span_sha256: 98e8fc10424033498696166854e7faa96a2d734dfac33022b4a3b78376333d59
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 171
+      - sha256: ddcaeaa836469111d1633e16f992071751c099a7eedd5d8b4863ea20d1e59c50
+    - 
+      - sentence_relative_char_range:
+        - 177
+        - 266
+      - sha256: 324f1b6e9149a9943cf3d84d9551351e26fd32cc0d40e0635a1428b9d80bab79
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删条件并写所有客户端都在攻击，会改参与方与必然性
+- body_or_context_evidence: P2.S1–S3；§III-A威胁模型；§IX
+- source_sentence_sha256: 13d1df7e66ec991cd37432d16493777237d5b67d4c1a730c65a7ae7f2655ebe8
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+- retained_prior_analysis: Despite承认增强隐私，主句系统更脆弱，as从句解释恶意客户端任意更新；if any插入保条件，隐私价值与风险不是两个无关陈述。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P2.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 集中式既有防御不足
+- discourse_foreground: 威胁出现后说明已有答案为何不直接适用
+- incremental_information: 通常不兼容FL密码原语
+- clause_sentence_form: Moreover添加另一不足；as原因从句；usually范围限定兼容性
+- length_proxy: 22
+- length_and_context_function: 22词紧接风险补防御边界；其任务不是列全部防御史
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 原因中的频率限定
+  - replacement_zh: 因为这些防御通常与FL的密码原语不兼容
+  - unchanged_context: 集中式已有防御不足的矩阵、添加关系与引用保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 71
+        - 151
+      - absolute_char_range:
+        - 1706
+        - 1786
+      - source_span_sha256: 1420772aad92f4fcdf96da9e1cecc72a7599a4347f80a5236be22679a37d8c29
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 71
+      - sha256: 8a5a131c700d5e72957cec60dedb1bc3ffb3e064a9604497a69bac20315d1188
+    - 
+      - sentence_relative_char_range:
+        - 151
+        - 157
+      - sha256: 70776974914c0439bc27e6d6bf72d11aff9f267475c96d5bc41d5abac794173a
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写所有防御绝无兼容可能，删掉通常并扩大外推
+- body_or_context_evidence: P2.S4→P8；§VIII/IX有条件结果
+- source_sentence_sha256: 799bd6e6605e66ba09d09fed4b67dc5587c3ff3d5b5ec11529907c9f62372ae5
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P2.S5
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者聚焦FL后门攻击
+- discourse_foreground: 收窄前面泛化恶意攻击的范围
+- incremental_information: 本文研究对象
+- clause_sentence_form: 常规主动研究聚焦句＋场景短语
+- length_proxy: 13
+- length_and_context_function: 13词收束P2长保护/风险链；短是因为无需此处重做定义，定义由P3接手
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 研究焦点宾语完整跨度
+  - replacement_zh: FL系统中所谓的后门攻击
+  - unchanged_context: 作者在本篇聚焦的主动矩阵保留；仅重述研究焦点宾语
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 27
+        - 70
+      - absolute_char_range:
+        - 1820
+        - 1863
+      - source_span_sha256: 15d7c14a7789f65eefe2907affc1fa45af0174bcffe38ff1b2dbdd3533f95cd3
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 27
+      - sha256: 44d487b03d77e35fbc189f67d5c523689ca964c7710d4e08ab018978bccb9335
+    - 
+      - sentence_relative_char_range:
+        - 70
+        - 71
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改为任意FL安全问题已被解决，扩域且换立场
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 9cb68908f75bd71481eab355b655a96071bee73ae739067fb96f7163b7bc7755
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P3.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 实施后门攻击意味着改变模型功能
+- discourse_foreground: 攻击研究须同时满足目标误判与正常功能保持
+- incremental_information: 双目标，隐蔽性不是可选副指标
+- clause_sentence_form: 不定式主语＋means矩阵；by两种途径；冒号后两个平行名词性目标；末尾目的解释隐蔽
+- length_proxy: 62
+- length_and_context_function: 62词先定义再枚举两个不可互替的成功条件；长句为后文多次回收提供共同契约
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 第二目标的目的短语
+  - replacement_zh: 以保持攻击的隐蔽性
+  - unchanged_context: 定义矩阵、两类修改途径、两个目标及正常功能保持本身均保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 377
+        - 415
+      - absolute_char_range:
+        - 2242
+        - 2280
+      - source_span_sha256: 3efd3bd4853666dab1ad23174692cb1baabd0c797892c067ddd868fadb57e501
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 377
+      - sha256: 5b9b80bf80e3727b7c482bc47421ac380316d9d22aa6e92d2b3b7c607dff312d
+    - 
+      - sentence_relative_char_range:
+        - 415
+        - 416
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删第二目标并把高攻击率当完整成功，改变任务
+- body_or_context_evidence: §III-A效果/隐蔽双目标；§V ASR和ΔAccuracy
+- source_sentence_sha256: b8bbc3800184e8c7715557ed0029cfc1e441e8f0664a3c0f41333dc2e5c5874c
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P3.S2
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 集中学习的这些攻击很难直接用于FL
+- discourse_foreground: 集中式已有能力与FL聚合条件之间的不适配
+- incremental_information: 本地后门在攻击当轮可能被良性更新覆盖
+- clause_sentence_form: Although让步；could hardly矩阵；because原因；after时间从属；i.e.再释并保留might
+- length_proxy: 64
+- length_and_context_function: 64词逐步降抽象：不能直接迁用→聚合→当轮覆盖；i.e.是重述不是第二个实验证据
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 末部时间限制
+  - replacement_zh: 就在实施攻击的这一轮立即
+  - unchanged_context: 集中研究让步、迁移困难、聚合因果及再释中的might保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 396
+        - 427
+      - absolute_char_range:
+        - 2678
+        - 2709
+      - source_span_sha256: 24b55dd16d9cb132e32904384b2b9f6ad05b6729101c1113fc5fc1d16c0adf38
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 396
+      - sha256: 34430fa436a34269bab91a8e509675d59a7d5fa7fd439215ef2c352bd031e72a
+    - 
+      - sentence_relative_char_range:
+        - 427
+        - 428
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 换为永远无法在任何FL中生效，会违背P4近邻能力和可能性
+- body_or_context_evidence: §II覆盖解释；P4；§VI-D区分后续遗忘
+- source_sentence_sha256: 53d2bf5902f2b86c74c6964041d6267e988280151b75879fd6ad7c6fc175b4b2
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+- retained_prior_analysis: Although承认集中研究，主句难迁FL，because聚合后覆盖，i.e.再把生存问题说成当轮被覆写；长句逐级降抽象。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P3.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 关键挑战之一是一个如何实现联合目标的问题
+- discourse_foreground: 把上一句迁移失败与第一句正常功能要求合到一处
+- incremental_information: 局部进入全局且不损正常功能
+- clause_sentence_form: 系词矩阵；how不定式内容承担问题；without为伴随约束
+- length_proxy: 33
+- length_and_context_function: 33词收束两条前提；没有新增组件，清楚说明本文必须同时回答什么
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 挑战的数量限定
+  - replacement_zh: 其中一项关键挑战
+  - unchanged_context: FL场景、how问题、全局整合及不损正常功能条件保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 16
+        - 41
+      - absolute_char_range:
+        - 2727
+        - 2752
+      - source_span_sha256: fb9477983bbf99d29d413395a0be3ad45cf7d142d63660c5d5b6a50caf817422
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 16
+      - sha256: fce9740c77c3854a370c98464f4542e597af38a50607aa834c1ceee8f65e05bb
+    - 
+      - sentence_relative_char_range:
+        - 41
+        - 203
+      - sha256: 1e343864ef8621afbf5a38bc5fa7474620a7341327094bccbc409e691fb27b80
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成唯一挑战或称已证明所有正常功能无损，改范围与状态
+- body_or_context_evidence: P3.S1–S2→P5；C1.S1
+- source_sentence_sha256: d210a0880eab08f3770d14c89e66b3253b822df2cb48441c7ed1f00281fefc19
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 1
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1
+
+## P4.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 近期少数研究开始设计FL的原型后门
+- discourse_foreground: 承认领域内更近已有答案
+- incremental_information: 研究从集中式进到FL本身
+- clause_sentence_form: 时间框架＋主动工作概述；a few/prototypical限定数量成熟度
+- length_proxy: 18
+- length_and_context_function: 18词短转场，防止读者误认P3的迁移困难等于无人做过
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 方法成熟度限定
+  - replacement_zh: 原型性的FL后门攻击
+  - unchanged_context: 近期少数研究开始设计的数量、时间、动作及引文保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 55
+        - 98
+      - absolute_char_range:
+        - 2970
+        - 3013
+      - source_span_sha256: 356bc16b877c5a0e8495c17e694fae029aca4fa9f5388807296cc7ca824a4d1d
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 55
+      - sha256: cc49da745b6d091246eb0c2a9dc5f61d510b706a97565753f49c09ba3441f4ba
+    - 
+      - sentence_relative_char_range:
+        - 98
+        - 110
+      - sha256: bd2637d11436e02d579df8f81a2962371c2da9fb09cfa1a55eb715f16e5447eb
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删原型并说近邻已达所有真实部署要求，提前抹除实用性缺口
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 690fbc025be10fca8715e6f1dfdc86578e00453e460d81175ec4e2ee268daea5
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 这些方法主要对恶意模型更新作放大
+- discourse_foreground: 已有设计如何解决当轮覆盖
+- incremental_information: 已有路线的作用职责
+- clause_sentence_form: 前置目的不定式；主句概述机制；before仅定提交时序
+- length_proxy: 30
+- length_and_context_function: 30词交代近邻能力后才批评，避免稻草人；本档案只保职责，不补实现配方
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 前置目的
+  - replacement_zh: 为防止本地后门模型在攻击当轮被覆盖
+  - unchanged_context: 近邻主要操作和提交前时间关系保留；只释义目标，不增操作细节
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 89
+      - absolute_char_range:
+        - 3026
+        - 3115
+      - source_span_sha256: 8734d5e1f541d253703941adbd8b2488b4f151a3dfe69d4ab0f202275fe35ad8
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 89
+        - 184
+      - sha256: 888dca1c2105d5dbaa99dae2c60faf5ff28e4612f557d67b976af4316a8435cc
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成该操作主要为保护主任务准确率，会换机制目标
+- body_or_context_evidence: §II近邻；§V比较基线描述
+- source_sentence_sha256: eadc404c5d2f382d33fda611cc8f70a525a56bca4be62eccb48c3884891af7bc
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者实验发现一个结果；内容从句说这些攻击可能严重伤害原任务
+- discourse_foreground: 近邻解决生存却缺隐蔽性
+- incremental_information: 全模型操作与原任务损害的联系
+- clause_sentence_form: as原因前置；严格矩阵为our experiments find；that内含may及hence后果
+- length_proxy: 30
+- length_and_context_function: 30词让经验归属与解释原因同时出现；不能把内容主干叫语法主句
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 内容从句的模态
+  - replacement_zh: 可能严重影响模型在原任务上的表现
+  - unchanged_context: 转折、全模型原因、实验发现矩阵及缺乏隐蔽性的后果保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 106
+        - 169
+      - absolute_char_range:
+        - 3317
+        - 3380
+      - source_span_sha256: a6c38597206d3d8b25ac6f64d20f2441db40a5cb50d5de7bf8f6aa0c309f1c04
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 106
+      - sha256: f495744a5fcc3a29ba7b57618b0ee78ed2f03fc3d63f77a6a2b3d231d10eec93
+    - 
+      - sentence_relative_char_range:
+        - 169
+        - 198
+      - sha256: 1528c1c87a8c8b42ecf85ec66fcf42890f3b43c890914806b1ee6024054f071a
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把实验发现写成普遍定理并删may，放大断言
+- body_or_context_evidence: §V/VI-A/TableI；P4.S5–S6给解释
+- source_sentence_sha256: 79e4df61c384bb8698cf89624b50d9fd7839609716e13952b0aa9e4adea0db74
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者发现以往攻击会导致主任务准确率骤降
+- discourse_foreground: non-IID场景使上一项失败可感知
+- incremental_information: 数据分布条件及经验例子
+- clause_sentence_form: for example示例；especially when条件；矩阵仍是we find；would在内容内
+- length_proxy: 24
+- length_and_context_function: 24词不是另一个独立gap，而是S3的条件化实例
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 条件引入部分
+  - replacement_zh: 尤其在数据分布非独立同分布时
+  - unchanged_context: 例示关系、作者发现和主任务准确率骤降的结果保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 13
+        - 59
+      - absolute_char_range:
+        - 3423
+        - 3469
+      - source_span_sha256: 23e6adad6404e71a6d8a41239996fc9995bbbd2300713c577997b8907a5841e8
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 13
+      - sha256: 8f564ab794d9ca9442dfd4839465c4de95bc10709e7671d76fd73f955cf34275
+    - 
+      - sentence_relative_char_range:
+        - 59
+        - 144
+      - sha256: 9f55fb6fe1d9b51e72134b69a0570fa3325adee16cb4b7070622b10ea5243a07
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写成只在non-IID才有任何损害，会把尤其改成仅限
+- body_or_context_evidence: TableI不同任务分布及主任务损失
+- source_sentence_sha256: dec1163051360474ea16ba1b59c5489bfd435f921a4dff070dea8577d611db8e
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S5
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 此限制主要归因于更新放大使聚合模型更像本地后门模型
+- discourse_foreground: 补上从设计到主任务损害的中介
+- incremental_information: 全局向局部偏移
+- clause_sentence_form: 主句是限制的原因归属；内部动名词主语＋would make宾补关系
+- length_proxy: 24
+- length_and_context_function: 24词只解释第一段因果，下一句再交局部数据覆盖不足；两句分开避免无解释结论
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 归因程度
+  - replacement_zh: 这一局限主要源于
+  - unchanged_context: 放大使聚合结果更像局部模型的因果内容及would保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 37
+      - absolute_char_range:
+        - 3555
+        - 3592
+      - source_span_sha256: ef99b06e79c7006b093e0e70a27a90f1783796183bc91868d4fe8d3ca7b4b201
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 37
+        - 148
+      - sha256: 066fc6e7798f97c9b9156f5db8bd78e16e45550054e6e138da2d4afe114d8965
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删主要并宣称唯一原因，排除原文未排除的因素
+- body_or_context_evidence: §II解释全局/局部数据关系
+- source_sentence_sha256: af9b020d1d6bd6475eade5d61ba8489bf9649ab7b817e752c1aae9a50147c32f
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+- retained_prior_analysis: 主句limitation due to scaling，后部make aggregated more similar给中介机制；下一句才解释为何局部相似会损其他客户。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P4.S6
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 本地后门模型通常在其他参与者数据上表现差
+- discourse_foreground: 让读者知道偏向局部为何伤整体
+- incremental_information: 训练数据仅来自攻击者本地
+- clause_sentence_form: However连接限制；as原因前置；矩阵有usually；only直接限制训练数据来源
+- length_proxy: 24
+- length_and_context_function: 24词先给读者局部数据前提再下结论，连S5完成解释链
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 频率限定
+  - replacement_zh: 通常在其他参与者的数据上表现不佳
+  - unchanged_context: 转折、只在攻击者本地数据训练的as原因及模型指代保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 92
+        - 150
+      - absolute_char_range:
+        - 3796
+        - 3854
+      - source_span_sha256: 6e38d3b3734ee686b57d750cb7ee6b4f344fe28d82ddd13a6397878b97edfd36
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 92
+      - sha256: bc8203eb8cef0b6251d4d932a3e4305b170a4df73b2083ea28ccddfe716a6633
+    - 
+      - sentence_relative_char_range:
+        - 150
+        - 151
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把通常改成必然或把仅本地训练改成知道其他人数据，改因果条件
+- body_or_context_evidence: §III-A知识边界；§VI-A极端非IID实例
+- source_sentence_sha256: af9f38728b43b987c903b3435f8d3c6cdfd86ff7a0f5db8dc09171054dfbcf43
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+- retained_prior_analysis: as局部数据条件前置，主句poor other data为结论；把原因放前是让读者先拥有non-iid失配前提。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P4.S7
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者据此判断旧方法难以构成实用威胁
+- discourse_foreground: 把性能损失翻译成实用性评价
+- incremental_information: 缺隐蔽性为何影响研究价值
+- clause_sentence_form: 前置视角回指；could hardly为强而非绝对否定；due to给理由
+- length_proxy: 22
+- length_and_context_function: 22词从数值/原因回到论文定位；须归属作者，不能以如今标准静默改写
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 评价视角
+  - replacement_zh: 从这一角度看
+  - unchanged_context: 以往FL后门、难以构成实用威胁和缺隐蔽性原因保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 20
+      - absolute_char_range:
+        - 3856
+        - 3876
+      - source_span_sha256: 7daafe3ab7914b99f07431caa8458715799763590693a0eca7bbfe71b2d1c832
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 20
+        - 135
+      - sha256: 1213fab3665a36e934bf3cf5bffbbe94b67faa5db6dcacc5b4ed0e266f03be4e
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写先前攻击完全没有危害，去掉视角和难以限定
+- body_or_context_evidence: P4.S3–S6；§IX限制不补原句
+- source_sentence_sha256: 48e67b842ff739a6ae6cffb6f4211ab1244f3dadf531df8d50dc6bf87bb2823b
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S8
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 据作者所知，大多数既有后门未在真实平台实际评估
+- discourse_foreground: 新增现实验证缺口，与隐蔽性失效不同
+- incremental_information: 平台证据不足
+- clause_sentence_form: 知识范围限定；most if not all插入修饰数量；被动突出被评估对象
+- length_proxy: 23
+- length_and_context_function: 23词紧接性能问题再加证据维度；不是把未评估等同于一定不能工作
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 知识限定
+  - replacement_zh: 据作者所掌握的情况
+  - unchanged_context: moreover添加、大多数/或全部数量及未真实平台评价的被动主干保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 10
+        - 38
+      - absolute_char_range:
+        - 4002
+        - 4030
+      - source_span_sha256: 8937c3ea01578e8d1683f0c7658c71b3f72138d2638e42d91bbb7d14856f2716
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 10
+      - sha256: 8b98651087c5ef057fb347d63008bf31b9ef739a510b962d0b79c3df40d34d26
+    - 
+      - sentence_relative_char_range:
+        - 38
+        - 142
+      - sha256: d7aca1db3ffa0f931cfcf9984b6c4307750930a0282dc3eb2f6aad6cde377c2f
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写所有既有工作从未真实验证并省知识限定，强化不受支持的普遍史
+- body_or_context_evidence: §II审稿期间近邻；§VII本文平台实验
+- source_sentence_sha256: 48eb60f60ddabb1a864ce17dd665a578b1fb62d98db0b85dc2fad7567998f938
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P4.S9
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 研究高度实用的FL后门是重要的
+- discourse_foreground: 为下一段工作宣布准备需求
+- incremental_information: 明确实用性研究价值
+- clause_sentence_form: 形式主语it＋评价形容词＋不定式真正内容
+- length_proxy: 12
+- length_and_context_function: 12词短句承担判断落点，不附新机制；长度来自前8句已铺垫而非短句天然有力
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 评价形容词本身
+  - replacement_zh: 重要
+  - unchanged_context: 形式主语、研究动作、高度实用的FL后门对象保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 6
+        - 15
+      - absolute_char_range:
+        - 4141
+        - 4150
+      - source_span_sha256: 34a989eb3e220e6b0b19fcb3c08c06f3a5eb237313b66b5766fa6e629783a7d5
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 6
+      - sha256: adf94592398cfe046af86c8bc3f5d06b7b6172756bed98204aa82fb0181a7e50
+    - 
+      - sentence_relative_char_range:
+        - 15
+        - 80
+      - sha256: 0d86dc73ec5d91fcede2a4ca695f603e9c8d4996776befc7da7da5746a5eb06b
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把重要改成已解决所有实用威胁，换问题与成果
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 9a382145354b715169fa3de05d5abf70483e77db54076b202579af4081252c1c
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者提出其声称首个兼高有效与隐蔽的实用FL后门
+- discourse_foreground: 总答案同时回收P3双目标和P4实用性
+- incremental_information: 带首次性和联合能力的工作主张
+- clause_sentence_form: 主动提出；that关系从句承载联合能力
+- length_proxy: 21
+- length_and_context_function: 21词篇幅短因双目标已经定义；主张强度应保留归属，不偷降成目标，也不独立背书首次
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 关系从句的联合连接
+  - replacement_zh: 同时具有高攻击有效性与隐蔽性
+  - unchanged_context: 作者提出、首个实用FL后门主张及关系从句框架保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 86
+        - 142
+      - absolute_char_range:
+        - 4312
+        - 4368
+      - source_span_sha256: 550faa12d2d7e384fbb7858e47d2158c647b22f5f38f8fa639a47bb0ee79402d
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 86
+      - sha256: 45c108c8da760b57ef7b1bcad8805ea4f92736c374a8a35986f12fd40ccff8e1
+    - 
+      - sentence_relative_char_range:
+        - 142
+        - 143
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成首次发现所有FL后门，删实用与双目标限定
+- body_or_context_evidence: §II承認同期近邻；§IX限定；不独立验证首次
+- source_sentence_sha256: 9d560439ffdf5e6335f34153e2faf1031b39561424c78eaa93a84c0dbae4075f
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 方法主要利用DNN神经元冗余
+- discourse_foreground: 研究选择的观察依据
+- incremental_information: 大量神经元训练中少更新或轻微更新
+- clause_sentence_form: as给作者观察；内部we find that为证据归属；tend to保趋势
+- length_proxy: 34
+- length_and_context_function: 34词把设计依赖和经验观察相连；冗余含义在变化行为，不直接等同小权重
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 观察中的倾向限定
+  - replacement_zh: 倾向于很少更新或仅有轻微更新
+  - unchanged_context: 利用冗余的主干、作者发现及大模型/训练阶段限定保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 122
+        - 159
+      - absolute_char_range:
+        - 4492
+        - 4529
+      - source_span_sha256: 965c3be0b40b0dc4adc9a27ddb7feb586a6ac8a82822b76f9de8c920af7b1c9a
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 122
+      - sha256: 74f80f48b4c38842eba20b31693d96b940619c189b5b26a8a4a7941b34897c81
+    - 
+      - sentence_relative_char_range:
+        - 159
+        - 182
+      - sha256: f64088b11cc192b721b7a401cb7407348cf4a30a5cd78ee8fe1a1126ede3b1a9
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成绝不更新、完全无用或权重必低，越出源文
+- body_or_context_evidence: §III-B概念；§VIII-C明确冗余非低权重
+- source_sentence_sha256: 823e17b8dd3fb7241d77c326fb1eca8d2140ebddb4494626afc6a2d3bd8ff173
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者先提出识别少量冗余神经元的算法
+- discourse_foreground: 把观察转换为选择对象的能力
+- incremental_information: 选取对象少且与原任务较弱相关
+- clause_sentence_form: 目的不定式；that限制被识别对象；first是方法叙述次序
+- length_proxy: 21
+- length_and_context_function: 21词进入总体路线，只给选取职责，不展开实现公式
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 关系限定
+  - replacement_zh: 与原任务关联较弱的
+  - unchanged_context: 作者提出算法、先后次序、识别少量冗余神经元的目的保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 78
+        - 122
+      - absolute_char_range:
+        - 4631
+        - 4675
+      - source_span_sha256: 189b8f77320c2e60c546f8ffca73cd3649d2eb6370fd8a6a9b51d06ed2e7fc96
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 78
+      - sha256: b8e42831e24304692bfe7b2a4daf1071dc7fbe00a23c6188d575af3eaa92daa4
+    - 
+      - sentence_relative_char_range:
+        - 122
+        - 123
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成与原任务完全无关，强化无损保证
+- body_or_context_evidence: §III-B概念读解；本包不复述选择算法
+- source_sentence_sha256: 281e28ed444ebcccc9604580943e4c256e7ae324e3162e824fe76fb4b909575b
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 后续干预只作用于选中的冗余部分
+- discourse_foreground: 把操作范围与全模型近邻作对照
+- incremental_information: 局部选择后的作用域限制
+- clause_sentence_form: 时间框架；only限制谓词作用范围；instead of对照对象
+- length_proxy: 19
+- length_and_context_function: 19词短步骤因对象上一句已给；不把选择和干预混为新发明数量
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 范围对照
+  - replacement_zh: 而非整个模型
+  - unchanged_context: 后续时序、本文干预、仅限已选部分的范围保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 94
+        - 120
+      - absolute_char_range:
+        - 4771
+        - 4797
+      - source_span_sha256: eeb0016e4bc15cd6bc32535f788da4f6151c71661fe5e2812f4aa4265c98ee82
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 94
+      - sha256: 5fd83f2f30e608d3299f611badc54005b3db0906dac405f4fd4aafe6f361a197
+    - 
+      - sentence_relative_char_range:
+        - 120
+        - 121
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写只改数据不改模型，把研究对象换成另一机制
+- body_or_context_evidence: P4.S3→P5.S3–S4；§V全模型对照
+- source_sentence_sha256: 0818007640bba501a919b96333164d99c321a8d060b174e31ae4b74759c33313
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S5
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者声称其后门对原任务性能几乎无损
+- discourse_foreground: 从所选对象回收到隐蔽性目标
+- incremental_information: 预期的正常效用后果
+- clause_sentence_form: thus推论；would情态；barely保极小程度
+- length_proxy: 14
+- length_and_context_function: 14词短结果句，因果依据在前两句；不是此处已经给实测数字
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 完整预测性损害谓词
+  - replacement_zh: 几乎不会损害模型在原任务上的表现
+  - unchanged_context: Thus与本文后门这一主语保留；替换的是完整预测性损害谓词跨度
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 28
+        - 92
+      - absolute_char_range:
+        - 4827
+        - 4891
+      - source_span_sha256: 7a25fff39b4a72e4733fa50dd518b90fd188e2e21455b1ede99e81e1638c0643
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 28
+      - sha256: e45b8837b80bc79fe8c367d77ad3aad15e88b6a91cb21f68d9064f2f05f84708
+    - 
+      - sentence_relative_char_range:
+        - 92
+        - 93
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成严格零损害、任何数据皆成立，删除模态并强化程度
+- body_or_context_evidence: TableI同时有小损失和较大non-IID损失；保留作者主张另限证据
+- source_sentence_sha256: 36f3831efc452704ace1443964e2045c0c134c6b8b7ac94f6aabcb0a25609888
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P5.S6
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 该性质还使本地后门能进入全局而不在当轮聚合被覆盖
+- discourse_foreground: 同一选择回收第二个目标
+- incremental_information: 少更新性质与当轮生存联系
+- clause_sentence_form: as原因前置；it允许矩阵，it概括前述性质；without排除当轮覆盖；in attack round限定时间
+- length_proxy: 32
+- length_and_context_function: 32词与短S5不等长：第二效应须交聚合过程与时间范围；当轮成功不包含未来训练
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 末端时间范围
+  - replacement_zh: 在攻击发生的这一轮中
+  - unchanged_context: 少更新原因、允许整合全局及不被聚合覆盖的结构保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 198
+        - 217
+      - absolute_char_range:
+        - 5091
+        - 5110
+      - source_span_sha256: 5ea06a7bb1ac3d3c5353f17fa6f75d6646b2ed8e3b6bab73631460a39e3da42a
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 198
+      - sha256: 7354ea777c39d93aa0b1f326f51532861c61a36380457c7ded6fec13484a0464
+    - 
+      - sentence_relative_char_range:
+        - 217
+        - 218
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删当轮并写永不被后续训练遗忘，吞掉P6独立问题
+- body_or_context_evidence: §III-B后续遗忘；§VI-D
+- source_sentence_sha256: 650b497e37147d26d9377c49d957ead3d234c170e3ff1a8188d2adaeec4f36a7
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+- retained_prior_analysis: as少更新前置为第二性质，主句allows全局生存，without给聚合不覆盖结果；与前句正常效用并列却不是重复。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P6.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者还探索两种新技术协同作用
+- discourse_foreground: 把当轮生存之后的长期保持设为新要求
+- incremental_information: 更持久而非仅立刻生效
+- clause_sentence_form: 前置目的＋主句explore＋同位命名＋后置减遗忘目的
+- length_proxy: 38
+- length_and_context_function: 38词以时间维度开启独立段，避免把P5成功无限延长；此处保持概念职责
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 长期目的跨度
+  - replacement_zh: 为进一步增强攻击效果的长期持续性
+  - unchanged_context: 探索两种具名技术、协同关系和降低遗忘可能性的目的保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 76
+      - absolute_char_range:
+        - 5112
+        - 5188
+      - source_span_sha256: 91884172d802226f395363045f692e64f5fc190d64e7b42129e95573c60a5965
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 76
+        - 240
+      - sha256: b6c777ef6618930f6e027fcf76616451c9cd8d655e899d47b6a6effc8b9391ec
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写首次成功等同长期有效，改时间范围
+- body_or_context_evidence: §VI-D单次与持续设置；TableII后续测量
+- source_sentence_sha256: 702553aefb45cf452c3ce7e466aec02a4038e7258882f1d6b9df2ec8021f1560
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P6.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 第一种持久性技术被提出
+- discourse_foreground: 构建期技术的目的及作者声称的下游作用
+- incremental_information: 期望降低对其他客户端数据的敏感性
+- clause_sentence_form: 被动主句＋目的不定式；when标构建阶段；which补充后果
+- length_proxy: 40
+- length_and_context_function: 40词包含机制目的和时间/后果，长是解释负担；分析只保概念关系，不扩实现
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 时间从句
+  - replacement_zh: 在构建后门时
+  - unchanged_context: 第一方法被提出的主干、其目的及作者声称的后果保留；不补实现细节
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 156
+        - 186
+      - absolute_char_range:
+        - 5509
+        - 5539
+      - source_span_sha256: 080fd9147e032666465734676ef7597a3e0b6f9b96a8d10221f66df229f5ce3e
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 156
+      - sha256: 1312c481390f7e29c8450db5126ed6a55814804d238b9b0532408067caa8289e
+    - 
+      - sentence_relative_char_range:
+        - 186
+        - 275
+      - sha256: 0afdf830b34e4cd8b0d4d099d71ca88b3842ac10965508050f66951db10845bc
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改为无需任何假设即可对所有未知数据严格不敏感，升级保证
+- body_or_context_evidence: §III-B概念；§IX优化困难；TableII
+- source_sentence_sha256: c1460f745509e0b65ca55be49a1490b52152cb1364cc020bf0dc51e11730d705
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P6.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 第二种技术被设计来加强特定关联路径
+- discourse_foreground: 另一持久性技术的作用职责
+- incremental_information: 侧重已有后门与触发关联的加强
+- clause_sentence_form: 被动设计句；目的、方式、关系限定嵌套；不将方式细节扩成实践指南
+- length_proxy: 31
+- length_and_context_function: 31词与S2并列但并非同一时间操作；S4会解开两者关系
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 方法职责的目的谓语跨度
+  - replacement_zh: 旨在强化特定激活路径
+  - unchanged_context: 具名方法主语、方式结构与触发关联的关系限定保留；不扩写实施步骤
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 30
+        - 82
+      - absolute_char_range:
+        - 5659
+        - 5711
+      - source_span_sha256: 2cbd0c2ff85b09b230cfc8e1e1e3221d0a78adaacfd4a95fca4c3d510097db34
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 30
+      - sha256: 781d65ac421065f1b9c869b6ae613be655003ca910f1d75b6924d0585a92aa23
+    - 
+      - sentence_relative_char_range:
+        - 82
+        - 209
+      - sha256: 7bbe1603057a2af5268374624361443215e8e95807f39bbab99d008dd9683914
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成它可消除任何检测与遗忘风险，凭空添普遍效果
+- body_or_context_evidence: §III-B概念；§IX经验因素限制；TableII
+- source_sentence_sha256: 28bd777b1071959fdc1cda7c9726965c8a034e73c21db511bde8b6a760995807
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P6.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 第一种方法用于在构建期间形成更持久的后门；第二方法的while从句见句式字段
+- discourse_foreground: 将前两句压缩为时序互补
+- incremental_information: 何时发挥各自作用
+- clause_sentence_form: In short回收；主句＋对照while从句；during与after分别定时间
+- length_proxy: 33
+- length_and_context_function: 33词不是第三个方法，而是消除读者对两名称的混淆；句法不对称，语篇职责对称
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 摘要开头
+  - replacement_zh: 简言之
+  - unchanged_context: 两种方法的既有职责、while关系、during与after时间框架保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 9
+      - absolute_char_range:
+        - 5839
+        - 5848
+      - source_span_sha256: a437211ce368e84038d837ce2bf02be1e62f1313535476f1476fa055049e08a3
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 9
+        - 213
+      - sha256: 8ffcfdfad84c2ebcc47fcd40550e815c762442b6687934e1b21e4452f76fb37e
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改为两者是互相排斥的备选，会改变协同主张
+- body_or_context_evidence: P6.S1–S3；TableII组合比较
+- source_sentence_sha256: 7fd48dc4db6235556dac4fb61ba3a1f57ad69f20685de8eee297881fd679cd97
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者在四种典型FL用例中做广泛实验
+- discourse_foreground: 建立跨任务评价范围
+- incremental_information: 疾病、识别、贷款、评论四类任务
+- clause_sentence_form: 前置评估框架；which列举用例
+- length_proxy: 27
+- length_and_context_function: 27词列举不是普适性证明；对应不同数据/模型而非四平台的全交叉
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 用例数量跨度
+  - replacement_zh: 四种典型的FL应用任务
+  - unchanged_context: 作者实验、评价框架、which中的四任务名单保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 53
+        - 81
+      - absolute_char_range:
+        - 6106
+        - 6134
+      - source_span_sha256: f63c6d6334ce486f44990830eec8a38a4b1841978b16955e07ea4b60b0d656a4
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 53
+      - sha256: 0107b9dcd0653d8c019ae8998453f164cb798161ac68a4faf8be327a3d484b79
+    - 
+      - sentence_relative_char_range:
+        - 81
+        - 194
+      - sha256: b6f8a543105de604be7038d9de9b96aae2504b4657e2df499608b5f8451b4e8e
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改为四任务分别在四平台全交叉验证，添加16格实验
+- body_or_context_evidence: §V任务设计；§VII平台只用LOAN演示
+- source_sentence_sha256: bee86195da9c28f63d3e3c9787659f8a8c7b23f1a81840fbc6f6dd7764df2a23
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者称实验结果有力验证后列优势
+- discourse_foreground: 给两个编号结果搭组织桥
+- incremental_information: 作者对结果强度的评价，细项在后
+- clause_sentence_form: 常规结果主语＋验证谓语＋前指宾语
+- length_proxy: 13
+- length_and_context_function: 13词短组织句可与后面并读，不应被当成独立第五实验结果
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 指向后文宾语
+  - replacement_zh: 下面这些方法优势
+  - unchanged_context: 实验结果作主语与有力验证的作者评价保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 41
+        - 97
+      - absolute_char_range:
+        - 6289
+        - 6345
+      - source_span_sha256: 65db8d6e3f6e28aad61e8f3bb33136c33db36d5825564c50098ef2a57b31baa6
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 41
+      - sha256: 0c4d6a7c3ae95149d29faa60013b84331122f82ebb27aa0c9d0884029f87e298
+    - 
+      - sentence_relative_char_range:
+        - 97
+        - 98
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 弱化为仅计划检验，会把已报实验改未完成
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: f5866d4fd566eae7ccba6a3df747cb32a27d0a2298412c5f676fdec887cf37cf
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 方法能够使目标输入被高成功率误判
+- discourse_foreground: 小选择比例下的攻击有效性
+- incremental_information: 少量神经元条件、示例比例和特定任务成功例
+- clause_sentence_form: Given前置条件；is able矩阵；结果不定式；括号仅给例值
+- length_proxy: 39
+- length_and_context_function: 39词把条件与成功绑定，不能将两个e.g.推成所有配置精确相等或所有任务承诺
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 括号成功率适用对象
+  - replacement_zh: 例如在疾病检测及人脸识别任务上超过90%
+  - unchanged_context: 小选择比例条件、另一示例比例、目标误判及高成功率矩阵保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 171
+        - 235
+      - absolute_char_range:
+        - 6521
+        - 6585
+      - source_span_sha256: 354a55ead7f4329290db642950ac9f0fb7068df86e894e433096dbdec83ae290
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 171
+      - sha256: dc6cb3ce4fd17c00d74dd254d68eed19a2ee9b133d1a50c662e3032a3e258d2d
+    - 
+      - sentence_relative_char_range:
+        - 235
+        - 236
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把示例比例当实际ARSN或把成功例套到贷款4.3同设置，拼接证据
+- body_or_context_evidence: TableI实际选择比例、AA/AT及任务配对
+- source_sentence_sha256: 36a66199f393192812d846e865f340d1bc778bc6841c18aa627880073fcf4bd9
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者称攻击对全局原任务表现影响小
+- discourse_foreground: 有效性以外另交隐蔽性轴
+- incremental_information: 作者将非IID情形也纳入小影响概括
+- clause_sentence_form: Meanwhile并行结果；including扩范围
+- length_proxy: 24
+- length_and_context_function: 24词单列第二目标，防止高ASR代替正常效用；须保作者主张而用正文单独限域
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 并行结果连接
+  - replacement_zh: 与此同时
+  - unchanged_context: 小原任务影响的主张、全局模型对象和非IID包含关系保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 10
+      - absolute_char_range:
+        - 6590
+        - 6600
+      - source_span_sha256: 01d0eef70abc55d087bd6273044b2ecd5e2a33944d7d6fe72de53284a7acaecf
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 10
+        - 157
+      - sha256: daf621de889a6ccbfacc9a162c3ad15ca9c9b2eda124b957a7f232436b328584
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成高ASR所以必然小损失，添加未成立因果
+- body_or_context_evidence: TableI极端人脸反例；§VI-A
+- source_sentence_sha256: a919934217a3a36505efd91b4fc65e87de8a2abb8cae59cdd7061468787f43d1
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S5
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 贷款示例中，先前方法使主任务准确率下降约21.3%；本方法的while从句不是矩阵
+- discourse_foreground: 同口径正常任务损害的对照
+- incremental_information: 此实例的数值优势
+- clause_sentence_form: For example限定任务；两方对照，后者在while从句中却是核心新信息；about保近似
+- length_proxy: 27
+- length_and_context_function: 27词短于机制长句，因为指标前句已给；缺表头会误读时间/配置
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 两个不连续的about＋数值＋百分号跨度
+  - replacement_zh: 约21.3%／约4.3%
+  - unchanged_context: 贷款示例、主任务准确率指标、两方主体、下降动作、while及only保留；两个数值跨度分别对应，不合并成新统计量
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 100
+        - 111
+      - absolute_char_range:
+        - 6848
+        - 6859
+      - source_span_sha256: e02f7000d4987c9a447d089433a80b0c884b0e27d79bdf153c14781407e3b03f
+    - 
+      - sentence_relative_char_range:
+        - 149
+        - 159
+      - absolute_char_range:
+        - 6897
+        - 6907
+      - source_span_sha256: 384ca20240d83c74d7d843b937d8ada6c2c069d35402546c7a159379f57f0542
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 100
+      - sha256: 7e954d256a32e5ddbf81b60604f625b74d4befaad98702161f6f43bbf9af9290
+    - 
+      - sentence_relative_char_range:
+        - 111
+        - 149
+      - sha256: 6997197d4739292879b573b8b56f2bbe02738a24dcfc2939326d8a1a9e70dd64
+    - 
+      - sentence_relative_char_range:
+        - 159
+        - 160
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+  - aligned_renderings_zh:
+    - 约21.3%
+    - 约4.3%
+- scope_changing_counterfactual: 把数值变成ASR、跨任务平均或后续持续性指标，改变结果
+- body_or_context_evidence: B1精确TableI格值；AA即时指标；非IID贷款51客户端
+- source_sentence_sha256: 0626e6a6ad458a0fd239639c308bfb506ac72bd6e0bb94f2644bd203f034e451
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+- retained_prior_analysis: 贷款情境先限定，while并列21.3与4.3同口径主任务下降；对照句直接兑现stealthiness。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+
+## P7.S6
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者还在四个真实FL平台评估
+- discourse_foreground: 由任务多样性转向实现环境验证
+- incremental_information: 四个具名框架
+- clause_sentence_form: Moreover扩评价轴；including列实例
+- length_proxy: 27
+- length_and_context_function: 27词另一列举承接P4未真实验证缺口；平台名不替代实验条件
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 添加连接及四平台评价矩阵跨度
+  - replacement_zh: 此外，我们还在四个真实FL平台上评价本文攻击
+  - unchanged_context: 后续including引出的四个平台名称及引用均保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 70
+      - absolute_char_range:
+        - 6909
+        - 6979
+      - source_span_sha256: b3432c407758cd786d487e4e1d2fd241577d2186ea43b8d828499a32a91def4d
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 70
+        - 190
+      - sha256: 8eb98655dc9a187ebcffefe2152a4c818753060dc2930e5ac229555fc32e700a
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成目前所有商业部署均已被验证可攻破，跨版本外推
+- body_or_context_evidence: §VII仅LOAN任务；平台测试研究环境
+- source_sentence_sha256: ae9a02969f926ef3a02a0510e3e138fed817074bd7c8905373c37a97165ee570
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P7.S7
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 实验结果显示四个被测平台均易受本文攻击
+- discourse_foreground: 回答上一句平台测试问题
+- incremental_information: 被测平台的经验性脆弱性结论
+- clause_sentence_form: 结果主语矩阵show；that内容承载脆弱性；these/all限定集合
+- length_proxy: 15
+- length_and_context_function: 15词短收束，无需重列名称；all仅前述四者，不是全部FL实现
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 指示限定
+  - replacement_zh: 上述受测平台
+  - unchanged_context: 实验结果显示的归属、all及对本文攻击易受影响的内容保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 35
+        - 60
+      - absolute_char_range:
+        - 7135
+        - 7160
+      - source_span_sha256: 743a6c926c4b50fd68dd2d3d7438127dba9d10ced31cd49c6dc17cab5680f744
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 35
+      - sha256: cb77ee7aed17aa8b5d01a218248f814a615293030699e56c472a61e154b6e167
+    - 
+      - sentence_relative_char_range:
+        - 60
+        - 104
+      - sha256: 025e1ba9f0909ef6769480a85750618d7ca42f2b2e2fab1412bb1d21a50b80db
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把all扩大为任何版本任何部署，丢限定
+- body_or_context_evidence: TableIII/§VII已报实验，无当前漏洞验证
+- source_sentence_sha256: e3216a7fb9b0ad28971de57c3213814c3be3ab4ac2439990e44487a65f94d31c
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者讨论潜在反制措施
+- discourse_foreground: 攻击发现以后转防御问题
+- incremental_information: 稳健聚合、DP和剪枝等反制类别
+- clause_sentence_form: Finally篇章收尾；including及嵌套括注列举
+- length_proxy: 39
+- length_and_context_function: 39词进入新的价值轴，列举让P8S2的前者/后两者有先行项；不必复述算法
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 研究动作
+  - replacement_zh: 讨论可能缓解FL后门攻击的反制措施
+  - unchanged_context: Finally与后续三类反制及嵌套名单/引用保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 9
+        - 89
+      - absolute_char_range:
+        - 7214
+        - 7294
+      - source_span_sha256: 9e9d4bae386ea6265e32d2346119b4084274498bfa13a943e8e8a702dc92ebf5
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 9
+      - sha256: 5610511070e5e65757367c543e3f818e539d1567e844c0da134ae11f8df7b647
+    - 
+      - sentence_relative_char_range:
+        - 89
+        - 314
+      - sha256: e15f255bf46a8beecb0bdb3b1957384ae4b44ada130f825589ecc01e09a1bbdd
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把讨论写成提出已验证完善防御，换贡献种类
+- body_or_context_evidence: §VIII；源引言median术语与正文有异见勘误
+- source_sentence_sha256: 92a0b61a1d956fdb724856f81b7a6caed881a175838ae8039df3496f3ec12d56
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 第一类反制措施对本文攻击的防御效果有限；后两类的效果和代价在while部分，见句式字段
+- discourse_foreground: 防御效果和效用代价的不同失败模式
+- incremental_information: 不是所有防御完全无效，而是效用权衡
+- clause_sentence_form: Unfortunately评价；主句＋while对照；to some extent限效果；yet转代价
+- length_proxy: 38
+- length_and_context_function: 38词分清三类并保反例，不压成毫无效果；后面开放问题才有合理前提
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 后两类效果限定
+  - replacement_zh: 在一定程度上
+  - unchanged_context: 第一类作用有限、后两类缓解、while和不可承受效用代价转折均保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 123
+        - 137
+      - absolute_char_range:
+        - 7643
+        - 7657
+      - source_span_sha256: 9aec52c93318e739f8b8a45836a337bddfb7a67c974cc862c3f1e07f6bf89fa4
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 123
+      - sha256: 02636b88bd2e96aaa65dc9f2678b2be5567cd0916163367b51f7413df361e2d6
+    - 
+      - sentence_relative_char_range:
+        - 137
+        - 249
+      - sha256: 08b600c60295f5de41aec4a38ef440558730e7bad99cc769dfa8ff619b82babb
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成所有防御均完全无效，删作者承认的缓解；反向写防御已解决也不合
+- body_or_context_evidence: §VIII-A单次/持续差别；DP/剪枝效用代价
+- source_sentence_sha256: 4ebdbb9200fdedbeef8dcbbb630d1d41dc228e827c206183c3c6a0ab9786f581
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S3
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 没有有效防御时现实FL可能高风险
+- discourse_foreground: 从实验结果过渡到现实意义
+- incremental_information: 风险是有条件的可能性
+- clause_sentence_form: Without前置条件；can be模态系词
+- length_proxy: 10
+- length_and_context_function: 10词短枢纽之后才列高风险场景；不是安全事件报告
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 风险条件
+  - replacement_zh: 在缺乏有效防御的情况下
+  - unchanged_context: 现实FL系统、can be及高风险的条件性判断保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 27
+      - absolute_char_range:
+        - 7770
+        - 7797
+      - source_span_sha256: 4369ecf3fb260a797268fd8c7e8813af25c77e0359fb60372041d7077ad6e602
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 27
+        - 70
+      - sha256: 82a7c3beb8ebb513756d5375970c90d17bc308cf3b54e3d8a36a807facc8f211
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写现实全部系统正在遭受事故，改模态与事实状态
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 31c2a1ffe86ec744fcff2f3c33a7fd60af5328b4a9d3c9cb94929364aeca7855
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S4
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 注入的后门可以迫使一个FL训练的诊断模型将特定患者误诊为错误疾病类型；主语是后门，模型是宾语
+- discourse_foreground: 解释安全研究为何涉及人员与机构损害
+- incremental_information: 医学应用的潜在后果
+- clause_sentence_form: 场景前置；后门＋can force＋诊断模型宾语＋to不定式补语构成使役矩阵；which后果从句含may，交患者安全及医院争议
+- length_proxy: 47
+- length_and_context_function: 47词较长因技术错误要转换为人的安全/责任后果；没有把虚拟危害伪装成已发生案例
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: which引出的完整可能后果从句
+  - replacement_zh: 这可能进一步损害患者的人身安全，并给医院带来医疗争议
+  - unchanged_context: 医疗假设场景、后门使役矩阵、误诊对象和疾病类型保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 193
+        - 292
+      - absolute_char_range:
+        - 8034
+        - 8133
+      - source_span_sha256: 2c791bb8c2ceda7518447397da459f066f8064bce5d9f38e1b581f58a8ecfbd9
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 193
+      - sha256: 5eaca4a0035ab7c483490ae077ec932729502d0004986f3337b36472a4b2b481
+    - 
+      - sentence_relative_char_range:
+        - 292
+        - 293
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成该实验确已伤害患者，冒充真实事件
+- body_or_context_evidence: P8潜在情景；§V医学任务不是临床伤害研究
+- source_sentence_sha256: fbef25bae4992b6267ba89b557e4c6b3fef4c7a865a055505de38d65619fca57
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S5
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: FL训练阶段注入的后门可以迫使模型将冒名者误认成特定官员；主语是后门，模型是宾语
+- discourse_foreground: 将相同风险扩至权限情境
+- incremental_information: 授权相关的可能后果
+- clause_sentence_form: Similarly类比和场景前置；后门＋can force＋模型宾语＋to不定式补语构成使役矩阵；who限定目标官员的高权限，末部短语交恶意目的
+- length_proxy: 38
+- length_and_context_function: 38词与医疗平行支持应用后果多样性，不用于给攻击执行指南
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 类比连接及具体系统场景跨度
+  - replacement_zh: 类似地，在人脸识别监控系统中
+  - unchanged_context: 训练阶段后门、使役矩阵、冒名者/官员、官员权限限定及恶意目的保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 53
+      - absolute_char_range:
+        - 8135
+        - 8188
+      - source_span_sha256: e01a2423f07b2451b71a28adb6113bd762da5ae36b40e1a85e33a78d1fee3615
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 53
+        - 242
+      - sha256: 2155baa42e6f6accf23059f3c2ae7047037b91d07db5e7991f859e0559e97319
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写所有人脸系统可被本文稳定冒充，移除FL/训练条件和模态
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 29d21ad0acf4fbf8be8364e66974c5fdd092f5dca2a076a11dcb0c0afe086c23
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## P8.S6
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者希望研究吸引社区投入
+- discourse_foreground: 将风险认识转为防御研究意义
+- incremental_information: 期待改进FL鲁棒性
+- clause_sentence_form: 矩阵we hope；内容从句工作吸引研究；目的不定式帮助改进
+- length_proxy: 27
+- length_and_context_function: 27词愿望式收束适合尚未解决防御问题，不误写结果保证
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 态度矩阵
+  - replacement_zh: 作者希望
+  - unchanged_context: 本工作吸引社区研究投入和帮助改进FL鲁棒性的内容与目的保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 7
+      - absolute_char_range:
+        - 8378
+        - 8385
+      - source_span_sha256: 2f432e899b0dfe0bca69a8f2d1a0d98a523465d98193439b49ecb18a9bf7d113
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 7
+        - 172
+      - sha256: 08667f5a8316700b009d647ec1fb50f66c60974c6183c74e26ebd4ce475fa6b4
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成本文已提升部署系统鲁棒性，混淆期待与实测成果
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 36219e3e253adc3badfd8bce898b606b479611142ea4421b6ed6d30fff8f2bf2
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## Q.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者宣布以下贡献
+- discourse_foreground: 列表导航
+- incremental_information: 后面三组压缩回收
+- clause_sentence_form: 常规主动引导＋冒号
+- length_proxy: 7
+- length_and_context_function: 7词只组织，旧图未单列但历史笔记保留；不多算一项科学贡献
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 组织范围
+  - replacement_zh: 以下贡献
+  - unchanged_context: 总结连接、作者主语、make及冒号列表框架保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 20
+        - 47
+      - absolute_char_range:
+        - 8571
+        - 8598
+      - source_span_sha256: 08695cc74c3346f2185a4be9004849f0929340aa8bab650c053e44ff385f3ddb
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 20
+      - sha256: 417ddd3d88ec553ce3c8a14bfbc77573605d9ad263ed2d8307876207e0e72d6d
+    - 
+      - sentence_relative_char_range:
+        - 47
+        - 48
+      - sha256: e7ac0786668e0ff0f02b62bd04f45ff636fd82db63b1104601c975dc005f3a67
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 把引导当第四贡献或新结果，错误计数
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: 8fabb96ba98abd22249fc4d1cf04c0eef8c56ec2bef6251733b03210d7706ebf
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C1.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者识别一个关键挑战
+- discourse_foreground: 压缩双目标问题
+- incremental_information: 当轮全局整合与正常功能共同约束
+- clause_sentence_form: identify矩阵；冒号后how问题作同位说明；without限制
+- length_proxy: 28
+- length_and_context_function: 28词复用P3问题，不是新增第四目标；贡献先贡献认识再说方法
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 关键挑战数量限定
+  - replacement_zh: 关键挑战之一
+  - unchanged_context: 作者识别、FL对象、how内容及正常功能约束保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 12
+        - 37
+      - absolute_char_range:
+        - 8612
+        - 8637
+      - source_span_sha256: fb9477983bbf99d29d413395a0be3ad45cf7d142d63660c5d5b6a50caf817422
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 12
+      - sha256: c31dc8ca76b3ae18162fcf02db3ec97dc186143a57fff48a5d8a2098ceee3387
+    - 
+      - sentence_relative_char_range:
+        - 37
+        - 168
+      - sha256: 43019e42ff5a9c933db0879c26b370945c5576ee19cf41f5ed5630412a8ebc5d
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 去掉之一并说唯一问题全部解决，强化覆盖
+- body_or_context_evidence: P3.S3；§III双目标
+- source_sentence_sha256: 30b5c5c8e21bce46fa94f35e87074631367b3c59f607e8a12d4f371dcd3e0e52
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C1.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者利用冗余应对挑战并提出新攻击
+- discourse_foreground: 把选择与双目标能力合成方法贡献
+- incremental_information: 方法回答的效果和隐蔽性
+- clause_sentence_form: 两个并列矩阵谓词；by方法状语；which相对从句报告能力
+- length_proxy: 28
+- length_and_context_function: 28词压缩P5的解释链，依赖前文定义，否则术语冗余难以成贡献
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 联合能力连接
+  - replacement_zh: 同时达到高有效性和隐蔽性
+  - unchanged_context: 作者应对/提出的并列主干、利用冗余的依据和新方法对象保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 135
+        - 184
+      - absolute_char_range:
+        - 8904
+        - 8953
+      - source_span_sha256: 396ef8f7f6c89d8279748969b3ddb2878b3f135e133cf93da0185e986eab86d7
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 135
+      - sha256: 8f80022bf262bc52d44ffa6abe192654f5d62ed065e0b42a08d74409bdf54c1d
+    - 
+      - sentence_relative_char_range:
+        - 184
+        - 185
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删正常效用维度让方法只剩高ASR，缩任务
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: ed4eb8afb9541edfd38a7194137515af97227ba957d24a362db2c9a2bed31518
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C2.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者在四用例及四平台评价
+- discourse_foreground: 经验覆盖贡献
+- incremental_information: 任务与平台两种范围
+- clause_sentence_form: 主动评价；两个on介词短语并列
+- length_proxy: 18
+- length_and_context_function: 18词因实例P7已经列出，无须重复名称；并列不暗含全交叉
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 两个评价域的连接
+  - replacement_zh: 在四个实用场景以及四个真实平台上
+  - unchanged_context: 作者评价及本文攻击对象保留；两评价域并列而非全交叉
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 23
+        - 100
+      - absolute_char_range:
+        - 8978
+        - 9055
+      - source_span_sha256: e40467eae3d8ae2084ab7b86a52dbd5a18d71d7d976363f53e8954f3540cd42c
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 23
+      - sha256: a0cbc38b20e9d97ab80b1c1ad7753ca67e46ef6cce22bf494434ac2923996a12
+    - 
+      - sentence_relative_char_range:
+        - 100
+        - 101
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 写全部四乘四组合均验证，增加实验
+- body_or_context_evidence: §V；§VII
+- source_sentence_sha256: 2ea640a0872e3e196323e0afa558bf42c683115b536ca3a013ffab2dc934e602
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C2.S2
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者提供影响因素的全面消融研究
+- discourse_foreground: 除广度再加机制/因素检验
+- incremental_information: 相对P7概述新增的因素证据轴
+- clause_sentence_form: Moreover追加；on因素范围；分词impacting限定因素
+- length_proxy: 17
+- length_and_context_function: 17词让贡献清单不只是前文复读，但comprehensive属于作者评价
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 研究对象
+  - replacement_zh: 影响该方法表现的若干因素
+  - unchanged_context: 作者提供全面消融的矩阵及追加关系保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 60
+        - 122
+      - absolute_char_range:
+        - 9117
+        - 9179
+      - source_span_sha256: 8d729f7735f43a50e29853b5eebdf8f412ee8442d66fedc6e041c4ae273b2dd6
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 60
+      - sha256: be419da72bbd435f97612cbb81b6ccbbace489cbb5a324580fab6f86b6bd2b54
+    - 
+      - sentence_relative_char_range:
+        - 122
+        - 123
+      - sha256: cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成证明每个机制必要充分且独立因果，超出消融
+- body_or_context_evidence: §VI-F/TableII、观察间隔等
+- source_sentence_sha256: 1d7c1e5c6457bfe9cfdd0ff67ce597a7bb1548a975f6b17301d8f1a1108d2224
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C3.S1
+
+- origin: new-unsampled-analysis
+- grammatical_matrix: 作者讨论数种潜在防御
+- discourse_foreground: 防御问题是贡献一部分
+- incremental_information: 讨论反制对象
+- clause_sentence_form: 短主动句，possible限制状态
+- length_proxy: 10
+- length_and_context_function: 10词先给动作，下一句才给有限发现；不能把讨论与解决混称
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 防御状态
+  - replacement_zh: 若干可能的防御措施
+  - unchanged_context: 作者讨论、针对FL后门的对象范围保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 11
+        - 36
+      - absolute_char_range:
+        - 9192
+        - 9217
+      - source_span_sha256: 8a7564d9d117d9db8055b22153e337a40c326a516dcc91e6b10bf5f4e3aabfaa
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 11
+      - sha256: 4f6de60e5e6ae520a135244ab3115510253d9fb8c5f463d5ad09d6d1d163d2b8
+    - 
+      - sentence_relative_char_range:
+        - 36
+        - 68
+      - sha256: c3d87afd5715f359825f1ddeafcb16517433cfa7da0ecffb9b030248de7a4ad2
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 改成已部署有效全面防御，改变成果
+- body_or_context_evidence: Introduction local chain
+- source_sentence_sha256: c3116ae6e534ad620e66979b1710b31812feaf8189b1e53e647d7863ccc65abb
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+
+## C3.S2
+
+- origin: retained-sample-plus-fresh-analysis
+- grammatical_matrix: 初步结果揭示一个仍开放的问题
+- discourse_foreground: 鲁棒FL设计尚待研究的结论
+- incremental_information: 未解决性和社区研究需要
+- clause_sentence_form: preliminary修饰结果；that内容从句为结论；which补充研究呼吁
+- length_proxy: 28
+- length_and_context_function: 28词以有限证据收束而非必胜攻击结论；前面单次防御成功等条件仍成立
+- replacement_scope:
+  - type: bounded Chinese semantic gloss of English source span(s); not a drop-in English edit
+  - target: 证据强度及结果归属主语
+  - replacement_zh: 作者的初步结果
+  - unchanged_context: 揭示矩阵、设计鲁棒FL仍开放的内容和研究呼吁保留
+  - semantic_delta: No new syntactic or evidential movement is claimed; this rendering checks local content/scope while other source segments remain fixed
+  - role_status: source-aligned gloss, not an enacted alternative rhetorical choice
+  - source_spans:
+    - 
+      - sentence_relative_char_range:
+        - 0
+        - 23
+      - absolute_char_range:
+        - 9250
+        - 9273
+      - source_span_sha256: a49cdc2d714acf78ec7d7db09b6c79796303008ab0a41668a602286b04c85f94
+  - untouched_source_segments:
+    - 
+      - sentence_relative_char_range:
+        - 23
+        - 186
+      - sha256: 5d55e04dcb6cd903dbcca47bd33f4b1aaa4f67fd92d626f564e8dbf9be509da8
+  - scope_proof_limit: Coordinates establish correspondence, not equivalence; full-sentence alternatives and their changes are separately recorded
+- scope_changing_counterfactual: 删初步并声称鲁棒FL不可能，改强度及开放性
+- body_or_context_evidence: §VIII/IX；不把未解决写成不可能
+- source_sentence_sha256: 61d717ee703ba4170e92de1657d3e9dfd34fe6162f4ce1bff10c6b26b90d95d3
+- inference_label: Matrix/form observed in source; foreground, length function and choice reasons are editorial readings, not author-stated motives
+- counterfactual_role: Deliberate meaning-violation guard, not a recommended or necessarily plausible alternative sentence
+- physical_source_pages:
+  - 2
+- source_page_links:
+  - https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=2
+- retained_prior_analysis: preliminary results作主语限定证据强度，that从句交开放问题，which后置给社区研究价值。
+- retained_analysis_status: Historical authored clause analysis, preserved separately; current matrix/foreground and evidence fields govern refined interpretation.
+

@@ -1,0 +1,916 @@
+{
+  "schema_version": "1.0",
+  "scope": "Content choices are editorial branches, not interchangeable facts or writing-quality scores.",
+  "selection_order": [
+    "role",
+    "relation",
+    "preceding information burden",
+    "research type",
+    "optional topic"
+  ],
+  "groups": [
+    {
+      "group_id": "A",
+      "role": "background",
+      "title": "A. 开场：建立与本文同一研究活动的领域价值（4支）",
+      "file": "references/choices/a-background.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L1",
+        "L4"
+      ],
+      "branches": [
+        {
+          "variant_id": "A1",
+          "title": "功能决定重要性",
+          "relation": "function-value",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P1.S1–3，Introduction PDF1。原句先定义固件，后置分词给初始化、通信和I/O职责，下一句补基础设施用途，再由Given前提导出安全后果",
+          "applicability": "对象价值来自其运行职责，且后文确需这些职责解释输入、场景或危害。已有熟悉对象可压定义，不能仅保留“critical”而删因果",
+          "preceding_information_and_length": "展开一项功能及后果，而不是用市场数字占同样空间",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "A2",
+          "title": "获取成本解释复用入口",
+          "relation": "cost-reuse",
+          "source_ids": [
+            "sj-33b7f0ad03"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md"
+          ],
+          "source_coordinates_note": "FreeEagle P1.S1–5。应用→训练成本→下载／购买→第三方供给，平台例置于主体动作后",
+          "applicability": "复用、交易或供应方改变信任、数据可得性或检查责任。成本事实必须确实解释后续行为，不将所有ML研究都改写为供应链研究",
+          "preceding_information_and_length": "可压品牌列举，但不能跳过“成本为何导致当前任务条件”的中间动作",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "A3",
+          "title": "稳定用途引出联合信息需求",
+          "relation": "joint-information",
+          "source_ids": [
+            "sj-dc32e376bc"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-dc32e376bc.md"
+          ],
+          "source_coordinates_note": "AsgLDP P1.S1、S4–7。一般数据用途→去中心局部视图→属性→疾病监测需健康状态与接触关系→安全收集任务",
+          "applicability": "本文真正改进的是联合信息或关系，单独介绍一类数据会使读者误以为另一类可独立粘上",
+          "preceding_information_and_length": "一个能解释互补作用的实例替代一串用途；不借用源例健康数据作为新稿事实",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "A4",
+          "title": "风险随具体交互方式而来",
+          "relation": "interaction-risk",
+          "source_ids": [
+            "sj-6eeb51e521"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-6eeb51e521.md"
+          ],
+          "source_coordinates_note": "ORL-Auditor P1.S1–4。已有决策用途→安全关键场景在线交互危险→offline范式→预收集数据",
+          "applicability": "采用某范式的原因就是任务条件，如不允许在线试错。承认技术能力，再解释限制，后文不能忘记这个限制",
+          "preceding_information_and_length": "保留一条具体危害即可，不额外展开整个产业重要性",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "B",
+      "role": "scope",
+      "title": "B. 收窄：从领域到子领域／具体可操作对象（4支）",
+      "file": "references/choices/b-scope.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L1",
+        "L2",
+        "L6"
+      ],
+      "branches": [
+        {
+          "variant_id": "B1",
+          "title": "从成熟手段到本场景接口",
+          "relation": "interface",
+          "source_ids": [
+            "sj-177bf3c33e"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-177bf3c33e.md"
+          ],
+          "source_coordinates_note": "MOCK P2.S1–6。静态／动态→fuzzing的工作机制→syscall接口→调用及参数序列→既有成功",
+          "applicability": "研究设计依赖特定输入接口和对象单位；读者可能知道大技术，却不知其在本场景怎样工作",
+          "preceding_information_and_length": "可以不介绍无关路线，必须保住对象定义，因为下一段讨论对象关系",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "B2",
+          "title": "用数据所在位置限定子问题",
+          "relation": "availability",
+          "source_ids": [
+            "sj-dc32e376bc"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-dc32e376bc.md"
+          ],
+          "source_coordinates_note": "AsgLDP P1.S4–5。Different-from对比集中式，where说明用户仅有部分图，再补属性",
+          "applicability": "数据可得性改变可用方法；不是仅把“distributed”当技术标签",
+          "preceding_information_and_length": "一条位置／观察范围足以限定时不加部署百科；若属性与边关联决定方法，需在邻句建立",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "B3",
+          "title": "从前一步产物进入下一项任务",
+          "relation": "workflow",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P2.S3–5→P3.S1。保存crash用例→只是第一步→仍需找根因→给定用例定位错误指令",
+          "applicability": "已有工具解决前序任务，本文交付后序判断，不能把两者统称发现／修复",
+          "preceding_information_and_length": "短的接口桥接比额外背景段更有效；下一任务的独立价值必须写清",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "B4",
+          "title": "从规范对象进入实际实现差距",
+          "relation": "implementation-semantics",
+          "source_ids": [
+            "sj-c153987a94"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-c153987a94.md"
+          ],
+          "source_coordinates_note": "Tacoma P3→P4，P6.S3–8。fuzzing已有能力→绑定代码难触达→跨语言输入有效性→规范解析后仍须语义补齐",
+          "applicability": "具体边界层决定测试／分析能否真正进入目标功能；先命名边界，再给语义要求",
+          "preceding_information_and_length": "可省其他系统模块，但不能把实现相关条件写成已由标准全部提供",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "C",
+      "role": "task",
+      "title": "C. 命名任务：说明必须完成的判断及其价值（4支）",
+      "file": "references/choices/c-task.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L2"
+      ],
+      "branches": [
+        {
+          "variant_id": "C1",
+          "title": "必要性句绑定承担者、动作与后果",
+          "relation": "necessity",
+          "source_ids": [
+            "sj-33b7f0ad03"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md"
+          ],
+          "source_coordinates_note": "FreeEagle P3.S1。因果承接风险，形式主语把平台维护者的检测动作置于重点，目的不定式接阻止传播",
+          "applicability": "真实工作流有明确责任与时点；没有该角色证据时改为对象／任务作主语，不虚构使用者",
+          "preceding_information_and_length": "一句绑定必要动作及后果，后续困难句再解释条件，不在首句堆所有挑战",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "C2",
+          "title": "问题句明确最终要知道什么",
+          "relation": "identification",
+          "source_ids": [
+            "sj-6eeb51e521"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-6eeb51e521.md"
+          ],
+          "source_coordinates_note": "ORL-Auditor P2.S10。已知威胁名词化，how宾语问数据所有者如何判断嫌疑模型是否源自其数据",
+          "applicability": "研究输出是审计／辨识判断，而非改变系统行为。问题必须可测，不能扩大为法律或政策裁决",
+          "preceding_information_and_length": "较直接能力宣告多一点问题铺垫，适合任务尚未被共同接受的位置",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "C3",
+          "title": "给定已有产物，明确人的剩余工作",
+          "relation": "actionable-output",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P3.S1–2。Given崩溃用例→分析者定位错误指令→该任务耗时",
+          "applicability": "研究价值是让已有结果变得可操作，后文评价应能回答剩余工作是否减少",
+          "preceding_information_and_length": "保留输出与任务边界，不能因系统名高级就暗示自动完成后续修复",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "C4",
+          "title": "用不变量与失效行为定义成功判据",
+          "relation": "joint-utility",
+          "source_ids": [
+            "sj-4ef65862d0"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-4ef65862d0.md"
+          ],
+          "source_coordinates_note": "TextShield P2.S4–6支持对人仍有毒／对机器逃逸的任务不变量，字符实例后解释视觉相似与模型失败；“保留良性用途”的联合评价另据C2.S2及正文§5。两处支持不同关系，不能把后者倒灌进P2原句",
+          "applicability": "对象变形后其任务语义仍在，或两种性质须同时成立。需真实定义和共同评价支持",
+          "preceding_information_and_length": "必要时保留一个小例子，不把所有攻击变体列进任务定义",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "D",
+      "role": "gap",
+      "title": "D. 最强已有答案到真实gap（5支）",
+      "file": "references/choices/d-gap.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L3",
+        "L8"
+      ],
+      "branches": [
+        {
+          "variant_id": "D1",
+          "title": "条件变化，使现成路线不可直接执行",
+          "relation": "missing-condition",
+          "source_ids": [
+            "sj-6eeb51e521"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-6eeb51e521.md"
+          ],
+          "source_coordinates_note": "ORL-Auditor P3.S2–12。逐类保留水印、dataset inference和在线成员推断能力，再指出发布时机、连续输出、参照和环境可达性错位",
+          "applicability": "事实确为前提缺失，必须写清已完成的能力，不以“cannot address our problem”替代原因",
+          "preceding_information_and_length": "多个近邻若同一条件可合并；不同强答案分别填补不同剩余时不能一刀删",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "D2",
+          "title": "先承认更强扩展，再限定未覆盖范围",
+          "relation": "stronger-prior",
+          "source_ids": [
+            "sj-f612de4bf1"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-f612de4bf1.md"
+          ],
+          "source_coordinates_note": "MeTFA P4–P5。均值平滑→均值／方差可给渐近区间→未知分布、小样本／极值下的有限样本问题",
+          "applicability": "读者可能自然推出一种更强现成答案，省略它会夸大gap",
+          "preceding_information_and_length": "承认扩展占句数，却让后续构造的必要性可判断；不是为了礼貌平均介绍文献",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "D3",
+          "title": "观察不到，不等于目标属性不存在",
+          "relation": "identifiability",
+          "source_ids": [
+            "sj-07015463d4"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-07015463d4.md"
+          ],
+          "source_coordinates_note": "InvMM P4.S4–11。采样未见不证明不记忆；原caption未触发不等于图像不被其他prompt复现",
+          "applicability": "gap是可辨识性或测量对象错位，本文应提供更合题的测量／搜索，不改写为单纯提高检测率",
+          "preceding_information_and_length": "一个关键备择足够建立逻辑；无需把所有可能情况写入Intro",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "D4",
+          "title": "新场景改变了信号与任务的关系",
+          "relation": "changed-signal",
+          "source_ids": [
+            "sj-1b6614ac62"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-1b6614ac62.md"
+          ],
+          "source_coordinates_note": "VERIFI P3.S4–6。先给传统性能验证；FL下accuracy/loss可几乎不变，后置when少数退出，末尾是其他参与者贡献；后门副作用另句",
+          "applicability": "旧代理量并非无效，只是在新条件下不再充分反映目标；结果先行可回应前句自然期待",
+          "preceding_information_and_length": "保留情态may及因果；别把第二种验证方案的风险并进第一种信号不变的原因",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "D5",
+          "title": "同名任务在新领域有不同信息结构",
+          "relation": "transfer-condition",
+          "source_ids": [
+            "sj-4ef65862d0"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-4ef65862d0.md"
+          ],
+          "source_coordinates_note": "TextShield P3.S1–5。承认英文训练／纠错成功，再给中文语义、分词和字形／字音变化如何影响效果",
+          "applicability": "真实迁移条件而非仅新数据集；需解释属性怎样导致失败，不能止于研究较少",
+          "preceding_information_and_length": "若有多个原因，仅展开分别改变方法选择的原因；不强制凑三点",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "E",
+      "role": "challenge",
+      "title": "E. 真实应用挑战：实际操作受阻→根因→所需能力（4支）",
+      "file": "references/choices/e-challenge.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L2",
+        "L4",
+        "L8"
+      ],
+      "branches": [
+        {
+          "variant_id": "E1",
+          "title": "缺关键证据，让人工无法有效调查",
+          "relation": "evidence-access",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P5.S1–5。分析者需要运行证据，但嵌入式环境缺调试支持，必须逐条追踪长轨迹",
+          "applicability": "缺数据必须落在具体工作上；后文机制与评价应回应取得／利用证据而非仅说模型更准",
+          "preceding_information_and_length": "一个操作与后果把技术根因译成应用困难，不需把每个调试字段全列出",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "E2",
+          "title": "候选已得到，仍无法判断轻重",
+          "relation": "prioritization",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P6.S1–4。裸二进制语义缺失→大量可疑项→过度污点与噪声使调查指导不足",
+          "applicability": "与E1可形成真实两挑战：能获得证据与能据此作判断不同。不能仅把一个“信息少”问题拆两个名字",
+          "preceding_information_and_length": "突出输出质量与使用价值，细排序机制留方案",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "E3",
+          "title": "前序失败阻断后续任务",
+          "relation": "prerequisite",
+          "source_ids": [
+            "sj-3698195c5a"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-3698195c5a.md"
+          ],
+          "source_coordinates_note": "MINER P2.S4–9→P3。服务先验证请求，前序不通过则后续长序列不能执行，质量与长度共同决定深状态可达",
+          "applicability": "串行工作流、累积状态或前置条件真实存在；研究挑战是可执行推进，不只是“长序列难”",
+          "preceding_information_and_length": "短因果句可连接两个指标的必要关系，避免平行性能清单",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "E4",
+          "title": "自然参照在真实任务中不够",
+          "relation": "reference-scarcity",
+          "source_ids": [
+            "sj-8d71597fb2"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-8d71597fb2.md"
+          ],
+          "source_coordinates_note": "IPPO P2.S5–7、P3.S2–5。多数oracle要多个正确参照，某安全操作只出现一次，不能靠提高投票阈值解决",
+          "applicability": "可得证据数量／类型限制判断；下一方法必须解释新的比较依据为何有效",
+          "preceding_information_and_length": "一个确切反例可替代“数据稀疏”长篇抽象讨论；数字仅用于说明原理门槛",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "F",
+      "role": "work",
+      "title": "F. In this paper：直接命名总体工作与任务能力（4支）",
+      "file": "references/choices/f-work.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L5"
+      ],
+      "branches": [
+        {
+          "variant_id": "F1",
+          "title": "工作＋表示核心",
+          "relation": "representation",
+          "source_ids": [
+            "sj-177bf3c33e"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-177bf3c33e.md"
+          ],
+          "source_coordinates_note": "MOCK P5.S1。以条件概率表示上下文依赖并命名系统；后续句才给语料与调度",
+          "applicability": "表示／关系改变是核心推进，读者已理解关系为什么重要",
+          "preceding_information_and_length": "首句不列全部部件；需要一段解释所选表示何以可获得",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "F2",
+          "title": "工作＋输出契约",
+          "relation": "output-contract",
+          "source_ids": [
+            "sj-446d78ec82"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md"
+          ],
+          "source_coordinates_note": "FirmRCA P8.S1–2。总框架后直接给错误指令输出，限定crash来源",
+          "applicability": "题目或系统名无法让人知道实际交付，两句明确能给用户什么",
+          "preceding_information_and_length": "比一长定义句多句界，却分离任务身份与输入输出；避免输出扩大为全自动解决",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "F3",
+          "title": "工作＋关键资源条件",
+          "relation": "resource-condition",
+          "source_ids": [
+            "sj-33b7f0ad03"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md"
+          ],
+          "source_coordinates_note": "FreeEagle P6.S1–2。命名方法与任务，独立重申无需两类样本",
+          "applicability": "资源条件本身决定新能力，已有gap已经建立其必要性",
+          "preceding_information_and_length": "紧邻能力保留条件；不把without扩大为任何校准／训练都无需",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "F4",
+          "title": "工作＋与核心技术的最低必要关系",
+          "relation": "complementarity",
+          "source_ids": [
+            "sj-4ef65862d0"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-4ef65862d0.md"
+          ],
+          "source_coordinates_note": "TextShield P4.S1–3。目的回gap，提出框架与任务范围；先总阶段，再解释三阶段的不同职责",
+          "applicability": "结合方式而非任一组件单独构成研究，后续必须写接口或互补关系",
+          "preceding_information_and_length": "技术名只保留能立即解释任务作用者；“combining”不能自行充当新颖性证明",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "G",
+      "role": "design",
+      "title": "G. 关键设计理由：从性质到选择再到能力（5支）",
+      "file": "references/choices/g-design.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L6",
+        "L4",
+        "L8"
+      ],
+      "branches": [
+        {
+          "variant_id": "G1",
+          "title": "正面性质支持跨情境复用",
+          "relation": "transfer-property",
+          "source_ids": [
+            "sj-2deb60c210"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-2deb60c210.md"
+          ],
+          "source_coordinates_note": "EMS P2.S3–8→P3→P4.S2。成功变换可能蕴含共享策略，代码共享支撑跨程序迁移",
+          "applicability": "材料里有正面可复用洞察，无需虚构失败基线；may及共享条件不能消失",
+          "preceding_information_and_length": "若迁移不显然，需一个有职责的案例／证据段，不能只留抽象收益",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "G2",
+          "title": "直接办法合理，但缺少稳定比较基准",
+          "relation": "reference-construction",
+          "source_ids": [
+            "sj-6eeb51e521"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-6eeb51e521.md"
+          ],
+          "source_coordinates_note": "ORL-Auditor P5.S2–6。直接固定阈值→受数据条件影响→同数据shadow分布→检验",
+          "applicability": "直接路线确实是读者会想到的办法，且缺陷来自材料可核的条件",
+          "preceding_information_and_length": "一条说明与一条构造就够时不叠加更多假想失败路线",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "G3",
+          "title": "前一产物不够后一步用，补接口关系",
+          "relation": "interface",
+          "source_ids": [
+            "sj-c153987a94",
+            "sj-a36437c84c"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-c153987a94.md",
+            "references/intro-source-maps/sj-a36437c84c.md"
+          ],
+          "source_coordinates_note": "UVSCAN P5、P8.S1–7；Tacoma P6.S3–8。文本义务／通用事实不等于可执行API约束；规范信息不等于实现语义",
+          "applicability": "研究推进发生在信息转换接口；每个输入要真实可得",
+          "preceding_information_and_length": "展开这一处接口即可，其他成熟步骤可简写采用；不要把全过程各步都写为独立创新",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "G4",
+          "title": "换观察对象，保留更贴任务的信号",
+          "relation": "observation-object",
+          "source_ids": [
+            "sj-33b7f0ad03",
+            "sj-9042a938b2"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md",
+            "references/intro-source-maps/sj-9042a938b2.md"
+          ],
+          "source_coordinates_note": "FreeEagle P6.S3–4→P7.S2–6；Diff-ID P6–P8。前者选择分类器后缀／中间表示，后者控制属性再比较身份",
+          "applicability": "实际材料支持分离／规避这类变化，不能从中间层名称推定鲁棒性",
+          "preceding_information_and_length": "需解释对象含义及选择根据；FreeEagle分类器不是只指最终分类头",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "G5",
+          "title": "所选设计带来新代价，追加必要处理",
+          "relation": "design-cost",
+          "source_ids": [
+            "sj-6a7f688210",
+            "sj-4391324662"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-6a7f688210.md",
+            "references/intro-source-maps/sj-4391324662.md"
+          ],
+          "source_coordinates_note": "FaceArmor P4→P5→P6；IPIGuard P4→P5。先建立设计，再交其特定冲突或运行参数未知",
+          "applicability": "代价确因本方案而来，不能把它前置成与设计无关的普遍应用挑战",
+          "preceding_information_and_length": "额外句群是设计解释成本，不追求挑战／模块表面一一对应",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "H",
+      "role": "contribution",
+      "title": "H. 非评价贡献：按可保留的研究所得归组（4支）",
+      "file": "references/choices/h-contribution.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L5",
+        "L6",
+        "L10"
+      ],
+      "branches": [
+        {
+          "variant_id": "H1",
+          "title": "认识／关系本身是所得",
+          "relation": "knowledge",
+          "source_ids": [
+            "sj-33b7f0ad03",
+            "sj-177bf3c33e"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md",
+            "references/intro-source-maps/sj-177bf3c33e.md"
+          ],
+          "source_coordinates_note": "FreeEagle C1＋P6；MOCK P8（旧C1）",
+          "applicability": "有明确机制认识且它实际支撑方法；只有做了调研不能写identify核心规律",
+          "preceding_information_and_length": "前文已给具体关系可短概括；前文没给则补一必要说明，不能只写new insights",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "H2",
+          "title": "总体方法／框架及其有意义能力",
+          "relation": "overall-capability",
+          "source_ids": [
+            "sj-dc32e376bc",
+            "sj-33b7f0ad03",
+            "sj-177bf3c33e"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-dc32e376bc.md",
+            "references/intro-source-maps/sj-33b7f0ad03.md",
+            "references/intro-source-maps/sj-177bf3c33e.md"
+          ],
+          "source_coordinates_note": "AsgLDP C1；FreeEagle C2；MOCK P9.S1",
+          "applicability": "整项研究有独立总体交付，条件确为区别所在",
+          "preceding_information_and_length": "方法名后保任务能力，省已讲流程；首次性仅经检索有据才保留",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "H3",
+          "title": "关键构造＋直接任务作用",
+          "relation": "key-construction",
+          "source_ids": [
+            "sj-446d78ec82",
+            "sj-c153987a94"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md",
+            "references/intro-source-maps/sj-c153987a94.md"
+          ],
+          "source_coordinates_note": "Tacoma C1.S1–2；FirmRCA C2.S1–2",
+          "applicability": "关键构造有独立研究含量，不只是现成工具接口；作用与前面挑战同一对象",
+          "preceding_information_and_length": "列具体技术时，每个名词要服务同一能力；不把参数和内部步骤全变贡献",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "H4",
+          "title": "实践／资源交付，可与前项合理合并",
+          "relation": "artifact",
+          "source_ids": [
+            "sj-8d71597fb2",
+            "sj-177bf3c33e",
+            "sj-e82106495c"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-8d71597fb2.md",
+            "references/intro-source-maps/sj-177bf3c33e.md",
+            "references/intro-source-maps/sj-e82106495c.md"
+          ],
+          "source_coordinates_note": "SLIME P9（末资源项）；MOCK P9.S3；IPPO C1的实现／开放承诺",
+          "applicability": "资源确实完成或承诺已获授权，且值得作为研究交付；不把计划写成已开源",
+          "preceding_information_and_length": "通常只需短句；当前3–4项且评价末项时，可归入系统贡献而非为资源另加末条",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "I",
+      "role": "evaluation",
+      "title": "I. 末评价贡献：评价工作＋最强成立的任务答案（5支）",
+      "file": "references/choices/i-evaluation.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L7"
+      ],
+      "branches": [
+        {
+          "variant_id": "I1",
+          "title": "范围已足，短句表达跨条件答案",
+          "relation": "task-answer",
+          "source_ids": [
+            "sj-33b7f0ad03",
+            "sj-9042a938b2"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-33b7f0ad03.md",
+            "references/intro-source-maps/sj-9042a938b2.md"
+          ],
+          "source_coordinates_note": "FreeEagle C3，依赖P6/P7的机制及结果解释；Diff-ID P9.C3.S1，前文交任务与方法，本项首次报告定性结果",
+          "applicability": "前文已明确任务、方法及必要条件，一句具体的跨条件结论足以交出评价答案；可归纳已报成果，也可首次报告定性结果",
+          "preceding_information_and_length": "不能仅保留孤立的effectiveness；按尚未完成的评价答案补代表证据，首次报告本身不要求数字",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "I2",
+          "title": "贡献首次承担主要定量答案",
+          "relation": "first-results",
+          "source_ids": [
+            "sj-446d78ec82",
+            "sj-a36437c84c"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-446d78ec82.md",
+            "references/intro-source-maps/sj-a36437c84c.md"
+          ],
+          "source_coordinates_note": "FirmRCA C3.S1–3；UVSCAN P10–P11的首次证据负担",
+          "applicability": "方案后直接贡献，尚未预告主要结果；数字代表最终判断，不只是组件速度",
+          "preceding_information_and_length": "允许多一句承担证据，不从源词数照搬长度；相同能力的次要指标留正文",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "I3",
+          "title": "主效果与保留效用共同成立",
+          "relation": "joint-utility",
+          "source_ids": [
+            "sj-4ef65862d0",
+            "sj-cc51b110bc"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-4ef65862d0.md",
+            "references/intro-source-maps/sj-cc51b110bc.md"
+          ],
+          "source_coordinates_note": "TextShield C2.S1–2，正文§5；VideoEraser P3/P4的双重任务",
+          "applicability": "两轴是真实共同任务并在对应条件下验证；不能拿两个独立最佳格子拼while",
+          "preceding_information_and_length": "即使两数字比一数字长，也可能是完整价值判断的最小证据；不追加无关指标",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "I4",
+          "title": "现实产出与确认状态",
+          "relation": "confirmed-subset",
+          "source_ids": [
+            "sj-c153987a94",
+            "sj-8d71597fb2",
+            "sj-177bf3c33e"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-c153987a94.md",
+            "references/intro-source-maps/sj-8d71597fb2.md",
+            "references/intro-source-maps/sj-177bf3c33e.md"
+          ],
+          "source_coordinates_note": "Tacoma C3.S1–3；IPPO P6/C3；MOCK P11",
+          "applicability": "现实新发现是论文主推进的一部分；detected/reported/confirmed/fixed/CVE分别有证据",
+          "preceding_information_and_length": "保必要子集关系，避免只报原始报告量；若比较效益也不可缺，可在同一末项分句而非偷换对象",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "I5",
+          "title": "新认识／适用关系就是评价答案",
+          "relation": "knowledge",
+          "source_ids": [
+            "sj-dc32e376bc",
+            "sj-1b6614ac62",
+            "sj-07015463d4"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-dc32e376bc.md",
+            "references/intro-source-maps/sj-1b6614ac62.md",
+            "references/intro-source-maps/sj-07015463d4.md"
+          ],
+          "source_coordinates_note": "AsgLDP C3.S1–2；InvMM C3.S1–3；VERIFI C3与正文§IV-C/D须分层",
+          "applicability": "研究价值是联合性质、可比尺度、成员与记忆区分、或有条件的适用认识，未必有单一优胜百分比",
+          "preceding_information_and_length": "明确所得，不能用demonstrate effectiveness空收；若将正文发现前移，应标为编辑选择，不说源Intro原已如此",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    },
+    {
+      "group_id": "J",
+      "role": "flow",
+      "title": "J. 句群内部：同一命题怎样分配主句／子句与句界（4支）",
+      "file": "references/choices/j-flow.md",
+      "research_types": [
+        "method",
+        "system",
+        "measurement"
+      ],
+      "research_type_scope": "Each branch remains conditional on its stated relation; broader genres require task-specific source support.",
+      "language_operations": [
+        "L8",
+        "L9"
+      ],
+      "branches": [
+        {
+          "variant_id": "J1",
+          "title": "稳定主题，谓语推进信息",
+          "relation": "stable-topic",
+          "source_ids": [
+            "sj-dc32e376bc",
+            "sj-c153987a94"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-dc32e376bc.md",
+            "references/intro-source-maps/sj-c153987a94.md"
+          ],
+          "source_coordinates_note": "AsgLDP P4.S1–3；Tacoma C3.S1–3",
+          "applicability": "系统是当前稳定话题，读者需要沿动作和产物走，不必强换主语",
+          "preceding_information_and_length": "若it有多个可能指代，重复名词更清楚；压缩动作时仍保计算对象不同",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "J2",
+          "title": "条件前置或结果前置，依据读者此刻疑问选择",
+          "relation": "condition-focus",
+          "source_ids": [
+            "sj-1b6614ac62"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-1b6614ac62.md"
+          ],
+          "source_coordinates_note": "VERIFI P3.S5及相应保义编辑替代",
+          "applicability": "正在比较情境时选条件先行；刚刚建立信号应有效的期待时结果先行更直接。不是任何一种语序普遍最优",
+          "preceding_information_and_length": "前置条件会延迟结果；结果先行必须让限定紧邻，不能变无条件断言",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "J3",
+          "title": "合并次要步骤，不压掉独立贡献",
+          "relation": "subordinate-action",
+          "source_ids": [
+            "sj-b3ea90f06d"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-b3ea90f06d.md"
+          ],
+          "source_coordinates_note": "TextDefense P5.S6–9及相应编辑替代",
+          "applicability": "抽样／效率仅为已知目的服务时可降为分词；若低查询量是此处独立推进，保留独立主句",
+          "preceding_information_and_length": "从4句到3句不是改善证明；效果是焦点重分配，校准与测试时序仍要区分",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        },
+        {
+          "variant_id": "J4",
+          "title": "将对象、约束和定义分句，但保回指与方向",
+          "relation": "directed-definition",
+          "source_ids": [
+            "sj-07015463d4"
+          ],
+          "source_contexts": [
+            "references/intro-source-maps/sj-07015463d4.md"
+          ],
+          "source_coordinates_note": "InvMM C1.S2–3及相应编辑替代",
+          "applicability": "读者首次接触一个新度量，单句包含对象与资格约束过密；约束不能被读成算法无条件成功",
+          "preceding_information_and_length": "拆句增加it／qualifying的回指要求，不自动更短更好；不可用无方向between改写非对称定义",
+          "source_fact_vs_editorial": "Source grammar and coordinates are attributed; realization and transfer are editorial.",
+          "coordinate_system_note": "Choice notes use source-paragraph/contribution labels from their stated source reading; bundled published maps may use different P/B/C annotation labels. Read the full linked map or the primary source; do not pass an unverified label to exact-coordinate retrieval."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "source_id": "sj-446d78ec82",
+  "title": "FirmRCA",
+  "designated_url": "https://arxiv.org/pdf/2410.18483v1",
+  "designated_version": "arXiv:2410.18483v1, 24 October 2024",
+  "retrieval_date": "2026-10-06",
+  "pdf_sha256": "1d28fa3dc647aa892cbb39fcd2fa5d27a7fd46617579953ecba1c70c03053d70",
+  "physical_pages": 18,
+  "read_scope": {
+    "introduction_and_contributions": [
+      1,
+      2
+    ],
+    "body": [
+      "§2 pp.2–3",
+      "§3 pp.3–4",
+      "§4 pp.4–8",
+      "§5 p.8",
+      "§6 pp.8–12",
+      "§7 pp.12–13",
+      "§8 p.13",
+      "§9.2 pp.13–14",
+      "Appendix A p.16",
+      "Appendix B pp.16–17",
+      "Appendix C p.17",
+      "Appendix D p.18",
+      "Source-contained Appendices E/F p.18"
+    ],
+    "rendered_inspected": [
+      1,
+      2,
+      9,
+      11,
+      12
+    ]
+  },
+  "sentence_units": 49,
+  "limits": [
+    "No experiment replication, present-day novelty certification, repository-availability claim or measured writing-benefit claim.",
+    "Source-contained E/F are contextual source statements, not independently verified review provenance."
+  ]
+}

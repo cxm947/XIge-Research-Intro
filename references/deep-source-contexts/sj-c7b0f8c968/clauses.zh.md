@@ -1,0 +1,757 @@
+# ActivationSteering：五段二十二句与六个整句变体
+
+- full_title: Compiling Activation Steering into Weights via Null-Space Constraints for Stealthy Backdoors
+- version: Official ACL 2026 long-paper proceedings, pp.26228–26245, 18 physical pages
+- unit_policy: 沿旧图五段22句，没有编号贡献清单。数字只记检查范围。
+- local_span_policy: 每个局部替换的精确半开Unicode偏移与哈希指向指定源引言的规范化转写；原语句按指定PDF回查，不在分析中长篇引述。中文替换是语义层面方案，不是可与英文余部直接拼接的字符替换。
+- attribution_policy: 原作者主张的量词、模态、因果和强度先独立记录；证据资格不偷偷塞入忠实替代。明确改变强度/预设的编辑选项另标，不称等义。
+- whole_sentence_variants:
+  - 
+    - id: WV1
+    - source_unit: P2.S1
+    - scope: 整句改写；不与局部替换同时叠加
+    - attributed_variant_zh: 作者指出，现有权重编辑后门虽有效率优势，在生成阶段却经常难以稳定地产生所要求的恶意行为。
+    - semantic_delta: 新增作者指出以明示归属；让步由句首介词短语转为内部对照。经常、难以、生成阶段和效率承认均保留。
+    - selection_condition: 文献分析需要报告近邻的特定剩余问题，而不把其全盘否定。
+    - evidence_qualification: 此为作者总体判断；具体频率由后文评价范围约束。
+    - source_sentence_sha256: 6786b07f8015106ed9a527bf8411dcb5fcad0b70b674c5246dc1134add1d8b27
+    - normalized_intro_char_start: 1348
+    - normalized_intro_char_end_exclusive: 1480
+  - 
+    - id: WV2
+    - source_unit: P2.S3
+    - scope: 整句结构变体，改写为两句；引用归属仍指源句
+    - attributed_variant_zh: 作者认为，短肯定前缀不能保证有害内容的持续生成。模型可能短暂同意后又回到安全回答；作者把这一过程解释为仍完好的安全机制在后续解码中重新占优，并指出前作已观察到这种失效。
+    - semantic_delta: 将冒号解释拆成独立句与分号，新增作者归属；保留不保证、可能、时间顺序、因果解释及既有观察来源，未改成必然回归。
+    - selection_condition: 读者需先掌握非充分关系，再接受机制解释；拆句用于减轻嵌套负担。
+    - evidence_qualification: 该机制解释及前作观察是源作者陈述，本轮没有独立核验其因果或重读被引前作。
+    - source_sentence_sha256: 6c67654ffebe7c7abfed34452d4e48cbecd7e3fc86a6080943f4a3015c00d9f9
+    - normalized_intro_char_start: 1677
+    - normalized_intro_char_end_exclusive: 1967
+  - 
+    - id: WV3
+    - source_unit: P3.S2
+    - scope: 整句归属显化与例项位置调整，非原文引语
+    - attributed_variant_zh: 作者认为activation steering提供了有说服力的认识视角：拒绝倾向等高层行为可以由激活空间中近似线性的方向来表征。
+    - semantic_delta: 添加作者认为以标明视角评价和能力陈述均归作者；在能力命题内部，拒绝倾向由插入例项调整为前置例项，两大命题和冒号关系没有对调。可以、近似线性、激活空间、拒绝倾向及对视角的正面评价均未删弱。
+    - selection_condition: 需忠实转述被借用的已有能力，同时明确价值判断归属时。
+    - evidence_qualification: 这里只报告源认识，不升级为所有行为精确线性编码的定理。
+    - source_sentence_sha256: b69fc5b3d88f54ee3f86562b9e97582d98edfbb2bbeed3259c9098824627861d
+    - normalized_intro_char_start: 2284
+    - normalized_intro_char_end_exclusive: 2492
+  - 
+    - id: WV4
+    - source_unit: P3.S5
+    - scope: 整句展开成两句；保留任务适配层级
+    - attributed_variant_zh: 作者指出，朴素steering并不直接适合后门任务：它通常影响所有输入，损害隐蔽性与良性效用。它还要求改变推理流程，从而妨碍作为持久、权重内嵌攻击的部署。
+    - semantic_delta: 将冒号后的两项解释分句，括号后果提升为显式谓语，关系从句后果提升为结果分句；保留不直接、通常及两种独立障碍，不把无重训换成无运行干预。
+    - selection_condition: 两类部署要求容易在一个长句中混淆，需要分别看见各自后果时。
+    - evidence_qualification: 该适配判断来自源作者；它允许经改造后使用steering，不是对所有用途的绝对否定。
+    - source_sentence_sha256: 15cc7c8d6c4ab3b0e6a32e3376eb0f1f74f761b7b81df77a34a7bce6ad889b14
+    - normalized_intro_char_start: 2819
+    - normalized_intro_char_end_exclusive: 3078
+  - 
+    - id: WV5
+    - source_unit: P4.S5
+    - scope: 整句归属型转述；保持源效果强度
+    - attributed_variant_zh: 作者主张，该方法通过针对表示而不是表面前缀，维持有害生成，并减轻生成过程中的安全回归。
+    - semantic_delta: 添加作者主张以明示效果归属；手段框架与两个效果谓语保留，没有换成可能有助或彻底消灭。生成过程中的解释词回收P2解码语境。
+    - selection_condition: 学术评述须准确报告强效果主张，同时将是否充分支持留到证据讨论。
+    - evidence_qualification: 强主张归作者；本轮仅检查其与§6评价职责相连，不把有限实验当成所有输入保证。
+    - source_sentence_sha256: 15b018ee36d38f3c19ca0638c1e3ea1d82223b7b48f19695ae6fab4b440d3ba8
+    - normalized_intro_char_start: 3844
+    - normalized_intro_char_end_exclusive: 3979
+  - 
+    - id: WV6
+    - source_unit: P5.S2
+    - scope: 整句并列展开为两句，保留评价设计而非结果宣告
+    - attributed_variant_zh: 作者测量触发条件下的攻击成功，同时核查良性行为及无触发有害请求上的拒绝与未编辑模型保持接近。作者还评估一般效用，以确保性能退化尽可能小。
+    - semantic_delta: 将两个并列评估动作拆为两句，作者主体明示；同时核查的内容、接近基线判据和最小退化目的均保留，未改成已证零退化。
+    - selection_condition: 介绍实验设计时需要分清测量、保持核查及效用目的，又不愿改变源作者命题强度。
+    - evidence_qualification: close不是数学相等，一般效用不是单一准确率；需回正文确定操作化。
+    - source_sentence_sha256: e50193e2c0b750ede9c7d15803cfa8a831eb9d1cb64b97f37a34b01afa6cefb0
+    - normalized_intro_char_start: 4116
+    - normalized_intro_char_end_exclusive: 4331
+
+## P1.S1
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1左栏引言开头，续右栏顶部
+- retained_clause: True
+- grammatical_matrix: 两个转折并列有限命题：LLM已成为AI基础设施组成；广泛部署暴露供应链后门风险。不是只有第一分句为主句。
+- dependent_and_paratactic_forms: 转折连词协调两个命题，后项主语由模型转为其部署；两组引文各支持相应背景。
+- discourse_foreground: 由部署价值转风险暴露，同一部署对象完成正面与威胁两种角色。
+- given_information: 引言无前文已给事实；基础设施地位属于作者调用的领域背景，不是刚刚论证过的结论。
+- new_information: 广泛部署与供应链安全风险之间的联系。
+- reader_dependency: 为P1.S2的攻击路线提供任务范围，避免后文编辑方法悬空。
+- length_role: 句长部分来自引文；逻辑只有两命题，转折让入口不必拆成一段价值、一段威胁。
+- author_choice_editorial_inference: 若只保留威胁，部署重要性不再显式；若只保留价值，后门路线的研究意义需要另建。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 两个有限分句之间的转折连接词
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 1d1565be5759dc8c9a38591d412308d9450b7c50b38c3789c773c1b6c1da0e40
+  - sentence_local_char_start: 166
+  - sentence_local_char_end_exclusive: 169
+  - normalized_intro_char_start: 166
+  - normalized_intro_char_end_exclusive: 169
+  - span_sha256: cfd96dd92f7e0025b1461aafc2bf0aeaea4f79b27b193f49c6132c4c63a300cb
+  - replacement_zh: 但
+  - exact_semantic_change: 只把英文转折功能显式为中文但；保留两项断言的并列性，不改成部署导致全部漏洞的因果保证。
+  - selection_condition: 需要同一对象承接收益和风险时；没有证据时不可把转折改因果。
+- attributed_source_claim_strength: 作者肯定基础设施地位和显著风险暴露，未用可能性标记弱化。
+- separate_evidence_qualification: 仅为本文引言所述背景；本轮未逐篇核验其中背景引文。
+- retained_prior_analysis: LLM基础设施主句承载已知，yet并列部署带来的供应链风险；同一deployment既给价值也给暴露面。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+- retained_analysis_correction: Both sides are finite coordinated propositions. The opening domain background is not information already introduced within this Introduction; the benefit/risk reading remains.
+
+## P1.S2
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P1第二句
+- retained_clause: True
+- grammatical_matrix: 传统注入路线依赖数据投毒。
+- dependent_and_paratactic_forms: 关系从句给数据/计算负担，目的不定式限定资源用于重训/微调；结果分词给效率和适用性后果；末尾条件主要限定训练流程访问受限情境。
+- discourse_foreground: 实际前景在依赖及其负担链，虽然大部分原因/后果位于从属结构。
+- given_information: P1.S1的供应链威胁。
+- new_information: 传统路线为何受数据、算力和访问条件约束。
+- reader_dependency: 负担→P1.S3较灵活路线→P1.S5公平承认其已改善效率；不是本文直接新解。
+- length_role: 长句容纳路线—需求—后果—适用条件，长度用于解释具体不足，不能只删从句以求短。
+- author_choice_editorial_inference: 先交旧路线根因，再交更强近邻，避免把已被解决的成本问题误当本文独有gap。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句尾关于原训练流程访问的条件结构
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: aeff1e81f8e87ab95ede7466b39359dc9ac4925cc47e2c44f233116ae105fb9a
+  - sentence_local_char_start: 298
+  - sentence_local_char_end_exclusive: 358
+  - normalized_intro_char_start: 630
+  - normalized_intro_char_end_exclusive: 690
+  - span_sha256: d7fafedc81d04a69cfd28964c8c06be0c2986fdd046a249c5a2a45875d5e8d9f
+  - replacement_zh: 在攻击者无法访问原始训练流程的情形下
+  - exact_semantic_change: 保留访问条件和原始流程对象；只将句尾条件中文化，不改成不知道训练流程或完全没有训练能力。
+  - selection_condition: 需要读者看见适用性限制的条件范围；不得将其扩张到所有威胁情境。
+- attributed_source_claim_strength: 源句明确资源需求与效率/适用性后果，不只是可能存在成本。
+- separate_evidence_qualification: 该句是作者对传统路线的概括，不证明全部投毒方法均同成本；本分析不改弱源作者断言。
+- retained_prior_analysis: 主句data poisoning为已有路线；which从句给训练成本，resulting分词说明效率/适用性后果，when从句限定无训练流程访问的现实条件。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+
+## P1.S3
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P1第三句
+- retained_clause: False
+- grammatical_matrix: 研究界近期转向后置权重编辑。
+- dependent_and_paratactic_forms: 后置身份/比较结构将此路线评价为更灵活的攻击途径。
+- discourse_foreground: 对较强既有答案的引入，接住成本问题；本文尚未登场。
+- given_information: P1.S2传统路线负担。
+- new_information: 另一条近邻路线及其相对灵活性。
+- reader_dependency: 为P1.S4概念解释和S5实际优势准备共同指代。
+- length_role: 较短转接句负责换比较对象；具体如何与为什么留给后两句。
+- author_choice_editorial_inference: 若在此直接介绍本文，会失去后置编辑已经解决效率的事实，从而夸大增量。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首时间框架
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 63f62c526dfcb7073c83b5f1d7431b278667f539476f3b050288005e057e1d6f
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 9
+  - normalized_intro_char_start: 692
+  - normalized_intro_char_end_exclusive: 701
+  - span_sha256: 94547bf88a5bce94cf8541b80a30ec1215aaaba5f88906805ec1647404e30fae
+  - replacement_zh: 近期，
+  - exact_semantic_change: 保留未指定长度的近期表达，不新增年尺度、具体年份或声称旧路线已消失；只是句首时间框架的中文对应。
+  - selection_condition: 综述需要表现路线发展，但无逐年史证据时不自行量化时间。
+- attributed_source_claim_strength: 作者用发生过的转向和更灵活评价，非建议未来转向。
+- separate_evidence_qualification: 本轮不独立调查全领域是否真的转向；保留为论文的领域概括。
+
+## P1.S4
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P1第四句
+- retained_clause: False
+- grammatical_matrix: 同一方法集合承担两个有先后标记的谓语，交代定位和编辑的概念关系。
+- dependent_and_paratactic_forms: 句首非有限结构交代技术来源；主干内部含先后序列；末尾目的不定式界定编辑所编码的条件响应目标。
+- discourse_foreground: 让后置编辑不只是一个名词，并为P2识别其输出目标局限提供概念前提。
+- given_information: P1.S3引入后置权重编辑。
+- new_information: 知识编辑来源、条件映射这一近邻概念，不提供本轮新操作流程。
+- reader_dependency: P2.S2把该映射进一步判为token级目标；读者先知近邻能做什么再理解为何不足。
+- length_role: 中长句用一个主语保持机制归属，时间关系不能随便改成并行。
+- author_choice_editorial_inference: 作者需要近邻机制足够具体才可批评其目标；本台账只分析其语法职责，不复述可执行构建步骤。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首技术来源非有限短语（引用保留不动）
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: a91eb736841a1a194bc90c5eeb580c21315379572aca2d75c7ed5f9f30ed7e2f
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 49
+  - normalized_intro_char_start: 857
+  - normalized_intro_char_end_exclusive: 906
+  - span_sha256: c1907cb6927c82da12617ac616d3b8a54096bce54cc2067966b79e63e84f1bf6
+  - replacement_zh: 借助知识编辑（KE）技术
+  - exact_semantic_change: 只替换技术来源短语，保留引用、主语及后续先后关系；不增加新工具或实现细节。
+  - selection_condition: 需要明确方法来源但不宜让背景技术抢过主句动作时。
+- attributed_source_claim_strength: 源句将方法概念作为既有路线的直接陈述。
+- separate_evidence_qualification: 不实施后门、不提供代码、参数配置、触发内容或模型修改。
+
+## P1.S5
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P1末句
+- retained_clause: False
+- grammatical_matrix: 权重编辑相较数据投毒只需少量样本和极少计算资源。
+- dependent_and_paratactic_forms: 前置比较限定参照；后置结果分词把低投入与现实实用/效率连接。
+- discourse_foreground: 承认最强近邻已经解决什么；结果分词里的实用价值也是本段的新落点。
+- given_information: P1.S2成本问题和S3–4更灵活路线。
+- new_information: 资源差别带来的现实可用性；不是本文方法的成本数字。
+- reader_dependency: P2.S1明确回收效率为让步前提，然后转可靠性维度。
+- length_role: 末句需要保留比较对象和结果，作用是给下一段一项真实可承认优势。
+- author_choice_editorial_inference: 如果段尾继续只批评成本，P2的效率让步会没有铺垫；本句不应被误配为本文效率贡献。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首比较参照
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 19975d18b488f202d42d4d88f25bc8794857c2aab6be74df1ee091c9f7052d0c
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 27
+  - normalized_intro_char_start: 1141
+  - normalized_intro_char_end_exclusive: 1168
+  - span_sha256: c3a8f3e23327c02c3a104de9d73ccb7aab8eb07a54e100c57acbfa86ef4f8a78
+  - replacement_zh: 与数据投毒相比，
+  - exact_semantic_change: 比较参照保持不变，未改成相对所有其他方法或绝对零成本。
+  - selection_condition: 给强近邻明确比较优势时；须与被比较路线对应。
+- attributed_source_claim_strength: 只有少量与极少资源、显著更实用/高效是作者强相对主张。
+- separate_evidence_qualification: 后文本文校准资源另有设置；不能把这句近邻的少量样本直接当作本文全部资源账单。
+
+## P2.S1
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P2首句
+- retained_clause: True
+- grammatical_matrix: 既有权重编辑后门在生成阶段经常难以稳定引出恶意行为。
+- dependent_and_paratactic_forms: 前置让步是介词短语，不是有限从句；频率副词限制难以可靠达成的范围。
+- discourse_foreground: 由已解决的效率切换到未充分解决的生成可靠性，保留近邻能力。
+- given_information: P1.S5效率优势。
+- new_information: 生成阶段可靠性是新的成功维度。
+- reader_dependency: P2.S2解释所优化对象；S3交代理目标与真实行为的区别。
+- length_role: 短句承担评价轴转折，而非把所有机制细节塞进开头。
+- author_choice_editorial_inference: 让步不是礼貌套话：如果去掉已有效率，读者会把两类方法一并当成不可用。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首效率让步短语
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 6786b07f8015106ed9a527bf8411dcb5fcad0b70b674c5246dc1134add1d8b27
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 25
+  - normalized_intro_char_start: 1348
+  - normalized_intro_char_end_exclusive: 1373
+  - span_sha256: a2760c66da9f2b95c85fb6389aff197318261cf710f22bd7a318b3f6882284dc
+  - replacement_zh: 尽管这些方法效率较高，
+  - exact_semantic_change: 保留让步及指代，频率与可靠性限定留在原句余部；不改为总是失败。
+  - selection_condition: 上段已经建立效率、当前需转换评价轴时。
+- attributed_source_claim_strength: 经常难以，不是从不成功；效率被承认，不是被撤回。
+- separate_evidence_qualification: 源句频率范围来自作者概括；本轮不把少数示例扩成全体失败率。
+- retained_prior_analysis: Despite把已建立效率作为让步前提，主句struggle把新的可靠性维度推到前景；避免把近邻全盘否定。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+
+## P2.S2
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P2第二句
+- retained_clause: False
+- grammatical_matrix: 多数既有方法隐含地把注入视作token级映射问题。
+- dependent_and_paratactic_forms: 后置现在分词说明其优化目标；目标响应受触发条件限制；括号例子仅说明肯定前缀类别。
+- discourse_foreground: 交代前缀层代理优化目标，为下一句说明它不足以保证完整生成行为提供前提；本句尚未陈述既有方法的评价指标。
+- given_information: P2.S1生成可靠性问题；P1.S4近邻映射概念。
+- new_information: 多数、隐含、token级以及肯定前缀目标之间的关系。
+- reader_dependency: P2.S3将前缀这一代理目标与完整生成行为区分。
+- length_role: 一句同时列问题表征和具体目标，使后续非保证命题有明确前件。
+- author_choice_editorial_inference: 若只保留多数方法不可靠，研究残余是结果标签；补出目标层级才给表示层转向理由。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 主句的范围与隐含性标记组合
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: fe3eced06410e0cf6600b310c5d4d585b1abe6b1e43cfd864348658df938d026
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 32
+  - normalized_intro_char_start: 1481
+  - normalized_intro_char_end_exclusive: 1513
+  - span_sha256: 3c61e9fabd00c8c692b836be9062951970aeb7c9061117cd137b4d1eb4069c93
+  - replacement_zh: 多数既有方法在其目标设定中隐含地
+  - exact_semantic_change: 保留多数而非全体、隐含而非作者公开宣称；在其目标设定中为定位解释性增补，不增加已实现效果。
+  - selection_condition: 担心读者把对方法行为的概括误当其论文自述目标时。
+- attributed_source_claim_strength: 作者对多数方法作隐含目标判断；优化为了产生前缀，不等于已经稳定产生完整行为。
+- separate_evidence_qualification: 新增目标设定中仅解释本句视角；本轮未逐篇核验被概括方法。
+
+## P2.S3
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P2第三句
+- retained_clause: True
+- grammatical_matrix: 冒号前主命题为肯定前缀不能保证持续有害完成；冒号后是解释性的有限命题，模型可能先同意再回到安全回答。
+- dependent_and_paratactic_forms: 不是把冒号后整段一律当从句；其内部有先后并列谓语及原因从句，末尾名词性补充以既有观察标记这种失效。
+- discourse_foreground: 代理目标不充分，以及为什么生成过程能改变方向；原因解释不是主句才重要。
+- given_information: P2.S2前缀优化目标。
+- new_information: 前缀成功与持续行为的非充分关系，及安全机制在后续解码重新占优的作者解释。
+- reader_dependency: P2.S4图例实例化；P3.S1据此换研究视角；§6的fallback指标回应这个区别。
+- length_role: 较长句把抽象边界、时间进程、机制解释和先前观察连在一起；拆开可减负，但须保持可能性与因果归属。
+- author_choice_editorial_inference: 用不能保证而不是完全无效，给偶尔成功留空间；用解码时间链解释为何初始指标会误判。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 冒号前否定充分性的谓语片段
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 6c67654ffebe7c7abfed34452d4e48cbecd7e3fc86a6080943f4a3015c00d9f9
+  - sentence_local_char_start: 46
+  - sentence_local_char_end_exclusive: 93
+  - normalized_intro_char_start: 1723
+  - normalized_intro_char_end_exclusive: 1770
+  - span_sha256: 4a7b8d01c4c3e28b6644de1c27008a8a75933675e51740b01449a5c4cc185dd5
+  - replacement_zh: 并不能保证持续生成有害内容
+  - exact_semantic_change: 保留不保证这一逻辑强度；不替换为永远无法、也不偷换成一定导致拒绝。
+  - selection_condition: 想把代理成功与真实完成区分，而材料不支持绝对失败时。
+- attributed_source_claim_strength: 前缀不提供保证是明确断言；后续同意/回归是可能情景；安全机制解释归作者。
+- separate_evidence_qualification: 相关前作只在本论文中被引用；本轮未独立证明每例回归均由同一机制导致。
+- retained_prior_analysis: 主句“短前缀不保证持续完成”先给概念判断；冒号后may…then…以时间进程解释，as原因从句把回拒连接仍完好的安全机制。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+
+## P2.S4
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P2末句
+- retained_clause: False
+- grammatical_matrix: 触发后模型可以开头表示同意，却最终拒绝或绕开恶意指令。
+- dependent_and_paratactic_forms: 前置图示短语指证据载体；主干共享能力/可能情态并列先后结果；末尾分词说明按攻击目标衡量为无效。
+- discourse_foreground: 把P2.S3抽象区别变成可辨识的完整响应单位，而非新增一个普遍定律。
+- given_information: 前缀不保证整段行为的概念。
+- new_information: 图中对照示例使开头/终局差别可观察。
+- reader_dependency: 由P2.S3论断接Fig.1；为P3摆脱表面约束提供具体直观理由。
+- length_role: 中长句同时包含图锚和行为进程，不能把图中的台词当引言新增句数。
+- author_choice_editorial_inference: 图例被放在概念判断之后，读者先知道应比较响应的什么部分。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 图示证据框架
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 82a0d84a3c22a8d29380524fa6fd62a51e8d35e2719debb22bb1dd93f992f2c5
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 27
+  - normalized_intro_char_start: 1968
+  - normalized_intro_char_end_exclusive: 1995
+  - span_sha256: 52b31784973d664e930d214102d15b5c1856c14004678cf5d5dd9350e955979c
+  - replacement_zh: 如图1的示例所示，
+  - exact_semantic_change: 加入示例明确该图是定性展示；不改变可能性命题，也不把例图改成统计检验。
+  - selection_condition: 可视例子容易被误读为性能分布或完整原始输出时。
+- attributed_source_claim_strength: 模型可以先同意再拒绝/回避，不是所有触发响应都如此。
+- separate_evidence_qualification: Fig.1图注说明输出经样式化呈现并删改有害细节；它不是逐字原始生成记录，也不是量化证据。
+
+## P3.S1
+
+- physical_pdf_page: 1
+- printed_page: 26228
+- location: 页1右栏P3首句
+- retained_clause: False
+- grammatical_matrix: 这个局限促使研究越过表面token约束，转向内部表示。
+- dependent_and_paratactic_forms: 动词后的动名结构给研究转向；由表面到内部是方向对照，不是已给出的完整新方法。
+- discourse_foreground: 将失效诊断转成观察层级选择。
+- given_information: P2的代理/持续行为失配。
+- new_information: 表示层作为要探索的解释和控制对象。
+- reader_dependency: P3.S2引入已有steering能力；这句不直接跳到本文构建。
+- length_role: 短过渡句让论证换层，不承担全部表示背景。
+- author_choice_editorial_inference: 若直接声称需要本文特定方法，会把问题动机偷换为唯一方案必然性；原文只先移动视角。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 回指与研究动机主语谓语
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: d8b5ea1738324d1eedd20366c53c621fa44538791c6efc43c7ffeb22a42823d5
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 25
+  - normalized_intro_char_start: 2160
+  - normalized_intro_char_end_exclusive: 2185
+  - span_sha256: 1d9a696d48f775b64520fa6574ab78c1b619dc49e9d3a4f8a58531d5844f973a
+  - replacement_zh: 这一局限促使
+  - exact_semantic_change: 仅将回指与动机关系转为中文，保持后续研究转向内容，不把已陈述动机弱化成可能值得考虑。
+  - selection_condition: 需要把已建立的不足接到研究视角变化时；不能改成唯一方案必然性。
+- attributed_source_claim_strength: 源句直接说局限促使转向，不只说有可能值得考虑。
+- separate_evidence_qualification: 动机叙述本身不证明该转向一定成功，证据资格与源肯定陈述分别保存。
+
+## P3.S2
+
+- physical_pdf_page:
+  - 1
+  - 2
+- printed_page:
+  - 26228
+  - 26229
+- location: 句首steering跨页断字；续于页2左栏图下
+- retained_clause: True
+- grammatical_matrix: 冒号前有限命题为activation steering提供有力视角；冒号后有限解释命题为高层行为可由近似线性方向表征。
+- dependent_and_paratactic_forms: 冒号解释是并置有限分句，不能误标成that内容从句；插入列举把拒绝倾向纳入高层行为，近似限定线性而能力情态限定表征。
+- discourse_foreground: 真正使读者能借用的能力在冒号后，前半是价值框架；二者都不是证明步骤。
+- given_information: P3.S1内部表示视角。
+- new_information: 行为可以由近似线性表示方向捕获这一已有认识。
+- reader_dependency: P3.S3接其中顺从方向的定义；P3.S4才说可如何影响行为的概念能力。
+- length_role: 冒号允许先给价值判断再立即解释依据，避免一个孤立的有力视角评价。
+- author_choice_editorial_inference: 若只说steering有潜力，读者无从判断其与持续行为的关系；近似和可以须保留，不能升级为精确线性充分表示。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 冒号后的近似线性范围短语
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: b69fc5b3d88f54ee3f86562b9e97582d98edfbb2bbeed3259c9098824627861d
+  - sentence_local_char_start: 156
+  - sentence_local_char_end_exclusive: 187
+  - normalized_intro_char_start: 2440
+  - normalized_intro_char_end_exclusive: 2471
+  - span_sha256: 8efd73e9a0d5bd9ef562677b181a3270c36768590f6e02510debd572efe80475
+  - replacement_zh: 近似线性的方向
+  - exact_semantic_change: 保持近似修饰线性，不改成严格线性、不改成高概率保证。
+  - selection_condition: 读者可能把表示简化当作精确等价时。
+- attributed_source_claim_strength: 源文肯定该视角有吸引力，表征是可以且近似线性。
+- separate_evidence_qualification: 本轮未核验steering文献的全部理论与因果条件；近似性属于源句本身，非评审另加。
+- retained_prior_analysis: 主句steering offers a lens承接新视角；冒号后行为可表示成方向说明所借能力，给下一句术语定义预留位置。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+
+## P3.S3
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P3第三句
+- retained_clause: False
+- grammatical_matrix: 前半系词命题定义顺从方向；破折号后以沿此方向变化为主语，说明其鼓励顺从而非拒绝。
+- dependent_and_paratactic_forms: 关系从句给方向的区分性质；破折号引出的解释含有限谓语，不是简单非限定词组。
+- discourse_foreground: 定义不是只给名字，区分对象与行为倾向共同使下一句可理解。
+- given_information: P3.S2高层行为方向。
+- new_information: 这一方向区分顺从/拒绝，并具有倾向性行为含义。
+- reader_dependency: P3.S4中的该方向因此可回指；P4核心概念不需临时另定义。
+- length_role: 一句先分类后功能，避免定义与价值分成两次无连接介绍。
+- author_choice_editorial_inference: 破折号解释推动行为含义，但鼓励不是保证每个样本服从。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 关系从句表达区分对象
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: f706b7fcb3c46355b6ba6297775cd1ce0650fd6ec5ae7dc2cebcbe8a1aa95992
+  - sentence_local_char_start: 45
+  - sentence_local_char_end_exclusive: 100
+  - normalized_intro_char_start: 2538
+  - normalized_intro_char_end_exclusive: 2593
+  - span_sha256: 819c7e3af1361709f347d57812928ba647baed0fe0cf496d24f1ee2a5ad05b24
+  - replacement_zh: 区分顺从行为与拒绝行为的
+  - exact_semantic_change: 中文前置定语表达原关系从句内容，保留两个对象及区分性质，未新增用途目的或成功保证。
+  - selection_condition: 中文说明需要把关系从句转为短定语时；不得将区分改成消灭拒绝。
+- attributed_source_claim_strength: 作者定义区分方向并说其鼓励顺从，未保证每次生成均如愿。
+- separate_evidence_qualification: 本台账不将这句定义转成向量提取或控制模型的指导。
+
+## P3.S4
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P3第四句
+- retained_clause: False
+- grammatical_matrix: 人们可在无重训条件下影响模型行为。
+- dependent_and_paratactic_forms: 前置手段结构含两个并列非有限动作，限定此能力的推理阶段来源；成本条件在主干结尾。
+- discourse_foreground: 已有表示方法的强能力与资源条件，为下面部署适配问题作铺垫。
+- given_information: 已定义的行为方向。
+- new_information: 推理期干预不必重训的能力。
+- reader_dependency: P3.S5保留其强处，再指出范围与运行依赖不适合所研究的静态任务。
+- length_role: 较简明能力句承担公平比较，详细操作不属于本轮产物。
+- author_choice_editorial_inference: 无重训与无运行干预是不同条件；后句恰好指出后者未解决，不能混成全无成本。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 结尾训练成本条件
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: ef6911ed5288f7ff72e0728ea149dc37b89c25b25a304f9cfba042e68131d9a1
+  - sentence_local_char_start: 107
+  - sentence_local_char_end_exclusive: 125
+  - normalized_intro_char_start: 2780
+  - normalized_intro_char_end_exclusive: 2798
+  - span_sha256: b2568419a0a9d7aade318ad515739ee24ace3ad1299ab46b1b027c52f16707d4
+  - replacement_zh: 无须重新训练
+  - exact_semantic_change: 保留免重训，既不扩大为无数据也不扩大为不干预推理流程。
+  - selection_condition: 比较训练期与推理期成本、避免以一种免需求代替所有免需求时。
+- attributed_source_claim_strength: 源文说可影响行为且无需重训，是已有能力断言。
+- separate_evidence_qualification: 这里不提供干预步骤、具体方向或模型配置；评价也未证明所有行为都可控制。
+
+## P3.S5
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P3第五句
+- retained_clause: True
+- grammatical_matrix: 冒号前为朴素steering不直接适合后门任务的判断；冒号后同一主语给影响范围和推理流程要求两项解释。
+- dependent_and_paratactic_forms: 影响所有输入后的括号分词说明隐蔽性/效用损失；第二项后的关系从句说明静态持久部署受损，只有第一种后果在括号内。
+- discourse_foreground: 已有能力并非直接任务答案；选择性与持久部署是两个独立剩余义务。
+- given_information: P3.S4无重训的既有能力。
+- new_information: 普遍作用范围与运行期依赖的任务不适配。
+- reader_dependency: P3.S6从这两项推出条件性/权重内嵌要求；P4分别回应。
+- length_role: 较长句用冒号和两支因果对应把不适合说具体；两类后果不能合成一个笼统不实用。
+- author_choice_editorial_inference: 不直接适合保留改造空间，使结合路线有理由；若写完全无用，会与前句和本文借用它矛盾。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 冒号前任务适配谓语
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 15cc7c8d6c4ab3b0e6a32e3376eb0f1f74f761b7b81df77a34a7bce6ad889b14
+  - sentence_local_char_start: 24
+  - sentence_local_char_end_exclusive: 62
+  - normalized_intro_char_start: 2843
+  - normalized_intro_char_end_exclusive: 2881
+  - span_sha256: 287841971d777ababacb17ccd41a4adf7a902925e511b9c478e22ae5373818c6
+  - replacement_zh: 并不能直接适用于所研究的后门任务
+  - exact_semantic_change: 保留不直接而非绝对不可用；所研究的把上下文任务显式化，不声称否定一切表示干预用途。
+  - selection_condition: 近邻有真实能力但尚缺特定部署条件时。
+- attributed_source_claim_strength: 源句说通常作用全部输入并要求改推理流程；适配否定受直接限定。
+- separate_evidence_qualification: 保留分析把两种后果都说成括号补充，源中第二种是关系从句；这是历史局部形式误记，语义双障碍仍有效。
+- retained_prior_analysis: 主句not directly suitable给任务适配判断；冒号后typically…and requires并列范围与部署两种障碍，括号只补各自后果。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+- retained_analysis_correction: Only the first consequence is parenthetical; the second deployment consequence is a relative clause. Both application obstacles remain substantive.
+
+## P3.S6
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P3末句
+- retained_clause: False
+- grammatical_matrix: 上述问题促成一种条件触发且在参数内持久体现的机制需求。
+- dependent_and_paratactic_forms: 机制后的关系从句规定要实现的表示效果承载方式；矩阵是动机关系，不是已经完成实证的效果宣告。
+- discourse_foreground: 把两个适配障碍汇成设计要求，为本文框架建立读者验收条件。
+- given_information: P3.S5的选择性和部署限制。
+- new_information: 要求必须同时满足的两个条件。
+- reader_dependency: P4.S1开始作者工作；P4.S3、S4和P5的条件/保持评价可回扣。
+- length_role: 短综合句压缩两支理由，不再重复其完整原因。
+- author_choice_editorial_inference: 回指涵盖两项障碍，不应只回到最近的部署句而丢掉选择性。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 主句动机连接
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: c693abe5129a70a8fc9fef59d03dbee6ee959a8ac0fa42e25475e9cdb5b97a75
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 14
+  - normalized_intro_char_start: 3079
+  - normalized_intro_char_end_exclusive: 3093
+  - span_sha256: dfd617dc444bbbf130bb513605349a77aac12b4e63fc1db19f42643410a9ac7b
+  - replacement_zh: 这些适配限制引出
+  - exact_semantic_change: 用复数明确回指两项限制；从促成到引出主要改变论述呈现，保留动机关系，不增强为逻辑唯一必然。
+  - selection_condition: 近邻的两种缺口共同构成需求时。
+- attributed_source_claim_strength: 作者提出需求，不声称其他满足方式不可能。
+- separate_evidence_qualification: 本分析不把需求细化为新设计或后门构建建议。
+
+## P4.S1
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P4首句
+- retained_clause: False
+- grammatical_matrix: 作者把动态steering与静态编辑之间的间隔连接起来。
+- dependent_and_paratactic_forms: 句首文内范围标记；目的不定式引出有原则的框架，框架目的另定研究任务。
+- discourse_foreground: 以两条已经获认可的能力为起点提出研究产物，本文未在此另列贡献项目。
+- given_information: P1后置编辑与P3steering的能力/适配差别。
+- new_information: 本文框架的结合定位及作者自述的原则性。
+- reader_dependency: P4.S2给核心想法，后句再分解条件与保持目标。
+- length_role: 一条概览句承接全篇来由，不把机制说明挤成算法名字。
+- author_choice_editorial_inference: 框架先于具体论述出现，作者把贡献写入连续段而非编号清单；不应为模板另造C1–C3。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首工作范围标记
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 3262fd5a767da3658879fb1414b2c9e0d80cd0430d7249e577c46e30a8d3a1ef
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 14
+  - normalized_intro_char_start: 3198
+  - normalized_intro_char_end_exclusive: 3212
+  - span_sha256: 10921bf14135028001526f53a48644317efaaff8c60cb59bfa857592e45dfa5e
+  - replacement_zh: 本研究中，
+  - exact_semantic_change: 仅替换文内定位，保留结合动作和目的；不提升原则性为本轮已证正确。
+  - selection_condition: 需要从需求切到作者工作，同时沿用上段对象时。
+- attributed_source_claim_strength: 作者称框架有原则；本轮按其主张归属，不降成猜想，也不替其证明。
+- separate_evidence_qualification: 框架名称可见于图文其他位置，引言运行正文未以新方法名作为句法主角。
+
+## P4.S2
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2左栏P4第二句
+- retained_clause: False
+- grammatical_matrix: 系词主句宣布核心想法，其补足内容说明把动态作用变为静态承载这一概念选择。
+- dependent_and_paratactic_forms: 后接目的/预期结果结构，内含触发出现时的条件；随时出现触发这一条件不可与下一句仅在处理触发时混为同一逻辑。
+- discourse_foreground: 读者所需的新内容位于核心想法的补足及结果从句，外层宣布本身不够。
+- given_information: P3.S6要求与P4.S1框架。
+- new_information: 表示作用与持久承载如何在概念上接合。
+- reader_dependency: P4.S3收窄发生条件；P4.S4再说非触发保持，后二者不是同义重复。
+- length_role: 中长句以核心概念加预期行为为一组，不在引言给实现公式。
+- author_choice_editorial_inference: 若只留提出框架，读者无法检查动态与静态的连接；若把全部实现搬入则破坏读者先建立判据的顺序。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 核心想法的系词框架
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: eb8dd749c0d3627239f8b2a649b0694cd86a9d063754c1db9d0729950cb79ea7
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 16
+  - normalized_intro_char_start: 3359
+  - normalized_intro_char_end_exclusive: 3375
+  - span_sha256: 585605684200140b18145ecdc4658433335a246ea55c5c628ebbfa0d62fd0355
+  - replacement_zh: 核心想法在于
+  - exact_semantic_change: 换中文框架，不删除后续概念内容及条件，不把预期结果改成已完成的量化验证。
+  - selection_condition: 需要先抓住一个中心概念再解释约束时。
+- attributed_source_claim_strength: 作者正面声明核心想法及触发时的表示变化；本轮不替换成可能方向。
+- separate_evidence_qualification: 对应技术的数学/实现有效性不在本轮核验范围。
+
+## P4.S3
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2右栏顶部P4续句
+- retained_clause: False
+- grammatical_matrix: 作者设计该编辑的条件性效果。
+- dependent_and_paratactic_forms: 前置目的回指上一句的作用变化；主干设计补足结构中含只在特定处理条件下的限制。
+- discourse_foreground: 把前句触发出现时产生作用进一步界定为选择性，不是直接重报同一个效果。
+- given_information: P4.S2的该变化及P3的选择性需求。
+- new_information: 必要条件式门控要求，不是仅说一旦存在就作用。
+- reader_dependency: P4.S4接未触发输入的保持责任；P5双条件评估回应。
+- length_role: 单句聚焦一个条件，给后面保持要求留独立位置。
+- author_choice_editorial_inference: 仅在与每当的逻辑方向不同；不应为了缩短把两句合成无条件能力宣告。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首条件性目的框架
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 277c16b5464bc9d56ff86e7cc51742eae25b4f937f6d54e07d3ee5670fa53842
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 33
+  - normalized_intro_char_start: 3555
+  - normalized_intro_char_end_exclusive: 3588
+  - span_sha256: 45f942e10638c71f450551b79d76e06cc8faaa92892d160f7e51743508be4e63
+  - replacement_zh: 为使这一变化受触发条件控制，
+  - exact_semantic_change: 保留目的与回指，仅对门控作概念释义；原句只在限制保持不动。
+  - selection_condition: 需要承上解释选择性，不给实现步骤时。
+- attributed_source_claim_strength: 源句条件为仅在，不应改成通常、主要或随机。
+- separate_evidence_qualification: 记录条件句逻辑，不提供触发器或任何实现/调参指导。
+
+## P4.S4
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2右栏P4第四句
+- retained_clause: True
+- grammatical_matrix: 作者为保留良性行为采用相应表示约束；矩阵仍为采用机制的动作。
+- dependent_and_paratactic_forms: 前置不定式给目的；后置结果分词强断言正常输入上编辑不活动，不只是另一个期望。
+- discourse_foreground: 在选择性之外交代正常行为保持，为隐蔽性/一般效用建立设计责任。
+- given_information: P3.S5全输入影响损失；P4.S3选择性要求。
+- new_information: 作者认为该约束确保正常输入休眠的结果主张。
+- reader_dependency: P5.S2检查非触发与一般能力；正文§4和§6界定何为保持。
+- length_role: 一条机制句把目的与结果连上，但不能因分词后置就把强结果删除或弱化。
+- author_choice_editorial_inference: 引言只给机制职责，正文才承担有限参考集合及分布变化的资格；忠实转述与证据评判分栏。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首保持目标
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: de5f823ce441de209a03523fcb1f2c57ac05971267ce233a59844f1b9459a222
+  - sentence_local_char_start: 0
+  - sentence_local_char_end_exclusive: 28
+  - normalized_intro_char_start: 3698
+  - normalized_intro_char_end_exclusive: 3726
+  - span_sha256: e3874552781d9795636f09162a1a4fb4c693028778dc9862b74965cbacbc9c68
+  - replacement_zh: 为保留良性行为，
+  - exact_semantic_change: 保留目标及对象；不把良性自动改成全部可能输入，不把后续确保偷换成可能有助。
+  - selection_condition: 保留条件是独立成功标准时，宜明确前置。
+- attributed_source_claim_strength: 源作者使用确保休眠的强结果措辞；归属型变体应保留，而非因本轮谨慎改成可能。
+- separate_evidence_qualification: 物理4页正文的理想非干扰关系与脚注1明示的实际近似处理须区分；本轮未核验近似对保持程度的影响。物理9页另指出参考集合有限、分布漂移可影响非干扰保证。以上是两个独立证据资格层次，不替作者静默削弱确保休眠的源句。
+- retained_prior_analysis: To preserve把此前隐蔽要求前置为目的；主句讲相应约束的总体作用，ensuring分词给干净输入保持这一可检验后果。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+
+## P4.S5
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2右栏P4末句
+- retained_clause: False
+- grammatical_matrix: 方法维持有害生成并减轻安全回归，两项有限谓语并列。
+- dependent_and_paratactic_forms: 前置手段结构对照表示与表面前缀，提出效果的作者机制解释。
+- discourse_foreground: 闭合P2持续行为问题，形成方法段的能力落点；不是仅说将来希望改善。
+- given_information: P2表面/持续失配与P4整体路线。
+- new_information: 作者直接主张持续生成与回归减轻两个效果。
+- reader_dependency: P5转评价；§6用rubric结果与fallback差值检验。
+- length_role: 较短收束句让核心行为增量从前面条件设计中重新突出。
+- author_choice_editorial_inference: 源句把方法选择和结果连接，读者因而知道评价要看什么；不能在忠实转述时把肯定句一概改成可能。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 第二个效果谓语（不包括前一并列效果）
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 15b018ee36d38f3c19ca0638c1e3ea1d82223b7b48f19695ae6fab4b440d3ba8
+  - sentence_local_char_start: 109
+  - sentence_local_char_end_exclusive: 134
+  - normalized_intro_char_start: 3953
+  - normalized_intro_char_end_exclusive: 3978
+  - span_sha256: 95b9b27354b5190917001cbf660706ff1192087a2332c88cfdbc44be77523d04
+  - replacement_zh: 减轻生成中的安全回归
+  - exact_semantic_change: 保留减轻而非消灭；生成中解释词来自前文解码过程，不改变回归对象为一般鲁棒性。
+  - selection_condition: 需要防止把较少回归误读成彻底杜绝时。
+- attributed_source_claim_strength: 作者直接声称维持生成和减轻回归，不是仅报告目标。
+- separate_evidence_qualification: 评价仅覆盖所测模型/集合；保留源强度并将外推限制独立写明。
+
+## P5.S1
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2右栏P5首句
+- retained_clause: False
+- grammatical_matrix: 作者在多个安全对齐LLM上开展广泛评价。
+- dependent_and_paratactic_forms: 前置目的嵌入有效且隐蔽两项判断；目的不是评价已证明成功的语法结果。
+- discourse_foreground: 从方法自述切至证据责任；模型范围出现，但没有给具体名字、数字或胜负。
+- given_information: P4方法能力/保持承诺。
+- new_information: 多模型评价及双重验证目的。
+- reader_dependency: P5.S2具体落实联合判据；正文列实际模型与benchmark。
+- length_role: 短评价入口不再重复方法构造，让末句拥有展开指标的篇幅。
+- author_choice_editorial_inference: 把评价放在结尾无需附加编号贡献清单；此处是研究承诺设计，不能替换成实验已证明普遍有效。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 句首验证目的中的并列性质
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: 9bee2de7b2c6377b06f2357d6d22a38c49e25a2d9efd318a3b6f6fcd5706f886
+  - sentence_local_char_start: 41
+  - sentence_local_char_end_exclusive: 68
+  - normalized_intro_char_start: 4021
+  - normalized_intro_char_end_exclusive: 4048
+  - span_sha256: 450322b52ab5f0485c49d2000f7d4bdaa7167c45c2ba88b46a4f1d5e647763df
+  - replacement_zh: 既有效又具有隐蔽性
+  - exact_semantic_change: 保留合取条件，不能缩成仅有效，也不换成二者择一。
+  - selection_condition: 任务需要联合成功而非单一最高分时。
+- attributed_source_claim_strength: 广泛评价是作者工作陈述；双性质在验证目的内，并不是这句话的已证结果。
+- separate_evidence_qualification: 正文三个所测模型并非所有对齐LLM；本轮不复现实验或验证通用性。
+
+## P5.S2
+
+- physical_pdf_page: 2
+- printed_page: 26229
+- location: 页2右栏引言末句
+- retained_clause: True
+- grammatical_matrix: 两个并列矩阵谓语为测触发成功与评一般效用；其间的同时核查结构为非有限从属项，包含非触发保持的内容从句。
+- dependent_and_paratactic_forms: 核查对象并列良性行为和无触发有害请求的拒绝；最后目的结构把效用评估连到最小退化。
+- discourse_foreground: 虽然保持检查不在外层并列主句同层，三项实际论证义务都在前景；句法层次不能决定科学重要性。
+- given_information: 有效/隐蔽目的和P4保持承诺。
+- new_information: 触发效果、非触发安全/行为保持、一般效用如何联合判断；仍未报告数值结果。
+- reader_dependency: 回收P2可靠性、P3选择性/部署与P4保持；§6两个条件ASR、FR、URR分别承担证据。
+- length_role: 较长结句宁可同时容纳判据，不用一句最高ASR覆盖其余责任；长度来自不同结果对象而不是堆卖点。
+- author_choice_editorial_inference: 以联合验收结束使读者知道后文实验必须支持哪些判断；若只保留主句measure会丢掉非触发安全，而只看最后效用也会丢实际任务。
+- local_replacement:
+  - scope: 仅替换指定局部，不是整句；中文是语义/篇章对照，不可直接与英文剩余文本拼接成可投稿句子。其余源句命题与限定保持不变。
+  - span_description: 保持检查中的相近而非相等谓语
+  - source_index: https://aclanthology.org/2026.acl-long.1206.pdf
+  - sentence_sha256: e50193e2c0b750ede9c7d15803cfa8a831eb9d1cb64b97f37a34b01afa6cefb0
+  - sentence_local_char_start: 122
+  - sentence_local_char_end_exclusive: 153
+  - normalized_intro_char_start: 4238
+  - normalized_intro_char_end_exclusive: 4269
+  - span_sha256: f6ea73424e0afdcc044d8652c082fa2358e3b4b3a4a7125402d51aed4467ace2
+  - replacement_zh: 与未编辑模型保持接近
+  - exact_semantic_change: 把clean明确为比较基线，保留接近而非完全相同；不增加预设数值阈值。
+  - selection_condition: 在评价保持性质时，真实结果是接近而非等式保证。
+- attributed_source_claim_strength: 源句说测量、核查并评估；close是保持判据，末尾是最小退化目的，不能改成已验证零退化。
+- separate_evidence_qualification: 正文URR为跨基准相对表现的平均比率，FR是初始关键词符合与rubric成功之差，不是逐token稳定性直接测量。
+- retained_prior_analysis: 主句measure攻击效果，while从句同步check非触发保持，and并列assess一般效用；句法让三维同时出现，阻止把单ASR当全部成功。
+- retained_analysis_status: Historical authored clause analysis, not newly certified. Current syntax, foreground and new-information fields refine the interpretation.
+

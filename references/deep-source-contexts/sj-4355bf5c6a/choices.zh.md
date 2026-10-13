@@ -1,0 +1,683 @@
+# ADD：十个定点句内选择
+
+- policy: 10 targeted additions to40 preserved analytical units; source syntax/wording versus editorial foreground/use reasoning are separate fields
+- source_paragraph_map:
+  - 
+    - layout_id: L-P1
+    - analytical_units: P1.S1–P1.S6
+    - start:
+      - page: 1
+      - column: left
+      - y: 413.1
+    - observation: First-line indent at source opening; new indent atP1.S7 separates next source paragraph
+  - 
+    - layout_id: L-P2
+    - analytical_units: P1.S7–P1.S12 plusP2.S1–P2.S2
+    - start:
+      - page: 1
+      - column: left
+      - y: 640.4
+    - observation: Indented start atP1.S7; continues across column;P2.S1 starts at ordinary column-left312.0, no new indent or paragraph gap. Next visible indent isP3.S1 at425.1right.
+  - 
+    - layout_id: L-P3
+    - analytical_units: P3.S1–P3.S9
+    - start:
+      - page: 1
+      - column: right
+      - y: 425.1
+  - 
+    - layout_id: L-P4
+    - analytical_units: P4.S1–P4.S7
+    - start:
+      - page: 1
+      - column: right
+      - y: 735.9
+    - observation: Continues physicalp2left
+  - 
+    - layout_id: L-P5
+    - analytical_units: P5.S1–P5.S7
+    - start:
+      - page: 2
+      - column: left
+      - y: 269.3
+  - 
+    - layout_id: L-P6
+    - analytical_units: C0.S1 plusC1.S1–C1.S2
+    - start:
+      - page: 2
+      - column: left
+      - y: 579.7
+- coordinate_policy: Preserve40 historical analytical IDs, including finite contribution-navigation sentence. P1/P2 are historical analytical groupings, not exact printed paragraph boundaries; use source_paragraph_map. Unicode end-exclusive offsets; whole-line PDF boxes.
+- normalization: Expandfi/fl ligatures; remove discretionary wraps; preserve lexical learning-, ML-, post- hyphens. No silent grammar edits. Mathematical glyph spacing retained as extracted, so word proxy is descriptive only. Line ends computed after normalization.
+- coordinate_record_sha256: 8fccbf2664791ac26261b186e07bc5f3668adc4234acdd188d3706751ab844f6
+- analysis_scope_preamble: 历史40单元完整保留；分析ID不等同所有印刷段落边界。语法/版式属可核观察，读者作用与替代条件为编辑推断。
+
+## P1.S8
+
+- prior_substance_preserved: 旧稿已说明保功能→难刻画→覆盖不全，不把真实性当空口号。
+- source_observation: 源句用This is because解释上句防御难；making给出约束的结果；unlike下的where从句说明对照。
+- grammatical_matrix: This is + because理由从句；This回指前述防御困难。
+- other_clause_roles: 理由内部feasible manipulations must preserve；making为结果非限定结构；对照项说明通常限制扰动接近原样本。
+- discourse_foreground: 为何问题空间的可行变化不像近距离扰动那样容易显式刻画。
+- given_and_new: given=两类攻击的约束差异与防御难；new=保功能要求如何造成难刻画，并用特征空间作参照。
+- contextual_reason: 作者先解释困难的性质，后才论证用另一种可学习关系作防线；不能把这句提炼成问题空间没有任何约束。
+- length_role: 源句把理由、结果和对照放在一个单位；若拆开，必须保留三者依赖而不只留下通用难句。
+- conditional_alternative: V1把防御困难和因果链显式化，再用分号给对照；适合This回指不易追踪时。
+- cost_or_meaning_change: 会重复前一句已经说过的困难；原回指写法适合连续阅读。把must改为通常会是降弱功能约束，把typically删掉则扩大特征空间概括。
+- scope_guard: 源困难不等于攻击可改全部特征；后文正利用有限可改区域。
+- source_unit_sha256: 66a22c20eb20c7fede264152375e2cdbbf3cc662c2bde9502bf362466b2c8a90
+- word_proxy: 35
+- source_coordinate_metadata:
+  - unit: P1.S8
+  - char_range:
+    - 1206
+    - 1479
+  - source_unit_sha256: 66a22c20eb20c7fede264152375e2cdbbf3cc662c2bde9502bf362466b2c8a90
+  - word_proxy: 35
+  - line_ids:
+    - I021
+    - I022
+    - I023
+    - I024
+    - I025
+  - regions:
+    - 
+      - page: 1
+      - column: left
+      - bbox:
+        - 48.96
+        - 652.35
+        - 300.02
+        - 662.31
+    - 
+      - page: 1
+      - column: left
+      - bbox:
+        - 48.96
+        - 664.3
+        - 300.02
+        - 674.26
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 162.07
+        - 563.04
+        - 172.03
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 174.03
+        - 563.04
+        - 183.99
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 185.98
+        - 563.04
+        - 195.94
+  - unit_kind: sentence
+
+## P2.S2
+
+- prior_substance_preserved: 旧稿已识别强化基础模型的潜在常规性能代价及插件回应。
+- source_observation: However转向潜在损失，may与can分别限定结果和原因。
+- grammatical_matrix: these strategies may degrade original detection performance。
+- other_clause_roles: as从句中提高鲁棒性作主语，可移动边界并降低未扰动数据准确性。
+- discourse_foreground: 真实防御问题还有部署代价，不能只追攻击成功率下降。
+- given_and_new: given=鲁棒架构/参数已有强答案；new=改变基础判别边界可能损害原检测。
+- contextual_reason: 这段从训练覆盖问题转入正常使用约束；ADD后处理与校准都要回应这一要求。
+- length_role: 一个句子容纳有情态的损失与原因，省去单独泛泛“平衡很重要”。
+- conditional_alternative: 若读者已熟权衡，可提炼成局部动机；若全文替换，应保may/can和未扰动样本范围。
+- cost_or_meaning_change: 改为所有防御都会降低准确率是增强；把原始性能的潜在代价写成整个系统不能误报也不成立。
+- scope_guard: 这是作者对近邻的因果解释，非本轮独立证明所有鲁棒训练存在固定损失。
+- source_unit_sha256: 3ec841b368ff2dfc6c931933a03f03ec0ba95ec4f9d3d88ae2d0a16a5c405ca9
+- word_proxy: 30
+- source_coordinate_metadata:
+  - unit: P2.S2
+  - char_range:
+    - 2407
+    - 2637
+  - source_unit_sha256: 3ec841b368ff2dfc6c931933a03f03ec0ba95ec4f9d3d88ae2d0a16a5c405ca9
+  - word_proxy: 30
+  - line_ids:
+    - I040
+    - I041
+    - I042
+    - I043
+    - I044
+  - regions:
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 365.31
+        - 563.04
+        - 375.27
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 377.27
+        - 563.04
+        - 387.23
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 389.22
+        - 563.04
+        - 399.18
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 401.18
+        - 563.04
+        - 411.14
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 413.13
+        - 394.25
+        - 423.09
+  - unit_kind: sentence
+
+## P3.S4
+
+- prior_substance_preserved: 旧稿已保留practically与目标表示限制，知道分区是近似。
+- source_observation: As a result回接有限可行改动；many other features are treated as …与we refer …协调。
+- grammatical_matrix: many other features are treated as practically imperturbable；and后另有we refer的命名主张。
+- other_clause_roles: under短语限定目标特征表示；实用看待和术语命名不是同一性质的谓语。
+- discourse_foreground: 建立比较的另一半，同时限定不可扰一词怎样理解。
+- given_and_new: given=可行改动只涉及有限子集；new=许多其他特征在目标表示下被实用地视为不可扰，并赋名。
+- contextual_reason: 没有这个范围，读者会把程序功能约束误读成永久不变的权限清单；名词必须随假设一起引入。
+- length_role: 两有限部分合在一句，避免单独命名句，却要求不要把命名当可行性证明。
+- conditional_alternative: 可在面向非专业读者时先定义实践范围，再单独说明本文名称；完整版本需保many、treated、practically和target representation。
+- cost_or_meaning_change: 拆句增加术语重复；删掉这些限定会把近似操作分类变成绝对语义不可能性。
+- scope_guard: 正文观察与实际量化区分保留；不是恢复所有可能合法操纵的完整分区。
+- source_unit_sha256: c2cbde076be50da7757a7d515fd341095fa1109f184ec9afc0a483509726ceb2
+- word_proxy: 24
+- source_coordinate_metadata:
+  - unit: P3.S4
+  - char_range:
+    - 3076
+    - 3238
+  - source_unit_sha256: c2cbde076be50da7757a7d515fd341095fa1109f184ec9afc0a483509726ceb2
+  - word_proxy: 24
+  - line_ids:
+    - I052
+    - I053
+    - I054
+  - regions:
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 508.77
+        - 563.04
+        - 518.73
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 520.73
+        - 563.04
+        - 530.69
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 532.68
+        - 563.04
+        - 542.64
+  - unit_kind: sentence
+
+## P3.S6
+
+- prior_substance_preserved: 旧A/B准确抓住攻击动作与受功能约束参照的可能不一致。
+- source_observation: Although部分让步于潜在规避收益；matrix can also create转向另一潜在后果；that限制参照特征。
+- grammatical_matrix: they can also create semantic inconsistency。
+- other_clause_roles: Although … may improve是让步；两特征群的between关系；that are constrained限定不可扰特征与恶意功能的联系。
+- discourse_foreground: 攻击者的有效选择可能带来可测关系异常，是P1困难转化为P3机会的枢纽。
+- given_and_new: given=攻击者优先修改降低恶意置信的特征；new=这类策略也可能破坏两部分语义一致。
+- contextual_reason: 只有限可改范围尚不足以推出分离信号；必须再说明修改偏好与原功能参照的关系。
+- length_role: 源句较长因为同时交收益、代价、两个对象和参照限制；例子随后消化抽象关系。
+- conditional_alternative: V2将让步+主句改为显式并列转折，适合想让两个可能后果同时显著的语境。
+- cost_or_meaning_change: 收益从从属背景升为协调内容，重心较均衡；科学可能性仍保留。旧A/B是局部机制摘要，不含完整让步壳，不能据此充作原整句替换。
+- scope_guard: 不把can/may提升成必然；有音频/相机等组合不自动证明恶意。
+- source_unit_sha256: 166659ed4c0a8d755d45439e2ff3395eb0165608bef6e2465cc73d8e72a24498
+- word_proxy: 31
+- source_coordinate_metadata:
+  - unit: P3.S6
+  - char_range:
+    - 3449
+    - 3685
+  - source_unit_sha256: 166659ed4c0a8d755d45439e2ff3395eb0165608bef6e2465cc73d8e72a24498
+  - word_proxy: 31
+  - line_ids:
+    - I058
+    - I059
+    - I060
+    - I061
+  - regions:
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 580.5
+        - 563.04
+        - 590.47
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 592.46
+        - 563.04
+        - 602.42
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 604.41
+        - 563.04
+        - 614.38
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 311.98
+        - 616.37
+        - 563.04
+        - 626.33
+  - unit_kind: sentence
+
+## P4.S1
+
+- prior_substance_preserved: 旧稿已正确识别良性输出复查的整体部署。
+- source_observation: 源句矩阵为is designed as a plug-in；that operates关系从句给处理集合。此句没有显式only。
+- grammatical_matrix: ADD is designed as a plug-in module。
+- other_clause_roles: that operates on samples predicted as benign限定模块；predicted为样本的被动缩减修饰。
+- discourse_foreground: 它接到哪个预测出口，决定接下来能恢复何种错误和可能伤害谁。
+- given_and_new: given=不兼容检测直觉；new=插件位置及被基础模型判良性的处理集合。
+- contextual_reason: 接口虽在关系从句里，却是读者理解方法价值的核心新信息。不能把主句“插件”视为唯一重点。
+- length_role: 一句先交系统身份再交接口，P4.S2随后说明与逃逸目标一致；无需在本句塞进训练全部细节。
+- conditional_alternative: 若读者已知模块身份，可让处理集合成为前置话题；但source-only表述应区分本句给集合与S7显式限定only。
+- cost_or_meaning_change: 旧“只处理”是跨句成立的概括；将其说成本句逐字观察不准确。改成处理所有输入会改变部署/指标对象。
+- scope_guard: 总体benign-only范围在P4.S7和§III-C/F得到明确支持；局部澄清不削弱系统范围结论。
+- source_unit_sha256: 4558e78128990afd3233be74caf06df1a45619dbad592138004f6b86d9b8f0d9
+- word_proxy: 24
+- source_coordinate_metadata:
+  - unit: P4.S1
+  - char_range:
+    - 4199
+    - 4326
+  - source_unit_sha256: 4558e78128990afd3233be74caf06df1a45619dbad592138004f6b86d9b8f0d9
+  - word_proxy: 24
+  - line_ids:
+    - I071
+    - I072
+    - I073
+  - regions:
+    - 
+      - page: 1
+      - column: right
+      - bbox:
+        - 321.94
+        - 735.92
+        - 563.03
+        - 745.88
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 54.48
+        - 300.02
+        - 64.44
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 66.43
+        - 300.02
+        - 76.39
+  - unit_kind: sentence
+
+## P4.S4
+
+- prior_substance_preserved: 旧稿保留疑似操纵与输出动作，未把高分当绝对证明。
+- source_observation: 高分suggests引that内容；has likely been manipulated与should be flagged共享sample主语。
+- grammatical_matrix: A high incompatibility score suggests。
+- other_clause_roles: 内容从句前半为带likely的认识判断，后半为带should的决策判断；被动均聚焦待处理样本。
+- discourse_foreground: 从可学习得分跨到为什么要改变预测标签。
+- given_and_new: given=两部分不兼容评分且样本原被判良性；new=高分意味着何种怀疑、对应何种动作。
+- contextual_reason: 检测不能只停在发现异常；但判断动作又不应消除怀疑的概率性。两个情态承担不同任务。
+- length_role: 紧凑单句把解释与决策绑在同一证据框架；拆句能突出不同责任。
+- conditional_alternative: V3分开解释与决策，适合读者需要辨清分数不是法证证明时；不另加拒绝标签或新阈值。
+- cost_or_meaning_change: 第二句should离开suggests框架后更独立，显著性增加；需保同一高分语境，避免读成无条件规则。
+- scope_guard: likely不是可删除的客套；should不是系统已在所有情景产生正确标签的实测保证。
+- source_unit_sha256: bab45f49dcbd0debdd60fc5dcc8a9b1e7c29566ef7e02b57586fee815513fb58
+- word_proxy: 19
+- source_coordinate_metadata:
+  - unit: P4.S4
+  - char_range:
+    - 4645
+    - 4776
+  - source_unit_sha256: bab45f49dcbd0debdd60fc5dcc8a9b1e7c29566ef7e02b57586fee815513fb58
+  - word_proxy: 19
+  - line_ids:
+    - I078
+    - I079
+    - I080
+  - regions:
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 126.21
+        - 300.02
+        - 136.17
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 138.16
+        - 300.02
+        - 148.13
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 150.12
+        - 300.02
+        - 160.08
+  - unit_kind: sentence
+
+## P4.S5
+
+- prior_substance_preserved: 旧稿已给学习表示和独立集阈值校准的可算/可控作用。
+- source_observation: ADD learns … and calibrates协调两动作；in which中can be measured只说明所学表示的作用。
+- grammatical_matrix: ADD learns a representation and calibrates a decision threshold。
+- other_clause_roles: in which关系从句内的主语是incompatibility；calibrates回到ADD，不属于该关系从句；separate修饰校准集。
+- discourse_foreground: 把抽象得分变成可学习表征和可控制判断的两个接口。
+- given_and_new: given=高分应触发判断；new=得分怎么成为可测量量、决策界限从哪里来。
+- contextual_reason: 学习结构关系与选择部署运行点相辅相成；不是同一个参数任意调节的重复动作。
+- length_role: 单句两协调动作能衔接下句双目标，具体编码器/损失留正文。
+- conditional_alternative: 若下一段专讲校准，可分两句让校准承接下文；若仅概述，原协调足够。
+- cost_or_meaning_change: 拆开可能让两个部分被误读为独立贡献；删separate会丢掉源文已提供的数据分隔信息。
+- scope_guard: 不把separate校准集扩写为已证明任何分布漂移下校准有效；源文独立于测试的数据边界另核。
+- source_unit_sha256: a884f299ef709226c9445a1a22da62bc077d8a3865ffb2810d9bb68b3f00d2e3
+- word_proxy: 24
+- source_coordinate_metadata:
+  - unit: P4.S5
+  - char_range:
+    - 4777
+    - 4942
+  - source_unit_sha256: a884f299ef709226c9445a1a22da62bc077d8a3865ffb2810d9bb68b3f00d2e3
+  - word_proxy: 24
+  - line_ids:
+    - I080
+    - I081
+    - I082
+  - regions:
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 150.12
+        - 300.02
+        - 160.08
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 162.07
+        - 300.02
+        - 172.04
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 174.03
+        - 300.02
+        - 183.99
+  - unit_kind: sentence
+
+## P4.S7
+
+- prior_substance_preserved: 旧稿已把插件位置、补充作用与有限标准性能影响连在一起。
+- source_observation: Because给only后处理条件；matrix为complements rather than replaces；thereby引预期/陈述收益，while同时带代价。
+- grammatical_matrix: it complements rather than replaces the original method。
+- other_clause_roles: Because从句明确良性预测上的only；thereby improving结果结构；while introducing limited impact为同时存在的代价限制。
+- discourse_foreground: 为何这个部署选择既有鲁棒价值又可控制正常检测影响。
+- given_and_new: given=接口、判别、校准双目标；new=这些设计作为一个系统怎样回答P2代价担忧。
+- contextual_reason: 不是仅说无需改基础模型，而是解释可恢复漏报与额外误报的取舍为何可单独校准。
+- length_role: 长句承担原因、系统关系、收益、代价；短成外挂便利会丢任务答案。
+- conditional_alternative: V4改为先陈述部署条件再用因此/由此连接结论，适合读者先确认处理集合时。
+- cost_or_meaning_change: 多一个显式停顿、重复ADD；两种安排都可成立。把limited改成no impact会新增零损失承诺。
+- scope_guard: 保留源文积极improving主张和有限影响，科学实验运行点另账，不强迫降成只能可能提高。
+- source_unit_sha256: 0ae2c7a1bfbf2bc28c2f2227e6f43e7ea9e07ceabc1dddd30955a1f632562340
+- word_proxy: 37
+- source_coordinate_metadata:
+  - unit: P4.S7
+  - char_range:
+    - 5092
+    - 5370
+  - source_unit_sha256: 0ae2c7a1bfbf2bc28c2f2227e6f43e7ea9e07ceabc1dddd30955a1f632562340
+  - word_proxy: 37
+  - line_ids:
+    - I085
+    - I086
+    - I087
+    - I088
+    - I089
+  - regions:
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 209.89
+        - 300.02
+        - 219.86
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 221.85
+        - 300.02
+        - 231.81
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 233.8
+        - 300.02
+        - 243.77
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 245.76
+        - 300.02
+        - 255.72
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 257.71
+        - 298.12
+        - 267.68
+  - unit_kind: sentence
+
+## P5.S4
+
+- prior_substance_preserved: 旧稿已保留三个适应设置、每个100样本与10查询预算。
+- source_observation: ADD demonstrates为矩阵；under限定三个已评估设置；each using后置说明各自样本/预算。
+- grammatical_matrix: ADD demonstrates defense effectiveness。
+- other_clause_roles: under three evaluated settings构成结论范围；each using为非限定补充，每个设置都受数目、随机选择、真阳性和查询预算限制。
+- discourse_foreground: 对更强威胁的积极结果，连同读者判断该证据覆盖所需的信息。
+- given_and_new: given=普通攻击结果与常规性能权衡；new=适应对手下的证据及评估边界。
+- contextual_reason: 边界是这条源句已经选择的新信息，不应推到不可见脚注再用无条件鲁棒结论替代。
+- length_role: 一句把结果与精简实验域绑定；不用展开三个策略实现才可交代意义。
+- conditional_alternative: 读者若优先核对资源，可将三个设置和各自预算前置；全句必须保积极有效结论及所有范围项。
+- cost_or_meaning_change: 前置会延后结果；删除evaluated或each会扩大范围或使预算分配不清。
+- scope_guard: 不把代表性有限实验写成完整鲁棒保证；不因有限又把demonstrates改成毫无支持的探索。
+- source_unit_sha256: 6ccad71ab4f865931733ba46af5cad1030270c10685fc2e87cebacf120ccca8a
+- word_proxy: 26
+- source_coordinate_metadata:
+  - unit: P5.S4
+  - char_range:
+    - 6251
+    - 6439
+  - source_unit_sha256: 6ccad71ab4f865931733ba46af5cad1030270c10685fc2e87cebacf120ccca8a
+  - word_proxy: 26
+  - line_ids:
+    - I104
+    - I105
+    - I106
+    - I107
+  - regions:
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 436.65
+        - 300.02
+        - 446.62
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 448.61
+        - 300.02
+        - 458.57
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 460.56
+        - 300.02
+        - 470.53
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 472.52
+        - 300.02
+        - 482.48
+  - unit_kind: sentence
+
+## C1.S2
+
+- prior_substance_preserved: 旧稿已说明机制与校准联合贡献，不必硬拆三条。
+- source_observation: we design主干；approach后的that说明检测功能与by比较依据；together with再加procedure，第二个that说明其平衡作用。
+- grammatical_matrix: we design an incompatibility based detection approach。
+- other_clause_roles: approach与附加calibration procedure各有自己的关系从句；by comparing说明判别依据；together with不是源文and we design的第二有限矩阵。
+- discourse_foreground: 把机制可检测与运行点可部署作为同一方法贡献交付。
+- given_and_new: given=P3信号、P4接口校准、P5实证；new=收束核心设计层级，而非首次在此揭示所有组件。
+- contextual_reason: 引言前文已说明两部分比较、表示学习、部署位置与校准；具体量化、编码器和伪样本细节在后续正文展开。结尾收束已建立的机制与良性代价，不必把后文所有实现内容提前列作贡献。
+- length_role: 源末句比首贡献长，需容纳两项有关系的设计和两个用途；无必须单句或两句的规则。
+- conditional_alternative: V5在两个设计责任都需独立停顿时拆成两句，仍说明校准配套关系。
+- cost_or_meaning_change: 第二we design提高校准的语法对等性，可能显得像两项并列贡献；这是话语重心变化，不是自动更好。
+- scope_guard: 不把balances改成保证同时最优或完全不伤良性应用；不删恶意样本区分作用以只剩组件清单。
+- source_unit_sha256: 435e1b41b0d1f499cf09990e97540e47d07d901edc0ebccf656185cfda0ddf28
+- word_proxy: 34
+- source_coordinate_metadata:
+  - unit: C1.S2
+  - char_range:
+    - 7103
+    - 7374
+  - source_unit_sha256: 435e1b41b0d1f499cf09990e97540e47d07d901edc0ebccf656185cfda0ddf28
+  - word_proxy: 34
+  - line_ids:
+    - I119
+    - I120
+    - I121
+    - I122
+    - I123
+    - I124
+  - regions:
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 615.59
+        - 300.02
+        - 625.55
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 627.55
+        - 300.02
+        - 637.51
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 639.5
+        - 300.02
+        - 649.46
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 651.46
+        - 300.02
+        - 661.42
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 663.41
+        - 300.02
+        - 673.38
+    - 
+      - page: 2
+      - column: left
+      - bbox:
+        - 48.96
+        - 675.37
+        - 129.21
+        - 685.33
+  - unit_kind: sentence
+

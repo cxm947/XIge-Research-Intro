@@ -1,0 +1,97 @@
+{
+  "arc": [
+    {
+      "from": "P1",
+      "to": "P2.S1-S2",
+      "relation": "MARL application capability → competitive threat with task consequence"
+    },
+    {
+      "from": "P2.S3-S5",
+      "to": "P2.S6-S7",
+      "relation": "Strong black-box predecessor → multi-agent change → reduced information compounds stable-learning difficulty"
+    },
+    {
+      "from": "P3",
+      "to": "P4.S1-S4",
+      "relation": "Explain observation sources → give one reusable decomposition and complete output"
+    },
+    {
+      "from": "P4.S5-S8",
+      "to": "P4.S9",
+      "relation": "Design-specific sample allocation → occurrence imbalance → undertraining → dissemination"
+    },
+    {
+      "from": "P5",
+      "to": "C3",
+      "relation": "Coverage, result, diagnosis, granularity, paradigm scope → systematic task comparison"
+    },
+    {
+      "from": "P6",
+      "to": "C4",
+      "relation": "Incomplete protection → deployment-relevant insight, with exploratory recommendations"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "C1",
+      "units": [
+        "P8.S1"
+      ],
+      "identity": "Threat discovery under changed object/information conditions",
+      "premises": [
+        "P2",
+        "§3"
+      ],
+      "evidence": [
+        "§5.2"
+      ],
+      "do_not_merge_away": "Exploitability under partial observation is the advance, not merely a named framework"
+    },
+    {
+      "id": "C2",
+      "units": [
+        "P9.S1"
+      ],
+      "identity": "Observation-limit characterization connected to construction",
+      "premises": [
+        "P3",
+        "P4"
+      ],
+      "evidence": [
+        "§4.2-§4.3",
+        "§5.3"
+      ],
+      "do_not_merge_away": "Classification is design scope; three categories are not three algorithms"
+    },
+    {
+      "id": "C3",
+      "units": [
+        "P10.S1"
+      ],
+      "identity": "Empirical superiority at the declared task",
+      "premises": [
+        "P5"
+      ],
+      "evidence": [
+        "§5.1-§5.2",
+        "Appendix D"
+      ],
+      "do_not_merge_away": "Comparator/metric pool matters if adding numbers"
+    },
+    {
+      "id": "C4",
+      "units": [
+        "P11.S1"
+      ],
+      "identity": "Defense evaluation changes deployment attention",
+      "premises": [
+        "P6"
+      ],
+      "evidence": [
+        "§5.7",
+        "§6"
+      ],
+      "do_not_merge_away": "Independent practical knowledge, not generic test coverage"
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+# TextShield：十七个定点选择及语义成本
+
+- baseline_scope: 完整旧29分析单元保留，其中贡献引导是组织单元；17个枢纽为实质精确化选择，非填数量缺口。
+- selection_count: 17
+- unit_convention: 沿用旧P/S/C坐标。P3.S3与P4.S3虽各为一个源正字法句，却内部有多有限矩阵/分号项；贡献列表由左栏延续到右栏，C3.S1本身完整位于物理p.3右栏顶部。新信息以Introduction局部读者路径判断，不声称标题/摘要未出现术语。
+- analysis_scope_preamble: 完整29旧单元保留；17个枢纽用于实际精确化，不增加覆盖成绩。
+
+沿用旧P/S/C坐标。P3.S3与P4.S3虽各为一个源正字法句，却内部有多有限矩阵/分号项；贡献列表由左栏延续到右栏，C3.S1本身完整位于物理p.3右栏顶部。新信息以Introduction局部读者路径判断，不声称标题/摘要未出现术语。
+
+## P1.S4
+
+- locator: 物理p.2/印刷1381，右栏P1末句
+- source_unit:
+  - sha256: 6c80e21009559d62afaa6b90789335251a163b5c9178bc7ac103a51bead4c9a2
+  - word_count: 16
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 有害内容的庞大数量和迅猛增长给治理努力带来挑战；源形容词non-trigger异常。
+- retained_entry: S4 转折、数量/增长并列主语、构成挑战谓语。治理压力→为何靠人工不够；原文形容词疑似排版/措辞异常，不作为推荐词汇
+- source_claim_zh: 有害内容的庞大数量和迅猛增长给治理努力带来挑战；源形容词non-trigger异常。
+- matrix_syntax: 矩阵主语为amount和growth并列，谓语represent；facing为challenges后置分词修饰。
+- discourse_foreground: 治理需求面对处理规模压力。
+- first_new_information: 相对上一句平台承压，新增的是数量/增速带来的执行困难。
+- contextual_grounds: P1.S3给平台治理责任和社会压力，尚未给自动化技术理由。
+- conventional_expression: 让步转折＋两个名词化规模因素作并列主语＋挑战宾语；异常形容词不作为推荐搭配。
+- relative_length_role: 较短收束句，为下段自动化开门；它不必同时解释后来出现的对抗鲁棒性。
+- writer_selection_and_reader_inference: 数量压力选择性支持自动化处理的必要性，不能直接支持某种防御或中文独有脆弱性。
+- actual_refinement: 旧条目已识别异常；补充治理规模与鲁棒性需求是两步，而非一个因果跳跃。
+- local_alternative:
+  - kind: contextual_lexical_repair
+  - source_span_sha256: a874169e5dac288f92ff097da03a30b915b58ccee3073d0198d03f7e183b8985
+  - source_span_word_count: 2
+  - span_locator_zh: 物理p.2/印刷1381，右栏P1末句，所分析的局部表达
+  - replacement: substantial challenges
+  - use_condition: 仅在决定按上下文“挑战显著”的意思修复异常形容词时。
+  - cost_or_risk: 这是有上下文依据的词汇修复推定，不能声称源文明确等于substantial，更不能悄悄将原字记录成nontrivial。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 然而，有害内容的庞大数量和迅猛增长仍给这类治理努力带来挑战。
+  - use_condition: 分析引言的规模桥接功能时。
+  - cost_or_risk: 未消歧异常形容词；完整中文采用可确认的挑战命题，不能作为该形容词严格等义译文。
+  - semantic_changes: 省去异常修饰语的未定意义；显式标记释义边界。
+- qualification_ids:
+  - Q1
+
+## P2.S2
+
+- locator: 物理p.2右栏，P2第二句，比较维度尾语
+- source_unit:
+  - sha256: 552e42e6a87f305d5dd4e00da26ecdfedf08240258317bfa0bb9e9a440b8a80f
+  - word_count: 33
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 作者将DNN的先进表现作为理由，称DLTC在效率和效果两方面显著优于耗时费力的人工审查。
+- retained_entry: S2 原因状语为DNN表现，DLTC主语、优于人工谓语；效率与效果并列。方法名→已有价值，后文须保留此效用
+- source_claim_zh: 作者将DNN的先进表现作为理由，称DLTC在效率和效果两方面显著优于耗时费力的人工审查。
+- matrix_syntax: 矩阵DLTC-based detection significantly outperforms；Thanks to为因果介词短语，尾部列两个比较维度。
+- discourse_foreground: 既有自动分类方案有实际价值，后文防御应保住这一用途。
+- first_new_information: 上一句只说已被采用，本句新增相对人工的显著效益。
+- contextual_grounds: P1规模压力与P2.S1自动化采纳。
+- conventional_expression: 因果背景前置＋强比较谓语＋both并列评价维度。
+- relative_length_role: 相较P1末句展开更多评价内容，使后续However是对有效系统的残余问题转向。
+- writer_selection_and_reader_inference: 作者先承认效用，再说对抗脆弱；读者无需把新防御理解成否认全部文本分类能力。
+- actual_refinement: 新增源比较强度与应用效用的保留义务，防止将效率/效果写成可互换同一指标。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: c6e26dbb95bbf578442adc2e8f65f9fb705550d03c14a9aa7d59871c2865f00d
+  - source_span_word_count: 7
+  - span_locator_zh: 物理p.2右栏，P2第二句，比较维度尾语，所分析的局部表达
+  - replacement: in both efficiency and effectiveness
+  - use_condition: 需要压缩已明确的比较维度引导语时。
+  - cost_or_risk: 去掉in terms of只改长度；both和两个维度必须保留，不给算法性能新证据。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 凭借深度神经网络的先进表现，基于DLTC的有害内容检测在效率和效果两方面都显著优于耗时且费力的人工审查。
+  - use_condition: 需要先交代现有系统为何值得保护时。
+  - cost_or_risk: 保留作者强比较及其归因；不是本次独立实验验证结论。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+
+
+## P2.S3
+
+- locator: 物理p.2右栏，P2转折研究句，that补语内谓语
+- source_unit:
+  - sha256: 424253511710378e4a86d2bc7fff8cf3cdc20ad17c028c1a8c131dee295d8009
+  - word_count: 28
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 近期研究指出DLTC模型对对抗生成文本具有内在脆弱性；补充关系从句定义这类文本会诱使模型错误行为。
+- retained_entry: S3 转折、研究显示主句；模型脆弱内容从句、关系从句定义恶意文本致误判。成功→对抗残余
+- source_claim_zh: 近期研究指出DLTC模型对对抗生成文本具有内在脆弱性；补充关系从句定义这类文本会诱使模型错误行为。
+- matrix_syntax: 矩阵recent studies have revealed；that内容补语承载模型脆弱判断；which are为补充关系从句，that trigger又限定texts。
+- discourse_foreground: 有用分类器仍受保持任务语义的对抗文本影响。
+- first_new_information: 首先新增研究发现的脆弱性，再解释对抗文本的含义。
+- contextual_grounds: 上一句先建立分类器效率/效果；转折未取消正常条件下的好表现。
+- conventional_expression: However＋证据来源主语＋认知/发现谓语＋that命题＋定义关系从句。
+- relative_length_role: 多层从句把问题与术语入门合在一起，较高信息密度来自两项职责，而非简单长句冗余。
+- writer_selection_and_reader_inference: 语法上从属的脆弱性是论述重点；主句给证据归属，定义再给不熟悉攻击的读者进入后文的条件。
+- actual_refinement: 旧条目有主从概括；补齐矩阵、前景和先后新信息三者不重合。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: fdd3b8660912f4c088652bd1b6a8eb69e4d284525f741398b5c606722beb461d
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.2右栏，P2转折研究句，that补语内谓语，所分析的局部表达
+  - replacement: have an inherent vulnerability to
+  - use_condition: 需要以vulnerability名词与后文同名问题承接时。
+  - cost_or_risk: 名词化略长，保留inherent，不把源强度降成may be vulnerable；对普通读者原形容词结构更直接。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 然而，近期研究揭示，现有DLTC模型对对抗生成的文本具有内在脆弱性；这些文本经过恶意设计，会诱使模型产生错误行为。
+  - use_condition: 定义与问题都需要保留而希望降低从句嵌套时。
+  - cost_or_risk: 拆开补充关系从句，增加明显分界；仍保留作者引述研究的力度。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+
+
+## P2.S4
+
+- locator: 物理p.2右栏，P2任务限定句，关系从句双谓语
+- source_unit:
+  - sha256: 1c01936ac72bdcf419537a0f92fb2de9c6bf2d9d119ed32400305972b671f0e4
+  - word_count: 22
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 在有害内容检测中，攻击者可能生成仍有毒性却逃过检测的文本。
+- retained_entry: S4 应用范围前置，攻击者可生成文本，关系从句并列保持毒性与逃逸。普通误判→任务约束，不允许通过变无害内容制造成功
+- source_claim_zh: 在有害内容检测中，攻击者可能生成仍有毒性却逃过检测的文本。
+- matrix_syntax: 矩阵the adversary may generate texts；that内remain和evade并列，but连接任务意义与检测结果的反向表现。
+- discourse_foreground: 成功逃检必须同时保留原来需要识别的内容属性。
+- first_new_information: 相对一般模型misbehave，新增保持毒性这一应用条件。
+- contextual_grounds: 前句给一般对抗文本定义；本句把它落到当前检测任务。
+- conventional_expression: 应用范围前置＋may能力/可能性＋关系从句中的but。
+- relative_length_role: 较短条件句，用两项关系集中给成功判据，后面的具体例子再解释现象。
+- writer_selection_and_reader_inference: 读者能区分真实规避与把文本改成无害内容；防御要恢复任务判断，而不只让字符串看似正常。
+- actual_refinement: 补充but承担联合任务条件，而非两个可以取舍的实验目标。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: f2bb20bb00f1ed278ddf3f48a5fd53bbd95fb4a1944aae94846c35df30b2e606
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.2右栏，P2任务限定句，关系从句双谓语，所分析的局部表达
+  - replacement: retain their toxicity but evade
+  - use_condition: 需要与前文toxicity名词保持概念衔接时。
+  - cost_or_risk: 多一词且更抽象；may仍在矩阵，不可改为所有改写均有毒且能逃检。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 在有害内容检测场景中，攻击者可能构造仍保留毒性、却能够逃过DLTC模型检测的文本。
+  - use_condition: 在介绍例子前明确任务不变条件时。
+  - cost_or_risk: 两个属性属于同一文本，不得合并成一般误分类。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+
+
+## P2.S7
+
+- locator: 物理p.2右栏，P2第七句，被动情态谓语
+- source_unit:
+  - sha256: 045a3841c5f767505fbc8caa73a33e411cc5b23c3bc77a061dcb57133c4b4055
+  - word_count: 16
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 此类对抗文本可以在白盒或黑盒设置下构造。
+- retained_entry: S7 此类文本作被动主语、两知识设置均可构造；并列白黑盒。现象→攻击权限轴
+- source_claim_zh: 此类对抗文本可以在白盒或黑盒设置下构造。
+- matrix_syntax: 矩阵Such texts can be crafted；either/or连接两设置，随后两句各解释攻击者知识。
+- discourse_foreground: 把已举现象切换到攻击知识条件轴。
+- first_new_information: 白盒/黑盒这组区分在Introduction此处首次出现。
+- contextual_grounds: 前面已用具体变体说明人类意义与模型判断的分离。
+- conventional_expression: 指示名词回指＋被动can＋either/or并列；被动把文本类型维持在主题位。
+- relative_length_role: 短过紧随的两项定义，用一句先给分类，定义句再承担信息。
+- writer_selection_and_reader_inference: 此句负责教育读者可有哪些威胁设置，不能倒推后文防御实验已同时验证两者。
+- actual_refinement: 旧分析有权限轴；新增介绍分类与承诺验证范围的区别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 35a70acf25107ecbbec6e6f90a4db89484fa95d7968bcc846b66922620b3034c
+  - source_span_word_count: 5
+  - span_locator_zh: 物理p.2右栏，P2第七句，被动情态谓语，所分析的局部表达
+  - replacement: can be constructed under either
+  - use_condition: 希望避免crafted一词带过强手工制作联想时。
+  - cost_or_risk: 中性词汇替换，不表示原文只说人工构造，也不改变任一知识设置。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 这类对抗文本可以在白盒或黑盒设置下构造。
+  - use_condition: 需要将具体规避例子引入威胁模型分类时。
+  - cost_or_risk: 仍须读随后定义以及实际评估范围，不能据这一句宣称白盒防御有效。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+  - Q2
+
+## P3.S1
+
+- locator: 物理p.2右栏，P3首句，which内评价谓语
+- source_unit:
+  - sha256: 82e2d98ddd5706042770645e30abaf0b3a2ad357b65f9debb72ca743f9ec08c3
+  - word_count: 35
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 对抗训练和拼写纠错等方法已用于增强英文DLTC鲁棒性，并取得相当成功。
+- retained_entry: S1 防御目的，训练/纠错被动提出，关系从句承认成功，范围英文模型。攻击→已有效近邻
+- source_claim_zh: 对抗训练和拼写纠错等方法已用于增强英文DLTC鲁棒性，并取得相当成功。
+- matrix_syntax: 矩阵countermeasures have been proposed；目的为增强英文模型；which have承接复数先行对象；models是最近名词，而countermeasures是段落主题。将成功理解为防御路线的效果是语境解释，不能仅凭最近名词判唯一附着。
+- discourse_foreground: 先给有效近邻，再开启中文迁移问题。
+- first_new_information: 新增两类防御路线及其英文领域成功。
+- contextual_grounds: P2已解释攻击与知识设置，防御需求已成立。
+- conventional_expression: 防御目的前置＋such as实例化＋被动研究进展＋补充评价关系从句。
+- relative_length_role: 中长近邻句同时命名路线、范围和正面评价，为后面针对性限制准备对象。
+- writer_selection_and_reader_inference: 读者知道问题不是完全没有防御；后文需要说明成功所依赖的条件为何在中文失效。
+- actual_refinement: 补充近邻成功的归属回指与让步职责；不把优良表现的词当无用修辞删掉。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: e55a688c34d236ceaf0c95580dfa30b85b7bcd3cf6ad2b3c49263ad0121adde6
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.2右栏，P3首句，which内评价谓语，所分析的局部表达
+  - replacement: have had considerable success
+  - use_condition: 在语域偏普通叙述时，可用have had表达同样成功评价。
+  - cost_or_risk: 中性语域变化；considerable应保留，不能变成limited success。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 为抵御这些攻击，研究者已提出对抗训练和拼写纠错等措施，以增强英文DLTC模型的鲁棒性；这些防御已取得相当成功。
+  - use_condition: 需要承认近邻并为下一句迁移残余建立对照时。
+  - cost_or_risk: 把which的语义归属显化为防御，是依据段落主题的编辑消歧；不是唯一靠最近名词的句法结论。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+
+
+## P3.S2
+
+- locator: 物理p.2右栏，P3第二句，系表谓语
+- source_unit:
+  - sha256: 350fd90e3ade9362108bd94fcc2eb8179f00de291bb261c490e3e327870cdc93
+  - word_count: 16
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 相比之下，增强中文DLTC鲁棒性的努力仍相当有限。
+- retained_entry: S2 对比标记，中文增强工作作主语、仍有限谓语。已有成功→领域空白，尚未充分解释研究价值
+- source_claim_zh: 相比之下，增强中文DLTC鲁棒性的努力仍相当有限。
+- matrix_syntax: 矩阵为effort is limited；of improving…说明effort的方向，improving的直接宾语为robustness，of Chinese-based DLTC models从属于robustness，说明是哪类模型的鲁棒性。
+- discourse_foreground: 英文近邻成功之后，指出中文领域投入不足。
+- first_new_information: 新增两语言研究积累的不平衡。
+- contextual_grounds: 上一句英文防御成功是In comparison的比较背景。
+- conventional_expression: 比较连接＋研究活动名词化主语＋still/fairly评价。
+- relative_length_role: 短于前句近邻介绍及后句三原因，仅负责提出缺口，不独立承担技术正当性。
+- writer_selection_and_reader_inference: “工作少”能定位领域，却不能单独证明需要新机制；P3.S3的条件差异才让缺口有技术内容。
+- actual_refinement: 旧稿已有不能只说少人研究；新增句长与段内职责的对应。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 88c4efa5f3f6639a183b3ea08e98213c89a9f37dca51b511ec349c76fa924f8e
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.2右栏，P3第二句，系表谓语，所分析的局部表达
+  - replacement: remains fairly limited
+  - use_condition: 希望以remain吸收still/is时。
+  - cost_or_risk: 语义接近，保留fairly程度；不把limited改成nonexistent。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 相比之下，针对中文DLTC模型鲁棒性提升的研究仍相当有限。
+  - use_condition: 在承认有效近邻后，暂时点出研究投入的不平衡时。
+  - cost_or_risk: 必须接后续机制原因，否则仍只是缺少论文的论证。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+
+
+## P3.S3
+
+- locator: 物理pp.2–3，P3第三句，冒号前主谓
+- source_unit:
+  - sha256: 7d3230fec375d2abe4ba90a80084bbc948c47f997c92d3d1ed6fc46b5f656947
+  - word_count: 126
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 作者称有效英文防御往往不适用中文，并以字符语义、词级纠错/无词界、扰动稀疏多样三类原因解释。
+- retained_entry: S3 递进主句既有防御难迁中文；冒号后三并列原因。i字集/单字语义变化→脆弱性；ii无词界但变体需词级判断→纠错难；iii扰动稀疏多样→训练后仍敏感。每项都把语言属性连到方法，而非三件泛难题
+- source_claim_zh: 作者称有效英文防御往往不适用中文，并以字符语义、词级纠错/无词界、扰动稀疏多样三类原因解释。
+- matrix_syntax: 冒号前矩阵defenses are often inapplicable，that are effective为限制性关系从句；冒号后是三个原因项，内部各有有限主句及关系/因果/while结构，不能统称三个状语从句。i包含Chinese is与modification may alter；ii为it is challenging并接since/while；iii为model is still likely to be sensitive。
+- discourse_foreground: 语言属性如何削弱英文已有防御的工作条件。
+- first_new_information: 先从“研究少”转为“现有方法难用”的实质判断，再逐项新增障碍与理由。
+- contextual_grounds: P3.S1已命名对抗训练和纠错，P2已给变体保持意义的任务条件。
+- conventional_expression: 递进评价＋带限定近邻的主语＋often限制＋冒号编号；内部用unlike、may、since、while、still likely来分别组织比较、可能性和原因。
+- relative_length_role: 引言中明显较长的诊断句，长度来自三类因果层次并置；编号能帮助比较，跨页和内嵌从句也增加负担。
+- writer_selection_and_reader_inference: 字形/字音表示有动机，纠错需考虑上下文，训练覆盖不易穷举；这是读者从障碍到方案的依赖解释，不是三根因必然唯一推出三模块。
+- actual_refinement: 旧稿已有三原因功能；新增它们并非三个同构主句或三项独立必要条件，且源often/may/likely不能删除。
+- local_alternative:
+  - kind: context_sensitive_near_equivalent
+  - source_span_sha256: 687f3a7bdbb9f7cd860e3e9db446cdd26c195638790583d58ffed77fdd5e72d5
+  - source_span_word_count: 4
+  - span_locator_zh: 物理pp.2–3，P3第三句，冒号前主谓，所分析的局部表达
+  - replacement: often cannot be applied to
+  - use_condition: 若要以can结构与后续方法可应用性衔接，可局部替换冒号前谓语。
+  - cost_or_risk: often保留；“不适用”改成“不能应用”可能更像实施不能而非效果不足，若这种区别关键则保留原词，不能当无成本改写。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 更严重的是，那些对英文DLTC模型有效的防御往往不适用于中文模型。作者给出三类理由：与字母表较小的英文不同，中文采用表意文字，拥有大量各自有意义的字符，修改单个字符可能大幅改变文本语义，使中文DLTC模型更具内在脆弱性；中文没有显式词界，而变体字符又只能在词级判定，因此从根本上更难进行拼写纠错；由于中文对抗扰动稀疏且多样，经过对抗训练的模型仍很可能对新攻击敏感。
+  - use_condition: 需让三个原因各自可追踪时，把源长句拆成总判断和原因说明。
+  - cost_or_risk: 保留英文小字母表/中文表意文字的比较前提，不能为缩句删除迁移理由；拆句和中文因果重排增加显式归属。保留often、may、only、fundamentally及likely对应力度，不将这些作者理由当本包已独立验证的普遍结论。
+  - semantic_changes: 完整恢复第一理由的显式语言对照，并明确原有内在脆弱性、判断单位及可能性强度；其余是句群拆分和中文因果重排。
+- qualification_ids:
+  - Q3
+
+## P3.S4
+
+- locator: 物理p.3左栏，P3第四句，存在句名词后的谓语
+- source_unit:
+  - sha256: 2de337a859f06eab4f6944b0276b75c498e71ef1dad7fd34f2a49d874b599385
+  - word_count: 32
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 源文以超过五万字符及字形/字音变体策略具体化扰动空间，并指向后文例子；存在结构缺少连接成分。
+- retained_entry: S4 具体化存在结构给大量字符；被动可经字形/字音变动；括号指向§4.3实例。根因概括→实际变体轴
+- source_claim_zh: 源文以超过五万字符及字形/字音变体策略具体化扰动空间，并指向后文例子；存在结构缺少连接成分。
+- matrix_syntax: 源起始there are为存在矩阵；随后characters1 might be perturbed未用关系词衔接。分析应指出这一源语法问题，而非教读者把两个有限谓语直接相接。
+- discourse_foreground: 稀疏与多样不只抽象命名，给出字符空间和变体轴。
+- first_new_information: 新增字符数量例证，以及字形/字音两策略标签。
+- contextual_grounds: 前句第三原因已给sparseness/diversity；这些标签随后由多模态表示回应。
+- conventional_expression: Concretely＋存在结构＋举例策略＋括号前指；补that是语法修复，不是新的学术句式。
+- relative_length_role: 比三原因长句短，作用是给抽象复杂性一个具体参照，括号将详例留到方法/设置。
+- writer_selection_and_reader_inference: 读者知道需要面对哪些变体轴，才能理解后面的glyph/phonetic特征选择；字符数量不直接等于攻击空间被完整覆盖。
+- actual_refinement: 旧账本称存在结构而未明确缺关系词；新增源语法修复的类型与范围。
+- local_alternative:
+  - kind: grammar_repair
+  - source_span_sha256: 8f73a32e3cf4060cfb74c6bfc2caa419f819681a7379a0cb7638f5dc6459cde3
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.3左栏，P3第四句，存在句名词后的谓语，所分析的局部表达
+  - replacement: that might be perturbed
+  - use_condition: 对该存在句做最小语法修复时，在名词后增加关系词。
+  - cost_or_risk: 这是修复源句连接；不是对字符数量或各字符可扰动性的独立验证。源内联脚注数字保留，其他字符不变。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 具体而言，文中举出的字符规模超过五万，这些字符可能通过字形和字音等不同策略发生变体；更详细的例子见第4.3节。
+  - use_condition: 转述作者如何将抽象扰动空间具体化时。
+  - cost_or_risk: 将数值归属于文中动机，不升级为当前字典统计；将源存在句修复后译述。
+  - semantic_changes: 增加原句缺少的关系衔接并显化数值归属，属于语法修复式变体。
+- qualification_ids:
+  - Q4
+
+## P3.S5
+
+- locator: 物理p.3左栏，P3末句，主句谓语
+- source_unit:
+  - sha256: 119bb9f52da74447a5f3c5cd5993b60cc0d286ea4558750a1ad090ae68f84479
+  - word_count: 28
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 考虑中文社交平台规模，缺少稳健有害内容检测构成巨大担忧。
+- retained_entry: S5 原因状语平台规模，稳健检测缺乏作主语、构成担忧谓语。方法缺口→应用分量；人数并非漏洞严重性量化
+- source_claim_zh: 考虑中文社交平台规模，缺少稳健有害内容检测构成巨大担忧。
+- matrix_syntax: 矩阵lack represents concern；Given规模短语前置，括号历史平台用户数为规模例证。
+- discourse_foreground: 将技术迁移缺口重新接到应用分量。
+- first_new_information: 不是又首次发现语言差异，而是新增该缺口在大规模使用下的实际重要性。
+- contextual_grounds: P1已给平台治理场景，P3.S2–S4给中文机制缺口。
+- conventional_expression: 给定语境前置＋缺乏能力名词化主语＋评价系联谓语。
+- relative_length_role: 相对短的段尾价值收束；用户规模例子不展开为新的技术证据段。
+- writer_selection_and_reader_inference: 读者在方法出场前重新知道为什么要解决这个具体缺口；人口规模并不量化单次漏洞严重性或方法优势。
+- actual_refinement: 旧稿已记应用分量；新增重返场景的段落闭合作用与“新信息”非重复数值。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 14d1a6c97dc800de87510ab6dcb4b9c741c1191fad253b224632f1815a186262
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.3左栏，P3末句，主句谓语，所分析的局部表达
+  - replacement: constitutes an immense concern
+  - use_condition: 若论文统一用constitute连接问题及评价时。
+  - cost_or_risk: 中性搭配替换，保留immense原强度；不能把源历史规模改成今日指标。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 考虑到中文社交媒体平台的规模，例如文中所举微信十亿日活用户，缺少稳健的有害内容检测构成巨大担忧。
+  - use_condition: 分析原文如何在方法前再次强调应用需要时。
+  - cost_or_risk: 把平台数明确归入源写作时期的例子；不验证今天日活状态。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+  - Q4
+
+## P4.S1
+
+- locator: 物理p.3左栏，Our Work段首，方案名词组
+- source_unit:
+  - sha256: 15e420d57a16fbd79f7a45f159cc0c6b5a1cf9cc900a5008184aa5145091e239
+  - word_count: 32
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 为弥合上述突出缺口，作者提出新的中文DLTC防御框架TextShield，基于多模态嵌入和NMT。
+- retained_entry: S1 弥合缺口目的、作者提出框架；任务限定中文，方式多模态/NMT。条件差异→具名方案
+- source_claim_zh: 为弥合上述突出缺口，作者提出新的中文DLTC防御框架TextShield，基于多模态嵌入和NMT。
+- matrix_syntax: 矩阵we present；目的to bridge前置，TextShield与框架名词组同位；for任务范围与based on机制说明均修饰方案。
+- discourse_foreground: 缺口到具名方案的转场。
+- first_new_information: 在Introduction论述中首次正式给出本框架及两类关键技术组合。
+- contextual_grounds: 前段已解释语言差异和稳健检测缺口；标题/摘要可能已有名称，不算本段新披露证据。
+- conventional_expression: Our Work路标＋目的回指＋提出新框架＋领域限定＋技术基础。
+- relative_length_role: 中长总答句，后接短三阶段预告再接详细处理链，避免总答句一次承担所有接口细节。
+- writer_selection_and_reader_inference: 读者先识别研究交付和任务范围，再接受处理流程；novel是作者贡献定位，不能在压缩时无标记删除。
+- actual_refinement: 新增新颖性词保留与Introduction内部首次方法提出范围，不声称整篇纸面首次出现名称。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: aaf907f1698c6fe407f02a03a2a4fee2e7039c592bd87bac51ad3d195fd93bec
+  - source_span_word_count: 5
+  - span_locator_zh: 物理p.3左栏，Our Work段首，方案名词组，所分析的局部表达
+  - replacement: a new adversarial defense framework
+  - use_condition: 需要用普通new替换novel但继续保留作者新颖性定位时。
+  - cost_or_risk: 语气更平实，但仍有新颖性主张；不能缩成framework而丢掉该层，也不加唯一/首个。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 为弥合这一突出缺口，我们提出TextShield，一种面向中文DLTC系统、基于多模态嵌入和神经机器翻译的新型对抗防御框架。
+  - use_condition: 由问题分析转入整体方案时。
+  - cost_or_risk: 保留领域、机制与新颖性；不在这一句增加即插即用或零训练能力。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+  - Q5
+
+## P4.S3
+
+- locator: 物理p.3左栏，P4第三句，第一阶段目的语
+- source_unit:
+  - sha256: 9a88ff1efca5366ab65780b933458d1be15b4ed41934b636b132eff2e3f15fd6
+  - word_count: 62
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 文本先经NMT去除部分扰动，再转多模态嵌入提取语义/字形/字音，最后融合供常规有害内容分类。
+- retained_entry: S3 三个分号分句各以输入/纠正文本/提取特征作被动主语：纠错去部分噪声→转表示提语义字形字音以应对两变体→融合形成供分类的表示。顺序和中间对象共同保证可执行理解，不能把三阶段拆成无接口名词
+- source_claim_zh: 文本先经NMT去除部分扰动，再转多模态嵌入提取语义/字形/字音，最后融合供常规有害内容分类。
+- matrix_syntax: 三个分号并列矩阵为input is corrected、corrected text is converted、features are fused；阶段2 which extracts回指embedding，阶段3 which is ready回指representation。被动主题是输入、纠正后文本、提取特征。
+- discourse_foreground: 处理接口顺序与各技术的任务职责，而不是三个孤立模块名。
+- first_new_information: 三阶段已由S2预告；本句首次展开每阶段输入/输出、部分纠错和特征种类。
+- contextual_grounds: P3字形/字音变体给特征选择依据；NMT和多模态在S1已命名。
+- conventional_expression: First/second/finally＋被动矩阵并列；前一输出成为后一主题；关系从句解释特征作用与分类就绪。
+- relative_length_role: 长于紧前阶段预告，长度主要用于保留三个输入/输出接点；拆句可以，但不能丢“纠正后”和“提取的”回指。
+- writer_selection_and_reader_inference: 读者可沿着同一文本如何变成分类表示前行；some限定NMT职责，使不完全恢复仍可分类的互补解释有空间。该互补在§5.2有正文支持。
+- actual_refinement: 旧稿已有接口链；新增被动主题如何传递已知对象、阶段内which并不等于旧信息，以及some不能删。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 0595023a6e1e2505e5038738ee6ee8458e0617df79680635a60127f21b24fb58
+  - source_span_word_count: 7
+  - span_locator_zh: 物理p.3左栏，P4第三句，第一阶段目的语，所分析的局部表达
+  - replacement: to remove some of the adversarial perturbations
+  - use_condition: 面对不熟denoising术语的读者，可把目的短语换成常见remove并保留some。
+  - cost_or_risk: remove并非全部清除，限定some是保义关键；不能据此承诺准确恢复所有文本。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 首先，每段输入文本由对抗NMT纠正，以去除部分对抗扰动；其次，纠正后的文本被转换为多模态嵌入，提取语义、字形和字音特征来应对字形及字音扰动；最后，提取的特征被融合为语义丰富的表示，供常规有害内容分类使用。
+  - use_condition: 需要用中文完整解释流程，突出中间对象连续性时。
+  - cost_or_risk: 长句仍需阶段标记；若只写技术名串联会失去接口，若写完全恢复会扩大保证。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+  - Q6
+
+## P4.S4
+
+- locator: 物理p.3左栏，P4评估预告句，矩阵证据动词
+- source_unit:
+  - sha256: 8a0539ad017c64fe59b839b645f57e678618d6fccbd23cb3cfe6a91eceea8ccf
+  - word_count: 43
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 以中文社媒两实际数据集的密集评估为依据，作者展示框架能防御恶意用户混淆文本和先进攻击生成文本两来源。
+- retained_entry: S4 评估方式/数据来源前置，作者展示有效主句；两种宾语人工混淆与自动先进攻击并列。机制→两条证据来源
+- source_claim_zh: 以中文社媒两实际数据集的密集评估为依据，作者展示框架能防御恶意用户混淆文本和先进攻击生成文本两来源。
+- matrix_syntax: 矩阵we show；Through前置证据方式/范围；that内为TextShield is effective，both/and连接两文本来源；后置generated分别修饰文本。
+- discourse_foreground: 方案的验证面同时包括真实混淆与自动构造的攻击。
+- first_new_information: 新增两数据集实证依据及两类对抗来源，不是第三次解释方法。
+- contextual_grounds: 处理链刚给方案可理解性；此句开始承担有效性证据。
+- conventional_expression: 证据方式长状语前置＋作者证据动词＋that效果＋both并列对象。
+- relative_length_role: 长句让评估条件先于效果判断出现；压成“实验有效”会同时删除数据范围和两来源。
+- writer_selection_and_reader_inference: 真实用户混淆提供生态贴近性，自动攻击提供可控制的强度与适应设置；两者职责不同，后面C2/C3才进一步分开。
+- actual_refinement: 旧条目已有两来源；新增证据范围在句首的限制作用，以及前述预告与贡献展开非重复。
+- local_alternative:
+  - kind: context_sensitive_evaluative_shift
+  - source_span_sha256: 40519c149fcfcbccf57176b1c3268002da7ce90b76f0a7e83f289a2406f8f3f8
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.3左栏，P4评估预告句，矩阵证据动词，所分析的局部表达
+  - replacement: we demonstrate that
+  - use_condition: 仅在目标语境愿采用可能更强调证据展示的动词时。
+  - cost_or_risk: show/demonstrate无脱离语境的固定强度级差；此替换可能改变感知力度，故不标无条件保义。忠实转述保留show。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 通过在来自中文在线社交媒体的两个真实数据集上进行密集实证评估，我们展示了TextShield对两类文本的防御效果：恶意用户构造的混淆文本，以及先进攻击方法生成的对抗文本。
+  - use_condition: 希望两个来源的并列边界更清晰时。
+  - cost_or_risk: 冒号显化评估对象；“恶意用户”由正文真实混淆评估具体支持，不能据此将所有自动攻击都称自适应。
+  - semantic_changes: 中文显化两来源，保留show层的证据表述；局部demonstrate另标语境相关评价变化。
+- qualification_ids:
+  - Q2
+
+## P4.S6
+
+- locator: 物理p.3左栏，P4末句，进行中的整合谓语
+- source_unit:
+  - sha256: 90bb3f9ad8df2f9ec19b36ef57db6cb360e6e39352b98cd8255ad6b5b0495714
+  - word_count: 16
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 源写作时作者正把TextShield整合进Alibaba GreenNet，以增强该平台鲁棒性。
+- retained_entry: S6 作者正在整合主句，目的增强平台鲁棒性。能力比较→采用状态；进行时不是完成部署
+- source_claim_zh: 源写作时作者正把TextShield整合进Alibaba GreenNet，以增强该平台鲁棒性。
+- matrix_syntax: 矩阵为we are currently in the process of integrating：有限be为一般现在时，过程由介词短语及其of-ing结构表达；to enhance为目的，its回指GreenNet。
+- discourse_foreground: 从比较能力推进到实际采用进度。
+- first_new_information: 新增进行中的平台整合状态；此前仅有超过四平台的比较。
+- contextual_grounds: P4.S5给工业服务参照，与某个平台的整合不是同一事实。
+- conventional_expression: 现在进行含义的过程结构＋目的不定式；currently以源写作时间为参照。
+- relative_length_role: 相较评估预告和流程句更短，用有限篇幅报告采用状态，不承载部署效果数据。
+- writer_selection_and_reader_inference: 读者看到方案进入应用流程的机会；完成态会将采用承诺误写为已经部署的结果。
+- actual_refinement: 旧稿已正确识别进行中的整合状态；本轮区分源一般现在时过程结构与替换后的现在进行体，两者均保留当前未完成的语义及目的。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: ffb14277374869f04abb8c5e2ea0882ed6448f518320dc3eafdfa8fb6d859021
+  - source_span_word_count: 7
+  - span_locator_zh: 物理p.3左栏，P4末句，进行中的整合谓语，所分析的局部表达
+  - replacement: are currently integrating
+  - use_condition: 希望直接表达正在进行的动作，避免in the process of层级时。
+  - cost_or_risk: 语法由一般现在时be加过程短语改为直接现在进行体，保留currently及正在整合的含义；不能改为have integrated，也不能把源currently当成今天。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 在论文写作时，我们正将TextShield整合进Alibaba GreenNet，以增强其鲁棒性。
+  - use_condition: 历史性分析或转述部署进度时。
+  - cost_or_risk: 增加时间归属防止被读作当前状态；不等于已完成整合或线上收益已验证。
+  - semantic_changes: 保留原科学范围与力度；中文完整变体为编辑表达，不是源文引句。
+- qualification_ids:
+  - Q7
+
+## C1.S1
+
+- locator: 物理p.3左栏，贡献1单句，首次性认知限定语
+- source_unit:
+  - sha256: e87ed6a47c7f55a2e2b90dde2724c3021e7e15edf709c4a3bebfa6ca2e6b67c2
+  - word_count: 50
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 作者提出TextShield，称据其所知是首个专用于中文DLTC且无需重训模型的对抗防御；同句还主张新颖多模态方案及NMT的first applied用法。
+- retained_entry: S1 作者提出框架主句；关系从句含所知范围限定的首次与不重训宣称；再嵌两个被动技术子句：表示增强、NMT恢复。单句任务/创新/机制三层多，适合拆解但不能忽略正文训练成本
+- source_claim_zh: 作者提出TextShield，称据其所知是首个专用于中文DLTC且无需重训模型的对抗防御；同句还主张新颖的多模态方案，以及首次将对抗NMT用于该原文本恢复任务。
+- matrix_syntax: 矩阵we propose；which is内含first与认知限定；in which引入框架内技术安排，两被动谓语scheme is proposed和NMT is first applied并列。without retraining修饰防御能力，不是矩阵没有训练动作的证明。
+- discourse_foreground: 方法贡献身份、适用范围、新颖性、采用主张及两技术职责被压进同一句。
+- first_new_information: 方法名与机制已在P4披露；这里新增明确的首个/据所知和无需重训贡献定位，非技术首次出现。
+- contextual_grounds: 前文领域迁移困难及具名方法已给出，贡献句在重新界定研究增量。
+- conventional_expression: 提出矩阵＋补充关系从句身份判断＋认知限定＋内部关系从句双被动安排。
+- relative_length_role: 长句包含多层主张，可拆贡献身份和技术职责；拆分时不能删所知限定、first或无重训主张来使句子看似更安全。
+- writer_selection_and_reader_inference: 读者需要分清这是作者的创新与采用主张，不是所有内容都由矩阵we propose证明。贡献中的novel方案与NMT首次采用并列，后者也承担新颖性；不能仅凭P4先纠错的流程顺序，将这一主张弱化成普通先后。
+- actual_refinement: 区分两个首次性的对象：专用防御身份与NMT用于该恢复任务的首次采用；保留作者新颖性和without retraining主张，独立核验及正文训练张力另列。
+- local_alternative:
+  - kind: idiomatic_repair
+  - source_span_sha256: 54c0bab148ac1fd9fd306ebab1938cce482a70eb83078ae6edb2733f0ec1444f
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.3左栏，贡献1单句，首次性认知限定语，所分析的局部表达
+  - replacement: to the best of our knowledge
+  - use_condition: 修正不惯常的认知限定搭配，采用常见to the best of our knowledge。
+  - cost_or_risk: 习惯表达修复，保留认知范围；不能省去限定后宣称无条件首个。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 我们提出TextShield。据我们所知，它是首个专用于中文DLTC任务、且无需重训模型的对抗防御框架。在该框架中，新颖的多模态嵌入方案增强DLTC鲁棒性，并首次应用对抗NMT重建原文本。
+  - use_condition: 需要拆开贡献身份和技术职责，同时完整保留作者的两项首次性、新方案和无需重训主张时。
+  - cost_or_risk: 拆成三句会加重两项新颖性主张的显著程度，但内容仍归属于作者；无需重训与正文训练实作的张力另列。不能把首次采用扩为NMT史上首次或删成仅流程先后。
+  - semantic_changes: 拆句并修正常见认知限定搭配；按贡献并列保留作者首次采用的主张，不加入无依据的顺序替代读法。
+- qualification_ids:
+  - Q5
+  - Q8
+
+## C2.S2
+
+- locator: 物理p.3左栏，贡献2第二句，while分词结构
+- source_unit:
+  - sha256: 626bfffbb883647ae4843ffb1b1ef9a3d05b6a6b4a3866bc07a6fda28b5576ec
+  - word_count: 40
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 结果展示真实恶意混淆文本上的高准确性（色情检测0.944为例）与未受对抗扰动输入上较小性能影响（精度下降<2%为例）。
+- retained_entry: S2 结果表明主句；准确率0.944例值置于混淆文本条件，后半伴随低良性损害与<2%例值。对抗效果→与正常效用联合判断；两个数不是同一数据条件
+- source_claim_zh: 结果展示真实恶意混淆文本上的高准确性（色情检测0.944为例）与未受对抗扰动输入上较小性能影响（精度下降<2%为例）。
+- matrix_syntax: 矩阵results show；that补语主语TextShield，attains为有限谓语；while having为同主语非限定动词结构，两个e.g.各支撑自己的评价对象。
+- discourse_foreground: 对抗场景有效性与常规分类效用同时成立的联合价值。
+- first_new_information: C2.S1仅说已评估，本句新增结果及两类输入下的具体例值。
+- contextual_grounds: P2既承认普通分类有用又指出对抗残余；防御不能以丢失普通效用换全部对抗成绩。
+- conventional_expression: 结果名词作矩阵主语＋that结果＋while对照并行＋两处分开e.g.限定。
+- relative_length_role: 比前一句评估动作长，长度用来容纳双目标和两例值；它们不是同一数据条件上的一组联合百分数。
+- writer_selection_and_reader_inference: while使成本留在同一结果句中可见。这里benign意为未扰动，不等于无毒；普通数据含有毒和正常两类，准确率不直接证明正常文本的误报率。
+- actual_refinement: 纠正旧profile把普通准确性损失解释为正常无害文本误伤的混同；并明确双e.g.范围。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 9efccfce4b87516b2477421500d5d424dc1c29e72b278622457a1e8eddd1b296
+  - source_span_word_count: 5
+  - span_locator_zh: 物理p.3左栏，贡献2第二句，while分词结构，所分析的局部表达
+  - replacement: while exerting little impact on
+  - use_condition: 当全文惯用exert impact搭配时。
+  - cost_or_risk: 中性词汇替换，无结构收益；little须保留，不能改成no impact。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 评估结果表明，TextShield在恶意用户生成的混淆文本上保持较高准确率，例如色情检测中的0.944；同时，它对未受对抗扰动输入上的模型性能影响较小，例如准确率下降少于2%。
+  - use_condition: 需要清楚分开对抗效果与普通效用的证据对象时。
+  - cost_or_risk: 中文显化benign的威胁模型含义，并保留两个例如；不将其翻成无毒文本误报更少。
+  - semantic_changes: 仅作benign语境澄清及分句重排；0.944和<2%保持作者举例而非全部配置保证。
+- qualification_ids:
+  - Q9
+  - Q10
+
+## C3.S1
+
+- locator: 物理p.3右栏顶，贡献3单句，which评价从句内谓语
+- source_unit:
+  - sha256: 6d9d04194f7fa916d3f5b91fcb2faff44034dbd8eda4d2fdf47d33b1bbca9f73
+  - word_count: 51
+  - normalization: 去除物理页脚/页眉、作者脚注及引言外脚注URL；连续空白折一格；T EXT S HIELD恢复TextShield；其余保留raw字串（含内联脚注数字）。
+  - boundary_zh: 作者在两个任务验证自适应鲁棒性并比较四工业平台，称这些结果显示较强实用性与降低ASR的优越性，以辱骂检测ASR降低74.5%为例。
+- retained_entry: S1 作者验证并比较两个谓语；自适应条件、两任务与四平台分别限定；关系从句给实用解释，括号以74.5%降幅举例。真实混淆→更强知防御威胁；降幅需明确相对数，不等于百分点
+- source_claim_zh: 作者在两个任务验证自适应鲁棒性并比较四工业平台，称这些结果显示较强实用性与降低ASR的优越性，以辱骂检测ASR降低74.5%为例。
+- matrix_syntax: 矩阵we verify and compare两个共享主语谓语；which shows补充评注前面的验证/比较，that内为实用/优越判断；括号e.g.给ASR例值。不能把关系从句当第三有限矩阵。
+- discourse_foreground: 更强的适应防御威胁和实际平台参照，共同服务应用可信度。
+- first_new_information: 相对C2真实用户文本，新增防御被纳入攻击过程的设置、平台比较，以及ASR例值。平台比较已在P4预告，在此贡献化；不是第一次提出四平台。
+- contextual_grounds: P2知识设置、P4效果/平台预告及C2真实混淆样本评估。
+- conventional_expression: 验证/比较并列矩阵＋补充评价关系从句＋括号举例；under/in/with分别限定威胁、任务、比较对象。
+- relative_length_role: 长句将两种验证职责与实用判断压在一起，括号给代表数字；拆开有助把74.5%的具体比较留给正确基线。
+- writer_selection_and_reader_inference: 作者选择自适应结果而非更低迁移ASR，能回应攻击者知道防御时是否仍有效，这是编辑解释。平台参照提供实务比较，但74.5%本身并非四平台平均降幅。
+- actual_refinement: 新增which的评注范围与数值比较对象分离，并保留源practicability/superiority评价而不当独立保证。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 18c07462ac5e1e45b13d6c07680ac4c40fd90fc4f680d50cecc22e36d59a010f
+  - source_span_word_count: 6
+  - span_locator_zh: 物理p.3右栏顶，贡献3单句，which评价从句内谓语，所分析的局部表达
+  - replacement: has great practicability and superiority
+  - use_condition: 希望把of加抽象名词的系联改为直接所有结构时。
+  - cost_or_risk: 近义结构仍较重，保留great和两评价；不是把技术比较转为已完成部署的证明。
+  - outside_span_changes: 无
+  - gain_claim: 条件化编辑选择，不声称经验证写作收益。
+- full_contextual_variant_zh:
+  - text: 我们在两个真实任务中验证TextShield对自适应攻击的鲁棒性，并将其与四个领先工业平台比较。作者据此指出，TextShield在降低攻击成功率方面具有很强的实用性和优越性，例如辱骂检测中的攻击成功率降低74.5%。
+  - use_condition: 希望把验证动作和作者解释分句，同时保留完整贡献主张时。
+  - cost_or_risk: 更显式区分动作与解释；数值仍只是作者例值，具体相对比较配置见限定附件，不能读成四平台平均或所有攻击通用下降。
+  - semantic_changes: 拆分句子并显化作者归属，保留两任务/四平台及原评价力度。
+- qualification_ids:
+  - Q2
+  - Q7
+  - Q11
+

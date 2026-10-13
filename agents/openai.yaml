@@ -1,0 +1,13 @@
+interface:
+  display_name: 研究引言写作
+  short_description: 理解研究与强近邻，用可追溯源句选择任务价值、信息组织和自然表达
+  default_prompt: 用 $research-intro-craft 从我的研究材料写出完整引言，按真实任务答案组织方案与贡献，并附完整来源表。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

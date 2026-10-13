@@ -1,0 +1,635 @@
+{
+  "type": "Complete 37-unit additive syntax/information/choice ledger",
+  "classification": "Source observations and editorial rationale explicitly separate; reader_prior excludes later body knowledge",
+  "records": [
+    {
+      "id": "P1.S1",
+      "text_sha256": "7a6da1a5fd569f72928cf3fb1e610f5f3ce6e95fab9e611954dd924bf754ee4b",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 1,
+      "words": 25,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "MARL主语+成功谓语+跨域例举",
+      "reader_prior_at_entry": "尚无本文问题",
+      "new_information_focus": "已有能力与应用广度",
+      "author_choice_editorial_inference": "先使技术值得保护，再谈安全；例举为范围，不承担攻击证据",
+      "source_claim_strength": "肯定成功",
+      "downstream": "P1.S2"
+    },
+    {
+      "id": "P1.S2",
+      "text_sha256": "f59515b80dc2c5607f70c078ba6f74180ab913354d83ed0e8892811843e1d551",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 1,
+      "words": 21,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Currently定位研究现状，yet转折",
+      "reader_prior_at_entry": "已知MARL成功",
+      "new_information_focus": "性能导向之外有安全注意缺口",
+      "author_choice_editorial_inference": "低成本领域入口；还不能独立证明本文学术gap",
+      "source_claim_strength": "noticeable lack强判断",
+      "downstream": "P2.S1-P2.S7"
+    },
+    {
+      "id": "P2.S1",
+      "text_sha256": "dd0c39e1ef1c2f7b2aa0ccd98b0b25b9a0fc3aa375232aca2b81ffacee6f1112",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 2,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "研究作施事，that补语；even修饰先进策略",
+      "reader_prior_at_entry": "安全未充分受重视",
+      "new_information_focus": "强策略也有竞争弱点",
+      "author_choice_editorial_inference": "先进性与脆弱性并置让风险值得研究，不将低质模型作为稻草人",
+      "source_claim_strength": "作者引用已有发现",
+      "downstream": "P2.S2"
+    },
+    {
+      "id": "P2.S2",
+      "text_sha256": "046defe8be7eb132a63253d107d3609170e9206e09d99705e34e25d7f50477a5",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 2,
+      "words": 31,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "攻击者主语；结果分词后再嵌possibly",
+      "reader_prior_at_entry": "已有竞争漏洞",
+      "new_information_focus": "通过己方策略诱发受害失误及任务后果",
+      "author_choice_editorial_inference": "让任务损害具体；结果逐层加重但极端后果有情态",
+      "source_claim_strength": "显著下降肯定，失序列能力可能",
+      "downstream": "P2.S3"
+    },
+    {
+      "id": "P2.S3",
+      "text_sha256": "7fcc508a2c2ee3be1e7e92f63fa6f852c11b785c81f1840806f0ca66e165a66d",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 32,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Victim-play系表；where从句给权限和无需条件",
+      "reader_prior_at_entry": "已知攻击形式，不知已有框架能力",
+      "new_information_focus": "交互即可的强黑盒答案",
+      "author_choice_editorial_inference": "从属成分承担公平近邻的核心前提；不把black-box当本篇唯一新颖点",
+      "source_claim_strength": "既有能力肯定",
+      "downstream": "P2.S4-P2.S7"
+    },
+    {
+      "id": "P2.S4",
+      "text_sha256": "14cd437495f988971ee42ca049ca0d5d88305291265796b41c4a9ad2b1893def",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 22,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "However转折；where从句限定单体；Go例",
+      "reader_prior_at_entry": "已知低权限框架",
+      "new_information_focus": "已有答案的两人单受害者范围",
+      "author_choice_editorial_inference": "对象条件改变先于评价它不够强；Go例仅例示非本文实验",
+      "source_claim_strength": "适用范围肯定",
+      "downstream": "P2.S5"
+    },
+    {
+      "id": "P2.S5",
+      "text_sha256": "a3522b7a1dd3afdaa9bbf298ffe3583e6d2d36733c78b87c94b34773fe7f72b6",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 29,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "It回指框架；when从句给稳定目标；with给MAS条件",
+      "reader_prior_at_entry": "已知单体范围",
+      "new_information_focus": "转到协作多体后稳定攻击困难",
+      "author_choice_editorial_inference": "同一框架同一攻击目标，改变受害对象，使比较连续",
+      "source_claim_strength": "encounters challenges，非绝对不能攻击",
+      "downstream": "P2.S6"
+    },
+    {
+      "id": "P2.S6",
+      "text_sha256": "28c2b618378fb9acb1c36b49fbff6ed1e87500524bd0552e3b47efd49a7f2092",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 3,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "partial observability主语；exacerbates回指；as原因",
+      "reader_prior_at_entry": "已有多体稳定困难",
+      "new_information_focus": "再少全球状态使同一困难加重",
+      "author_choice_editorial_inference": "联合条件不是无关第二gap；原因语将抽象部分观测具体化",
+      "source_claim_strength": "加重为强陈述",
+      "downstream": "P2.S7"
+    },
+    {
+      "id": "P2.S7",
+      "text_sha256": "e740966952d8c3b57c5b47483bbc85e8a92a8622a1e35cdfd1d7acd6b4cf06ce",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 3,
+      "words": 21,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "This回指；may result；两个并列优化后果",
+      "reader_prior_at_entry": "缺少全球状态",
+      "new_information_focus": "波动不收敛或坏局部最优",
+      "author_choice_editorial_inference": "给读者方法必须处理的训练后果；不能因简洁删除may",
+      "source_claim_strength": "可能后果",
+      "downstream": "P3.S1/P4.S2"
+    },
+    {
+      "id": "P3.S1",
+      "text_sha256": "c2abd3589b3c1cc952be12f36791e3d104c25ce78bb6c8ca0571d3f5ac217bf2",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 11,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "被动原因归类+三类+冒号组织",
+      "reader_prior_at_entry": "知道部分观测有害，不知来源",
+      "new_information_focus": "可区分的现实条件类别",
+      "author_choice_editorial_inference": "分类为后续覆盖主张赋予内容；此分析单元不是独立句号句",
+      "source_claim_strength": "primarily，非穷尽所有来源",
+      "downstream": "P3.S2-P3.S6"
+    },
+    {
+      "id": "P3.S2",
+      "text_sha256": "2c7ca6b23f25e26868291f7f67377a5f42692fb12738b56100537d7c9227eed3",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "类别标题+This occurs when定义；due to根因",
+      "reader_prior_at_entry": "知道分类数",
+      "new_information_focus": "不确定性源于不可预测事件",
+      "author_choice_editorial_inference": "建立类别判别依据，后句例子不另造挑战",
+      "source_claim_strength": "定义",
+      "downstream": "P3.S3"
+    },
+    {
+      "id": "P3.S3",
+      "text_sha256": "af4fecdfb1391b741d0aa784aba861495cfa5e75620cf066dd3b0a3850425dc4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 9,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Examples主语+include并列",
+      "reader_prior_at_entry": "知道不确定性的抽象定义",
+      "new_information_focus": "遮挡、噪声、传感异常",
+      "author_choice_editorial_inference": "把来源变可想象；这些是说明例子非逐项实验",
+      "source_claim_strength": "例示",
+      "downstream": "P4.S1/P5.S1"
+    },
+    {
+      "id": "P3.S4",
+      "text_sha256": "4e7395aad8b87039ec5c4cc8540de2dcd38d4f0ab9659f89d1bca1bfeb4579cc",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 31,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "标题+This refers to+where条件；determined by补传感范围",
+      "reader_prior_at_entry": "读者有第一类模型",
+      "new_information_focus": "距离超过感知范围及传感器来源",
+      "author_choice_editorial_inference": "一长句够交物理关系，篇幅不必与其他类齐整",
+      "source_claim_strength": "定义与例示",
+      "downstream": "P4.S1/P5.S1"
+    },
+    {
+      "id": "P3.S5",
+      "text_sha256": "7225518dddb5479732461a1f3c5789cc6706c052ab51e53ed38cd5005a76f2a4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 28,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Incomplete observations主语；result from原因；where界定边界",
+      "reader_prior_at_entry": "已知随机与距离缺失",
+      "new_information_focus": "规则/权限产生物理或逻辑区域",
+      "author_choice_editorial_inference": "为不直观的逻辑边界提供独立说明，不与噪声混成一个比例",
+      "source_claim_strength": "定义",
+      "downstream": "P3.S6"
+    },
+    {
+      "id": "P3.S6",
+      "text_sha256": "e4698a3e7630f96cf404d30715142983844255d00bf7cd68574d7e16d173990c",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 24,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Examples主语+并列受限区域/信息比赛",
+      "reader_prior_at_entry": "已知区域定义",
+      "new_information_focus": "权限控制与不完全信息应用",
+      "author_choice_editorial_inference": "扩展概念可理解性；不能把金融/poker例当已测领域",
+      "source_claim_strength": "例示",
+      "downstream": "P4.S1/P5.S1"
+    },
+    {
+      "id": "P4.S1",
+      "text_sha256": "1429a41761b3584d4e30d909ba03873cedeb4d13ec397cb3e930e24a5aba170a",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "本文作主语introduces；同位框架+aimed at目的",
+      "reader_prior_at_entry": "真实gap与三来源已交",
+      "new_information_focus": "黑盒框架与准确任务",
+      "author_choice_editorial_inference": "正面交答案，不再无限铺垫；novel归源版本历史断言",
+      "source_claim_strength": "已完成提案、novel",
+      "downstream": "P4.S2-P4.S4"
+    },
+    {
+      "id": "P4.S2",
+      "text_sha256": "8ce68c74918f40097e3d6fc5d3918b5c4a2e32d4dc54cddb2bade7ca1326109e",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 13,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Our intuition系表；decomposing分词执行直觉",
+      "reader_prior_at_entry": "已知框架名与任务",
+      "new_information_focus": "分治为可操作多个子游戏",
+      "author_choice_editorial_inference": "将直觉映射到中间产物；尚未交按可见数量划分",
+      "source_claim_strength": "作者明示直觉",
+      "downstream": "P4.S3/P4.S6"
+    },
+    {
+      "id": "P4.S3",
+      "text_sha256": "03d4690e9878c38224266d945414b66e91ce1cdcc20edc6d1372803e5eb1fe6c",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 24,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Each subgame话题；并列被动建模与MARL求解",
+      "reader_prior_at_entry": "知道多个子游戏",
+      "new_information_focus": "POSG与对应子策略",
+      "author_choice_editorial_inference": "从中间问题到可计算结果；不是只增加术语",
+      "source_claim_strength": "方法肯定",
+      "downstream": "P4.S4"
+    },
+    {
+      "id": "P4.S4",
+      "text_sha256": "e352f5766fe7c905900899cb5f425e6a51400746284a1d78ebb2b3dcf85eff68",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 15,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Finally排序；作者整合；目的交最终策略",
+      "reader_prior_at_entry": "已知子策略",
+      "new_information_focus": "硬编码组合使输出闭环",
+      "author_choice_editorial_inference": "不额外发明复杂组合器；§4.5才解释为何足够",
+      "source_claim_strength": "方法肯定",
+      "downstream": "P4.S5-P4.S9"
+    },
+    {
+      "id": "P4.S5",
+      "text_sha256": "6a18b534190ac335b2b16554f669115506ee250997a8afc8bff34f56102d0dd5",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 12,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "main challenge系表；caused by因果修饰",
+      "reader_prior_at_entry": "分治到输出已闭合",
+      "new_information_focus": "该设计的数据不均导致攻击弱",
+      "author_choice_editorial_inference": "困难位于设计之后有因果根据，不能移成通用MARL先验挑战",
+      "source_claim_strength": "作者强挑战命名",
+      "downstream": "P4.S6-P4.S9"
+    },
+    {
+      "id": "P4.S6",
+      "text_sha256": "efad1fc6739583c0d6193e1f6343d0bc32520d74028a33e490e3f93a19b5641a",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 33,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Specifically展开；记录与分配并列；based on标准",
+      "reader_prior_at_entry": "知道存在样本不均，不知何处分流",
+      "new_information_focus": "按当前可见受害者数分buffer",
+      "author_choice_editorial_inference": "关键新意在分配标准，记录动作只是进入点；可前移标准但有密度代价",
+      "source_claim_strength": "设计规则肯定",
+      "downstream": "P4.S7"
+    },
+    {
+      "id": "P4.S7",
+      "text_sha256": "94fd842ef27caf59c05f2ce8e9d254874b1bca2260b4c659343dea8ef0980ca4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "However偏离均衡预期；uneven主断言；due to根因",
+      "reader_prior_at_entry": "知道分配规则",
+      "new_information_focus": "出现概率不同造成数据数目不等",
+      "author_choice_editorial_inference": "原因附加语是论证前景，删后只剩问题宣告",
+      "source_claim_strength": "不均因果肯定",
+      "downstream": "P4.S8"
+    },
+    {
+      "id": "P4.S8",
+      "text_sha256": "5260db2b55b63c14509d4213b5a2142f62e61d67ccbf729b2f2a2dbf51d4007b",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 9,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "This imbalance回指+may lead",
+      "reader_prior_at_entry": "知道出现概率及buffer不均",
+      "new_information_focus": "部分子策略欠训",
+      "author_choice_editorial_inference": "接任务性能后果以使共享有必要；may不能删",
+      "source_claim_strength": "可能欠训",
+      "downstream": "P4.S9"
+    },
+    {
+      "id": "P4.S9",
+      "text_sha256": "32e59a733c520f8dbf12241c51c8d813e6e317a76cacd3c40851af8216bd7bd6",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "目的先行；propose交机制；that从句给共享来源",
+      "reader_prior_at_entry": "知道欠训的链条",
+      "new_information_focus": "相近子游戏共享补偿",
+      "author_choice_editorial_inference": "机制名之外交谁供数据；相近为观测数距离，不是物理距离",
+      "source_claim_strength": "提出并提供共享，缓解不是完全消除保证",
+      "downstream": "P5.S1/§5.3"
+    },
+    {
+      "id": "P5.S1",
+      "text_sha256": "0034a8635d5787b2dfe14343e57676dc08e3447abe5a4f01a23c871f690b3305",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 6,
+      "words": 32,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "evaluation results主语；demonstrate+并列address/outperform；环境同位语",
+      "reader_prior_at_entry": "已知方法与三限制",
+      "new_information_focus": "覆盖和领先，两环境范围",
+      "author_choice_editorial_inference": "先回答任务是否完成，再给范围；不选最大百分比节省复杂指标解释",
+      "source_claim_strength": "强有效与比较结论",
+      "downstream": "C3/§5.1-§5.2"
+    },
+    {
+      "id": "P5.S2",
+      "text_sha256": "0026712fec8bdd7518565cc17e68f1e55d1c4230864d489d95ae4574c99bd4fe",
+      "physical_pages": [
+        2
+      ],
+      "column": "left-to-right",
+      "printed_paragraph": 6,
+      "words": 23,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "比较状语；t-SNE analysis主语reveals；during限制",
+      "reader_prior_at_entry": "已有表现结果",
+      "new_information_focus": "受害网络对不同对手反应不同",
+      "author_choice_editorial_inference": "诊断为效果补一种视角，不独立证明漏洞原因",
+      "source_claim_strength": "显著差异的作者观察",
+      "downstream": "§5.2"
+    },
+    {
+      "id": "P5.S3",
+      "text_sha256": "e6605b587f53a3e19817a2b72c8902f847ee1fd159e512350141fa55de9c13d5",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 6,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "scalability evaluation主语；that补语能力；to目的",
+      "reader_prior_at_entry": "已知核心有效性",
+      "new_information_focus": "粒度可调扩大适用",
+      "author_choice_editorial_inference": "给资源/复杂度杠杆，不把可扩展当无成本更多智能体保证",
+      "source_claim_strength": "作者肯定可调适用性",
+      "downstream": "§5.5-§5.6"
+    },
+    {
+      "id": "P5.S4",
+      "text_sha256": "d38d76327054ca32bc89404402d8113e68b033c669057e418e10644c71b2e2e0",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 6,
+      "words": 13,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Moreover补维度；系表algorithm-agnostic；i.e.释义",
+      "reader_prior_at_entry": "已知框架与粒度",
+      "new_information_focus": "分布/集中两范式适用",
+      "author_choice_editorial_inference": "释义替读者确定泛称所指；结构适用与两代表算法实证分开",
+      "source_claim_strength": "源强适用断言保留",
+      "downstream": "§2.1/§5.1"
+    },
+    {
+      "id": "P6.S1",
+      "text_sha256": "680a52a62b671bdaff5dc19c2583b54a30853f1d034afead5c2cfb81c6d47032",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 12,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "目的前置+作者评估三防御",
+      "reader_prior_at_entry": "攻击威胁与性能已建立",
+      "new_information_focus": "下一问题是如何缓解",
+      "author_choice_editorial_inference": "让防御成为研究延续，不是无条件承诺消除攻击",
+      "source_claim_strength": "已完成评价",
+      "downstream": "P6.S2"
+    },
+    {
+      "id": "P6.S2",
+      "text_sha256": "54dca4d91ac02ac5d1cab4c9a46fd4947b356f08e406c97dfa6924e90f9073de",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 25,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "results indicate补语；while并列不等效果；only限制",
+      "reader_prior_at_entry": "知道测试三类防御",
+      "new_information_focus": "重训不足，集成/微调有限收益",
+      "author_choice_editorial_inference": "差异化结果给建议提供依据；不能把有限收益说成全部无效",
+      "source_claim_strength": "肯定不足和适度减弱",
+      "downstream": "P6.S3"
+    },
+    {
+      "id": "P6.S3",
+      "text_sha256": "deb2a06a334ad2a48abaefba224afea91fd0baadef8015ed278d0d2813dd8ecc",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "Nevertheless让步转向；insights suggest；may",
+      "reader_prior_at_entry": "知道防御并未根除",
+      "new_information_focus": "部署方式可能降低风险",
+      "author_choice_editorial_inference": "由负/有限观察获得新实践判断；suggest/may保留推论身份",
+      "source_claim_strength": "建议情态",
+      "downstream": "P6.S4/C4"
+    },
+    {
+      "id": "P6.S4",
+      "text_sha256": "c72be8bf277efd8f0c693341c8863b8a31ead50087b74ad6de44db698f46ea0d",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 14,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "For example+两动名词例项，片段",
+      "reader_prior_at_entry": "知道灵活部署有潜力",
+      "new_information_focus": "周期更新与增加多样性",
+      "author_choice_editorial_inference": "使抽象deployment可操作；不是两项已保证安全的机制证明",
+      "source_claim_strength": "建议例示",
+      "downstream": "§5.7"
+    },
+    {
+      "id": "P7.S1",
+      "text_sha256": "5597eec6260939ca664777bc8da01c216a1b6b477b7baf430bf1d0f8a779bd4c",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 8,
+      "words": 8,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "In summary组织+冒号",
+      "reader_prior_at_entry": "任务、方案、两类结果均已交",
+      "new_information_focus": "贡献集合即将归组",
+      "author_choice_editorial_inference": "避免在此再次引入陌生机制；作为组织单元保存",
+      "source_claim_strength": "组织，不算科学主张",
+      "downstream": "C1-C4"
+    },
+    {
+      "id": "P8.S1",
+      "text_sha256": "db044a9d65f04d0e9854e51c9a8a742b986da19ab5b09e5c514527fad1846537",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 9,
+      "words": 38,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "知识限定+first work；revealing分词；even with条件",
+      "reader_prior_at_entry": "此前已交弱观测多体攻击",
+      "new_information_focus": "条件减弱仍能利用的威胁发现",
+      "author_choice_editorial_inference": "首次性与任务能力相连；even with虽从属却是价值前景",
+      "source_claim_strength": "源历史首次性且有知识限定",
+      "downstream": "P2/P4/§3/§5"
+    },
+    {
+      "id": "P9.S1",
+      "text_sha256": "228e67c8e3575a583d5c864ed5f7a640f760126c3a9e8ac50f367a29ce28d5dc",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 10,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "We双动作summarize/propose；to accommodate目的",
+      "reader_prior_at_entry": "三限制与分治已完整解释",
+      "new_information_focus": "条件分类与适应方法一体",
+      "author_choice_editorial_inference": "不把三类分类拆三个模块贡献；前文足够所以可短",
+      "source_claim_strength": "已完成分类与提案",
+      "downstream": "P3/P4/§4.2"
+    },
+    {
+      "id": "P10.S1",
+      "text_sha256": "09a7f527965675aaad8bfae9266b7f184a8d1cbb6b0c36b1c01a5049dabcb3ba",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 11,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "conduct动作+demonstrating结果；条件后置",
+      "reader_prior_at_entry": "前文P5已有范围",
+      "new_information_focus": "系统评价证明相对强近邻能力",
+      "author_choice_editorial_inference": "无数字不等于无任务答案；读者已懂主要比较轴",
+      "source_claim_strength": "强outperforms，非逐格全部赢",
+      "downstream": "P5/§5/附录D"
+    },
+    {
+      "id": "P11.S1",
+      "text_sha256": "b35e03dc72d4e1aa29fe8f32426ddf087ac66f02357775f297bc7ea9287e667d",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 12,
+      "words": 36,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers",
+      "syntax_source_observation": "explore动作+emphasizing内容；not only/but also；which关系从句",
+      "reader_prior_at_entry": "防御结果与有限部署建议已交",
+      "new_information_focus": "实践者关注由算法分数扩到部署",
+      "author_choice_editorial_inference": "归组认识而非方法模块；which说明关注部署这一做法的安全重要性",
+      "source_claim_strength": "强实践重要性，不升级具体防御保证",
+      "downstream": "P6/§5.7/§6"
+    }
+  ]
+}

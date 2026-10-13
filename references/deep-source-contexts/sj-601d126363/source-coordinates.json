@@ -1,0 +1,563 @@
+{
+  "source_id": "sj-601d126363",
+  "primary": {
+    "title": "How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+    "url": "https://nesa.zju.edu.cn/download/lpy_pdf_sp23.pdf",
+    "version": "NESA-hosted 17-page author-lab manuscript; exact equality with publisher PDF not checked",
+    "authors": [
+      "Peiyu Liu",
+      "Shouling Ji",
+      "Lirong Fu",
+      "Kangjie Lu",
+      "Xuhong Zhang",
+      "Jingchang Qin",
+      "Wenhai Wang",
+      "Wenzhi Chen"
+    ],
+    "co_corresponding_authors": [
+      "Shouling Ji",
+      "Wenzhi Chen"
+    ],
+    "individual_writing_attribution": "Not established by coauthorship or corresponding-author designation",
+    "pdf_sha256": "32b65e45a2c10d4cb31aa67e7e2979b6aee27267d83871f1938a347cd78fd837",
+    "hash_status": "Source-review PDF verification copy SHA-256: 32b65e45a2c10d4cb31aa67e7e2979b6aee27267d83871f1938a347cd78fd837, matching the historical fingerprint. Equality with publisher PDF or current URL bytes is not established.",
+    "authorship_evidence": "Author list and co-corresponding-author footnote on physical page 1 of the designated public PDF."
+  },
+  "bibliographic_verification": {
+    "official_program": "https://sp2023.ieee-security.org/program-papers.html?cve=title",
+    "institution_record": "https://experts.umn.edu/en/publications/how-iot-re-using-threatens-your-sensitive-data-exploring-the-user/",
+    "venue": "2023 IEEE Symposium on Security and Privacy",
+    "published_pages": "3365-3381",
+    "doi": "10.1109/SP46215.2023.10179294",
+    "canonical_title_form_verified": "Re-using",
+    "legacy_search_alias": "How IoT Recycling Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+    "publisher_full_text_collation": false
+  },
+  "coordinate_rules": {
+    "base": "Preserve all 58 existing published-map units, including P8 without a sentence suffix.",
+    "page_numbers": "Physical PDF pages, one-based. Page-plus-unit locators are not precise text offsets.",
+    "local_components": "a/b/c in clauses.zh.md are analytical components, including clauses and semantically important phrases, not newly registered published-map units.",
+    "P8": "The original map has a list gate P8, not P8.S1; preserve this identity.",
+    "source_order": "The ordered introduction_units array follows the designated Introduction reading order; P4.S3 contains all three research questions and spans physical pages 1–2.",
+    "locator_limit": "Transient PDF text-reader line numbers are omitted. Consult the designated public PDF and existing analytical unit labels; no source sentences or local extraction artifact are included."
+  },
+  "introduction_units": [
+    {
+      "id": "P1.S1",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P1.S2",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P1.S3",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P1.S4",
+      "pages": [
+        1
+      ],
+      "note": "The author correspondence footnote can interleave in text extraction; it is not part of this sentence."
+    },
+    {
+      "id": "P1.S5",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P1.S6",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P2.S1",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P2.S2",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P2.S3",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P2.S4",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P3.S1",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P3.S2",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P3.S3",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P3.S4",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P3.S5",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P4.S1",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P4.S2",
+      "pages": [
+        1
+      ]
+    },
+    {
+      "id": "P4.S3",
+      "pages": [
+        1,
+        2
+      ],
+      "note": "All three research questions belong to one existing published-map unit spanning physical pages 1–2."
+    },
+    {
+      "id": "P5.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S2",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S3",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S4",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S5",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S6",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P5.S7",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S2",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S3",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S4",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S5",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S6",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S7",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S8",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S9",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S10",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S11",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S12",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S13",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S14",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P6.S15",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S2",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S3",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S4",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S5",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S6",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S7",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P7.S8",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "P8",
+      "pages": [
+        2
+      ],
+      "kind": "list gate"
+    },
+    {
+      "id": "B1.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B2.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B2.S2",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B2.S3",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B3.S1",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B3.S2",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B3.S3",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B3.S4",
+      "pages": [
+        2
+      ]
+    },
+    {
+      "id": "B3.S5",
+      "pages": [
+        2
+      ]
+    }
+  ],
+  "body_callbacks": [
+    {
+      "id": "D1",
+      "section": "II",
+      "pages": [
+        2,
+        3
+      ],
+      "purpose": "Reuse pathways, threat model and why IoT differs from visible user files"
+    },
+    {
+      "id": "D2",
+      "section": "III-A",
+      "pages": [
+        3
+      ],
+      "purpose": "User-study constructs, recruitment and 277 valid responses"
+    },
+    {
+      "id": "D3",
+      "section": "III-B",
+      "pages": [
+        3,
+        4
+      ],
+      "purpose": "Firmware proxy rationale, system role, implementation challenges, Lua coverage"
+    },
+    {
+      "id": "D4",
+      "section": "III-C",
+      "pages": [
+        4,
+        5
+      ],
+      "purpose": "Controlled marker configuration, before/after forensic observation and storage mechanism"
+    },
+    {
+      "id": "D5",
+      "section": "III-D",
+      "pages": [
+        5,
+        6
+      ],
+      "purpose": "Firmware sources and physical-device sample; 86.4 percent network-equipment rationale"
+    },
+    {
+      "id": "D6",
+      "section": "III-E",
+      "pages": [
+        5,
+        6
+      ],
+      "purpose": "Synthetic marker-only collection and disclosure scope"
+    },
+    {
+      "id": "D7",
+      "section": "IV",
+      "pages": [
+        6,
+        7
+      ],
+      "purpose": "Concern, reported disposal, category knowledge, method trust and omitted password-management results"
+    },
+    {
+      "id": "D8",
+      "section": "V-A",
+      "pages": [
+        7,
+        8
+      ],
+      "purpose": "11-firmware accuracy check and FP/FN limits on detected totals"
+    },
+    {
+      "id": "D9",
+      "section": "V-B/C",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "purpose": "121984 collections, data classes, category expectation comparison, omitted distribution results"
+    },
+    {
+      "id": "D10",
+      "section": "V-D",
+      "pages": [
+        9,
+        10
+      ],
+      "purpose": "185 sensitive items, 118 plaintext items, interface protection and actual collection scope"
+    },
+    {
+      "id": "D11",
+      "section": "VI-A/B",
+      "pages": [
+        10,
+        11
+      ],
+      "purpose": "Disposal action definitions, positive post-action recovery, 9 devices/23 action cases and same-device contrast"
+    },
+    {
+      "id": "D12",
+      "section": "VI-C",
+      "pages": [
+        11,
+        12
+      ],
+      "purpose": "66 of 500 firmware structural risk; two required characteristics"
+    },
+    {
+      "id": "D13",
+      "section": "VI-D",
+      "pages": [
+        12
+      ],
+      "purpose": "Four vendor risk confirmations, differing attitudes, ongoing industrial-user examination and suggestions; no completed remediation rate"
+    },
+    {
+      "id": "D14",
+      "section": "VII",
+      "pages": [
+        12,
+        13
+      ],
+      "purpose": "Accuracy, manual analysis, larger-scale and longitudinal limitations"
+    },
+    {
+      "id": "D15",
+      "section": "VIII",
+      "pages": [
+        13
+      ],
+      "purpose": "Lifecycle-focused historical positioning relative to user perceptions, apps and traffic"
+    },
+    {
+      "id": "D16",
+      "section": "References [6]",
+      "pages": [
+        14
+      ],
+      "purpose": "Trace introductory waste-volume statistic to original source"
+    }
+  ],
+  "external_statistic_check": {
+    "source": "https://ewastemonitor.info/gem-2020/",
+    "verified_scope": "53.6 million metric tonnes of global electronic waste in 2019, not IoT-specific retired-device volume",
+    "used_for": "Evidence qualification E1 only, not expansion of the paper's research task"
+  },
+  "source_review_scope": {
+    "complete_introduction_and_contributions": true,
+    "published_map_units": 58,
+    "visual_pages_verified": [
+      1,
+      2
+    ],
+    "not_claimed": [
+      "full scientific audit",
+      "experiment replication",
+      "full table-cell recount",
+      "publisher PDF equality",
+      "individual writing authorship",
+      "current novelty search",
+      "measured writing benefit"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "Introduction_sequence": [
+    {
+      "span": "P1",
+      "provides": "有益个性化能力、恶用后果",
+      "does_not_yet_provide": "LoRA流通或平台权限"
+    },
+    {
+      "span": "P2.S1–S4",
+      "provides": "已有底模擦除路线、插件对象、LoRA低成本定制能力",
+      "does_not_yet_provide": "发布后控制限制的作者明确推理"
+    },
+    {
+      "span": "P2.S5–S12",
+      "provides": "创建者→平台→下载者流程、示例、风险议程",
+      "does_not_yet_provide": "所有平台的真实实现结构或风险流行率"
+    },
+    {
+      "span": "P3",
+      "provides": "成本/效用联合条件、旧方法不适配判断、无原数据标签",
+      "does_not_yet_provide": "隐私导致平台无原训练图的理由、具体算法"
+    },
+    {
+      "span": "P4",
+      "provides": "角色、约束来源、抽象编辑、双结果、先行防线",
+      "does_not_yet_provide": "两模块的局部/较广覆盖分工"
+    },
+    {
+      "span": "B1–B3",
+      "provides": "风险→首次方法尝试→证据的贡献分工",
+      "does_not_yet_provide": "各实验共同条件或数字"
+    }
+  ],
+  "intrinsic_requirements": [
+    "保护共享的正常个性化资产免于被恶用",
+    "保持该资产的正常生成能力",
+    "在平台的数据权限与资源条件下可操作"
+  ],
+  "chosen_design_obligations": [
+    "参数编辑如何抑制指定内容且保持其他能力",
+    "局部覆盖为何还需更广的语义输入",
+    "低秩模型如何保持可共享的结构"
+  ],
+  "not_universal_challenges": [
+    "局部表示邻域不足是本文路线的覆盖问题，不是任意防护都必有的独立应用困难",
+    "SVD是此参数更新/输出路线的处理选择，不自动成为独立贡献"
+  ],
+  "contribution_set": [
+    {
+      "span": "B1",
+      "entity": "风险认识",
+      "selected_evidence": "引言平台试验及§5.4案例",
+      "not_claimed": "生态随机测量、认知提升被测量"
+    },
+    {
+      "span": "B2",
+      "entity": "首次无原数据编辑尝试及组合设计",
+      "selected_evidence": "§4机制和表5组件作用",
+      "not_claimed": "每个模块独立首次或强对手不可绕过"
+    },
+    {
+      "span": "B3",
+      "entity": "有效/稳健/高效的经验答案",
+      "selected_evidence": "目标抑制+效用保持+输入/合并变化+编辑成本",
+      "not_claimed": "一个数字概括全部安全、实时平台吞吐已验证"
+    }
+  ],
+  "result_selection_options": [
+    {
+      "choice": "保留原无数值的三性质收束",
+      "gain": "紧凑呼应前文联合任务，为新对象解释留篇幅",
+      "cost": "具体评估范围推迟到正文"
+    },
+    {
+      "choice": "按任务和共同条件展开",
+      "gain": "说明有效、稳健、高效分别对什么成立",
+      "cost": "更长；必须区分主体跨模型结果和附加单配置评估"
+    },
+    {
+      "choice": "仅放最显眼裸体得分",
+      "gain": "结果直接且易懂",
+      "cost": "丢其他概念、正常能力和成本，不足以承担本研究全部任务"
+    },
+    {
+      "choice": "仅放14秒成本",
+      "gain": "平台动机鲜明",
+      "cost": "不回答安全与保真；容易误读为平台吞吐证明"
+    },
+    {
+      "choice": "突出SD3扩展",
+      "gain": "架构适用性显眼",
+      "cost": "需同步较高成本，不能共享原headline预算"
+    }
+  ]
+}

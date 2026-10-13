@@ -1,0 +1,787 @@
+{
+  "source_id": "sj-74a13898b9",
+  "title": "CLIBE: Detecting Dynamic Backdoors in Transformer-based NLP Models",
+  "designated_url": "https://arxiv.org/pdf/2409.01193v2",
+  "designated_version": "arXiv:2409.01193v2, 11 September 2024",
+  "actual_version": "same designated version; PDF carries NDSS 2025 imprint",
+  "primary_sha256": "278b5eb6963f5f7fe2e4c92c31e7b9db9b53c076a3c049c0be807cd643137d93",
+  "primary_bytes": 11795863,
+  "physical_pages": 32,
+  "read_scope": {
+    "complete_introduction_pages": [
+      1,
+      2
+    ],
+    "complete_contribution_set": "C1–C5",
+    "body_sections": [
+      "§II-C",
+      "§III-A–C",
+      "§IV-A–E",
+      "§V-A–I",
+      "§VI",
+      "Appendix H",
+      "Appendix N–P"
+    ],
+    "source_read_not_implementation": true,
+    "page_extraction_hashes": [
+      {
+        "physical_page": 1,
+        "extracted_text_sha256": "5e920ca786a4f76fc147664d67c709d62240e0767ecef5554a63d33472fb3fe6"
+      },
+      {
+        "physical_page": 2,
+        "extracted_text_sha256": "612471d1ff51e566d28f5a032d6414f2255d145e8809c0d2d803efcb835787fd"
+      },
+      {
+        "physical_page": 3,
+        "extracted_text_sha256": "c52a0f10b38666bc21ceff06286aa67c0df84ace7ddd045b48cc845ba01f5247"
+      },
+      {
+        "physical_page": 4,
+        "extracted_text_sha256": "06b12b33a4effc8bd9692e8ad4dddd3c5d3f29d95346f7524910efc1fd38fac4"
+      },
+      {
+        "physical_page": 5,
+        "extracted_text_sha256": "c47d21b0e51f2bde5a3008fe9a75f2de03501224e6cf9dfef8a608cfadd80550"
+      },
+      {
+        "physical_page": 6,
+        "extracted_text_sha256": "290bbf487873c3a93105171ab31c9a747f27d582820b9dd839e00e7aba3e8673"
+      },
+      {
+        "physical_page": 7,
+        "extracted_text_sha256": "9a10a5feaa73feb6dd395b87ba8a6b042fcfca32c5262c616fd9c798110df032"
+      },
+      {
+        "physical_page": 8,
+        "extracted_text_sha256": "f5bde13f85167d4cf1428ae4a9a40688ff7bf0da7d3bd5b4258311ac083baafc"
+      },
+      {
+        "physical_page": 9,
+        "extracted_text_sha256": "27ed4ea6261f9a88ddd4f5ac1b3a9c2a9ed7e2cf13bf07dd6ef218ff778471db"
+      },
+      {
+        "physical_page": 10,
+        "extracted_text_sha256": "112ffebc9de0f465408210bbae2ac432a58734df3a986986b3a92195908e9012"
+      },
+      {
+        "physical_page": 11,
+        "extracted_text_sha256": "e935bde52164a92ec64f59a490daade743d147841f37c659a0ad620d9f72c98f"
+      },
+      {
+        "physical_page": 12,
+        "extracted_text_sha256": "30f15ef9c1c76f93aac6a4a11cc88c6941524f34551c874daba876f0564bffea"
+      },
+      {
+        "physical_page": 13,
+        "extracted_text_sha256": "79b446cfa07bb04b7c57fcdde360ad8348053aae3a4c62272eedf36a0d226280"
+      },
+      {
+        "physical_page": 14,
+        "extracted_text_sha256": "0c2fc70c2d8b29012e6c5d2188e247ad065bccf1a4f50750f931b26334365a73"
+      },
+      {
+        "physical_page": 15,
+        "extracted_text_sha256": "2fa32cba163222d961ea8fa5c5dcfb663736eee1c4382e9fae6406f5b0d14ab9"
+      },
+      {
+        "physical_page": 25,
+        "extracted_text_sha256": "e8633e2f7916cc6461685f82dad5ae134b5a7ff763db2e7ded9b9091803ae145"
+      },
+      {
+        "physical_page": 28,
+        "extracted_text_sha256": "32db309e432e6fbdc3e6043948c6ca8e5edeae2b628c35db8ea10ccd743c47b3"
+      },
+      {
+        "physical_page": 29,
+        "extracted_text_sha256": "131c6e75e938b21681da7130b2155408e8c42837a8ce4abd9abb95203f326fa6"
+      }
+    ],
+    "render_inspected_physical_pages": [
+      2,
+      9,
+      10,
+      12,
+      14,
+      15
+    ]
+  },
+  "coordinate_convention": "Physical page; zero-based PyMuPDF text block; old P/C are analytic identifiers reused only after primary verification. Hashes cover exact source blocks without copying primary passages into authored analysis.",
+  "intro_blocks": [
+    {
+      "physical_page": 1,
+      "block_index": 4,
+      "bbox": [
+        48.96,
+        566.57,
+        301.06,
+        653.25
+      ],
+      "column": "left",
+      "scope": "P1 beginning",
+      "text_sha256": "9983a04cae1e2cb24e65b5acbf447c09015f3af2c979ffc3c6372bf63707acf3"
+    },
+    {
+      "physical_page": 1,
+      "block_index": 6,
+      "bbox": [
+        319.0,
+        190.48,
+        571.1,
+        342.91
+      ],
+      "column": "right",
+      "scope": "P1 continuation",
+      "text_sha256": "221f25c1b4c13e26317f01a346988cb0674fcde3c334f1ae3e57c1ad4b00db81"
+    },
+    {
+      "physical_page": 1,
+      "block_index": 7,
+      "bbox": [
+        319.0,
+        353.29,
+        571.1,
+        735.86
+      ],
+      "column": "right",
+      "scope": "P2 beginning",
+      "text_sha256": "0dcbd7866e2cf1ce5faefda4a97481598f9dbd789c1d80ccaedb5d0c04da8e0b"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 0,
+      "bbox": [
+        48.96,
+        57.4,
+        301.06,
+        78.33
+      ],
+      "column": "left",
+      "scope": "P2 ending",
+      "text_sha256": "41aa563194f1f36a49f4644118da59fde21b090c3a9f9c6f12bd27be7aea0de7"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 1,
+      "bbox": [
+        48.96,
+        85.3,
+        301.06,
+        150.06
+      ],
+      "column": "left",
+      "scope": "P3",
+      "text_sha256": "2f57cfa5ec83b9c93706bb7556512cd12afd762e29876b1e6fbf9f31e3a4dbf2"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 2,
+      "bbox": [
+        48.96,
+        158.85,
+        301.06,
+        289.53
+      ],
+      "column": "left",
+      "scope": "P4 challenge items",
+      "text_sha256": "332b9b8c623304ad480628d74dc978bbb173f361684ecf070dd37ac7006fa59a"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 3,
+      "bbox": [
+        48.96,
+        298.41,
+        301.07,
+        385.17
+      ],
+      "column": "left",
+      "scope": "P5",
+      "text_sha256": "100e26eac78ef2b0001f935bf90cecd27f5df65ec1a159ea5663af666f93e643"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 4,
+      "bbox": [
+        48.96,
+        392.15,
+        301.06,
+        566.49
+      ],
+      "column": "left",
+      "scope": "P6",
+      "text_sha256": "c30460914ea2b568c932a82fa2950cae61b2559f1ab19883a8211e230f4fdc4b"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 5,
+      "bbox": [
+        48.96,
+        575.46,
+        301.07,
+        651.18
+      ],
+      "column": "left",
+      "scope": "P7 property items",
+      "text_sha256": "f6083b3bbf4b323932e6b4dc17f2b2331bfa87ff3ac02b31f1341bf3933ef33a"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 6,
+      "bbox": [
+        48.96,
+        660.14,
+        301.07,
+        735.86
+      ],
+      "column": "left",
+      "scope": "P8 beginning",
+      "text_sha256": "1afb4b215b70b48800a148e20e1954e1ee1528ab01b670e0c724f89c28d6a9d8"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 7,
+      "bbox": [
+        319.0,
+        57.4,
+        571.1,
+        111.2
+      ],
+      "column": "right",
+      "scope": "P8 ending",
+      "text_sha256": "c18f40218cabfaaa66bf14b88aba4c8aa82328cec6d15a6b16f3d16a99c39a10"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 8,
+      "bbox": [
+        333.39,
+        117.72,
+        519.99,
+        127.69
+      ],
+      "column": "right",
+      "scope": "contribution organizer",
+      "text_sha256": "3dc0ffb41455879572cc25455bb3aef20ef504a211869202527244365bb93786"
+    },
+    {
+      "physical_page": 2,
+      "block_index": 9,
+      "bbox": [
+        319.0,
+        135.39,
+        571.1,
+        378.67
+      ],
+      "column": "right",
+      "scope": "C1–C5 complete",
+      "text_sha256": "faee152b1738b09fb7305ee7ba22db721a915fb6385542d206a79764af709f4c"
+    }
+  ],
+  "choices": [
+    {
+      "id": "D1",
+      "intro_units": "P1.S4–S9",
+      "physical_pages": [
+        1
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1.S1–S3"
+        ],
+        "paraphrase": "Transformer pretraining and downstream fine-tuning only"
+      },
+      "foreground_new_information": "cost of fine-tuning → demand for reused models → specific platform supply",
+      "body_verification_or_later_answer": "P2.S1; body §III-A is verification, not prior knowledge",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "D2",
+      "intro_units": "P2.S5–S8",
+      "physical_pages": [
+        1
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P2.S1–S4"
+        ],
+        "paraphrase": "backdoor and static trigger definition"
+      },
+      "foreground_new_information": "paired trigger attributes explain consequences for two different detector tasks",
+      "body_verification_or_later_answer": "P3–P4; §II-C and Appendix H qualify the historical-neighbor account",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "D3",
+      "intro_units": "P3–P5",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1",
+          "P2",
+          "P3–P4 when analyzing P5"
+        ],
+        "paraphrase": "dynamic lexical variability, inversion difficulty, type diversity"
+      },
+      "foreground_new_information": "parameter-domain signal yields an input-modeling escape and type-agnostic test",
+      "body_verification_or_later_answer": "P6–P8; §III-A and §IV verify access conditions",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "D4",
+      "intro_units": "P6.S1–S4",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P5",
+          "P6.S1–S2 when analyzing P6.S3"
+        ],
+        "paraphrase": "parameter-domain approach, followed by dormant/active neuron rationale"
+      },
+      "foreground_new_information": "absence of trigger examples is the foregrounded condition even though not a matrix proposition",
+      "body_verification_or_later_answer": "P7–P8; §III-B–C verify empirical and simplified theoretical support",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "D5",
+      "intro_units": "P6.S5–P7",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P6.S4",
+          "P6.S5–S6 before P7"
+        ],
+        "paraphrase": "landscape intuition plus announced locations of empirical/theoretical support, not those sections contents"
+      },
+      "foreground_new_information": "conditional probe construction and predicted generalization to other samples",
+      "body_verification_or_later_answer": "P8; §IV-C–D verify overfitting controls and held-out reference role",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose",
+      "syntax_assertion": "P7.S1: conditional subordinate if-clause; matrix subject perturbed weights with a tendency-to-converge predicate; naming in a nonrestrictive relative clause inside the matrix clause. The predicted consequence remains a tendency, not a guarantee."
+    },
+    {
+      "id": "D6",
+      "intro_units": "P8",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P7"
+        ],
+        "paraphrase": "few-shot perturbation and other-reference prediction"
+      },
+      "foreground_new_information": "available input → label-pair probe → unused-reference metric → model decision",
+      "body_verification_or_later_answer": "§IV-B–E verifies data, operations, metric, calibration",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "C1",
+      "intro_units": "C1.S1",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P8"
+        ],
+        "paraphrase": "method already explained; no contribution results yet"
+      },
+      "foreground_new_information": "deliverable and task scope with source-time novelty claim",
+      "body_verification_or_later_answer": "§III–IV",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "C2",
+      "intro_units": "C2.S1–S2",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P8",
+          "C1"
+        ],
+        "paraphrase": "method and deliverable, not experiment counts or results"
+      },
+      "foreground_new_information": "evaluated breadth followed by average task answer",
+      "body_verification_or_later_answer": "§V-A–B; Tables II–V",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "C3",
+      "intro_units": "C3.S1–S3",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P8",
+          "C1–C2"
+        ],
+        "paraphrase": "entropy and parameter probe named; initial benchmark results announced"
+      },
+      "foreground_new_information": "three targeted robustness tests and their bounded effective-evasion conclusion",
+      "body_verification_or_later_answer": "§V-F; Figures 8–9",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose",
+      "evidence_population_mapping": "claim_evidence E09 contains all three distinct populations; no inheritance of C2 two-architecture coverage or common Cartesian grid."
+    },
+    {
+      "id": "C4",
+      "intro_units": "C4.S1",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P8",
+          "C1–C3"
+        ],
+        "paraphrase": "model-sharing scenario and evaluated method; no platform scan result"
+      },
+      "foreground_new_information": "scan scale and one highly suspicious result, not confirmation",
+      "body_verification_or_later_answer": "§V-G and Figure 10",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose"
+    },
+    {
+      "id": "C5",
+      "intro_units": "C5.S1",
+      "physical_pages": [
+        2
+      ],
+      "prior_reader_knowledge": {
+        "allowed_source": "preceding Introduction only",
+        "preceding_units": [
+          "P1–P8",
+          "C1–C4"
+        ],
+        "paraphrase": "classification detection and previous evidence, not a generation pipeline"
+      },
+      "foreground_new_information": "methodology extends to toxic generation behavior",
+      "body_verification_or_later_answer": "§V-I, Table X and Appendix O",
+      "full_analysis": "choices.zh.md §2–3",
+      "classification": "source syntax and assertions separated from editorial rationale in prose",
+      "source_assertion_strength": "Authors explicitly claim ease of methodological extension; implementation changes do not themselves negate ease; adaptation effort not independently measured."
+    }
+  ],
+  "claim_evidence": [
+    {
+      "id": "E01",
+      "topic": "task/access",
+      "source_location": "§III-A",
+      "physical_pages": [
+        4
+      ],
+      "paraphrase": "Platform maintainer, white-box access, general corpus with sufficient task-related examples; no trigger input test samples. Core scope is classification.",
+      "status": "source_explicit"
+    },
+    {
+      "id": "E02",
+      "topic": "strong neighbor",
+      "source_location": "§II-C and Appendix H",
+      "physical_pages": [
+        3,
+        25
+      ],
+      "paraphrase": "PICCOLO and DBS previously evaluated one dynamic syntax attack; CLIBE authors argue detection depends on reference-subset choice, unlike a dependable trigger-agnostic solution. Not proof nobody ever studied dynamic attacks.",
+      "status": "source_explicit_plus_editorial_scope"
+    },
+    {
+      "id": "E03",
+      "topic": "mechanism and theorem",
+      "source_location": "§III-B–C",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "paraphrase": "Landscape visualization is a 2D parameter subspace; theory uses simplified data and a two-layer TextCNN. Source support is not a general theorem for arbitrary Transformer detectors.",
+      "status": "source_explicit_plus_editorial_scope"
+    },
+    {
+      "id": "E04",
+      "topic": "probe/evidence separation",
+      "source_location": "§IV-B–D",
+      "physical_pages": [
+        6,
+        7,
+        8
+      ],
+      "paraphrase": "Confidence-filtered reference samples; a small subset forms probe, remaining samples evaluate generalization; overfitting can occur even with a small perturbation budget.",
+      "status": "source_explicit"
+    },
+    {
+      "id": "E05",
+      "topic": "entropy rationale",
+      "source_location": "§IV-D and §V-E–F",
+      "physical_pages": [
+        7,
+        12,
+        13
+      ],
+      "paraphrase": "Distribution concentration rather than merely high mean is linked to resistance against tested adaptive confidence changes; alternative metric can score better on some ordinary RoBERTa configurations.",
+      "status": "source_explicit_plus_table_verification"
+    },
+    {
+      "id": "E06",
+      "topic": "benchmark pool",
+      "source_location": "§V-A–B / Tables II–III",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "paraphrase": "24 source-agnostic configurations, each row 40 backdoor and 40 benign models; headline is average, not per-configuration floor.",
+      "status": "source_explicit"
+    },
+    {
+      "id": "E07",
+      "topic": "source-specific pool",
+      "source_location": "§V-B / Table IV",
+      "physical_pages": [
+        10
+      ],
+      "paraphrase": "AG-News BERT rows; each row evaluates 48 backdoor models for TPR and 40 benign models for FPR; source-specific syntax TPR .583 FPR .075 F1 .709 AUC .758, PICCOLO AUC .781. Caption mentions RoBERTa but rows and body do not supply RoBERTa measurements.",
+      "status": "source_explicit_plus_table_verification"
+    },
+    {
+      "id": "E08",
+      "topic": "threshold comparison",
+      "source_location": "§V-A",
+      "physical_pages": [
+        9
+      ],
+      "paraphrase": "CLIBE fixed threshold; comparator thresholds optimized for F1 subject to FPR no more than .10.",
+      "status": "source_explicit"
+    },
+    {
+      "id": "E09",
+      "topic": "adaptive claim strength",
+      "source_location": "§V-F / Figures 8–9",
+      "physical_pages": [
+        12,
+        13
+      ],
+      "paraphrase": "Three evaluated adaptive strategies do not effectively evade CLIBE. Their tested populations differ; the bounded conclusion is not zero misses, universal robustness, or inheritance of the two-architecture benchmark.",
+      "status": "source_explicit",
+      "populations": [
+        {
+          "strategy": "posterior scattering",
+          "architecture": "BERT",
+          "scope": "three source-agnostic dynamic families × four datasets",
+          "backdoor_models_per_combination": 20,
+          "backdoor_models_total": 240,
+          "result": "TPR >0.9 for perplexity/style; mean TPR >0.7 for the syntax subset",
+          "false_positive_rate": "source prose reports qualitatively low FPR, no single exact FPR for this whole set"
+        },
+        {
+          "strategy": "weights freezing",
+          "architecture": "BERT",
+          "scope": "three source-agnostic dynamic families and four datasets; grouped report",
+          "backdoor_models_total": 36,
+          "TPR": 0.97,
+          "FPR": 0.038
+        },
+        {
+          "strategy": "latent-backdoor/clean-fine-tuning evaluation",
+          "architecture": "BERT",
+          "scope": "source-agnostic style backdoors on Yelp",
+          "backdoor_models_total": 20,
+          "TPR": 1.0,
+          "FPR": 0.05
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "topic": "platform status",
+      "source_location": "§V-G / Figure 10",
+      "physical_pages": [
+        13,
+        14
+      ],
+      "paraphrase": "49 models; 3 candidates; follow-up tests yield 1 strongly suspicious model with .96 error under a particular test. Source hypothesizes backdoor, not confirmed malicious insertion or population rate.",
+      "status": "source_explicit_plus_editorial_scope"
+    },
+    {
+      "id": "E11",
+      "topic": "generation scope",
+      "source_location": "§V-I, Table X, Appendix O",
+      "physical_pages": [
+        14,
+        15,
+        28,
+        29
+      ],
+      "paraphrase": "Static-trigger toxic text-generation extension with changed pipeline and additional toxicity classifier; five settings; OPT-1.3B F1 .889 AUC .900.",
+      "status": "source_explicit",
+      "source_assertion": "Authors explicitly describe methodological extension as easy.",
+      "verified_changes": "Static-trigger toxic-generation extension changes reference-data preparation, objective, perturbed layer, and measurement, and uses a toxicity detector.",
+      "independent_effort_measurement": false,
+      "editorial_scope": "F2.C deliberately omits the source ease assertion to foreground results and dependencies; that is a selection/strength cost, not evidence that extension is difficult."
+    },
+    {
+      "id": "E12",
+      "topic": "runtime tradeoff",
+      "source_location": "§V-D, Table VII, Appendix N",
+      "physical_pages": [
+        12,
+        28
+      ],
+      "paraphrase": "RTX 3090 timings 379–806 s depending on 2/4 classes and BERT/RoBERTa; shorter optimization reduces cost with changed detection performance.",
+      "status": "source_explicit"
+    }
+  ],
+  "recomputed_not_source_reported": {
+    "pool": "CLIBE columns Tables II–III, 24 row configurations in printed order",
+    "F1_values": [
+      0.988,
+      0.976,
+      0.947,
+      0.951,
+      0.988,
+      0.976,
+      0.974,
+      0.951,
+      0.845,
+      0.923,
+      1,
+      0.883,
+      1,
+      0.988,
+      0.9,
+      1,
+      1,
+      0.948,
+      0.9,
+      0.919,
+      1,
+      0.988,
+      0.857,
+      0.889
+    ],
+    "AUC_values": [
+      0.994,
+      0.996,
+      0.968,
+      0.994,
+      0.996,
+      0.994,
+      0.999,
+      0.997,
+      0.971,
+      0.982,
+      1,
+      0.929,
+      1,
+      1,
+      0.921,
+      1,
+      1,
+      0.991,
+      0.958,
+      0.961,
+      1,
+      0.986,
+      0.905,
+      0.964
+    ],
+    "F1_unweighted_mean": 0.9496249999999998,
+    "AUC_unweighted_mean": 0.9794166666666667,
+    "scope": "Arithmetic audit of configuration means; not a newly reported paper estimate or prevalence statistic"
+  },
+  "variants": [
+    {
+      "group": "L1",
+      "type": "local meaning-preserving",
+      "units": "P5.S2",
+      "options": 3,
+      "fixed_content": "CLIBE reveals dynamic-backdoor irregularities in parameter space; this shift avoids formalizing complex input triggers. All three alternatives retain a discovery/disclosure predicate.",
+      "conditions_and_costs": "Each option explicitly records prefix needs and focus/length costs in choices.zh.md",
+      "semantic_strength": "All use reveals, not examines/looks for. Within this fixed content the differences are information order, syntactic packaging, and sentence length."
+    },
+    {
+      "group": "L2",
+      "type": "local bounded semantic preservation",
+      "units": "C3",
+      "options": 3,
+      "fixed_content": "three tested strategies; detection metric/weight probe targets; no effective evasion",
+      "detail_tradeoff": "A retains total count but drops one/two subgroup count; explicitly disclosed",
+      "shared_usage_condition": "The three strategies are a bounded set with uneven tested populations listed in E09, not a common Cartesian grid or inherited C2 two-architecture coverage. Numeric results require matching population and FPR; posterior-scattering prose gives only qualitative FPR."
+    },
+    {
+      "group": "F1",
+      "type": "whole method paragraph with declared content allocation changes",
+      "units": "P5–P8 + explicitly identified body imports in option B",
+      "options": 3,
+      "fixed_content": "model-level dynamic detection; parameter probe; formation/evidence-set separation; entropy judgment",
+      "warning": "Not presented as exact local equivalence; access-condition imports, delayed mechanism and omitted data-screening details explicitly costed",
+      "option_A_order": "probe/operation-first, with neuron/landscape rationale deferred as explicitly costed"
+    },
+    {
+      "group": "F2",
+      "type": "evidence-selection alternatives, not synonyms",
+      "units": "C2 and C5",
+      "options": 3,
+      "fixed_content": "Each option binds its claim to its own evidence pool",
+      "warning": "Average dynamic classification, hard source-specific cases and static-trigger toxic generation are different claims",
+      "option_C_selection_cost": "Omits the source authors' ease-of-extension assertion while foregrounding measured toxic-generation results and adaptation dependencies; not fully strength-preserving and not a finding that extension is difficult."
+    }
+  ],
+  "scientific_qualifications_separate_from_editorial_rules": true,
+  "verbatim_quotation_policy": "No complete primary passages in authored payload. Technical terms and short lexical anchors only; no source sentences deliberately quoted.",
+  "evaluation_of_writing_benefit": "Not tested; source fidelity and useful distinctions alone do not demonstrate writing improvement.",
+  "actual_primary_url": "https://arxiv.org/pdf/2409.01193v2",
+  "source_map": "../../intro-source-maps/sj-74a13898b9.md",
+  "historical_analysis_date": "2026-10-06",
+  "historical_review_date": "2026-10-06",
+  "distribution_cleanup_date": "2026-10-07",
+  "historical_review_status": {
+    "closed_required": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "open_required": [],
+    "scope": "Independent reread covered the historical final input bytes, not the derived distribution bytes."
+  },
+  "distribution_boundary": {
+    "new_distillation_count": 0,
+    "new_public_primary_source_reread_count": 0,
+    "primary_and_page_artifacts_included": false,
+    "historical_evidence_note": "Primary PDF, page renders, historical baseline/access records and private verification artifacts are not included. Source/page/block hashes and coordinates are retained from the 2026-10-06 analysis; they are not fresh checks and cannot be fully replayed from this distribution alone.",
+    "scientific_analysis_and_editorial_options": "Retained; cleanup changes only historical workflow wording, routing and distribution metadata.",
+    "historical_original_sha256": "60d84d0a57a4bfd00b1c1582d3d043c82295abfcd64d0a1c307fb9171d2fb11a"
+  },
+  "reader_state_scope": {
+    "advisory": "A1",
+    "status": "retained-nonblocking",
+    "scope": "Group-level incoming-reader-state analysis; not an exhaustive before-every-sentence replacement or new complete sentence-prefix map."
+  }
+}

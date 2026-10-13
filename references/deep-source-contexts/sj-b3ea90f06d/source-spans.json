@@ -1,0 +1,621 @@
+{
+  "source_id": "sj-b3ea90f06d",
+  "designated_url": "https://arxiv.org/pdf/2302.05892v1",
+  "version": "arXiv:2302.05892v1, 12 February 2023",
+  "pdf_sha256": "cb2024aed8a531904388e5676b8673c8ca2e6cb9a8dcaec4576110348aa26717",
+  "coordinate_policy": "All 59 existing sentence coordinates are unchanged. P7.F1 (heading fragment) and P7.S1 (contribution lead) subdivide the existing unnumbered P7 locally only; neither is a newly registered published-map unit. The ledger covers 60 complete sentences plus one heading fragment.",
+  "locator_semantics": "Physical PDF pages start at 1; column and source order locate each analytical unit in the public designated version. No primary-source sentences or offsets into an unavailable local extraction are included.",
+  "spans": [
+    {
+      "coordinate": "P1.S1",
+      "published_map_coordinate": "P1.S1",
+      "source_ordinal": 1,
+      "physical_pages": [
+        1
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P1.S2",
+      "published_map_coordinate": "P1.S2",
+      "source_ordinal": 2,
+      "physical_pages": [
+        1
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P1.S3",
+      "published_map_coordinate": "P1.S3",
+      "source_ordinal": 3,
+      "physical_pages": [
+        1
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P1.S4",
+      "published_map_coordinate": "P1.S4",
+      "source_ordinal": 4,
+      "physical_pages": [
+        1
+      ],
+      "column": "left to right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P1.S5",
+      "published_map_coordinate": "P1.S5",
+      "source_ordinal": 5,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P1.S6",
+      "published_map_coordinate": "P1.S6",
+      "source_ordinal": 6,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S1",
+      "published_map_coordinate": "P2.S1",
+      "source_ordinal": 7,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S2",
+      "published_map_coordinate": "P2.S2",
+      "source_ordinal": 8,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S3",
+      "published_map_coordinate": "P2.S3",
+      "source_ordinal": 9,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S4",
+      "published_map_coordinate": "P2.S4",
+      "source_ordinal": 10,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S5",
+      "published_map_coordinate": "P2.S5",
+      "source_ordinal": 11,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S6",
+      "published_map_coordinate": "P2.S6",
+      "source_ordinal": 12,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S7",
+      "published_map_coordinate": "P2.S7",
+      "source_ordinal": 13,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P2.S8",
+      "published_map_coordinate": "P2.S8",
+      "source_ordinal": 14,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S1",
+      "published_map_coordinate": "P3.S1",
+      "source_ordinal": 15,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S2",
+      "published_map_coordinate": "P3.S2",
+      "source_ordinal": 16,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S3",
+      "published_map_coordinate": "P3.S3",
+      "source_ordinal": 17,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S4",
+      "published_map_coordinate": "P3.S4",
+      "source_ordinal": 18,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S5",
+      "published_map_coordinate": "P3.S5",
+      "source_ordinal": 19,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S6",
+      "published_map_coordinate": "P3.S6",
+      "source_ordinal": 20,
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S7",
+      "published_map_coordinate": "P3.S7",
+      "source_ordinal": 21,
+      "physical_pages": [
+        1,
+        2
+      ],
+      "column": "p1 right to p2 left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S8",
+      "published_map_coordinate": "P3.S8",
+      "source_ordinal": 22,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S9",
+      "published_map_coordinate": "P3.S9",
+      "source_ordinal": 23,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S10",
+      "published_map_coordinate": "P3.S10",
+      "source_ordinal": 24,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S11",
+      "published_map_coordinate": "P3.S11",
+      "source_ordinal": 25,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S12",
+      "published_map_coordinate": "P3.S12",
+      "source_ordinal": 26,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S13",
+      "published_map_coordinate": "P3.S13",
+      "source_ordinal": 27,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S14",
+      "published_map_coordinate": "P3.S14",
+      "source_ordinal": 28,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P3.S15",
+      "published_map_coordinate": "P3.S15",
+      "source_ordinal": 29,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S1",
+      "published_map_coordinate": "P4.S1",
+      "source_ordinal": 30,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S2",
+      "published_map_coordinate": "P4.S2",
+      "source_ordinal": 31,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S3",
+      "published_map_coordinate": "P4.S3",
+      "source_ordinal": 32,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S4",
+      "published_map_coordinate": "P4.S4",
+      "source_ordinal": 33,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S5",
+      "published_map_coordinate": "P4.S5",
+      "source_ordinal": 34,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S6",
+      "published_map_coordinate": "P4.S6",
+      "source_ordinal": 35,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S7",
+      "published_map_coordinate": "P4.S7",
+      "source_ordinal": 36,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S8",
+      "published_map_coordinate": "P4.S8",
+      "source_ordinal": 37,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P4.S9",
+      "published_map_coordinate": "P4.S9",
+      "source_ordinal": 38,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S1",
+      "published_map_coordinate": "P5.S1",
+      "source_ordinal": 39,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S2",
+      "published_map_coordinate": "P5.S2",
+      "source_ordinal": 40,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S3",
+      "published_map_coordinate": "P5.S3",
+      "source_ordinal": 41,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S4",
+      "published_map_coordinate": "P5.S4",
+      "source_ordinal": 42,
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S5",
+      "published_map_coordinate": "P5.S5",
+      "source_ordinal": 43,
+      "physical_pages": [
+        2
+      ],
+      "column": "left to right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S6",
+      "published_map_coordinate": "P5.S6",
+      "source_ordinal": 44,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S7",
+      "published_map_coordinate": "P5.S7",
+      "source_ordinal": 45,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S8",
+      "published_map_coordinate": "P5.S8",
+      "source_ordinal": 46,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P5.S9",
+      "published_map_coordinate": "P5.S9",
+      "source_ordinal": 47,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P6.S1",
+      "published_map_coordinate": "P6.S1",
+      "source_ordinal": 48,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P6.S2",
+      "published_map_coordinate": "P6.S2",
+      "source_ordinal": 49,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P6.S3",
+      "published_map_coordinate": "P6.S3",
+      "source_ordinal": 50,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P6.S4",
+      "published_map_coordinate": "P6.S4",
+      "source_ordinal": 51,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P6.S5",
+      "published_map_coordinate": "P6.S5",
+      "source_ordinal": 52,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "P7.F1",
+      "published_map_coordinate": "P7",
+      "source_ordinal": 53,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "heading fragment"
+    },
+    {
+      "coordinate": "P7.S1",
+      "published_map_coordinate": "P7",
+      "source_ordinal": 54,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B1.S1",
+      "published_map_coordinate": "B1.S1",
+      "source_ordinal": 55,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B1.S2",
+      "published_map_coordinate": "B1.S2",
+      "source_ordinal": 56,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B2.S1",
+      "published_map_coordinate": "B2.S1",
+      "source_ordinal": 57,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B2.S2",
+      "published_map_coordinate": "B2.S2",
+      "source_ordinal": 58,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B2.S3",
+      "published_map_coordinate": "B2.S3",
+      "source_ordinal": 59,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B3.S1",
+      "published_map_coordinate": "B3.S1",
+      "source_ordinal": 60,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    },
+    {
+      "coordinate": "B3.S2",
+      "published_map_coordinate": "B3.S2",
+      "source_ordinal": 61,
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "kind": "sentence"
+    }
+  ]
+}

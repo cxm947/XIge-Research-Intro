@@ -1,0 +1,240 @@
+{
+  "source_id": "sj-e82106495c",
+  "title": "SLIME: Program-Sensitive Energy Allocation for Fuzzing",
+  "designated_url": "https://zhexwang.github.io/papers/slime.pdf",
+  "doi": "10.1145/3533767.3534385",
+  "pdf_sha256": "ca225b09f2adc23b1d8452e7f4f18ad17d5c2d495f82dc3523075639dd479626",
+  "pdf_bytes": 923258,
+  "source_text_sha256": "dec04cc796f2a4cc94216a1365b55fd4e94726462c12ec0ab92c86d587424ecf",
+  "layout_text_sha256": "f078b7d5b53607937b928872a949c6556e73363c639134995dd99f562f7e0cc5",
+  "version_note": "Existing designated bytes reused, not re-downloaded on 2026-10-06. Published-format 2022 proceedings text; embedded PDF modification metadata 2025-03-16 does not establish a different scholarly version.",
+  "scope_read": "Complete Intro and contribution set. Needed body: §2.3-2.4, §3.1-3.5, §4.1-4.3, §5, relevant §6.1; source rendered Intro pp1-2 and numerical pp8-11 inspected.",
+  "not_claimed": [
+    "No present-day novelty verification",
+    "No current repository execution/availability verification",
+    "No author-person attribution",
+    "No empirical writing efficacy test",
+    "No new fuzzing/model/attack implementation"
+  ],
+  "coordinate_system": "Historical analytical P1–P6/B1–B4 labels; P4.S1–S3 aliases P4.Q1–Q3; C0 is the contribution lead-in. See coordinate-crosswalk.json for the explicit published-map namespace bridge. Text-line offsets and extraction hashes are historical locators only; no local source-text assets are distributed or replay certified.",
+  "claims": [
+    {
+      "claim_id": "identity",
+      "type": "A",
+      "source_locator": "第1物理页/365；文首标题、署名及ACM Reference",
+      "claim": "SLIME是程序敏感的fuzzing能量分配论文；DOI与既存源一致",
+      "boundary": "不要解释成其他SLIME；没有推定个人执笔"
+    },
+    {
+      "claim_id": "task_bridge",
+      "type": "O/A/I",
+      "source_locator": "Intro P1.S1-S6、P2.S1-S3；§2.1-2.3",
+      "claim": "任务为自动发现漏洞；覆盖提供概率性中间目标；种子队列形成可分配预算对象",
+      "boundary": "对桥的读者作用是编辑推断，不是作者自述；未增加用户事故或电耗结论"
+    },
+    {
+      "claim_id": "gap",
+      "type": "A/I",
+      "source_locator": "Intro P3；§2.3-2.4；§6.1",
+      "claim": "固定关键属性的跨程序收益不恒定；已有自适应和bandit近邻",
+      "boundary": "不是第一种动态调度或第一次使用bandit；未重审近邻原论文"
+    },
+    {
+      "claim_id": "motivation",
+      "type": "A",
+      "source_locator": "§2.4 physical3-4 /367-368；Fig1正文解释",
+      "claim": "3程序，9属性，48小时，4次重复；效率为选中种子的独特路径与崩溃发现数除以执行次数；同程序与跨程序收益模式",
+      "boundary": "每执行发现率不是墙钟吞吐率或节能率；§3.5奖励按一次队列选择所得新发现计数；主比较为等墙钟预算。观察性动机，不证明所有程序或预算的全局最优"
+    },
+    {
+      "claim_id": "mechanism",
+      "type": "A/I",
+      "source_locator": "Intro P4-P5；§3.1-3.5 physical4-7 /368-371",
+      "claim": "17例属性，重叠队列，周期维护，基于发现反馈的奖励选择；原队列结构和替换支线",
+      "boundary": "阶段依赖解释为I；§3.5才是分配算法：G为一次队列选择并变异其种子所得新发现计数，N为队列选择次数，不同于动机案例的执行次数分母；未执行代码"
+    },
+    {
+      "claim_id": "main_result",
+      "type": "A",
+      "source_locator": "§4.1-4.2，Table3 physical8 /372",
+      "claim": "九程序20次120小时合并去重：SLIME231；AFL51；MOpt187；AFL++143；AFL++HIER91；EcoFuzz123；TortoiseFuzz48；每行SLIME均更高",
+      "boundary": "ASan栈顶三函数去重；不是单次均值；不能转成节能比；强结果保留"
+    },
+    {
+      "claim_id": "relative_gain",
+      "type": "I arithmetic",
+      "source_locator": "Table3",
+      "claim": "(231-187)/187=0.23529411764705888；源文四舍五入0.24倍更多",
+      "boundary": "分母MOpt187；总量比1.235294；不是0.24倍总量"
+    },
+    {
+      "claim_id": "additional_findings",
+      "type": "A",
+      "source_locator": "Table4和§4.2 physical9 /373",
+      "claim": "41项仅SLIME在该实验找到且作者检索时未在CVE公布的分组",
+      "boundary": "不是41项新分配CVE；没有厂商确认修复状态"
+    },
+    {
+      "claim_id": "known_cves",
+      "type": "A",
+      "source_locator": "Table6 physical9 /373；§4.2 physical10 /374",
+      "claim": "SLIME25，MOpt21；5个已公布CVE仅SLIME匹配",
+      "boundary": "25是已知CVE匹配；4个总数增量与5个集合差分别成立"
+    },
+    {
+      "claim_id": "edge_coverage",
+      "type": "A",
+      "source_locator": "Table7 physical10 /374",
+      "claim": "20次平均边覆盖6程序最高，jhead全体同值，ffmpeg和objdump非第一",
+      "boundary": "不削弱Table3逐程序合并漏洞数全部高于基线的不同结论"
+    },
+    {
+      "claim_id": "fuzzbench",
+      "type": "A/O",
+      "source_locator": "§4.2及Fig5 physical10 /374",
+      "claim": "4工具4目标，24小时10次，region coverage；lcms中AFL中位数更高；jsoncpp中SLIME与AFL++中位数并列",
+      "boundary": "不能将总体更好展开成4个目标严格最高或独立统计显著性认定"
+    },
+    {
+      "claim_id": "selection_ablation",
+      "type": "A",
+      "source_locator": "§4.3，Table8 physical11 /375",
+      "claim": "3目标20次120小时；随机属性队列版合并83，SLIME103，MOpt85",
+      "boundary": "存在另报每次均值的行；不可混用；队列构造独自不足以解释整机优势"
+    },
+    {
+      "claim_id": "replacement_ablation",
+      "type": "A",
+      "source_locator": "§4.3，Table9 physical11 /375",
+      "claim": "4目标20次48小时，强初始覆盖种子集；比较新增边而非整个覆盖量",
+      "boundary": "百分比分母是新增覆盖；不自动变成新增漏洞或UCB-V单独作用"
+    },
+    {
+      "claim_id": "limitations",
+      "type": "A/I",
+      "source_locator": "§5 physical11 /375",
+      "claim": "作者提出阶段间能量平衡和种子质量进一步利用为未来问题",
+      "boundary": "极短预算与候选不良是编辑适用性推论而非已测负结果"
+    },
+    {
+      "claim_id": "contribution_set",
+      "type": "O/A/I",
+      "source_locator": "Intro B1-B4 physical2 /366",
+      "claim": "四项分别为案例观察、方案及支持结构、多种评价、开源；评价最长因证据责任多",
+      "boundary": "来源确有独立P6结果预览且开源单列；不强制改成当前默认结构"
+    }
+  ],
+  "sentence_matrix_file": "sentence-matrix.json",
+  "paragraph_lengths": {
+    "P1": {
+      "word_count_whitespace_without_citations": 126,
+      "text_line_spans": [
+        [
+          123,
+          126
+        ],
+        [
+          134,
+          140
+        ]
+      ]
+    },
+    "P2": {
+      "word_count_whitespace_without_citations": 105,
+      "text_line_spans": [
+        [
+          141,
+          147
+        ]
+      ]
+    },
+    "P3": {
+      "word_count_whitespace_without_citations": 141,
+      "text_line_spans": [
+        [
+          148,
+          161
+        ]
+      ]
+    },
+    "P4": {
+      "word_count_whitespace_without_citations": 75,
+      "text_line_spans": [
+        [
+          162,
+          167
+        ]
+      ]
+    },
+    "P5": {
+      "word_count_whitespace_without_citations": 159,
+      "text_line_spans": [
+        [
+          168,
+          181
+        ],
+        [
+          183,
+          184
+        ]
+      ]
+    },
+    "P6": {
+      "word_count_whitespace_without_citations": 100,
+      "text_line_spans": [
+        [
+          185,
+          195
+        ]
+      ]
+    },
+    "C0": {
+      "word_count_whitespace_without_citations": 7,
+      "text_line_spans": [
+        [
+          196,
+          196
+        ]
+      ]
+    },
+    "B1": {
+      "word_count_whitespace_without_citations": 38,
+      "text_line_spans": [
+        [
+          197,
+          199
+        ]
+      ]
+    },
+    "B2": {
+      "word_count_whitespace_without_citations": 73,
+      "text_line_spans": [
+        [
+          200,
+          206
+        ]
+      ]
+    },
+    "B3": {
+      "word_count_whitespace_without_citations": 85,
+      "text_line_spans": [
+        [
+          207,
+          215
+        ]
+      ]
+    },
+    "B4": {
+      "word_count_whitespace_without_citations": 11,
+      "text_line_spans": [
+        [
+          216,
+          217
+        ]
+      ]
+    }
+  },
+  "quotation_note": "Authored outputs use original Chinese analysis and original English illustrative variants. No primary Introduction or complete source passage copied. Bibliographic title and technical proper names are retained for identity.",
+  "historical_review_date": "2026-10-06",
+  "actual_version": "ISSTA 2022 coauthor-hosted published-format PDF, physical pp.1-13 / printed pp.365-377"
+}

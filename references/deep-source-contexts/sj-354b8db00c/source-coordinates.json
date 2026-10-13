@@ -1,0 +1,668 @@
+{
+  "source_id": "sj-354b8db00c",
+  "title": "Structural Data De-Anonymization: Theory and Practice",
+  "authors": [
+    "Shouling Ji",
+    "Weiqing Li",
+    "Mudhakar Srivatsa",
+    "Raheem Beyah"
+  ],
+  "doi": "10.1109/TNET.2016.2536479",
+  "designated_url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf",
+  "actual_read_url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf",
+  "actual_read_version": "IEEE/ACM Transactions on Networking early-access typeset article; page header states content final except pagination",
+  "page_count": 14,
+  "date_metadata": {
+    "received": "2015-05-25",
+    "revised": "2015-12-06",
+    "accepted": "2016-01-28",
+    "copyright_year": 2016,
+    "final_issue_pagination": "not inferred"
+  },
+  "source_reading_date_utc": "2026-10-07",
+  "primary_pdf_sha256": "bc5a920165d9b1d3e693c3d92d515a71d1a31374e34bff924b1506017a6fa8ab",
+  "hash_identity_scope": "SHA-256 identifies the retained 14-page early-access PDF used for the stated readings. The designated public URL was reopened for version/content checks. No new independent download, current URL-byte hash identity or final publisher-PDF equivalence is claimed.",
+  "coauthor_basis": "Coauthorship only; no individual prose authorship attribution",
+  "coordinate_namespace": "Preserve all 45 main-text analytical labels from the published map: 26 P units, 12 C units, and 7 R roadmap units. Only the 38 P/C units are registered by the unchanged default --unit route. R.S1–R.S7 remain visible in the complete published map but are not registered unit selections. FN1.S1–S2 and FN2.S1–S3 are five deep-only footnote analysis units, not default registered coordinates. P5.S5 and C1.S2 each group several questions: 50 analysis units do not mean 50 grammatical sentences. Local a/b/c labels are analytical, not printed source labels.",
+  "published_map": "references/intro-source-maps/sj-354b8db00c.md",
+  "introduction_scope": {
+    "physical_pages": [
+      1,
+      2
+    ],
+    "main_analysis_units": 45,
+    "footnote_analysis_units": 5,
+    "total_analysis_units": 50,
+    "default_registered_units": 38,
+    "contribution_items": 4,
+    "roadmap_units": 7,
+    "grouped_question_units": [
+      "P5.S5",
+      "C1.S2"
+    ]
+  },
+  "introduction_units": [
+    {
+      "id": "P1.S1",
+      "physical_pdf_position": "1左下",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 20,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P1.S2",
+      "physical_pdf_position": "1左下",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 16,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P1.S3",
+      "physical_pdf_position": "1左下至右上",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 20,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P1.S4",
+      "physical_pdf_position": "1右上",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 23,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P1.S5",
+      "physical_pdf_position": "1右上",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 45,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P2.S1",
+      "physical_pdf_position": "1右中",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 26,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P2.S2",
+      "physical_pdf_position": "1右中",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 14,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P2.S3",
+      "physical_pdf_position": "1右中",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 19,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P2.S4",
+      "physical_pdf_position": "1右中",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 11,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P2.S5",
+      "physical_pdf_position": "1右中",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 44,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P3.S1",
+      "physical_pdf_position": "1右下",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 25,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P3.S2",
+      "physical_pdf_position": "1右下",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 38,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P3.S3",
+      "physical_pdf_position": "1右下",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 13,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S1",
+      "physical_pdf_position": "1右下至2左上",
+      "physical_pages": [
+        1,
+        2
+      ],
+      "lexical_tokens": 26,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S2",
+      "physical_pdf_position": "2左上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 26,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S3",
+      "physical_pdf_position": "2左上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 33,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S4",
+      "physical_pdf_position": "2左上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 22,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S5",
+      "physical_pdf_position": "2左上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 25,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P4.S6",
+      "physical_pdf_position": "2左上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 20,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S1",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 31,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S2",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 30,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S3",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 30,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S4",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 10,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S5",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 47,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S6",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 19,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "P5.S7",
+      "physical_pdf_position": "2左中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 6,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C1.S1",
+      "physical_pdf_position": "2左下",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 21,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C1.S2",
+      "physical_pdf_position": "2左下",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 65,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C1.S3",
+      "physical_pdf_position": "2左下",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 12,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C2.S1",
+      "physical_pdf_position": "2左下",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 39,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C2.S2",
+      "physical_pdf_position": "2左下",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 16,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C2.S3",
+      "physical_pdf_position": "2左下至右上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 25,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C3.S1",
+      "physical_pdf_position": "2右上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 12,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C3.S2",
+      "physical_pdf_position": "2右上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 24,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C3.S3",
+      "physical_pdf_position": "2右上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 20,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C3.S4",
+      "physical_pdf_position": "2右上",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 31,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C4.S1",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 18,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "C4.S2",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 11,
+      "default_unit_registered": true,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S1",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 9,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S2",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 10,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S3",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 33,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S4",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 16,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S5",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 12,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S6",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 22,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "R.S7",
+      "physical_pdf_position": "2右中",
+      "physical_pages": [
+        2
+      ],
+      "lexical_tokens": 18,
+      "default_unit_registered": false,
+      "label_origin": "published map"
+    },
+    {
+      "id": "FN1.S1",
+      "physical_pdf_position": "1右底脚注1",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 15,
+      "default_unit_registered": false,
+      "label_origin": "deep footnote analysis extension"
+    },
+    {
+      "id": "FN1.S2",
+      "physical_pdf_position": "1右底脚注1",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 52,
+      "default_unit_registered": false,
+      "label_origin": "deep footnote analysis extension"
+    },
+    {
+      "id": "FN2.S1",
+      "physical_pdf_position": "1右底脚注2",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 16,
+      "default_unit_registered": false,
+      "label_origin": "deep footnote analysis extension"
+    },
+    {
+      "id": "FN2.S2",
+      "physical_pdf_position": "1右底脚注2",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 30,
+      "default_unit_registered": false,
+      "label_origin": "deep footnote analysis extension"
+    },
+    {
+      "id": "FN2.S3",
+      "physical_pdf_position": "1右底脚注2",
+      "physical_pages": [
+        1
+      ],
+      "lexical_tokens": 6,
+      "default_unit_registered": false,
+      "label_origin": "deep footnote analysis extension"
+    }
+  ],
+  "page_semantics": "physical PDF pages, equal visible 1–14 in this version; not final journal pagination",
+  "word_count_method": {
+    "label": "English lexical items, not official word count",
+    "preprocessing": "Restore practice-theory joined by PDF line extraction; strip citation numerals and footnote call markers; remove footnote leading digits",
+    "token_regex": "[A-Za-z]+(?:[-/'][A-Za-z]+)*|\\d+(?:[,\\.]\\d+)*|[εϵ]",
+    "kept": "numeral sequences, ε, roman enumerator letters, abbreviation components; ASCII internal hyphen/slash/apostrophe compounds count as one token",
+    "not_a_quota": true
+  },
+  "length_statistics": {
+    "unit_count": 50,
+    "main_units": 45,
+    "footnote_units": 5,
+    "body_excluding_roadmap": 933,
+    "roadmap_tokens": 120,
+    "footnote_tokens": 119,
+    "paragraph_tokens": {
+      "P1": 124,
+      "P2": 114,
+      "P3": 76,
+      "P4": 152,
+      "P5": 173,
+      "C1": 98,
+      "C2": 80,
+      "C3": 87,
+      "C4": 29,
+      "R": 120,
+      "FN1": 67,
+      "FN2": 52
+    },
+    "range": [
+      6,
+      65
+    ]
+  },
+  "author_reading_scope": {
+    "full_read": "Introduction, physical pp.1–2 including both footnotes, four contribution bullets and roadmap; checked against page images",
+    "necessary_body_read": [
+      {
+        "section": "II-A/B",
+        "physical_pages": "2–3",
+        "purpose": "target/auxiliary graphs, undirected assumption, matching task"
+      },
+      {
+        "section": "III-A/B",
+        "physical_pages": "3–4",
+        "purpose": "overlap, latent graph, edge projections, configuration model, structural error"
+      },
+      {
+        "section": "III-C/D",
+        "physical_pages": "4–5",
+        "purpose": "theorem statement distinctions and perfect/tolerated-error meaning; proofs not audited"
+      },
+      {
+        "section": "IV-A/B/C/D, Tables I–III, selected adjacent discussion",
+        "physical_pages": "5–9",
+        "purpose": "26 datasets, preprocessing, density approximation, equal edge projection, degree-sequence role and quantitative examples"
+      },
+      {
+        "section": "V opening and V-A selected analysis",
+        "physical_pages": "9–12",
+        "purpose": "infeasible conceptual optimization, tractable relaxation, seed-free initialization"
+      },
+      {
+        "section": "V-B, Figures 2–3",
+        "physical_pages": "12–13",
+        "purpose": "Gowalla/Google+ setup, self-obtained landmarks, headline rates and lower-bound comparison"
+      },
+      {
+        "section": "VI selected assumption/future-work remarks",
+        "physical_pages": "13",
+        "purpose": "confirm differing-population quantification is not a completed blanket guarantee"
+      }
+    ],
+    "not_claimed": [
+      "full scientific or proof audit",
+      "independent novelty validation",
+      "full reading of referenced prior works",
+      "reading of separate Supplementary File",
+      "running code or attacks",
+      "replication of results",
+      "individual authorship inference"
+    ]
+  },
+  "source_review_scope": {
+    "date_utc": "2026-10-07",
+    "complete_introduction_and_four_contributions": true,
+    "full_analysis_units_read": 50,
+    "introduction_physical_pages": [
+      1,
+      2
+    ],
+    "selected_body_confirmed": [
+      "Configuration-model degree-sequence scope; shared population, edge projection, a.a.s. and epsilon-n qualifications",
+      "Conceptual enumeration versus redefined-error, candidate-reduction and local-search ODA",
+      "Table III conditional recovery fractions; physical p.12 settings and Figures 2–3; Gowalla/Google+ formation and Google+-only five-repeat scope"
+    ],
+    "bounded_reread": "One local revision: reread the complete affected analysis paragraph and surrounding handoff against physical p.4 Theorems 1/2, and the common proposition plus all three B-group alternatives. Unchanged content was not re-audited.",
+    "not_claimed": [
+      "whole-paper scientific audit",
+      "proof or algorithm replication",
+      "supplement reading",
+      "new independent PDF download or remote byte identity"
+    ]
+  },
+  "epistemic_labels": {
+    "observation": "What the source states or how its clauses are organized.",
+    "editorial_interpretation": "Reader-path and content-selection inference, not author intent or a measured benefit.",
+    "generation_operation": "Conditional transfer requiring the target research facts and author choices."
+  },
+  "not_claimed": [
+    "full scientific or proof audit",
+    "independent novelty validation",
+    "full reading of referenced prior works",
+    "reading of separate Supplementary File",
+    "running code or attacks",
+    "replication of results",
+    "individual authorship inference",
+    "measured writing benefit",
+    "50 grammatical sentences",
+    "registration of R or FN under the default --unit route"
+  ]
+}

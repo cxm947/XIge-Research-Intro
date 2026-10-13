@@ -1,0 +1,224 @@
+{
+  "source_id": "sj-bee854378e",
+  "dependency_edges": [
+    {
+      "from": [
+        "P1.S1",
+        "P1.S2"
+      ],
+      "to": [
+        "P1.S3",
+        "P1.S4"
+      ],
+      "relation": "有用的外部信息／工具整合同时引出信任边界风险",
+      "why_not_optional": "只写风险会丢失外部数据为何必须保留的前提。"
+    },
+    {
+      "from": [
+        "P1.S4",
+        "P1.S5",
+        "P1.S6"
+      ],
+      "to": [
+        "P2.S1"
+      ],
+      "relation": "保护必要性转为保护与可用性共同要求",
+      "why_not_optional": "缺联合要求时误拒率只是孤立指标。"
+    },
+    {
+      "from": [
+        "P2.S2",
+        "P2.S3",
+        "P2.S4",
+        "P2.S5"
+      ],
+      "to": [
+        "P3.S1",
+        "P3.S2"
+      ],
+      "relation": "前文先介绍既有方法的目标功能，再指出作者所述代价，促使重新考察内部可分信号",
+      "why_not_optional": "否则几何观察没有任务动机。"
+    },
+    {
+      "from": [
+        "P3.S2",
+        "P3.S3"
+      ],
+      "to": [
+        "P3.S4",
+        "P4.S2"
+      ],
+      "relation": "两类表示的几何差异选择了检测信号与投影职责",
+      "why_not_optional": "只给方法名无法说明为什么抑制表面措辞变化。"
+    },
+    {
+      "from": [
+        "P2.S5",
+        "P4.S2"
+      ],
+      "to": [
+        "P4.S3",
+        "P4.S4",
+        "P4.S5"
+      ],
+      "relation": "已交代的正常可用性目标先引出P4.S3的共识机制；P4.S4随后补入单层噪声理由，P4.S5再交其任务后果",
+      "why_not_optional": "一个应用目标可由两个层级机制共同满足，不要求一对一挑战。",
+      "edge_type": "whole-sequence-development; not all target facts are prior premises",
+      "new_local_reason_location": "P4.S4首次提出单层噪声；不可视为P4.S3之前已知的前提。"
+    },
+    {
+      "from": [
+        "P3.S3",
+        "P4.S2"
+      ],
+      "to": [
+        "B1.S1"
+      ],
+      "relation": "认识结果以能够区分的任务后果收束",
+      "why_not_optional": "几何描写本身不是完整价值答案。"
+    },
+    {
+      "from": [
+        "P4.S3",
+        "P4.S4",
+        "P4.S5"
+      ],
+      "to": [
+        "B2.S1",
+        "B2.S2"
+      ],
+      "relation": "方案组合与额外形式分析分开承诺",
+      "why_not_optional": "理论不能只是未指定对象的可靠性装饰。"
+    },
+    {
+      "from": [
+        "P2.S1",
+        "P2.S5",
+        "B3.S1"
+      ],
+      "to": [
+        "B3.S2"
+      ],
+      "relation": "检测证据后突出良性任务代价，回答标题问题",
+      "why_not_optional": "只报高ACC不能辨识误拒与漏检的不同成本。"
+    }
+  ],
+  "whole_set_contributions": [
+    {
+      "id": "B1",
+      "sentences": [
+        "B1.S1"
+      ],
+      "main_result": "表示关系的刻画及用于区分的认识",
+      "length_reason": "一个句子兼具结果与任务后果；不用复述应用入口。",
+      "foreground_selection": "先认识后工程方案。",
+      "not_an_extra_claim": "不是对所有模型的普适训练因果定理。"
+    },
+    {
+      "id": "B2",
+      "sentences": [
+        "B2.S1",
+        "B2.S2"
+      ],
+      "main_result": "校准／投票组合和两类理论分析",
+      "length_reason": "两句分别承担系统交付、经验之外的分析对象；相对B1更长是职责而非固定配额。",
+      "foreground_selection": "组合为一项，分析与经验区别。",
+      "not_an_extra_claim": "不把投影、阈值、投票拆成三个互不依赖的贡献。"
+    },
+    {
+      "id": "B3",
+      "sentences": [
+        "B3.S1",
+        "B3.S2"
+      ],
+      "main_result": "覆盖范围内的检测表现与正常任务代价",
+      "length_reason": "第一句给覆盖与检测答案；第二句将记忆焦点放到良性效用。",
+      "foreground_selection": "FPR结果比孤立最大ACC更服务标题。",
+      "not_an_extra_claim": "确切FPR争议不消除其选择价值，但阻止无注释引用这个数。"
+    }
+  ],
+  "evidence_pool": [
+    {
+      "id": "E1",
+      "source": "Table 1 p.6; §4.1 pp.5–6",
+      "candidate": "八攻击×十基线的ACC/FPR/FNR",
+      "actual_intro_selection": "八／十覆盖、良好检测判断与良性FPR",
+      "task_answer": "检测能力与误拒代价共同回答安全／效用目标",
+      "alternative_cost": "仅ACC可能掩盖一类错误；仅FPR不体现恶意样本检测。",
+      "qualifications": [
+        "Q5",
+        "Q6",
+        "Q7"
+      ]
+    },
+    {
+      "id": "E2",
+      "source": "§3.2 p.3 Figure 1; §3.3–3.4.1 pp.3–4",
+      "candidate": "表征观察与信号投影理由",
+      "actual_intro_selection": "几何刻画被选为第一贡献",
+      "task_answer": "为什么能用另一种信号作判别",
+      "alternative_cost": "只报可视化差异会丢掉区别能力的用途。",
+      "qualifications": [
+        "Q1"
+      ]
+    },
+    {
+      "id": "E3",
+      "source": "§3.5–3.6 pp.4–5; A.1–A.3 pp.11–12",
+      "candidate": "误报界与潜在空间分类稳定性",
+      "actual_intro_selection": "第二贡献中与经验效果并列",
+      "task_answer": "机制可靠性有分析对象",
+      "alternative_cost": "混称全面鲁棒性会改变保证对象。",
+      "qualifications": [
+        "Q4"
+      ]
+    },
+    {
+      "id": "E4",
+      "source": "Figure 2 p.7",
+      "candidate": "时间、显存与准确率对比",
+      "actual_intro_selection": "方案被称为轻量，贡献未选具体开销数字",
+      "task_answer": "部署成本的辅助证据",
+      "alternative_cost": "若改作结尾核心，应在同目标下选择成本比较；不等于越快越好。",
+      "qualifications": [
+        "Q2",
+        "Q7"
+      ]
+    },
+    {
+      "id": "E5",
+      "source": "Figures 3–4 p.7; Figure 6 p.8",
+      "candidate": "层深、聚合方式与层窗口的消融",
+      "actual_intro_selection": "聚合理由在方案段，实验细节延后",
+      "task_answer": "单层局部噪声与整合的关系",
+      "alternative_cost": "加入所有参数会挤掉首次理解所需的表示桥。",
+      "qualifications": [
+        "Q3"
+      ]
+    },
+    {
+      "id": "E6",
+      "source": "Figure 5 pp.7–8; Table 2 p.16",
+      "candidate": "三底模和不同配置表现",
+      "actual_intro_selection": "Introduction未点名全部模型",
+      "task_answer": "覆盖边界与参数依赖",
+      "alternative_cost": "三模型覆盖不能自动改为架构无关不变量。",
+      "qualifications": [
+        "Q1"
+      ]
+    },
+    {
+      "id": "E7",
+      "source": "Figures 7–8 p.8; A.4–A.5 pp.13–14",
+      "candidate": "少量校准数据与数据效率",
+      "actual_intro_selection": "未将样本数列成末项主结果",
+      "task_answer": "估计检测器需要多少资源",
+      "alternative_cost": "若改为核心贡献需写清资源分母及样本矛盾，不能只用无训练标签。",
+      "qualifications": [
+        "Q2",
+        "Q7"
+      ]
+    }
+  ],
+  "editorial_rule": "因果与认知关系为编辑解释；源文显式原因在逐句账本单列。正文证据不回填为先前读者知识。"
+}

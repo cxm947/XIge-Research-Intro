@@ -1,0 +1,295 @@
+# JailNeurons：分析坐标与原文定位
+
+本表仅保留原文位置、字符范围及哈希，不包含原句或原文片段；散列证明字节身份，不证明语义等价。此处坐标不是默认图的自动别名。
+
+- pdf_sha256: c44227b9070fd431bda51eb9939ac43a9b806daee4e0199d14636c72828527a0
+- coordinate_status: analytical labels, not printed source numbers
+- paragraphs:
+  - 
+    - paragraph: P1
+    - source_blocks:
+      - 
+        - physical_page: 1
+        - pymupdf_zero_based_block_index: 7
+        - bbox:
+          - 107.99999237060547
+          - 534.0072631835938
+          - 504.0032958984375
+          - 686.4348754882812
+        - raw_utf8_sha256: 7d23315e84e38e6d9f0cc6ee3b3824dd366a7664f5f5cd756beb29720df856d4
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: P2
+    - source_blocks:
+      - 
+        - physical_page: 1
+        - pymupdf_zero_based_block_index: 8
+        - bbox:
+          - 107.99999237060547
+          - 693.4092407226562
+          - 504.0033264160156
+          - 714.3308715820312
+        - raw_utf8_sha256: 89efb6f178c88e9704fecf01557920a28b29ba00b4d34bc08e6f1b3186ce9670
+      - 
+        - physical_page: 2
+        - pymupdf_zero_based_block_index: 2
+        - bbox:
+          - 108.0
+          - 260.0394287109375
+          - 504.0033264160156
+          - 324.7969665527344
+        - raw_utf8_sha256: 87ff700800722126b4ff45e885e5bbe82536b5cf56fcba6f1333a09580f8b7f5
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: P3
+    - source_blocks:
+      - 
+        - physical_page: 2
+        - pymupdf_zero_based_block_index: 3
+        - bbox:
+          - 108.0
+          - 331.7703552246094
+          - 504.0033264160156
+          - 462.2808532714844
+        - raw_utf8_sha256: 819071ee2eab30cc7426ccb1ea889d28fd148ceb4ff49be607714a2b81547859
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: P4
+    - source_blocks:
+      - 
+        - physical_page: 2
+        - pymupdf_zero_based_block_index: 4
+        - bbox:
+          - 108.0
+          - 469.2552490234375
+          - 504.0035095214844
+          - 588.8067626953125
+        - raw_utf8_sha256: 2c52b07df4bc42f75569394a0c086acf0cd263febd46ccfc25a047a23ddd5eaf
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: P5
+    - source_blocks:
+      - 
+        - physical_page: 2
+        - pymupdf_zero_based_block_index: 5
+        - bbox:
+          - 108.0
+          - 595.7802124023438
+          - 504.0033874511719
+          - 715.331787109375
+        - raw_utf8_sha256: bd6054cb254e98bf1209d8cc8f60f64e352962620fb99e9315bfedb6b249ed97
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: O1
+    - source_blocks:
+      - 
+        - physical_page: 2
+        - pymupdf_zero_based_block_index: 6
+        - bbox:
+          - 108.0
+          - 722.3062133789062
+          - 339.16217041015625
+          - 732.268798828125
+        - raw_utf8_sha256: 11fc7348a9df635f1fcf4bc7da52b94d46880aa7b939a62d64b2346aaa78da5d
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: B1
+    - source_blocks:
+      - 
+        - physical_page: 3
+        - pymupdf_zero_based_block_index: 1
+        - bbox:
+          - 135.39700317382812
+          - 84.26844787597656
+          - 504.0030517578125
+          - 127.10800170898438
+        - raw_utf8_sha256: 9a3935303c5183f3942ecbcb21762b0d14816683ecd4fd8a700d0c01833f6c4b
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: B2
+    - source_blocks:
+      - 
+        - physical_page: 3
+        - pymupdf_zero_based_block_index: 2
+        - bbox:
+          - 135.39700317382812
+          - 132.9243927001953
+          - 504.0030212402344
+          - 164.80496215820312
+        - raw_utf8_sha256: 0bf0ca80ec420c66b5a4f0a7cba36d0a64d67a9ef06f246392c8adbedaf143ae
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+  - 
+    - paragraph: B3
+    - source_blocks:
+      - 
+        - physical_page: 3
+        - pymupdf_zero_based_block_index: 3
+        - bbox:
+          - 135.39700317382812
+          - 170.62135314941406
+          - 504.0031433105469
+          - 213.46090698242188
+        - raw_utf8_sha256: fb980072e16fb6b93ba9baa2e22f5773583a72582f0ebf7e0acb16c3fc5d2db0
+    - sentence_coordinates: Use baseline Pn.Sn/Bn.Sn within the complete paragraph; targeted per-sentence offsets recorded separately below.
+- selected_unit_offsets:
+  - 
+    - unit: P3.S1
+    - paragraph: P3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 0
+    - end_char_exclusive: 176
+    - span_sha256_utf8: 4104e491dc3974a40406e075d3d9cbcc51e0fd719745c06882b68251cbea5ed8
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P3.S2
+    - paragraph: P3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 176
+    - end_char_exclusive: 496
+    - span_sha256_utf8: bde0ed3fbde7d1d86161051cca046937322ca86094a4d2a10c6ac92f43f2a8f2
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P3.S3
+    - paragraph: P3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 496
+    - end_char_exclusive: 615
+    - span_sha256_utf8: 50cc299e1618b50ee6ad68da0606d08f9d44dcbd28efa8a517d9c457db9ff864
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P3.S5
+    - paragraph: P3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 650
+    - end_char_exclusive: 899
+    - span_sha256_utf8: 72baaf74eb47a189e75d4110e9f57ba2407308f64d36b4e5beeb84ddc0099222
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P3.S6
+    - paragraph: P3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 899
+    - end_char_exclusive: 1092
+    - span_sha256_utf8: e8d7445182994f65bc1fdfa22e87d45bffcbdbfa3eee6ff5a5d2855f515dba0f
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P4.S2
+    - paragraph: P4
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 252
+    - end_char_exclusive: 470
+    - span_sha256_utf8: e6b6ca26b58ec88d173fcf72689de36d54a691b34081623927303f24318381b3
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P4.S3
+    - paragraph: P4
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 470
+    - end_char_exclusive: 715
+    - span_sha256_utf8: 6a6fb0f4610f8f06727d2a18c56a0cd78d5c640ee8a0bf833ddf59449ae1f431
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P4.S4
+    - paragraph: P4
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 715
+    - end_char_exclusive: 825
+    - span_sha256_utf8: bc45373f578fb044dd8aca3f16f874e21387ee492bee7503c7cff6e8e3ea61e3
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P4.S5
+    - paragraph: P4
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 825
+    - end_char_exclusive: 1040
+    - span_sha256_utf8: 84bb875ffaa0332ea2eaf86482295b7130b62c85cd19940e9bffc18166a8a3ec
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P5.S2
+    - paragraph: P5
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 192
+    - end_char_exclusive: 278
+    - span_sha256_utf8: 351a8aed05199e88756351bc939059da47d9cc78746b2d60700f96e39439f5c3
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P5.S3
+    - paragraph: P5
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 278
+    - end_char_exclusive: 443
+    - span_sha256_utf8: 29b5967bf58e82197d9a26f6a412cb53d27900230c2993561815ec93812c98e2
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P5.S4
+    - paragraph: P5
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 443
+    - end_char_exclusive: 582
+    - span_sha256_utf8: 7a16db4141b73e9976057ca9455a946a73c02f65defd9b8f00bd480b9006bc07
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P5.S5
+    - paragraph: P5
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 582
+    - end_char_exclusive: 714
+    - span_sha256_utf8: 16b8db7ddc6126152981a8a94abc308f47e23f579e015e9209f0459ba794df75
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: P5.S6
+    - paragraph: P5
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 714
+    - end_char_exclusive: 870
+    - span_sha256_utf8: e66f467ab8959d9f911637237e67ecc1489f941625313a94b2ffa3ae5f79e428
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B1.S1
+    - paragraph: B1
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 0
+    - end_char_exclusive: 139
+    - span_sha256_utf8: ea07abfc19f592946e8b04f523fb0e77fa1839f3c5677b0e9bc91753e88d6205
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B1.S2
+    - paragraph: B1
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 139
+    - end_char_exclusive: 288
+    - span_sha256_utf8: f27651f782b8103f28e4782dad6707ea4b4e527cde0c3213f7dfcbb19152c4d8
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B2.S1
+    - paragraph: B2
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 0
+    - end_char_exclusive: 96
+    - span_sha256_utf8: 1a31fee780ae80b578bc39e3a60ce6358d3c6a652c5dc1c57a6144437c009526
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B2.S2
+    - paragraph: B2
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 96
+    - end_char_exclusive: 201
+    - span_sha256_utf8: aa7b524d4ac05ac7633bba1aa0d27b2539415245bfec5e2fe4cabd21da249744
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B3.S1
+    - paragraph: B3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 0
+    - end_char_exclusive: 78
+    - span_sha256_utf8: d9887d4aad8c50dcf1bc1d2e3b838695499e279e784d827d9a662c29d7c9e9bc
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+  - 
+    - unit: B3.S2
+    - paragraph: B3
+    - normalization: join all whitespace with one ASCII space; remove initial bullet and spaces
+    - start_char_zero_based: 78
+    - end_char_exclusive: 271
+    - span_sha256_utf8: c82baf09bf62f61fb90d2fac4c1fd540fa214e0b005c71bc798fe5a3f155947b
+    - note: Contains trailing separator whitespace when followed by another sentence; use bounds exactly.
+- organizer: O1 is the contribution organizer at p.2 bottom; not a contribution bullet.

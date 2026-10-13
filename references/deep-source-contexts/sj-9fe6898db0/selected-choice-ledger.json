@@ -1,0 +1,232 @@
+{
+  "source_id": "sj-9fe6898db0",
+  "choice_count": 9,
+  "choices": [
+    {
+      "choice_id": "IG-C1",
+      "intro_units": [
+        "P1.S1",
+        "P1.S2",
+        "P1.S3"
+      ],
+      "delta_type": "补充",
+      "content_choice": "制度价值、媒介控制点与输出干预的因果链；不冒称稿件隐私保障",
+      "matrix_syntax": "制度/媒介/流程各自主句；分词给审查内容，原因成分解释媒介与风险",
+      "foreground_and_new_information": "主语维持评审活动，PDF不是孤立技术词；新信息沿实际工作流逐步收窄",
+      "scientific_qualification": "隐私与完整性保护对象不同，不能用泛称相互代替",
+      "body_anchors": [
+        "§3.1",
+        "§3.2"
+      ],
+      "variant_cases": [
+        "V1",
+        "V2"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C2",
+      "intro_units": [
+        "P2.S1",
+        "P2.S2",
+        "P2.S3",
+        "P2.S4"
+      ],
+      "delta_type": "补充",
+      "content_choice": "先描述再命名与外部报告归属，保留引言/形式定义的范围差异",
+      "matrix_syntax": "reveal/report 是矩阵证据动作，行为或比例在内容从句；评价主句后解释后果",
+      "foreground_and_new_information": "语法主句与本段信息焦点不等同；从句中的行为/限定不能随意删除",
+      "scientific_qualification": "引言极少或不修改，正文 Definition 1 不修改；动机是来源陈述，未自行验证",
+      "body_anchors": [
+        "§3.1 Definition 1/footnote 2"
+      ],
+      "variant_cases": [
+        "V1"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C3",
+      "intro_units": [
+        "P4.S1",
+        "P4.S5",
+        "P9.S1"
+      ],
+      "delta_type": "补充",
+      "content_choice": "黑盒针对外部服务；对文件的结构知识和分发控制没有消失",
+      "matrix_syntax": "源句形容性质概括能力；正文才列知识和权限条件",
+      "foreground_and_new_information": "不能把正文读到的信息倒置成引言前文读者已知",
+      "scientific_qualification": "跨 venue 不等于任意PDF零配置；文本路径与可见变体不同",
+      "body_anchors": [
+        "§2.2",
+        "§3.1",
+        "Appendix F Table 9",
+        "§7",
+        "Appendix J"
+      ],
+      "variant_cases": [
+        "V1.C",
+        "V2.C"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C4",
+      "intro_units": [
+        "P3.S4",
+        "P3.S5",
+        "P3.S6"
+      ],
+      "delta_type": "限定原概括",
+      "content_choice": "两类失效不是严格一对一映射到两部件；关系从句覆盖同质内容及另附流",
+      "matrix_syntax": "P3.S5 主句说结构不适配，instead分词列两实践，both-of-which关联两项",
+      "foreground_and_new_information": "具体诊断位置使设计选择可理解；联合要求不能降为不鲁棒标签",
+      "scientific_qualification": "词汇差异与文件承载共同回应长文处理/清洗问题；无今日创新性验证",
+      "body_anchors": [
+        "§2.4",
+        "§4.1",
+        "§4.2",
+        "Table 1"
+      ],
+      "variant_cases": [
+        "V1"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C5",
+      "intro_units": [
+        "P4.S1",
+        "P4.S2",
+        "P4.S3",
+        "P4.S4",
+        "P4.S5"
+      ],
+      "delta_type": "修正并加深",
+      "content_choice": "外层两部件矩阵与冒号后第一部件有限谓语分开；双目标和三载体的作用分层",
+      "matrix_syntax": "P4.S3外层comprises两部件；编号1中forms为有限谓语，supporting带双策略，定语从句给目标",
+      "foreground_and_new_information": "语法层级、枚举层级、贡献层级不可混为一谈；while同时成立而非必为让步",
+      "scientific_qualification": "可选三机制不等于默认三阶段；Appendix I另有真实顺序组合实验",
+      "body_anchors": [
+        "§4 overview",
+        "Figure 3",
+        "Appendix I"
+      ],
+      "variant_cases": [
+        "V2",
+        "V3"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C6",
+      "intro_units": [
+        "P5.S1",
+        "P5.S2",
+        "P5.S3"
+      ],
+      "delta_type": "补充",
+      "content_choice": "平均对象、系统设置、案例与稿件分母分开；保持整体强比较",
+      "matrix_syntax": "P5.S2 achieves为矩阵、outperforming为比较补充；P5.S3并行呈现效力条件/成本",
+      "foreground_and_new_information": "后置比较不意味着科学主张弱；选择指标由采用问题决定",
+      "scientific_qualification": "76/84为Layer Cake平均；1.02秒是平均；120文稿/5服务7设置；不是12部署",
+      "body_anchors": [
+        "§5.1",
+        "Table 3",
+        "Table 4",
+        "Appendix F"
+      ],
+      "variant_cases": [
+        "V4"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C7",
+      "intro_units": [
+        "P6.S1",
+        "P7.S1",
+        "P8.S1",
+        "P9.S1",
+        "P10.S1"
+      ],
+      "delta_type": "补充",
+      "content_choice": "保留实际独立结果段后接四贡献，解释最后一项为何不重复结果数字",
+      "matrix_syntax": "P10 conduct/investigate/release三个矩阵动作并列；原段已从P5取得结果答案",
+      "foreground_and_new_information": "迁移不能删P5而仍只留实验动作；组件数不是贡献数",
+      "scientific_qualification": "代码发布为论文自述，未当前检查仓库；不能为后来的写作规范重排源作者事实",
+      "body_anchors": [
+        "Introduction P4–P10"
+      ],
+      "variant_cases": [
+        "V4.C"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C8",
+      "intro_units": [
+        "P5.S3",
+        "P8.S1",
+        "P9.S1"
+      ],
+      "delta_type": "补充",
+      "content_choice": "科学资格与原文强主张分离：共现、复制、形式目标各有证据尺度",
+      "matrix_syntax": "统计结果与行为归因不是同一命题；视觉呈现不等于完整体验",
+      "foreground_and_new_information": "保留视觉相同、低背景共现的真实价值，不把限定逐句灌入Intro",
+      "scientific_qualification": "90,034并非真值标注纯人写；709/720复制；全称目标非证明",
+      "body_anchors": [
+        "§3.2",
+        "§5.3",
+        "§5.5 Table 5",
+        "Appendix G Table 10"
+      ],
+      "variant_cases": [
+        "V4"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    },
+    {
+      "choice_id": "IG-C9",
+      "intro_units": [
+        "P5.S4",
+        "P5.S5",
+        "P10.S1"
+      ],
+      "delta_type": "补读修正完成状态",
+      "content_choice": "区分Intro组合可行推论与Appendix I已完成实验；保留有据积极推进",
+      "matrix_syntax": "P5.S5结果是矩阵主语，demonstrate为报告，边界互补在that补语，组合可行在结果分词",
+      "foreground_and_new_information": "语法主句与发现前景不同；正文新证据不能冒充Intro原来已写",
+      "scientific_qualification": "Table11五清洗不覆盖全部11；ChatGPT组合弱；Table11a/b不可强并分母",
+      "body_anchors": [
+        "§6 Table 6",
+        "§7",
+        "Appendix I Table 11"
+      ],
+      "variant_cases": [
+        "V5"
+      ],
+      "attribution": "Source claims and grammar verified in the original analysis dated 2026-10-06; organizational/transfer rationale is editorial inference."
+    }
+  ],
+  "distribution_provenance": {
+    "primary_url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf",
+    "primary_version": "作者auto_20260921_CCS2026_IntraGuard_1_.pdf；CCS 2026格式，非已出版推定",
+    "historical_analysis_and_review_date": "2026-10-06",
+    "historical_primary_pdf_sha256": "05e4570345e433a83cec1fc2bf5abde8faf3cd0caf73928613e098a020cfec40",
+    "primary_hash_status": "Historical source hash, not a fresh PDF verification or local replay guarantee.",
+    "usable_coordinate_precision": "Inherited P/S unit labels and physical PDF pages only; historical column metadata remains unresolved. Section/table names are semantic references, not finer physical anchors.",
+    "retained_nonblocking_advisories": [
+      {
+        "id": "IG-A-R3",
+        "status": "retained-nonblocking",
+        "meaning": "V3.C interchangeability only covers goals/carriers; prefer three carrier options on reuse."
+      },
+      {
+        "id": "IG-A-R4",
+        "status": "retained-nonblocking",
+        "meaning": "Do not infer a common 12-paper denominator for all Table 11(a) rates."
+      }
+    ]
+  }
+}

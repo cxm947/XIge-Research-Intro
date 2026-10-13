@@ -1,0 +1,420 @@
+{
+  "normalization": "From preserved pdftotext plain extraction: remove page header/figure caption; join line-break hyphenations; collapse whitespace; remove superscript footnote 1 after SUB-PLAY. Preserve extraction SUBPLAY and algorithmagnostic rather than silently re-spell. Analytical P3.S1 ends colon; P6.S4 is an example fragment; P7.S1 is an organizer ending colon. Exact source PDF is authority.",
+  "unit_count": 37,
+  "paragraph_crosswalk": {
+    "P1": "printed 1",
+    "P2.S1-S2": "printed 2",
+    "P2.S3-S7": "printed 3 (cross-page continuation)",
+    "P3-P7": "printed 4-8",
+    "P8-P11": "four printed contribution bullets"
+  },
+  "units": [
+    {
+      "id": "P1.S1",
+      "text_sha256": "7a6da1a5fd569f72928cf3fb1e610f5f3ce6e95fab9e611954dd924bf754ee4b",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 1,
+      "words": 25,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P1.S2",
+      "text_sha256": "f59515b80dc2c5607f70c078ba6f74180ab913354d83ed0e8892811843e1d551",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 1,
+      "words": 21,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S1",
+      "text_sha256": "dd0c39e1ef1c2f7b2aa0ccd98b0b25b9a0fc3aa375232aca2b81ffacee6f1112",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 2,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S2",
+      "text_sha256": "046defe8be7eb132a63253d107d3609170e9206e09d99705e34e25d7f50477a5",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 2,
+      "words": 31,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S3",
+      "text_sha256": "7fcc508a2c2ee3be1e7e92f63fa6f852c11b785c81f1840806f0ca66e165a66d",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 32,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S4",
+      "text_sha256": "14cd437495f988971ee42ca049ca0d5d88305291265796b41c4a9ad2b1893def",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 22,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S5",
+      "text_sha256": "a3522b7a1dd3afdaa9bbf298ffe3583e6d2d36733c78b87c94b34773fe7f72b6",
+      "physical_pages": [
+        1
+      ],
+      "column": "right",
+      "printed_paragraph": 3,
+      "words": 29,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S6",
+      "text_sha256": "28c2b618378fb9acb1c36b49fbff6ed1e87500524bd0552e3b47efd49a7f2092",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 3,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P2.S7",
+      "text_sha256": "e740966952d8c3b57c5b47483bbc85e8a92a8622a1e35cdfd1d7acd6b4cf06ce",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 3,
+      "words": 21,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S1",
+      "text_sha256": "c2abd3589b3c1cc952be12f36791e3d104c25ce78bb6c8ca0571d3f5ac217bf2",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 11,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S2",
+      "text_sha256": "2c7ca6b23f25e26868291f7f67377a5f42692fb12738b56100537d7c9227eed3",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S3",
+      "text_sha256": "af4fecdfb1391b741d0aa784aba861495cfa5e75620cf066dd3b0a3850425dc4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 9,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S4",
+      "text_sha256": "4e7395aad8b87039ec5c4cc8540de2dcd38d4f0ab9659f89d1bca1bfeb4579cc",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 31,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S5",
+      "text_sha256": "7225518dddb5479732461a1f3c5789cc6706c052ab51e53ed38cd5005a76f2a4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 28,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P3.S6",
+      "text_sha256": "e4698a3e7630f96cf404d30715142983844255d00bf7cd68574d7e16d173990c",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 4,
+      "words": 24,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S1",
+      "text_sha256": "1429a41761b3584d4e30d909ba03873cedeb4d13ec397cb3e930e24a5aba170a",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S2",
+      "text_sha256": "8ce68c74918f40097e3d6fc5d3918b5c4a2e32d4dc54cddb2bade7ca1326109e",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 13,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S3",
+      "text_sha256": "03d4690e9878c38224266d945414b66e91ce1cdcc20edc6d1372803e5eb1fe6c",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 24,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S4",
+      "text_sha256": "e352f5766fe7c905900899cb5f425e6a51400746284a1d78ebb2b3dcf85eff68",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 15,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S5",
+      "text_sha256": "6a18b534190ac335b2b16554f669115506ee250997a8afc8bff34f56102d0dd5",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 12,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S6",
+      "text_sha256": "efad1fc6739583c0d6193e1f6343d0bc32520d74028a33e490e3f93a19b5641a",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 33,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S7",
+      "text_sha256": "94fd842ef27caf59c05f2ce8e9d254874b1bca2260b4c659343dea8ef0980ca4",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S8",
+      "text_sha256": "5260db2b55b63c14509d4213b5a2142f62e61d67ccbf729b2f2a2dbf51d4007b",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 9,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P4.S9",
+      "text_sha256": "32e59a733c520f8dbf12241c51c8d813e6e317a76cacd3c40851af8216bd7bd6",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 5,
+      "words": 19,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P5.S1",
+      "text_sha256": "0034a8635d5787b2dfe14343e57676dc08e3447abe5a4f01a23c871f690b3305",
+      "physical_pages": [
+        2
+      ],
+      "column": "left",
+      "printed_paragraph": 6,
+      "words": 32,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P5.S2",
+      "text_sha256": "0026712fec8bdd7518565cc17e68f1e55d1c4230864d489d95ae4574c99bd4fe",
+      "physical_pages": [
+        2
+      ],
+      "column": "left-to-right",
+      "printed_paragraph": 6,
+      "words": 23,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P5.S3",
+      "text_sha256": "e6605b587f53a3e19817a2b72c8902f847ee1fd159e512350141fa55de9c13d5",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 6,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P5.S4",
+      "text_sha256": "d38d76327054ca32bc89404402d8113e68b033c669057e418e10644c71b2e2e0",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 6,
+      "words": 13,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P6.S1",
+      "text_sha256": "680a52a62b671bdaff5dc19c2583b54a30853f1d034afead5c2cfb81c6d47032",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 12,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P6.S2",
+      "text_sha256": "54dca4d91ac02ac5d1cab4c9a46fd4947b356f08e406c97dfa6924e90f9073de",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 25,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P6.S3",
+      "text_sha256": "deb2a06a334ad2a48abaefba224afea91fd0baadef8015ed278d0d2813dd8ecc",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P6.S4",
+      "text_sha256": "c72be8bf277efd8f0c693341c8863b8a31ead50087b74ad6de44db698f46ea0d",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 7,
+      "words": 14,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P7.S1",
+      "text_sha256": "5597eec6260939ca664777bc8da01c216a1b6b477b7baf430bf1d0f8a779bd4c",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 8,
+      "words": 8,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P8.S1",
+      "text_sha256": "db044a9d65f04d0e9854e51c9a8a742b986da19ab5b09e5c514527fad1846537",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 9,
+      "words": 38,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P9.S1",
+      "text_sha256": "228e67c8e3575a583d5c864ed5f7a640f760126c3a9e8ac50f367a29ce28d5dc",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 10,
+      "words": 18,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P10.S1",
+      "text_sha256": "09a7f527965675aaad8bfae9266b7f184a8d1cbb6b0c36b1c01a5049dabcb3ba",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 11,
+      "words": 20,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    },
+    {
+      "id": "P11.S1",
+      "text_sha256": "b35e03dc72d4e1aa29fe8f32426ddf087ac66f02357775f297bc7ea9287e667d",
+      "physical_pages": [
+        2
+      ],
+      "column": "right",
+      "printed_paragraph": 12,
+      "words": 36,
+      "coordinate_status": "Inherited analytical units; not printed paragraph/sentence numbers"
+    }
+  ]
+}

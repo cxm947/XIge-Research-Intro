@@ -1,0 +1,671 @@
+# MOCK：二十个局部与整句选择、条件及代价
+
+- scope: 20 selected additions; full52-unit baseline preserved, not replaced
+- coordinate_convention: P7.Cn.Sm explicitly denotes the retained P7 contribution Cn.Sm; legacy alias retained; no published-coordinate rename
+
+## P3.S2
+
+- legacy_display_alias: P3.S2
+- physical_page: 1
+- source_claim_attributed: 作者将状态性交互困难归于系统调用间显式或隐式关系，并命名为依赖
+- matrix_syntax: This is为矩阵解释框架；because内容中有存在式there are；命名分词补术语
+- discourse_foreground: 读者真正需要的是状态性为什么要求关系知识
+- first_new_content: 显式/隐式关系被统一命名为dependency
+- contextual_grounds: P3.S1已经承认进步并提出状态性交互困难
+- conventional_form_and_relation: 因果解释框架＋存在式内容＋补充命名
+- relative_length_role: 短；一次补原因和术语，避免把依赖当凭空名词
+- writer_choice_and_reader_value_inference: 语法外层并未交研究实质；从存在关系到后续路径机制还需P3.S3，不能把此句当完整挑战
+- why_refine_this_unit: 旧条目未区分外层矩阵与嵌入存在式
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 5d66bfeeb7730ec630804ee0fb5a44c9c8f43955b2c9025bbd4fab5ba3949f82
+  - original_span_word_count: 3
+  - locator: 句首完整原因解释框架
+  - replacement_english: The reason is that
+  - fit_and_scope: 仍接原存在式原因；前句困难仍是被解释对象
+  - choice_class: causal-frame reformulation
+  - use_when: 需要让读者明确这里开始解释原因，而前句所指困难已清楚时
+  - cost: 名词化稍重；不新增原因证据，也不能解决前句指代不明
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者给出的原因是，系统调用之间存在显式或隐式关系，这些关系被称为依赖。
+  - use_when: 抽象状态性尚未落到调用关系时
+  - cost: 保显式/隐式并列，命名本身不是新实证
+  - semantic_or_context_change: 把补充命名改为显式指代分句，未改变关系集合
+- qualification_ids:
+  - Q1
+- retained_exact_entry: S2 原因是调用间显式/隐式关系，同位命名依赖。状态标签→结构
+
+## P3.S3
+
+- legacy_display_alias: P3.S3
+- physical_page: 1
+- source_claim_attributed: 作者称前序调用执行构成后续调用的上下文，影响后者执行路径
+- matrix_syntax: 执行前序调用为主语，serves as为矩阵谓词；which从句交路径影响
+- discourse_foreground: 上下文具有方向性和执行后果
+- first_new_content: 前序执行→后序路径的联系首次明确
+- contextual_grounds: P3.S2仅命名依赖，尚不清为何顺序有用
+- conventional_form_and_relation: 角色关系主句＋非限制关系从句；which单数谓词更适合回指context/前述执行事态，而非最近复数syscalls
+- relative_length_role: 中；角色与后果同句，让下一句构造状态有根据
+- writer_choice_and_reader_value_inference: 不能因为which从句在后就叫次要背景；它承担从概念到任务机制的关键桥梁
+- why_refine_this_unit: 补相对从句回指与真正新机制位置
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: bb04f86202e64917357adf4b0dbe868e1d4968b0f9d576f23e4742640bdabf5e
+  - original_span_word_count: 5
+  - locator: 矩阵中把前序执行设为上下文的完整谓语短语
+  - replacement_english: provides the context for
+  - fit_and_scope: 保前序执行为主语、后续调用为对象，不改依赖方向
+  - choice_class: neutral role-verb variant
+  - use_when: 需要采用更直接的提供上下文搭配且方向已经明确时
+  - cost: 角色和提供表述略有语感差，不增加机制证据或因果强度
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者认为，前序系统调用的执行构成后续调用的上下文，并由这一上下文影响后续调用的执行路径。
+  - use_when: 读者可能将which错误挂到后续调用、丢失前序影响方向时
+  - cost: 显式回指需要更多字，也固定了分析者采用的语义解析
+  - semantic_or_context_change: 上下文回指显化是编辑解释；源句context/执行事态两种近义回指不强行断言唯一句法先行项
+- qualification_ids:
+  - Q1
+- retained_exact_entry: S3 前序执行主语、成为后序上下文谓语，关系从句影响后序路径。依赖→方向机制
+
+## P3.S6
+
+- legacy_display_alias: P3.S6
+- physical_page: 1
+- source_claim_attributed: 作者称不合给定上下文的调用选择最终会产生无效测例，该测例很可能被拒或只产生等价行为
+- matrix_syntax: 不当选择will result为矩阵；which从句含will likely和两种后果
+- discourse_foreground: “更差输入”有可观察的失败含义
+- first_new_content: 被拒与没有行为增量两种表现
+- contextual_grounds: 前文已说顺序对深层找错重要
+- conventional_form_and_relation: 长名词化主语＋肯定后果＋带概率的关系从句；主句确定性和后果概率不同
+- relative_length_role: 中长；保两失败形式便于评价质量，不将质量只当形容词
+- writer_choice_and_reader_value_inference: 输入质量指标回到不能建立新状态的任务困难；不是所有无效输入都必定被内核拒绝
+- why_refine_this_unit: 补混合模态与质量证据的对应
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: f34e8792fa8f7aa5b3831e76e746ed020a91ece54628dfe01d60c04871bdf93a
+  - original_span_word_count: 4
+  - locator: 矩阵中最终导致的连续谓语
+  - replacement_english: will ultimately produce
+  - fit_and_scope: 保will的源强度，宾语仍无效测例；后面likely不删除
+  - choice_class: result-verb compression
+  - use_when: 要简化因果动词搭配但仍保最终后果判断时
+  - cost: 不增加论证收益；不能将确定的源主句统一降成may
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者判断，对给定调用序列上下文选择不当的调用，最终会产生无效测例；它很可能被内核拒绝，或表现得与此前上下文相同。
+  - use_when: 需要分开无效判断和其两种常见表现时
+  - cost: 拆句增加停顿，仍必须保概率辖域
+  - semantic_or_context_change: 保will与likely的层次；“相同”指行为等价，不是字节相同
+- qualification_ids:
+  - Q1
+- retained_exact_entry: S6 不合上下文选择主语、导致无效测例；关系从句两个后果：被拒/等价前序。要求→可观察失败
+
+## P3.S7
+
+- legacy_display_alias: P3.S7
+- physical_page: 1
+- source_claim_attributed: 作者称上下文感知选择能够显著提升输入质量、缩小搜索空间并提高效率
+- matrix_syntax: 选择方法can带领三个协调谓词
+- discourse_foreground: 正面设计价值在gap前先立清楚
+- first_new_content: 三个任务收益被同一能力条件连起来
+- contextual_grounds: P3.S6已解释无效输入后果
+- conventional_form_and_relation: 方法主语＋能力情态＋三动作结果；prominently位于第一谓词
+- relative_length_role: 中；从失败收束到可争取的收益，不直接预告所有实验数字
+- writer_choice_and_reader_value_inference: 质量、搜索空间、效率并非三项独立创新，而是选对上下文后期望的任务后果
+- why_refine_this_unit: 补设计价值与多轴证据需求
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 0ab8caed8d40ab487b95d0da42e75aa03318f8fbd0151dbc93356d82385ebe18
+  - original_span_word_count: 3
+  - locator: 能力情态及第一项强提升谓语
+  - replacement_english: can markedly improve
+  - fit_and_scope: 保can和显著程度，后面另两协调谓词原样接续
+  - choice_class: neutral evaluative-verb variant
+  - use_when: 只需在保能力和强度的前提下调整常用搭配时
+  - cost: 没有独立说服力；替换词不能成为收益成立的依据
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者认为，上下文感知的调用选择能够显著改善输入质量、缩小搜索空间，并提高内核fuzzer的效率。
+  - use_when: 读者只看到状态性困难而尚未看出解决它的实用价值时
+  - cost: 总收益句仍需后续不同证据支撑
+  - semantic_or_context_change: 保三谓词与能力强度，不把它们写成已在所有设置同时实现
+- qualification_ids:
+  - Q1
+  - Q5
+- retained_exact_entry: S7 上下文选择主语，质量、空间、效率三个结果谓语。失败→正面设计目标，P6评价回收
+
+## P4.S2
+
+- legacy_display_alias: P4.S2
+- physical_page: 1
+- source_claim_attributed: 作者将既有方法概括为点对点生成，并解释为下一调用只依赖前一个调用
+- matrix_syntax: 既有方法are designed为被动矩阵；i.e.后为具体化说明
+- discourse_foreground: 表示粒度何以丢上下文
+- first_new_content: 点对点与solely previous的强边界
+- contextual_grounds: P4.S1承认已有方法处理状态性但仍有局限
+- conventional_form_and_relation: 被动方法框架＋不定式用途＋方式＋解释性重述
+- relative_length_role: 长；先给术语再交可想象选择规则，避免只用context-free标签批评
+- writer_choice_and_reader_value_inference: 原作者的邻项概括要完整归属；不应默改成部分过去信息以替它变稳健，现实版本限定另列
+- why_refine_this_unit: 补原主张强度与科学认可范围分离
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 2f89d7da7753c607af596259927764988b9154380f64a6d79aa67a82cb9b1ea9
+  - original_span_word_count: 3
+  - locator: 解释分句中仅依据的连续被动补足短语
+  - replacement_english: based exclusively on
+  - fit_and_scope: 保solely的排他范围及previous one对象；不改为所有历史调用
+  - choice_class: neutral exclusivity-word order
+  - use_when: 需在等强排他限定下换局部表达时
+  - cost: 中性变化没有方法论收益；不会证明这种概括适用于所有现行实现
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者将这些既有方法概括为点对点生成：下一系统调用的选择只基于前一个调用。
+  - use_when: 读者不熟悉点对点意味着何种信息丢失时
+  - cost: 保源强概括，独立科学限定不要悄悄塞进替换
+  - semantic_or_context_change: 删原方法引文的展示位置属分析压缩，量词/对象不变
+- qualification_ids:
+  - Q2
+- retained_exact_entry: S2 方法被动设计为点对点；解释下一调用仅依前一调用。能力→表征瓶颈
+
+## P4.S4
+
+- legacy_display_alias: P4.S4
+- physical_page: 1
+- source_claim_attributed: 作者承认无上下文设计可能擅长简单情形，但断言它阻碍复杂深入序列与深层探索
+- matrix_syntax: 同一主语的may work与but hinders协调；may只直接辖前支
+- discourse_foreground: 公平能力边界后仍有实质剩余
+- first_new_content: 简单/复杂情境分工和强弱不对称
+- contextual_grounds: 前面举具体表征方式，读者需要知道缺点在哪些情境重要
+- conventional_form_and_relation: 可能性让步分支＋肯定阻碍分支；并列两类被阻活动
+- relative_length_role: 中长；不能把所有分支一起降成不确定才能显审慎
+- writer_choice_and_reader_value_inference: 先承认简单场景可行，使新路线因任务更难而必要，不靠否定旧成果
+- why_refine_this_unit: 补协调范围与公平近邻定位
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: df135c4926ed03438911ac751d949d8da061572409548308df21f3296b032ed0
+  - original_span_word_count: 3
+  - locator: 第一分支可能表现良好的谓语
+  - replacement_english: may perform well
+  - fit_and_scope: 保may及simple条件，不触动but后的肯定hinders
+  - choice_class: neutral performance-verb variant
+  - use_when: 只需让性能描述与相邻段术语一致时
+  - cost: 不改变两分支不对称的强度，没有新增证据
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者承认，这种无上下文设计在语义简单的容易情形中可能表现良好；但它会阻碍复杂、深入调用序列的生成及内核深层空间的探索。
+  - use_when: 读者将表征限制误读为旧工具在任何任务都无效时
+  - cost: 拆句要保承认与剩余的对照，不能使may波及后支
+  - semantic_or_context_change: 低垂果实的比喻转为明确情境；保原肯定阻碍判断
+- qualification_ids:
+  - Q2
+- retained_exact_entry: S4 该设计主语，简单情形可行但复杂/深层受限。边界→非全盘否定
+
+## P4.S6
+
+- legacy_display_alias: P4.S6
+- physical_page: 2
+- source_claim_attributed: 作者把第一问题设为准备可学习上下文依赖的语料
+- matrix_syntax: first problem is为矩阵，how-to为内容补足；from which限定语料的学习用途
+- discourse_foreground: 上下文路线被进一步选为从语料学习的路线
+- first_new_content: 学习材料的可得性首次成为设计义务
+- contextual_grounds: P4.S5只说需要上下文感知设计，并未证明所有此类设计都须学习
+- conventional_form_and_relation: 问题系表＋非有限how补足＋介词关系从句
+- relative_length_role: 中；短句中藏入研究路线选择，其后才解释自然数据为何不够
+- writer_choice_and_reader_value_inference: 语料问题依赖学习这一选择，不是内核状态性自动推出的普遍公理。应看到作者在正式方案段前已引入该选择
+- why_refine_this_unit: 补任务固有困难与设计引入问题的边界
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 021fec372c1fbc5f690ee243fdd5e5d5e8f280b25d1ae8c76d5c6183dbaaf174
+  - original_span_word_count: 5
+  - locator: 问题内容中准备语料的连续how短语
+  - replacement_english: how to assemble the corpus
+  - fit_and_scope: 保问题式和语料用途；assemble强调汇集而prepare范围更广，属于较窄备选，不能标完全保义
+  - choice_class: scope-sensitive local option
+  - use_when: 只有当前稿件的准备确实仅指汇集已有材料、无需新增清理职责时
+  - cost: 会缩窄prepare；本文下一句恰涉及质量，因此源prepare通常更合适，不推荐机械替换
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者沿学习上下文依赖这一路线，把第一项待解决问题设为：如何准备能够用于学习这些依赖的语料？
+  - use_when: 需要明确问题依赖哪一种已选研究路线时
+  - cost: 显化学习路线会更长，却避免把语料要求当所有上下文设计的必然条件
+  - semantic_or_context_change: “沿这一路线”是编辑显化，不宣称源文已经比较了所有非学习替代
+- qualification_ids:
+  - Q3
+- retained_exact_entry: S6 第一问题系表如何准备语料，关系从句说明从中学依赖。能力→实现必要条件
+
+## P4.S7
+
+- legacy_display_alias: P4.S7
+- physical_page: 2
+- source_claim_attributed: 作者称直接用既有trace可能带来大量噪声，因为含许多松散调用，使真实依赖上下文难提取
+- matrix_syntax: 直接用数据may bring为矩阵；as为原因；making为难度后果
+- discourse_foreground: 为什么自然现成资料不是充分答案
+- first_new_content: 松散关系与难分离上下文的链
+- contextual_grounds: 第一问题已需语料，现成trace是自然替代
+- conventional_form_and_relation: 动名词主语＋可能性结果＋原因从句＋结果分词
+- relative_length_role: 长；保噪声产生机制与知识任务的联系，不只说资料质量低
+- writer_choice_and_reader_value_inference: 新覆盖筛选与最小化的角色来自此处：提高语料相关性。不能由此推出需发明一种全新最小化算法
+- why_refine_this_unit: 补自然答案失败机制与语料处理的依赖
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 2d4a5561ac7950b1478dcbde3d316aa0503f3eabf3ca745b15da40c0d09d0603
+  - original_span_word_count: 4
+  - locator: 矩阵中的可能带入大量噪声谓语
+  - replacement_english: may introduce substantial noise
+  - fit_and_scope: 保may和大量，后续原因/结果不变
+  - choice_class: neutral causal-diction variant
+  - use_when: 需采用常见数据污染搭配而保原因果链时
+  - cost: 无新的证据优势；不能把可能改成所有trace都不可用
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者认为，直接使用既有调用轨迹可能引入大量噪声：其中含有许多关联松散的调用，因而难以提取依赖的真实上下文。
+  - use_when: 现成trace看似已经足够，需解释为何还要加工时
+  - cost: 冒号前后更清楚，但必须保可能性及具体松散关系
+  - semantic_or_context_change: as/making的嵌套转成两步显式解释，不改变主张对象
+- qualification_ids:
+  - Q3
+- retained_exact_entry: S7 直接用trace作主语、带噪声；原因松散调用，结果难抽真实上下文。自然答案→具体失败机制
+
+## P4.S8
+
+- legacy_display_alias: P4.S8
+- physical_page: 2
+- source_claim_attributed: 作者称受高质量语料可得性限制，学到的依赖可能不完整，甚至可能有错
+- matrix_syntax: learned dependencies may be/contain为矩阵协调；前置Limited成分给原因背景
+- discourse_foreground: 学习所得不能当作完备正确知识
+- first_new_content: 不完整与错误两种可能性首次明确
+- contextual_grounds: 现成trace噪声已说明，后面要决定是否只用学习知识
+- conventional_form_and_relation: 前置原因分词＋共享may的双谓词，even递进
+- relative_length_role: 短；它连接数据难题与调度动机，不是独立附加抱怨
+- writer_choice_and_reader_value_inference: 第二问题从所选学习路线的可能不可靠产生；继承总结“仍会”应收回到可能，不能把风险写成必然错误
+- why_refine_this_unit: 修继承总结的必然化并界定第二问题由来
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 29a756d7fbdf33b3c816c68a565b3032527e86acaaecc23a6ada81b74880dc4b
+  - original_span_word_count: 7
+  - locator: 完整可能性双谓词直到错误宾语末
+  - replacement_english: may be incomplete and may even contain errors
+  - fit_and_scope: 重复may显化它同时辖不完整与有错，未增加第二种概率估计
+  - choice_class: modal-scope explicitation
+  - use_when: 读者可能把第二分支有错读成无条件断言时
+  - cost: 略重复、更长；源共享may通常已够清楚，不称必然更佳
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者认为，受高质量语料可获得性的限制，所学依赖可能不完整，甚至可能包含错误。
+  - use_when: 需把材料问题怎样成为知识风险说清时
+  - cost: 不能为加强调度动机而删可能性
+  - semantic_or_context_change: 保两种潜在缺陷与even递进；高质量对应golden的语境释义
+- qualification_ids:
+  - Q3
+- retained_exact_entry: S8 语料可得性状语、所学依赖可能不全/错误。数据不足→知识后果
+
+## P4.S9
+
+- legacy_display_alias: P4.S9
+- physical_page: 2
+- source_claim_attributed: 作者因此提出平衡学习依赖的利用与已有策略的探索
+- matrix_syntax: second problem is为矩阵；between协调两种活动
+- discourse_foreground: 不能过度依赖可能不全/有错的知识
+- first_new_content: 利用/探索权衡首次成为待解问题
+- contextual_grounds: 上句给学习不完美风险；旧策略仍是可用资源
+- conventional_form_and_relation: 推论框架＋问题系表＋名词化平衡和两并列of结构
+- relative_length_role: 中；保第二问题与第一路线的后续关系
+- writer_choice_and_reader_value_inference: 调度是服务同一上下文研究决定的互补需求，不是为了列第二创新而添模块
+- why_refine_this_unit: 补平行句式与真实非对称因果
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: a9882ac2387cfb66b662288a77665a8c33f11ccc7a8fdbaf0ea10f80dd9087b6
+  - original_span_word_count: 4
+  - locator: 矩阵系词与名词化平衡起始
+  - replacement_english: is how to balance
+  - fit_and_scope: 后接两活动并以and协调；改为how-to补足，任务对象/权衡不变
+  - choice_class: parallel question-frame reformulation
+  - use_when: 想与前一个how-to语料问题保持平行，并突出需要作何决定时
+  - cost: 问式更行动化，仍不意味着具体调度已被这个句型推导出来
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 因此，作者提出第二项问题：怎样在利用已学依赖与借助已有策略继续探索之间取得平衡？
+  - use_when: 读者把学习误差与调度当两个无关困难时
+  - cost: 把已有策略的探索解释为借其探索输入，需标明用了正文任务语境
+  - semantic_or_context_change: how框架保持任务；“借助…继续探索”据正文显化活动对象，不当原短语唯一字面解析
+- qualification_ids:
+  - Q3
+  - Q4
+- retained_exact_entry: S9 因而第二问题系表平衡利用所学与旧策略探索。知识后果→调度需求，非任意第二模块
+
+## P5.S1
+
+- legacy_display_alias: P5.S1
+- physical_page: 2
+- source_claim_attributed: 作者为回应问题，提出一种将上下文调用依赖表征为条件概率的新方法，并实现MOCK原型
+- matrix_syntax: we propose与implement协调；不定式说明方法表征对象
+- discourse_foreground: 表示选择与可运行交付共同提出
+- first_new_content: 条件概率首次给出统一研究表述
+- contextual_grounds: 前段学习/调度问题已准备，正式方案在此命名
+- conventional_form_and_relation: 目的前置＋双研究动作＋模型化内容＋命名分词
+- relative_length_role: 中长；名字不独占新信息，关键是怎样表关系
+- writer_choice_and_reader_value_inference: 这里的研究推进是条件随上下文改变；不是因为用了语言模型便自动有价值，模型细节后交
+- why_refine_this_unit: 补总方案首次新内容及表示的任务价值
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: ff01152c2fac81f6c6cd86692fd95d284823232ebc34e1e3b1838a16b9b65df4
+  - original_span_word_count: 3
+  - locator: model所带表征补语
+  - replacement_english: in the form of conditional probabilities
+  - fit_and_scope: 保条件概率内容；表达更长，不改变形式化强度
+  - choice_class: neutral representation-frame variant
+  - use_when: 需强调同一依赖以何种表示进入模型时
+  - cost: 只是形式说明，不增加表示正确性的证明
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 为回应上述问题，作者提出一种将上下文感知的调用依赖建模为条件概率的新方法，并实现名为MOCK的原型。
+  - use_when: 方案首次出现时要同时交准确对象和产物时
+  - cost: 不能将两个动作压成只提出MOCK，丢掉表示增量
+  - semantic_or_context_change: 保提出/实现、条件概率和novel所表达的作者创新性定位；不以未做全球新颖性审计为由弱化源评价，也不新增first或全球唯一主张
+- qualification_ids:
+  - Q4
+- retained_exact_entry: S1 目的解决前述，作者提出条件概率建模并实现原型。问题→统一表示与系统
+
+## P5.S2
+
+- legacy_display_alias: P5.S2
+- physical_page: 2
+- source_claim_attributed: 作者对第一问题收集触发新覆盖的序列，并最小化以抽取紧密关联上下文
+- matrix_syntax: we aggregate与minimize协调；that限定选入语料的序列；to给处理目的
+- discourse_foreground: 为何选这些运行材料、怎样排除松散调用
+- first_new_content: 覆盖增量筛选与语料精炼的组合职责
+- contextual_grounds: P4已给现成trace噪声，需可得的高质量学习材料
+- conventional_form_and_relation: 问题回指框架＋双行动＋限制从句＋目的＋组成分词
+- relative_length_role: 长；筛选标准与精炼目的缺一会使方法像任意数据清洗
+- writer_choice_and_reader_value_inference: 学习经验是用任务反馈选择材料，再解释清理后信息价值；不是把正文复用的最小化例程冒称全新算法
+- why_refine_this_unit: 补数据选择的功能与算法新颖性分离
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 98682ea7283a2f4e575c142132b2b2437d4eeb51dae4c15bd2f280f5816a403f
+  - original_span_word_count: 5
+  - locator: 最小化之后抽取上下文的目的不定式
+  - replacement_english: to recover the genuine contexts
+  - fit_and_scope: recover含恢复已有隐藏结构的语感，比extract稍强；仅当该解释已经有依据时采用
+  - choice_class: scope-sensitive purpose variant
+  - use_when: 当前稿确实把上下文视作序列中已存在而被噪声掩盖的信息时
+  - cost: 可能加强恢复真实结构的含义；本文源extract更保守，不推荐作为无条件润色
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 针对语料问题，作者汇集已触发新覆盖的调用序列，并将其最小化，以抽取由紧密关联调用组成的真实上下文。
+  - use_when: 需要把数据来源、选择依据、处理目标一次讲清时
+  - cost: 句子较长，但不能只说构建高质量数据集而删除为何高质量
+  - semantic_or_context_change: 根据§IV-B运行反馈语境，用已触发显化语料选入的观测资格；不改新覆盖标准，也不声称源关系从句本来带显式过去时。真实/紧密仍为作者判断，方法复用与科学保证另列Q4
+- qualification_ids:
+  - Q4
+- retained_exact_entry: S2 对第一问题、作者收新覆盖序列并最小化；目的抽紧密上下文。噪声→语料操作
+
+## P5.S3
+
+- legacy_display_alias: P5.S3
+- physical_page: 2
+- source_claim_attributed: 作者称最小化序列体现调用的影响依赖，可作为高质量训练集
+- matrix_syntax: sequences embody为矩阵；serving分词交研究用途
+- discourse_foreground: 上一步操作为什么交出学习所需材料
+- first_new_content: 材料结构与训练用途的因果/功能联系
+- contextual_grounds: 前句已给动作，读者仍需知道处理产物适合什么
+- conventional_form_and_relation: 产物主语＋结构属性＋用途分词
+- relative_length_role: 短；对长处理句收束其价值，不再引一套方法
+- writer_choice_and_reader_value_inference: 新信息位于结构到用途的关联；没有这句，模型训练会突然接到数据处理之后
+- why_refine_this_unit: 补产物属性与任务用途的短句作用
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 3778719ba4bab387e315af200541540383be77ad956ce1bde43918e206719902
+  - original_span_word_count: 2
+  - locator: 句尾用途分词连接起始
+  - replacement_english: and serve as
+  - fit_and_scope: 变成同主语协调有限谓词，复数主语sequences与serve/embody一致。紧前逗号不在已哈希两词跨度内；原位保留逗号仍可理解，若删除需作为另一步标点编辑
+  - choice_class: clause promotion
+  - use_when: 训练集用途需要与依赖属性同等显著，而非后置补充时
+  - cost: 提升话语份量但变长；不创造第二项研究成果
+  - separate_punctuation_option: 可另删除源分词成分紧前逗号以采用更紧凑的双谓词协调；该标点不属于原两词跨度、不会改其哈希。此项为可选编辑，保留逗号不判为语法错误
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者认为，最小化后的序列体现调用间的影响依赖，并构成高质量训练集。
+  - use_when: 读者尚不清楚为什么精炼序列适合训练时
+  - cost: 把用途升为并列主张，保源作者强质量评价
+  - semantic_or_context_change: 分词改并列，内容未变；高质量非本轮重测认证
+- qualification_ids:
+  - Q4
+- retained_exact_entry: S3 最小化序列体现影响依赖，分词说明训练集用途。操作→为何有效
+
+## P5.S5
+
+- legacy_display_alias: P5.S5
+- physical_page: 2
+- source_claim_attributed: 作者称语料积累到足量样本时，系统周期训练并用所学关系生成上下文感知测例
+- matrix_syntax: MOCK enables与utilizes为矩阵协调；as前置交语料发展情境；不定式各交学习和生成用途
+- discourse_foreground: 语料、模型学习与变异使用被接成持续更新的测试闭环
+- first_new_content: 样本足量、周期训练和应用时序
+- contextual_grounds: 前面有语料与模型，但尚未解释运行中怎样接合
+- conventional_form_and_relation: 语料发展从句＋双过程主句＋用途；as有随着发展/条件含义，非孤立因果定理
+- relative_length_role: 长；在线生命周期需要足量条件与两个动作，不宜删成自动智能化
+- writer_choice_and_reader_value_inference: 此处也暴露冷启动代价，P6启动配置实验因此是方法运行条件证据，不是额外拼接指标；前文只提出模型设计，没有已经完成离线学习的前提
+- why_refine_this_unit: 补在线生命周期与后续启动实验依赖
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: e7b6fe4a776cea9587f98f25f684e613f529a9b69600686d616631788b796219
+  - original_span_word_count: 1
+  - locator: 原句训练频率副词regularly（不使用正文同义短语）
+  - replacement_english: periodically
+  - fit_and_scope: 周期频率近义，仅替副词；as和足量样本条件仍在
+  - choice_class: neutral temporal-frequency variant
+  - use_when: 既定稿件需要与周期更新术语一致时
+  - cost: 不增加更新频率、自动适应或无冷启动保证
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 随着语料积累并具备足够训练样本，MOCK定期训练模型来学习上下文依赖，并利用所学依赖以考虑上下文的方式合成新测例。
+  - use_when: 读者要把数据、学习及使用看成一个运行闭环时
+  - cost: 显式按流程读更长，不能抹去训练前数据不足阶段
+  - semantic_or_context_change: 保发展条件和周期性；没有把as限定成精确阈值实现
+- qualification_ids:
+  - Q4
+  - Q5
+- retained_exact_entry: S5 随语料积累的从句，系统周期训练并用于新测例。学习→运行闭环；暖启动分析回收
+- retained_entry_correction: 保留条目中的“暖启动”是历史译称；本处warmup time指预热/初始积累时间，当前解释以启动配置与缩短预热时间为准，不改旧字串
+
+## P5.S7
+
+- legacy_display_alias: P5.S7
+- physical_page: 2
+- source_claim_attributed: 作者将变异操作映射到老虎机选择项，将覆盖反馈映射为奖励
+- matrix_syntax: 两个有限分句协调：操作are seen as；反馈acts as
+- discourse_foreground: 抽象算法对应哪些真实系统对象
+- first_new_content: 操作/奖励两项具体映射首次交清
+- contextual_grounds: P5.S6已命名多臂老虎机，但名字不足解释应用
+- conventional_form_and_relation: 平行角色定义句，一被动一主动系角色谓词
+- relative_length_role: 短而密；同句双映射减少术语负担
+- writer_choice_and_reader_value_inference: 旧档用arms是标准化解释；原引言词为bandits，不能伪称原句已精确使用arms。功能映射的重要性仍成立
+- why_refine_this_unit: 补平行角色映射及源词/规范术语区别
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 95e06078a550e94723c1b0fc7762fbd0b2dd41d683c727f414075fafb9241fcf
+  - original_span_word_count: 3
+  - locator: 第一个分句角色映射谓语；其后bandits不改
+  - replacement_english: are treated as
+  - fit_and_scope: 保作为某角色看待/处理的映射，术语问题不由此替换修复
+  - choice_class: neutral mapping-verb variant
+  - use_when: 需要常规角色分配搭配而不改变对象关系时
+  - cost: 没有新增方法论收益；不能仅凭换动词宣称术语精确
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者把各种变异操作作为多臂老虎机的选择臂，并以覆盖反馈作为奖励。
+  - use_when: 读者懂老虎机抽象但不知道内核系统里什么对应选择和收益时
+  - cost: 选择臂是据多臂问题与正文动作说明的术语标准化，需要标明而非装成逐字转述
+  - semantic_or_context_change: 原引言写bandits；此处用选择臂解释其任务映射，是显式术语澄清，保操作和奖励对应
+- qualification_ids:
+  - Q4
+- retained_exact_entry: S7 操作被视作臂，覆盖反馈作奖励，两个平行分句。算法名→系统角色
+
+## P5.S8
+
+- legacy_display_alias: P5.S8
+- physical_page: 2
+- source_claim_attributed: 作者称上下文依赖专用于深入内核，而原有无上下文及随机操作帮助增加变异多样性
+- matrix_syntax: 前后两个有限分句由while对照；as well as嵌入第二主语
+- discourse_foreground: 新知识利用与既有探索互补
+- first_new_content: 不是替代所有旧策略，而是分工
+- contextual_grounds: 学习可能不完整及调度问题在前已提出
+- conventional_form_and_relation: 目的用途主句＋对照从句；原dedicated to examine搭配不规范，to作介词宜接动名词
+- relative_length_role: 中长；把机制组合收成互补价值，不声称一种策略包办
+- writer_choice_and_reader_value_inference: while在这里是对照，不仅时间同时；共同服务的仍是有效测试，而非两个独立系统
+- why_refine_this_unit: 补对照关系与源搭配修复
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 9a3f7e4973bf466152e6e0d87b1750d06394a92c6652c78fcd587878be25b29b
+  - original_span_word_count: 4
+  - locator: 第一分句专门用于检查的连续谓语直到examine
+  - replacement_english: are dedicated to examining
+  - fit_and_scope: 修dedicated to后的动名词形式，保用途/专注程度；是语法修复而非研究强度调整
+  - choice_class: source-grammar correction
+  - use_when: 实际采用此源式搭配且需使介词后形式合语法时
+  - cost: 修语法本身不证明专注深部的效果；后半互补关系仍须保留
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者将上下文感知依赖用于专门探索内核更深部分，而无上下文策略及随机操作则帮助增加变异多样性。
+  - use_when: 读者可能认为新模型让旧策略失去用途时
+  - cost: 无上下文成分的中心词在源句压缩，当前按策略作语义显化；不宣称这是唯一句法补全，也不改变互补关系
+  - semantic_or_context_change: 按正文上下文依赖/无上下文策略分工显化省略项，不断言唯一中心词；保专门/帮助的不同强度，不把分工升级为功能绝无重叠
+- qualification_ids:
+  - Q4
+- retained_exact_entry: S8 上下文关系用于深挖；旧关系/随机用于多样性，对照并列。两类策略→互补而非取代
+
+## P6.S3
+
+- legacy_display_alias: P6.S3
+- physical_page: 2
+- source_claim_attributed: 作者称系统还能生成多50%的相互关联高质量输入
+- matrix_syntax: It is capable为矩阵；producing内容给能力和数量
+- discourse_foreground: 方法中间输出被单独用证据检验
+- first_new_content: 50%关联输入优势在引言首次给出
+- contextual_grounds: 前句已有7%覆盖，但尚未让读者看到输入构造为何改善
+- conventional_form_and_relation: 能力系表＋动名词产物＋比较量
+- relative_length_role: 短；为机制输出留独立一句，避免全部结果只剩覆盖
+- writer_choice_and_reader_value_inference: 这是解释路径上的中介证据，不能因为比漏洞数“中间”就删；也不能用它独立证明覆盖提升完全由上下文造成
+- why_refine_this_unit: 补中间能力证据为何被前景化
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 8335c3c846360a04f7582c801cc6f9bf0d3d5d4dba5b2d23b143dfe519b543a8
+  - original_span_word_count: 5
+  - locator: 矩阵能力系表及其动名词起始整体
+  - replacement_english: can also produce
+  - fit_and_scope: 后接50% more宾语，保能力及数量；不改为每个输入质量都提升50%
+  - choice_class: modal-predicate compression
+  - use_when: 结果段需要更直接的能力谓语而仍保产物范围时
+  - cost: 更短但不补比较分母；科学范围仍需正文
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者称，MOCK还能够生成多50%的相互关联高质量输入。
+  - use_when: 覆盖结果之后需要把收益连接回序列构造机制时
+  - cost: 该句单独读缺完整统计范围，不能把正文限定假装原句已有
+  - semantic_or_context_change: 保源能力与50%强概括，实验局部口径在Q6，不静默改写
+- qualification_ids:
+  - Q6
+- retained_exact_entry: S3 代词回系统、能生成多50%关联输入。效果→中间机制输出
+
+## P6.S4
+
+- legacy_display_alias: P6.S4
+- physical_page: 2
+- source_claim_attributed: 作者称测试初始种子、预训练模型等设置，证明有助缩短预热时间并加速fuzzing
+- matrix_syntax: we evaluate为矩阵；which后是用途/结果性判断，其单数回指压缩而不十分清楚
+- discourse_foreground: 在线学习的初期代价可以被既有知识/样本缓解
+- first_new_content: 不同启动配置的评估首次披露
+- contextual_grounds: P5在线模型需足量语料，冷启动是实际使用条件
+- conventional_form_and_relation: 附加过渡＋评估动作＋包括例项＋结果性关系从句
+- relative_length_role: 中长；一个配置句同时交行动和实践后果，不能只留设置名
+- writer_choice_and_reader_value_inference: 该结果回应先前生命周期，不是无关性能附注；完整变式可用正文将种子与预训练两条实验分清
+- why_refine_this_unit: 补条件实验与方法生命周期间的回收
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 89cb415c8ae0ca44c7fe1b0c0588c56d10ff2833c0f3f7109876df62250da7c5
+  - original_span_word_count: 7
+  - locator: 配置范围后列举两个实例的完整短语
+  - replacement_english: such as initial seeds and a pre-trained model
+  - fit_and_scope: 保持非穷尽设置例项，不改which回指；该局部替换不解决后面的压缩表达
+  - choice_class: neutral exemplification variant
+  - use_when: 只需换列举连接而已有评估对象清楚时
+  - cost: 没有独立理解收益；不能用举例标记推断每种配置收益相同
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者还测试了初始种子和预训练模型等不同配置，并称这些配置已被证明有助于缩短预热时间、加快模糊测试进程。
+  - use_when: 需要把评估动作与源作者报告的实践结果分读时
+  - cost: 这些配置的集体回指据正文两类结果显化，不保证相同幅度
+  - semantic_or_context_change: 修关系回指的压缩；保作者proves/help的证据强度及time这一结果对象；缩短的是预热/初始积累时段，不是warm-start初始化方式，也不等于消除冷启动
+- qualification_ids:
+  - Q5
+- retained_exact_entry: S4 作者评估多初始设置，关系从句减少暖启动并加速。在线依赖→启动条件可变
+- retained_entry_correction: 保留条目中的“暖启动”是历史译称；本处warmup time指预热/初始积累时间，当前解释以启动配置与缩短预热时间为准，不改旧字串
+
+## P7.C3.S3
+
+- legacy_display_alias: C3.S3
+- physical_page: 2
+- source_claim_attributed: 作者称进一步分析表明设计有价值，可无缝接入既有fuzzer且开销极小
+- matrix_syntax: analysis reveals为矩阵；that内容先评价贡献，关系从句交可集成能力及成本
+- discourse_foreground: 有效性之外的采用价值
+- first_new_content: 可集成性和低额外开销在贡献评估中明确
+- contextual_grounds: P6主要给覆盖/输入/漏洞，系统可用还需资源条件
+- conventional_form_and_relation: 报告框架＋评价内容＋能力被动关系从句＋成本短语
+- relative_length_role: 长；不能让“有价值”替代接口与成本条件，真正信息在后
+- writer_choice_and_reader_value_inference: 实践价值不是又一最高百分数；主句报告词和价值标签承载少，新可用性判断在嵌入层
+- why_refine_this_unit: 补报告矩阵与真正可用性新信息
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: b736a9211b6bc09bcc4c97eb26fdb95b01458104f3abcc662596d3e2bb8bdc5a
+  - original_span_word_count: 3
+  - locator: 可集成能力后的完整低开销介词短语
+  - replacement_english: with very little overhead
+  - fit_and_scope: 保很低开销强度；minimal不解读为数学零或全局最小
+  - choice_class: non-mathematical degree paraphrase
+  - use_when: 担心读者把minimal误当已求得全局最小值时
+  - cost: 只改语言理解，不能据此减掉训练计算或扩成所有平台都可无缝集成
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者称，进一步分析表明这些设计有实用价值，能够无缝集成进既有fuzzer，且额外开销很低。
+  - use_when: 贡献段需解释方法为何可被采用，而非只给效果排名时
+  - cost: 仍保作者无缝和低开销强度，正文计算/并行条件另列
+  - semantic_or_context_change: 将评价与接口/成本拆明，very little为minimal的非数学释义
+- qualification_ids:
+  - Q7
+- retained_exact_entry: C3.S3 额外分析显示可集成且低开销；价值判断与实现条件并列。有效→可用
+
+## P7.C4.S1
+
+- legacy_display_alias: C4.S1
+- physical_page: 2
+- source_claim_attributed: 作者称发现并报告全部15个新bug，其中四个在负责任披露过程中获开发者确认
+- matrix_syntax: we have discovered与reported协调；of which限定确认子集和时间情境
+- discourse_foreground: 现实发现及外部状态与受控比较区分
+- first_new_content: 作为贡献是P6结果的归组，报告全部与披露过程进一步交代
+- contextual_grounds: P6已报15/4，列表需要独立清楚的完成状态
+- conventional_form_and_relation: 完成时双动作＋全部范围＋子集关系从句＋过程时间
+- relative_length_role: 中长；数量重复有状态职责，不应机械删成“发现若干漏洞”
+- writer_choice_and_reader_value_inference: all管报告，four管确认；不可把它们并成15均已确认，更不能将比例当安全严重度
+- why_refine_this_unit: 补阶段、量词与贡献重复的职责
+- local_alternative:
+  - type: contiguous local realization, not a complete rewrite
+  - original_span_sha256: 6f895f09b33772591bd276aa60b53c3e2d6521d22a5135d405a9387f5fccf8c9
+  - original_span_word_count: 5
+  - locator: 逗号后的确认子集关系从句起始到确认谓语
+  - replacement_english: four of which are confirmed
+  - fit_and_scope: 前置four但保相同子集、被确认状态与后续主体/过程
+  - choice_class: neutral relative-phrase ordering
+  - use_when: 需要让确认数量先进入阅读焦点且同一集合已明确时
+  - cost: 没有新研究收益；不能把语序变化说成更强外部验证
+- full_variant:
+  - type: complete attributed Chinese analytical variant
+  - text: 作者称，他们在近期Linux内核中发现了15个不同的新bug，并已报告全部发现；其中四个在负责任披露过程中获得Linux开发者确认。
+  - use_when: 贡献需要与前面的已知漏洞比较、当时披露状态明确分开时
+  - cost: 拆句稍长，但保all与four不同辖域；不追加当前CVE状态
+  - semantic_or_context_change: 完成时以已报告表达；总数与确认子集完整保留
+- qualification_ids:
+  - Q8
+- retained_exact_entry: C4.S1 作者发现并报告15、关系从句四项确认；披露过程时间限定。实验→现实结果
+

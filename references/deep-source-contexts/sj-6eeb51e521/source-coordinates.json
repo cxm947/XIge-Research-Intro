@@ -1,0 +1,605 @@
+{
+  "source_id": "sj-6eeb51e521",
+  "title": "ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning",
+  "authors": [
+    "Linkang Du",
+    "Min Chen",
+    "Mingyang Sun",
+    "Shouling Ji",
+    "Peng Cheng",
+    "Jiming Chen",
+    "Zhikun Zhang"
+  ],
+  "designated_url": "https://arxiv.org/pdf/2309.03081v1",
+  "actual_read_url": "https://arxiv.org/pdf/2309.03081v1",
+  "actual_read_version": "arXiv:2309.03081v1, 2023-09-06",
+  "page_count": 38,
+  "source_reading_date_utc": "2026-10-07",
+  "primary_pdf_sha256": "dd79266c191261ff2f899f0513c5dffb3892279002dfe8b9f24d2c1cd79c6e5f",
+  "hash_identity_scope": "SHA-256 identifies the retained 38-page arXiv v1 PDF used for the stated readings. No new independent download, current URL-byte comparison or publisher PDF equivalence is claimed.",
+  "coauthor_basis": "PDF physical page 1 author line and arXiv v1 abstract page; no individual authorship attribution",
+  "coordinate_namespace": "The existing published map supplies the 58 sentence-unit IDs below. P8 remains an unnumbered-sentence contribution-list organizer at paragraph level, not a new P8.S1 unit. Local a/b/c clause labels are analytical only. P1 and P3 are functional groups rather than one-to-one physical indentation paragraphs.",
+  "published_map": "references/intro-source-maps/sj-6eeb51e521.md",
+  "introduction_scope": {
+    "physical_pages": [
+      1,
+      2,
+      3
+    ],
+    "sentence_units": 58,
+    "full_contribution_set": true,
+    "organizer": {
+      "id": "P8",
+      "physical_pages": [
+        3
+      ],
+      "kind": "contribution-list organizer; not counted as a sentence"
+    },
+    "figure_context": {
+      "figure": "Figure 1",
+      "physical_pages": [
+        2
+      ],
+      "related_units": [
+        "P4.S4",
+        "P4.S5",
+        "P4.S6"
+      ],
+      "counted_as_sentence": false
+    }
+  },
+  "introduction_units": [
+    {
+      "id": "P1.S1",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P1.S2",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 29
+    },
+    {
+      "id": "P1.S3",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 20
+    },
+    {
+      "id": "P1.S4",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P2.S1",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 30
+    },
+    {
+      "id": "P2.S2",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 31
+    },
+    {
+      "id": "P2.S3",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 7
+    },
+    {
+      "id": "P2.S4",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 21
+    },
+    {
+      "id": "P2.S5",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 24
+    },
+    {
+      "id": "P2.S6",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 20
+    },
+    {
+      "id": "P2.S7",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 21
+    },
+    {
+      "id": "P2.S8",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 31
+    },
+    {
+      "id": "P2.S9",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 18
+    },
+    {
+      "id": "P2.S10",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 26
+    },
+    {
+      "id": "P3.S1",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 19
+    },
+    {
+      "id": "P3.S2",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 16
+    },
+    {
+      "id": "P3.S3",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 19
+    },
+    {
+      "id": "P3.S4",
+      "physical_pages": [
+        1
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P3.S5",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 40
+    },
+    {
+      "id": "P3.S6",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 24
+    },
+    {
+      "id": "P3.S7",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 16
+    },
+    {
+      "id": "P3.S8",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 32
+    },
+    {
+      "id": "P3.S9",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 38
+    },
+    {
+      "id": "P3.S10",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 9
+    },
+    {
+      "id": "P3.S11",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 33
+    },
+    {
+      "id": "P3.S12",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 31
+    },
+    {
+      "id": "P4.S1",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 17
+    },
+    {
+      "id": "P4.S2",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 39
+    },
+    {
+      "id": "P4.S3",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 18
+    },
+    {
+      "id": "P4.S4",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 21
+    },
+    {
+      "id": "P4.S5",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 41
+    },
+    {
+      "id": "P4.S6",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 37
+    },
+    {
+      "id": "P5.S1",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 30
+    },
+    {
+      "id": "P5.S2",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 36
+    },
+    {
+      "id": "P5.S3",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 30
+    },
+    {
+      "id": "P5.S4",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 41
+    },
+    {
+      "id": "P5.S5",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 28
+    },
+    {
+      "id": "P5.S6",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P6.S1",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 25
+    },
+    {
+      "id": "P6.S2",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 27
+    },
+    {
+      "id": "P6.S3",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 29
+    },
+    {
+      "id": "P6.S4",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 30
+    },
+    {
+      "id": "P6.S5",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P6.S6",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 27
+    },
+    {
+      "id": "P6.S7",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 25
+    },
+    {
+      "id": "P7.S1",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 16
+    },
+    {
+      "id": "P7.S2",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 24
+    },
+    {
+      "id": "P7.S3",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 13
+    },
+    {
+      "id": "P7.S4",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 17
+    },
+    {
+      "id": "P7.S5",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 20
+    },
+    {
+      "id": "P7.S6",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 22
+    },
+    {
+      "id": "P7.S7",
+      "physical_pages": [
+        2
+      ],
+      "word_count": 33
+    },
+    {
+      "id": "P7.S8",
+      "physical_pages": [
+        2,
+        3
+      ],
+      "word_count": 17
+    },
+    {
+      "id": "P7.S9",
+      "physical_pages": [
+        3
+      ],
+      "word_count": 25
+    },
+    {
+      "id": "B1.S1",
+      "physical_pages": [
+        3
+      ],
+      "word_count": 28
+    },
+    {
+      "id": "B2.S1",
+      "physical_pages": [
+        3
+      ],
+      "word_count": 14
+    },
+    {
+      "id": "B2.S2",
+      "physical_pages": [
+        3
+      ],
+      "word_count": 27
+    },
+    {
+      "id": "B3.S1",
+      "physical_pages": [
+        3
+      ],
+      "word_count": 27
+    }
+  ],
+  "word_count": {
+    "total": 1449,
+    "definition": "Regex lexical tokens: alphabetic words with retained apostrophe/hyphen compounds, numeric values with percent signs, and α/µ/σ. Remove numeric inline citations and item labels; exclude headings, author/abstract text, figure/caption, P8 organizer. Normalized PDF wraps; not whitespace count or normative length quota."
+  },
+  "author_reading_scope": {
+    "complete_introduction_and_contributions": true,
+    "selected_body": [
+      {
+        "place": "§II-A",
+        "physical_pages": [
+          3
+        ],
+        "read_for": "offline problem, state/action/trajectory and return definitions"
+      },
+      {
+        "place": "§III-A/B",
+        "physical_pages": [
+          4,
+          5
+        ],
+        "read_for": "auditor capabilities, no environment, trajectory output, dataset aggregation, alternative assumptions"
+      },
+      {
+        "place": "§IV-A/B/C and Algorithm 1",
+        "physical_pages": [
+          5,
+          6,
+          7
+        ],
+        "read_for": "shared critic, shadow reference, TD rationale, per-trajectory inference, test assumptions"
+      },
+      {
+        "place": "§V-A/B",
+        "physical_pages": [
+          8,
+          9,
+          10
+        ],
+        "read_for": "evaluation protocol, output unit, adaptation of online competitors, Tables III and IV"
+      },
+      {
+        "place": "§V-C/D/E",
+        "physical_pages": [
+          9,
+          10,
+          11
+        ],
+        "read_for": "visualization and parameter claims, published datasets"
+      },
+      {
+        "place": "§VI-A/B selected text, Tables V and performance cross-references",
+        "physical_pages": [
+          10,
+          12,
+          13
+        ],
+        "read_for": "countermeasure definitions, paired utility rationale, Table V scope, noise setup"
+      },
+      {
+        "place": "§VIII limitations, §IX conclusion",
+        "physical_pages": [
+          14
+        ],
+        "read_for": "source limitations and claimed scope"
+      },
+      {
+        "place": "Appendix A Figure 10 and Appendix C/D/E selected explanatory text",
+        "physical_pages": [
+          16,
+          17,
+          18
+        ],
+        "read_for": "behavior-reference variation and parameter study conditions"
+      },
+      {
+        "place": "Table VIII and IX, table XXII and adjacent XXI",
+        "physical_pages": [
+          21,
+          22,
+          29
+        ],
+        "read_for": "nine-model claim and primary representative evidence"
+      }
+    ],
+    "visually_inspected_physical_pages": [
+      1,
+      2,
+      3,
+      10,
+      13,
+      21,
+      29
+    ],
+    "rendered_without_visual_inspection_physical_pages": [
+      6,
+      7
+    ]
+  },
+  "source_review_scope": {
+    "complete_introduction_and_contributions": true,
+    "sentence_units_read": 58,
+    "organizer_and_figure_context": true,
+    "selected_body": "Selected necessary context: II-A, III-A/B, IV-A/B/C and Algorithm 1, V-A/B/C/D/E, VI relevant settings and observations, VIII limitations, Appendix C-E, Tables IV/V/VIII/IX/XXI/XXII",
+    "visually_reviewed_physical_pages": [
+      1,
+      2,
+      3,
+      10,
+      13,
+      21,
+      29
+    ],
+    "date_utc": "2026-10-07"
+  },
+  "external_source_checks": [
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/prc/section1/prc131.htm",
+      "purpose": "significance interpretation only"
+    },
+    {
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h1.htm",
+      "purpose": "Grubbs assumptions and meaning only"
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "purpose": "bound license generalization, no case-specific legal advice"
+    },
+    {
+      "url": "https://opensource.org/license/bsd-3-clause",
+      "purpose": "bound license generalization"
+    }
+  ],
+  "epistemic_labels": {
+    "observation": "What the designated source says or how its clauses are organized.",
+    "editorial_interpretation": "An analysis of reader needs and information selection, not author intent or a measured writing effect.",
+    "generation_operation": "Conditional transfer requiring the target manuscript’s own facts and evidence."
+  },
+  "not_claimed": [
+    "whole-paper scientific certification",
+    "execution of paper audit or countermeasure code",
+    "experimental replication",
+    "current novelty certification",
+    "individual coauthor writing attribution",
+    "measured writing benefit"
+  ]
+}

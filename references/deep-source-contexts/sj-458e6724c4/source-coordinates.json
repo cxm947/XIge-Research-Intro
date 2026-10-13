@@ -1,0 +1,785 @@
+{
+  "source_id": "sj-458e6724c4",
+  "coordinate_status": "registered_analysis_coordinates_created_2026-10-07",
+  "primary_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+  "location_basis": "Article page renderings manually verified; a unit spanning a page/column boundary is explicitly labeled.",
+  "units": [
+    {
+      "unit": "P1.S1",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "开篇将JS描述为既往Web的唯一编程选择",
+      "interpretation_locator": "clauses.zh.md, section P1"
+    },
+    {
+      "unit": "P1.S2",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "计算密集任务使JS遇到严重性能问题",
+      "interpretation_locator": "clauses.zh.md, section P1"
+    },
+    {
+      "unit": "P1.S3",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "四大浏览器厂商引入便携、安全、低层的Wasm代码格式以支持高效执行",
+      "interpretation_locator": "clauses.zh.md, section P1"
+    },
+    {
+      "unit": "P1.S4",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "Wasm可理解为虚拟指令集并作为C++等语言的编译目标",
+      "interpretation_locator": "clauses.zh.md, section P1"
+    },
+    {
+      "unit": "P1.S5",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "Emscripten可把C++源文件编成Wasm模块并在Web近原生执行",
+      "interpretation_locator": "clauses.zh.md, section P1"
+    },
+    {
+      "unit": "P2.S1",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "Wasm模块通常运行在内存安全的沙箱宿主内",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S2",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "源文说早期只有Web浏览器提供这类宿主",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S3",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "独立runtime随Wasm流行出现，使适用范围扩到Web之外",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S4",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "源文用普及伴随更多安全威胁转入安全议题",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S5",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "Wasm设计重视安全，故宿主安全被置为关键要求",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S6",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "宿主安全破坏可导致逃逸或远程执行，两起已知漏洞及竞赛利用提供例证",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P2.S7",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "应及时发现并修复runtime安全bug，以减少后续恶意利用",
+      "interpretation_locator": "clauses.zh.md, section P2"
+    },
+    {
+      "unit": "P3.S1",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "模糊测试通过大量用例喂给目标来寻找异常行为",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S2",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "源文以fuzzing的规模适配与近乎无误报作为选择理由",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S3",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "fuzzer粗分为变异与生成两类",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S4",
+      "physical_pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        6159
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "变异式从已有种子修改出测试用例",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S5",
+      "physical_pdf_pages": [
+        2,
+        3
+      ],
+      "printed_pages": [
+        6159,
+        6160
+      ],
+      "column_locations": [
+        "physical 2 right-bottom",
+        "physical 3 left-top"
+      ],
+      "source_statement_summary": "AFL在种子上做字节变异，以新路径作为入池条件，且已有大量找错成果",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S6",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "生成式依照预设规则从头构造用例",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P3.S7",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "wasm-smith把随机输入映为Wasm模块，已被SpiderMonkey等集成",
+      "interpretation_locator": "clauses.zh.md, section P3"
+    },
+    {
+      "unit": "P4.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "尽管fuzzing广泛改进，Wasm runtime自动测试仍被源文判为研究不足",
+      "interpretation_locator": "clauses.zh.md, section P4"
+    },
+    {
+      "unit": "P4.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "有效把fuzzing用于Wasm runtime仍有下列困难",
+      "interpretation_locator": "clauses.zh.md, section P4"
+    },
+    {
+      "unit": "P5.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "Wasm栈指令按特定类型弹出和压入值",
+      "interpretation_locator": "clauses.zh.md, section P5"
+    },
+    {
+      "unit": "P5.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "runtime验证输入模块的栈语义，只有有效模块才能实例化和执行",
+      "interpretation_locator": "clauses.zh.md, section P5"
+    },
+    {
+      "unit": "P5.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "字节翻转可破坏栈解释，变异器因此难保语义并深入runtime状态",
+      "interpretation_locator": "clauses.zh.md, section P5"
+    },
+    {
+      "unit": "P6.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "给定测试时间，要尽量探索更多输入空间",
+      "interpretation_locator": "clauses.zh.md, section P6"
+    },
+    {
+      "unit": "P6.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "Wasm指令多且用途不同，使全面有效探索指令组合困难",
+      "interpretation_locator": "clauses.zh.md, section P6"
+    },
+    {
+      "unit": "P6.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "生成器的预设规则尤其限制其输入空间探索",
+      "interpretation_locator": "clauses.zh.md, section P6"
+    },
+    {
+      "unit": "P7.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "提出面向Wasm runtime的greybox测试框架Waltzz",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P7.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "以栈不变变换在测试变异中保持栈语义，回应第一挑战",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P7.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "两个指令序列的栈效果兼容时，可以彼此替换",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P7.S4",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "源文将该性质概括为输入有效性的保证与全设计指导原则",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P7.S5",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "设计Wasm变异器共同增加输入的控制流和数据流多样性",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P7.S6",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "骨架生成把控制结构规划与具体数据流产生分离，以构造种子中少见片段",
+      "interpretation_locator": "clauses.zh.md, section P7"
+    },
+    {
+      "unit": "P8.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "框架已实现，并在三个JS引擎和四个独立runtime上评价",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "源引言报相对最近基线多12.4%代码覆盖，强调代码库较大",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "源文称独特bug数约为第二名1.38倍",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S4",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left"
+      ],
+      "source_statement_summary": "Waltzz发现20个此前未知的bug",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S5",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "left-bottom",
+        "right-top"
+      ],
+      "source_statement_summary": "20个新bug均获确认，其中17个获得CVE编号",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S6",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "不少bug已修复，其余涉及结构修改，文中讨论一个实例",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P8.S7",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "源文由修复复杂性回指发现bug的重要性",
+      "interpretation_locator": "clauses.zh.md, section P8"
+    },
+    {
+      "unit": "P9.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "切换为本文贡献总结",
+      "interpretation_locator": "clauses.zh.md, section P9"
+    },
+    {
+      "unit": "C1.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "将Waltzz归为面向Wasm runtime的实用有效greybox框架",
+      "interpretation_locator": "clauses.zh.md, section C1"
+    },
+    {
+      "unit": "C1.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "框架采用新栈不变变换来维护测试过程中的栈语义",
+      "interpretation_locator": "clauses.zh.md, section C1"
+    },
+    {
+      "unit": "C1.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "栈语义兼容的指令能在不破坏有效性检查下交换",
+      "interpretation_locator": "clauses.zh.md, section C1"
+    },
+    {
+      "unit": "C2.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "在共同原则下，变异器拓展两类流的变化，从而更有效探索输入空间",
+      "interpretation_locator": "clauses.zh.md, section C2"
+    },
+    {
+      "unit": "C2.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "另给骨架生成算法，以产出不常见片段",
+      "interpretation_locator": "clauses.zh.md, section C2"
+    },
+    {
+      "unit": "C3.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "已实现并在七个runtime评价",
+      "interpretation_locator": "clauses.zh.md, section C3"
+    },
+    {
+      "unit": "C3.S2",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "源文重报12.4%覆盖和约1.38倍独特bug的相对结果",
+      "interpretation_locator": "clauses.zh.md, section C3"
+    },
+    {
+      "unit": "C3.S3",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "总计20个新bug均验证，17个获CVE编号",
+      "interpretation_locator": "clauses.zh.md, section C3"
+    },
+    {
+      "unit": "P10.S1",
+      "physical_pdf_pages": [
+        3
+      ],
+      "printed_pages": [
+        6160
+      ],
+      "column_locations": [
+        "right"
+      ],
+      "source_statement_summary": "实现已在Zenodo提供，另有GitHub较详细artifact集合",
+      "interpretation_locator": "clauses.zh.md, section P10"
+    }
+  ],
+  "coordinate_namespace": "50 sentence units and 13 paragraph/bullet groups. H1/H2 are non-sentence headings retained in the full map and clause ledger, not standalone --unit selectors. New labels do not claim equivalence to a historical unregistered map.",
+  "title": "Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation",
+  "official_record": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-lingming",
+  "read_date": "2026-10-07",
+  "pdf_sha256": "895c4507b1a21b745ab4dc1729df693402beedc8db4b07911bd9701f8ec16885",
+  "authors": [
+    "Lingming Zhang",
+    "Binbin Zhao",
+    "Jiacheng Xu",
+    "Peiyu Liu",
+    "Qinge Xie",
+    "Yuan Tian",
+    "Jianhai Chen",
+    "Shouling Ji"
+  ],
+  "first_listed_author": "Lingming Zhang",
+  "corresponding_author": "Shouling Ji, explicitly identified in article first-page footnote",
+  "co_first_status": "Not established; no co-first declaration was observed on the inspected first page. Do not infer exclusivity.",
+  "individual_writing_attribution": "Not established; no claim of individual authorship of Introduction prose.",
+  "intro_scope": {
+    "physical_pages": [
+      2,
+      3
+    ],
+    "printed_pages": [
+      6159,
+      6160
+    ],
+    "start": "§1 Introduction on physical page 2, right column",
+    "end": "Resource availability paragraph before §2 on physical page 3, right column",
+    "sentence_units": 50,
+    "non_sentence_headings": 2,
+    "new_coordinate_system": true,
+    "paragraph_and_bullet_groups": 13,
+    "word_count_excluding_citations_and_headings": 983
+  },
+  "bounded_body_reads": [
+    "§2.2 stack type and context validity, printed6161",
+    "§3 and Table1, printed6161–6162",
+    "§4 overview and §4.1, printed6162–6163",
+    "§4.2/4.3 selected context and mutator scope passages only",
+    "§4.4 generator interface and construction, printed6165–6166",
+    "§5 implementation, printed6166",
+    "§6.1–6.5 relevant setup/results/mutator counts/validity/cases, printed6166–6171",
+    "§7 selected scope discussion, printed6171",
+    "Appendix Table4 status definitions/counts, printed6177; Figure11 caption/scope, printed6178"
+  ],
+  "designated_version": "USENIX Security 2025 final proceedings, 6159–6178; 21 physical PDF pages including cover",
+  "non_sentence_headings": [
+    {
+      "unit": "H1",
+      "paragraph": "P5",
+      "physical_pdf_page": 3,
+      "printed_page": 6160,
+      "column": "left",
+      "summary": "维护合适的栈语义",
+      "standalone_unit_selector": false
+    },
+    {
+      "unit": "H2",
+      "paragraph": "P6",
+      "physical_pdf_page": 3,
+      "printed_page": 6160,
+      "column": "left",
+      "summary": "有效探索输入空间",
+      "standalone_unit_selector": false
+    }
+  ],
+  "limits": [
+    "The PDF hash identifies the source bytes actually read; it does not assert current URL byte identity.",
+    "Only the complete Introduction and stated necessary body passages were read; no experiment, source-code or current vulnerability-status verification is claimed.",
+    "Authorship and corresponding-author identity do not identify the person who wrote an Introduction sentence."
+  ]
+}

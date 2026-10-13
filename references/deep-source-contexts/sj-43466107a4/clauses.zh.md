@@ -1,0 +1,1212 @@
+# TWIST：完整引言句内选择、英语局部与完整归属型变式
+
+- unit_count: 34
+- count_meaning: 34 retrieval/analysis units, not34 independent sentences; P9.S1/Q and C1.S1 share one orthographic source sentence; P5.S1a–c preserve old labels although source has three sentence-level numbered items
+
+## P1.S1
+
+- physical_page: 1
+- attributed_source_claim: 作者把T2I的高质量生成称为重大成功，并以数千万注册用户标使用规模
+- matrix_syntax: 模型已取得成功是主句；注册用户数由后置分词补充
+- discourse_foreground: 生成能力与使用规模共同构成研究对象的重要性
+- new_information: 模型例、质量、数千万用户
+- contextual_grounds: 读者尚未知道为什么要关注T2I组件风险
+- clause_relations_and_conventional_form: 一般背景常式：对象＋已有能力＋伴随规模；列举置主语内部
+- sentence_length_role: 较长；多个专名提供识别点，尾部分词避免再开一句市场介绍
+- selection_and_reader_value_editorial_inference: 先建立成功和用户规模，再缩到组件；安全研究继承被保护任务的价值，而非从威胁名词空降
+- local_replacement:
+  - target_span_locator: 成功谓语及紧接的生成领域介词组合
+  - replacement_english: have been highly successful in
+  - fit_and_scope: 替换整个谓语＋介词局部跨度后接原动名词，保重大成功强度；不是只替换动词却留下不匹配介词
+  - type: local-span; not a full sentence
+  - source_span_sha256: 2a2d8833d4ee1e03008b9601148531b0a23500e2ca5d34c55ae04784559678dd
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者认为，Stable Diffusion、DALL-E及Midjourney等T2I模型在按文本生成高质量图像方面取得重大成功，注册用户达数千万。
+  - use_context: 读者需要同时看到能力与使用规模时
+  - semantic_change: 完整中文改写；保作者强评价和数量级，删英语分词包装而未把规模说成质量的实验证据
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P1.S1
+- paragraph_group: P1
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P1.S2
+
+- physical_page: 1
+- attributed_source_claim: 作者认为进展在艺术、广告和内容创作等领域显示巨大潜力
+- matrix_syntax: 这些进展显示潜力；领域名单为补充
+- discourse_foreground: 把模型成功转成应用收益
+- new_information: 应用域及巨大潜力
+- contextual_grounds: P1.S1给技术输出与采用量，但尚未交活动价值
+- clause_relations_and_conventional_form: 短主谓宾配非穷尽列举；潜力是模态性意义，不是已兑现收益
+- sentence_length_role: 相对短；在长背景句和长组件句之间给读者一个直观用途判断
+- selection_and_reader_value_editorial_inference: 若只报用户量，研究价值会像流行度；这一句把值得保护的工作结果引入
+- local_replacement:
+  - target_span_locator: 句尾领域例示连接
+  - replacement_english: among them
+  - fit_and_scope: 需改为逗号后同位列举；仍非穷尽，不能把潜力改成经济收益
+  - type: local-span; not a full sentence
+  - source_span_sha256: 031af55b1821e721e58832cb81177a527f3e8ea244986da200562c62b91d535c
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者认为，这些进展在包括艺术、广告与内容创作在内的多种领域具有巨大应用潜力。
+  - use_context: 应用价值需要先于技术细节时
+  - semantic_change: 保强潜力而非已实现收益；列举关系未变
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P1.S2
+- paragraph_group: P1
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P1.S3
+
+- physical_page: 1
+- attributed_source_claim: 作者将成功主要归于强大组件，特别是通过文本到潜在空间映射连接两模态的编码器
+- matrix_syntax: 成功主要由强大组件驱动为矩阵；编码器被突出；关系从句另含关键作用谓词
+- discourse_foreground: 从全模型成功收窄到需要被信任的文本接口
+- new_information: 编码器及其跨模态职责、映射方式
+- contextual_grounds: 前两句已有模型价值；读者仍缺组件何以影响输出的关系
+- clause_relations_and_conventional_form: 被动因果主句＋突出成分＋补充关系从句＋方式短语；从句不是仅旧背景
+- sentence_length_role: 长；承担对象选择、作用与实现层次，长度来自解释依赖而非修辞装饰
+- selection_and_reader_value_editorial_inference: 把组件及作用提前交齐，P6局部编辑便可回收已知对象；并非因为使用某模块名字就自然显出贡献
+- local_replacement:
+  - target_span_locator: 强调性插入语中突出编码器
+  - replacement_english: most notably
+  - fit_and_scope: 替换特别突出功能的副词短语；不删主要归因，也不升级为唯一原因
+  - type: local-span; not a full sentence
+  - source_span_sha256: 5c9473495c88cc1d825a98cf6aa82149e73b694c262c3a303dce9431a28cb56e
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者把这一成功主要归因于T2I的强大组件，尤其是文本编码器：它把文本描述映射到潜在空间，在连接语言与视觉表示方面发挥关键作用。
+  - use_context: 一个长句的嵌套使读者难辨组件作用时
+  - semantic_change: 冒号把关系从句内容前景化；保主要/尤其/关键，删除CLIP这一具体编码器例示，属内容压缩而非全信息逐字替换
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q1
+- retained_clause_analysis: 主句success driven by components先把全模型能力缩到来源，particularly定位编码器；which从句交桥接模态，by短语交文本到latent，形成选择位置依据。
+- status: retained-and-extended
+- source_sentence_group: P1.S3
+- paragraph_group: P1
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P1.S4
+
+- physical_page: 1
+- attributed_source_claim: 作者称两模态连接对语义准确且丰富的图像必不可少
+- matrix_syntax: 连接是必要的为系表主句
+- discourse_foreground: 把上一句机制的任务后果明确化
+- new_information: 必要性和语义准确/丰富两种质量
+- contextual_grounds: 上一句只说编码器做什么，尚需回答为什么该接口值得研究
+- clause_relations_and_conventional_form: 指示性主题回收前句；必要性形容词＋for介词补语，说明必要性所针对的生成任务，不是独立目的状语
+- sentence_length_role: 短；长机制句之后用一句价值判断收束
+- selection_and_reader_value_editorial_inference: 此句把编辑对象从技术组件变成任务成败条件；不把关键层研究写成任意位置尝试
+- local_replacement:
+  - target_span_locator: 仅覆盖系动词及必要性形容词；保留后面的for介词及生成任务成分
+  - replacement_english: is indispensable
+  - fit_and_scope: 局部替换后仍接原for generating，不再指示换成to；保必要性强度而非弱帮助
+  - type: local-span; not a full sentence
+  - source_span_sha256: c800d3cd867afe4ac5d68d465b1bc59b61119c0b71e14161fe43398ed370591e
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 在作者的论述中，生成语义准确而丰富的图像离不开这种跨模态连接。
+  - use_context: 机制已讲明而读者还看不出任务价值时
+  - semantic_change: 换序保必要性；必要性的科学适用边界另列，不夹进保义备选
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q1
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P1.S4
+- paragraph_group: P1
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P2.S1
+
+- physical_page: 1
+- attributed_source_claim: 作者指出从零训练编码器代价高，往往需在百万级图文对上训练数周至数月
+- matrix_syntax: 从零训练涉及巨大计算成本是主句；需时/数据量为后置分词展开
+- discourse_foreground: 获得这项关键能力的资源负担
+- new_information: 从零、时间跨度、数据规模
+- contextual_grounds: P1已经说明并主张编码器的重要作用；重要性并不说明普通用户能自建，前段不是独立证明
+- clause_relations_and_conventional_form: 转折开段；动名词主语；分词提供代价构成，数据集内部再含组成分词
+- sentence_length_role: 长；用可感知的时间与样本量把笼统成本落实，为获取行为提供充分前提
+- selection_and_reader_value_editorial_inference: 资源不是附加背景，直接解释P2.S3为什么第三方共享会成为真实入口
+- local_replacement:
+  - target_span_locator: 转折连接位置
+  - replacement_english: Yet
+  - fit_and_scope: 可直接替换段首转折标记；仍是重要能力伴随高成本，不是反驳前段价值
+  - type: local-span; not a full sentence
+  - source_span_sha256: 87791fb5b5c3fdf7cac8e82e4ed7c8685f94a7d3851f5477ebf9431a62b9fa5e
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 然而，按作者描述，从零训练这类编码器需要巨大计算投入，通常要用百万级图文对训练数周乃至数月。
+  - use_context: 需要让读者理解复用动机而非仅认同成本形容词时
+  - semantic_change: 保往往/规模/时间区间；非本方法注入耗时，不能与25秒直接作同任务比较
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q2
+- retained_clause_analysis: However转成本，主句training costly，requiring分词给周期/数据规模；负担先于用户第三方选择。
+- status: retained-and-extended
+- source_sentence_group: P2.S1
+- paragraph_group: P2
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P2.S2
+
+- physical_page: 1
+- attributed_source_claim: 作者认为对普通用户和开发者而言，自训这些组件因资源约束而不切实际
+- matrix_syntax: 形式主语it＋评价表语；to不定式后置交真正的判断对象，不能说it本身被外置
+- discourse_foreground: 资源负担转化为特定使用者的选择限制
+- new_information: 普通用户/开发者及可行性判断
+- contextual_grounds: 上一句已经给成本，因此本句可用简短因果收束
+- clause_relations_and_conventional_form: 受众框架前置；评价常式；原因短语后置
+- sentence_length_role: 短；把量级成本转成行为层结论，而不再解释架构
+- selection_and_reader_value_editorial_inference: 缺此句，第三方下载只像偏好；加上后读者理解其被资源限制推动
+- local_replacement:
+  - target_span_locator: 句首受众框架
+  - replacement_english: For ordinary users and developers
+  - fit_and_scope: 仅局部替换受众措辞，保一般人群而非每个组织
+  - type: local-span; not a full sentence
+  - source_span_sha256: d95c67bd32ee6e0865128b0adf716ebdae607ee5fbb3d7232b83e18684bd8a8f
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者据此判断，资源受限使普通用户和开发者自行训练这些组件变得不切实际。
+  - use_context: 从技术成本接用户获取决策时
+  - semantic_change: 将原因前景化；不把不切实际弱成稍有不便或强成物理不可能
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q2
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P2.S2
+- paragraph_group: P2
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P2.S3
+
+- physical_page: 1
+- attributed_source_claim: 作者称许多用户因此转向第三方共享平台，而平台方便插件上传下载
+- matrix_syntax: 许多人转向预训练模型为主句；平台关系从句另交分发便利
+- discourse_foreground: 实际获取路径及攻击材料何以进入使用者系统
+- new_information: 平台与插件分发机制
+- contextual_grounds: 自训不切实际已经建立；此处无需再解释算法
+- clause_relations_and_conventional_form: 因果衔接＋获取动作＋非穷尽平台例＋补充关系从句
+- sentence_length_role: 较长；先给选择，再解释渠道能做什么，不把平台名当论证
+- selection_and_reader_value_editorial_inference: 关系从句虽语法从属，却为下一段信任风险提供新的传播条件；它不能只当可删广告
+- local_replacement:
+  - target_span_locator: 句首结果连接
+  - replacement_english: As a result
+  - fit_and_scope: 可替换同一因果连接；保“许多”而非所有
+  - type: local-span; not a full sentence
+  - source_span_sha256: 5232f1caee235c5d31d4073baa09dd7eb9f6ef16960791b0d87ca356c9516be6
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 因此，作者指出，许多用户转向Civitai、Hugging Face等第三方平台上的预训练模型；这些平台使插件上传与下载十分便捷。
+  - use_context: 跨段供应链解释需要分清获取行为与分发机制时
+  - semantic_change: 拆为两分句并保因果、数量限定及便捷程度；不能把便利性改写成审核安全
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q2
+- retained_clause_analysis: Consequently标前述资源约束结果；主句用户转平台，which从句说明易上传下载的分发机制，下一段信任风险得以具体。
+- status: retained-and-extended
+- source_sentence_group: P2.S3
+- paragraph_group: P2
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P2.S4
+
+- physical_page: 1
+- attributed_source_claim: 作者报热门三编码器下载114.7K/64K/18.2K，并据此强调广泛采用与可靠性
+- matrix_syntax: 三编码器获得相应下载数是矩阵；尾部分词给作者的意义推断
+- discourse_foreground: 采用规模和可信度印象为下段转折蓄势
+- new_information: 数字、排行、当时累计口径以及可靠性推断
+- contextual_grounds: 已知第三方平台被采用，此处为采用量化
+- clause_relations_and_conventional_form: 时间/平台框架＋主句数字＋对应副词＋尾部评议；尾部比数字更强
+- sentence_length_role: 长；同时交数字与解释，避免让读者猜为何列下载量
+- selection_and_reader_value_editorial_inference: 写作上由数据走向社区信任，使下一段的来源风险形成反差；是否足以证明可靠必须另审，不能悄悄删掉源作者说过的判断
+- local_replacement:
+  - target_span_locator: 分词意义引出的强调成分
+  - replacement_english: thereby emphasizing
+  - fit_and_scope: 可替换尾部强调功能；它仍是作者推断，不能据此当成独立安全检测
+  - type: local-span; not a full sentence
+  - source_span_sha256: 9a60753f9be46c3c96fe0a4d4d407ea14408b4eb0a7776a664f47f423d9f3fec
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者报告，彼时Civitai最热门的三个文本编码器分别有114.7K、64K和18.2K次下载，并将其解释为开发者社区广泛采用和可靠性的体现。
+  - use_context: 需要保留源文论证路线，同时清楚标明推断归属时
+  - semantic_change: 增加作者归属属于报告语境显化；保数字、排行及可靠性判断，科学质疑独立在Q3
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q3
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P2.S4
+- paragraph_group: P2
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P3.S1
+
+- physical_page: 1
+- attributed_source_claim: 作者称外部来源插件常缺严格安全验证，可能带来无法检测到的威胁
+- matrix_syntax: 来自外部、常缺验证为并列主述；可能有威胁是关系从句
+- discourse_foreground: 读者以为方便/可靠的渠道有信任缺口
+- new_information: 外部来源、审查频率、可能检测不到的风险
+- contextual_grounds: 前段刚给社区采用/可靠印象；这些条件不是读者此前已知事实
+- clause_relations_and_conventional_form: 负向转折；双谓词协调＋后置可能性关系从句；认识模态不可删
+- sentence_length_role: 中长；把信任条件与潜在后果放在一句，不把下载量本身当恶意证据
+- selection_and_reader_value_editorial_inference: 源句的新内容既在主句也在从句；旧分析称主句已知条件需澄清，已知的是平台而非验证不足
+- local_replacement:
+  - target_span_locator: 关系从句内从可能性情态词至无法检测威胁这一宾语末的完整谓语
+  - replacement_english: may pose undetectable threats
+  - fit_and_scope: 保可能性与源作者对可检测性的强描述，不替成尚未检出或仅逃过一次检测；科学认可范围另列
+  - type: local-span; not a full sentence
+  - source_span_sha256: 9d8f0d94309c3f699eeeddcc13160ad196b4d71c366baf526bc6898f94beceba
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者认为，这些平台的模型和插件来自外部，且常缺少严格安全验证，因此可能带来无法检测到的威胁。
+  - use_context: 需要把信任条件和潜在后果分清时
+  - semantic_change: 把关系从句显式因果化是编辑解释；保常/可能/无法检测的原作者强度，不称本轮已验证该推断或所有威胁均永远不可检测
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q3
+  - Q4
+- retained_clause_analysis: 主句外源且缺验证是已知条件，which may后置潜在风险保持不确定性；并未从下载量推定恶意。
+- status: retained-and-extended
+- source_sentence_group: P3.S1
+- paragraph_group: P3
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+- inherited_annotation_correction: 旧字段“主句外源且缺验证是已知条件”不准确：已知的是平台对象，外部来源与验证不足是此句新增的命题。旧字串保留追踪，使用时以新信息字段与此更正为准
+
+## P3.S2
+
+- physical_page: 1
+- attributed_source_claim: 作者称攻击者可用不同技术使平台下载模型不可靠
+- matrix_syntax: 攻击者能够利用技术为主句；分词交导致的不可靠状态
+- discourse_foreground: 可被主动操纵的对象，而非自然质量差异
+- new_information: 攻击者角色与不可靠的形成路径
+- contextual_grounds: 已有外部来源及验证缺口，此句引入对手施事
+- clause_relations_and_conventional_form: 能力情态＋行动＋结果分词常式
+- sentence_length_role: 较短；将抽象供应链风险转为有施事的威胁
+- selection_and_reader_value_editorial_inference: 省去技术清单，保留作用关系即可让下一具体报告承担现实例证
+- local_replacement:
+  - target_span_locator: 能力谓语引导
+  - replacement_english: are able to exploit
+  - fit_and_scope: 替换can exploit的能力表达，未改成已完成具体入侵
+  - type: local-span; not a full sentence
+  - source_span_sha256: 1a4bd3bdcbefe9c4e0e8710efdc3cc2a5fe2890838e9de9cb101122848e78e8c
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者进一步指出，攻击者能够利用不同技术，导致从这些平台下载的模型变得不可靠。
+  - use_context: 从渠道弱点接恶意操纵者时
+  - semantic_change: 保能力模态与结果关系，不新增本文攻击已在平台传播的实证
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q4
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P3.S2
+- paragraph_group: P3
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P3.S3
+
+- physical_page: 1
+- attributed_source_claim: 作者引用研究称某Hugging Face模型极可能包含动态后门
+- matrix_syntax: 被引研究识别一模型为矩阵；高可能性限定其包含后门
+- discourse_foreground: 具体报告把抽象担忧落到已有观察
+- new_information: 一个模型、平台、动态后门及高可能性
+- contextual_grounds: 前句给可操纵能力，本句给报告性事例
+- clause_relations_and_conventional_form: 引文主体＋发现动词＋不确定性名词短语；引文不是本作者新测量
+- sentence_length_role: 中；只用一个例保持聚焦，高可能性保留证据状态
+- selection_and_reader_value_editorial_inference: 例子建立风险研究的现实理由，不把不确定性当作弱写作词直接删除
+- local_replacement:
+  - target_span_locator: 从附在模型名词短语后的高可能性介词开始，直到表示包含的动名词末；保留其后动态后门名词宾语
+  - replacement_english: very likely to contain
+  - fit_and_scope: 名词后的介词结构改成后置形容词补充；仍修饰同一模型，保高可能性。不是只改一个名词，也不需要另加新的主句谓词
+  - type: local-span; not a full sentence
+  - source_span_sha256: 6f0ea191daa91ddc4b0c2e293c4ff22fdcbea52e2b705ce10813d50f7c30b9b9
+  - source_span_word_count: 6
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者援引Zeng等人的研究：Hugging Face上的一个模型被识别为极可能含有动态后门。
+  - use_context: 需明确该事实来自被引观察、而非本轮独立检测时
+  - semantic_change: 完整改写保单例和不确定性；把引文移前只显化来源
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q4
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P3.S3
+- paragraph_group: P3
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P3.S4
+
+- physical_page: 1
+- attributed_source_claim: 作者称该模型仅前一月下载已超33K
+- matrix_syntax: 该模型有超过阈值下载为主句
+- discourse_foreground: 疑似问题的潜在暴露规模
+- new_information: 超过33K、一个月及仅此期间的强调
+- contextual_grounds: 上一句已给疑似模型，代词可承接不重述
+- clause_relations_and_conventional_form: 短主谓数量句；时间与焦点限定单独保留
+- sentence_length_role: 短；跟在疑似发现后用规模收束，读者不会把数值当另一后门检测结果
+- selection_and_reader_value_editorial_inference: 同为下载数，P2.S4交一般采用，P3.S4交具体风险触达；职责受上下文改变
+- local_replacement:
+  - target_span_locator: 阈值数量谓语
+  - replacement_english: was downloaded more than 33,000 times
+  - fit_and_scope: 改变主动拥有次数为事件被动，保超过而非恰好；时间限定仍须保留
+  - type: local-span; not a full sentence
+  - source_span_sha256: a351d348eb506744d8907e33a70196a3d9bf079637e3388a220e97a825aa7dbc
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 据作者引用的记录，仅在所指的前一个月，这一模型的下载量就超过33K。
+  - use_context: 需把疑似案例的传播规模突出而不增加检测结论时
+  - semantic_change: 时间前置增强范围；未将下载数改为受害者或独立用户数
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q4
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P3.S4
+- paragraph_group: P3
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P4.S1
+
+- physical_page: 1–2
+- attributed_source_claim: 作者列T2I易受对抗攻击、越狱等多类攻击
+- matrix_syntax: 模型易受多类攻击是矩阵；包括项列举
+- discourse_foreground: 从来源信任接已有攻击类别
+- new_information: 攻击分类及文献支撑
+- contextual_grounds: 前段聚焦共享模型风险，本句扩到研究背景后再收窄Trojan
+- clause_relations_and_conventional_form: 一般性风险判断＋包括列表；跨物理页续句不产生新句
+- sentence_length_role: 较长主要因引用；论证任务仍是一个分类背景判断
+- selection_and_reader_value_editorial_inference: 宽背景让读者知道本文攻击属于哪个邻域，不应把引用数量误当本文新发现
+- local_replacement:
+  - target_span_locator: 包括关系引导
+  - replacement_english: among them
+  - fit_and_scope: 转为同位列举须相应断句；仍不穷尽攻击分类
+  - type: local-span; not a full sentence
+  - source_span_sha256: 031af55b1821e721e58832cb81177a527f3e8ea244986da200562c62b91d535c
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者指出，T2I模型易受多种攻击，其中包括对抗攻击和越狱攻击。
+  - use_context: 进入具体攻击类型前需要邻域定位时
+  - semantic_change: 保原易受风险主张与非穷尽列举，压缩引用长度属于呈现不是减少依据
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q4
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P4.S1
+- paragraph_group: P4
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P4.S2
+
+- physical_page: 2
+- attributed_source_claim: 作者称Trojan尤其隐蔽，因为它们植入由特定触发条件激活的隐藏恶意行为
+- matrix_syntax: Trojan尤其隐蔽为主句；原因从句说明隐藏行为及触发
+- discourse_foreground: 为何该攻击有特殊风险
+- new_information: 隐藏行为、特定触发；括号为行为例
+- contextual_grounds: 前句已经建立多类攻击，此处选择本文对象
+- clause_relations_and_conventional_form: 追加过渡＋强评价＋原因从句；被动缩减关系成分修饰隐藏行为
+- sentence_length_role: 中长；评价立即给机制理由，不让隐蔽只成形容词
+- selection_and_reader_value_editorial_inference: 触发条件说明为何正常使用可能看不出问题，为后文正常质量指标铺垫
+- local_replacement:
+  - target_span_locator: 句首追加对象连接
+  - replacement_english: Beyond these threats
+  - fit_and_scope: 替换前置附加过渡；保Trojan为新增类型，不改成对其他攻击的子类
+  - type: local-span; not a full sentence
+  - source_span_sha256: 68c59f44e9f957af204ca68457c07cf4c126076c7a73fe13551fa6b3ff315c6e
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者认为，除此之外，Trojan攻击尤其隐蔽：它们植入隐藏的恶意行为，这些行为由特定触发条件激活。
+  - use_context: 读者需要先理解隐蔽的原因而非先接受术语时
+  - semantic_change: 冒号与显式指代把理由分读；保尤其强度及被激活的是隐藏行为。删去宣传内容这一括号例示，属于内容压缩；未自行加入只有这一条件的排他量词
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q5
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P4.S2
+- paragraph_group: P4
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P4.S3
+
+- physical_page: 2
+- attributed_source_claim: 作者称触发提示可使生成图像含未授权内容或失真，并导致尤其在内容完整性敏感场景中的危害
+- matrix_syntax: 代词主语＋可操纵图像；when从句限定触发，结果分词给危害
+- discourse_foreground: 从隐藏行为接可见任务后果
+- new_information: 提示内触发、内容/失真、敏感应用
+- contextual_grounds: 已知Trojan触发机制，此处强调输出完整性价值
+- clause_relations_and_conventional_form: 能力主句＋时间/条件从句＋结果分词＋限制性场景解释
+- sentence_length_role: 长；承载条件→输出→后果三跳，长因依赖链而非须模仿固定句型
+- selection_and_reader_value_editorial_inference: 条件从句保护“平时正常”的重要区别，结果分词交研究为何值得做；两者不能压成无条件破坏
+- local_replacement:
+  - target_span_locator: 从条件从句连接词开始，覆盖特定触发出现的主谓部分；截止于已有输入提示介词短语之前
+  - replacement_english: upon the appearance of certain triggers
+  - fit_and_scope: 新介词结构直接接原有in the input prompt，不重复添加该后缀；保特定触发出现的条件
+  - type: local-span; not a full sentence
+  - source_span_sha256: ba1f90df4d17967808fc83816838617e60099cb555692bfc32fdee5deceabaec
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 按作者描述，当输入提示出现特定触发时，Trojan可令图像出现未授权内容或失真，带来危害，尤其影响内容完整性至关重要的敏感应用。
+  - use_context: 需把触发条件置前避免读者误以为所有输出都坏时
+  - semantic_change: 条件前置而保能力与危害强度；原代词指代不清处显化为Trojan，是编辑解释
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q5
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P4.S3
+- paragraph_group: P4
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P4.S4
+
+- physical_page: 2
+- attributed_source_claim: 作者以人脸识别举例，称Trojan可能造成误识别或未授权访问
+- matrix_syntax: Trojan可能干扰识别为矩阵；分词给两类后果
+- discourse_foreground: 具体后果例让读者理解完整性风险
+- new_information: 敏感识别例及可能后果
+- contextual_grounds: 上一句内容完整性较抽象，例子承担形象化
+- clause_relations_and_conventional_form: 例示＋应用框架＋可能性主句＋结果分词
+- sentence_length_role: 中；短例避免继续列多场景，但研究对象发生邻域跳转
+- selection_and_reader_value_editorial_inference: 可学用例降低理解负担，不能把此例当本文T2I实验；对象连续性必须独立审视
+- local_replacement:
+  - target_span_locator: 例示框架
+  - replacement_english: As an illustration
+  - fit_and_scope: 可替换例示引导；保随后might而非asserted incident
+  - type: local-span; not a full sentence
+  - source_span_sha256: f85c1f8a053beb8c0b9b83be509bbc7d487cb835f85c837a96b8a34bcac56ea9
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者举例称，在人脸识别系统中，Trojan可能干扰识别过程，进而造成误识别或未授权访问。
+  - use_context: 需要保留源文动机类比但明确其例示性质时
+  - semantic_change: 维持可能性与两种后果；不将本文未测的识别例补成T2I已证实结果
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q5
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P4.S4
+- paragraph_group: P4
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P5.S1a
+
+- physical_page: 2
+- attributed_source_claim: 作者概括现有T2I Trojan有多项局限，第一项是植入需要大量干净和有毒训练样本
+- matrix_syntax: 第一矩阵称现有攻击有局限；冒号后第1项含独立数据需求命题
+- discourse_foreground: 可用资源成为最近答案的剩余条件
+- new_information: 大量、干净/有毒两类以及有效植入的目的
+- contextual_grounds: 前面说明值得研究；现在必须解释已有方法为什么不够
+- clause_relations_and_conventional_form: 总领主句＋带标题编号项；冒号/编号不自动是新段，句号到第1项末
+- sentence_length_role: 长；总领和第一缺口共享一个源句，需同时解析外层与项目内部
+- selection_and_reader_value_editorial_inference: 把数据可得性放首项，下一设计的无训练数据才有任务背景；限制归属源作者，不为保真而悄悄改“有些”
+- local_replacement:
+  - target_span_locator: 段首保留性转折
+  - replacement_english: Even so
+  - fit_and_scope: 可替换转折标记，保仍有局限；不改变攻击集合范围
+  - type: local-span; not a full sentence
+  - source_span_sha256: f3a29f8695d217b29e9d737435e41e716ad753982cb37cebe6247a6c36b28e67
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者概括，现有针对T2I的Trojan攻击仍有多项局限；首先，为有效植入，它们需要取得大量训练样本，包括干净样本和有毒样本。
+  - use_context: 需要读者把总判断与第一项条件分开时
+  - semantic_change: 拆句仍保原作者对所引集合的概括强度；正文对各基线实际资源的限定另见Q6
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P5.S1a
+- paragraph_group: P5
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override:
+  - 已有攻击三限制总领及数据依赖｜现实输入成本｜编辑路线
+  - 微调大模型→时间/计算代价｜资源条件｜低成本
+  - U-Net投影对齐不稳→跨目标泛化难｜位置/能力残余｜编码器
+
+## P5.S1b
+
+- physical_page: 2
+- attributed_source_claim: 作者称大模型微调计算密集且耗时
+- matrix_syntax: 动名词主语＋两个并列表语
+- discourse_foreground: 资源投入的第二种约束：计算和时间
+- new_information: 大模型微调与双成本
+- contextual_grounds: 前项数据资源不等于运行时间，所以此项独立
+- clause_relations_and_conventional_form: 编号标题＋简短系表判断；两个表语并列而非因果
+- sentence_length_role: 短；紧凑列项便于与长数据/泛化项横向比较
+- selection_and_reader_value_editorial_inference: 此处不需要又列运行秒数，先交代代价来源；数值比较留结果段
+- local_replacement:
+  - target_span_locator: 从系动词开始至两个并列表语末，覆盖整个成本判断谓语；保留动名词主语
+  - replacement_english: requires substantial computation and time
+  - fit_and_scope: 完整替换系词＋双表语为一个动词谓语，因此不遗留系词；保计算与时间双负担及强度
+  - type: local-span; not a full sentence
+  - source_span_sha256: cb4753b4deca54d431ca87ede48199664ea826f076978f9c1186af5147d24789
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 在第二项局限中，作者指出，对大规模模型进行微调需要大量计算与时间投入。
+  - use_context: 比较数据可得性与执行代价时
+  - semantic_change: 语法由系表转动作代价，保强度；不新增所有方法都做相同微调步骤
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P5.S1b
+- paragraph_group: P5
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override:
+  - 已有攻击三限制总领及数据依赖｜现实输入成本｜编辑路线
+  - 微调大模型→时间/计算代价｜资源条件｜低成本
+  - U-Net投影对齐不稳→跨目标泛化难｜位置/能力残余｜编码器
+
+## P5.S1c
+
+- physical_page: 2
+- attributed_source_claim: 作者把单在U-Net投影矩阵对齐的跨目标泛化困难归于矩阵计算不稳定，保留可能性
+- matrix_syntax: 仅通过此位置对齐植入可能妨碍泛化为主句；原因介词短语前置
+- discourse_foreground: 作用位置限制为何会影响跨目标能力
+- new_information: 矩阵稳定性原因、仅靠该位置、不同目标
+- contextual_grounds: 前两项成本已给出；第三项不是更多成本而是能力边界
+- clause_relations_and_conventional_form: 原因前置＋长动名词主语＋可能性谓语；仅的作用域是植入途径
+- sentence_length_role: 长；必须保位置、方式、原因和模态，否则泛化问题失去对象
+- selection_and_reader_value_editorial_inference: 第三项使位置选择拥有功能意义；不能把所有三项都统称效率问题
+- local_replacement:
+  - target_span_locator: 可能限制的谓语
+  - replacement_english: could hinder
+  - fit_and_scope: 替换可能妨碍的短谓语；保持潜在影响而非必然失败
+  - type: local-span; not a full sentence
+  - source_span_sha256: 9d17599f08785ac4f2b23bed217f3fc6fa0f85df17d24821f16916e924584e8c
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者认为，受矩阵计算不稳定性影响，仅依靠U-Net注意力投影矩阵对齐来植入Trojan，可能妨碍其跨不同攻击目标的泛化。
+  - use_context: 需要保持位置/方式/可能性而简化长英语主语时
+  - semantic_change: 保原因果归因与可能性；其科学证据是否充分独立评议，不偷偷把原因删掉
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P5.S1c
+- paragraph_group: P5
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override:
+  - 已有攻击三限制总领及数据依赖｜现实输入成本｜编辑路线
+  - 微调大模型→时间/计算代价｜资源条件｜低成本
+  - U-Net投影对齐不稳→跨目标泛化难｜位置/能力残余｜编码器
+
+## P6.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者借鉴模型编辑并提出TWIST，声称首次直接插入人工构造权重以攻击预训练文本编码器
+- matrix_syntax: 我们借鉴且提出为并列主句；命名/同位语与关系从句界定方法
+- discourse_foreground: 由三个限制转到新路线及准确对象
+- new_information: TWIST、编辑路线、首次性及直接权重改动形式
+- contextual_grounds: 编码器职责在P1已讲，数据时间位置不足在P5已讲
+- clause_relations_and_conventional_form: 目的前置＋并列行动＋命名分词＋同位语＋限定关系；长引名句常式
+- sentence_length_role: 全引言最密集一类；文献、缩写和首次性同时首次出现，不能凭长度直接判差
+- selection_and_reader_value_editorial_inference: 读者此时已能判断为何选编码器；长句是交付身份，不应再承担全部方法机制
+- local_replacement:
+  - target_span_locator: 前置解决目的
+  - replacement_english: To surmount these limitations
+  - fit_and_scope: 仅替换句首克服目的短语，保克服的强承诺；若选address则强度较弱，必须另标编辑收紧
+  - type: local-span; not a full sentence
+  - source_span_sha256: 9a008110f1a0490403e96d6fcd51dddf98cc3b842855c993a5b89bcdc8ea21f6
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 为克服上述局限，作者借鉴模型编辑并提出TWIST；作者将其定位为首个通过直接插入人工构造权重来针对预训练文本编码器的Trojan攻击。
+  - use_context: 需把路线借鉴与新颖性边界分读时
+  - semantic_change: 完整变式保克服与首次强度并显化作者归属；分号缓解命名堆叠，省去TWIST的全称展开，属身份说明压缩，核心路线与对象保留
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+- retained_clause_analysis: To overcome目的前置，主句借模型编辑并提出框架，apposition定义其作用对象/形式；长句一次引名并说明范围。
+- status: retained-and-extended
+- source_sentence_group: P6.S1
+- paragraph_group: P6
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P6.S2
+
+- physical_page: 2
+- attributed_source_claim: 作者称发现并提出可利用编码器瓶颈层支配跨模态对齐的关键作用来控制Trojan
+- matrix_syntax: 我们识别并提出为外层协调谓词；that命题才是关键观察
+- discourse_foreground: 瓶颈层为何是局部编辑可行的位置
+- new_information: 瓶颈层、对齐作用与可利用性
+- contextual_grounds: P6.S1只有路线名，P1只有编码器总体作用
+- clause_relations_and_conventional_form: 图示状语＋报告谓词＋内容从句＋插入关系从句＋被动可能性；外层措辞搭配偏拗口
+- sentence_length_role: 长；新增核心内容在嵌入层，长度服务于从组件到关键位置的解释
+- selection_and_reader_value_editorial_inference: 若把矩阵报告词当主信息，读者只会记“作者创新”；真正要传的是位置与任务控制关系
+- local_replacement:
+  - target_span_locator: 图示框架
+  - replacement_english: As illustrated in Figure 1
+  - fit_and_scope: 可局部替换图示短语；不改变发现与提出的两个动作
+  - type: local-span; not a full sentence
+  - source_span_sha256: 1137c76cf4861632cc6d1350313b7563c3bb83eb1451266e260e24655208f237
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者创新性地识别并提出如下判断：文本编码器中支配跨模态对齐的瓶颈层，其关键作用可以用于Trojan控制；图1展示了这一思路。
+  - use_context: 需要先让读者看见核心观察而非嵌套报告动词时
+  - semantic_change: 保识别/提出两动作与创新评价；把嵌入命题前景化并移动图示框架，不新增机制
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P6.S2
+- paragraph_group: P6
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P6.S3
+
+- physical_page: 2
+- attributed_source_claim: 作者称对该层作极小扰动可实现精确且有效的操纵
+- matrix_syntax: TWIST实现精确且有效操纵为矩阵；方式前置
+- discourse_foreground: 微小改动能产生任务级控制的核心价值
+- new_information: 极小扰动与强控制评价的对应
+- contextual_grounds: 前句已交关键位置，本句交利用结果
+- clause_relations_and_conventional_form: 方式短语前置＋简单主谓宾；两个评价词分别保留
+- sentence_length_role: 短；对长观察句给出明确任务后果，形成方案段落收束
+- selection_and_reader_value_editorial_inference: 源作者把很小扰动与任务级控制相连。P8参数个数只支持改动范围较小，与成功率分别交规模和效果；它不直接证明扰动范数极小或所选位置唯一，层选择证据另见§5.7
+- local_replacement:
+  - target_span_locator: 修饰Trojan操纵的两个并列评价形容词；不改其前实现谓语与后名词
+  - replacement_english: precise as well as effective
+  - fit_and_scope: 形容词跨度替成形容词协调结构，可直接接原名词；保精确与有效，不要求把名词改成动词
+  - type: local-span; not a full sentence
+  - source_span_sha256: c8daf8dabcfd39c2c764c8545f8e570509af81754891a9b65d4ea33d396d52c2
+  - source_span_word_count: 3
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者声称，只需对这一层引入极小扰动，TWIST便能实现精确而有效的Trojan操纵。
+  - use_context: 读者已接受位置观察，需要一句交任务能力时
+  - semantic_change: 保原作者极小扰动、精确、有效的强评价；极小不等于数学最小或全局最优，未凭此加入最优化保证
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P6.S3
+- paragraph_group: P6
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P7.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者宣告TWIST有数项显著优势
+- matrix_syntax: 方案有优势为主句
+- discourse_foreground: 为下一段对照说明立题
+- new_information: 没有新机制，新增显著优势的篇章预告
+- contextual_grounds: 方案段已给对象、位置及结果
+- clause_relations_and_conventional_form: 短评价主题句
+- sentence_length_role: 短；为两组旧法→新法对照建立共同主责
+- selection_and_reader_value_editorial_inference: 这句不靠一个新数字成立，其职责是路标；是否需要它取决于下一段对照是否清楚
+- local_replacement:
+  - target_span_locator: 显著优势名词谓语
+  - replacement_english: offers several major advantages
+  - fit_and_scope: 保持数项及强评价，不改成可能有好处
+  - type: local-span; not a full sentence
+  - source_span_sha256: 2d5faa40543f5a03306f1b04b7c5350a6ed69d339bc0bfd984ddeb7444285b0f
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者接着强调，TWIST具有数项显著优势。
+  - use_context: 需要把方法解释与比较价值分为两段时
+  - semantic_change: 完全归属型改写；无新证据或量词变化
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P7.S1
+- paragraph_group: P7
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P7.S2
+
+- physical_page: 2
+- attributed_source_claim: 作者概括现有方法依赖恶意微调，导致显著时间开销并需要大量数据
+- matrix_syntax: 现有方法依赖微调是矩阵；关系从句交时间与数据双结果
+- discourse_foreground: 明确将被替代的代价来源
+- new_information: 大幅时间成本和数据需求在此被归并于微调
+- contextual_grounds: P5已给成本，P7需要让新路线的收益可比较
+- clause_relations_and_conventional_form: 第一标记＋依赖主句＋非限制关系从句中的并列谓词
+- sentence_length_role: 中；带重复但为紧邻对照设基线，不是新增一般背景
+- selection_and_reader_value_editorial_inference: 此处回收P5不是空转；若删，P7.S3“不需这类微调”的指代会变远
+- local_replacement:
+  - target_span_locator: 第一论点序号
+  - replacement_english: To begin with
+  - fit_and_scope: 可替换序号引导；不改变现有方法的概括范围
+  - type: local-span; not a full sentence
+  - source_span_sha256: a151ceb1711aad529a7704248f03333990022ebbfa07a7f04c004d70c167919f
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者先概括，现有方法依赖恶意微调，而这种微调带来显著时间开销，并要求取得大量训练数据。
+  - use_context: 让后句编辑路线的节约有明确比较对象时
+  - semantic_change: 保原概括而不默改为有些；实际基线差异独立在Q6处理
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P7.S2
+- paragraph_group: P7
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P7.S3
+
+- physical_page: 2
+- attributed_source_claim: 作者称其编辑路线免去这类微调且减少时间，不要求任何训练数据访问，因此更高效且资源消耗更低
+- matrix_syntax: 我们采用编辑路线是矩阵；关系从句含两个功能；无数据条件与结果分词继续限定
+- discourse_foreground: 方法选择如何回应资源条件
+- new_information: 消除旧步骤、时间收益、数据条件、资源评价
+- contextual_grounds: 前句给被替代过程，this类指代现在有近端锚
+- clause_relations_and_conventional_form: 采用常式＋限定关系从句双谓词＋without条件＋making结果；从属链承载真正比较价值
+- sentence_length_role: 长；四层说明不能全删成“高效”，但可拆条件与综合评价
+- selection_and_reader_value_editorial_inference: 段内真正新意不是又提出方法，而是每个省掉的要求让受限资源下任务更可行
+- local_replacement:
+  - target_span_locator: 从无需求条件介词开始，覆盖需访问任何训练数据的整段条件成分
+  - replacement_english: without needing access to any training data
+  - fit_and_scope: 保“不需要访问”的资源要求判断；不改成实际上没有访问，any的范围也保留
+  - type: local-span; not a full sentence
+  - source_span_sha256: 1376586f76a577f4a7ba8983e77bdc17fdedbbc782fdc5585f144abd241fc280
+  - source_span_word_count: 7
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者称，其采用的模型编辑路线无需上述微调，并能减少时间开销；它不要求访问任何训练数据，因此使攻击更加高效、资源负担更低。
+  - use_context: 需把步骤替代、信息条件与总收益分别让读者看清时
+  - semantic_change: 拆分保原强度与因果；“训练数据”在本文的资源定义见Q8，不在保真变式中擅自缩写
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+  - Q8
+- retained_clause_analysis: 主句adopt路线，that从句交消除微调/减时间，without限定数据条件，making后置综合资源价值。
+- status: retained-and-extended
+- source_sentence_group: P7.S3
+- paragraph_group: P7
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P7.S4
+
+- physical_page: 2
+- attributed_source_claim: 作者称既有攻击主要改动T2I中的U-Net
+- matrix_syntax: 现有攻击主要聚焦U-Net为主句
+- discourse_foreground: 为第二条优势建立作用位置比较
+- new_information: 主要位置而非新成本
+- contextual_grounds: 前一组比较资源，本句转向能力形成的位置
+- clause_relations_and_conventional_form: 递进/换轴连接＋简单位置判断
+- sentence_length_role: 短；为下一句长机制价值链提供清晰比较点
+- selection_and_reader_value_editorial_inference: 主要保留例外空间；其价值是让编码器不是只换另一个可编辑模块
+- local_replacement:
+  - target_span_locator: 覆盖主要聚焦于修改的完整谓语短语，保留U-Net组件及其所属模型补语
+  - replacement_english: chiefly focus on modifying
+  - fit_and_scope: 保持主要而非全部；动词聚焦仍以修改某组件为宾语，不变成以改动本身为攻击目标
+  - type: local-span; not a full sentence
+  - source_span_sha256: 076cd98e28b24aeb7d7807108b531349145c7cf6f57afd2697111c67a8225ea5
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 此外，作者指出，现有攻击主要围绕修改T2I模型中的U-Net展开。
+  - use_context: 由资源轴切换到作用位置轴时
+  - semantic_change: 保主要量词与位置对象，不新增所有旧法都不碰文本编码器的绝对断言
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q6
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P7.S4
+- paragraph_group: P7
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P7.S5
+
+- physical_page: 2
+- attributed_source_claim: 作者称文本编码器改动直接影响条件嵌入，从而显著提升多场景攻击表现
+- matrix_syntax: 我们的方法改动文本编码器是矩阵；其后两个现在分词补充成分分别解释直接接口影响和性能后果，不据顺序推定句法嵌套层级
+- discourse_foreground: 为什么位置改变能带来跨场景价值
+- new_information: 条件嵌入中介与显著性能收益
+- contextual_grounds: 前句已给U-Net基线；P1早交文本到潜在空间的接口
+- clause_relations_and_conventional_form: 对照框架＋行动主句＋两个后置现在分词补充成分；语义形成位置→条件嵌入→性能的解释链，不能把语义两步等同句法两级从属
+- sentence_length_role: 中长；由位置经接口到价值，长度保存机制中介
+- selection_and_reader_value_editorial_inference: 若只保“更好”，用户无法把结果和设计连接；若只保嵌入，则不知道任务改善在哪里
+- local_replacement:
+  - target_span_locator: 句首对照框架
+  - replacement_english: By comparison
+  - fit_and_scope: 局部替换比较引导，保两方法位置对照；不产生新增因果
+  - type: local-span; not a full sentence
+  - source_span_sha256: f8ed04ad8a912bcafe8d62abab11ef276e40b1a2b4d431c217a6c378900a38ca
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 相比之下，作者的方法改动文本编码器，直接影响T2I的条件嵌入，并据此显著提升跨多种场景的攻击表现。
+  - use_context: 需要让读者顺着位置→中介→任务收益读时
+  - semantic_change: 保直接/显著/多场景；据此仍归于作者解释，不当独立因果证明
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+  - Q9
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P7.S5
+- paragraph_group: P7
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P8.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者称对多个Stable Diffusion版本与FLUX.1进行全面实验
+- matrix_syntax: 我们进行全面实验为矩阵；模型/版本为介词宾语与括号展开
+- discourse_foreground: 交评价范围，支持前文多场景承诺
+- new_information: 模型族、四SD版本与FLUX
+- contextual_grounds: 方法价值已宣称，现在读者需要知道在哪里被检验
+- clause_relations_and_conventional_form: 评价常式：行动＋范围；版本列表不构成多个新结论
+- sentence_length_role: 中；把范围压在一句，余句可专注答案
+- selection_and_reader_value_editorial_inference: 模型广度本身不是成功结果，但给后续数据适用范围的阅读期待
+- local_replacement:
+  - target_span_locator: 覆盖开展全面实验的完整动宾谓语；保留主语及其后on引入的实验范围
+  - replacement_english: carry out comprehensive experiments
+  - fit_and_scope: 直接接原实验范围，保全面与实验行为；没有换成可能包含非实验活动的泛评价，也未增删评价对象
+  - type: local-span; not a full sentence
+  - source_span_sha256: 2a6476a7a55597628c2057ed35c9697dd86496489b20b284542cf2787d122826
+  - source_span_word_count: 3
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者对广泛使用的开源T2I模型进行了全面实验，覆盖Stable Diffusion的1.4、1.5、2.1、XL版本以及FLUX.1。
+  - use_context: 在报结果前建立评价对象与范围时
+  - semantic_change: 保全面和范围；不得从相邻位置推断下一平均值跨所有这些模型计算
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q9
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P8.S1
+- paragraph_group: P8
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P8.S2
+
+- physical_page: 2
+- attributed_source_claim: 作者称结果表明TWIST平均成功率91%，并显示更好的泛化能力
+- matrix_syntax: 结果表明为矩阵；宾语从句报成功率，分词给泛化解释
+- discourse_foreground: 有数值支撑的控制能力及作者的泛化评价
+- new_information: 91%、高成功与更好泛化
+- contextual_grounds: 前句列模型范围，但未规定该数值统计集合
+- clause_relations_and_conventional_form: 证据报告常式＋with数值补充＋demonstrating解释；外层报告不等于主信息
+- sentence_length_role: 中；一个主数值配一个意义，不引入所有结果轴
+- selection_and_reader_value_editorial_inference: 91%先回答前文可控制输出，再把泛化前景带出；若换成时间数字，当前句主责即改变
+- local_replacement:
+  - target_span_locator: 带平均值的数值补充
+  - replacement_english: averaging 91%
+  - fit_and_scope: 可替换with平均数短语；只改附着形式，不扩大为所有模型共同平均
+  - type: local-span; not a full sentence
+  - source_span_sha256: b382acec02e6220f800d2f8a2a73c560bc6735f3751e076f40a3877a60930c5d
+  - source_span_word_count: 5
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者报告，TWIST取得高攻击成功率，平均为91%，并认为这一结果显示出更好的泛化能力。
+  - use_context: 需区分报告数值与作者赋予其的研究意义时
+  - semantic_change: 增加归属以保比较强度；科学统计集合另见Q10，不能在保义变式中偷删“更好”
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q9
+  - Q10
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: P8.S2
+- paragraph_group: P8
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P8.S3
+
+- physical_page: 2
+- attributed_source_claim: 作者称改动参数显著更少，相对其所称SOTA方法降至约八分之一，并因此提高效率
+- matrix_syntax: TWIST修改更少参数为矩阵；破折号量化比较，结果分词给效率意义
+- discourse_foreground: 少量局部干预也能达成效果的资源证据
+- new_information: 八倍、SOTA比较对象与效率解释
+- contextual_grounds: 前句已交成功；P6少改即可控制的主张现在获得规模证据
+- clause_relations_and_conventional_form: 追加结果＋比较主句＋破折号量化同位说明＋结果分词
+- sentence_length_role: 中长；参数数值嵌在比较中而非另开独立结果段
+- selection_and_reader_value_editorial_inference: 本引言选择参数数目而未报25秒，可理解为优先让读者看见较小干预范围与成功效果的并置；25秒已在摘要和正文出现。参数个数不证明幅度最小或位置唯一，选择理由是编辑推断，不是作者心理事实
+- local_replacement:
+  - target_span_locator: 结果分词引导
+  - replacement_english: thereby improving efficiency
+  - fit_and_scope: 替换同结果层短语；保效率方向，不额外声称运行最快
+  - type: local-span; not a full sentence
+  - source_span_sha256: ab17968319a111c115a29ea46555005373cb1c4995188aff76e0dc19e34e142d
+  - source_span_word_count: 4
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者进一步称，TWIST修改的模型参数显著更少：相对其所称SOTA方法，改动参数量降至约八分之一，从而提升效率。
+  - use_context: 成功与局部改动规模需要并列作为任务答案时
+  - semantic_change: 破折号改冒号，并把倍数压缩说法改为约八分之一的明确比例；保作者强比较与效率解释，基线和约8.14倍的细节另列Q11
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q11
+- retained_clause_analysis: 主句fewer parameters，破折号插入八倍解释规模，resulting给效率意义；比较对象需由正文同类编辑方法固定。
+- status: retained-and-extended
+- source_sentence_group: P8.S3
+- paragraph_group: P8
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## P9.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者以总结框架引出主要贡献
+- matrix_syntax: 主要贡献如下是冒号前引导矩阵；与第1项共享一个句号单位
+- discourse_foreground: 标明从方案/结果转入贡献归组
+- new_information: 无新研究事实，新增文本组织关系
+- contextual_grounds: 前两段已交设计价值与结果，列表用于归组
+- clause_relations_and_conventional_form: 总结框架＋冒号；不是独立印刷段，也不是有独立句号的完整源句
+- sentence_length_role: 极短框架；不把导航长度与贡献实体句混计
+- selection_and_reader_value_editorial_inference: Q/P9坐标用于检索，不应训练成先写一个独立贡献段再另列三段的固定模板
+- local_replacement:
+  - target_span_locator: 总结框架
+  - replacement_english: To summarize
+  - fit_and_scope: 可替换句首总结标记；冒号及后接项目仍保留
+  - type: local-span; not a full sentence
+  - source_span_sha256: 56ad3b5686137117b3c0ebb11fc5286b1883e5ffb5d7a24c85641643590664be
+  - source_span_word_count: 2
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者将主要贡献概括如下：
+  - use_context: 要明确告知读者后文是归组总结而不是新机制时
+  - semantic_change: 这是完整的引导框架变式，不是独立完整句；不能伪称全句替换
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: contribution-sentence-1
+- paragraph_group: contribution-paragraph
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: Q
+- existing_annotation_override: None
+
+## C1.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者宣称首次针对T2I扩散模型文本编码器的权重编辑Trojan，兼具无训练数据、低成本、高泛化
+- matrix_syntax: 我们提出首次某类攻击为矩阵；关系从句给三个属性
+- discourse_foreground: 总体研究能力与资源条件的贡献身份
+- new_information: 新信息主要是归组，不再重讲各结果
+- contextual_grounds: P6/P7/P8已经分别说明路线、价值、结果
+- clause_relations_and_conventional_form: 贡献常式：提出＋对象/首次边界＋命名＋属性从句；与导语同源句
+- sentence_length_role: 较长；其任务是把能力条件写全，不是重新推导机制
+- selection_and_reader_value_editorial_inference: 三个属性回应P5三种不足；但是否逐一充分证明仍属证据问题，不改变该句被作者作为总体贡献的强度
+- local_replacement:
+  - target_span_locator: 从关系从句的系动词开始，直到无训练数据、低成本、高泛化三个并列表语末；保留关系代词
+  - replacement_english: requires no training data and is both low-cost and highly generalizable
+  - fit_and_scope: 整个关系从句谓语跨度被替换；先动词要求，再系词承接两个形容词。三个作者属性保留，不留下悬空表语
+  - type: local-span; not a full sentence
+  - source_span_sha256: 8bef211435f848ac91f5ea480b763796e94410532ecccf11611d7a735a55f9ab
+  - source_span_word_count: 6
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者提出TWIST，并将其定位为首个针对T2I扩散模型文本编码器的权重编辑Trojan攻击，特点是无需训练数据、成本低且具有很强泛化能力。
+  - use_context: 需要贡献独立可读且保首次性准确对象时
+  - semantic_change: 保首次/三属性和作者归属；并未把首次性核验或无需训练数据改成零信息
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+  - Q8
+  - Q11
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: contribution-sentence-1
+- paragraph_group: contribution-paragraph
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## C2.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者声称创新识别关键瓶颈MLP层并证明极少量修改该层可有效植入
+- matrix_syntax: 我们识别且展示为协调矩阵谓词；that命题报层修改效果
+- discourse_foreground: 位置认识和任务作用构成技术贡献
+- new_information: MLP名称在贡献明示；两动作对应认识/证据
+- contextual_grounds: P6已称瓶颈层，P8参数数支撑少改价值
+- clause_relations_and_conventional_form: 并列贡献动作＋内容从句；不是两个独立无关贡献
+- sentence_length_role: 中长；用双动词保存发现与验证的职责
+- selection_and_reader_value_editorial_inference: 若只保identify，像定位观察；若只保demonstrate，关键新认识不显；共同支持局部编辑为何成立
+- local_replacement:
+  - target_span_locator: 证明性报告谓词
+  - replacement_english: establish
+  - fit_and_scope: 局部替换证明性报告动词，保作者强断言；不是把实验效果升级成形式数学定理
+  - type: local-span; not a full sentence
+  - source_span_sha256: a65dd3628de58bb9f3eeac7e3fbc8508cd45e0c550cabd97271bba4e272719d0
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者创新性地识别出文本编码器中的关键瓶颈MLP层，并论证其修改能够以极少量编辑实现有效的Trojan植入。
+  - use_context: 需让贡献同时表达位置发现和实证作用时
+  - semantic_change: 完整变式保创新性、关键、有效与极少量编辑的强评价；论证为经验结果支持，不把minimal译为已证明的全局最小量
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q7
+- retained_clause_analysis: None
+- status: new-analysis
+- source_sentence_group: C2.S1
+- paragraph_group: contribution-paragraph
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+
+## C3.S1
+
+- physical_page: 2
+- attributed_source_claim: 作者称广泛实验显示方案在显式触发或隐式（语义）触发场景有效，攻击者能容易地控制不同层级视觉语义
+- matrix_syntax: 广泛实验表明为矩阵；宾语命题交有效性，wherein从句交场景内能力
+- discourse_foreground: 把泛化落到触发种类和语义层次，而不重复91%
+- new_information: 显式触发或隐式（语义）触发、不同视觉语义层级、容易这一作者强评价
+- contextual_grounds: P8已有数值与模型范围，C3补新的覆盖维度
+- clause_relations_and_conventional_form: 证据报告常式＋带with的场景条件＋关系副词从句＋目的不定式
+- sentence_length_role: 长；单一贡献句容纳验证范围和所能做的事，必要性由新增维度决定
+- selection_and_reader_value_editorial_inference: C3不是重复实验发生过；让读者理解“跨场景”具体指何种变化，数字本身不能完成这项解释
+- local_replacement:
+  - target_span_locator: 场景关系从句引导
+  - replacement_english: in which
+  - fit_and_scope: 局部替换wherein，先行项须仍是攻击场景；不能把or改成每样本同时两触发
+  - type: local-span; not a full sentence
+  - source_span_sha256: 8acfca1a173292e1eecdafa6411fdd6c1db7bb3211345f6c951d436e7afd65ca
+  - source_span_word_count: 1
+  - source_span_check: Exact contiguous source span identity is represented by the hash and word count; the locator and fit fields delimit the local replacement. Coordinates do not establish semantic equivalence.
+- full_edited_variant:
+  - language: zh-CN
+  - text: 作者称，广泛实验表明TWIST在具有显式触发或隐式（语义）触发的多种攻击场景中有效；在这些场景里，攻击者可容易地向文本编码器植入Trojan，以操纵T2I任务中不同层级的视觉语义。
+  - use_context: 先前结果已报百分数，但“泛化”尚缺具体维度时
+  - semantic_change: 拆成两分句仍保广泛/有效/容易/不同层级；人的攻击便利不是另有人类操作实测
+  - type: complete attributed analysis-level variant; not an English replacement span
+- qualification_ids:
+  - Q9
+  - Q12
+- retained_clause_analysis: 实验作主语支撑有效性，with短语限定显式/语义触发，wherein从句解释可影响不同视觉语义级别；把generalizable翻成具体覆盖。
+- status: retained-and-extended
+- source_sentence_group: C3.S1
+- paragraph_group: contribution-paragraph
+- interpretation_type: Syntax is source observation; foreground/selection/alternative rationale is editorial inference; source strength is attributed, scientific qualifications separate.
+- alias: None
+- existing_annotation_override: None
+

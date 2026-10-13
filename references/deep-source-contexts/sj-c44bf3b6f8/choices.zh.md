@@ -1,0 +1,658 @@
+# AdversaFlow：十八个定点选择及语义成本
+
+- baseline_scope: 原P1–P6的41个句级坐标及B1–B3三个贡献名词项完整保留；另有未单独编号的组织引导句。18枢纽为选择性精确化，非缺失覆盖补齐。
+- selection_count: 18
+- coordinate_policy: 继承P/S/B；retained_coordinate_row保留旧账本原整行，部分行包含多个旧坐标，不误称一行等于一源句。B项无独立矩阵。
+- analysis_scope_preamble: 旧41句坐标及三名词贡献完整保留；下列18枢纽仅补实质精确化。保留旧整行可能含其他坐标，不把行当源句。
+
+## P2.S4
+
+- locator: 物理p.1/印刷492左栏，P2第四句
+- source_unit:
+  - sha256: 8737f09eaf02969d05c2cbc6e95ba482206710bc618fde4745d62a495a8e10f7
+  - word_count: 14
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 依赖人工制作提示限制红队测试的可扩展性。
+- retained_coordinate_row: P2.S4：O 转折把手工依赖限定为规模瓶颈；P2.S5：O 目的前置引出自动生成；P2.S6：O 具体前人使用LLM并命名红模型，与目标模型区分，I 先解决双模型指代。
+- source_claim_zh: 依赖人工制作提示限制红队测试的可扩展性。
+- matrix_syntax: 矩阵reliance limits scalability；on manually created prompts说明依赖对象。
+- discourse_foreground: 把手工近邻的残余限定到规模。
+- first_new_information: 在人工案例进入模型改进的正面例子之后，新增规模限制。
+- contextual_grounds: S2/S3承认专家经验与社区案例的用处。
+- conventional_expression: However＋依赖名词化主语＋约束谓语＋性能维度。
+- relative_length_role: 短句集中转换评价维度，后句再介绍自动探索路线。
+- writer_selection_and_reader_inference: 手工有效并不意味着可无限扩展；自动化承担缓解规模压力的理由，不证明规模问题已完全解决。
+- actual_refinement: 纠正旧profile“自动红队已解决手工规模瓶颈”的完成性外推。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 9bbcebec359afcffebaf9365476957b246067874c337038f66ea1982587809e0
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.1/印刷492左栏，P2第四句，所分析的局部表达
+  - replacement: constrains the scalability of
+  - use_condition: 希望与全文约束类用语统一时。
+  - cost_or_risk: 中性用词，仍是限制可扩展性，不表示手工方法无效或规模已被后续工作完全解决。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 然而，对人工构造提示的依赖限制了红队测试的可扩展性。
+  - use_condition: 在保留手工价值的同时转入自动化动机时。
+  - cost_or_risk: 只提出规模残余，不能替下一句写成自动化已经彻底解决。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q1
+
+## P2.S8
+
+- locator: 物理p.1左栏，P2第八句
+- source_unit:
+  - sha256: 3f4524205c78dea748ee4b0ce38acc29be73499df1562ce6f3ea0ec83174558d
+  - word_count: 24
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 该方法成功有赖于纳入反馈，使红模型产生新颖、多样且高质量的测试提示。
+- retained_coordinate_row: P2.S8：O 成功取决反馈，目的从句展开新颖、多样、高质量；I 给后来人机协作三种职责而非只增数量。
+- source_claim_zh: 该方法成功有赖于纳入反馈，使红模型产生新颖、多样且高质量的测试提示。
+- matrix_syntax: 矩阵success hinges on incorporating；to ensure为目的，ensure内嵌red LLMs can produce；三个并列修饰词限定测试案例。
+- discourse_foreground: 自动生成的质量取决于反馈，而非只要生成更多内容。
+- first_new_information: 新增反馈这一成功条件和三个产物要求。
+- contextual_grounds: S6区分red/target模型，S7说明动态训练避免固定输入适应。
+- conventional_expression: 成功名词作主语＋条件依赖谓语＋目的保证＋三并列质量词。
+- relative_length_role: 比相邻简短残余句更长，因为需同时写成功条件和产物规格。
+- writer_selection_and_reader_inference: 读者开始看到专家应判断什么：是否有新内容、是否多样、是否足以作有效测试；不能将三项统称数量。
+- actual_refinement: 补充语法条件、目的与三种质量职责的层次。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 58ad34b2c4507a4a08662d789353da729664359338d0cce07091f6725b3c10f6
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.1左栏，P2第八句，所分析的局部表达
+  - replacement: depends on incorporating feedback
+  - use_condition: 用常规depends on降低hinges的修辞浓度而保留依赖时。
+  - cost_or_risk: 近义但hinges更有关键支点意味；不能删反馈条件或把can produce改必然产生。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 这一方法的成功依赖于纳入反馈，以确保红模型能够生成新颖、多样且高质量的提示作为测试案例。
+  - use_condition: 需要从自动化生成转向反馈管理问题时。
+  - cost_or_risk: 三个质量词必须保留；这一句是作者条件论证，不等于三个性质已被独立证明。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+
+
+## P2.S9
+
+- locator: 物理p.1左栏，P2末句
+- source_unit:
+  - sha256: 48e621b45ab76480041327dba9a980cc58174174f11b2e018cbd559350a857c4
+  - word_count: 14
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 管理训练环境和向模型提供精确反馈仍有困难。
+- retained_coordinate_row: P2.S9：O 转折主语是环境管理/精确反馈，谓语仍困难；I 最近答案保留，未解点转入过程可理解性。
+- source_claim_zh: 管理训练环境和向模型提供精确反馈仍有困难。
+- matrix_syntax: 两个-ing结构managing和delivering作并列主语，pose为有限谓语；precise修饰反馈。
+- discourse_foreground: 近邻方法虽有路线，可靠管理与反馈仍未解决。
+- first_new_information: 新增执行反馈这一成功条件仍困难的限制。
+- contextual_grounds: 前句刚解释为何反馈关键。
+- conventional_expression: 转折＋两个行动名词化主语＋持续性困难谓语。
+- relative_length_role: 短句让段落在明确残余上结束，不将下一段排错原因全部提前。
+- writer_selection_and_reader_inference: 把需要人工判断的入口放在既有自动过程内部，避免把可视分析包装成与自动化对立。
+- actual_refinement: 新增反馈必要性与反馈难获得的相邻依赖；不是再报一次“效率低”。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 3af07b833ae34677088165540f1b5766cc434ee7a2eb45024be1f1c0a0fbda99
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1左栏，P2末句，所分析的局部表达
+  - replacement: remain challenging
+  - use_condition: 需要将ongoing challenges名词结构压成形容词结构时。
+  - cost_or_risk: 共享持续性含义；remain用主语并列保持复数，不能缩到仅环境难管理而删精确反馈。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 然而，管理环境并向模型提供精确反馈仍然困难。
+  - use_condition: 需要简洁承接“反馈决定成功”后给出残余时。
+  - cost_or_risk: 中文并列仍保留两项工作；下段才解释双模型行为为何增加排错负担。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+
+
+## P3.S2
+
+- locator: 物理p.1左栏，P3第二句
+- source_unit:
+  - sha256: 97bc6ecefb960e527891188740bda4ec57297061975dc34bd6f2dd081de97d31
+  - word_count: 8
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 对抗训练的目标是同时改善两个模型。
+- retained_coordinate_row: P3.S1：O 追加双模型对抗训练难理解排错；P3.S2：O 目标句承认应同时提升；P3.S3：O 转折写可能下降，I 目标≠实际状态。
+- source_claim_zh: 对抗训练的目标是同时改善两个模型。
+- matrix_syntax: 矩阵adversarial training aims；to improve非限定补语，both/simultaneously限定改善对象与时间关系。
+- discourse_foreground: 先定义理想目标，让下一句实际下降形成可理解的反差。
+- first_new_information: 新增训练意图，尚未报告已观察的双重收益。
+- contextual_grounds: P3.S1已说明双模型训练难理解排错。
+- conventional_expression: 目标动词＋不定式＋both对象＋同时副词。
+- relative_length_role: 短目标句与紧随的下降可能性句形成简短对照，给两个具体失败例子留位置。
+- writer_selection_and_reader_inference: 读者必须区分目标与实现；由训练名义不能推出攻击方/目标方都持续进步。
+- actual_refinement: 新增aims的语义状态与科学效果断言区别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 0ef2292f9cdbc1181a50bc533d7ad7b19fafd4792871954e985f3d45f03b2a91
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1左栏，P3第二句，所分析的局部表达
+  - replacement: has the goal of improving
+  - use_condition: 需要和后文optimization goal的名词术语统一时。
+  - cost_or_risk: 更长但更显式；不能改为improves而删掉目的性质。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 对抗训练旨在同时提升红模型和目标模型。
+  - use_condition: 建立预期，再讨论其可能偏离时。
+  - cost_or_risk: 用前文已定义的两模型名替代both，增加显式回指而不增加能力保证。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+
+
+## P3.S5
+
+- locator: 物理p.1左栏，P3第五句
+- source_unit:
+  - sha256: 2717925637a5f9abcc8f4ed3187bc551ce404924aa5aeab834dc4409bfe7ad70
+  - word_count: 24
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 目标模型以提升对所有有害提示的总体表现为优化目标，这可能意外影响其一般场景能力。
+- retained_coordinate_row: P3.S4：O 举例红模型采用高奖励简单策略；P3.S5：O 同时目标优化所有毒性提示，关系从句给普通场景退化，I 两个失败来自不同优化对象。
+- source_claim_zh: 目标模型以提升对所有有害提示的总体表现为优化目标，这可能意外影响其一般场景能力。
+- matrix_syntax: 矩阵optimization goal is to improve；which might affect补充评注该目标/优化取向，its语义回指目标模型。关系解释依上下文，不是把目标已经实现当事实。
+- discourse_foreground: 优化安全总表现与普通能力的潜在冲突。
+- first_new_information: 在红模型高奖励简单策略之后，新增目标模型另一类代价。
+- contextual_grounds: S4已给红模型失败，Meanwhile表示另一优化对象。
+- conventional_expression: Meanwhile＋目标系表句＋可能/非意图性关系从句。
+- relative_length_role: 中长句同时保留优化动机与可能副作用，避免只说模型会退化。
+- writer_selection_and_reader_inference: 读者知道监控不能只看毒性/成功率，还需看普通能力；两个例子不是同一退化机制的重复。
+- actual_refinement: 补充目标矩阵与代价前景区分，并保留might及非意图性。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 314d878c809d08d9f1a203053783eff9d49aa08bcdd586f7b86c406afa986217
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1左栏，P3第五句，所分析的局部表达
+  - replacement: might inadvertently affect
+  - use_condition: 全文偏好inadvertently描述非预期结果时。
+  - cost_or_risk: 中性用词；不可写成必然下降，源句用affect而非保证每个普通任务受损。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 同时，目标模型以提高对所有有害提示的总体表现为优化目标，而这种优化取向可能无意间影响它在一般场景中的能力。
+  - use_condition: 解释为什么需要多角度监控时。
+  - cost_or_risk: 将which语境回指显化为优化取向；仍保留可能影响，未偷加必然降低。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q2
+
+## P4.S2
+
+- locator: 物理p.1右栏，第一挑战第二句
+- source_unit:
+  - sha256: ae2ad15b7c48017931a54a365f99a5bb0c9c7c82134807f90ab575fed2cc7ebb
+  - word_count: 34
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 已有强化学习/对抗模型可视分析技术，但主要关注损失、多样性等描述指标或嵌入等高层信息。
+- retained_coordinate_row: P4.S1：O 训练过程为主语，生成和响应的细微差别作宾语；P4.S2：O 让步承认RL/对抗可视化，主句限定损失、多样、embedding等摘要，I 避免声称无人可视化过。
+- source_claim_zh: 已有强化学习/对抗模型可视分析技术，但主要关注损失、多样性等描述指标或嵌入等高层信息。
+- matrix_syntax: Although有限让步从句先承认技术；矩阵they focus，mainly限制批评范围；两个like/such as组分别举例。
+- discourse_foreground: 新缺口是信息对象不足，而不是此前无人可视化。
+- first_new_information: 新增近邻关注粒度与本任务所需行为分析间的差异。
+- contextual_grounds: 首句提出提示生成与目标响应的细微差别。
+- conventional_expression: 让步前置＋主句范围限定＋两组例示。
+- relative_length_role: 较长近邻句花篇幅承认已做与精确限制，随后短句重设红队的关注对象。
+- writer_selection_and_reader_inference: 读者可把新视图的价值定位到跨训练的行为和失败实例，而不只是比旧图形更好看。
+- actual_refinement: 补充mainly不可变only、让步框架和两例组边界。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: b227db9cfd1611c06113edb94790e9916f1713c34fe3d6e41a34d9298488ab3f
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.1右栏，第一挑战第二句，所分析的局部表达
+  - replacement: their main focus is on
+  - use_condition: 需要以focus名词与段落主题句衔接时。
+  - cost_or_risk: 名词化不更优；保留main/两类对象，不把部分侧重改成排他完全没有。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 尽管已有研究为强化学习和对抗模型提供了可视分析技术，它们主要关注损失、多样性等描述性指标，或嵌入等较高层的信息。
+  - use_condition: 在提出新信息需求前公平定位近邻时。
+  - cost_or_risk: 仍是源作者对所引近邻的概括，不代表独立穷尽所有既有系统。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q1
+
+## P4.S5
+
+- locator: 物理p.1右栏，第一挑战末句
+- source_unit:
+  - sha256: 09dd2c7e1c57fd0375ffda4a731e0fff3581f2ffbfa65a666ac7ef0364b42baa
+  - word_count: 19
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 既给直观总体趋势，又支持找出模型失败的具体提示，是联合挑战。
+- retained_coordinate_row: P4.S3：O 红队关心跨过程行为，重新设信息对象；P4.S4：O 每轮数百输出/数十轮说明规模，I 数量用来解释认知负荷，不作为创新成绩；P4.S5：O 总趋势与具体失败提示并列为困难，A §7多层流直接回应。
+- source_claim_zh: 既给直观总体趋势，又支持找出模型失败的具体提示，是联合挑战。
+- matrix_syntax: 矩阵It is challenging为形式主语结构；to provide内容后置；while supporting为同隐含行动者的非限定动词结构，where models fail限定具体提示。
+- discourse_foreground: 总览与可落地实例判断要在同一分析工作中接通。
+- first_new_information: 新增同时满足两个粒度需求的难点。
+- contextual_grounds: 前句每轮数百输出、数十轮说明人工浏览负担。
+- conventional_expression: 形式主语＋评价＋to任务＋while同时任务＋where定位失败。
+- relative_length_role: 比此前简短的行为关注句更长，用双任务收束挑战；不是简单列一个“大数据量”问题。
+- writer_selection_and_reader_inference: 后文多层流应让专家从趋势缩到迭代和具体实例，不能只输出一张总曲线或一份案例列表。
+- actual_refinement: 补充while联合条件及范围粒度到设计的依赖。
+- local_alternative:
+  - kind: meaning_preserving_rhetorical_restructuring
+  - source_span_sha256: 9e656ab8b70e57ce80f9dbb4ddc35b473f07f449db77d9b5b9a5b4c88c177bf0
+  - source_span_word_count: 2
+  - span_locator_zh: 物理p.1右栏，第一挑战末句，所分析的局部表达
+  - replacement: and simultaneously support
+  - use_condition: 希望把两个目标放在平行语法地位、突出两者同时实现时。
+  - cost_or_risk: 局部将从属while结构改为共享to的协调结构，改变信息重心但保留同时性；不是无目的的同义替换。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 难点在于：既提供直观的总体趋势，又同时支持识别模型失败的具体提示。
+  - use_condition: 挑战句需先让读者知道系统必须联合完成什么时。
+  - cost_or_risk: 两个目标被并列突出；若删任一项就不再保留挑战本身。
+  - semantic_changes: 局部替换改变从属/并列包装，完整中文也显化双目标；任务范围不变。
+- qualification_ids:
+
+
+## P5.S1
+
+- locator: 物理p.1右栏，第二挑战首句
+- source_unit:
+  - sha256: f620897b88c96e161e902719cba1639242f0d61c07135605892fdf7c02f30a46
+  - word_count: 19
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 用明确指标评价模型可能有局限，并可能无法反映鲁棒性，ASR为所举指标。
+- retained_coordinate_row: P5.S1：O 指标评价可能不足，情态限制其普遍性；P5.S2：O 同提示不同检查点响应相异，分词推论可受干预攻破，I 从现象到风险假设，不能当成功攻击证据。
+- source_claim_zh: 用明确指标评价模型可能有局限，并可能无法反映鲁棒性，ASR为所举指标。
+- matrix_syntax: Evaluating models…为主语；might管辖be limited与fail to reflect并列谓语；metrics不是矩阵主语。
+- discourse_foreground: 常用结果指标可能不足以回答稳定性问题。
+- first_new_information: 相对第一挑战的呈现粒度，新增评价结果本身可能漏掉响应波动。
+- contextual_grounds: 已有指标/总览并非无效；下一句用同提示跨检查点不同响应解释不足。
+- conventional_expression: 行为名词化主语＋might限制＋并列不足＋指标例示。
+- relative_length_role: 中短开场，先给有限的不足声明，再由例子和机制加以支撑。
+- writer_selection_and_reader_inference: 作者没有说ASR毫无用处；新诊断要补充指标看不到的变化，不能替代所有安全评价。
+- actual_refinement: 补充might作用域及主语区别，避免把评价活动说成指标本身永远不可靠。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: eb71307af29953ce217c7fb962b0ad5ac36466d6eaa040d718eaf32b370ad4fa
+  - source_span_word_count: 5
+  - span_locator_zh: 物理p.1右栏，第二挑战首句，所分析的局部表达
+  - replacement: including attack success rate
+  - use_condition: 需要用including呈现一个被包含的常见评价指标时。
+  - cost_or_risk: 近义例示，不改变might；不可把例示改成对所有metrics的全面否定。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 使用明确指标评价模型，例如攻击成功率，可能有局限，并可能无法反映其鲁棒性。
+  - use_condition: 开始讨论为什么还需跨检查点波动分析时。
+  - cost_or_risk: 保留可能性与评价范围；不能据此否定ASR作为结果证据的用途。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q3
+
+## P5.S2
+
+- locator: 物理p.1右栏，第二挑战第二句
+- source_unit:
+  - sha256: d6ef0f7654c39d985769b6f1717bcb2daf93a02417aa48440253178f1eeaccf6
+  - word_count: 26
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 同一攻击提示在某些检查点可能获适当响应、另一些却不行；作者据此指出施加某种干预后攻击可能成功。
+- retained_coordinate_row: P5.S1：O 指标评价可能不足，情态限制其普遍性；P5.S2：O 同提示不同检查点响应相异，分词推论可受干预攻破，I 从现象到风险假设，不能当成功攻击证据。
+- source_claim_zh: 同一攻击提示在某些检查点可能获适当响应、另一些却不行；作者据此指出施加某种干预后攻击可能成功。
+- matrix_syntax: 矩阵same prompts might elicit，but not at others省略重复部分；indicating为评注分词结构，that内with some intervention和could限定推论。
+- discourse_foreground: 安全表现不稳定，使一次合适响应不足以结束诊断。
+- first_new_information: 新增相同提示在不同检查点反应不同的例子，再提出干预后可能成功的判断。
+- contextual_grounds: 上句只笼统说结果指标可能不足。
+- conventional_expression: For instance＋控制同一对象＋检查点对比＋非限定推论＋条件/可能性。
+- relative_length_role: 比首句长，因为现象与其安全意义都要给出；分词包装不能被误认成已经证明的攻击结果。
+- writer_selection_and_reader_inference: 读者可理解为什么要看同一验证提示的轨迹；但从波动到潜在风险仍是作者的推断，不是成功率实测。
+- actual_refinement: 补充观察与推论边界，保留两个情态might/could和干预条件。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: ce802c98ee677b24d3b4ecbcffcad571f63314c40cd5a525014148bdb5f72da9
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1右栏，第二挑战第二句，所分析的局部表达
+  - replacement: elicit suitable responses
+  - use_condition: 希望统一合适响应的形容词用法时。
+  - cost_or_risk: 中性表达；suitable没有新增安全评级阈值，不能换secure来消除源语境评判。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 例如，同一攻击提示在某些检查点可能得到适当响应，在其他检查点却得不到；这提示在某种干预下，攻击仍可能成功。
+  - use_condition: 需要将例子与作者推论显式分开时。
+  - cost_or_risk: 分号强化边界；仍不把可能风险升级为已完成干预或已证明攻击。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q3
+
+## P5.S4
+
+- locator: 物理p.1右栏，第二挑战第四句
+- source_unit:
+  - sha256: 892a15632f58aeafeb8f10b862a96307e64887171b97614c2df54382a0d9234c
+  - word_count: 23
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: LLM输出依赖上下文，因此前几个词的波动能显著影响后续输出。
+- retained_coordinate_row: P5.S3：O 旧NLP可视化展示token分布，承认局部能力；P5.S4：O 原因前置序列/上下文依赖，主句早期词变动影响后续，A 解释为何只看分布静态图不足。
+- source_claim_zh: LLM输出依赖上下文，因此前几个词的波动能显著影响后续输出。
+- matrix_syntax: However标示转折；since引入原因从句，主干为LLMs are sequence models；whose outputs…是修饰sequence models的关系从句，outputs为该从句主语；矩阵为fluctuations…can impact subsequent outputs。
+- discourse_foreground: 从既有token分布展示，转到早期变化如何影响后续输出及其安全诊断意义。
+- first_new_information: 本Intro在原因从句中首次显式提供序列模型输出依赖上下文的前提，同时在矩阵中新增早期词变化能够显著影响后续输出的判断。
+- contextual_grounds: S3承认既有NLP可视分析已展示token分布，尚未连接安全轨迹。
+- conventional_expression: 转折＋since理由前置＋whose说明依赖＋can强度限制的主句。
+- relative_length_role: 中长机制句让前几个词值得细查有依据；不需把所有概率计算在引言展开。
+- writer_selection_and_reader_inference: 后面基于分布的指标和路径视图才有任务理由；token分析不是因为细节越多越好。
+- actual_refinement: 区分首次显式信息和句法包装：上下文依赖前提在本Intro首次提出，却作为原因被背景化；早期变化影响后文在矩阵中前景化。若假设读者已熟悉该前提，只能标为预期读者知识的编辑推断；can不表示每次必然变坏。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 444cbe90253a6ad22b52df8b488e8c13f29f775952dba372784ca469d73b65fc
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1右栏，第二挑战第四句，所分析的局部表达
+  - replacement: can significantly affect
+  - use_condition: 希望将impact动词换成更常见的affect时。
+  - cost_or_risk: 中性搭配，保留can/significantly；影响后续输出不等于每次导向有害输出。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 然而，LLM是输出高度依赖上下文的序列模型，因此前几个词的波动能够显著影响后续输出。
+  - use_condition: 需要给token级分析一个任务机制理由时。
+  - cost_or_risk: 因果关系重排，保留这种影响能力；它是否产生安全后果仍要由后文评价判断。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q3
+- historical_correction: E5：保留旧坐标行中的“静态”是缺乏来源支持的历史编辑扩展，旧A标签不能把它变成作者明示；当前分析以既有token分布展示及安全场景中的波动需求为准。
+
+## P5.S6
+
+- locator: 物理p.1右栏，第二挑战末句
+- source_unit:
+  - sha256: d8a3cf3579a1e81272da6b659dc1aecbb648f0c302032dcb8036ed3015c9c011
+  - word_count: 13
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 将不确定性可视化并分析语言模型中的概率转移，仍是挑战。
+- retained_coordinate_row: P5.S5：O 现有方法未顾安全波动；P5.S6：O 不确定性与概率转移并列为需求。I 此处单位从迭代缩到token，给第二视图明确分工。
+- source_claim_zh: 将不确定性可视化并分析语言模型中的概率转移，仍是挑战。
+- matrix_syntax: 可观察到两个-ing行动由and连接，源谓语为单数remains。可按一个联合分析任务理解，这是语境支持的编辑解释，不能仅由词形证明作者有意采用该概念化，也不是所有并列结构都用单数的一致规则。
+- discourse_foreground: 把前文机制收束成需要系统支持的分析工作。
+- first_new_information: 新增对显示不确定性和分析转移的联合需求表述。
+- contextual_grounds: S1–S5解释指标局限、检查点波动、上下文传播及近邻不足。
+- conventional_expression: 行动名词化作主题＋持续性挑战系联；把两行动理解为一组工作是可成立的语境解释，而非已证实的作者意图。
+- relative_length_role: 短于机制与例子句，作用是落定第二挑战，而不是再加第三个技术模块。
+- writer_selection_and_reader_inference: 读者由此期待指标与表示方式共同服务判断；计算一个分数不能单独满足显示不确定性的要求。
+- actual_refinement: 分别记录源单数remains这一事实、联合任务读法这一编辑解释和挑战收束职责；不从一致形式反推作者意图，不强判原句错误，也避免模板化数量映射。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 5ea934bc3958b1dcbba6495fbe2905a3a8639987a3e603b19d095bce5db07a3b
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1右栏，第二挑战末句，所分析的局部表达
+  - replacement: is still challenging
+  - use_condition: 希望用形容词代替challenge名词，并采用一个联合分析任务的解释时。
+  - cost_or_risk: 单数is仅在采用联合任务读法时成立；若编辑将两项活动分别处理，可改用复数are still challenging。保留单数是解释上的选择，不证明作者意图；中性风格变化，不声称已经完成可视化。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 对语言模型不确定性的可视化及概率转移分析，仍是一项挑战。
+  - use_condition: 第二挑战段结束时。
+  - cost_or_risk: “一项”将两活动作为联合任务，是此中文变体采用的编辑解释，而非由源单数证明的作者意图；若分开处理两活动，可选择复数表述，不另分为两项已经验证的贡献。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+
+
+## P6.S2
+
+- locator: 物理p.1右栏，方案第二句
+- source_unit:
+  - sha256: 9fa2a44d2265f47505914f8d5df84570bc4c70ccf41ef43f0d0e75908288ef78
+  - word_count: 39
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 系统含独特人机协作框架，列目标、红、奖励模型及界面；专家可据性能分析调整红模型行为。
+- retained_coordinate_row: P6.S1：O 作者提出系统；P6.S2：O 系统包含目标、红、奖励模型和界面，关系从句说明专家按分析调整红模型。I 系统架构定义谁判断、谁生成，而非模块清单。
+- source_claim_zh: 系统含独特人机协作框架，列目标、红、奖励模型及界面；专家可据性能分析调整红模型行为。
+- matrix_syntax: 矩阵system incorporates framework；consisting of列组成；where experts can adjust关系从句附于interface，according to限定调整依据。
+- discourse_foreground: 架构如何给专家实际干预入口。
+- first_new_information: 框架与组件角色在此新增，末端进一步新增专家基于分析调整的能力。
+- contextual_grounds: P2需要精确反馈，P3需要排错和多角度判断；P6.S1只给系统名与用途。
+- conventional_expression: 系统动作＋独特框架名词组＋组成非限定结构＋界面where能力从句。
+- relative_length_role: 较长句把组件与人的动作绑定；若只删为四模块名，就失去人机协作的核心职责。
+- writer_selection_and_reader_inference: 专家看到什么应能转成调整什么，界面才有应用价值；根据正文，这种干预面向种子分布或特定实例，不是承诺任意改模型内部。
+- actual_refinement: 新增where从属位置承载的主应用价值，以及读者已有难点到人类控制权的连接。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 6069fd31e574cf79b7437e9d8755cf265d1c43fa070279d35c33e3eb91ff3c3d
+  - source_span_word_count: 6
+  - span_locator_zh: 物理p.1右栏，方案第二句，所分析的局部表达
+  - replacement: can modify the red model’s behavior
+  - use_condition: 在需要用modify统一模型行为改变术语时。
+  - cost_or_risk: 近义但modify较宽；according to分析依据必须保留，不应扩成任意修改参数能力。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 该系统包含一个独特的人机协作框架，由目标模型、红模型、奖励模型和界面组成；通过该界面，专家能够依据模型性能分析调整红模型的行为。
+  - use_condition: 希望在架构介绍里让人的决策权可见时。
+  - cost_or_risk: 分号突出界面功能；保留unique作者定位和can能力，不声称每次调整都改善。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q4
+
+## P6.S4
+
+- locator: 物理p.1右栏，方案第四句
+- source_unit:
+  - sha256: f9e04ba85b5bf1f9c86739deb7c594a3d1d4eab58feb40ab51c84f6e69229fa3
+  - word_count: 26
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 该技术从整个训练过程总览到单次迭代细节提供全面对抗动态视图。
+- retained_coordinate_row: P6.S3：O 对第一挑战命名多层流；P6.S4：O 技术给整体到单轮的范围递进，I 跨尺度导航使趋势可回到例子，§7.4。
+- source_claim_zh: 该技术从整个训练过程总览到单次迭代细节提供全面对抗动态视图。
+- matrix_syntax: 矩阵technique offers view；ranging from…to…是非限定范围展开，说明view所覆盖的粒度。
+- discourse_foreground: 把多层流的名字翻译成读者可完成的跨粒度观察。
+- first_new_information: S3已命名设计，本句新增总览到迭代细节的覆盖范围。
+- contextual_grounds: P4联合要求总体趋势与具体失败提示。
+- conventional_expression: 指示名词回指＋提供视图＋from/to尺度展开。
+- relative_length_role: 中等句长用两个端点解释多层，避免再复述所有图表/控件。
+- writer_selection_and_reader_inference: 读者先理解导航跨度，正文再说明从迭代节点联动实例；本句没有逐字承诺每个实例操作。
+- actual_refinement: 补充技术名称和首次实质能力之间的差别，并区分Intro迭代细节与正文实例联动。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 660d7afefd955dc36ff6fc770099d164683fa92d05f4d728554f61aaf1b920f9
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.1右栏，方案第四句，所分析的局部表达
+  - replacement: extending from an overview
+  - use_condition: 用延伸表达强调视图范围时。
+  - cost_or_risk: 近义范围表达，必须保留to另一端点；不是研究范围从一个系统扩展到全部LLM。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 这一技术提供对抗动态的全面视图，覆盖从整个训练过程的总览到单次迭代的细节。
+  - use_condition: 方法名后需要用可理解的尺度范围解释价值时。
+  - cost_or_risk: 不擅把本句扩为已证明专家总能找出每一失败；实例级操作由正文说明。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q4
+
+## P6.S5
+
+- locator: 物理p.1右栏，方案第五句
+- source_unit:
+  - sha256: 40c65d6c5fc23f332b53445d136f68f37842247f6d976bf0ecf219cbc964211a
+  - word_count: 17
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 为回应第二挑战，作者设计基于分布的指标来评估token转移的可能性。
+- retained_coordinate_row: P6.S5：O 对第二挑战引入分布指标，目标为token转移可能性；P6.S6：O 指代该评价连接受骗/不当回应，I 指标服务安全判断而非数学新奇。
+- source_claim_zh: 为回应第二挑战，作者设计基于分布的指标来评估token转移的可能性。
+- matrix_syntax: 矩阵we devise a metric；to address前置目的回指，for assessing后置功能目的。
+- discourse_foreground: 第二挑战获得一个可计算的信息支点。
+- first_new_information: 新增指标及其所评估对象；前文已说明为何早期token变化重要。
+- contextual_grounds: P5概率转移与不确定性需求。
+- conventional_expression: 目的回指＋设计动作＋指标名词组＋用途结构。
+- relative_length_role: 较短方案句先交代评估对象，下一句再说明它服务什么安全判断。
+- writer_selection_and_reader_inference: 设计选择要说清测什么及为何与诊断有关；正文的分布距离是风险线索，不能把likelihood一词直接读成校准攻破概率。
+- actual_refinement: 补充Intro功能措辞与正文数值指标的证据身份差别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 7759b6611fec056b3d0295e3c143d1933ebca535d29e9c64832620ac068f86d5
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.1右栏，方案第五句，所分析的局部表达
+  - replacement: to assess the likelihood
+  - use_condition: 希望将for-ing目的改成常规to不定式时。
+  - cost_or_risk: 目的意义接近；to assess与句首to address重复，原形式可减少重复，并不保证替换更优。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 为回应第二项挑战，我们设计了一个基于分布的指标，用于评估token转移的可能性。
+  - use_condition: 在方法段先给评估对象再给安全用途时。
+  - cost_or_risk: 保留作者likelihood功能表述；科学校准范围另列，不能悄悄改作者主张也不能把它当概率保证。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q3
+
+## P6.S7
+
+- locator: 物理p.1右栏，方案末句（贡献引导前）
+- source_unit:
+  - sha256: 6527bec66e12438a07bd4a9c251c418743a42ca39e9923426fe937cb1f7a4083
+  - word_count: 37
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 作者加入为波动分析设计的先进Sankey图，展示响应从安全到不安全级别的转变并清楚呈现不确定性。
+- retained_coordinate_row: P6.S7：O 追加改造Sankey，关系从句给安全→不安全转移、尾部补不确定性；I 同一图形承载状态与犹疑，不是用一个平均ASR替代过程。
+- source_claim_zh: 作者加入为波动分析设计的先进Sankey图，展示响应从安全到不安全级别的转变并清楚呈现不确定性。
+- matrix_syntax: 矩阵we enhance system；with图作为增补手段，tailored非限定修饰图；which can show说明图的功能，incorporating附加说明不确定性展示。
+- discourse_foreground: 指标结果以可追踪状态路径和不确定性表现给专家使用。
+- first_new_information: 新增针对波动的图形表达，而非重复上一指标数值。
+- contextual_grounds: S5给指标、S6给判断用途，P5要求同时分析转移和展示不确定性。
+- conventional_expression: Additionally＋增强动作＋定制图形＋can功能关系从句＋incorporating附加职责。
+- relative_length_role: 相对前两短指标句更长，因为加入信息如何被人读取；不宜只压成“另有Sankey”。
+- writer_selection_and_reader_inference: 读者能从数学量走到诊断动作；源仅说从安全到不安全的转移表现，非图本身已经降低ASR。
+- actual_refinement: 补充矩阵与从属功能的应用重心，并保留先进/直观/清楚作为作者评价。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 1dfc72577ed6fbdfe91895b435c0ba97a72041fb4bc46488103e306c929aa87e
+  - source_span_word_count: 3
+  - span_locator_zh: 物理p.1右栏，方案末句（贡献引导前），所分析的局部表达
+  - replacement: can intuitively display
+  - use_condition: 若图示描述统一用display时。
+  - cost_or_risk: 中性谓语替换，保留can/intuitively；不得把图的表达能力换成保证修复风险。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 此外，我们用一个专为波动分析设计的先进Sankey图增强系统：该图能直观显示LLM响应由安全向不安全级别的转变，并清楚呈现过程中的不确定性。
+  - use_condition: 需要把图形加入与它能让人判断的内容放在同一处时。
+  - cost_or_risk: 冒号显化功能；作者评价保留为其主张，不将表达清楚当作有效性实验结论。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q3
+  - Q4
+
+## B1
+
+- locator: 物理p.1右栏底，贡献1
+- source_unit:
+  - sha256: 95f88e8231c8fe0158d7128e129e939654b0f56ba48909c06269322ccfd1b74f
+  - word_count: 14
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 人机协作红队框架，包含专家、LLM和有效指标。
+- retained_coordinate_row: **B1–B3 · 印刷492–493 · 全贡献。** 三项均为名词短语式而非完整作者动作句：B1人机红队框架，列专家/模型/指标；B2可视系统，关系从句绑定模式和波动两任务；B3案例及AI安全系统经验。O 不报最佳ASR数字。I 对设计研究，贡献单位是协作工作流、信息表达、实践证据，不必强迫改为算法+定理+SOTA；B3必须由案例过程支持，不能拿专家赞誉代替所有有效性。
+- source_claim_zh: 人机协作红队框架，包含专家、LLM和有效指标。
+- matrix_syntax: 列表主干是名词短语A framework；that involves为有限关系从句，不是独立矩阵。由贡献引导句许可这类名词条目。
+- discourse_foreground: 研究交付是一套协作框架。
+- first_new_information: 组件和人的角色已在P6给过；这里新增的是贡献身份与边界的总结。
+- contextual_grounds: P6已描述系统和专家调整，列表转为成果盘点。
+- conventional_expression: 名词短语条目＋限制性关系从句，和后两条平行。
+- relative_length_role: 短贡献项用交付物名词承载已解释过的协作机制，不必再重复训练细节。
+- writer_selection_and_reader_inference: 读者可将贡献归到人、模型、指标共同组成的工作流程，而非新模型参数或单一攻击性能。
+- actual_refinement: 明确名词条目不是不完整作者动作句，也不把重述当首次技术披露。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 93d1797d675aa63ad64010d9d1492d61719a889416cbf63082dcd1772f511f55
+  - source_span_word_count: 2
+  - span_locator_zh: 物理p.1右栏底，贡献1，所分析的局部表达
+  - replacement: involving
+  - use_condition: 列表版面紧张且其余条目也采用非限定后修饰时。
+  - cost_or_risk: that有限从句压为现在分词，强调组成不变；减少词数不等于写作更好。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 一套包含人类专家、LLM和有效指标的人机协作红队框架。
+  - use_condition: 以交付物名词作为贡献列表平行条目的起点时。
+  - cost_or_risk: 保留有效评价为作者措辞；若改“我们提出”会改变列表形式，非必须修复。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+
+
+## B2
+
+- locator: 物理p.2/印刷493左栏顶，贡献2
+- source_unit:
+  - sha256: 42507bc0fc9be21d550d5e8a3aa0a1d811ad9fb80edfe1dcb959bb30feafbdd4
+  - word_count: 18
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 可视分析系统AdversaFlow，支持对抗模式呈现与模型波动分析。
+- retained_coordinate_row: **B1–B3 · 印刷492–493 · 全贡献。** 三项均为名词短语式而非完整作者动作句：B1人机红队框架，列专家/模型/指标；B2可视系统，关系从句绑定模式和波动两任务；B3案例及AI安全系统经验。O 不报最佳ASR数字。I 对设计研究，贡献单位是协作工作流、信息表达、实践证据，不必强迫改为算法+定理+SOTA；B3必须由案例过程支持，不能拿专家赞誉代替所有有效性。
+- source_claim_zh: 可视分析系统AdversaFlow，支持对抗模式呈现与模型波动分析。
+- matrix_syntax: 主干为单数system名词短语，AdversaFlow为同位名；that关系从句谓语源写support，与单数先行词不一致，应为supports。无独立矩阵。
+- discourse_foreground: 系统贡献绑定前文两项分析任务。
+- first_new_information: 系统名称/能力已在P6出现，此处是贡献层整合。
+- contextual_grounds: P4/P5两挑战、P6两类方案已铺垫。
+- conventional_expression: 名词短语＋同位名称＋关系从句双功能；源主谓一致错误独立标为语法修复。
+- relative_length_role: 较短条目用两功能收束设计，不按每一视图拆成贡献计数。
+- writer_selection_and_reader_inference: 读者一眼可将系统贡献与挑战配对；仅说“提出交互系统”会丢掉为什么值得构建。
+- actual_refinement: 补上旧分析未显式指出的单数关系谓语错误，保留完整双任务。
+- local_alternative:
+  - kind: grammar_repair
+  - source_span_sha256: 313274262cc6146c07796513ac95f42d81bd77819cb83486b3a39b55a8f542af
+  - source_span_word_count: 2
+  - span_locator_zh: 物理p.2/印刷493左栏顶，贡献2，所分析的局部表达
+  - replacement: that supports
+  - use_condition: 对源贡献名词项做最小主谓一致修复时。
+  - cost_or_risk: 仅改一个词的词尾，功能/范围/贡献形式保持；不能把语法修复算新研究主张。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 一个可视分析系统AdversaFlow，支持对抗模式呈现和模型波动分析。
+  - use_condition: 需要用交付物加双功能概括系统贡献时。
+  - cost_or_risk: 保留名词条目形式；源英文语法修复不要求全条变成作者动作句。
+  - semantic_changes: 局部主谓一致修复；中文完整变体保留两项源功能。
+- qualification_ids:
+
+
+## B3
+
+- locator: 物理p.2左栏顶，贡献3
+- source_unit:
+  - sha256: 7a857470f81159f5e81c1e407b956f851bcbbc7d989cf4e703d34fa0092d7953
+  - word_count: 18
+  - normalization: 去除作者/出版脚注、页眉页脚、许可文本；连续空白折为一格，正文其他raw字符保持。
+  - boundary_zh: 展示系统有用性的案例研究，以及开发AI安全系统获得的经验。
+- retained_coordinate_row: **B1–B3 · 印刷492–493 · 全贡献。** 三项均为名词短语式而非完整作者动作句：B1人机红队框架，列专家/模型/指标；B2可视系统，关系从句绑定模式和波动两任务；B3案例及AI安全系统经验。O 不报最佳ASR数字。I 对设计研究，贡献单位是协作工作流、信息表达、实践证据，不必强迫改为算法+定理+SOTA；B3必须由案例过程支持，不能拿专家赞誉代替所有有效性。
+- source_claim_zh: 展示系统有用性的案例研究，以及开发AI安全系统获得的经验。
+- matrix_syntax: 名词条目并列Case studies与lessons learned；that demonstrate限定cases，learned后修饰lessons。页图分别加粗两交付物，支持这组并列读法；不是将lessons当demonstrate的第二宾语。
+- discourse_foreground: 实践验证与可迁移设计经验共同构成第三贡献。
+- first_new_information: 案例与经验作为研究交付首次在贡献列表明确承诺；不报告最佳ASR数字。
+- contextual_grounds: 前文系统功能已解释，需要证明专家实际怎样使用并总结设计经验。
+- conventional_expression: 两个名词组并列，各有后置限定；标题行/粗体给结构线索。
+- relative_length_role: 较短条目将验证和经验合并，不规定每项贡献都用完整句或数字。
+- writer_selection_and_reader_inference: 设计研究要展示看见、判断、调整的过程，并输出经验；专家称赞不能单独替代受控性能比较。
+- actual_refinement: 新增由版面/语义共同判定并列层级，以及案例与经验的不同证据职责。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: b206501b9a3aed55a14e90980443edfd34674c2323fc1d1f0ffddd65d70e2b26
+  - source_span_word_count: 4
+  - span_locator_zh: 物理p.2左栏顶，贡献3，所分析的局部表达
+  - replacement: demonstrating the usefulness
+  - use_condition: 列表希望以非限定修饰减少层级时。
+  - cost_or_risk: 压缩不删usefulness，也保留后半lessons为并列交付物；宜保留两交付物的版式强调，避免压缩修饰后误读并列边界。漏and会改变第三贡献。
+  - outside_span_changes: 无
+  - gain_claim: 只给使用条件及代价，不声称替换后的实证写作增益。
+- full_contextual_variant_zh:
+  - text: 展示系统有用性的案例研究，以及面向AI安全系统开发的实践经验。
+  - use_condition: 贡献列表需同时承诺实践验证与经验输出时。
+  - cost_or_risk: 不是“专家认为好用”一个结论；正文案例、反馈、定量验证各有范围，不能相互代替。
+  - semantic_changes: 保留原科学范围和作者力度；中文完整变体为编辑表达。
+- qualification_ids:
+  - Q5
+  - Q6
+

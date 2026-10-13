@@ -1,0 +1,2388 @@
+{
+  "scope": "Complete-introduction sentence-function annotations: the 2026-10-04 base plus the source-scoped Waltzz recovery read on 2026-10-07. this_pass records each current source status; a missing read_date retains the 2026-10-04 base date. Earlier source states remain in reading_history. Maps are original annotations, not full paper copies or writing-effect evidence. The 2026-10-11 Last Mile of Fuzzing recovery is source-scoped; earlier unavailable status is retained in reading_history.",
+  "counts": {
+    "corpus_identities": 121,
+    "complete_maps": 114,
+    "exact_designated_primary_maps": 113,
+    "alternate_primary_maps": 1,
+    "designated_primary_unavailable_no_map": 7
+  },
+  "load_policy": "Read one selected source map/paragraph at a time. Do not preload all 113 maps.",
+  "coordinate_map": "intro-coordinate-map.json",
+  "sources": [
+    {
+      "source_id": "sj-458e6724c4",
+      "title": "Waltzz",
+      "designated_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+      "designated_version": "USENIX Security 2025正式版，6159–6178；含封面",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#waltzz",
+      "this_pass": {
+        "read_date": "2026-10-07",
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+        "actual_version": "USENIX Security 2025 final proceedings, 6159–6178; 21 physical PDF pages including cover",
+        "map_file": "intro-source-maps/sj-458e6724c4.md",
+        "unit_count": 50,
+        "non_sentence_heading_count": 2,
+        "paragraph_and_bullet_group_count": 13,
+        "reading_scope_note": "2026-10-07: designated 21-page USENIX final PDF; complete §1 on physical pp.2–3 / printed pp.6159–6160, 50 sentence units, two non-sentence headings, 13 paragraph/bullet groups including three contributions and terminal resource paragraph. Necessary body, tables and selected cases read; no experiment replication or current vulnerability-state check.",
+        "introduction_physical_pages_inclusive": [
+          2,
+          3
+        ],
+        "primary_sha256": "895c4507b1a21b745ab4dc1729df693402beedc8db4b07911bd9701f8ec16885",
+        "source_review_scope": "Complete Introduction, new map, authored deep analysis and necessary source/body checks independently reviewed; no scientific or writing-effect certification."
+      },
+      "aliases": [
+        "Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation"
+      ],
+      "reading_history": [
+        {
+          "read_date": "2026-10-04",
+          "source_record": {
+            "source_id": "sj-458e6724c4",
+            "title": "Waltzz",
+            "designated_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+            "designated_version": "USENIX Security 2025正式版，6159–6178；含封面",
+            "historical_reading_status": "complete_intro_current_source_checks",
+            "high_level_card": "research-choice-evidence-map.md#waltzz",
+            "this_pass": {
+              "state": "designated_primary_unavailable_no_map",
+              "complete_intro_read": false,
+              "sentence_map_available": false,
+              "reason": "Exact official PDF: local HTTP403; primary web PDF repeated timeout including indexed PDF reference. Official abstract/session verified but not substituted for complete Introduction."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "sj-177bf3c33e",
+      "title": "MOCK",
+      "designated_url": "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf",
+      "designated_version": "Official NDSS 2024 proceedings-format PDF, 15 pages, PDF creation/modification 2023-09-04",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mock",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf",
+        "actual_version": "Official NDSS 2024 proceedings-format PDF, 15 pages, PDF creation/modification 2023-09-04",
+        "map_file": "intro-source-maps/sj-177bf3c33e.md",
+        "unit_count": 52,
+        "reading_scope_note": "- 本次读取：官方PDF完整§I（physical pp.1–2），再读§II、§III及§IV overview（pp.2–4）；网页PDF行32–161是完整Introduction"
+      }
+    },
+    {
+      "source_id": "sj-2deb60c210",
+      "title": "EMS",
+      "designated_url": "https://www-users.cse.umn.edu/~kjlu/papers/ems.pdf",
+      "designated_version": "Complete 18-page author-hosted NDSS 2022 proceedings-format PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ems",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www-users.cse.umn.edu/~kjlu/papers/ems.pdf",
+        "actual_version": "Complete 18-page author-hosted NDSS 2022 proceedings-format PDF",
+        "map_file": "intro-source-maps/sj-2deb60c210.md",
+        "unit_count": 61,
+        "primary_sha256": "fc961abb45f9b373e5fd01e44d81b1b524be14b498aea1317d31dda3c264b7d8"
+      }
+    },
+    {
+      "source_id": "sj-1f315ef889",
+      "title": "MPInspector",
+      "designated_url": "https://www.usenix.org/system/files/sec21-wang-qinying.pdf",
+      "designated_version": "USENIX Security 2021正式版，4205–4222；含1封面",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec21-wang-qinying.pdf",
+        "actual_version": "USENIX Security 2021正式版，4205–4222；含1封面",
+        "map_file": "intro-source-maps/sj-1f315ef889.md",
+        "unit_count": 66,
+        "primary_sha256": "256a9504c6292f4caf5189e892b4b9941881023d4ffc3af6eae6b4bd1a6ab9a0",
+        "introduction_physical_pages_inclusive": [
+          2,
+          4
+        ],
+        "reading_scope_note": "Version: final USENIX Security 2021, 4205–4222, one cover. Introduction physical pp.2–4 / printed4205–4207. Re-read full introduction plus §2–3 to verify SaaS scope and threat scenarios. Cached primary PDF in sources/sj-1f315ef889.pdf."
+      }
+    },
+    {
+      "source_id": "sj-a36437c84c",
+      "title": "UVSCAN",
+      "designated_url": "https://arxiv.org/pdf/2306.11206v1",
+      "designated_version": "arXiv:2306.11206v1，2023-06-20；关联USENIX Security 2023",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#uvscan",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2306.11206v1",
+        "actual_version": "arXiv:2306.11206v1，2023-06-20；关联USENIX Security 2023",
+        "map_file": "intro-source-maps/sj-a36437c84c.md",
+        "unit_count": 54,
+        "reading_scope_note": "- Cached complete source: （源缓存未附带）; actual reread: its complete Introduction in uvscan.intro-reading.txt, pp.1–3, ending before §2"
+      }
+    },
+    {
+      "source_id": "sj-341a3df6b4",
+      "title": "One Bad Apple Spoils the Barrel",
+      "designated_url": "https://arxiv.org/pdf/2212.13716v2",
+      "designated_version": "arXiv:2212.13716v2，2022-12-29；不是2024 TDSC最终版",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#one-bad-apple",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Exact-version primary PDF web retrieval returned Internal Error in current pass; no complete local cached copy found. Skipped without reconstructing from historical notes."
+      }
+    },
+    {
+      "source_id": "sj-1b6614ac62",
+      "title": "VERIFI",
+      "designated_url": "https://arxiv.org/pdf/2205.12709v1",
+      "designated_version": "arXiv:2205.12709v1，2022-05-25；不是2024 TDSC最终版",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#verifi",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2205.12709v1",
+        "actual_version": "arXiv:2205.12709v1，2022-05-25；不是2024 TDSC最终版",
+        "map_file": "intro-source-maps/sj-1b6614ac62.md",
+        "unit_count": 55,
+        "primary_sha256": "94c4d3cf746ba0fffea4bb81a5fbe2188ac19a21d6689fac6b899c7f5eaa1bd4"
+      }
+    },
+    {
+      "source_id": "sj-2d9d102d0d",
+      "title": "TruVRF",
+      "designated_url": "https://nesa.zju.edu.cn/download/chunyi_truvrf.pdf",
+      "designated_version": "TIFS 20 (2025)出版版，4844–4859；current version 2025-05-15",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#truvrf",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/chunyi_truvrf.pdf",
+        "actual_version": "TIFS 20 (2025)出版版，4844–4859；current version 2025-05-15",
+        "map_file": "intro-source-maps/sj-2d9d102d0d.md",
+        "unit_count": 83,
+        "introduction_physical_pages_inclusive": [
+          1,
+          3
+        ],
+        "reading_scope_note": "Source https://nesa.zju.edu.cn/download/chunyi_truvrf.pdf;TIFS20(2025),4844–4859,current15May2025. Full introduction physical1–3 via primary web turn1133view0 (lines82–305), plus §II exact/approximate distinction. Local retrieval502; text available."
+      }
+    },
+    {
+      "source_id": "sj-af4d22b295",
+      "title": "Label Inference Attacks Against Vertical Federated Learning",
+      "designated_url": "https://www.usenix.org/system/files/sec22-fu-chong.pdf",
+      "designated_version": "USENIX Security 2022正式版，1397–1414；含1封面",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#label-inference",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec22-fu-chong.pdf",
+        "actual_version": "USENIX Security 2022正式版，1397–1414；含1封面",
+        "map_file": "intro-source-maps/sj-af4d22b295.md",
+        "unit_count": 50,
+        "reading_scope_note": "sj-af4d22b295; official USENIX Security2022, printed1397–1414, cover+18 pages; https://www.usenix.org/system/files/sec22-fu-chong.pdf. Complete Introduction physical2–3/printed1397–1398 reread via primary web PDF lines56–175. Local HTTP download403; complete web text available, so not unavailable. Known→new [relation]; ⇒callback. Legal statements are source framing, not legal advice; attack details retained only at conceptual rhetorical level."
+      }
+    },
+    {
+      "source_id": "sj-8c4c252662",
+      "title": "Customization under Fire / PoisonLoRA",
+      "designated_url": "https://arxiv.org/pdf/2606.09151v1",
+      "designated_version": "arXiv:2606.09151v1，2026-06-08；CCS 2026格式作者稿",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#poisonlora",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2606.09151v1",
+        "actual_version": "arXiv:2606.09151v1，2026-06-08；CCS 2026格式作者稿",
+        "map_file": "intro-source-maps/sj-8c4c252662.md",
+        "unit_count": 47,
+        "reading_scope_note": "- 本次读取：明确arXiv:2606.09151v1 [cs.CR] 8 Jun2026的27页PDF，完整§1（physical pp.1–3，web行91–190）；补读§3威胁模型与§4.1设计目标（pp.4–5） - 保持CCS2026格式作者稿身份，不把未来会议格式字段当已出版认证。Introduction尾部跨到physical p.3"
+      }
+    },
+    {
+      "source_id": "sj-9fe6898db0",
+      "title": "IntraGuard",
+      "designated_url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf",
+      "designated_version": "作者auto_20260921_CCS2026_IntraGuard_1_.pdf；CCS 2026格式，非已出版推定",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#intraguard",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf",
+        "actual_version": "作者auto_20260921_CCS2026_IntraGuard_1_.pdf；CCS 2026格式，非已出版推定",
+        "map_file": "intro-source-maps/sj-9fe6898db0.md",
+        "unit_count": 28,
+        "primary_sha256": "05e4570345e433a83cec1fc2bf5abde8faf3cd0caf73928613e098a020cfec40"
+      }
+    },
+    {
+      "source_id": "sj-b1d0179073",
+      "title": "Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications",
+      "designated_url": "https://arxiv.org/pdf/2606.18673v1",
+      "designated_version": "arXiv:2606.18673v1，2026-06-17预印本",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#prompt-leaking",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2606.18673v1",
+        "actual_version": "arXiv:2606.18673v1，2026-06-17预印本",
+        "map_file": "intro-source-maps/sj-b1d0179073.md",
+        "unit_count": 38,
+        "primary_sha256": "3a3f70db07f76c263b5633ef5f4e7844b557ce7ad0b1e64c267e809b1960edd8",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Version: arXiv2606.18673v1,2026-06-17,23pp. Introduction physical pp.1–2; context reread §3–5 including threat capabilities, stratified platform selection and leakage verification. Local sources/sj-b1d0179073.pdf."
+      }
+    },
+    {
+      "source_id": "sj-446d78ec82",
+      "title": "FirmRCA",
+      "designated_url": "https://arxiv.org/pdf/2410.18483v1",
+      "designated_version": "arXiv:2410.18483v1, 24 October 2024",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#firmrca",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2410.18483v1",
+        "actual_version": "arXiv:2410.18483v1, 24 October 2024",
+        "map_file": "intro-source-maps/sj-446d78ec82.md",
+        "unit_count": 48,
+        "reading_scope_note": "Source: sj-446d78ec82; https://arxiv.org/pdf/2410.18483v1; 24 October 2024 v1. Complete Introduction reread from cached firmrca.intro-reading.txt, physical pp.1–2; adjacent §2 firmware rehosting/reverse execution also read. Cache: （源缓存未附带）"
+      }
+    },
+    {
+      "source_id": "sj-e1dfbd274e",
+      "title": "The Last Mile of Fuzzing",
+      "designated_url": "https://nesa.zju.edu.cn/download/auto_20260903_boyutdsc2026.pdf",
+      "designated_version": "IEEE TDSC version of record, vol.23 no.5, September/October 2026, pp.11308-11325",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#last-mile",
+      "this_pass": {
+        "read_date": "2026-10-11",
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/auto_20260903_boyutdsc2026.pdf",
+        "actual_version": "IEEE Transactions on Dependable and Secure Computing 23(5), September/October 2026, pp.11308–11325",
+        "map_file": "intro-source-maps/sj-e1dfbd274e.md",
+        "unit_count": 65,
+        "non_sentence_heading_count": 8,
+        "paragraph_and_bullet_group_count": 22,
+        "reading_scope_note": "2026-10-11: designated 18-page TDSC version, complete §I on physical pp.1–3 / printed pp.11308–11310; sentence-level map and necessary body/figure claims independently reviewed. Ground-truth instruction set is separate from ranked system output. Source-internal numerical conflicts are retained in the map; no experiment replication or writing-effect evidence.",
+        "introduction_physical_pages_inclusive": [
+          1,
+          3
+        ],
+        "primary_sha256": "4617620f7c3bb03bfb25e30409d1f14930590e16dc09df18e633763ef7a9e104",
+        "source_review_scope": "Complete Introduction and selected supporting results independently checked; not scientific replication or validated writing gain."
+      },
+      "reading_history": [
+        {
+          "read_date": "2026-10-04",
+          "source_record": {
+            "source_id": "sj-e1dfbd274e",
+            "title": "The Last Mile of Fuzzing",
+            "designated_url": "https://nesa.zju.edu.cn/download/auto_20260903_boyutdsc2026.pdf",
+            "designated_version": "IEEE TDSC version of record, vol.23 no.5, September/October 2026, pp.11308-11325",
+            "historical_reading_status": "complete_intro_current_source_checks",
+            "high_level_card": "research-choice-evidence-map.md#last-mile",
+            "this_pass": {
+              "state": "designated_primary_unavailable_no_map",
+              "complete_intro_read": false,
+              "sentence_map_available": false,
+              "reason": "Exact official TDSC PDF is not accessible via web tool in current pass; no complete cached copy found. Skipped; needs readable copy of assigned version."
+            },
+            "reading_history": []
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "sj-bdd6754e02",
+      "title": "Critical Code Guided Directed Greybox Fuzzing for Commits",
+      "designated_url": "https://www.usenix.org/system/files/sec24summer-prepub-301-xiang-yi.pdf",
+      "designated_version": "Official USENIX Security 2024 summer-prepublication PDF, 16 pages, no final proceedings page numbers",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#waflgo",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec24summer-prepub-301-xiang-yi.pdf",
+        "actual_version": "Official USENIX Security 2024 summer-prepublication PDF, 16 pages, no final proceedings page numbers",
+        "map_file": "intro-source-maps/sj-bdd6754e02.md",
+        "unit_count": 78,
+        "primary_sha256": "ee838e2a897347959cbccd16324f8919772cdec4914f19750b4b1ab4c23f2579"
+      }
+    },
+    {
+      "source_id": "sj-74a13898b9",
+      "title": "CLIBE",
+      "designated_url": "https://arxiv.org/pdf/2409.01193v2",
+      "designated_version": "arXiv:2409.01193v2, 11 September 2024",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#clibe",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2409.01193v2",
+        "actual_version": "arXiv:2409.01193v2, 11 September 2024",
+        "map_file": "intro-source-maps/sj-74a13898b9.md",
+        "unit_count": 51,
+        "primary_sha256": "278b5eb6963f5f7fe2e4c92c31e7b9db9b53c076a3c049c0be807cd643137d93",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-b3ea90f06d",
+      "title": "TextDefense（Word Importance Entropy版本）",
+      "designated_url": "https://arxiv.org/pdf/2302.05892v1",
+      "designated_version": "arXiv:2302.05892v1, 12 February 2023",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#textdefense",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2302.05892v1",
+        "actual_version": "arXiv:2302.05892v1, 12 February 2023",
+        "map_file": "intro-source-maps/sj-b3ea90f06d.md",
+        "unit_count": 59,
+        "reading_scope_note": "sj-b3ea90f06d; arXiv:2302.05892v1, 12 February 2023; https://arxiv.org/pdf/2302.05892v1. Complete Introduction pp.1–2 reread, including all three contribution bullets. Local frozen PDF/text: ../sources/sj-b3ea90f06d.{pdf,txt}. Version-specific source claims below are analyzed, not endorsed as current field-wide facts."
+      }
+    },
+    {
+      "source_id": "sj-4ef65862d0",
+      "title": "TextShield",
+      "designated_url": "https://www.usenix.org/system/files/sec20-li-jinfeng.pdf",
+      "designated_version": "Official 29th USENIX Security Symposium 2020 proceedings PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#textshield",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec20-li-jinfeng.pdf",
+        "actual_version": "Official 29th USENIX Security Symposium 2020 proceedings PDF",
+        "map_file": "intro-source-maps/sj-4ef65862d0.md",
+        "unit_count": 29,
+        "reading_scope_note": "- 本次读取：USENIX官方19页PDF完整Introduction（physical pp.2–3 / printed1381–1382，web PDF行36–123），补读§3.1–3.4 overview、纠错与多模态接口（physical pp.4–5 / printed1383–1384）"
+      }
+    },
+    {
+      "source_id": "sj-52f8920eaa",
+      "title": "SUB-PLAY",
+      "designated_url": "https://arxiv.org/pdf/2402.03741v4",
+      "designated_version": "arXiv:2402.03741v4, 31 August 2026",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#sub-play",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2402.03741v4",
+        "actual_version": "arXiv:2402.03741v4, 31 August 2026",
+        "map_file": "intro-source-maps/sj-52f8920eaa.md",
+        "unit_count": 37,
+        "primary_sha256": "69c1ef8ba85ad80efa1f684d173f8a9535e35a2b3c2bf51129cb608dad8a3fd3"
+      }
+    },
+    {
+      "source_id": "sj-361d2d7137",
+      "title": "ADAPDOOR",
+      "designated_url": "https://nesa.zju.edu.cn/download/auto_20260921_TIFS2026_ADAPDOOR.pdf",
+      "designated_version": "14-page NESA author-hosted TIFS manuscript",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#adapdoor",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Exact NESA URL failed both one local retrieval (502) and one web primary-source open (internal error); no substitute-version inference."
+      }
+    },
+    {
+      "source_id": "sj-6eeb51e521",
+      "title": "ORL-Auditor",
+      "designated_url": "https://arxiv.org/pdf/2309.03081v1",
+      "designated_version": "arXiv:2309.03081v1, 6 September 2023",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#orl-auditor",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2309.03081v1",
+        "actual_version": "arXiv:2309.03081v1, 6 September 2023",
+        "map_file": "intro-source-maps/sj-6eeb51e521.md",
+        "unit_count": 58,
+        "reading_scope_note": "sj-6eeb51e521; https://arxiv.org/pdf/2309.03081v1; 6 September 2023 v1. Complete Introduction physical pp.1–3 reread; adjacent §II/III inspected for offline/black-box assumptions. Primary PDF is version-fixed; web text source lines35–208 covers whole Introduction. Local cache status in status.json."
+      }
+    },
+    {
+      "source_id": "sj-9042a938b2",
+      "title": "Diff-ID",
+      "designated_url": "https://arxiv.org/pdf/2303.18174v1",
+      "designated_version": "arXiv:2303.18174v1, submitted 2023-03-30",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#diff-id",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2303.18174v1",
+        "actual_version": "arXiv:2303.18174v1, submitted 2023-03-30",
+        "map_file": "intro-source-maps/sj-9042a938b2.md",
+        "unit_count": 65,
+        "reading_scope_note": "- 本次读取：缓存原始PDF的Introduction完整物理pp.1–3；补读§3.1/§3.2/§3.3（pp.4–6）、§4.3.1（pp.7–8）"
+      }
+    },
+    {
+      "source_id": "sj-2079f71014",
+      "title": "Invisible-Face",
+      "designated_url": "https://nesa.zju.edu.cn/download/Invisible-Face_Rethinking_Facial_Attribute_Privacy_in_Social_Media_Photo_Sharing.pdf",
+      "designated_version": "Published IEEE TIFS volume 20 (2025), pp. 6101–6116",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#invisible-face",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Invisible-Face_Rethinking_Facial_Attribute_Privacy_in_Social_Media_Photo_Sharing.pdf",
+        "actual_version": "Published IEEE TIFS volume 20 (2025), pp. 6101–6116",
+        "map_file": "intro-source-maps/sj-2079f71014.md",
+        "unit_count": 58,
+        "primary_sha256": "fe30a09d5d052e7e05c9017dd000c0cd02522aafafb628164164782fe4342de6"
+      }
+    },
+    {
+      "source_id": "sj-6787cd9815",
+      "title": "Seeing is Living?",
+      "designated_url": "https://www.usenix.org/system/files/sec22-li-changjiang.pdf",
+      "designated_version": "Final USENIX Security 2022 proceedings, printed pp. 2673–2690",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#seeing",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec22-li-changjiang.pdf",
+        "actual_version": "Final USENIX Security 2022 proceedings, printed pp. 2673–2690",
+        "map_file": "intro-source-maps/sj-6787cd9815.md",
+        "unit_count": 59,
+        "primary_sha256": "4ca81607c7addf0e0d7ae89efb3f0263b26ad5d8e6ec2d7e3b57557c47477fb3",
+        "introduction_physical_pages_inclusive": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "source_id": "sj-3698195c5a",
+      "title": "MINER",
+      "designated_url": "https://arxiv.org/pdf/2303.02545v1",
+      "designated_version": "arXiv:2303.02545v1, 5 March 2023",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#miner",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2303.02545v1",
+        "actual_version": "arXiv:2303.02545v1, 5 March 2023",
+        "map_file": "intro-source-maps/sj-3698195c5a.md",
+        "unit_count": 49,
+        "reading_scope_note": "sj-3698195c5a; https://arxiv.org/pdf/2303.02545v1; 5 March 2023 v1. Complete Introduction physical pp.1–2 reread, ending at §2; adjacent REST request examples also inspected. Source contains long numbered operations embedded in prose. The map keeps sentence units, marking semicolon-delimited operations where grammatical sentence boundaries share a single chain."
+      }
+    },
+    {
+      "source_id": "sj-390b20426f",
+      "title": "CPscan",
+      "designated_url": "https://www-users.cse.umn.edu/~kjlu/papers/cpscan.pdf",
+      "designated_version": "Coauthor-hosted ACM CCS '21 proceedings-typeset copy, printed pp. 794–810, 17 physical pages. No byte/content equality with a separately retrieved ACM VOR asserted.",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#cpscan",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www-users.cse.umn.edu/~kjlu/papers/cpscan.pdf",
+        "actual_version": "Coauthor-hosted ACM CCS '21 proceedings-typeset copy, printed pp. 794–810, 17 physical pages. No byte/content equality with a separately retrieved ACM VOR asserted.",
+        "map_file": "intro-source-maps/sj-390b20426f.md",
+        "unit_count": 85,
+        "reading_scope_note": "- 本次读取：共著者托管17页CCS2021排版PDF的完整§1（physical pp.1–3 / printed794–796），web行87–291；补读§2起始并核对abstract中的bounded-use-chain判据"
+      }
+    },
+    {
+      "source_id": "sj-689896e985",
+      "title": "SyzTrust",
+      "designated_url": "https://arxiv.org/pdf/2309.14742v1",
+      "designated_version": "arXiv:2309.14742v1, 26 September 2023, submitted by Boyu Chang",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#syztrust",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2309.14742v1",
+        "actual_version": "arXiv:2309.14742v1, 26 September 2023, submitted by Boyu Chang",
+        "map_file": "intro-source-maps/sj-689896e985.md",
+        "unit_count": 65,
+        "primary_sha256": "f23b7a67f9ce9c457d1f379cb9754d3589836b9c2482a4c24a17c094997bf6cd"
+      }
+    },
+    {
+      "source_id": "sj-e48360a284",
+      "title": "LoRAShield",
+      "designated_url": "https://arxiv.org/pdf/2507.07056v2",
+      "designated_version": "arXiv:2507.07056v2, 29 June 2026",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#lorashield",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2507.07056v2",
+        "actual_version": "arXiv:2507.07056v2, 29 June 2026",
+        "map_file": "intro-source-maps/sj-e48360a284.md",
+        "unit_count": 28,
+        "primary_sha256": "5535a7decf274895bfd5f232c9ff6ec27a0d7208d89d86d5bbc7b608d1b48566",
+        "introduction_physical_pages_inclusive": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-56ed062ba0",
+      "title": "The Boy Who Cried Wolf",
+      "designated_url": "https://arxiv.org/pdf/2608.01373v1",
+      "designated_version": "arXiv:2608.01373v1, 2 August 2026",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#cried-wolf",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2608.01373v1",
+        "actual_version": "arXiv:2608.01373v1, 2 August 2026",
+        "map_file": "intro-source-maps/sj-56ed062ba0.md",
+        "unit_count": 29,
+        "reading_scope_note": "sj-56ed062ba0; arXiv:2608.01373v1, 2 August 2026; https://arxiv.org/pdf/2608.01373v1. Complete Introduction pp.1–2 reread from frozen PDF and text; two-column continuation restored: P5 runs from p.2 left bottom to right top before the contribution list. This map discusses rhetorical choices without operational attack instructions."
+      }
+    },
+    {
+      "source_id": "sj-385d46e392",
+      "title": "The Eminence in Shadow",
+      "designated_url": "https://arxiv.org/pdf/2512.10402v2",
+      "designated_version": "arXiv:2512.10402v2, 17 December 2025",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#eminence",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2512.10402v2",
+        "actual_version": "arXiv:2512.10402v2, 17 December 2025",
+        "map_file": "intro-source-maps/sj-385d46e392.md",
+        "unit_count": 28,
+        "reading_scope_note": "- 本次读取：arXiv:2512.10402v2明确日期17 Dec2025、12页PDF，完整Introduction physical pp.1–2（web行87–175）；另含KDD2026排版字段，仍按指定arXiv版本"
+      }
+    },
+    {
+      "source_id": "sj-6a7f688210",
+      "title": "FaceArmor",
+      "designated_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/13026.pdf",
+      "designated_version": "ECCV 2026 conference-hosted author PDF, metadata produced 2026-06-29",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#facearmor",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/13026.pdf",
+        "actual_version": "ECCV 2026 conference-hosted author PDF, metadata produced 2026-06-29",
+        "map_file": "intro-source-maps/sj-6a7f688210.md",
+        "unit_count": 41,
+        "primary_sha256": "3afb23e11cbe665510ce1a38b77d709b38676f3a6ec66bf647af10ae67ad433b"
+      }
+    },
+    {
+      "source_id": "sj-cc51b110bc",
+      "title": "VideoEraser",
+      "designated_url": "https://aclanthology.org/2025.emnlp-main.304.pdf",
+      "designated_version": "Official EMNLP 2025 ACL proceedings PDF, pp.5954-5983",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#videoeraser",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2025.emnlp-main.304.pdf",
+        "actual_version": "Official EMNLP 2025 ACL proceedings PDF, pp.5954-5983",
+        "map_file": "intro-source-maps/sj-cc51b110bc.md",
+        "unit_count": 33,
+        "primary_sha256": "f0d7a4fcb0f826cc27dcadfd514db5f55d1c536e04d248bc0b2455e4a3c25d47",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-07015463d4",
+      "title": "InvMM",
+      "designated_url": "https://arxiv.org/pdf/2405.05846v3",
+      "designated_version": "arXiv:2405.05846v3 [cs.CR], 31 July 2025",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#invmm",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2405.05846v3",
+        "actual_version": "arXiv:2405.05846v3 [cs.CR], 31 July 2025",
+        "map_file": "intro-source-maps/sj-07015463d4.md",
+        "unit_count": 36,
+        "reading_scope_note": "sj-07015463d4; https://arxiv.org/pdf/2405.05846v3; 31 July 2025 v3. Complete Introduction pp.1–2 reread from frozen PDF using left/right column extraction to correct default text ordering; adjacent §2 and §4.1 inspected to distinguish a distribution measure from single-vector inversion. Paper's legal assertions are source framing, not legal conclusions endorsed here."
+      }
+    },
+    {
+      "source_id": "sj-a68da04b3f",
+      "title": "Quantifying Graph Anonymity, Utility, and De-anonymity",
+      "designated_url": "https://nesa.zju.edu.cn/download/Quantifying%20Graph%20Anonymity%2C%20Utility%2C%20and%20De-anonymity.pdf",
+      "designated_version": "Author/lab-hosted INFOCOM2018 9-page manuscript, no final proceedings pagination",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#quantifying",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Quantifying%20Graph%20Anonymity%2C%20Utility%2C%20and%20De-anonymity.pdf",
+        "actual_version": "Author/lab-hosted INFOCOM2018 9-page manuscript, no final proceedings pagination",
+        "map_file": "intro-source-maps/sj-a68da04b3f.md",
+        "unit_count": 28,
+        "reading_scope_note": "- 本次读取：作者/实验室托管9页PDF完整§I，physical pp.1–2；补读§III定义（pp.2–3）、§VIII评价方法与比较分母（p.8）"
+      },
+      "aliases": [
+        "Quantifying"
+      ]
+    },
+    {
+      "source_id": "sj-afda94caf1",
+      "title": "Graph Data Survey",
+      "designated_url": "https://nesa.zju.edu.cn/download/Graph%20Data%20Anonymization%2C%20De-anonymization%20Attacks%2C%20and%20De-anonymizability%20Quantification%20A%20Survey.pdf",
+      "designated_version": "IEEE accepted-not-fully-edited manuscript, 22 physical pages, DOI 10.1109/COMST.2016.2633620",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#graph-survey",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Graph%20Data%20Anonymization%2C%20De-anonymization%20Attacks%2C%20and%20De-anonymizability%20Quantification%20A%20Survey.pdf",
+        "actual_version": "IEEE accepted-not-fully-edited manuscript, 22 physical pages, DOI 10.1109/COMST.2016.2633620",
+        "map_file": "intro-source-maps/sj-afda94caf1.md",
+        "unit_count": 32,
+        "primary_sha256": "7a945987d79b8d9b1930c32245cc7302bcafbc5d33c6caddb438f4c46f6713b9"
+      }
+    },
+    {
+      "source_id": "sj-354b8db00c",
+      "title": "Structural Data De-anonymization",
+      "designated_url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf",
+      "designated_version": "IEEE/ACM ToN early-access typeset article, 14 physical pages, stated content-final except pagination",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#structural",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf",
+        "actual_version": "IEEE/ACM ToN early-access typeset article, 14 physical pages, stated content-final except pagination",
+        "map_file": "intro-source-maps/sj-354b8db00c.md",
+        "unit_count": 38,
+        "primary_sha256": "bc5a920165d9b1d3e693c3d92d515a71d1a31374e34bff924b1506017a6fa8ab",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Version: content-final ToN early-access typeset article, DOI10.1109/TNET.2016.2536479; 14 physical pages. Introduction pp.1–2. Full introduction reread plus §II data/attack assumptions. Local primary source: sources/sj-354b8db00c.pdf."
+      }
+    },
+    {
+      "source_id": "sj-d5ccc8652b",
+      "title": "ACIArena",
+      "designated_url": "https://aclanthology.org/2026.acl-long.457.pdf",
+      "designated_version": "Official ACL 2026 Volume 1 long-paper proceedings",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#aciarena",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2026.acl-long.457.pdf",
+        "actual_version": "Official ACL 2026 Volume 1 long-paper proceedings",
+        "map_file": "intro-source-maps/sj-d5ccc8652b.md",
+        "unit_count": 29,
+        "reading_scope_note": "sj-d5ccc8652b; official ACL 2026 long-paper proceedings pp.10049–10066; https://aclanthology.org/2026.acl-long.457.pdf. Complete Introduction physical1–2/printed10049–10050 reread from cached PDF/text. Known → new [relation]; ⇒ callback."
+      }
+    },
+    {
+      "source_id": "sj-4391324662",
+      "title": "IPIGuard",
+      "designated_url": "https://aclanthology.org/2025.emnlp-main.53.pdf",
+      "designated_version": "Official EMNLP 2025 proceedings",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ipiguard",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2025.emnlp-main.53.pdf",
+        "actual_version": "Official EMNLP 2025 proceedings",
+        "map_file": "intro-source-maps/sj-4391324662.md",
+        "unit_count": 29,
+        "reading_scope_note": "- 本次完整读取：EMNLP2025官方17页PDF，Introduction physical pp.1–2 / printed1023–1024，web行37–144；补读§2.1–2.3（1024–1025）"
+      }
+    },
+    {
+      "source_id": "sj-c1e338ca9f",
+      "title": "Beyond the Payload",
+      "designated_url": "https://arxiv.org/pdf/2608.30686v1",
+      "designated_version": "arXiv:2608.30686v1 [cs.CR], 2026-08-31",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#beyond",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2608.30686v1",
+        "actual_version": "arXiv:2608.30686v1 [cs.CR], 2026-08-31",
+        "map_file": "intro-source-maps/sj-c1e338ca9f.md",
+        "unit_count": 34,
+        "primary_sha256": "5d794a2dd521d86d99de2361e472ec15b38cfc5e34edf2a8ab9ad2ceac498caf"
+      }
+    },
+    {
+      "source_id": "sj-d1fc8dd7b9",
+      "title": "Privacy-preserving Triangle Counting in Directed Graphs",
+      "designated_url": "https://nesa.zju.edu.cn/download/Privacy-Preserving_Triangle_Counting_in_Directed_Graphs.pdf",
+      "designated_version": "ICDE 2025 proceedings PDF, 13 physical pages, printed 2588-2600, DOI 10.1109/ICDE65448.2025.00195",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#triangle",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Privacy-Preserving_Triangle_Counting_in_Directed_Graphs.pdf",
+        "actual_version": "ICDE 2025 proceedings PDF, 13 physical pages, printed 2588-2600, DOI 10.1109/ICDE65448.2025.00195",
+        "map_file": "intro-source-maps/sj-d1fc8dd7b9.md",
+        "unit_count": 65,
+        "introduction_physical_pages_inclusive": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "source_id": "sj-7271bf4af3",
+      "title": "Dyn-D2P",
+      "designated_url": "https://arxiv.org/pdf/2505.06651v1",
+      "designated_version": "arXiv:2505.06651v1 [cs.LG], 10 May 2025, 22-page author PDF with Appendices A-G",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#dyn-d2p",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2505.06651v1",
+        "actual_version": "arXiv:2505.06651v1 [cs.LG], 10 May 2025, 22-page author PDF with Appendices A-G",
+        "map_file": "intro-source-maps/sj-7271bf4af3.md",
+        "unit_count": 27,
+        "reading_scope_note": "sj-7271bf4af3; https://arxiv.org/pdf/2505.06651v1; 10 May 2025 v1,22 pages. Complete Introduction physical1–2 reread; adjacent GDP definitions/related work inspected. Equation1 is an embedded problem definition, not a prose sentence. Each S: known→new [relation]; ⇒later callback."
+      }
+    },
+    {
+      "source_id": "sj-dc32e376bc",
+      "title": "AsgLDP",
+      "designated_url": "https://nesa.zju.edu.cn/download/AsgLDP%20Collecting%20and%20Generating%20Decentralized%20Attributed%20Graphs%20with%20Local%20Differential%20Privacy.pdf",
+      "designated_version": "Published IEEE TIFS15 (2020) PDF, 16 pages, printed3239-3254",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#asgldp",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/AsgLDP%20Collecting%20and%20Generating%20Decentralized%20Attributed%20Graphs%20with%20Local%20Differential%20Privacy.pdf",
+        "actual_version": "Published IEEE TIFS15 (2020) PDF, 16 pages, printed3239-3254",
+        "map_file": "intro-source-maps/sj-dc32e376bc.md",
+        "unit_count": 26,
+        "reading_scope_note": "- 本次读取：TIFS15正式排版16页PDF，Introduction完整physical pp.1–2 / printed3239–3240，web行65–143；补读§II-B/§III-A/B（3240–3242）"
+      }
+    },
+    {
+      "source_id": "sj-33b7f0ad03",
+      "title": "FreeEagle",
+      "designated_url": "https://arxiv.org/pdf/2302.14500v1",
+      "designated_version": "arXiv:2302.14500v1, 28 February 2023",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2302.14500v1",
+        "actual_version": "arXiv:2302.14500v1, 28 February 2023",
+        "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+        "unit_count": 45,
+        "primary_sha256": "38062fb4e424f80bd3f270722f809dc48142984783e373c9c46696292c6f0f42"
+      }
+    },
+    {
+      "source_id": "sj-f612de4bf1",
+      "title": "Is Your Explanation Stable?",
+      "designated_url": "https://arxiv.org/pdf/2209.01782v1",
+      "designated_version": "arXiv:2209.01782v1, 5 September 2022",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#metfa",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2209.01782v1",
+        "actual_version": "arXiv:2209.01782v1, 5 September 2022",
+        "map_file": "intro-source-maps/sj-f612de4bf1.md",
+        "unit_count": 68,
+        "primary_sha256": "bd5271d93ef8b39ef7f5acbc08cf1c2f692165405158ef4bfcd2d13f86652d14",
+        "introduction_physical_pages_inclusive": [
+          1,
+          3
+        ],
+        "reading_scope_note": "Source https://arxiv.org/pdf/2209.01782v1;5Sep2022 v1,CCS2022 author version19pp. Full introduction pp.1–3 and §2 explanation taxonomy reread."
+      },
+      "aliases": [
+        "MeTFA"
+      ]
+    },
+    {
+      "source_id": "sj-1e819403d4",
+      "title": "Copy, Right?",
+      "designated_url": "https://arxiv.org/pdf/2112.05588v1",
+      "designated_version": "arXiv:2112.05588v1, 10 December 2021",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#copy-right",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2112.05588v1",
+        "actual_version": "arXiv:2112.05588v1, 10 December 2021",
+        "map_file": "intro-source-maps/sj-1e819403d4.md",
+        "unit_count": 47,
+        "reading_scope_note": "sj-1e819403d4; https://arxiv.org/pdf/2112.05588v1; 10 December 2021 v1. Complete Introduction physical1–2 reread; source is preprint marked forthcoming S&P2022. Known→new [prior relation]; ⇒callback. Legal/copyright language describes authors' technical motivation, not legal adjudication."
+      }
+    },
+    {
+      "source_id": "sj-8d71597fb2",
+      "title": "IPPO",
+      "designated_url": "https://www-users.cse.umn.edu/~kjlu/papers/ippo.pdf",
+      "designated_version": "Coauthor-hosted ACM CCS 2021 proceedings-formatted copy",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ippo",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www-users.cse.umn.edu/~kjlu/papers/ippo.pdf",
+        "actual_version": "Coauthor-hosted ACM CCS 2021 proceedings-formatted copy",
+        "map_file": "intro-source-maps/sj-8d71597fb2.md",
+        "unit_count": 57,
+        "reading_scope_note": "- 本次读取：18页共著者托管CCS2021排版稿，完整Introduction physical pp.1–3 / printed1627–1629（web行79–215）；补读§2.1、§3及§4.2开头（pp.3–4）"
+      }
+    },
+    {
+      "source_id": "sj-049fb65998",
+      "title": "IMMI",
+      "designated_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf",
+      "designated_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#immi",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf",
+        "actual_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+        "map_file": "intro-source-maps/sj-049fb65998.md",
+        "unit_count": 60,
+        "primary_sha256": "e4dc56375c803719708a7b749202931401db47371a8fd012390671b4bd60d3e0"
+      }
+    },
+    {
+      "source_id": "sj-23809d776d",
+      "title": "TFA",
+      "designated_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-improving.pdf",
+      "designated_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#tfa",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-improving.pdf",
+        "actual_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+        "map_file": "intro-source-maps/sj-23809d776d.md",
+        "unit_count": 68,
+        "primary_sha256": "9834a3f3c5f134b03ca60f4fbc71b40fd0ea2a91f9c8450c5bfe3cae67cf8b02",
+        "introduction_physical_pages_inclusive": [
+          2,
+          4
+        ],
+        "reading_scope_note": "Source https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-improving.pdf;USENIXSecurity2024 cover+18pp, introduction physical2–4 / printed5895–5897. Full intro and §2 illustrative matching/broken-type motivation reread."
+      }
+    },
+    {
+      "source_id": "sj-c153987a94",
+      "title": "Tacoma",
+      "designated_url": "https://users.cs.northwestern.edu/~ychen/Papers/issta24main-p723-CameraReady.pdf",
+      "designated_version": "ISSTA 2024 coauthor-hosted camera-ready PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#tacoma",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://users.cs.northwestern.edu/~ychen/Papers/issta24main-p723-CameraReady.pdf",
+        "actual_version": "ISSTA 2024 coauthor-hosted camera-ready PDF",
+        "map_file": "intro-source-maps/sj-c153987a94.md",
+        "unit_count": 51,
+        "reading_scope_note": "sj-c153987a94; ISSTA2024 coauthor-hosted camera-ready; https://users.cs.northwestern.edu/~ychen/Papers/issta24main-p723-CameraReady.pdf. Complete Introduction physical1–2 reread. PDF font extraction corrupts some branded names/ligatures; framework identity verified by title/URL; semantic text legible. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-e82106495c",
+      "title": "SLIME",
+      "designated_url": "https://zhexwang.github.io/papers/slime.pdf",
+      "designated_version": "ISSTA 2022 coauthor-hosted published-format PDF, physical pp.1-13 / printed pp.365-377",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#slime",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://zhexwang.github.io/papers/slime.pdf",
+        "actual_version": "ISSTA 2022 coauthor-hosted published-format PDF, physical pp.1-13 / printed pp.365-377",
+        "map_file": "intro-source-maps/sj-e82106495c.md",
+        "unit_count": 39,
+        "reading_scope_note": "- 本次读取：13页ISSTA2022共著者托管PDF，完整Introduction physical pp.1–2 / printed365–366（web行93–181）；补读§2.4及§3.1（367–368）"
+      }
+    },
+    {
+      "source_id": "sj-e0e45fc435",
+      "title": "V-Fuzz",
+      "designated_url": "https://nesa.zju.edu.cn/download/V-Fuzz%20Vulnerability%20Prediction-Assisted%20Evolutionary%20Fuzzing%20for%20Binary%20Programs.pdf",
+      "designated_version": "IEEE Transactions on Cybernetics early-access published PDF, accepted 2020-07-25",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#v-fuzz",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/V-Fuzz%20Vulnerability%20Prediction-Assisted%20Evolutionary%20Fuzzing%20for%20Binary%20Programs.pdf",
+        "actual_version": "IEEE Transactions on Cybernetics early-access published PDF, accepted 2020-07-25",
+        "map_file": "intro-source-maps/sj-e0e45fc435.md",
+        "unit_count": 40,
+        "primary_sha256": "0ccbc4b81d00f1067a6488e790c667297b4926c774bdd78f0d68d95cda141a5f"
+      }
+    },
+    {
+      "source_id": "sj-bee854378e",
+      "title": "Beyond Over-Refusal",
+      "designated_url": "https://arxiv.org/pdf/2608.22248v1",
+      "designated_version": "arXiv:2608.22248v1 [cs.CR], 2026-08-23, 16 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#beyond-over-refusal",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2608.22248v1",
+        "actual_version": "arXiv:2608.22248v1 [cs.CR], 2026-08-23, 16 pages",
+        "map_file": "intro-source-maps/sj-bee854378e.md",
+        "unit_count": 26,
+        "primary_sha256": "8c06abfddf3e47f6c0c35860cae8053fc43a9ef674699bda4e5752387bd21066",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-5d2b368fef",
+      "title": "JailNeurons",
+      "designated_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/096347b4efc264ae7f07742fea34af1f-Paper-Conference.pdf",
+      "designated_version": "Official ICLR 2026 proceedings PDF, 24 physical/printed pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#jailneurons",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/096347b4efc264ae7f07742fea34af1f-Paper-Conference.pdf",
+        "actual_version": "Official ICLR 2026 proceedings PDF, 24 physical/printed pages",
+        "map_file": "intro-source-maps/sj-5d2b368fef.md",
+        "unit_count": 37,
+        "reading_scope_note": "sj-5d2b368fef; official ICLR2026 proceedings,24 pages; https://proceedings.iclr.cc/paper_files/paper/2026/file/096347b4efc264ae7f07742fea34af1f-Paper-Conference.pdf. Complete Introduction physical1–3 reread; §3/§4.1–4.2 inspected to confirm white-box assumptions and multilayer rationale. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-3f8dd6be89",
+      "title": "AEIOU",
+      "designated_url": "https://arxiv.org/pdf/2412.18123v3",
+      "designated_version": "arXiv:2412.18123v3 [cs.CR], 2025-12-09, 15 pages, seven authors",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#aeiou",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Exact arXiv v3 failed web fetch (400 OK). No complete local copy found. No inference from historical notes."
+      }
+    },
+    {
+      "source_id": "sj-5f4c0a6a8e",
+      "title": "Efficient Query-Based Attack against ML-Based Android Malware Detection under Zero Knowledge Setting",
+      "designated_url": "https://arxiv.org/pdf/2309.01866v2",
+      "designated_version": "arxiv_v2_2023-09-06_camera_ready_format",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#advdroidzero",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2309.01866v2",
+        "actual_version": "arxiv_v2_2023-09-06_camera_ready_format",
+        "map_file": "intro-source-maps/sj-5f4c0a6a8e.md",
+        "unit_count": 58,
+        "primary_sha256": "02e42df989583baadee0019ef05067ca764511c3da205ae7582f76b2a9976e4b"
+      }
+    },
+    {
+      "source_id": "sj-4355bf5c6a",
+      "title": "Defending against Adversarial Malware Attacks on ML-based Android Malware Detection Methods",
+      "designated_url": "https://discovery.ucl.ac.uk/id/eprint/10230562/1/Defending_against_Adversarial_Malware_Attacks_on_ML-based_Android_Malware_Detection_Methods.pdf",
+      "designated_version": "UCL institutional accepted manuscript, TIFS DOI10.1109/TIFS.2026.3729519, 16 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#add",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://discovery.ucl.ac.uk/id/eprint/10230562/1/Defending_against_Adversarial_Malware_Attacks_on_ML-based_Android_Malware_Detection_Methods.pdf",
+        "actual_version": "UCL institutional accepted manuscript, TIFS DOI10.1109/TIFS.2026.3729519, 16 pages",
+        "map_file": "intro-source-maps/sj-4355bf5c6a.md",
+        "unit_count": 40,
+        "primary_sha256": "5e792309d53b78f8b9191b0288fb2eaee94d0d1154212b9e133575bf325e41fa",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-81630a3e7e",
+      "title": "JWBinder",
+      "designated_url": "https://arxiv.org/pdf/2310.17304v2",
+      "designated_version": "arXiv:2310.17304v2, revised 2024-04-19",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2310.17304v2",
+        "actual_version": "arXiv:2310.17304v2, revised 2024-04-19",
+        "map_file": "intro-source-maps/sj-81630a3e7e.md",
+        "unit_count": 65,
+        "reading_scope_note": "Paper sj-81630a3e7e; https://arxiv.org/pdf/2310.17304v2; revised 19 April 2024. Actual reread: complete Introduction physical/printed pp.1–4 and adjacent §2.1–2.2, cached （源缓存未附带） and jwbinder.txt."
+      }
+    },
+    {
+      "source_id": "sj-5408c8ca01",
+      "title": "Integer Is Enough",
+      "designated_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29388/30622",
+      "designated_version": "Official AAAI 2024 proceedings PDF, volume 38(13), printed pp.14704–14712",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#integer",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29388/30622",
+        "actual_version": "Official AAAI 2024 proceedings PDF, volume 38(13), printed pp.14704–14712",
+        "map_file": "intro-source-maps/sj-5408c8ca01.md",
+        "unit_count": 43,
+        "reading_scope_note": "- 本次读取：官方AAAI2024 9页PDF，完整Introduction physical pp.1–2 / printed14704–14705（web行24–107）；补读rounding forward/backward、error bound和privacy measurement（14706–14707）"
+      }
+    },
+    {
+      "source_id": "sj-e3479d788f",
+      "title": "Hijack Vertical Federated Learning Models As One Party",
+      "designated_url": "https://arxiv.org/pdf/2212.00322v2",
+      "designated_version": "arXiv:2212.00322v2, 16 February 2024",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#hijack-vfl",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2212.00322v2",
+        "actual_version": "arXiv:2212.00322v2, 16 February 2024",
+        "map_file": "intro-source-maps/sj-e3479d788f.md",
+        "unit_count": 47,
+        "primary_sha256": "e3248c9e949ec6531fd723c9a89d20efd3303ba5eb309e2bffd7655933ba81bc"
+      }
+    },
+    {
+      "source_id": "sj-2ada62afcb",
+      "title": "CAMH",
+      "designated_url": "https://arxiv.org/pdf/2408.13741v2",
+      "designated_version": "arXiv:2408.13741v2, 20 December 2024",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#camh",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2408.13741v2",
+        "actual_version": "arXiv:2408.13741v2, 20 December 2024",
+        "map_file": "intro-source-maps/sj-2ada62afcb.md",
+        "unit_count": 33,
+        "primary_sha256": "af413954bbbe9b76392eb862bb08015330e7a3cbc03e67dda838cc65f8e30c07",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Source https://arxiv.org/pdf/2408.13741v2;20Dec2024 v2/AAAI2025 imprint. Full introduction pp.1–2 and §2 relationship to backdoor/model-hijacking reread."
+      }
+    },
+    {
+      "source_id": "sj-79aa4ab765",
+      "title": "STAR",
+      "designated_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2cc14599eb447444a2efee58aa0a5ec7-Paper-Conference.pdf",
+      "designated_version": "Official ICLR 2026 proceedings PDF, 26 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#star",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2cc14599eb447444a2efee58aa0a5ec7-Paper-Conference.pdf",
+        "actual_version": "Official ICLR 2026 proceedings PDF, 26 pages",
+        "map_file": "intro-source-maps/sj-79aa4ab765.md",
+        "unit_count": 34,
+        "reading_scope_note": "sj-79aa4ab765; official ICLR2026,26 pages; https://proceedings.iclr.cc/paper_files/paper/2026/file/2cc14599eb447444a2efee58aa0a5ec7-Paper-Conference.pdf. Complete Introduction physical1–2 reread. Known→new [relation]; ⇒callback. Security-method content is described at rhetorical/conceptual level."
+      }
+    },
+    {
+      "source_id": "sj-b3c120b511",
+      "title": "StealthGraph",
+      "designated_url": "https://aclanthology.org/2026.acl-long.295.pdf",
+      "designated_version": "Official ACL 2026 long-paper proceedings, final title StealthGraph",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#stealthgraph",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Official ACL2026 PDF returned Internal Error. No complete local copy found. No inference from historical notes."
+      }
+    },
+    {
+      "source_id": "sj-c44bf3b6f8",
+      "title": "AdversaFlow",
+      "designated_url": "https://nesa.zju.edu.cn/download/dazhen_adversaflow.pdf",
+      "designated_version": "Final IEEE TVCG 31(1), January 2025, pp.492-502",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#adversaflow",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/dazhen_adversaflow.pdf",
+        "actual_version": "Final IEEE TVCG 31(1), January 2025, pp.492-502",
+        "map_file": "intro-source-maps/sj-c44bf3b6f8.md",
+        "unit_count": 42,
+        "primary_sha256": "641c08fcd991268dc686fc44b3625869a5b045f05b0e5ad672338da780cc520a",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2（印刷492–493） 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-c5e66ab4fe",
+      "title": "Understanding the Security Risks of Docker Hub",
+      "designated_url": "https://www-users.cse.umn.edu/~kjlu/papers/docker.pdf",
+      "designated_version": "Coauthor-hosted LNCS-style author copy associated with ESORICS 2020",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#docker",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www-users.cse.umn.edu/~kjlu/papers/docker.pdf",
+        "actual_version": "Coauthor-hosted LNCS-style author copy associated with ESORICS 2020",
+        "map_file": "intro-source-maps/sj-c5e66ab4fe.md",
+        "unit_count": 63,
+        "primary_sha256": "d2fc7896d29bc5b8e8009545f97138b1552009ba676b4cdaedad7cc0923381c2",
+        "introduction_physical_pages_inclusive": [
+          1,
+          4
+        ]
+      }
+    },
+    {
+      "source_id": "sj-601d126363",
+      "title": "How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+      "designated_url": "https://nesa.zju.edu.cn/download/lpy_pdf_sp23.pdf",
+      "designated_version": "17-page NESA author-lab manuscript, indexed web PDF only",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#iot",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/lpy_pdf_sp23.pdf",
+        "actual_version": "17-page NESA author-lab manuscript, indexed web PDF only",
+        "map_file": "intro-source-maps/sj-601d126363.md",
+        "unit_count": 57,
+        "reading_scope_note": "17-page NESA author-lab manuscript; inspected source title uses Re-using, with Recycling retained as a legacy index alias. Official published canonical title not established here. Complete Introduction pp.1–2 read. Known→new [relation]; ⇒callback."
+      },
+      "aliases": [
+        "IoT Re-using",
+        "How IoT Recycling Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+        "IoT Recycling"
+      ],
+      "actual_source_title": "How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+      "title_note": "Inspected source title uses Re-using; Recycling is a legacy index alias. Official published canonical title not established here."
+    },
+    {
+      "source_id": "sj-ac970c8450",
+      "title": "Exploring ChatGPT’s Capabilities on Vulnerability Management",
+      "designated_url": "https://liu-junming.github.io/paper/ChatGPT-VM/Paper-Exploring_ChatGPT%27s_Capabilities_on_Vulnerability_Management.pdf",
+      "designated_version": "18-page coauthor-hosted manuscript associated with USENIX Security 2024",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#chatgpt-vm",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://liu-junming.github.io/paper/ChatGPT-VM/Paper-Exploring_ChatGPT%27s_Capabilities_on_Vulnerability_Management.pdf",
+        "actual_version": "18-page coauthor-hosted manuscript associated with USENIX Security 2024",
+        "map_file": "intro-source-maps/sj-ac970c8450.md",
+        "unit_count": 43,
+        "reading_scope_note": "- 本次读取：18页共著者托管稿完整Introduction physical pp.1–2（web行32–108）；补读§2.1六任务接口、§3.1–3.3评估流程（pp.2–5）"
+      },
+      "aliases": [
+        "ChatGPT-VM"
+      ]
+    },
+    {
+      "source_id": "sj-99f5cc87cc",
+      "title": "PRSA",
+      "designated_url": "https://nesa.zju.edu.cn/download/usenixsecurity25-yang-yong.pdf",
+      "designated_version": "USENIX Security 2025 proceedings, 21 PDF pages incl. cover",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#prsa",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/usenixsecurity25-yang-yong.pdf",
+        "actual_version": "USENIX Security 2025 proceedings, 21 PDF pages incl. cover",
+        "map_file": "intro-source-maps/sj-99f5cc87cc.md",
+        "unit_count": 64,
+        "primary_sha256": "8b97941bdb4c7f1974cc657e75140562ce7ef73fb9e90034124f935d610191b2",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 2–4（印刷2283–2285；物理1为封面） 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-a904202f3c",
+      "title": "AHEAD",
+      "designated_url": "https://arxiv.org/pdf/2110.07505v1",
+      "designated_version": "arXiv:2110.07505v1, 2021-10-14",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ahead",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2110.07505v1",
+        "actual_version": "arXiv:2110.07505v1, 2021-10-14",
+        "map_file": "intro-source-maps/sj-a904202f3c.md",
+        "unit_count": 37,
+        "primary_sha256": "d331e3db4b72b33054fc040e999e80966dfa53fb231d55bbea0f60abd6f650bc",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Source https://arxiv.org/pdf/2110.07505v1; exact14Oct2021 v1,CCS2021 author version. Introduction pp.1–2. Full intro plus §2 privacy definition/FO and §3 baseline mechanisms reread."
+      }
+    },
+    {
+      "source_id": "sj-d51010872e",
+      "title": "MOpt",
+      "designated_url": "https://www.usenix.org/system/files/sec19-lyu.pdf",
+      "designated_version": "USENIX Security 2019 official proceedings PDF, 19 physical pages including cover; printed 1949–1966; introduction physical 2–3",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mopt",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec19-lyu.pdf",
+        "actual_version": "USENIX Security 2019 official proceedings PDF, 19 physical pages including cover; printed 1949–1966; introduction physical 2–3",
+        "map_file": "intro-source-maps/sj-d51010872e.md",
+        "unit_count": 36,
+        "reading_scope_note": "sj-d51010872e; official USENIX Security2019 pp.1949–1966,19 physical pages including cover; https://www.usenix.org/system/files/sec19-lyu.pdf. Complete Introduction physical2–3/printed1949–1950 reread via primary PDF web lines38–128. The alternative21-page lab manuscript was not substituted. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-26271ecf21",
+      "title": "UNIFUZZ",
+      "designated_url": "https://www.usenix.org/system/files/sec21-li-yuwei.pdf",
+      "designated_version": "USENIX Security 2021 official proceedings PDF, 19 physical pages including cover; introduction physical 2–3 / printed 2777–2778",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#unifuzz",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.usenix.org/system/files/sec21-li-yuwei.pdf",
+        "actual_version": "USENIX Security 2021 official proceedings PDF, 19 physical pages including cover; introduction physical 2–3 / printed 2777–2778",
+        "map_file": "intro-source-maps/sj-26271ecf21.md",
+        "unit_count": 46,
+        "reading_scope_note": "- 目录版本: USENIX Security 2021 official proceedings PDF, 19 physical pages including cover; introduction physical 2–3 / printed 2777–2778 - 本次读取：官方19页PDF完整Introduction，physical pp.2–3 / printed2777–2778；补读§2基准/评价要求（physical3–4）、§5.1/§5.2 instrumentation与crash-analysis findings（printed2789–2790附近）"
+      },
+      "aliases": [
+        "UniFuzz"
+      ]
+    },
+    {
+      "source_id": "sj-f6b808ce92",
+      "title": "AdvSQLi",
+      "designated_url": "https://arxiv.org/pdf/2401.02615v3",
+      "designated_version": "arXiv:2401.02615v3，2024-01-09；作者稿",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#advsqli",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2401.02615v3",
+        "actual_version": "arXiv:2401.02615v3，2024-01-09；作者稿",
+        "map_file": "intro-source-maps/sj-f6b808ce92.md",
+        "unit_count": 35,
+        "primary_sha256": "2e0c2634dfcac2686d0592ef325442e56ecbc5904a3fe18e145d603f6c21ecf9",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-3419195084",
+      "title": "HashVFL",
+      "designated_url": "https://arxiv.org/pdf/2212.00325v2",
+      "designated_version": "arXiv:2212.00325v2, 2024-01-22",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#hashvfl",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2212.00325v2",
+        "actual_version": "arXiv:2212.00325v2, 2024-01-22",
+        "map_file": "intro-source-maps/sj-3419195084.md",
+        "unit_count": 54,
+        "primary_sha256": "29d03a5269b9e6f663f6a33d8a86d19cce639c07b693fc5ba9931313ad0ab3df",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Source https://arxiv.org/pdf/2212.00325v2; exact22Jan2024 v2. Full introduction physicalpp.1–2; §II hashing/threat model reread. Cached primary PDF validated by visible v2 date."
+      }
+    },
+    {
+      "source_id": "sj-4666101c6f",
+      "title": "Git LFS",
+      "designated_url": "https://nesa.zju.edu.cn/download/sp2025c2-final59.pdf",
+      "designated_version": "Author-hosted sp2025c2-final59.pdf, 18 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#git-lfs",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/sp2025c2-final59.pdf",
+        "actual_version": "Author-hosted sp2025c2-final59.pdf, 18 pages",
+        "map_file": "intro-source-maps/sj-4666101c6f.md",
+        "unit_count": 35,
+        "reading_scope_note": "sj-4666101c6f; author-hosted sp2025c2-final59.pdf,18 pages; https://nesa.zju.edu.cn/download/sp2025c2-final59.pdf. Complete Introduction physical1–2 read via primary web PDF lines23–132. Local fetch403; full web text available. Known→new [relation]; ⇒callback. Attack catalogue summarized at the consequence level only."
+      }
+    },
+    {
+      "source_id": "sj-1966c7bea7",
+      "title": "Navigating the Risks（含Ethics的早期标题）",
+      "designated_url": "https://arxiv.org/pdf/2411.09523v1",
+      "designated_version": "arXiv:2411.09523v1 [cs.AI], 2024-11-14, 48 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#navigating-risks",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2411.09523v1",
+        "actual_version": "arXiv:2411.09523v1 [cs.AI], 2024-11-14, 48 pages",
+        "map_file": "intro-source-maps/sj-1966c7bea7.md",
+        "unit_count": 56,
+        "reading_scope_note": "- 本次读取：arXiv:2411.09523v1，14 Nov2024，48页，完整Introduction physical pp.1–4（web行24–114）；补读§6 Case Study（p.28）、§7 Future Direction（p.34）"
+      }
+    },
+    {
+      "source_id": "sj-b318fccf43",
+      "title": "Kernel Survey",
+      "designated_url": "https://arxiv.org/pdf/2501.16165v3",
+      "designated_version": "arXiv:2501.16165v3 [cs.CR], 2025-12-04, 38 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#kernel-survey",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2501.16165v3",
+        "actual_version": "arXiv:2501.16165v3 [cs.CR], 2025-12-04, 38 pages",
+        "map_file": "intro-source-maps/sj-b318fccf43.md",
+        "unit_count": 39,
+        "primary_sha256": "76901e7b6f1c301779fea6d7bd6dc34ff8a99a46a572142a42ad64e1e1b393e1",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 2–3 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-097f6290bf",
+      "title": "Transfer Attacks Revisited",
+      "designated_url": "https://arxiv.org/pdf/2204.04063v1",
+      "designated_version": "arXiv:2204.04063v1, 2022-04-07, 17-page author manuscript accepted to IEEE S&P 2022",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#transfer-revisited",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2204.04063v1",
+        "actual_version": "arXiv:2204.04063v1, 2022-04-07, 17-page author manuscript accepted to IEEE S&P 2022",
+        "map_file": "intro-source-maps/sj-097f6290bf.md",
+        "unit_count": 38,
+        "primary_sha256": "68de4fff06e148ae31ea0afff7d98a7a28ab0b36ea918685870a727d9ce03588",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-ba26f30f1b",
+      "title": "Adversarial Examples Versus Cloud-based Detectors: A Black-box Empirical Study",
+      "designated_url": "https://arxiv.org/pdf/1901.01223v4",
+      "designated_version": "arXiv:1901.01223v4, 2019-09-14, 17 pages, p.1 states TDSC acceptance",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#cloud-detectors",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/1901.01223v4",
+        "actual_version": "arXiv:1901.01223v4, 2019-09-14, 17 pages, p.1 states TDSC acceptance",
+        "map_file": "intro-source-maps/sj-ba26f30f1b.md",
+        "unit_count": 39,
+        "reading_scope_note": "sj-ba26f30f1b; https://arxiv.org/pdf/1901.01223v4;14 September2019 v4,17 pages, states TDSC acceptance. Complete Introduction pp.1–2 reread including contribution continuation after Table2 and roadmap. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-299c65ef97",
+      "title": "DEEPSEC",
+      "designated_url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf",
+      "designated_version": "Author-hosted 18-page DEEPSEC manuscript, PDF title singular Model",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#deepsec",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf",
+        "actual_version": "Author-hosted 18-page DEEPSEC manuscript, PDF title singular Model",
+        "map_file": "intro-source-maps/sj-299c65ef97.md",
+        "unit_count": 34,
+        "reading_scope_note": "- 本次读取：实验室托管18页稿，完整Introduction physical pp.1–2，web行37–126；补读§II威胁范围、§V-B ensemble case与§VI限制（pp.11–13）"
+      }
+    },
+    {
+      "source_id": "sj-f181e99eae",
+      "title": "De-Health",
+      "designated_url": "https://nesa.zju.edu.cn/download/De-Health%20All%20Your%20Online%20Health%20Information%20Are%20Belong%20to%20Us.pdf",
+      "designated_version": "Author-hosted final-format 12-page ICDE2020 Industry Track text, nine-author block",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#de-health",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/De-Health%20All%20Your%20Online%20Health%20Information%20Are%20Belong%20to%20Us.pdf",
+        "actual_version": "Author-hosted final-format 12-page ICDE2020 Industry Track text, nine-author block",
+        "map_file": "intro-source-maps/sj-f181e99eae.md",
+        "unit_count": 40,
+        "primary_sha256": "5af11287ccc88ed8fe7be9e566a6e211225c2ae74142bf6da1362b7408ecf637",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-5c5bf79d86",
+      "title": "De-SAG",
+      "designated_url": "https://nesa.zju.edu.cn/download/De-SAG%20On%20the%20De-anonymization%20of%20Structure-Attribute%20Graph%20Data.pdf",
+      "designated_version": "Author-hosted 14-page accepted/unfinalized TDSC manuscript",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#de-sag",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/De-SAG%20On%20the%20De-anonymization%20of%20Structure-Attribute%20Graph%20Data.pdf",
+        "actual_version": "Author-hosted 14-page accepted/unfinalized TDSC manuscript",
+        "map_file": "intro-source-maps/sj-5c5bf79d86.md",
+        "unit_count": 29,
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Version accepted/unfinalized TDSC author-hosted manuscript14pp, DOI10.1109/TDSC.2017.2712150; content may change. Full introduction pp.1–2 read via primary PDF web text, plus §2.4/2.5 and §3 to resolve task/model. Retrieval web refs turn1152view0,turn1154view1; direct local download failed, not source text access. Chain P1 graph definition; P2 sharing utility/private information; P3 successful structure-only attacks/theory; P4 published attributes→unanswered privacy impact; P5 study/specific term; two detailed contributions. 推断：引言不是宣布“更多特征效果更好”便结束，而将公开non-PII也降低身份匿名性作为理论问题；随后算法是这种解释的实践兑现。"
+      }
+    },
+    {
+      "source_id": "sj-1ab158f15f",
+      "title": "OB-WSPES",
+      "designated_url": "https://nesa.zju.edu.cn/download/OB-WSPES%20A%20Uniform%20Evaluation%20System%20for%20Obfuscation-based%20Web%20Search%20Privacy.pdf",
+      "designated_version": "Author-hosted undated18-page manuscript associated with DOI",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ob-wspes",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/OB-WSPES%20A%20Uniform%20Evaluation%20System%20for%20Obfuscation-based%20Web%20Search%20Privacy.pdf",
+        "actual_version": "Author-hosted undated18-page manuscript associated with DOI",
+        "map_file": "intro-source-maps/sj-1ab158f15f.md",
+        "unit_count": 43,
+        "reading_scope_note": "sj-1ab158f15f; undated18-page author manuscript; https://nesa.zju.edu.cn/download/OB-WSPES%20A%20Uniform%20Evaluation%20System%20for%20Obfuscation-based%20Web%20Search%20Privacy.pdf. Complete Introduction pp.1–2 reread via primary web PDF lines17–116; not a substituted publisher version. Known→new [relation]; ⇒later callback."
+      }
+    },
+    {
+      "source_id": "sj-4418753cee",
+      "title": "FLEXFUZZ",
+      "designated_url": "https://nesa.zju.edu.cn/download/LH_TIFS_2025_FINAL.pdf",
+      "designated_version": "Author-lab-hosted IEEE-formatted TIFS volume 20 (2025) pp.11728-11743",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#flexfuzz",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Assigned TIFS2025 lab-hosted PDF returned Internal Error in current web retrieval; no cached full copy located."
+      }
+    },
+    {
+      "source_id": "sj-0f6adb9f11",
+      "title": "V-SHUTTLE",
+      "designated_url": "https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf",
+      "designated_version": "Author-lab-hosted ACM CCS 2021 proceedings-formatted 17-page copy",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#v-shuttle",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf",
+        "actual_version": "Author-lab-hosted ACM CCS 2021 proceedings-formatted 17-page copy",
+        "map_file": "intro-source-maps/sj-0f6adb9f11.md",
+        "unit_count": 61,
+        "primary_sha256": "4db976102406ae867bd87d1ea144398b28bcf7afcb21951151e029496a15e738",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–3 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-10097c51e8",
+      "title": "iFIZZ",
+      "designated_url": "https://www-users.cse.umn.edu/~kjlu/papers/ifizz.pdf",
+      "designated_version": "Coauthor Kangjie Lu university-hosted 12-page author PDF without first-page publisher imprint",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ifizz",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www-users.cse.umn.edu/~kjlu/papers/ifizz.pdf",
+        "actual_version": "Coauthor Kangjie Lu university-hosted 12-page author PDF without first-page publisher imprint",
+        "map_file": "intro-source-maps/sj-10097c51e8.md",
+        "unit_count": 60,
+        "primary_sha256": "0a593c4b609022fd6c31ab1f4e4902910355c9486b0b23f809d9736eb0127c45",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-acbc08a57a",
+      "title": "Cert-RNN",
+      "designated_url": "https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf",
+      "designated_version": "19-page NESA author manuscript identifying CCS 2021",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#cert-rnn",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf",
+        "actual_version": "19-page NESA author manuscript identifying CCS 2021",
+        "map_file": "intro-source-maps/sj-acbc08a57a.md",
+        "unit_count": 36,
+        "reading_scope_note": "sj-acbc08a57a;19-page NESA author manuscript identifying CCS2021; https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf. Complete Introduction pp.1–2 reread from cached primary PDF/text. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-593cbfaf86",
+      "title": "Towards Certifying the Asymmetric Robustness for Neural Networks: Quantification and Applications",
+      "designated_url": "https://nesa.zju.edu.cn/download/lcj_pdf_tdsc21.pdf",
+      "designated_version": "18-page NESA author manuscript",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#amoeba",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/lcj_pdf_tdsc21.pdf",
+        "actual_version": "18-page NESA author manuscript",
+        "map_file": "intro-source-maps/sj-593cbfaf86.md",
+        "unit_count": 37,
+        "reading_scope_note": "- 本次读取：18页作者稿完整Introduction（physical pp.1–2），补读§3.1 threat model、§3.2.1形式化与退化关系、§3.2.2 relaxation（pp.3–5）"
+      },
+      "aliases": [
+        "Amoeba"
+      ]
+    },
+    {
+      "source_id": "sj-64e052ffcd",
+      "title": "Dynamic Attention",
+      "designated_url": "https://arxiv.org/pdf/2311.17400v2",
+      "designated_version": "arXiv:2311.17400v2, 2023-11-30",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#dynamic-attention",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2311.17400v2",
+        "actual_version": "arXiv:2311.17400v2, 2023-11-30",
+        "map_file": "intro-source-maps/sj-64e052ffcd.md",
+        "unit_count": 43,
+        "primary_sha256": "5a33c0eba4dfbeb9298e46a04505732b5c01309db8a1acca0c8ae55de9d99e7f",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-92070abe8e",
+      "title": "PROMFUZZ",
+      "designated_url": "https://arxiv.org/pdf/2503.23718v2",
+      "designated_version": "arXiv:2503.23718v2 [cs.SE], 2025-09-28, 13-page author manuscript",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#promfuzz",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2503.23718v2",
+        "actual_version": "arXiv:2503.23718v2 [cs.SE], 2025-09-28, 13-page author manuscript",
+        "map_file": "intro-source-maps/sj-92070abe8e.md",
+        "unit_count": 34,
+        "primary_sha256": "3e1720d10a6df36cc208a349ad8294e56dcd3172b63a4f96fc97839b51aac979",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-fa1fc1d2fa",
+      "title": "Smart Contract Graph Feature / Expert Pattern Fusion",
+      "designated_url": "https://arxiv.org/pdf/2106.09282v1",
+      "designated_version": "arXiv:2106.09282v1 [cs.LG], 2021-06-17, 9-page author preprint",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#smart-contract-fusion",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2106.09282v1",
+        "actual_version": "arXiv:2106.09282v1 [cs.LG], 2021-06-17, 9-page author preprint",
+        "map_file": "intro-source-maps/sj-fa1fc1d2fa.md",
+        "unit_count": 37,
+        "reading_scope_note": "sj-fa1fc1d2fa; https://arxiv.org/pdf/2106.09282v1;17 June2021 v1,9 pages. Complete Introduction pp.1–2 reread, adjacent problem formulation checked. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-a7b06c257f",
+      "title": "Mars",
+      "designated_url": "https://arxiv.org/pdf/2508.15606v1",
+      "designated_version": "arXiv:2508.15606v1 [cs.CR], 2025-08-21, 11-page author preprint",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mars",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2508.15606v1",
+        "actual_version": "arXiv:2508.15606v1 [cs.CR], 2025-08-21, 11-page author preprint",
+        "map_file": "intro-source-maps/sj-a7b06c257f.md",
+        "unit_count": 39,
+        "reading_scope_note": "- 本次读取：arXiv:2508.15606v1，21 Aug2025，11页，完整Introduction physical pp.1–2（web行30–161）；补读§2.3/§3、§6.1/§6.2及§6.4.2/§7（pp.3–4、7–10）"
+      }
+    },
+    {
+      "source_id": "sj-318347dd2f",
+      "title": "Backdoor Pre-trained Models Can Transfer to All",
+      "designated_url": "https://arxiv.org/pdf/2111.00197v1",
+      "designated_version": "arXiv:2111.00197v1, 2021-10-30",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#ptm-transfer",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2111.00197v1",
+        "actual_version": "arXiv:2111.00197v1, 2021-10-30",
+        "map_file": "intro-source-maps/sj-318347dd2f.md",
+        "unit_count": 47,
+        "primary_sha256": "b51691d6fc3f25a88f151f726e35dce11d67354ea602eabdbd9d8581e393e935",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-5322b1646f",
+      "title": "Towards Practical Backdoor Attacks on Federated Learning Systems",
+      "designated_url": "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf",
+      "designated_version": "Author-hosted publisher PDF: IEEE TDSC 21(6), November/December 2024, pp.5431-5447",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#practical-fl-backdoor",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf",
+        "actual_version": "Author-hosted publisher PDF: IEEE TDSC 21(6), November/December 2024, pp.5431-5447",
+        "map_file": "intro-source-maps/sj-5322b1646f.md",
+        "unit_count": 49,
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-b5a1988e4d",
+      "title": "OTCCLIP",
+      "designated_url": "https://aclanthology.org/2025.emnlp-main.497.pdf",
+      "designated_version": "Official EMNLP 2025 proceedings, pp.9825-9838, November 4-9 2025",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#otcclip",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2025.emnlp-main.497.pdf",
+        "actual_version": "Official EMNLP 2025 proceedings, pp.9825-9838, November 4-9 2025",
+        "map_file": "intro-source-maps/sj-b5a1988e4d.md",
+        "unit_count": 24,
+        "reading_scope_note": "sj-b5a1988e4d; official EMNLP2025 pp.9825–9838; https://aclanthology.org/2025.emnlp-main.497.pdf. Complete Introduction physical1–2/printed9825–9826 reread; column/figure order restored so CLIP opening precedes continuation “at test time”. No contribution bullets in this version. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-c423d986aa",
+      "title": "Enkidu",
+      "designated_url": "https://arxiv.org/pdf/2507.12932v2",
+      "designated_version": "arXiv:2507.12932v2, dated 15 September 2025 on p.1, 14-page MM2025 author manuscript with Appendices A-H",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#enkidu",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2507.12932v2",
+        "actual_version": "arXiv:2507.12932v2, dated 15 September 2025 on p.1, 14-page MM2025 author manuscript with Appendices A-H",
+        "map_file": "intro-source-maps/sj-c423d986aa.md",
+        "unit_count": 32,
+        "reading_scope_note": "- 本次读取：arXiv:2507.12932v2，15 Sep2025，14页MM2025作者稿，完整Introduction physical pp.1–3（web85–179）；补读§3.2–3.3、§4.1–4.3及§5.4.1（pp.4–5、8）"
+      }
+    },
+    {
+      "source_id": "sj-879f8c1810",
+      "title": "SirenAttack",
+      "designated_url": "https://par.nsf.gov/servlets/purl/10174631",
+      "designated_version": "Published ASIA CCS2020 proceedings-format 13-page PDF hosted by NSF PAR and explicitly linked from first-author homepage",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#sirenattack",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://par.nsf.gov/servlets/purl/10174631",
+        "actual_version": "Published ASIA CCS2020 proceedings-format 13-page PDF hosted by NSF PAR and explicitly linked from first-author homepage",
+        "map_file": "intro-source-maps/sj-879f8c1810.md",
+        "unit_count": 29,
+        "primary_sha256": "ec4a8c22c92e1faf7c358b4a93edc983e7688d315bfea8492c86d1423f46ecce",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-e8edda9d3a",
+      "title": "Pluggable Watermarking",
+      "designated_url": "https://www.ijcai.org/proceedings/2024/0037.pdf",
+      "designated_version": "Official IJCAI2024 proceedings PDF, 9 physical pages, printed pp.331-339",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#pluggable-watermarking",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.ijcai.org/proceedings/2024/0037.pdf",
+        "actual_version": "Official IJCAI2024 proceedings PDF, 9 physical pages, printed pp.331-339",
+        "map_file": "intro-source-maps/sj-e8edda9d3a.md",
+        "unit_count": 30,
+        "primary_sha256": "1e8fb5dd03212ae43386cd3424c2274528f812e601c9c1e7448d508946b1c2a0",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ],
+        "reading_scope_note": "Source https://www.ijcai.org/proceedings/2024/0037.pdf;officialIJCAI2024,331–339. Full introduction physical1–2; §3.1 scenario reread. PDF extraction starts right-column related-work paragraph before left-column intro; map restores opening→prior approaches→method→summary."
+      }
+    },
+    {
+      "source_id": "sj-5dc666fe14",
+      "title": "Order within Chaos",
+      "designated_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26iy/wang26iy.pdf",
+      "designated_version": "Official ICML 2026 PMLR 306 proceedings PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#order-within-chaos",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26iy/wang26iy.pdf",
+        "actual_version": "Official ICML 2026 PMLR 306 proceedings PDF",
+        "map_file": "intro-source-maps/sj-5dc666fe14.md",
+        "unit_count": 40,
+        "reading_scope_note": "sj-5dc666fe14; official ICML2026 PMLR306; https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26iy/wang26iy.pdf. Complete Introduction physical1–2 reread; two-column PDF ordering restored: insight→two signatures→FLAME→EditStream→contributions, before §2. Known→new [relation]; ⇒callback. Theoretical language below is what the introduction claims, not independent proof verification."
+      }
+    },
+    {
+      "source_id": "sj-43466107a4",
+      "title": "TWIST",
+      "designated_url": "https://aclanthology.org/2025.acl-long.541.pdf",
+      "designated_version": "Official ACL 2025 main-conference Volume 1: Long Papers proceedings PDF, 17 physical pages, printed pp.11025–11041",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#twist",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2025.acl-long.541.pdf",
+        "actual_version": "Official ACL 2025 main-conference Volume 1: Long Papers proceedings PDF, 17 physical pages, printed pp.11025–11041",
+        "map_file": "intro-source-maps/sj-43466107a4.md",
+        "unit_count": 34,
+        "reading_scope_note": "- 本次读取：ACL2025官方17页PDF，完整Introduction physical pp.1–2 / printed11025–11026（web行33–146）；补读§3/§4.1及§4.4（11027–11029）"
+      }
+    },
+    {
+      "source_id": "sj-69a91ca701",
+      "title": "Plasticity / Angel or Demon",
+      "designated_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26w/ma26w.pdf",
+      "designated_version": "Official ICML 2026 PMLR 306 proceedings PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#plasticity",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26w/ma26w.pdf",
+        "actual_version": "Official ICML 2026 PMLR 306 proceedings PDF",
+        "map_file": "intro-source-maps/sj-69a91ca701.md",
+        "unit_count": 27,
+        "primary_sha256": "e6837193b8680f7079e4642756588a64f41f1a3be4cb13ec8a53e2fe9424eedb",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-cc3b714b43",
+      "title": "NeuroBreak",
+      "designated_url": "https://arxiv.org/pdf/2509.03985v3",
+      "designated_version": "Author manuscript arXiv:2509.03985v3, 2026-08-29, 11 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#neurobreak",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2509.03985v3",
+        "actual_version": "Author manuscript arXiv:2509.03985v3, 2026-08-29, 11 pages",
+        "map_file": "intro-source-maps/sj-cc3b714b43.md",
+        "unit_count": 37,
+        "primary_sha256": "0fe4a86faf6023b40de5dfa8692bd110293784a248012753ea5715bfd05c6c62",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-c7b0f8c968",
+      "title": "Activation Steering",
+      "designated_url": "https://aclanthology.org/2026.acl-long.1206.pdf",
+      "designated_version": "Official ACL 2026 long-paper proceedings",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#activation-steering",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2026.acl-long.1206.pdf",
+        "actual_version": "Official ACL 2026 long-paper proceedings",
+        "map_file": "intro-source-maps/sj-c7b0f8c968.md",
+        "unit_count": 22,
+        "reading_scope_note": "sj-c7b0f8c968; official ACL2026 pp.26228–26245; https://aclanthology.org/2026.acl-long.1206.pdf. Complete Introduction physical1–2 reread; figure text is illustrative content, not prose sentence units. Restored column order before §2. No contribution list. Known→new [relation]; ⇒callback. This map analyzes argument choices, not operational backdoor construction."
+      }
+    },
+    {
+      "source_id": "sj-a68fd421b9",
+      "title": "MCP Red Teaming",
+      "designated_url": "https://arxiv.org/pdf/2509.21011v1",
+      "designated_version": "arXiv:2509.21011v1, 2025-09-25, 16 pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mcp-red-teaming",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2509.21011v1",
+        "actual_version": "arXiv:2509.21011v1, 2025-09-25, 16 pages",
+        "map_file": "intro-source-maps/sj-a68fd421b9.md",
+        "unit_count": 57,
+        "reading_scope_note": "- 本次读取：arXiv:2509.21011v1，25 Sep2025，16页稿，完整§I（physical pp.1–2，web行23–195）；补读评价环境/metrics和成功率计算（pp.8–9）"
+      }
+    },
+    {
+      "source_id": "sj-54704a792c",
+      "title": "Adversarial CAPTCHAs",
+      "designated_url": "https://arxiv.org/pdf/1901.01107v1",
+      "designated_version": "arXiv:1901.01107v1, 4 January 2019",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#adversarial-captchas",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/1901.01107v1",
+        "actual_version": "arXiv:1901.01107v1, 4 January 2019",
+        "map_file": "intro-source-maps/sj-54704a792c.md",
+        "unit_count": 56,
+        "primary_sha256": "e4f5b7560ceae17c1ebbc59e6d675d70cc95d8818f8f0d3e21769e43df80d51e",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-ff8570d878",
+      "title": "Text Captcha Is Dead?",
+      "designated_url": "https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf",
+      "designated_version": "Author-hosted 16-page CCS 2020 manuscript, printed pp.1-16",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#text-captcha-dead",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Exact NESA URL failed both one local retrieval (502) and one web primary-source open (internal error); no substitute-version inference."
+      }
+    },
+    {
+      "source_id": "sj-7fbc935f66",
+      "title": "A Practical Black-box Attack on Source Code Authorship Identification Classifiers",
+      "designated_url": "https://nesa.zju.edu.cn/download/lqj_pdf_tifs2021.pdf",
+      "designated_version": "Author-hosted 15-page TIFS 2021 manuscript, printed pp.1-15",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#source-code-authorship",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/lqj_pdf_tifs2021.pdf",
+        "actual_version": "Author-hosted 15-page TIFS 2021 manuscript, printed pp.1-15",
+        "map_file": "intro-source-maps/sj-7fbc935f66.md",
+        "unit_count": 28,
+        "reading_scope_note": "sj-7fbc935f66;15-page TIFS2021 author manuscript; https://nesa.zju.edu.cn/download/lqj_pdf_tifs2021.pdf. Complete Introduction pp.1–2 reread via primary web PDF lines24–107; adjacent related work clarifies label-only versus score/internal access. Known→new [relation]; ⇒callback. Map retains rhetorical threat/constraint roles without operational evasion instructions."
+      }
+    },
+    {
+      "source_id": "sj-c723f714dd",
+      "title": "SOPE",
+      "designated_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lin26r/lin26r.pdf",
+      "designated_version": "Official ICML 2026 PMLR 306 full proceedings PDF, 25 physical pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#sope",
+      "this_pass": {
+        "state": "designated_primary_unavailable_no_map",
+        "complete_intro_read": false,
+        "sentence_map_available": false,
+        "reason": "Assigned PMLR306 raw-GitHub PDF returned Internal Error in current web retrieval; no full cached copy located."
+      }
+    },
+    {
+      "source_id": "sj-beba53e0f9",
+      "title": "Learned Provenance Baseline",
+      "designated_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25k/zhu25k.pdf",
+      "designated_version": "Official ICML 2025 PMLR 267 full proceedings PDF from publisher repository, 15 physical pages",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#learned-provenance-baseline",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25k/zhu25k.pdf",
+        "actual_version": "Official ICML 2025 PMLR 267 full proceedings PDF from publisher repository, 15 physical pages",
+        "map_file": "intro-source-maps/sj-beba53e0f9.md",
+        "unit_count": 28,
+        "primary_sha256": "f460c0d690fa4cb1487a6f4b440a7bcdf275edfa6988bde04fc80543d2b4b12a",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-906728a4eb",
+      "title": "Cryptographic API Misuse Detection",
+      "designated_url": "https://arxiv.org/pdf/2407.16576v2",
+      "designated_version": "Publisher-typeset PACMSE 2(ISSTA), Article ISSTA006, 24 article pages plus ACM cover",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#crypto-api-misuse",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2407.16576v2",
+        "actual_version": "Publisher-typeset PACMSE 2(ISSTA), Article ISSTA006, 24 article pages plus ACM cover",
+        "map_file": "intro-source-maps/sj-906728a4eb.md",
+        "unit_count": 41,
+        "primary_sha256": "410264025d6514c16c66ec8b3ded8c7aa335a5d8d657e7db32dc6b906f4f77bb",
+        "introduction_physical_pages_inclusive": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "source_id": "sj-a258b38871",
+      "title": "Turbo",
+      "designated_url": "https://drive.google.com/uc?export=download&id=1X2g81djDVI1u4n5N4J1s8wLGP8tFi4os",
+      "designated_version": "12-page IEEE ICDE2021 proceedings-formatted industrial full paper, printed pp.2583-2594",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#turbo",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://drive.google.com/uc?export=download&id=1X2g81djDVI1u4n5N4J1s8wLGP8tFi4os",
+        "actual_version": "12-page IEEE ICDE2021 proceedings-formatted industrial full paper, printed pp.2583-2594",
+        "map_file": "intro-source-maps/sj-a258b38871.md",
+        "unit_count": 34,
+        "reading_scope_note": "sj-a258b38871;12-page ICDE2021 industrial proceedings-format paper,pp.2583–2594; primary authorized source https://drive.google.com/uc?export=download&id=1X2g81djDVI1u4n5N4J1s8wLGP8tFi4os. Complete Introduction physical1–2/printed2583–2584 reread, column order restored. Adjacent leasing procedure/problem definition checked. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-056bd3713f",
+      "title": "FraudShield",
+      "designated_url": "https://arxiv.org/pdf/2601.22485v1",
+      "designated_version": "arXiv:2601.22485v1 dated 30 January 2026, 12 pages with WWW2026 publication reference and Appendices A-C",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#fraudshield",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2601.22485v1",
+        "actual_version": "arXiv:2601.22485v1 dated 30 January 2026, 12 pages with WWW2026 publication reference and Appendices A-C",
+        "map_file": "intro-source-maps/sj-056bd3713f.md",
+        "unit_count": 34,
+        "reading_scope_note": "- 本次读取：arXiv:2601.22485v1，30 Jan2026，12页，完整Introduction physical pp.1–2（web77–196）；补读§3战术提取/二分图、§4.1–4.4任务/指标（pp.3–5）"
+      }
+    },
+    {
+      "source_id": "sj-9aee30689b",
+      "title": "Password Correlation",
+      "designated_url": "https://nesa.zju.edu.cn/download/Password%20Correlation%20Quantification%2C%20Evaluation%20and%20Application.pdf",
+      "designated_version": "9-page IEEE INFOCOM2017 proceedings-formatted author/lab-hosted PDF",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#password-correlation",
+      "this_pass": {
+        "state": "alternate_primary_complete_map_identity_unverified",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.cs.cmu.edu/~anupamd/paper/Infocom2017.pdf",
+        "actual_version": "Coauthor CMU-hosted 9-page INFOCOM 2017 proceedings-format PDF; identity with unavailable designated NESA bytes not established",
+        "map_file": "intro-source-maps/sj-9aee30689b.md",
+        "unit_count": 36,
+        "identity_limit": "Title/authors/proceedings format matched; byte identity with designated source is unverified. Do not describe the designated URL as read in this pass.",
+        "primary_sha256": "96d921bff327eb84315687ac3697ce9a07b6e536a51d188d51dd327b209f4985",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位 索引NESA地址在本轮重试返回HTTP 502；实际完整读取并注释的是共同作者机构托管主源：https://www.cs.cmu.edu/~anupamd/paper/Infocom2017.pdf 。标题、五作者与9页INFOCOM proceedings格式相符；未建立与不可访问索引PDF逐字节相同，不能标记“精确索引URL已成功读取”。本文件开头索引版本只保留导航记录，实际版本应以上述替代主源说明为准。引言页锚：[实际主源第1页](https://www.cs.cmu.edu/~anupamd/paper/Infocom2017.pdf#page=1)。"
+      }
+    },
+    {
+      "source_id": "sj-e64a3bfbe3",
+      "title": "Enhancing Adversarial Transferability with Adversarial Weight Tuning",
+      "designated_url": "https://arxiv.org/pdf/2408.09469v4",
+      "designated_version": "arXiv:2408.09469v4, 19 October 2025, 14-page revised/extended author copy",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#awt",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2408.09469v4",
+        "actual_version": "arXiv:2408.09469v4, 19 October 2025, 14-page revised/extended author copy",
+        "map_file": "intro-source-maps/sj-e64a3bfbe3.md",
+        "unit_count": 30,
+        "primary_sha256": "8e4d544ed718ccfeee0e9a6f3fe7edd519e94f66cc16f0915110051aaf919892",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-ed7c58b655",
+      "title": "Protecting Object Detection Models from Model Extraction Attack via Feature Space Coverage",
+      "designated_url": "https://www.ijcai.org/proceedings/2024/0048.pdf",
+      "designated_version": "Official IJCAI2024 proceedings PDF, physical pp.1-9 / printed pp.431-439",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#osd",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.ijcai.org/proceedings/2024/0048.pdf",
+        "actual_version": "Official IJCAI2024 proceedings PDF, physical pp.1-9 / printed pp.431-439",
+        "map_file": "intro-source-maps/sj-ed7c58b655.md",
+        "unit_count": 26,
+        "reading_scope_note": "sj-ed7c58b655; official IJCAI2024 pp.431–439; https://www.ijcai.org/proceedings/2024/0048.pdf. Complete Introduction physical1–2 reread with columns restored. Known→new [relation]; ⇒callback. Contemporary dispute mentioned by source is attributed context, not independently verified here."
+      }
+    },
+    {
+      "source_id": "sj-238a78de63",
+      "title": "TextBugger: Generating Adversarial Text Against Real-world Applications",
+      "designated_url": "https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-5_Li_paper.pdf",
+      "designated_version": "Official NDSS2019 full paper, 15 pages, conference 24-27 February 2019",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#textbugger",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-5_Li_paper.pdf",
+        "actual_version": "Official NDSS2019 full paper, 15 pages, conference 24-27 February 2019",
+        "map_file": "intro-source-maps/sj-238a78de63.md",
+        "unit_count": 35,
+        "reading_scope_note": "- 本次读取：NDSS2019官方15页PDF完整Introduction physical pp.1–2（web35–152），补读§II-A/B formulation/threat model（pp.2–3）、§V-B用户研究与§VI潜在防护（pp.12–13）"
+      },
+      "aliases": [
+        "TextBugger"
+      ]
+    },
+    {
+      "source_id": "sj-b3dda6f2a5",
+      "title": "Copyright Gap",
+      "designated_url": "https://arxiv.org/pdf/2512.21871v1",
+      "designated_version": "arXiv:2512.21871v1, 2025-12-26",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#copyright-gap",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2512.21871v1",
+        "actual_version": "arXiv:2512.21871v1, 2025-12-26",
+        "map_file": "intro-source-maps/sj-b3dda6f2a5.md",
+        "unit_count": 31,
+        "primary_sha256": "6a52c1ed63183d0f1356b59e6d6a6574399fd6ce35eeac04c5399ee68dd72ffb",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位"
+      }
+    },
+    {
+      "source_id": "sj-c89935c6fb",
+      "title": "PerMemSafe",
+      "designated_url": "https://aclanthology.org/2026.findings-acl.320.pdf",
+      "designated_version": "Official Findings of ACL 2026 proceedings, physical pp.1-19 / printed pp.6415-6433, July 2-7 2026",
+      "historical_reading_status": "complete_intro_historical_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#permemsafe",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://aclanthology.org/2026.findings-acl.320.pdf",
+        "actual_version": "Official Findings of ACL 2026 proceedings, physical pp.1-19 / printed pp.6415-6433, July 2-7 2026",
+        "map_file": "intro-source-maps/sj-c89935c6fb.md",
+        "unit_count": 26,
+        "primary_sha256": "b25baf7d2b53295faff9474313a69f6d6fb35bb020921e4b1943b5a4ff42e1ee",
+        "introduction_physical_pages_inclusive": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "source_id": "sj-1e368cddf8",
+      "title": "DPCSS",
+      "designated_url": "https://nesa.zju.edu.cn/download/tce26_suyuan.pdf",
+      "designated_version": "13-page accepted author manuscript under DOI 10.1109/TCE.2026.3656205, explicitly not fully edited",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#dpcss",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/tce26_suyuan.pdf",
+        "actual_version": "13-page accepted author manuscript under DOI 10.1109/TCE.2026.3656205, explicitly not fully edited",
+        "map_file": "intro-source-maps/sj-1e368cddf8.md",
+        "unit_count": 38,
+        "reading_scope_note": "sj-1e368cddf8;13-page accepted author manuscript, DOI10.1109/TCE.2026.3656205, explicitly not fully edited; https://nesa.zju.edu.cn/download/tce26_suyuan.pdf. Complete Introduction physical1–2, web lines58–153, reread. Local download403; primary web text used. Known→new [relation]; ⇒callback."
+      }
+    },
+    {
+      "source_id": "sj-0010159902",
+      "title": "FirmSec",
+      "designated_url": "https://nesa.zju.edu.cn/download/zbb_pdf_issta22.pdf",
+      "designated_version": "ISSTA 2022 published-format author-hosted copy, 13 physical pages, printed 442-454",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#firmsec",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://nesa.zju.edu.cn/download/zbb_pdf_issta22.pdf",
+        "actual_version": "ISSTA 2022 published-format author-hosted copy, 13 physical pages, printed 442-454",
+        "map_file": "intro-source-maps/sj-0010159902.md",
+        "unit_count": 65,
+        "reading_scope_note": "- 本次读取：完整§1及§1.1–1.3，physical pp.2–3 / printed443–444；用layout提取复核双栏顺序，正文从左栏背景接左栏挑战，再接右栏挑战续文、方法、次页贡献"
+      }
+    },
+    {
+      "source_id": "sj-f4f8acaf2d",
+      "title": "Mandela-effect Benchmark",
+      "designated_url": "https://arxiv.org/pdf/2602.00428v2",
+      "designated_version": "arXiv:2602.00428v2, 2026-03-01",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#mandela",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2602.00428v2",
+        "actual_version": "arXiv:2602.00428v2, 2026-03-01",
+        "map_file": "intro-source-maps/sj-f4f8acaf2d.md",
+        "unit_count": 27,
+        "primary_sha256": "88e563ca779033a1dc595a9cdf0582dfd3aa145fc558023ec526dbaff2bf5c33",
+        "reading_scope_note": "- 引言定位：物理 PDF 第 1–2 页；页锚以实际CMU副本URL后加 #page=N 定位 P1 团队协作能力→同一社会互动引入共享误记风险；P2 与单体幻觉/即时从众相比，集体传播和跨记忆回收缺口；三RQs为存在、因素、缓解；P4 基准/协议/模型/指标；P5因素和干预；三贡献资源、测量、防御。引言没有独立主要结果段，摘要74.40%不能冒充引言贡献数字。"
+      }
+    },
+    {
+      "source_id": "sj-c87b27b4a0",
+      "title": "CS-LSTMs",
+      "designated_url": "https://arxiv.org/pdf/2602.09690v1",
+      "designated_version": "arXiv:2602.09690v1, 2026-02-10",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#cs-lstms",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2602.09690v1",
+        "actual_version": "arXiv:2602.09690v1, 2026-02-10",
+        "map_file": "intro-source-maps/sj-c87b27b4a0.md",
+        "unit_count": 29,
+        "primary_sha256": "a9f97e82e46aacb00379b20ce640b618abbfa8d44e64dbcad73fe7d2089657cc",
+        "introduction_physical_pages_inclusive": [
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "source_id": "sj-db9fe86207",
+      "title": "Code Rewriting Detector",
+      "designated_url": "https://arxiv.org/pdf/2405.16133v3",
+      "designated_version": "Frozen local arXiv:2405.16133v3, 2024-12-16, twelve-page author copy with AAAI 2025 copyright",
+      "historical_reading_status": "complete_intro_current_source_checks",
+      "high_level_card": "research-choice-evidence-map.md#code-rewriting",
+      "this_pass": {
+        "state": "designated_primary_complete_map",
+        "complete_intro_read": true,
+        "sentence_map_available": true,
+        "actual_primary_url": "https://arxiv.org/pdf/2405.16133v3",
+        "actual_version": "Frozen local arXiv:2405.16133v3, 2024-12-16, twelve-page author copy with AAAI 2025 copyright",
+        "map_file": "intro-source-maps/sj-db9fe86207.md",
+        "unit_count": 42,
+        "reading_scope_note": "sj-db9fe86207; frozen arXiv:2405.16133v3,16 December2024,12-page author copy with AAAI2025 copyright; https://arxiv.org/pdf/2405.16133v3. Complete Introduction physical1–3 reread, including final contribution continuation before Related Works. Figures/embedded code excluded from prose sentence numbering. Known→new [relation]; ⇒callback."
+      },
+      "aliases": [
+        "Code Rewriting"
+      ]
+    }
+  ],
+  "source_identity_provenance": "corpus-source-provenance.json"
+}

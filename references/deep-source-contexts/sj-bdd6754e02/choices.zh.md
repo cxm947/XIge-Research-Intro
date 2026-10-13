@@ -1,0 +1,897 @@
+# WAFLGo：二十六个定点选择及条件与代价
+
+- scope: 26 selected pivotal units refined; complete inherited Intro analysis preserved separately
+- selection_not_claim: Unselected units are not declared deficient; no new exhaustive replacement ledger claimed
+
+## P1.S2
+
+- physical_page: 1
+- source_claim_attributed: 作者称庞大代码库中，为升级或修复引入的新提交代码可能很关键，因为它可能引入新漏洞
+- matrix_syntax: 新引入的代码可以是关键对象为矩阵；大代码范围前置；原因从句解释风险
+- discourse_foreground: 把安全测试资源收窄到更新活动
+- first_new_content: 不是仅新增commit名称，而是新代码与新风险的联系
+- contextual_grounds: P1.S1已给程序安全重要性
+- conventional_form_and_clause_relation: 前置领域范围＋带来源/目的修饰的长主语＋可能性系表＋原因从句
+- relative_length_role: 长句把对象、活动和风险缘由一次连齐，避免突然宣称只测提交
+- integrated_selection_reader_value_inference: 先讲升级/修复这种正常开发活动，再交其风险，提交测试价值不是凭新方法名成立
+- reason_for_addition: 补矩阵与长主语关系；把新信息与应用价值合并解释
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: c97487264f4ae88d0c75e2fe336fa2f679e26a6e31faa519f466bfaf645c942d
+  - source_span_word_count: 3
+  - target_span_locator: 矩阵中的情态词、系词及关键性表语三词
+  - replacement_english: can be crucial
+  - fit_and_semantic_status: 原位替换并保can的可能性，不改成全部新代码必定有漏洞
+  - choice_classification: neutral lexical substitution
+  - choose_when: 仅需在同一语域中避免关键性形容词重复、且保留can时可选
+  - tradeoff: 没有独立论证收益；不会让重点定位得到更多证据
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者认为，在程序的大量代码中，为功能升级与缺陷修复而通过提交引入的新代码可能很关键，因为这些代码可能给程序带来新漏洞。
+  - semantic_or_context_change: 完整中文保两层可能性和重要性，去掉源句未明示的尤其焦点；不加入全部提交有害判断
+  - choose_when: 长主语掩盖升级/修复这一正常活动与新风险的关系时
+  - tradeoff: 中文展开更清楚，但不能因解释活动而加入所有提交必有漏洞
+- scientific_qualification_ids:
+  - Q1
+- retained_analysis_context:
+  - P1.S2：O 在庞大代码范围中前置定位新代码，因果从句说明改动会引入漏洞；I 把广泛安全需求压到更新对象，后接§2.1。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P2.S1
+
+- physical_page: 1
+- source_claim_attributed: 作者承认覆盖式fuzzing已高度有效发现真实软件漏洞，但判断它发现提交引入漏洞效率不足
+- matrix_syntax: it lacks efficiency为矩阵；while从句承认一般任务成功
+- discourse_foreground: 任务匹配的不足，而非否认已有方法效果
+- first_new_content: 一般漏洞发现能力与提交测试效率首次被分开
+- contextual_grounds: P1已说明优先测试提交的价值
+- conventional_form_and_clause_relation: 让步从句＋主句任务限定；同一工具的有效性与任务效率不同维
+- relative_length_role: 长让步保公平比较，主句较短让新不足突出
+- integrated_selection_reader_value_inference: 把强已有答案先承认，再限定其不适配之处，读者无需接受“旧工具不好”的虚假前提
+- reason_for_addition: 旧分析成立，新增主从层级与两个评价维度的区别
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: f1b05a744bc25c019195e7337ef7999d19e9d3e2058fd8abffb4a60b213e3073
+  - source_span_word_count: 1
+  - target_span_locator: 句首引导承认覆盖式能力的让步连接词
+  - replacement_english: Although
+  - fit_and_semantic_status: 此处为让步而非时间关系，局部替换不改高度有效与效率不足的两个判断
+  - choice_classification: explicit concessive connector
+  - choose_when: 读者可能把while误作时间关系，而当前句确为让步时
+  - tradeoff: 关系更明确，原先的让步/主句对照强度不变；不是新增近邻证据
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者承认，传统覆盖式模糊测试在真实软件中发现安全漏洞已经高度有效；但在识别提交引入的漏洞时，它的效率不足。
+  - semantic_or_context_change: 拆成两分句，保评价强度和任务范围，不把有效性否定为找不到漏洞
+  - choose_when: 需要将一般任务的已成功与提交任务的效率不足分别读出时
+  - tradeoff: 拆句增加停顿，降低同句紧密反差；保两种评价及任务对象
+- scientific_qualification_ids:
+  - Q1
+- retained_analysis_context:
+  - P2.S1：O 让步承认覆盖式成功，主句限定提交检测效率不足；I 批评任务匹配而非否认旧技术。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P2.S2
+
+- physical_page: 1
+- source_claim_attributed: 作者将效率不足归因为覆盖式测试均等对待代码而不专门针对提交改动
+- matrix_syntax: 矩阵是指代前句不足的解释框架；because内容从句含均等对待与不专门针对两个谓词
+- discourse_foreground: 资源分配机制解释任务不匹配
+- first_new_content: 首次给效率不足的具体理由，而非再次评价结果
+- contextual_grounds: This承接P2.S1的提交检测效率不足
+- conventional_form_and_clause_relation: 原因解释常式：指代系词框架＋因果内容；两个谓词在嵌入内容内
+- relative_length_role: 短句专门解释上一判断，不同时再提出本方法
+- integrated_selection_reader_value_inference: 旧记录把内容核心当主谓核心；需保“语法矩阵”和“读者真正要理解的原因”不是一个层次
+- reason_for_addition: 修正继承分析矩阵/命题层级混同
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 5d66bfeeb7730ec630804ee0fb5a44c9c8f43955b2c9025bbd4fab5ba3949f82
+  - source_span_word_count: 3
+  - target_span_locator: 整段原因说明的指代＋系词＋because框架
+  - replacement_english: The reason is that
+  - fit_and_semantic_status: 用名词化原因框架替换，后接原两个谓词；原因所指仍是前句效率不足
+  - choice_classification: causal-frame reformulation
+  - choose_when: 要显式建立原因框架，而前句被解释的效率不足仍足够清楚时
+  - tradeoff: 名词化框架更重，仍需前文给出原因所指；不能靠换框架解决事实缺失
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者给出的原因是：覆盖式测试均等对待代码各部分，并不专门针对提交中的改动。
+  - semantic_or_context_change: 原因框架显化，保双理由；科学上是否所有覆盖式实现如此另列，不在保真变式中偷偷收窄
+  - choose_when: 读者把评价重复与真正原因混在一起时
+  - tradeoff: 冒号将原因内容前景化，但仍是作者因果解释而非本轮证明
+- scientific_qualification_ids:
+  - Q1
+- retained_analysis_context:
+  - P2.S2：O 原因句以均等处理所有代码为主谓核心；A 资源分配造成差距。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P2.S4
+
+- physical_page: 1
+- source_claim_attributed: 作者提出直觉方案：把提交改动点当目标，使测试优先新代码及影响区
+- matrix_syntax: one can guide为矩阵；by方式成分说明如何优先
+- discourse_foreground: 为下文批评建立读者也会想到的合理答案
+- first_new_content: 改动点作为目标的选择首次成为完整方案
+- contextual_grounds: 前句定向测试被解释为更适合局部任务
+- conventional_form_and_clause_relation: 直觉框架＋一般施事能力句＋目的操作＋方式短语
+- relative_length_role: 中长；只给直觉路线与目标，不提前展开作者方案
+- integrated_selection_reader_value_inference: 重要的是原文已经提到影响区，但接下来要问这种目标设定是否真提供充分探索；不能把gap写成前人连影响区都未意识到
+- reason_for_addition: 补直觉答案与剩余gap的真实关系
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 224657718ae1a0879078dbac6fce77d50f1c9a35fb3c8389aac4a315d2c7d5d2
+  - source_span_word_count: 1
+  - target_span_locator: 句首直觉判断副词
+  - replacement_english: From an intuitive perspective
+  - fit_and_semantic_status: 在原one can guide前作为全句直觉立场框架，可直接回填；不把one这个人当成一种方法。更长不等于更好，也不新增验证
+  - choice_classification: neutral framing alternative
+  - choose_when: 仅在需要把整句明确放在直觉判断层、而非把as短语读为人的角色时可选
+  - tradeoff: 更长，没有新增方案有效性；原简短副词通常已经够用
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作为直觉方案，作者提出：可将提交改动位置设为目标，让fuzzer优先测试新代码及其受影响区域。
+  - semantic_or_context_change: 完整变式保can的可行思路；不是声称设目标已充分完成影响区测试
+  - choose_when: 需要为随后修正一个自然方案先建立共同理解时
+  - tradeoff: 不能把明确列出的影响区目标删去，否则夸大了后续gap
+- scientific_qualification_ids:
+  - Q1
+- retained_analysis_context:
+  - P2.S4：O 非人称可能结构提出以改动点为目标的直觉；I 读者接受的默认方案就是下段精确修正对象。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P3.S2
+
+- physical_page: 1
+- source_claim_attributed: 作者称已有DGF主要追求快速到达改动目标，却未指导充分测试受影响代码
+- matrix_syntax: DGFs focus为矩阵；while not guiding附加对照性否定
+- discourse_foreground: 到达这个代理目标不足以完成发现新错误的任务
+- first_new_content: 已有导向的强项与缺失的后续探索被同时定位
+- contextual_grounds: P2已给把改动点当目标的直觉
+- conventional_form_and_clause_relation: 第一问题标记＋主要关注谓词＋对照性非限定成分
+- relative_length_role: 中；一条正能力与一条缺口同句便于对照，不需贬低前者
+- integrated_selection_reader_value_inference: gap不是速度不够，而是到达后还缺状态多样性；这会决定方法和评价不能只报到达时间
+- reason_for_addition: 补代理目标与真实任务答案的层级
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 31229d6c1389e7664f2eae3ad078562d6e191ad367ecb346b77733900de030b0
+  - source_span_word_count: 3
+  - target_span_locator: 矩阵中主要关注的连续谓语短语
+  - replacement_english: focus mainly on
+  - fit_and_semantic_status: 副词位置变化而保主要限定；其后快速到达及否定指导均不动
+  - choice_classification: neutral adverb-order change
+  - choose_when: 仅因局部节奏需移动主要这一副词时
+  - tradeoff: 不改变任务关系，不应独立计作方法论收益
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者指出，已有DGF主要关注快速到达目标改动点，却不指导fuzzer充分测试受影响的代码。
+  - semantic_or_context_change: 保主要与未指导的源判断；不把缺指导改成绝不可能发现远端错误
+  - choose_when: 读者容易把快速到达当成整个任务已完成时
+  - tradeoff: 突出对照，仍须保主要以及未提供指导，而非绝对无法发现bug
+- scientific_qualification_ids:
+  - Q2
+- retained_analysis_context:
+  - P3.S2：O 第一项问题把快速到达与缺少充分探索并列；I 成功判据从位置变为状态空间。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P3.S3
+
+- physical_page: 1
+- source_claim_attributed: 作者称因此可能漏掉崩溃点不同于改动点的新漏洞，因为可能未触发崩溃甚至未到崩溃点
+- matrix_syntax: these fuzzers may fail为矩阵；where限定漏洞情境；as给漏检原因
+- discourse_foreground: 缺口为什么会损害任务结果
+- first_new_content: 改动点/崩溃点分离及两种潜在失败
+- contextual_grounds: 上一句尚只讲缺探索，没有交漏检后果
+- conventional_form_and_clause_relation: 结果连接＋可能性主句＋情境关系从句＋原因从句；两处may均保留
+- relative_length_role: 长；条件情境和近因保护结果范围，不能只压成fuzzer漏漏洞
+- integrated_selection_reader_value_inference: 每层不是装饰：where告诉读者哪类问题，as说明为何会失手，使后文前缀/后缀的双向表示有任务依据
+- reason_for_addition: 补多层从句各负何种范围与解释职责
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 5d21acc38457223f74321d894a9b59fd28d2d510bc15b152388ca87257c07df1
+  - source_span_word_count: 4
+  - target_span_locator: 矩阵中可能漏发现的连续谓语
+  - replacement_english: may not discover
+  - fit_and_semantic_status: 保may可能性、原漏洞宾语与后续情境/原因，不升级为必然失败
+  - choice_classification: negative-predicate simplification
+  - choose_when: 想把未发现的结果放在读者前景，避免重复fail措辞时
+  - tradeoff: 弱化失败叙述的语感，但保可能未发现这一命题；不得删除may
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者认为，这些fuzzer因此可能未能发现新引入且崩溃点异于改动点的漏洞，因为它们可能没有触发崩溃，甚至没有到达崩溃位置。
+  - semantic_or_context_change: 中文重排关系从句但保两处可能性和even递进
+  - choose_when: 需要分别看清漏洞情境与为什么可能漏检时
+  - tradeoff: 完整变式仍较长；缩短不能牺牲两个可能性或位置分离条件
+- scientific_qualification_ids:
+  - Q2
+- retained_analysis_context:
+  - P3.S3：O 后果主句是漏发现，关系/原因从句限定崩溃点不同及无法触发；I 明示为什么该差别会损害真实任务。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P3.S11
+
+- physical_page: 2
+- source_claim_attributed: 作者需要一种同时到达改动点并充分测试实际影响区的技术，以发现提交引入的漏洞
+- matrix_syntax: 外层we need为矩阵；源相对从句紧接复数bugs，reach/test也采用与该复数兼容的形式。若按语境让单数technique承担动作，须同时修附着及英语谓词一致/句型，而不能原样重挂
+- discourse_foreground: 把前面缺口收束成必须同时满足的两要求
+- first_new_content: 到达与充分测试不是可任选其一
+- contextual_grounds: P3已给位置分离和两类已有策略冲突
+- conventional_form_and_clause_relation: 推论收束＋需要句＋发现bug的目的不定式＋表层修饰复数bugs的关系从句。论证意图是技术应同时到达并测试；完整变式据上下文修复施事，不伪称源表层解析本来如此
+- relative_length_role: 中；结尾把多个例合成一个设计约束，不重新列证据
+- integrated_selection_reader_value_inference: 可学并列任务要求，不应把源文的关系从句歧义写成好语法；完整变式明确动作由新技术承担
+- reason_for_addition: 源文附着问题此前未标，新增局部变式与较大修复的区别
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: d3aabe16d4cd78af67f0bffc44dd65657991438e3187c5dbfa855be5935d3257
+  - source_span_word_count: 3
+  - target_span_locator: 句首推论连接与主句主语/需要谓语
+  - replacement_english: We therefore need
+  - fit_and_semantic_status: 只调整推论连接的位置；它不解决后方关系从句施事歧义，实际成文宜用下列完整修复
+  - choice_classification: neutral inference-marker movement
+  - choose_when: 仅在其它句法已经修好后需要重排推论标记时
+  - tradeoff: 不修原关系从句的bugs施事问题，不能推荐它作为该源句的完整修复
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 因此，作者主张需要一种新技术：它不仅要到达改动位置，也要充分测试实际受影响的代码，以发现提交引入的漏洞。
+  - semantic_or_context_change: 明确新技术为两动作施事，是依据上下文的编辑修正；英文若改指单数technique，还必须修主谓一致或重建从句。保双要求，但不把此变式当源句无歧义的字面解析
+  - choose_when: 要实际采用这一双要求收束句且需明确谁到达、谁测试时
+  - tradeoff: 必须承认改了表层附着并恢复行为施事，属于语法修复而非纯同义替换
+- scientific_qualification_ids:
+  - Q2
+  - Q3
+- retained_analysis_context:
+  - P3.S11：O 需求句用不仅/也并列到达与影响区测试；I 合并前面两机制为同一个设计约束。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P4.S5
+
+- physical_page: 2
+- source_claim_attributed: 作者称AFLGo派生方法以调和均值聚合所有目标距离，会忽略某些目标并损及个体导向
+- matrix_syntax: 方法聚合距离是矩阵；which给该聚合的负面后果
+- discourse_foreground: 汇总如何吞没个体目标，而非目标数量单纯增加
+- first_new_content: 具体聚合方式与个体目标损失的因果解释
+- contextual_grounds: P4前面已称目标增加导致导向下降
+- conventional_form_and_clause_relation: 操作主句＋方式短语＋评议性关系从句；all与certain分别限定输入集合和受损子集
+- relative_length_role: 中长；用具体操作让抽象directness退化可理解
+- integrated_selection_reader_value_inference: 从聚合讲损失比只称扩展性差更能导出逐目标关注；关系从句承载关键新解释而非附带背景
+- reason_for_addition: 补操作与后果的语法/话语分工和量词对应
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: e141224ccf3de4f21a11387f60402692c8e46ee14ded985981f60ad7c3371934
+  - source_span_word_count: 4
+  - target_span_locator: 聚合操作后的方式成分
+  - replacement_english: by taking their harmonic mean
+  - fit_and_semantic_status: their回指目标距离；保所有目标集合及原将发生后果的源强度
+  - choice_classification: operation-explicating manner phrase
+  - choose_when: 读者需要把聚合看成对已知距离执行的操作，而非只识别指标名时
+  - tradeoff: 增加代词回指，前面必须有清楚的距离集合；不新增方法优劣证据
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者指出，AFLGo派生方法对所有目标距离取调和均值进行聚合，而这一处理会忽略某些目标并削弱单个目标的导向性。
+  - semantic_or_context_change: 保will对应的源强断言和certain子集；科学认可范围单列
+  - choose_when: 抽象导向性损失尚未接上具体汇总操作时
+  - tradeoff: 保作者因果强度，科学适用范围仍另列，不能说每个目标都被忽略
+- scientific_qualification_ids:
+  - Q4
+- retained_analysis_context:
+  - P4.S5：O AFLGo派系的调和均值汇总作具体操作，关系从句给忽略个别目标的后果；A §3.1新距离回应。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P4.S7
+
+- physical_page: 2
+- source_claim_attributed: 作者承认存在Parmesan/FishFuzz等多目标DGF，但其主要针对常含大量无关位置的sanitizer目标，与互联提交目标不同
+- matrix_syntax: there are处于让步从句；they focus为矩阵；which及unlike继续解释对照
+- discourse_foreground: 已有多目标能力不等于契合本任务结构
+- first_new_content: 目标间关系而非数量成为区别轴
+- contextual_grounds: P4已提出多目标难点，读者可能以现成多目标工具反驳
+- conventional_form_and_clause_relation: 存在式让步＋主要任务主句＋常见性质关系从句＋对比短语
+- relative_length_role: 长；一次排除自然替代答案并公平保存其适用域
+- integrated_selection_reader_value_inference: 不是声称近邻不会多目标；写清任务结构区别，第二挑战才不是重复造轮子
+- reason_for_addition: 补复杂长句的反驳预期与合理替代边界
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 31229d6c1389e7664f2eae3ad078562d6e191ad367ecb346b77733900de030b0
+  - source_span_word_count: 3
+  - target_span_locator: 矩阵主要聚焦的连续谓语
+  - replacement_english: mainly focus on
+  - fit_and_semantic_status: 保主要而非全部，后面often也不删除；让步存在不升级为所有近邻任务都被独立验证
+  - choice_classification: neutral lexical substitution
+  - choose_when: 仅按既定文风选择mainly而非primarily时
+  - tradeoff: 没有独立理解收益；真正重要的是主要、通常与互联/无关对照都保留
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者承认已有Parmesan、FishFuzz等多目标定向fuzzer；但它们主要面向sanitizer标记的目标，这些目标通常包含大量彼此无关的位置，而提交中的目标彼此关联。
+  - semantic_or_context_change: 拆让步与主体，保主要/通常及结构对照，不增加旧法能力的否定
+  - choose_when: 长让步和两个后置限定让读者误以为作者否认多目标工具存在时
+  - tradeoff: 拆分减少句内负担，但应保承认—限定的衔接，不变成两条互不相干事实
+- scientific_qualification_ids:
+  - Q4
+- retained_analysis_context:
+  - P4.S7：O 让步承认多目标工具，主句以 sanitizer 无关目标对比提交互联目标；I 排除“已有多目标所以没必要”的反驳而保留旧工作的适用域。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P5.S3
+
+- physical_page: 2
+- source_claim_attributed: 作者将第一挑战表述为如何既快速又充分测试受影响代码
+- matrix_syntax: how加to不定式的独立问式分析单元，无完整有限矩阵；与前冒号导航共享组织结构
+- discourse_foreground: 同时满足速度与充分性
+- first_new_content: 两个并列任务要求被变成可回答的设计问题
+- contextual_grounds: P3已说明光到达不够，此处不是再证明缺口
+- conventional_form_and_clause_relation: 研究挑战问式，副词并列修饰同一测试行为
+- relative_length_role: 短问句把长问题段压成一句任务约束
+- integrated_selection_reader_value_inference: 短不意味着浅：它将后文实现的判断标准固定，下一句需解释如何兼顾而非再换术语
+- reason_for_addition: 补非有限问式与导航边界；常规句式不能全套主谓宾
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 46c9274fb5bb03e41f04e8cb174520a17413cfc2770ed90b6a9381df0742a1ad
+  - source_span_word_count: 3
+  - target_span_locator: 问句中修饰测试动作的两个并列副词
+  - replacement_english: both quickly and thoroughly
+  - fit_and_semantic_status: 仅显化二者同时需要；保原how-to句式，不冒称独立完整陈述句
+  - choice_classification: joint-requirement emphasis
+  - choose_when: 需要强调速度和充分性必须共同满足，而非分别交给两个方案时
+  - tradeoff: 原and已经表达并列，both只加强显式强调，不产生新的科学要求
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者的第一项挑战是：怎样既快速又充分地测试受影响代码？
+  - semantic_or_context_change: 完整中文归属型疑问；不把问题改成已实现的结果
+  - choose_when: 需将前一长问题段转为可以被后面方法回答的问题时
+  - tradeoff: 保持问式，不能把目标改为已完成结果
+- scientific_qualification_ids:
+  - Q5
+- retained_analysis_context:
+  - P5.S3：O 疑问把速度与充分性并列；P5.S4：O 首先到达承认已有方法必要性；P5.S5：O 一旦到达则保留可达并生成多样输入，条件→双动作解释所谓挑战，而非换名复述问题。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P5.S5
+
+- physical_page: 2
+- source_claim_attributed: 作者要求到达后保持可达，再以多样输入探索影响区不同状态
+- matrix_syntax: we have to maintain及并列generate为主干；once为前置完成条件；to为探索目的
+- discourse_foreground: 到达后的状态保持与继续变化必须共存
+- first_new_content: 不是停止导向，而是保存已满足条件的同时探索其他状态
+- contextual_grounds: P5.S4先承认到达仍是必要步骤
+- conventional_form_and_clause_relation: 完成条件＋义务谓词＋顺承动作＋目的；义务不限单一动作
+- relative_length_role: 中长；保条件和双行动，避免读者把保持与多样性看成矛盾
+- integrated_selection_reader_value_inference: 挑战深化为要保什么、又要变什么，P6关键代码策略才有解释负担
+- reason_for_addition: 补条件/义务/目的各层及其方法依赖
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: ae4911820ad34da4c4cabe9762f9d4243502f337c46561345934bfa0b955e501
+  - source_span_word_count: 3
+  - target_span_locator: 矩阵中保持可达的义务谓语
+  - replacement_english: must maintain
+  - fit_and_semantic_status: 义务强度同等，保后面and then与探索目的；不换成may或can
+  - choice_classification: neutral modal compression
+  - choose_when: 需压缩义务性谓语而不降低必须程度时
+  - tradeoff: 不会减少保持与探索的解释负担；can/may不构成同等替换
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者要求，一旦到达目标，就必须保持其可达性，随后生成多样输入，探索受影响代码的不同程序状态。
+  - semantic_or_context_change: 顺承词保留；保持与探索的共同约束仍在，不添加严格并行执行保证
+  - choose_when: 读者误以为到达后可放弃已有条件、只追求多样性时
+  - tradeoff: 条件和顺承被更清楚排列，仍不额外宣称严格并行执行
+- scientific_qualification_ids:
+  - Q5
+- retained_analysis_context:
+  - P5.S3：O 疑问把速度与充分性并列；P5.S4：O 首先到达承认已有方法必要性；P5.S5：O 一旦到达则保留可达并生成多样输入，条件→双动作解释所谓挑战，而非换名复述问题。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P5.S6
+
+- physical_page: 2
+- source_claim_attributed: 作者问如何以聪明且轻量方式处理多处改动
+- matrix_syntax: how-to非有限问式，无有限矩阵
+- discourse_foreground: 多目标有效性必须与资源代价一起解决
+- first_new_content: 轻量要求加入，不只是处理更多位置
+- contextual_grounds: P4已有个体导向损失；P5随后比较逐点单测
+- conventional_form_and_clause_relation: 挑战问式＋方式要求；smart和lightweight为不同评价
+- relative_length_role: 短，给随后直觉方案与反例清楚问题目标
+- integrated_selection_reader_value_inference: 轻量性不应降成实现偏好：它使共享上下文的分组方案有价值
+- reason_for_addition: 补第二挑战的资源要求与普通问式角色
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 0f1be25165b0fb9b47b6e517b025074f2dc4feb8c486efe352dd56d18f61dd92
+  - source_span_word_count: 3
+  - target_span_locator: 问句内被处理的多位置改动宾语
+  - replacement_english: changes at multiple sites
+  - fit_and_semantic_status: 改变名词组结构，保multiple范围；不改原聪明/轻量方式要求
+  - choice_classification: nominal-scope clarification
+  - choose_when: 多位置与多次改动的名词堆叠让读者难辨被处理对象时
+  - tradeoff: 介词展开略长，但不增加位置数量或轻量指标
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者的第二项挑战是：怎样以巧妙而轻量的方式处理多个位置的改动？
+  - semantic_or_context_change: 完整中文保方式双评价；非已完成有效性宣称
+  - choose_when: 第二挑战容易被读成仅支持更多目标时
+  - tradeoff: 保巧妙/轻量两个源评价，不能凭疑问本身宣称已降低开销
+- scientific_qualification_ids:
+  - Q5
+- retained_analysis_context:
+  - P5.S6：O 第二疑问加入多点处理和轻量要求；P5.S7：O 直觉解为逐点单测；P5.S8：O 目标多时不实用的转折限制；P5.S9：O 追加共享上下文被忽略，结果分词落在时间/资源浪费。I 三句让合并策略是节省重复工作的必要选择，§3.1兑现。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P5.S9
+
+- physical_page: 2
+- source_claim_attributed: 作者称逐点测试还忽略同提交改动常共享上下文这一重要信息，导致发现延迟和资源低效
+- matrix_syntax: this approach neglects为矩阵；such as例示里嵌入事实内容；resulting为结果
+- discourse_foreground: 共享结构是单独逐点处理丢掉的资源优势
+- first_new_content: 共同上下文既是语义关系，也是复用条件
+- contextual_grounds: P5.S7–8已给逐点直觉及目标多时不可行
+- conventional_form_and_clause_relation: 递进＋忽略对象＋事实例示＋括号例＋结果分词
+- relative_length_role: 长；位置关系→可共享前提→代价后果链不能靠一句“低效”替代
+- integrated_selection_reader_value_inference: 这一句是分组设计最直接的任务理由；新信息不因嵌在例示里就只是可删背景
+- reason_for_addition: 补被例示嵌套的新信息及其设计价值
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 62c82add4c5c9732a5fd222e62223f42d9d332482aa4529c0b9213e82359fef2
+  - source_span_word_count: 5
+  - target_span_locator: 重要信息后引入事实例示的连续短语
+  - replacement_english: including the fact that
+  - fit_and_semantic_status: 原事实从句与often保持，非穷尽例示改为非穷尽包含，未变成所有改动共享同一函数
+  - choice_classification: neutral exemplification variant
+  - choose_when: 仅需改换非穷尽事实例示框架时
+  - tradeoff: including和such as在此都不保证列全理由，不构成新增论证收益
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者进一步指出，逐点处理会忽略重要信息，例如同一次提交的改动常共享上下文；忽略这一点会延迟缺陷发现并降低资源利用效率。
+  - semantic_or_context_change: 删去“同一函数”括号例属于显式内容压缩；保often、双后果和原作者因果归因
+  - choose_when: 已有读者理解共同上下文，可省同函数小例而突出资源后果时
+  - tradeoff: 删除了同函数这一例示；若读者尚不懂上下文共享，应保留它，不能只追求短
+- scientific_qualification_ids:
+  - Q5
+- retained_analysis_context:
+  - P5.S6：O 第二疑问加入多点处理和轻量要求；P5.S7：O 直觉解为逐点单测；P5.S8：O 目标多时不实用的转折限制；P5.S9：O 追加共享上下文被忽略，结果分词落在时间/资源浪费。I 三句让合并策略是节省重复工作的必要选择，§3.1兑现。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P6.S3
+
+- physical_page: 2
+- source_claim_attributed: 作者的关键洞察是生成探索多样状态但保持关键代码执行的输入
+- matrix_syntax: our key insight is为矩阵；to generate为表语性内容；that/while展开输入应满足的条件
+- discourse_foreground: 保持和多样探索组成同一个设计不变量
+- first_new_content: 关键代码执行成为应被保存的东西
+- contextual_grounds: 组件目录刚给出，读者仍不知三个组件共同服务什么
+- conventional_form_and_clause_relation: 洞察名词系表＋不定式内容＋相对从句＋while保持条件
+- relative_length_role: 中；给统一原则，为随后长机制段提供凝聚点
+- integrated_selection_reader_value_inference: 若仅保组件名，机制像拼装；本句解释各组件共同消解保持与探索之间的张力
+- reason_for_addition: 补系表矩阵与核心新命题的层次
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 6f5b414b1f1f6d2c53d87903f0a2844d91629ec42aba8ebcdac7c6b8489948bd
+  - source_span_word_count: 2
+  - target_span_locator: 相对从句内引入保存关键执行的while成分起始
+  - replacement_english: while maintaining
+  - fit_and_semantic_status: 保while的同时约束而非因果；maintaining的宾语仍为执行，不改成保持输入字节本身
+  - choice_classification: neutral maintenance-verb variant
+  - choose_when: 既定文风更习惯maintain且执行对象清楚时
+  - tradeoff: 同样保执行，不比preserve多出机制保证
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者将关键洞察表述为：生成能够探索多种程序状态的输入，同时保持关键代码的执行。
+  - semantic_or_context_change: 不定式内容改成中文冒号定义；保多样性与保持条件，不把它们拆为两个无关收益
+  - choose_when: 组件目录之后读者仍看不出所有模块共同要保什么、变什么时
+  - tradeoff: 冒号式原则更醒目，仍需后续定义和证据，不能让洞察标签代替说明
+- scientific_qualification_ids:
+  - Q6
+- retained_analysis_context:
+  - P6.S1：O 对应第一挑战后提出策略；P6.S2：O 核心设计列识别、选边、掩码，给读者组件目录；P6.S3：O 关键洞察以同时探索/保留并列，说明各组件共同不变量。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P6.S5
+
+- physical_page: 2
+- source_claim_attributed: 作者定义控制流前缀可影响改动点，数据依赖后缀关联改动点所用关键变量
+- matrix_syntax: 两个名词主语各有定义谓词，由and协调；无单一主句吞掉另一分支
+- discourse_foreground: 两类关键代码各承担何种程序关系
+- first_new_content: 前缀/后缀名称现在获得可理解内容
+- contextual_grounds: P6.S4仅列两类型，P3已解释改动影响能传播
+- conventional_form_and_clause_relation: 平行定义常式；每个定义内再以关系从句界定集合
+- relative_length_role: 长但平衡；双定义需要同层对照，不宜只删一半来缩短
+- integrated_selection_reader_value_inference: 读者需要先懂关系才能理解后面为何分别关注路径/值；名称不代替任务理由
+- reason_for_addition: 补协调双矩阵与关系定义的区分
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 631582d6eb76a2cde0ce7c1bcf639349e0db4eb6ae85b4bdc439a94e58dfdf9e
+  - source_span_word_count: 2
+  - target_span_locator: 第一个定义主句的定义谓语
+  - replacement_english: denotes
+  - fit_and_semantic_status: 仍以控制流前缀名词组为宾语，第二定义完整保留；不改可影响为必影响
+  - choice_classification: neutral definitional-verb compression
+  - choose_when: 技术定义段希望紧凑表达术语所指时
+  - tradeoff: denote语域较形式化；关系集合及can限定不能因简短而丢失
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 按作者定义，路径前缀是能够影响改动点的控制流前缀；数据后缀是与改动点所用关键变量存在数据依赖的代码。
+  - semantic_or_context_change: 分号显化两定义同层；保can和数据依赖，不新增时间上必先后执行含义
+  - choose_when: 读者将前缀/后缀当成两个算法名而非控制/数据关系时
+  - tradeoff: 分号强化并列定义，不说明更多实现顺序或时间先后
+- scientific_qualification_ids:
+  - Q6
+- retained_analysis_context:
+  - P6.S4：O 作者区分两类关键代码；P6.S5：O 两个定义并列，控制流前缀和数据依赖后缀分别回应到达/传播，不是名称堆叠。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P6.S13
+
+- physical_page: 2
+- source_claim_attributed: 作者称稀有前缀指示到目标的新路径，稀有后缀指示影响代码的新数据值
+- matrix_syntax: 两个indicates定义/解释性主句并列，第二宾语含can影响条件
+- discourse_foreground: 稀有性为什么是多样性的有意义信号
+- first_new_content: 两个代理信号分别对应路径和值，首次解释选择价值
+- contextual_grounds: P6前面已交选边做法，但读者可能不理解指标意义
+- conventional_form_and_clause_relation: 平行解释句；相同谓词使两个语义维度可对照
+- relative_length_role: 中长；是机制→指标意义的桥梁，删成一句多样性会丢判断依据
+- integrated_selection_reader_value_inference: 不重复操作，而是在帮助读者评估代理是否对准真实任务；此处解释比再添方法名重要
+- reason_for_addition: 补为何此解释句不是冗余；选择它因为代理意义首次交清
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: b4a4d44648cd8578bb09d9f60abceb670d174fd478c369695be9a5b17a365e9d
+  - source_span_word_count: 1
+  - target_span_locator: 第一个平行主句的指示谓词；仅这一出现
+  - replacement_english: signals
+  - fit_and_semantic_status: 替換为信号谓词，不改成保证；第二分支can的能力边界保持
+  - choice_classification: proxy-signal wording
+  - choose_when: 需要提醒读者稀有性是状态变化的指示，而非直接等同真实新状态时
+  - tradeoff: signals只是改变信号语感，不额外证明代理可靠性或减少原声明强度
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者解释，稀有路径前缀标示通向目标的新路径，而稀有数据后缀标示能够影响受影响代码的新数据值。
+  - semantic_or_context_change: 保两个平行指示关系及can的能力含义，不将它改成不确定猜测，也不把indicates升级为逻辑保证
+  - choose_when: 读者已经知道选边动作，却不知道为何稀有值得选时
+  - tradeoff: 保路径/值双维度，不压成笼统多样性，也不新增保证
+- scientific_qualification_ids:
+  - Q6
+- retained_analysis_context:
+  - P6.S12：O 已到达条件下改选前后缀稀有边；P6.S13：O 对称两分句解释稀有前缀代表新路径、后缀代表新数值；P6.S14：O 指代全部方法总结多状态与充分测试。I 中间解释句不可删成“提高多样性”，它教读者判断稀有性代理的含义。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P7.S4
+
+- physical_page: 2
+- source_claim_attributed: 作者为使每个目标受到有效引导和充分关注，仅用最稀有已执行目标距离计算输入距离
+- matrix_syntax: we only consider为矩阵；to ensure内容给目的；when给计算情境
+- discourse_foreground: 单个目标不能被汇总淹没的注意分配
+- first_new_content: 每个目标、充分关注、仅用哪一距离之间的联系
+- contextual_grounds: P4给汇总失去个体导向，P7.S3已称分别记录
+- conventional_form_and_clause_relation: 目的前置＋限定选择主句＋情境从句；each与only作用不同
+- relative_length_role: 长；目的先行使特殊选择规则有可解释价值，不是直接抛公式
+- integrated_selection_reader_value_inference: 先给为何作选择，再给选择，帮助读者将新指标与第二挑战连起来
+- reason_for_addition: 补目的信息何以置前及量词不同辖域
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 8856de7e195257ffa5cc9ff0fe138be5ef010dea152ae3946df90bd9d54c2178
+  - source_span_word_count: 3
+  - target_span_locator: 矩阵主语及仅考虑谓语；止于其距离宾语之前
+  - replacement_english: we take into account only
+  - fit_and_semantic_status: only明确紧邻被考虑的距离宾语，保原选择限制，不把each误读成同时平均全部目标
+  - choice_classification: focus-scope clarification
+  - choose_when: 句中only可能被读成仅作考虑而不行动，需要把其焦点贴近距离宾语时
+  - tradeoff: 谓语更长；限定对象清晰不等于新增每目标均匀时间保证
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者为确保每个目标都获得有效引导和充分测试关注，在计算某个输入的距离时，只考虑最稀有的已执行目标所对应的距离。
+  - semantic_or_context_change: 目的及情境换序，保确保的作者目的强度；不是宣称已证明所有目标获得相同时间
+  - choose_when: 特殊距离选择规则看似任意，需要先读其每目标关注目的时
+  - tradeoff: 目的前置应保目的身份，不能用ensure字样冒充已证明结果
+- scientific_qualification_ids:
+  - Q4
+  - Q6
+- retained_analysis_context:
+  - P7.S1：O 对应第二挑战提出轻量距离；P7.S2：O 再调生成策略，给并非仅更换指标的预期；P7.S3：O 分别记录距离是操作；P7.S4：O 目的前置充分关注每目标，主句只用最稀有已执行目标距离，§3.1回收。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P7.S6
+
+- physical_page: 2
+- source_claim_attributed: 作者称按共同前提分组目标来降低测试复杂度
+- matrix_syntax: we simplify为矩阵；by方式解释分组依据
+- discourse_foreground: 多目标可以共享已有到达条件，减少重复劳动
+- first_new_content: 共同前提成为组织目标的规则
+- contextual_grounds: P5.S9已给共享上下文被忽视的代价
+- conventional_form_and_clause_relation: 追加论点＋结果性动作＋按依据分组的方式成分
+- relative_length_role: 中；一条短机制价值链连接先前浪费与后续具体表示
+- integrated_selection_reader_value_inference: 分组不是因为目标多就随意聚类，而是以可复用前提让轻量要求成立
+- reason_for_addition: 补资源价值与分组依据在同一句如何接合
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: dc797d507eb81b4e3af8ed60d30beb1d6fdeb2465ef3f7d19d19144810adee46
+  - source_span_word_count: 5
+  - target_span_locator: 从by开始至分组依据引导成分末，保留共同前提宾语
+  - replacement_english: by grouping them according to
+  - fit_and_semantic_status: 按/依据的介词表达变换，不改变分组对象或shared条件
+  - choice_classification: neutral criterion-preposition variant
+  - choose_when: 将共同前提作为分组准则的表达需与邻句术语保持一致时
+  - tradeoff: 不改变分组原则或效率证据，本身不是新方法理解收益
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 此外，作者通过按照共同前提对目标分组，降低多目标测试的复杂度。
+  - semantic_or_context_change: 方式前置强调复用根据；不把同函数作为所有分组唯一可能规则补进此句
+  - choose_when: 读者把分组误读成任意聚类，尚未连上共享前提的资源价值时
+  - tradeoff: 方式前置有助于追踪准则，但不应加入同函数唯一规则
+- scientific_qualification_ids:
+  - Q4
+- retained_analysis_context:
+  - P7.S5：O 对生成而言分别识别关键代码及掩码，把距离与生成对齐；P7.S6：O 追加按共同前提分组降复杂度；P7.S7：O 具体用支配树合并同函数改动，回答P5直觉方案重复代价；P7.S8：O 指代总结充分测试全部改动。I 概括不等于穷尽状态保证。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P8.S1
+
+- physical_page: 2
+- source_claim_attributed: 作者为公平比较设计与先进fuzzer，从GitHub构建基准数据集
+- matrix_syntax: we construct dataset为矩阵；前置目的给构建理由
+- discourse_foreground: 评价需要对准提交任务并可比较
+- first_new_content: 自行构建基准以及公平比较的目的
+- contextual_grounds: 前文两挑战与机制已交齐，接下来需要可信答案
+- conventional_form_and_clause_relation: 目的不定式前置＋研究动作主句
+- relative_length_role: 中；先说明为何多此一项数据工作，为下一BIC人工定位做准备
+- integrated_selection_reader_value_inference: 数据集不是无关资源贡献：需知道哪个提交真正引入bug，才能测试本文任务而不是只测崩溃复现
+- reason_for_addition: 补基准选择为什么属于任务真实性而不只是实验格式
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 219e7651cb54ea825fe5ec296a6d6c5d33aceb8d217b2eef33a66d17ef0239e2
+  - source_span_word_count: 5
+  - target_span_locator: 句首公平比较目的起始，保留其后our design with等比较补语
+  - replacement_english: To make a fair comparison of
+  - fit_and_semantic_status: 名词化比较框架可接of A with B，保公平目的；不凭此宣称所有公平性已经独立验证
+  - choice_classification: purpose nominalization
+  - choose_when: 后面连续讨论比较设计，想把公平比较作为可回指的名词概念时
+  - tradeoff: 比动词表达更重更长，不默认更好；仍不能保证公平性已被独立验证
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 为将其设计与已有先进fuzzer公平比较，作者从GitHub构建了一套基准数据集。
+  - semantic_or_context_change: 目的前置保留；未把数据来源压成作者随机生成错误
+  - choose_when: 数据集构造看似与方法任务无关的额外工作时
+  - tradeoff: 先给公平目的，但后文仍须交BIC定位等具体条件
+- scientific_qualification_ids:
+  - Q7
+- retained_analysis_context:
+  - P8.S1：O 公平比较的目的前置、建立数据为主谓；P8.S2：O 数据集作主语给30缺陷/8程序及旧工作关系；P8.S3：O 每个缺陷人工定位诱因提交，确保测试目标与任务一致。
+  - P8.S8：O 结果作主语判断优越；P8.S9：O 总体10.3倍量化；P8.S10：O 再报复现最多，补充超时/成功数这一均值遗漏维度。
+  - P8.S11：O 真实最新提交实验及7新缺陷、4CVE同句；P8.S12：O 现实应用验证句解释为何不是只会复现已知缺陷。I 最后解释有重复性，但担负外部价值收束。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P8.S8
+
+- physical_page: 2
+- source_claim_attributed: 作者称实验结果证明WAFLGo优于其他被比较fuzzer
+- matrix_syntax: results demonstrate为矩阵；名词化优越性为宾语
+- discourse_foreground: 结果方向先于具体数值
+- first_new_content: 结论框架首次给出总判断
+- contextual_grounds: P8.S1–7已给数据/三类基线，读者知道比较什么
+- conventional_form_and_clause_relation: 证据主语＋强报告谓词＋名词化结果＋比较范围
+- relative_length_role: 短；给随后提速/数量/新发现不同证据统一主题
+- integrated_selection_reader_value_inference: 不能因scientific限定就偷偷弱成也有一些效果；保作者强正结论，协议范围另列
+- reason_for_addition: 补语法报告框架与话语结果判断的区分
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: ae7af9c02045ade0065349056005b7ceceba49d591f8d1580141dce443af2289
+  - source_span_word_count: 2
+  - target_span_locator: 优越性名词组后的比较连接短语
+  - replacement_english: in comparison with
+  - fit_and_semantic_status: 保同一比较集合和demonstrate的强度；不改成所有可能fuzzer
+  - choice_classification: neutral comparison-frame variant
+  - choose_when: 仅因局部句式衔接需要名词式比较框架时
+  - tradeoff: 没有新的结果或说服力，不应改动demonstrate与superiority的源强度
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者认为，实验结果证明WAFLGo优于所比较的其他fuzzer。
+  - semantic_or_context_change: 显化比较集合承接前文，保证明/优越的作者评价而不当作本轮独立验证
+  - choose_when: 需要先交结果方向，再让不同证据分别支持它时
+  - tradeoff: 作者归属与比较集合显化，但不能把强结果写成不确定可能以求审慎
+- scientific_qualification_ids:
+  - Q7
+  - Q8
+- retained_analysis_context:
+  - P8.S8：O 结果作主语判断优越；P8.S9：O 总体10.3倍量化；P8.S10：O 再报复现最多，补充超时/成功数这一均值遗漏维度。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P8.S9
+
+- physical_page: 2
+- source_claim_attributed: 作者概括WAFLGo平均加速达到10.3倍
+- matrix_syntax: WAFLGo achieves为矩阵，average限定聚合
+- discourse_foreground: 任务效率的主要量化答案
+- first_new_content: 10.3倍聚合提速
+- contextual_grounds: 前句已给优越性方向，因此不再解释方法
+- conventional_form_and_clause_relation: 总体框架＋方法主语＋平均量化结果
+- relative_length_role: 短；与前句总论及后句复现数量相邻形成结论—证据序列
+- integrated_selection_reader_value_inference: 选发现错误的时间而非仅到达目标时间，与本文纠正代理错位一致
+- reason_for_addition: 补为什么选该指标和短数值句的任务角色
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: e59d5d89c0ad295142b28e9d96c330fe11b39479f95c9d5197b27c978ce28955
+  - source_span_word_count: 2
+  - target_span_locator: 句首总体概括框架
+  - replacement_english: Overall
+  - fit_and_semantic_status: 保平均值在谓语宾语内，不把总体框架解释成每例都10.3倍
+  - choice_classification: neutral aggregate-frame variant
+  - choose_when: 希望在经验结果段使用更紧凑的总体框架时
+  - tradeoff: Overall不说明平均的权重或样本；不能凭一个副词补造统计协议
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者概括，WAFLGo获得10.3倍的平均加速。
+  - semantic_or_context_change: 保平均及倍数因子；计算协议与样本支持另列Q8，不在保义替换中添加新统计解释
+  - choose_when: 总方向之后需要一个简短任务效率答案时
+  - tradeoff: 必须保平均，协议另列；不把短数值句当逐例保证
+- scientific_qualification_ids:
+  - Q8
+- retained_analysis_context:
+  - P8.S8：O 结果作主语判断优越；P8.S9：O 总体10.3倍量化；P8.S10：O 再报复现最多，补充超时/成功数这一均值遗漏维度。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## P8.S10
+
+- physical_page: 2
+- source_claim_attributed: 作者称WAFLGo成功复现最多bug，以此超过其他fuzzer
+- matrix_syntax: WAFLGo outperforms为矩阵；by成分给超越依据
+- discourse_foreground: 成功数量补上平均时间不能独自说明的发现能力
+- first_new_content: 最多成功复现这一维度首次报出
+- contextual_grounds: 前句只量化时间，未说哪些case最终做成
+- conventional_form_and_clause_relation: 追加连接＋比较主句＋方式/依据动名词成分
+- relative_length_role: 中短；与时间结论同层但不冗余
+- integrated_selection_reader_value_inference: 此句让读者不把时间优势误读成只在少数容易case更快；它仍不是每个bug保证
+- reason_for_addition: 补并列结果为什么不应压成单个均值
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: d9d4a4bbbe2cbe86d19d1afb7483551b189383360cf1d3c32af4122d043f79f0
+  - source_span_word_count: 3
+  - target_span_locator: 从by开始至复现动名词，保后接最高数量宾语
+  - replacement_english: through successful reproduction of
+  - fit_and_semantic_status: 动名词谓语转名词化方式成分，原数量最高关系完整保留
+  - choice_classification: evidence nominalization
+  - choose_when: 相邻结果以指标名为前景，希望把成功复现当比较依据陈列时
+  - tradeoff: 名词化比动词动作更抽象，若强调研究行动原by结构可能更自然
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者还指出，WAFLGo成功复现的bug数量最多，因此优于其他被比较fuzzer。
+  - semantic_or_context_change: 把依据前置并显式因此；保最高数量的作者主张，不把复现等同新发现
+  - choose_when: 平均时间后还缺到底完成多少case的判断时
+  - tradeoff: 把数量依据前置并保最多；不把复现数量改成新发现数量
+- scientific_qualification_ids:
+  - Q8
+- retained_analysis_context:
+  - P8.S8：O 结果作主语判断优越；P8.S9：O 总体10.3倍量化；P8.S10：O 再报复现最多，补充超时/成功数这一均值遗漏维度。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## B1.S1
+
+- physical_page: 3
+- source_claim_attributed: 作者强调提交测试应充分fuzz受影响代码，因为仅到达提交改动点不足发现新bug
+- matrix_syntax: we highlight为矩阵；as从句给强调的原因
+- discourse_foreground: 把不足诊断提升为任务认识贡献
+- first_new_content: 贡献身份新增；内容主要回收P3
+- contextual_grounds: 前文已给证据/机制，列表将它归组为所得
+- conventional_form_and_clause_relation: 贡献动词＋意义名词＋原因从句；solely限定到达是唯一动作
+- relative_length_role: 中长；认识贡献需要保理由，否则像普通建议口号
+- integrated_selection_reader_value_inference: B1不以技术名抢贡献，而是改正“什么算完成任务”的认识；其篇幅由理由需要决定
+- reason_for_addition: 补贡献的新增归组与内容首次出现的区别
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: c87be7bccb675216122671abccbda9d06369ab6a974b41848f09044670c2228b
+  - source_span_word_count: 3
+  - target_span_locator: 原因从句开头连接词及仅到达的动名词起始
+  - replacement_english: because merely reaching
+  - fit_and_semantic_status: 保因为与仅凭到达的限制，后接原改动位置宾语；不变成到达不必要
+  - choice_classification: explicit causal connector
+  - choose_when: as可能被读成同时背景，而当前关系确为强调任务意义的理由时
+  - tradeoff: because更显原因，不新增因果证据，也不能删merely/solely范围
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者强调，在提交测试中对受影响代码充分开展模糊测试很重要，因为仅仅到达改动位置不足以发现新引入的bug。
+  - semantic_or_context_change: 保模糊测试这一方法限制与不足判断，不扩成一般测试；把贡献动词译为强调，不假称新数学定理
+  - choose_when: 贡献只剩一句重要性口号、缺少为何到达不足的理由时
+  - tradeoff: 要保模糊测试这一任务限制；普通测试的扩称不是纯保义
+- scientific_qualification_ids:
+  - Q2
+- retained_analysis_context:
+  - **B1–B4 · p.3 · 完整贡献集。** B1.S1 将不足从算法变成任务认识，原因分句强调仅到达不够。B2.S1–2 先列新策略/指标，再写怎样服务所有改动及影响代码，避免裸模块列表。B3.S1 原型/公开代码是复现交付。B4.S1–4 依次数据集及人工BIC、比较实验、总体优越、新漏洞；最长项目因为材料、方法与结果共担。O 此处不重复10.3倍，却保留7/4的真实发现。I 可认为作者在列表中更重视可复用资源与实际效果，不能仅据长度称某贡献更原创。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## B2.S2
+
+- physical_page: 3
+- source_claim_attributed: 作者称这些设计使多样输入成为可能，以充分测试所有提交改动点及影响代码，从而促进发现新bug
+- matrix_syntax: these designs enable为矩阵；for目的/用途短语给任务，facilitating补后果
+- discourse_foreground: 设计为何构成有用能力
+- first_new_content: 作为贡献的能力综合新增，机制在P6/7已给
+- contextual_grounds: B2.S1刚列输入生成策略与距离指标；These designs为复数回指，需回收这两类设计
+- conventional_form_and_clause_relation: 设计作施事＋使能谓词＋名词化产物＋用途＋后果
+- relative_length_role: 长；模块列举后保任务结果，避免贡献只有组件清单
+- integrated_selection_reader_value_inference: all针对所给提交目标范围，thoroughly是研究要求；源作者强肯定保留，穷尽状态保证另行区分
+- reason_for_addition: 补模块→任务价值桥梁及全称的范围
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: 7bc95bba8d024e7020d2a15b5fc409dd6c6f85961166c8b0f88a5bf45219928c
+  - source_span_word_count: 4
+  - target_span_locator: 主语these designs后的使能谓词与名词化生成起始
+  - replacement_english: allow the generation of
+  - fit_and_semantic_status: 同样接多样输入宾语；保功能使能，不改成已经穷尽所有程序状态
+  - choice_classification: neutral enabling-verb variant
+  - choose_when: 邻句避免重复enable且设计的使能对象已明确时
+  - tradeoff: 在设计作主语语境中allow是能力使能，不能读成权限授予；不宣称表达升级
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者称，这些设计支持生成多样输入，以充分测试所有提交改动位置及其受影响代码，并促进发现新引入的bug。
+  - semantic_or_context_change: 完整中文保所有位置与促进发现；支持为使能关系，不替成仅有希望
+  - choose_when: 贡献先列策略/指标但读者尚未知道它们合起来有什么用时
+  - tradeoff: 保These designs的双设计回指、所有位置及促进发现的强度，避免造穷尽状态保证
+- scientific_qualification_ids:
+  - Q6
+  - Q8
+- retained_analysis_context:
+  - **B1–B4 · p.3 · 完整贡献集。** B1.S1 将不足从算法变成任务认识，原因分句强调仅到达不够。B2.S1–2 先列新策略/指标，再写怎样服务所有改动及影响代码，避免裸模块列表。B3.S1 原型/公开代码是复现交付。B4.S1–4 依次数据集及人工BIC、比较实验、总体优越、新漏洞；最长项目因为材料、方法与结果共担。O 此处不重复10.3倍，却保留7/4的真实发现。I 可认为作者在列表中更重视可复用资源与实际效果，不能仅据长度称某贡献更原创。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+- retained_range_resolution: 继承ledger的完整B1–B4段中分别以B2.S1–2、B4.S1–4覆盖；仅原样挂接已有段，不新增旧分析内容
+
+## B3.S1
+
+- physical_page: 3
+- source_claim_attributed: 作者称已实现WAFLGo原型并公开源代码供后续研究
+- matrix_syntax: we implement与make available为协调谓词
+- discourse_foreground: 可复用实现的交付价值
+- first_new_content: 源代码公开可获得性在贡献中明示；并未由本轮核验开源许可证
+- contextual_grounds: 前文主要谈设计和实证，列表另交资源状态
+- conventional_form_and_clause_relation: 同主语双行动＋研究用途＋资源地址
+- relative_length_role: 短；资源贡献无需复述方法细节，但时态/可用状态不可丢
+- integrated_selection_reader_value_inference: 把将来研究用途和当前公开状态分开：用途未来不意味着代码尚未开放
+- reason_for_addition: 补完成状态与资源价值而非贡献长度模板
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: ee119b1c4a714ecb7ad5bf6a5e05d75ecef6fa679fadef63cc97463b3056f9fc
+  - source_span_word_count: 5
+  - target_span_locator: 第二个协调谓词及源代码可获得性宾语，保后续用途/地址
+  - replacement_english: provide access to the source code
+  - fit_and_semantic_status: 动作仍接and，保当前提供访问状态；不新增许可证权利或今天仓库可用保证
+  - choice_classification: neutral availability-predicate variant
+  - choose_when: 要强调读者获得源代码访问这一资源状态时
+  - tradeoff: 可获得不等于开源许可证；不得增加权利或今日在线保证
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者称，他们已实现WAFLGo原型，并提供源代码供后续研究使用。
+  - semantic_or_context_change: 保当前交付与未来用途；省略URL属展示压缩，源资源位置在原文可查
+  - choose_when: 读者易把未来研究用途误读为未来才公开时
+  - tradeoff: 完整变式删URL属于展示压缩；代码可获得的当前状态仍须保留
+- scientific_qualification_ids:
+  - Q9
+- retained_analysis_context:
+  - **B1–B4 · p.3 · 完整贡献集。** B1.S1 将不足从算法变成任务认识，原因分句强调仅到达不够。B2.S1–2 先列新策略/指标，再写怎样服务所有改动及影响代码，避免裸模块列表。B3.S1 原型/公开代码是复现交付。B4.S1–4 依次数据集及人工BIC、比较实验、总体优越、新漏洞；最长项目因为材料、方法与结果共担。O 此处不重复10.3倍，却保留7/4的真实发现。I 可认为作者在列表中更重视可复用资源与实际效果，不能仅据长度称某贡献更原创。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+
+## B4.S4
+
+- physical_page: 3
+- source_claim_attributed: 作者称使用WAFLGo成功发现七个新漏洞，其中四个有CVE标识
+- matrix_syntax: we successfully detect为矩阵；with框定工具；including交子集
+- discourse_foreground: 现实新发现收束任务价值
+- first_new_content: 相对P8是回收，不是第二批七个
+- contextual_grounds: B4前面数据集/比较/优越已交，此处加现实产出
+- conventional_form_and_clause_relation: 工具框架＋成功发现＋总数＋确认标识子集
+- relative_length_role: 短；同条贡献较长是前面资源与实验职责多，不因最终数字大
+- integrated_selection_reader_value_inference: 重复7/4使贡献清单独立可读；不需要机械重复10.3，因为这里收束的是现实增量
+- reason_for_addition: 补发现/复现/标识状态区别与贡献数值选择
+- local_replacement:
+  - type: exact contiguous local span; not a whole-sentence rewrite
+  - source_span_sha256: da2c5f08744f6941a446e59009754e5532349a5883dea34cee7e04aa79eed50d
+  - source_span_word_count: 3
+  - target_span_locator: 句尾七漏洞名词组后的子集补充成分
+  - replacement_english: four of which have CVE identifiers
+  - fit_and_semantic_status: 改成补充关系从句，把CVE元称还原为四漏洞有标识；保四属于七，不增加全部修复或漏洞等级
+  - choice_classification: referent/status clarification
+  - choose_when: 独立阅读的受众可能把CVE标识与漏洞实体混为一谈时
+  - tradeoff: 相对从句较长，但明确四属于七且状态只是标识，不能顺带加入全部修复
+- full_edited_variant:
+  - type: complete attributed Chinese analytical rewrite
+  - text: 作者称，使用WAFLGo成功发现了七个新漏洞，其中四个获得CVE标识。
+  - semantic_or_context_change: CVE指代显化而保持总数/子集；不重复正文修复状态来改变此句贡献重心
+  - choose_when: 贡献清单需用现实新发现收束，且区分发现数量与标识子集时
+  - tradeoff: 重复7/4服务清单独立性，不意味着又有一批新漏洞或必须同时再抄平均提速
+- scientific_qualification_ids:
+  - Q9
+- retained_analysis_context:
+  - **B1–B4 · p.3 · 完整贡献集。** B1.S1 将不足从算法变成任务认识，原因分句强调仅到达不够。B2.S1–2 先列新策略/指标，再写怎样服务所有改动及影响代码，避免裸模块列表。B3.S1 原型/公开代码是复现交付。B4.S1–4 依次数据集及人工BIC、比较实验、总体优越、新漏洞；最长项目因为材料、方法与结果共担。O 此处不重复10.3倍，却保留7/4的真实发现。I 可认为作者在列表中更重视可复用资源与实际效果，不能仅据长度称某贡献更原创。
+- relation_to_retained: Additive refinement of a preserved existing analysis; not replacement of complete prior profile
+- retained_range_resolution: 继承ledger的完整B1–B4段中分别以B2.S1–2、B4.S1–4覆盖；仅原样挂接已有段，不新增旧分析内容
+

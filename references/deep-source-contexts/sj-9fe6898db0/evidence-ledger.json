@@ -1,0 +1,138 @@
+{
+  "source_id": "sj-9fe6898db0",
+  "evidence": [
+    {
+      "evidence_id": "IG-E1",
+      "location": "§3.1, p.4",
+      "object": "Committee knowledge",
+      "source_statement_or_table_reading": "Knows template/structure; can modify before distribution; receives reviews but does not know reviewer status, service or request; normal user access to service.",
+      "qualification": "Black-box describes service internals, not blindness to own document."
+    },
+    {
+      "evidence_id": "IG-E2",
+      "location": "§2.2 p.3; §7 p.13; Appendix J p.23",
+      "object": "Parser conditions",
+      "source_statement_or_table_reading": "Text-centric focus; invisible mechanisms do not work with purely visual input; visible variant evaluated separately.",
+      "qualification": "No privacy, universal parser coverage, or unchanged visual stealth claim for visible variant."
+    },
+    {
+      "evidence_id": "IG-E3",
+      "location": "P2.S1 p.1; §3.1 Definition 1 p.4",
+      "object": "Target behavior",
+      "source_statement_or_table_reading": "Introduction includes minimal or no modification; formal definition says no modification.",
+      "qualification": "Do not silently collapse boundary or classify all LLM assistance as outsourcing."
+    },
+    {
+      "evidence_id": "IG-E4",
+      "location": "§3.2 p.5",
+      "object": "Formal objective",
+      "source_statement_or_table_reading": "Universal target-response and experience-invariance statements are formulated.",
+      "qualification": "Finite empirical DSR is not proof of universal satisfaction."
+    },
+    {
+      "evidence_id": "IG-E5",
+      "location": "§5.1 pp.8–9; Table 2 p.8; Appendix F p.20",
+      "object": "Evaluation objects",
+      "source_statement_or_table_reading": "120 public papers, 10 each from 12 venues; 5 services in 7 settings; Introduction reports 17,844 cases.",
+      "qualification": "Case count is not manuscript count; no per-figure common denominator invented."
+    },
+    {
+      "evidence_id": "IG-E6",
+      "location": "Table 3 p.9",
+      "object": "Main DSR",
+      "source_statement_or_table_reading": "Visual Deception means .50/.54; MicroPixel .31/.49; Layer Cake .76/.84. Baseline means .34/.43,.05/.16,.00/.00,.07/.28.",
+      "qualification": "Strong average superiority retained; not each cell or each mechanism."
+    },
+    {
+      "evidence_id": "IG-E7",
+      "location": "Table 3 p.9; §5.2 pp.9–10",
+      "object": "Cell-level difference",
+      "source_statement_or_table_reading": "ChatGPT(v1) explicit Visual Deception .86 vs Layer Cake .60.",
+      "qualification": "Source consistently-best language cannot be universal cell dominance."
+    },
+    {
+      "evidence_id": "IG-E8",
+      "location": "§5.3 p.10; Figure 7 p.10",
+      "object": "Visible page",
+      "source_statement_or_table_reading": "MSSIM1.00 in six named readers/browsers.",
+      "qualification": "Visual equivalence is supported; comprehensive accessibility/interaction equivalence not tested."
+    },
+    {
+      "evidence_id": "IG-E9",
+      "location": "Table 4 p.11",
+      "object": "Time cost",
+      "source_statement_or_table_reading": "Mechanism mean .25,.27,1.02 seconds; some venue cases exceed one second.",
+      "qualification": "One-second headline denotes an approximate average, not a per-document cap."
+    },
+    {
+      "evidence_id": "IG-E10",
+      "location": "§5.5 pp.11–12; Table 5 p.12; §5.1 p.9",
+      "object": "Marker background",
+      "source_statement_or_table_reading": "90034 official/meta reviews; COR .05%,.01%,.00%,.00%; chatbot-review COR .00% reported for all four.",
+      "qualification": "Not pure-human ground truth or operational false-accusation rates; rounded zero not population impossibility."
+    },
+    {
+      "evidence_id": "IG-E11",
+      "location": "Appendix G pp.20–21; Table10 p.21",
+      "object": "Copy operations",
+      "source_statement_or_table_reading": "Three authors;12 manuscripts;20 operations each in Adobe Acrobat =720. Layer Cake709/720=98.5%; Visual Deception/MicroPixel100%.",
+      "qualification": "Source visual guarantee remains; full functional identity does not follow."
+    },
+    {
+      "evidence_id": "IG-E12",
+      "location": "Appendix G p.21; Table10 p.21",
+      "object": "Density and copy",
+      "source_statement_or_table_reading": "75%,50%,25% density copy success98.3%,99.2%,99.7%; corresponding implicit DSR .80,.79,.80 vs .81.",
+      "qualification": "Not monotonically improved at every density; implicit strategy only for quoted DSR preservation."
+    },
+    {
+      "evidence_id": "IG-E13",
+      "location": "§6 pp.12–13; Table 6 p.12",
+      "object": "Adaptive scope",
+      "source_statement_or_table_reading": "Twelve manuscripts, Doubao only;5sanitization plus6instruction conditions; multi-turn Crescendo0/12 for all six columns.",
+      "qualification": "Eleven tests does not mean eleven resisted attacks; no cross-service robustness extrapolation."
+    },
+    {
+      "evidence_id": "IG-E14",
+      "location": "Appendix I pp.22–23; Table11 p.23",
+      "object": "Ensemble evidence",
+      "source_statement_or_table_reading": "Already evaluated; Doubao5sanitization results explicit10–12/12,implicit9–11/12; ChatGPT v1/v2 ensemble .17/.14 explicit,.60/.42 implicit.",
+      "qualification": "Not merely future work; no universal gain; five sanitization conditions not all11 adaptive conditions."
+    },
+    {
+      "evidence_id": "IG-E15",
+      "location": "Appendix F p.20",
+      "object": "Proxy manuscripts and configuration",
+      "source_statement_or_table_reading": "ICLR submissions; other11venues published2024–2025 papers as proxies; some preprocessing; template-specific dimensions.",
+      "qualification": "12venue dataset not12live deployments; venue-agnostic not parameter-free."
+    },
+    {
+      "evidence_id": "IG-E16",
+      "location": "P10.S1 p.2",
+      "object": "Resource status",
+      "source_statement_or_table_reading": "Authors state source code release and give repository URL.",
+      "qualification": "Current repository access and reproducibility not independently checked."
+    }
+  ],
+  "provenance_policy": "All figures are source reports, not independently reproduced experiments; qualifications do not erase supported strong claims.",
+  "distribution_provenance": {
+    "primary_url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf",
+    "primary_version": "作者auto_20260921_CCS2026_IntraGuard_1_.pdf；CCS 2026格式，非已出版推定",
+    "historical_analysis_and_review_date": "2026-10-06",
+    "historical_primary_pdf_sha256": "05e4570345e433a83cec1fc2bf5abde8faf3cd0caf73928613e098a020cfec40",
+    "primary_hash_status": "Historical source hash, not a fresh PDF verification or local replay guarantee.",
+    "usable_coordinate_precision": "Inherited P/S unit labels and physical PDF pages only; historical column metadata remains unresolved. Section/table names are semantic references, not finer physical anchors.",
+    "retained_nonblocking_advisories": [
+      {
+        "id": "IG-A-R3",
+        "status": "retained-nonblocking",
+        "meaning": "V3.C interchangeability only covers goals/carriers; prefer three carrier options on reuse."
+      },
+      {
+        "id": "IG-A-R4",
+        "status": "retained-nonblocking",
+        "meaning": "Do not infer a common 12-paper denominator for all Table 11(a) rates."
+      }
+    ]
+  }
+}

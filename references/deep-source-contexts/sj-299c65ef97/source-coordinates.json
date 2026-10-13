@@ -1,0 +1,597 @@
+{
+  "source_id": "sj-299c65ef97",
+  "title": "DEEPSEC: A Uniform Platform for Security Analysis of Deep Learning Model",
+  "authors": [
+    "Xiang Ling",
+    "Shouling Ji",
+    "Jiaxu Zou",
+    "Jiannan Wang",
+    "Chunming Wu",
+    "Bo Li",
+    "Ting Wang"
+  ],
+  "research_type": "Evaluation platform and comparative empirical study; writing-analysis source, not a new-attack implementation task.",
+  "designated_url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf",
+  "actual_read_url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf",
+  "actual_read_version": "NESA author-hosted 18-page manuscript with singular Model in the PDF title, no visible printed proceedings pagination.",
+  "primary_pdf_sha256": "7c4ea26d8b80afa035025d36c34945c6fb919b32834b3ca7538a4517beb264c5",
+  "primary_pdf_bytes": 696129,
+  "physical_pages": 18,
+  "primary_hash_status": "SHA-256 identifies the designated 18-page NESA author-manuscript version used for the stated source reading. It does not establish current public-URL byte identity or equivalence to the proceedings PDF.",
+  "pdf_metadata_creation_date": "D:20181002054458Z",
+  "pdf_metadata_note": "PDF metadata identifies file preparation, not a new publication date or independently named revision.",
+  "bibliographic_identity": {
+    "authors": [
+      "Xiang Ling",
+      "Shouling Ji",
+      "Jiaxu Zou",
+      "Jiannan Wang",
+      "Chunming Wu",
+      "Bo Li",
+      "Ting Wang"
+    ],
+    "coauthorship_verified_at": "Author line and co-first/corresponding footnote on primary PDF physical p.1, checked in source image and text.",
+    "cofirst_authors": [
+      "Xiang Ling",
+      "Shouling Ji"
+    ],
+    "corresponding_author": "Shouling Ji",
+    "venue": "2019 IEEE Symposium on Security and Privacy",
+    "proceedings_pages": "673–690 (bibliographic identity only; not assigned as printed pages to designated manuscript)",
+    "doi": "10.1109/SP.2019.00023",
+    "public_verification_urls": [
+      "https://www.ieee-security.org/TC/SP2019/program.html",
+      "https://ryderling.github.io/publications/"
+    ],
+    "version_distinction": "The conference program uses plural Models in its title. The designated primary PDF uses singular Model. They identify the same work; no page or text from the published mirror was silently substituted.",
+    "authorship_limit": "Joint authorship does not identify who wrote individual sentences; all editorial-purpose claims are analyst interpretations."
+  },
+  "source_reading_date_utc": "2026-10-07",
+  "coordinate_namespace": "The complete published map supplies 35 analytical units. The unchanged default --unit registry contains 34 P/C/R units; END-S1 remains readable in the complete map but is not a registered unit selector. P1–P4 are analytical groups, not a claim of four physical paragraphs. P3 includes prose, four requirements and a separate closing sentence. C3.S1a/b/c are three findings inside one sentence; the shared lead is a local analytical supplement without a new routable ID. Local a/b clause labels and C3.aggregate_sentence are analytical/counting labels only.",
+  "coordinate_system": {
+    "paragraphs": "P1–P4 are established analytical groups; not a claim that the source has exactly four physical prose paragraphs. P3 includes introductory prose, four bullets and a physically separate closing sentence.",
+    "contributions": "C1 and C2 each have two full sentences; C3.S1a/b/c are three findings within one sentence. The shared C3 lead is analyzed locally without new routable source IDs.",
+    "navigation": "END-S1 is the terminal notation-table navigation. It is neither a fourth contribution nor an empirical finding.",
+    "public_locations": [
+      {
+        "units": "P1.S1–P1.S3",
+        "pdf_page": 1,
+        "column": "left",
+        "region": "below Introduction heading, lower portion"
+      },
+      {
+        "units": "P1.S4",
+        "pdf_page": 1,
+        "column": "left to right",
+        "region": "starts at end of left column, continues at top of right column"
+      },
+      {
+        "units": "P2.S1–P2.S12",
+        "pdf_page": 1,
+        "column": "right",
+        "region": "after P1 continuation and before the platform-desiderata paragraph"
+      },
+      {
+        "units": "P3.S1–P3.S2; P3.R1–P3.R4; P3.S3",
+        "pdf_page": 1,
+        "column": "right",
+        "region": "lower half through last prose paragraph"
+      },
+      {
+        "units": "P4.S1–P4.S4",
+        "pdf_page": 2,
+        "column": "left",
+        "region": "first paragraph"
+      },
+      {
+        "units": "C1.S1–C1.S2; C2.S1–C2.S2; C3.S1a–C3.S1c; END-S1",
+        "pdf_page": 2,
+        "column": "left",
+        "region": "numbered contributions through notation navigation before Section II"
+      }
+    ]
+  },
+  "introduction_units": [
+    {
+      "id": "P1.S1",
+      "physical_pdf_page": 1,
+      "column": "left",
+      "region": "lower portion below Introduction heading",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 28
+    },
+    {
+      "id": "P1.S2",
+      "physical_pdf_page": 1,
+      "column": "left",
+      "region": "lower portion below Introduction heading",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 27
+    },
+    {
+      "id": "P1.S3",
+      "physical_pdf_page": 1,
+      "column": "left",
+      "region": "lower portion below Introduction heading",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 45
+    },
+    {
+      "id": "P1.S4",
+      "physical_pdf_page": 1,
+      "column": "left to right",
+      "region": "end of left column continuing at top of right column",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 53
+    },
+    {
+      "id": "P2.S1",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 38
+    },
+    {
+      "id": "P2.S2",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 8
+    },
+    {
+      "id": "P2.S3",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 14
+    },
+    {
+      "id": "P2.S4",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 17
+    },
+    {
+      "id": "P2.S5",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 21
+    },
+    {
+      "id": "P2.S6",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 18
+    },
+    {
+      "id": "P2.S7",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 14
+    },
+    {
+      "id": "P2.S8",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 16
+    },
+    {
+      "id": "P2.S9",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 18
+    },
+    {
+      "id": "P2.S10",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 20
+    },
+    {
+      "id": "P2.S11",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 16
+    },
+    {
+      "id": "P2.S12",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "after P1 continuation and before the platform-desiderata paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 17
+    },
+    {
+      "id": "P3.S1",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 30
+    },
+    {
+      "id": "P3.S2",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 17
+    },
+    {
+      "id": "P3.R1",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 13
+    },
+    {
+      "id": "P3.R2",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 8
+    },
+    {
+      "id": "P3.R3",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 14
+    },
+    {
+      "id": "P3.R4",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 11
+    },
+    {
+      "id": "P3.S3",
+      "physical_pdf_page": 1,
+      "column": "right",
+      "region": "lower half through last prose paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 16
+    },
+    {
+      "id": "P4.S1",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "first paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 24
+    },
+    {
+      "id": "P4.S2",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "first paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 24
+    },
+    {
+      "id": "P4.S3",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "first paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 36
+    },
+    {
+      "id": "P4.S4",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "first paragraph",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 7
+    },
+    {
+      "id": "C1.S1",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 17
+    },
+    {
+      "id": "C1.S2",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 59
+    },
+    {
+      "id": "C2.S1",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 37
+    },
+    {
+      "id": "C2.S2",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 22
+    },
+    {
+      "id": "C3.S1a",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "word_count_scope": "part of the shared 83-word C3 sentence; not separately counted",
+      "aggregate_sentence_id": "C3.aggregate_sentence"
+    },
+    {
+      "id": "C3.S1b",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "word_count_scope": "part of the shared 83-word C3 sentence; not separately counted",
+      "aggregate_sentence_id": "C3.aggregate_sentence"
+    },
+    {
+      "id": "C3.S1c",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": true,
+      "label_origin": "published complete map",
+      "word_count_scope": "part of the shared 83-word C3 sentence; not separately counted",
+      "aggregate_sentence_id": "C3.aggregate_sentence"
+    },
+    {
+      "id": "END-S1",
+      "physical_pdf_page": 2,
+      "column": "left",
+      "region": "numbered contributions through notation navigation before Section II",
+      "default_unit_registered": false,
+      "label_origin": "published complete map",
+      "sentence_or_entry_words": 14
+    }
+  ],
+  "published_map": "references/intro-source-maps/sj-299c65ef97.md",
+  "published_map_sha256": "ad753e64a80155751e66808bc5666ab29bc5dfc58299b6886309cf1bba67286e",
+  "length_statistics": {
+    "source_id": "sj-299c65ef97",
+    "scope": "Full Introduction excluding heading and author footnote; include four desideratum labels and content. Terminal navigation recorded separately.",
+    "method": "PDF text extracted locally with PyMuPDF, Unicode NFKC and line-break hyphen normalization; source sentence boundaries manually checked against pp.1–2 images. Remove bracketed numbered citation markers, contribution/list letter labels and roman enumeration labels. Count whitespace-separated tokens containing an ASCII letter or digit; internal hyphenated/slash forms count as one. Standalone multiplication symbol is not a token; its two numbers count separately. Requirements include their one-word labels. Source spelling retained for counting; no source text shipped.",
+    "narrative_and_contributions_total": 788,
+    "with_terminal_navigation_total": 802,
+    "terminal_sentence_count": 29,
+    "requirement_entry_count": 4,
+    "group_counts": {
+      "P1": 153,
+      "P2": 217,
+      "P3_including_requirements_and_S3": 109,
+      "P4": 91,
+      "C1": 76,
+      "C2": 59,
+      "C3": 83,
+      "END-S1": 14
+    },
+    "sentence_and_entry_counts": {
+      "P1.S1": 28,
+      "P1.S2": 27,
+      "P1.S3": 45,
+      "P1.S4": 53,
+      "P2.S1": 38,
+      "P2.S2": 8,
+      "P2.S3": 14,
+      "P2.S4": 17,
+      "P2.S5": 21,
+      "P2.S6": 18,
+      "P2.S7": 14,
+      "P2.S8": 16,
+      "P2.S9": 18,
+      "P2.S10": 20,
+      "P2.S11": 16,
+      "P2.S12": 17,
+      "P3.S1": 30,
+      "P3.S2": 17,
+      "P4.S1": 24,
+      "P4.S2": 24,
+      "P4.S3": 36,
+      "P4.S4": 7,
+      "C1.S1": 17,
+      "C1.S2": 59,
+      "C2.S1": 37,
+      "C2.S2": 22,
+      "P3.R1": 13,
+      "P3.R2": 8,
+      "P3.R3": 14,
+      "P3.R4": 11,
+      "P3.S3": 16,
+      "END-S1": 14,
+      "C3.aggregate_sentence": 83
+    },
+    "coordinate_note": "C3.aggregate_sentence is a local aggregate count, not a registered original-map coordinate. C3.S1a/b/c are analytical parts of that one sentence and must not be added as extra sentences.",
+    "interpretation_limit": "Descriptive measurements for this fixed version, not word targets, genre norms or quality scores."
+  },
+  "author_reading_scope": [
+    {
+      "source": "primary",
+      "location": "Abstract and all of §I, physical pp.1–2",
+      "mode": "text; pp.1–2 full-page visual verification",
+      "purpose": "identity, complete Introduction and contribution coverage; abstract distinguished from Introduction"
+    },
+    {
+      "source": "primary",
+      "location": "§II opening, p.2",
+      "mode": "text and p.2 image",
+      "purpose": "attack information and classification scope"
+    },
+    {
+      "source": "primary",
+      "location": "§II-B, pp.3–4; §II-D, p.5",
+      "mode": "text",
+      "purpose": "metric definitions, denominators and attack/defense utility distinction"
+    },
+    {
+      "source": "primary",
+      "location": "§III-A/B, pp.5–6, including Fig.1",
+      "mode": "text; source page layout examined",
+      "purpose": "design choices supporting evaluation rather than implementation inventory"
+    },
+    {
+      "source": "primary",
+      "location": "§IV-A/B, pp.6–9; Tables III/IV p.8",
+      "mode": "relevant setup/result text and table image",
+      "purpose": "benchmark/model setup, same-method result selection, confidence vs success-rate distinction and normal utility"
+    },
+    {
+      "source": "primary",
+      "location": "§IV-C, pp.9–11; Table V p.10 and detection setup/results",
+      "mode": "relevant text and p.10 image; Table VI/VII text for context",
+      "purpose": "successful-sample selection and different evaluation meanings, not audit of all results"
+    },
+    {
+      "source": "primary",
+      "location": "§V-B, pp.11–13; Table IX p.12",
+      "mode": "full case text; p.12 table image",
+      "purpose": "ensemble scope, aggregate comparison and lower-tail wording/table inconsistency"
+    },
+    {
+      "source": "primary",
+      "location": "§VI, p.13",
+      "mode": "text",
+      "purpose": "limitations, configurations, extensibility, historical related-resource claims"
+    },
+    {
+      "source": "external primary critique",
+      "location": "Carlini, IEEE S&P 2019 poster, pp.1–2; arXiv:1905.07112v1 identity/abstract",
+      "mode": "public source reading only",
+      "purpose": "necessary distinction between observed writing choices and externally contested evaluation validity"
+    }
+  ],
+  "source_review_scope": {
+    "date_utc": "2026-10-07",
+    "complete_introduction_and_contributions": true,
+    "introduction_physical_pages": [
+      1,
+      2
+    ],
+    "published_map_analysis_units": 35,
+    "default_registered_units": 34,
+    "contribution_items": 3,
+    "shared_C3_lead_reviewed_without_new_coordinate": true,
+    "selected_body": [
+      "Section II opening and II-B/D",
+      "Section III",
+      "Section IV-A/B relevant setup and results",
+      "Section IV-C comparison protocol",
+      "Section V-B complete ensemble case",
+      "Section VI limitations"
+    ],
+    "tables_and_summary_visually_checked": [
+      "Tables III/IV, physical p.8",
+      "Table V, physical p.10",
+      "Table IX, physical p.12",
+      "Ensemble summary, physical p.13"
+    ],
+    "external_boundary_reading": [
+      "Nicholas Carlini IEEE S&P 2019 poster, both pages",
+      "arXiv:1905.07112 identity/version record"
+    ],
+    "not_claimed": [
+      "experiment replication",
+      "implementation audit",
+      "exhaustive novelty review",
+      "whole-paper scientific validation",
+      "present-day universal evaluation rule",
+      "corpus-wide independent certification"
+    ]
+  },
+  "external_scope_sources": [
+    {
+      "url": "https://www.ieee-security.org/TC/SP2019/posters/hotcrp_sp19posters-final10.pdf",
+      "author": "Nicholas Carlini",
+      "role": "Narrow external boundary source; criticisms attributed, no reproduction performed."
+    },
+    {
+      "url": "https://arxiv.org/abs/1905.07112v1",
+      "version": "v1, 2019-05-17",
+      "role": "Critique identity and abstract"
+    }
+  ],
+  "source_internal_cautions": [
+    "C3.S1a example in Table III changes ACAC and distortion while MR remains 100%; cannot rewrite as increased success rate.",
+    "C2 indicator-proposal wording does not establish all 15 metrics as wholly novel; definitions cite existing quantities.",
+    "Table IX completely-random JSMA accuracy is 6%, inconsistent with the p.13 blanket above-20% lower-tail description.",
+    "Cross-attack averages do not by themselves establish worst-case security or a formal lower bound."
+  ],
+  "epistemic_labels": {
+    "source_observation": "Source content, organization and reported results.",
+    "editorial_interpretation": "Analytical inference about reader needs and selection, not individual author testimony or a measured gain.",
+    "generation_operation": "Conditional authored transfer examples requiring target-paper facts; not source quotations."
+  },
+  "not_performed": [
+    "No attack, model or repository code execution",
+    "No experiment replication",
+    "No full method-implementation audit",
+    "No exhaustive novelty verification",
+    "No comprehensive appendix or later-controversy review"
+  ],
+  "distribution_scope": "Complete authored analysis, clause ledger, conditional branches, evidence discussion and public coordinates. No primary PDF, rendered source pages or full-text extraction."
+}

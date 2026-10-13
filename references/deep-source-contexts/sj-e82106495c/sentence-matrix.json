@@ -1,0 +1,403 @@
+{
+  "source_id": "sj-e82106495c",
+  "title": "SLIME: Program-Sensitive Energy Allocation for Fuzzing",
+  "coordinate_system": "Inherited P1-P6 and B1-B4 retained; P4.S1-S3 also called Q1-Q3 to mark question units; C0 is contribution lead-in. Source text lines are 1-indexed newline lines in the preserved .txt, not Python splitlines form-feed segments.",
+  "quotation_policy": "Authored Chinese paraphrase only; no complete primary passage included.",
+  "interpretation_labels": {
+    "O": "Observed form/order",
+    "A": "Author claim/explanation; not independent replication",
+    "I": "Editorial inference, not author-reported intention"
+  },
+  "units": [
+    {
+      "unit": "P1.S1",
+      "source_text_lines": "123-124",
+      "observed_syntax": "O 主语是变异fuzzing；系词表语把它归入自动发现漏洞的常用方案；不定式交代任务",
+      "source_proposition": "A 变异测试服务程序漏洞自动发现",
+      "given_context": "尚未介绍本篇方法",
+      "new_content": "命名研究活动、对象与结果",
+      "editorial_foreground_and_length": "I 先让任务可辨认；不是先夸新算法",
+      "dependency_and_transfer": "P6与B3回收漏洞发现；面向熟悉领域的局部改写可省背景，独立Intro应保留任务"
+    },
+    {
+      "unit": "P1.S2",
+      "source_text_lines": "124-126;134",
+      "observed_syntax": "O 主语为一般流程，表语不定式内变异与测试顺序连接；末尾目的结构交异常",
+      "source_proposition": "A 用随机操作变异种子，再执行生成输入以触发异常",
+      "given_context": "读者知道任务但不知道操作",
+      "new_content": "输入、转换和观察结果",
+      "editorial_foreground_and_length": "I 两个连续动作足以定位以后预算花在哪里；不展开实施细节",
+      "dependency_and_transfer": "P1.S5-S6用到种子；若仅写测试程序，后文种子分配会突现"
+    },
+    {
+      "unit": "P1.S3",
+      "source_text_lines": "134-135",
+      "observed_syntax": "O 转折开头，性能作主语，被动受限作谓语；实践与上述思路限定场景",
+      "source_proposition": "A 朴素流程的实际表现受限",
+      "given_context": "随机变异流程",
+      "new_content": "已有基本方法仍留改进空间",
+      "editorial_foreground_and_length": "I 短转折只开出问题，具体原因留下一句；并非已证明所有随机过程低效",
+      "dependency_and_transfer": "P1.S4给已有改进；迁移时不能只剩无具体后续的差性能断言"
+    },
+    {
+      "unit": "P1.S4",
+      "source_text_lines": "135-138",
+      "observed_syntax": "O 句首方式性分词结构包含更多路径与更可能发现的命题；主句是覆盖导向方法被提出；目标尾语点探索",
+      "source_proposition": "A 覆盖导向把更多路径探索作为提高发现机会的途径",
+      "given_context": "自动发现任务和朴素限制",
+      "new_content": "覆盖与发现之间的概率桥",
+      "editorial_foreground_and_length": "I 语法主句命名技术路线，读者焦点是该中间目标为何有价值；这是长句值得保留的理由",
+      "dependency_and_transfer": "P6漏洞结果与B3覆盖结果分开；把可能性改成必然会改变科学命题"
+    },
+    {
+      "unit": "P1.S5",
+      "source_text_lines": "138-139",
+      "observed_syntax": "O 具体化标记后fuzzer主语，存储谓语；插入关系从句说明每个种子的路径角色，末尾为队列",
+      "source_proposition": "A 用队列保留触发不同路径的种子",
+      "given_context": "路径探索已成立",
+      "new_content": "可分配资源的持久对象",
+      "editorial_foreground_and_length": "I 队列成为新焦点；关系从句解释留下哪些种子，超过仅定义种子的需要",
+      "dependency_and_transfer": "P5原队列与属性队列；移走关系从句会丢保存标准，可在已定义时压缩"
+    },
+    {
+      "unit": "P1.S6",
+      "source_text_lines": "139-140",
+      "observed_syntax": "O 代词承接fuzzer，主谓为改善性能；通过结构给能量分配手段",
+      "source_proposition": "A 分配变异预算是改善fuzzing的一种手段",
+      "given_context": "队列已有种子",
+      "new_content": "本文干预的低层动作",
+      "editorial_foreground_and_length": "I 结果在主句、手段在方式短语，低层技术从任务里长出；没有另造价值口号",
+      "dependency_and_transfer": "P2解释为何精细分配；不能理解为本句已量化SLIME收益"
+    },
+    {
+      "unit": "P2.S1",
+      "source_text_lines": "141-143",
+      "observed_syntax": "O 既有研究作主句主语，指出后接命题；种子作嵌入主语；解释性插入给有趣样本的判据",
+      "source_proposition": "A 种子生成有用测试样本的效率有差异，样本可触发新路径或崩溃",
+      "given_context": "已知能量给种子",
+      "new_content": "差异及其产物判据",
+      "editorial_foreground_and_length": "I 语法主句强调前人成果，信息焦点是有效产出效率不同；§2.4后来按执行次数计算，不能直接解读为墙钟吞吐比较；产物定义不能只当冗词删",
+      "dependency_and_transfer": "P3质疑的是代理预测而非效率差异本身；后续奖励沿用这一定义"
+    },
+    {
+      "unit": "P2.S2",
+      "source_text_lines": "143-144",
+      "observed_syntax": "O 因果连接后能量策略作主语，必要性作表语，目的成分给有效样本产出",
+      "source_proposition": "A 效率异质性要求合理预算分配",
+      "given_context": "种子效率不同",
+      "new_content": "从事实到研究需求",
+      "editorial_foreground_and_length": "I 较短承接避免在一句话里同时枚举全部近邻",
+      "dependency_and_transfer": "P2.S3给已有答案；迁移须有真实资源约束，不从任何差异自动推出新系统"
+    },
+    {
+      "unit": "P2.S3",
+      "source_text_lines": "144-147",
+      "observed_syntax": "O 多种策略为被动主句，后接三个并行非限定活动；第三项再解释转移概率",
+      "source_proposition": "A 现有办法分别偏向属性、深路径或较高路径转移潜力",
+      "given_context": "需求已经交代",
+      "new_content": "前人已采用哪些有效原则",
+      "editorial_foreground_and_length": "I 较长枚举建立可比较的机制对象；不是三个方法名堆叠",
+      "dependency_and_transfer": "P3固定偏好gap；不应归纳成前人只会固定随机策略，正文还承认自适应bandit"
+    },
+    {
+      "unit": "P3.S1",
+      "source_text_lines": "148-150",
+      "observed_syntax": "O 转折加作者观察为主句；嵌入句以属性表现较好的种子为主语，以未必高产为谓语，目标程序和实践限定",
+      "source_proposition": "A 属性取值好未必对应给定程序上的高发现效率",
+      "given_context": "已有属性偏好及真实产出定义",
+      "new_content": "代理与任务效用可能脱钩",
+      "editorial_foreground_and_length": "I 否定范围在总是成立，而非属性完全无用；最长对象成分有必要界定被质疑的是谁",
+      "dependency_and_transfer": "P3.S3案例与P5多属性；改为所有属性无关会破坏方案动机"
+    },
+    {
+      "unit": "P3.S2",
+      "source_text_lines": "150-153",
+      "observed_syntax": "O 结果连接后既有方案为主语，不能达最优为谓语，原因尾部是静态分配逻辑",
+      "source_proposition": "A 作者由该观察提出跨程序最优性受静态逻辑限制",
+      "given_context": "代理关系并不恒定",
+      "new_content": "作者给出方法层后果",
+      "editorial_foreground_and_length": "I 这是一句较强概括；忠实记录但不把案例升级成普遍最优性证明",
+      "dependency_and_transfer": "后续实验检验具体性能；可改成收益随目标受限，但会降低原命题强度，须标成缩窄而非纯润色"
+    },
+    {
+      "unit": "P3.S3",
+      "source_text_lines": "153-156",
+      "observed_syntax": "O 目的不定式在前，作者开展案例为主句；关系从句引出结论，冒号展开同属性跨目标效率差",
+      "source_proposition": "A 案例观察到同一属性在不同程序上产出不同",
+      "given_context": "上一句已有概括但需实证理由",
+      "new_content": "观察有正文落点，变化轴是目标程序",
+      "editorial_foreground_and_length": "I 主句是研究动作，信息终点是跨目标关系；两者分开才不会把开展实验当贡献本身",
+      "dependency_and_transfer": "§2.4三目标四重复；可先写观察再说案例，但文段将从论证过程转成结果优先"
+    },
+    {
+      "unit": "P3.S4",
+      "source_text_lines": "156-159",
+      "observed_syntax": "O 因果连接后种子为主语、不能跨目标最好为谓语；解释性后半转为既有方案可能表现差",
+      "source_proposition": "A 固定关键属性不能保证跨程序最佳收益，静态逻辑可能欠佳",
+      "given_context": "案例中的目标差异",
+      "new_content": "对现有选择原则的影响",
+      "editorial_foreground_and_length": "I 两半从种子层升到策略层；和S2有实质重复，能合并但需保留层次对应",
+      "dependency_and_transfer": "P3.S5需求；不能删掉目标条件而扩大到任意时刻或任何程序"
+    },
+    {
+      "unit": "P3.S5",
+      "source_text_lines": "159-161",
+      "observed_syntax": "O 因果标记后目标敏感方案作主语，被动需求作谓语；关系从句说明按目标分配不同属性种子能量，目的尾语回性能",
+      "source_proposition": "A 需要按每个目标适配属性种子的能量",
+      "given_context": "固定偏好跨程序失配",
+      "new_content": "新能力在命名前获得操作性定义",
+      "editorial_foreground_and_length": "I 术语与定义同句，读者知道敏感落实为按目标适配属性种子能量的能力；本句尚未交代反馈来源，P5.S7才补上；长关系从句实质必需",
+      "dependency_and_transfer": "P4拆职责与P5交方案；如上下文已定义可删关系从句，否则不是保义压缩"
+    },
+    {
+      "unit": "P4.Q1",
+      "source_text_lines": "162-164",
+      "observed_syntax": "O 作者挑战主句引出第一个疑问；定义作核心动作，关系从句并列有效分类与包含实时高效种子",
+      "source_proposition": "A 如何形成对每目标有用的属性候选集合",
+      "given_context": "需要按目标适配",
+      "new_content": "先决定可选对象",
+      "editorial_foreground_and_length": "I 不是询问新算法叫什么；两个条件在同一属性职责内",
+      "dependency_and_transfer": "P5.S2、§3.2；不能用任意分群替代有效候选，后者是应用要求"
+    },
+    {
+      "unit": "P4.Q2",
+      "source_text_lines": "164-166",
+      "observed_syntax": "O 第二个疑问以设计框架为动作；关系从句并列寻找属性种子和必要时周期更新",
+      "source_proposition": "A 如何动态寻找并更新具有各属性的种子",
+      "given_context": "候选属性已提",
+      "new_content": "成员资格需要维护",
+      "editorial_foreground_and_length": "I 两个动词共享对象，避免把发现和更新误作两个独立系统；必要时是源限定",
+      "dependency_and_transfer": "P5.S3-S6、§3.1；更新不等于重新训练机器学习模型"
+    },
+    {
+      "unit": "P4.Q3",
+      "source_text_lines": "166-167",
+      "observed_syntax": "O 第三个疑问并列估计与分配；估计对象嵌入新路径及崩溃潜力，属性种子限定对象",
+      "source_proposition": "A 如何把潜在产出变成能量分配",
+      "given_context": "对象及其维护已交代",
+      "new_content": "评估到动作的决策关系",
+      "editorial_foreground_and_length": "I 不止预测准确性，句尾分配把统计估计收回实际任务",
+      "dependency_and_transfer": "P5.S7-S8、§3.5；只有奖励模型没有预算动作不足以回应该挑战"
+    },
+    {
+      "unit": "P5.S1",
+      "source_text_lines": "168-169",
+      "observed_syntax": "O 目的状语承接挑战，作者呈现为主句，方案名作宾语，目的尾语给跨程序敏感分配",
+      "source_proposition": "A 提出SLIME完成程序敏感的分配",
+      "given_context": "三个挑战及能力已定义",
+      "new_content": "本研究交付物和总体目标",
+      "editorial_foreground_and_length": "I 常规独立方案句；不必强套某一个英文开头才能合格",
+      "dependency_and_transfer": "后七句解释如何；不能把模块列表前置挤掉整体交付"
+    },
+    {
+      "unit": "P5.S2",
+      "source_text_lines": "169-171",
+      "observed_syntax": "O 具体化标记后作者提出定义属性，并列识别17项，三个视角作来源，例示词限定集合",
+      "source_proposition": "A 从种子多样性的三个视角构造17项例属性",
+      "given_context": "候选集合挑战",
+      "new_content": "候选的组织原则和实例规模",
+      "editorial_foreground_and_length": "I 新增的是有组织的候选空间；17并非优越性的独立证据",
+      "dependency_and_transfer": "§3.2；若只保数字会失去为何这批属性不是随意堆砌"
+    },
+    {
+      "unit": "P5.S3",
+      "source_text_lines": "171-172",
+      "observed_syntax": "O 作者设计为主句，迭代框架作宾语，目的不定式说明周期更新",
+      "source_proposition": "A 用迭代框架更新属性种子",
+      "given_context": "已有多种属性",
+      "new_content": "把候选从一次性列表变成运行中对象",
+      "editorial_foreground_and_length": "I 先总述框架再展开动作，给接下来的次序一个容器",
+      "dependency_and_transfer": "§3.1；可同下一句合并但需留下重复发生而非一次初始化"
+    },
+    {
+      "unit": "P5.S4",
+      "source_text_lines": "172-174",
+      "observed_syntax": "O 每次迭代作时间框架，SLIME变异原队列种子为主句，目的成分解释评价并判属性",
+      "source_proposition": "A 每轮先从原队列变异种子并判断属性",
+      "given_context": "迭代已定义",
+      "new_content": "属性获得和执行反馈的起点",
+      "editorial_foreground_and_length": "I 原队列此时是已知对象；目的分句避免只报一个机械操作",
+      "dependency_and_transfer": "§3.1/3.2；不得压成静态元数据永远不变，正文还有显式更新阶段"
+    },
+    {
+      "unit": "P5.S5",
+      "source_text_lines": "174-176",
+      "observed_syntax": "O 次序词后SLIME构建为主句，属性队列作宾语，目的说明存储对应属性种子",
+      "source_proposition": "A 每个属性设有相应种子队列",
+      "given_context": "已知种子属性",
+      "new_content": "从种子个体到可选群体的表征",
+      "editorial_foreground_and_length": "I 对象转换是此句的新信息；常规主谓宾已足够，无须堆名词",
+      "dependency_and_transfer": "§3.1；保留每属性这一映射，才解释UCB-V的候选臂"
+    },
+    {
+      "unit": "P5.S6",
+      "source_text_lines": "176-177",
+      "observed_syntax": "O 结果连接后多属性种子作主语，被动存储作谓语，多队列是终点",
+      "source_proposition": "A 队列成员资格可以重叠",
+      "given_context": "读者知道每属性一个队列",
+      "new_content": "一个种子不必只属于一组",
+      "editorial_foreground_and_length": "I 语法主语转到种子，焦点是多对多关系；短句承担纠正误读的任务",
+      "dependency_and_transfer": "§3.1；已知重叠的专家可合入上一句，否则删掉会增加错误推断风险"
+    },
+    {
+      "unit": "P5.S7",
+      "source_text_lines": "177-181",
+      "observed_syntax": "O SLIME利用算法为主句；目的说明估计队列潜在奖励，依据尾语为截至当前的发现表现",
+      "source_proposition": "A 用定制UCB-V依据既往路径与崩溃发现估计各队列收益",
+      "given_context": "已有可重叠属性队列",
+      "new_content": "统计方法、估计对象、可用反馈三者连结",
+      "editorial_foreground_and_length": "I 主句形式强调方法使用，真正新关系在依据尾语；算法全名长度不是任务价值",
+      "dependency_and_transfer": "§3.5，原重建误指§3.4；把反馈放句首可强调证据依赖，不能省成黑箱优化"
+    },
+    {
+      "unit": "P5.S8",
+      "source_text_lines": "181;183-184",
+      "observed_syntax": "O SLIME选择与变异两个并列谓语，估计奖励作指导修饰，目的尾语回程序敏感能量分配",
+      "source_proposition": "A 按估计选择队列并变异其中种子",
+      "given_context": "奖励已可用",
+      "new_content": "估计落实为预算动作",
+      "editorial_foreground_and_length": "I 句尾回目标形成闭环；重复目标在这里是动作解释，不是再夸一次意义",
+      "dependency_and_transfer": "§3.5；只写选择最高分队列可丢变异操作和能量含义，细节留正文"
+    },
+    {
+      "unit": "P6.S1",
+      "source_text_lines": "185-187",
+      "observed_syntax": "O 一般方案作前置角色，SLIME为主语，情态被动表达可用于多数变异fuzzer，目的为增强分配",
+      "source_proposition": "A 设计被主张为可适配多数既有变异fuzzer",
+      "given_context": "已解释系统",
+      "new_content": "预期可迁移范围",
+      "editorial_foreground_and_length": "I 情态能力不是已完成的多载体实验；位置先广后窄连接下一句",
+      "dependency_and_transfer": "P6.S2实际实现；若改成已在多数工具实现将增加不实完成状态"
+    },
+    {
+      "unit": "P6.S2",
+      "source_text_lines": "187-189",
+      "observed_syntax": "O 论文内场景在前，作者实现为主句，MOpt为基础；关系从句解释其静态能量部分",
+      "source_proposition": "A 实际实现以MOpt为基础",
+      "given_context": "设计范围刚已声明",
+      "new_content": "实做载体和被增强环节",
+      "editorial_foreground_and_length": "I 从可用性转到完成状态；关系从句解释为什么此载体和gap相接",
+      "dependency_and_transfer": "§4.1还区分MOpt操作子优化；删静态组件会削弱实验参照理由"
+    },
+    {
+      "unit": "P6.S3",
+      "source_text_lines": "189-192",
+      "observed_syntax": "O 作者比较为主句，比较对象列六工具，目标范围九程序在句尾",
+      "source_proposition": "A 六基线九真实程序的主比较",
+      "given_context": "已有实现",
+      "new_content": "证据适用对象与对照组",
+      "editorial_foreground_and_length": "I 先交分母和身份，下一句数值才可解释；长名单增加阅读负担但避免空泛SOTA",
+      "dependency_and_transfer": "§4.1；缩为六工具需附近有完整对照身份，不能隐藏最强基线"
+    },
+    {
+      "unit": "P6.S4",
+      "source_text_lines": "192-195",
+      "observed_syntax": "O 总计标记后SLIME发现为主句；六增量修饰ASan报告的去重漏洞数；逐一对应基线收尾",
+      "source_proposition": "A 六基线的合并去重漏洞增量向量",
+      "given_context": "六工具顺序已知",
+      "new_content": "任务层量化结果和操作性来源",
+      "editorial_foreground_and_length": "I 直接把分配设计收回发现任务；六对六匹配的认知负担是真代价",
+      "dependency_and_transfer": "表3与§4.1；若换成231/187，精简但只保MOpt比较，属于证据选择变化"
+    },
+    {
+      "unit": "C0",
+      "source_text_lines": "196",
+      "observed_syntax": "O 概括连接后作者作主语，贡献作宾语",
+      "source_proposition": "O 贡献列表的引导",
+      "given_context": "方法和结果已经预览",
+      "new_content": "没有新增科研命题，标记论述结构",
+      "editorial_foreground_and_length": "I 极短路标不能计作独立贡献",
+      "dependency_and_transfer": "下接四条；新稿可保留常规引导，不用为其补夸张总结"
+    },
+    {
+      "unit": "B1.S1",
+      "source_text_lines": "197-199",
+      "observed_syntax": "O 作者开展案例为主句，目的嵌入否定恒定高效的命题；关系从句限定现有关键属性的高值种子",
+      "source_proposition": "A 贡献之一是观察证据支持属性收益不恒定",
+      "given_context": "P3已叙动机",
+      "new_content": "把观察确认为一项研究所得",
+      "editorial_foreground_and_length": "I 主句研究动作只有连着所得才构成实质；较长限定固定被推翻的假设",
+      "dependency_and_transfer": "§2.4；压成进行了案例研究会丢贡献，改成推翻所有旧策略则过强"
+    },
+    {
+      "unit": "B2.S1",
+      "source_text_lines": "200-203",
+      "observed_syntax": "O 动机分词在前，作者提出为主句；能力目的、奖励指导、UCB-V估计依次后置",
+      "source_proposition": "A 案例驱动的程序敏感方案，以估计收益指导属性种子预算",
+      "given_context": "观察与总体方法",
+      "new_content": "把诊断与方法回应归成所得",
+      "editorial_foreground_and_length": "I 前置动机承接B1；长尾限定功能与决策证据，不能只留下算法品牌",
+      "dependency_and_transfer": "§3.1/3.5；可拆句减长尾，代价是与第二句系统结构可能重复"
+    },
+    {
+      "unit": "B2.S2",
+      "source_text_lines": "203-206",
+      "observed_syntax": "O 作者设计框架与提出结构两个并列主谓；各自目的尾语给队列构造、分配和属性记录",
+      "source_proposition": "A 提供框架及原队列结构来落地方案",
+      "given_context": "总体能力已声明",
+      "new_content": "实现支撑和存储组织",
+      "editorial_foreground_and_length": "I 一条贡献内包含同一方案的配套产物；没有把每个模块虚增为独立创新",
+      "dependency_and_transfer": "§3.1/3.3/3.4；结构需保留但不应被说成全部发现提升的单一原因"
+    },
+    {
+      "unit": "B3.S1",
+      "source_text_lines": "207-208",
+      "observed_syntax": "O 作者评估为主句，比较对象与目标数限定范围",
+      "source_proposition": "A 六工具九程序比较",
+      "given_context": "方案与贡献已交",
+      "new_content": "评价设计入口",
+      "editorial_foreground_and_length": "I 单句先给范围，不把数字结果压成无分母结论",
+      "dependency_and_transfer": "§4.1；与P6存在复现范围重复，可重组但应保存某处明确范围"
+    },
+    {
+      "unit": "B3.S2",
+      "source_text_lines": "208-209",
+      "observed_syntax": "O 结果作主句主语，嵌入SLIME更好；两指标并列作比较维度",
+      "source_proposition": "A 作者总结漏洞发现与覆盖较好",
+      "given_context": "范围已知",
+      "new_content": "评价的任务答案",
+      "editorial_foreground_and_length": "I 主语换成结果让证据承担断言；源文概括不可机械展开成每程序每指标全胜",
+      "dependency_and_transfer": "表3强结果与表7边界分开；可用更精确两分句而非把整句降成可能有用"
+    },
+    {
+      "unit": "B3.S3",
+      "source_text_lines": "210-211",
+      "observed_syntax": "O 作者使用标准基准为主句，目的尾语给覆盖表现",
+      "source_proposition": "A 另用FuzzBench测试覆盖",
+      "given_context": "自建九程序比较已有",
+      "new_content": "另一标准化评价设置",
+      "editorial_foreground_and_length": "I also类添加表示证据维度扩充，不是同一实验再命名",
+      "dependency_and_transfer": "图5四目标24小时10次、region coverage；不与表7均值合并"
+    },
+    {
+      "unit": "B3.S4",
+      "source_text_lines": "211-214",
+      "observed_syntax": "O 作者利用已公布CVE作参照，并列展示有效性和效率；发现严重漏洞为能力补语",
+      "source_proposition": "A 已知CVE匹配补证严重漏洞发现能力",
+      "given_context": "已有总体漏洞数与覆盖",
+      "new_content": "带已知身份的安全意义参照",
+      "editorial_foreground_and_length": "I 主句是验证动作，终点是任务能力；该句较长因为需标明已公布身份",
+      "dependency_and_transfer": "表6；不能缩成发现25个新CVE，不能把严重性转移给所有去重组"
+    },
+    {
+      "unit": "B3.S5",
+      "source_text_lines": "214-215",
+      "observed_syntax": "O 作者实验分析为主句，宾语是主要组件对fuzzing表现的贡献",
+      "source_proposition": "A 评价不仅比整体，也检查组件收益",
+      "given_context": "整机效用证据已齐",
+      "new_content": "解释何种设计产生增益",
+      "editorial_foreground_and_length": "I 以归因结尾让方法章的机制有回答；无须另添一轮数字矢量",
+      "dependency_and_transfer": "表8/9对象不同；不能把组件比较说成严格隔离所有交互的因果证明"
+    },
+    {
+      "unit": "B4.S1",
+      "source_text_lines": "216-217",
+      "observed_syntax": "O 作者开源作主句，仓库作位置，目的尾语为以后fuzzing研究",
+      "source_proposition": "A 论文宣告开放SLIME以供复用",
+      "given_context": "前三项已交观察、系统、证据",
+      "new_content": "资源交付及复用目的",
+      "editorial_foreground_and_length": "I 最短因对象与价值已知，URL定位可得性而非重复原理",
+      "dependency_and_transfer": "只确认2022文稿陈述；没有该历史分析仓库在线核验，也不推定新的开放承诺"
+    }
+  ]
+}

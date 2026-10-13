@@ -1,0 +1,861 @@
+# MINER：二十三个定点选择及反事实边界
+
+- baseline_scope: 49个实质分析单元＋1个组织引导；保留完整旧账本。此处按实际缺口选择23个枢纽，非补漏计数。
+- selection_count: 23
+- unit_convention: 继承旧P/S/B坐标。P2.S4与S5、P3.S7与S8跨分析单元共享正字法句；P2.S10、P4.S4、P4.S6一个分析单元包含多个分号矩阵。S不是统一语法句计数。
+- local_alternative_type_note: local_meaning_preserving为局部保义选项；P5.S6是明确弱化反事实，B2.S3是语境相关的评价力度变化，均不作为无条件忠实替换。非限制性关系从句与非限定动词结构用语分开。
+
+## P1.S4
+
+- locator: p.1右栏，P1末句，第一模态因果谓语
+- source_unit:
+  - sha256: ddeded2f03cd7e59cc8ba9c417e6fcbab6d85931eaacc2b45f55e52a2398b52b
+  - word_count: 30
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 错误REST访问可能使进程崩溃，继而可能产生服务、访问控制和私有数据后果。
+- retained_entry: S4 错误访问可能导致进程崩溃，关系从句继续系统/权限/数据后果。架构→任务价值
+- source_claim_zh: 错误REST访问可能使进程崩溃，继而可能产生服务、访问控制和私有数据后果。
+- matrix_syntax: 矩阵为错误访问may result in进程崩溃；which can finally lead to为补充关系从句，承接崩溃事件/结果。不能把can lead to另算矩阵。
+- discourse_foreground: 现实后果是段落落点；从属位置仍承载主要应用价值。
+- first_new_information: 相对前三句，首先新增错误访问可能造成崩溃的风险；更严重后果随后展开。
+- contextual_grounds: 此前给出可编程接口和共享架构；它们是理解风险的语境，非已证明的完整因果模型。
+- conventional_expression: 方式回指＋可能性矩阵＋补充结果链；情态may/can限制断言。
+- relative_length_role: 比前三句更长，用一个结果链把一般接口介绍收束到研究必要性；每一后果并列而非各开背景段。
+- writer_selection_and_reader_inference: 作者选具体失效后果，让读者看到API测试对服务可靠性和数据保护的用处。把末尾链移出会让开头停在行业规模。
+- actual_refinement: 旧账本已有风险链；新增句法地位与价值重心不重合，以及两层可能性不能改必然。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: c7f27ff03ebfcbc171739c9f4539f42c85642815841ab120791e78dff1de6cb0
+  - source_span_word_count: 3
+  - span_locator_zh: p.1右栏，P1末句，第一模态因果谓语；所分析局部表达
+  - replacement: may cause
+  - use_condition: 若同段因果术语已统一用cause，此局部替换保留may和因果关系。
+  - cost_or_risk: cause略直接；不能删may，也不能把可能链重写为每次访问错误必致泄露。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 在这种架构下，错误的REST API访问可能造成进程崩溃，并可能进一步导致云服务不可用、访问控制失效和私有数据泄露。
+  - use_condition: 需要用中文集中解释任务价值时。
+  - cost_or_risk: 将which关系显化为并列结果链；仍需保留两层可能性。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P2.S3
+
+- locator: p.1右栏，P2编号1，数量名词组
+- source_unit:
+  - sha256: 3026ba144b39047385ccb9a33e461eadf54be54acb8785a4fa8ad99989927c6d
+  - word_count: 30
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 生成策略处理模板构造和模板内请求生成两项主要问题。
+- retained_entry: S3 编号1，生成策略处理两个问题；同位解释模板和填请求。路线→模块分解，P3回收
+- source_claim_zh: 生成策略处理模板构造和模板内请求生成两项主要问题。
+- matrix_syntax: 矩阵主语是生成策略，谓语handle；两个how to非限定疑问结构解释宾语problems，并非两个有限主句。
+- discourse_foreground: 两层生成工作是后续诊断坐标。
+- first_new_information: 在既有REST fuzzing路线之后，首次具体分解其生成任务。
+- contextual_grounds: P2.S2已介绍自动依赖推断与序列构造。
+- conventional_expression: 概括名词＋i.e.展开两并列间接疑问；枚举1不是句法主语。
+- relative_length_role: 中长句用一个上位范畴容纳两个可回指对象，省去分别定义两次生成。
+- writer_selection_and_reader_inference: 先让读者区分组织顺序与请求内容，后面的两个瓶颈就能落到不同操作位置；这是后文方法理由的词汇准备。
+- actual_refinement: 旧条目已记两模块；新增how-to的句法等级及前置分类的依赖作用。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: fcf1e09782de93431bcec6bdea74472461da11e844ecaf1fc34e12cfa43158b5
+  - source_span_word_count: 3
+  - span_locator_zh: p.1右栏，P2编号1，数量名词组；所分析局部表达
+  - replacement: two principal problems
+  - use_condition: 如果全文把main频繁重复而偏好principal，可作同义名词修饰语替换。
+  - cost_or_risk: 中性替换，没有结构性收益；不得改成only two或相互独立。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 通常，REST API模糊测试的生成策略要处理两个主要问题：怎样构造序列模板，以及怎样生成模板中的各个请求。
+  - use_condition: 首次面向不熟悉状态式测试的读者建立分类时。
+  - cost_or_risk: 冒号强化解释关系；若专家已熟悉，可压缩但不能把两层混为请求排序。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P2.S10
+
+- locator: p.1右栏，P2末部分号链，编号3并列谓语后一项
+- source_unit:
+  - sha256: 497f030138d9a65b8ee77d7fec857d80ff874b96c57f8ce18b5703cba7ae7341
+  - word_count: 49
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 服务回5xx；测试器分析响应推断被触发状态，再收集触发错误状态或违反规则的独特请求序列。
+- retained_entry: S10 源句分号链：服务回5xx；编号3 fuzzer分析响应推状态；编号4收集错误/违反规则序列。反馈→oracle及报告，三子操作不能混成服务自动确认漏洞
+- source_claim_zh: 服务回5xx；测试器分析响应推断被触发状态，再收集触发错误状态或违反规则的独特请求序列。
+- matrix_syntax: 同一源句含服务returns、fuzzer analyzes/infers、fuzzer collects三个分号并列矩阵；触发/响应等非限定成分修饰序列。
+- discourse_foreground: 反馈如何成为候选错误记录，比响应码单独出现更重要。
+- first_new_information: 在P2.S9异常状态之后先新增5xx响应，然后转换施事为测试器并新增推断/收集。
+- contextual_grounds: 先前语法语义检查和正常/异常分支使响应成为可读反馈。
+- conventional_expression: 时间副词＋三个有限分句分号串联＋编号转场；最后examples具体化collects宾语。
+- relative_length_role: 长句跨三个工作步骤，避免每一操作重复铺背景；代价是读者必须跟住施事切换。
+- writer_selection_and_reader_inference: 错误发现必须由响应解释和序列留存完成；作者把执行后的反馈职责讲清，后文可复现错误才有前序操作依据。
+- actual_refinement: 旧条目正确识别三操作；新增多矩阵及局部宾语从名词组转疑问补语的条件。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 3985d0e80b4cd70c7ca5f72721d4c8ed84884dfdaf67d6290683b7257fe9b1be
+  - source_span_word_count: 8
+  - span_locator_zh: p.1右栏，P2分号链编号3；完整推断谓语及其状态宾语，含云服务所属补语。
+  - replacement: infers which states of a cloud service have been triggered
+  - use_condition: 读者更需要明确推断的是云服务的哪些状态时，把完整名词宾语（含所属补语）转为which疑问补语。
+  - cost_or_risk: 句子变长；跨度必须覆盖原宾语的of a cloud service，否则会在triggered之后遗留错误附着。保留推断而非确认的力度。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 随后，服务返回5xx响应；测试器分析各请求的响应，推断其触发的服务状态；最后，它收集触发错误状态的独特请求序列，例如返回5xx响应或违反安全规则的序列。
+  - use_condition: 保留流程细节而希望用三个平行分句跟踪责任主体时。
+  - cost_or_risk: 最后显化源编号4的次序；未添加人工确认。
+  - semantic_changes: 无科学范围变动；将编号和Then重组为中文步骤副词。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q1
+
+## P3.S1
+
+- locator: p.1右栏末，P3首句，嵌入that从句谓语
+- source_unit:
+  - sha256: 05c677c274fa6b78547b28ab9ab8c88ee330f18d37afa1ea857028555ad8f3d8
+  - word_count: 18
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者发现现有REST API fuzzers不能高效生成测试云服务所需的长请求序列。
+- retained_entry: S1 转折、作者发现难高效生成长序列。已有效方法→残余
+- source_claim_zh: 作者发现现有REST API fuzzers不能高效生成测试云服务所需的长请求序列。
+- matrix_syntax: 矩阵we find；关键判断位于that补语，不能把existing fuzzers cannot generate称为整句唯一主句。
+- discourse_foreground: 已有可达状态探索路线仍遭遇长链效率问题。
+- first_new_information: 转折后先引入作者的发现姿态，第一项实质新命题是长序列生成效率受限。
+- contextual_grounds: P2.S11刚总结可探索状态，使However有明确让步对象。
+- conventional_expression: 转折＋研究者认知动词＋内容补语；cannot efficiently不是绝对不能生成任何长序列。
+- relative_length_role: 中短句先独立标出一个联合瓶颈，再交后句展开损失和机制。
+- writer_selection_and_reader_inference: 已有工作的可用性得到承接，批评集中到困难状态的效率，允许后文用有效请求和执行分配共同解释。
+- actual_refinement: 旧条目用作者发现但未区分矩阵/焦点；新增效率否定范围。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: bbec8274912b8990a0020fbb701934c9b197e1264f8ddb64787e9a10e44ebd51
+  - source_span_word_count: 6
+  - span_locator_zh: p.1右栏末，P3首句，嵌入that从句谓语；所分析局部表达
+  - replacement: cannot generate long request sequences efficiently
+  - use_condition: 当读者更需要先看到完整长序列宾语、再读效率限定时可用。
+  - cost_or_risk: 此处扩大局部跨度到完整动宾结构，避免把副词插到动词与长宾语之间；不改变效率否定范围。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 然而，我们发现，现有REST API模糊测试器无法高效生成用于测试云服务的长请求序列。
+  - use_condition: 需要保留发现姿态和对既有工作的转折时。
+  - cost_or_risk: 基本保留信息顺序；不是把全领域失败作为独立审查结论。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P3.S2
+
+- locator: p.1右栏末，P3第二句，困难谓语
+- source_unit:
+  - sha256: a7fb875c80a90a475ce2e2d9577fde52bcbf487248e32ede24a7548f6c88d1ed
+  - word_count: 17
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 因此现有测试器难发现隐藏在难到达状态中的深层错误。
+- retained_entry: S2 因果、现有fuzzer难找深状态错误。生成瓶颈→任务损失
+- source_claim_zh: 因此现有测试器难发现隐藏在难到达状态中的深层错误。
+- matrix_syntax: 矩阵existing fuzzers have trouble finding；hidden in为errors后置非限定修饰。
+- discourse_foreground: 生成困难对最终找错造成的损失。
+- first_new_information: 首次把长链生成瓶颈转成深层错误难发现。
+- contextual_grounds: P3.S1长序列效率受限是本句As a result承接的原因。
+- conventional_expression: 因果连接＋困难谓语＋后置位置限定；没有从代理指标直接跳到所有安全效果。
+- relative_length_role: 短于后面的实例/原因句，作为指标与应用价值间的桥。
+- writer_selection_and_reader_inference: 一句短因果桥足以说明为何应解决上句问题；若只堆长序列统计，读者仍不知道它为何值得优化。
+- actual_refinement: 旧条目已记损失；新增此短句负责因果桥而非机制证明。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 7d6709536da922029c7a9c7d4c65ee62c039e1a0642a21b15258760d45b0d758
+  - source_span_word_count: 3
+  - span_locator_zh: p.1右栏末，P3第二句，困难谓语；所分析局部表达
+  - replacement: struggle to find
+  - use_condition: 需要把名词结构换为常见动词结构时。
+  - cost_or_risk: struggle带动态困难色彩，仍不是cannot find任何错误。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 因此，现有测试器难以发现隐藏在云服务难到达状态中的深层错误。
+  - use_condition: 应用读者需要先理解损失，再接受实现诊断时。
+  - cost_or_risk: 不自带实验证明；下一实例和正文承担支撑。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P3.S7
+
+- locator: p.2左栏，P3编号1后，模板放弃谓语
+- source_unit:
+  - sha256: 207fd3e02d6f9a3a18b68c5d0f54eef748dc7000f099801c3f519027dcec6a7d
+  - word_count: 25
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 扩展过程经常放弃已有模板并从空模板重启，使长序列难构造；分号后还接第二根因。
+- retained_entry: S7 延长过程主语、放弃并重启，结果长序列困难；分号后进入编号2。标签→机制
+- source_claim_zh: 扩展过程经常放弃已有模板并从空模板重启，使长序列难构造；分号后还接第二根因。
+- matrix_syntax: 这一分析单元矩阵为process abandons and starts两个共享主语谓语；making结果附加语。源正字法句子还含P3.S8的第二有限矩阵。
+- discourse_foreground: 不是重复长链困难，而是解释已投入的模板扩展为何难累积。
+- first_new_information: 首次给出丢弃模板与空模板重启的机制。
+- contextual_grounds: P3.S6先给扩展失败标签；P2区分模板与请求两层。
+- conventional_expression: 并列动作＋结果分词；分号编号允许从一个根因转到另一根因。
+- relative_length_role: 比P3.S6标签句更长，长度用来给可干预机制，而非再增大问题声势。
+- writer_selection_and_reader_inference: 已有模板会丢失这一对象为P4的历史有效模板复用提供直接理由。
+- actual_refinement: 纠正把分析S7当完整语法句的潜在读法，并具体说明making负责的因果包装。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 4edcaaeec8da9b62152a559dc78f916b06c958360204490ad4e2e03e2ee30653
+  - source_span_word_count: 2
+  - span_locator_zh: p.2左栏，P3编号1后，模板放弃谓语；所分析局部表达
+  - replacement: often abandons
+  - use_condition: 用常见频率词统一同段表达时。
+  - cost_or_risk: 中性且频率略宽泛；不能删频率词成为每轮总重启。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 其序列扩展过程经常放弃已构造的模板，再从空模板开始，因而难以构造更长的序列。
+  - use_condition: 作为完整编辑句独立解释第一根因时。
+  - cost_or_risk: 原文与P3.S8共享分号句；这里句号切开只改变信息节奏，需让下一句保留第二项标记。
+  - semantic_changes: 全句变体将跨编号分号句的第一矩阵独立成句；科学范围不变。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P3.S9
+
+- locator: p.2左栏，P3编号2，认知谓语
+- source_unit:
+  - sha256: 8dbe584698711f69b860c3f57b352c988dc3522a41b303c6a705c311449b9e37
+  - word_count: 23
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 既有方法不能确定该改变哪个参数或应赋什么值，作者把这统称请求的关键变异。
+- retained_entry: S9 不能确定参数与赋值两个疑问宾语，末同位称关键变异。随机→缺少知识
+- source_claim_zh: 既有方法不能确定该改变哪个参数或应赋什么值，作者把这统称请求的关键变异。
+- matrix_syntax: 矩阵They cannot figure out；which parameter should be mutated与what value should be assigned为两个并列疑问补语；i.e.名词组回括两者。
+- discourse_foreground: 缺少参数位置与值的联合选择知识。
+- first_new_information: 随机选值之后，新增不能决定关键选择的诊断，不是再次介绍随机性。
+- contextual_grounds: P3.S8已经给随机填值行为。
+- conventional_expression: 否定认知谓语＋which/what平行结构＋术语同位概括。
+- relative_length_role: 中长句保留两个选择维度，给后文参数—值学习对象；可避免用一句“quality is low”丢掉可设计接口。
+- writer_selection_and_reader_inference: 读者可推得模型须提供选择参数和对应值的信息，而不只是给生成序列加长度。
+- actual_refinement: 旧条目已有两宾语；新增知识对象与方法接口的依赖，及or不能擅改and而改变原句逻辑形式。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: f9c3d3f7e8aa76024a34bab0d32eab7e9c08b7f7018c7b2840ed14ece20b3416
+  - source_span_word_count: 2
+  - span_locator_zh: p.2左栏，P3编号2，认知谓语；所分析局部表达
+  - replacement: determine
+  - use_condition: 希望把较口语的figure out换成常规研究动词时。
+  - cost_or_risk: 保持cannot与后面的or；替换不证明参数间因果关系已学出。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 它们无法确定应变异哪个参数，或应给参数赋什么值，也就是无法确定一个请求的关键变异。
+  - use_condition: 需要在方案前给学习目标一个清楚名字时。
+  - cost_or_risk: 重复“无法确定”使中文更清楚但更长；保留原句or关系。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P4.S1
+
+- locator: p.2左栏，P4段首，作者呈现谓语
+- source_unit:
+  - sha256: 188ed50b9f6ab8accb3c7cf4bcfe13cce99bc34f972048546ee9ab2958673197
+  - word_count: 28
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 为克服上述两限制并改进错误发现，作者提出包含三个重要设计的混合数据驱动方案MINER。
+- retained_entry: S1 克服两限制目的、作者提出含三设计框架。缺口→系统总答；三≠前文两根因数量
+- source_claim_zh: 为克服上述两限制并改进错误发现，作者提出包含三个重要设计的混合数据驱动方案MINER。
+- matrix_syntax: 矩阵we present a solution；句首两个并列to目的项；named与with为方案命名/组成修饰。
+- discourse_foreground: 由两限制转向一套方案及三设计预告。
+- first_new_information: 首个实质新对象是MINER方案；目的短语回收已知限制与价值。
+- contextual_grounds: P3给模板延长和请求生成限制；错误发现价值早在P3.S2。
+- conventional_expression: 目的前置＋作者提出＋名称＋后指设计列表。
+- relative_length_role: 中长开场句承载回指与预告，后续技术细节应接续而非挤入这一句。
+- writer_selection_and_reader_inference: 两个限制解释方案动机，三个设计说明交付构成；数量不同提醒读者第三项扩展了找错范围。
+- actual_refinement: 旧分析已拒绝三对三硬配；新增句首旧信息与真正新方案的分工。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 9fd3ce0ccc22347926ecb60a4ef1ed33a8fa87548481f0198e660ed44e8ceba5
+  - source_span_word_count: 2
+  - span_locator_zh: p.2左栏，P4段首，作者呈现谓语；所分析局部表达
+  - replacement: we introduce
+  - use_condition: 需要用introduce统一论文介绍新方案的动作时。
+  - cost_or_risk: 同义替换；保留hybrid、重要性与两限制/三设计，不擅加first。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 为克服上述两项限制并改进错误发现，我们提出混合数据驱动模糊测试方案MINER，其中包含以下三个重要设计。
+  - use_condition: 方法段首需同时承接诊断和预告结构时。
+  - cost_or_risk: 保持两与三的不对称；若要提前补第三缺口，必须另标新增编辑内容。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P4.S3
+
+- locator: p.2左栏，P4设计1，宾语用途补足语
+- source_unit:
+  - sha256: 5c0e5c3c03bde82da979693ade90cbdfb0f3bd0337e25a05ee8400a974eac2f5
+  - word_count: 33
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 收集过去请求已成功生成并通过服务检查的序列模板，作为扩展起点。
+- retained_entry: S3 收集历史成功且过检查模板作延长起点；关系从句规定合格证据。原则→保留可执行前缀
+- source_claim_zh: 收集过去请求已成功生成并通过服务检查的序列模板，作为扩展起点。
+- matrix_syntax: 矩阵MINER collects templates as initial templates；逗号隔开的whose关系从句在句法上为补充说明，语义上承载来源的合格条件。
+- discourse_foreground: 历史何以值得复用：它曾实际通过检查。
+- first_new_information: 相对S2抽象历史引导，新增保留什么历史及如何作为起点。
+- contextual_grounds: P3模板重启造成难累积；P2已教读者服务检查的作用。
+- conventional_expression: 具体化副词＋collect X as Y＋whose两并列完成态谓语。
+- relative_length_role: 较长限定性信息夹在宾语和用途之间，让可复用对象先获资格再说用途；读者需跨长插入维持collects-as关系。
+- writer_selection_and_reader_inference: 技术选择不止存历史，选的是具有可执行前缀证据的模板；读者可理解这为何对抗反复从空开始。
+- actual_refinement: 旧分析说合格证据但未分语法补充/语义筛选；新增该区别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 00bdfc743a8c2de11ca3f799d16e881101b8708031ab8839ae36db979bc2e696
+  - source_span_word_count: 4
+  - span_locator_zh: p.2左栏，P4设计1，宾语用途补足语；所分析局部表达
+  - replacement: as the starting templates
+  - use_condition: 避免initial被误读为只在整个测试启动时使用时，可用starting。
+  - cost_or_risk: 仍指每次扩展起点；不能改成only initial training corpus混淆两种数据。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 具体来说，MINER收集过去测试中各请求已成功生成并通过服务检查的序列模板，将其作为后续序列扩展的起点。
+  - use_condition: 当中文读者需要先看资格再看复用用途时。
+  - cost_or_risk: 把whose补充关系压成前置修饰；更紧凑，但不能从句法逗号推出所有历史模板均合格。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q1
+
+## P4.S4
+
+- locator: p.2左栏，P4跨设计1/2分号句，设计1概率目的谓语
+- source_unit:
+  - sha256: a7a084542469ac40aa5ef4f21cc083039db47ce7573875df69ae327594adb6fa
+  - word_count: 53
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 概率函数使长模板获得更多选择；随即转到设计2，从通过检查的请求收集参数和值作为关键变异。
+- retained_entry: S4 系统用概率偏长；分号编号2转请求设计，系统从有效请求收参数/值。序列采样→另一层数据，跨设计句链
+- source_claim_zh: 概率函数使长模板获得更多选择；随即转到设计2，从通过检查的请求收集参数和值作为关键变异。
+- matrix_syntax: 两个分号并列矩阵：MINER leverages函数和MINER collects参数/值；第二矩阵前有设计名、目的和for each范围。
+- discourse_foreground: 先给长度偏向，再切换到请求质量所需的数据。
+- first_new_information: 相对已收集有效模板，首先新增按长度偏向选择；分号后新增另一种历史记录粒度。
+- contextual_grounds: S3提供可复用模板；P3.S9已命名关键变异。
+- conventional_expression: Then执行顺序＋分号编号转场＋目的/范围前置＋collect A and B as C。
+- relative_length_role: 这是跨设计的长句，不宜把总字数当单一论证展开；两个相对自足矩阵共用一处句号。
+- writer_selection_and_reader_inference: 作者在同段展示两个层级的历史：整条序列用于延长，参数和值用于生成。读者能看到同为数据驱动但数据职责不同。
+- actual_refinement: 旧条目指出转场；新增每个矩阵信息和局部动词化替换的句法边界。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 3a880857026be5dcb122a81da7191f5a4e52c11a5c5b758624b69b1a6da2f596
+  - source_span_word_count: 11
+  - span_locator_zh: p.2左栏，P4跨设计1/2分号句，设计1概率目的谓语；所分析局部表达
+  - replacement: select long sequence templates more often
+  - use_condition: 想将抽象次数名词组改为直接动作时，局部替换须覆盖完整谓语与模板宾语。
+  - cost_or_risk: 局部跨度已含模板宾语，不能只替换assign到to后把more often留在长宾语之前；more仍表示相对选择频率。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 随后，MINER用概率函数在扩展过程中更频繁地选择长序列模板。第二项设计通过注意力模型改善请求生成：为提高生成质量，MINER先从每个通过检查的有效请求中收集参数及其取值，作为关键变异。
+  - use_condition: 面向需要清楚区分两个生成层级的读者时，拆开源分号句。
+  - cost_or_risk: 加中文主题句连接设计名与目的，篇幅变长但层级明显；不声称两个组件已独立证明。
+  - semantic_changes: 句号拆分和设计标题谓语化是全句编辑；源事实与强度保留。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q1
+
+## P4.S5
+
+- locator: p.2左栏，P4设计2，句末目的非限定语
+- source_unit:
+  - sha256: 1ae6a8a0cb182454e3b73bde4269eb8e29eceacc07b045e0db31326fb3e5cb1c
+  - word_count: 24
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 构建attention模型以学习关键变异间隐含关系，并以当时先进模型类别定位它。
+- retained_entry: S5 系统构attention，关系从句一般评价，目的学关键变异间关系。收集→学习机制
+- source_claim_zh: 构建attention模型以学习关键变异间隐含关系，并以当时先进模型类别定位它。
+- matrix_syntax: 矩阵MINER constructs；which is为补充系表关系从句；to learn为目的非限定语。
+- discourse_foreground: 学习对象是关键变异间关系；模型先进性提供附加定位。
+- first_new_information: attention模型名称承接S4的第二设计标题；S5进一步新增构建动作、先进性定位，以及学习关键变异间隐含关系的具体目的。
+- contextual_grounds: S4已给参数和值作为关键变异，P3.S9给缺失的选择知识。
+- conventional_expression: 动作矩阵＋补充/非限制性关系从句评价＋目的非限定动词结构置于句末。
+- relative_length_role: 中长句同时回答用什么和学什么；插入先进性评价使技术身份与任务目标相隔。
+- writer_selection_and_reader_inference: 作者没有只给架构名字，还给它在本任务学习的信息；读者可据此理解下一句组合生成。先进性本身不承担性能证据。
+- actual_refinement: 旧条目略过关系从句的评价/目的职责区别；补上不能以删修辞为名悄悄取消原作者主张。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: ae8894c6fb477c2bf10ce77d082ba488555b8f8337e4cf1426c819fe41820973
+  - source_span_word_count: 5
+  - span_locator_zh: p.2左栏，P4设计2，句末目的非限定语；所分析局部表达
+  - replacement: in order to learn the implicit relationship
+  - use_condition: 担心to learn被读成模型的抽象能力而非构建目的时，可显化in order to。
+  - cost_or_risk: 增加目的标记而不增加科学内容；不是更强性能证明。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 第二，MINER构建一个注意力模型。作者将其定位为当时先进的神经网络模型之一，用于学习关键变异之间的隐含关系。
+  - use_condition: 需要明确技术定位是作者判断，同时突出任务化学习目标时。
+  - cost_or_risk: 拆成两句并加归属标记，篇幅更长；保留one of而不拔高到最先进唯一模型。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q2
+
+## P4.S6
+
+- locator: p.2左栏，P4设计2/3转场，checker名词组
+- source_unit:
+  - sha256: 9c7ed3ddf4ad3df3d5a5e955415fbcbe71f170265ced6a2680a01328fffc9736
+  - word_count: 49
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 模型生成更多样的合意关键变异组合，以构造可通过检查并探索不同状态的高质量请求；第三设计另加checker捕获参数误用错误。
+- retained_entry: S6 系统用模型产组合以过检查/探索状态；分号编号3加入参数误用checker。机制结果→独立错误类扩展
+- source_claim_zh: 模型生成更多样的合意关键变异组合，以构造可通过检查并探索不同状态的高质量请求；第三设计另加checker捕获参数误用错误。
+- matrix_syntax: 分号前矩阵MINER uses，which can construct修饰组合；后矩阵MINER implements；to capture为目的。
+- discourse_foreground: 模型输出如何服务探索，以及错误类别扩展的新职责。
+- first_new_information: 先新增输出组合的多样性与可用性；分号后首次明确引入参数误用checker。
+- contextual_grounds: P3给通过检查困难；前两设计围绕长链。参数误用的独立缺口尚未在P3展开。
+- conventional_expression: Then＋用途链＋can能力关系从句；分号编号开启附加机制。
+- relative_length_role: 长句把输出、请求、状态三层联接，再承担一处设计转场；可拆句减低切换成本但保留每层关系。
+- writer_selection_and_reader_inference: 句尾状态探索把模型输出接回任务；checker则增加可发现错误的类型，不能解释成仅提高前缀通过率的第三种做法。
+- actual_refinement: 旧条目已有第三类；新增which的语法先行词和任务链逐层推论。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 738f735dfd9e1ae85f9292ba792074d933907c45d553fab5d130e57b1a7e38d7
+  - source_span_word_count: 5
+  - span_locator_zh: p.2左栏，P4设计2/3转场，checker名词组；所分析局部表达
+  - replacement: an additional security rule checker
+  - use_condition: 只需统一书面用语extra/additional时。
+  - cost_or_risk: 中性替换；additional不意味着前两项本身就是同类checker。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 随后，MINER利用该模型生成更多样的合意关键变异组合；这些组合能够构造高质量请求，使请求通过检查并探索云服务的不同状态。第三项设计是请求参数违规检查：MINER增加一个安全规则检查器，用于捕获参数使用不当的错误。
+  - use_condition: 需要让方法输出与应用行为的桥各自可读时。
+  - cost_or_risk: 拆分并扩展设计标签，词数增加；不能把can构造写成所有生成请求都通过。
+  - semantic_changes: 拆分源分号链；保留能力而非全称保证。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q1
+  - Q2
+
+## P4.S10
+
+- locator: p.2左栏，P4末句，第一并列谓语
+- source_unit:
+  - sha256: 59e5da68edce55338c57b7ea7a4a8b88dc2f4afa36dfb7227faaadac1d2e56a7
+  - word_count: 22
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 三个核心设计彼此兼容，在模糊测试过程中协同提升性能。
+- retained_entry: S10 三设计兼容并协作、目的提升fuzzing。不同作用→共享框架
+- source_claim_zh: 三个核心设计彼此兼容，在模糊测试过程中协同提升性能。
+- matrix_syntax: 同一主语three designs配are compatible和work together两并列谓语；to improve目的尾语。
+- discourse_foreground: 将三个不同职责收束为一套系统。
+- first_new_information: 新增兼容与协作的整体性主张；不是再次列举模块。
+- contextual_grounds: 前文三个设计依次展开，读者已知道它们分别做什么。
+- conventional_expression: 回指名词组＋系表/动词混合并列＋目的短语。
+- relative_length_role: 相较前述较长的历史资格说明、模型学习说明及跨设计分号句更短，负责系统整合与段落闭合；不声称短于每个设计细节句，也不承担证明协作成立。
+- writer_selection_and_reader_inference: 此句回应三个设计为何同属hybrid；正文数据流才具体说明共享采集如何连接不同使用路径。
+- actual_refinement: 旧账本列兼容协作；新增收束性主张与正文机制说明的证据职责区别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 4eea68b28d0ed293b591c66200a001a7ec3704cbfe9174fc66751363b95ef73b
+  - source_span_word_count: 5
+  - span_locator_zh: p.2左栏，P4末句，第一并列谓语；所分析局部表达
+  - replacement: are mutually compatible
+  - use_condition: 需要压缩重复代词搭配时。
+  - cost_or_risk: 少两个词但只是表达紧缩；mutually仍只指兼容，不能改成synergistic以暗示超加性收益。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 上述三个核心设计相互兼容，并在模糊测试过程中协同工作，以提升测试性能。
+  - use_condition: 设计段结束需要从局部回到系统交付时。
+  - cost_or_risk: 保留目的性；这一句不能替代正文整合证据。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## P5.S1
+
+- locator: p.2左栏末，P5首句，that关系从句谓语
+- source_unit:
+  - sha256: e35de798bd29fe9c7328e7f2aa368ed92c54e5c2821c70dbe24fe8bece54bd6d
+  - word_count: 16
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者称其为通用数据驱动框架，测试之前无需初始训练数据。
+- retained_entry: S1 框架系表通用且不需事前训练数据。数据驱动→可实施性顾虑
+- source_claim_zh: 作者称其为通用数据驱动框架，测试之前无需初始训练数据。
+- matrix_syntax: 矩阵approach is framework；that does not require为限定关系从句。无事前训练数据处在从句，却是此处采用顾虑的焦点。
+- discourse_foreground: 数据驱动方案的启动条件。
+- first_new_information: 泛用框架定位先出现，随后新增不需事前训练数据的关键条件。
+- contextual_grounds: 前段已用历史数据和模型；读者自然需要知道第一批数据从何来。
+- conventional_expression: 系表定位＋that能力/条件从句；下一句Instead给正面替代。
+- relative_length_role: 相对技术段短，暂时停止机制展开，先答可实施性疑问。
+- writer_selection_and_reader_inference: 说明在线获取训练材料降低事前语料准备负担；并非消除规格、模板和在线学习等待。
+- actual_refinement: 旧分析已有训练集边界；新增从属语法位置与段首论述前景区别。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 812d5b39ee5e3f51f712a1dca2c662ee12cd06cef9521da87c3b5a3658ad82bc
+  - source_span_word_count: 6
+  - span_locator_zh: p.2左栏末，P5首句，that关系从句谓语；所分析局部表达
+  - replacement: requires no initial training data
+  - use_condition: 希望用no直接修饰所需资源时，可替换整个否定谓语和训练数据宾语。
+  - cost_or_risk: 同义否定；initial和before fuzzing必须保留，不能缩成requires no training。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 我们的方法是一个通用的数据驱动框架，在开始模糊测试之前不需要初始训练数据。
+  - use_condition: 方法段结束后先回答启动语料从哪里来的疑问时。
+  - cost_or_risk: 将关系从句改中文并列说明；下句仍应保留自动在线收集，否则只是负面免除声明。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q3
+
+## P5.S3
+
+- locator: p.2跨栏，P5第三句，适用对象量词名词组
+- source_unit:
+  - sha256: 2dee647c2b66b80fd49a727c5fcac07c175d02093460beaca2ed70e6b22e2512
+  - word_count: 18
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者主张框架可用于多数REST API fuzzers，并能提升其在相同实验条件下的表现。
+- retained_entry: S3 可用于多数fuzzer且同条件提升，两并列主张。机制→泛化愿景；实证仍仅RESTler实现
+- source_claim_zh: 作者主张框架可用于多数REST API fuzzers，并能提升其在相同实验条件下的表现。
+- matrix_syntax: 同主语It：can be applied被动情态谓语与improves主动谓语并列；原句只有应用项明确带can，提升项是直接断言。
+- discourse_foreground: 可迁移性和同条件效益的广泛作者主张。
+- first_new_information: 先新增适用多数fuzzers的范围，再新增其比较效益。
+- contextual_grounds: 在线获取自身历史和兼容性为设计层理由；下一句才收窄到RESTler原型。
+- conventional_expression: 代词承接＋can被动应用＋主动改善；同条件尾语限制比较环境。
+- relative_length_role: 短句给框架级主张，随后用原型句与实验范围逐步落地。
+- writer_selection_and_reader_inference: 作者先区分方案可适用面和实际实现；分析应保留其广泛表述，同时把实验证据覆盖放另处。
+- actual_refinement: 旧条目已有愿景边界；新增并列谓语的模态非完全对称，避免替作者把improves改may。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 4e864844c7e44fed36c12632583bb9fb191fa0f07057fefbf04e07a09797baa3
+  - source_span_word_count: 4
+  - span_locator_zh: p.2跨栏，P5第三句，适用对象量词名词组；所分析局部表达
+  - replacement: the majority of REST API fuzzers
+  - use_condition: 需要更正式展开most的多数含义时。
+  - cost_or_risk: 两者都没有给比例；不能换为all或many而改变量词。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 按作者的主张，该框架可应用于多数REST API模糊测试器，并提高它们在相同实验条件下的性能。
+  - use_condition: 分析或转述该段广泛作者主张时。
+  - cost_or_risk: 归属标记与科学核验分开；本句没有把适用声明改写成已逐一验证的事实。
+  - semantic_changes: 将原文improves保留为归属于作者的直接提升主张；不附加may弱化。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q3
+
+## P5.S6
+
+- locator: p.2右栏，P5第六句，评估性关系从句引导
+- source_unit:
+  - sha256: b37f1a61abddd97eeda4445355c81e5fda74bd67a97e0db5702eaa6f88332eb0
+  - word_count: 26
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 平均通过率比RESTler高23.42%，作者据此判断请求生成通过服务检查的能力显著改善。
+- retained_entry: S6 平均通过率相对+23.42%，关系从句解释通过检查能力。范围→请求瓶颈回应
+- source_claim_zh: 平均通过率比RESTler高23.42%，作者据此判断请求生成通过服务检查的能力显著改善。
+- matrix_syntax: 矩阵average pass rate is 23.42% higher；which补充评注整个比较结果，indicates的that补语承载任务解释。
+- discourse_foreground: 数值与它对请求生成的含义同属论述焦点，不能因解释在从句里就说它不重要。
+- first_new_information: 首次给出量化通过率优势；从句随后解释意义。
+- contextual_grounds: P2已给检查门槛，P3给生成困难，P4给改进机制，P5.S5给三服务/11API范围。
+- conventional_expression: 比较矩阵＋补充性评估关系从句；显著改善为作者定性，不自动等于显著性检验。
+- relative_length_role: 比只报数字更长，追加的解释成本让读者知道这个指标回应哪个瓶颈。
+- writer_selection_and_reader_inference: 先给请求通过这个门槛，再给长序列分配，能让读者依次理解组合执行的条件；这是对结果顺序的编辑解释。
+- actual_refinement: 旧分析已正确算相对增幅；新增比较结果/评价从句职责，拒绝把证据核算压过写作选择。
+- local_alternative:
+  - kind: scope_changing_counterfactual
+  - source_span_sha256: c6c52f4131a9f6373e7e65fdfa278e5eb8c0fa1a5f87133e445011ea81a7b808
+  - source_span_word_count: 3
+  - span_locator_zh: p.2右栏，P5第六句，评估性关系从句引导；所分析局部表达
+  - replacement: which suggests that
+  - use_condition: 仅当编辑明确希望降低推断力度时可使用suggests；不作为忠实替换。
+  - cost_or_risk: suggests比indicates更试探，会弱化作者推断；源强度转述应保留indicates。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 与RESTler相比，MINER的平均通过率高23.42%；作者据此指出，MINER显著改进了能够通过云服务检查的请求生成。
+  - use_condition: 想把数字事实与作者解释分开而保持原判断力度时。
+  - cost_or_risk: 将关系从句独立为解释分句；不能把相对比例改百分点。
+  - semantic_changes: 局部suggests选项是明确的强度弱化反事实；完整变体保留原强度。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q1
+  - Q4
+
+## P5.S7
+
+- locator: p.2右栏，P5第七句，长度分布量词宾语
+- source_unit:
+  - sha256: b8bcd28a4eaff15f73d9399b19581be49d244c6e0c85ed2122d77255a3041715
+  - word_count: 26
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 评估还显示设计显著改善MINER的序列构造；MINER将大多数执行分配给长度大于4的序列。
+- retained_entry: S7 评估显示构序列改善，关系从句大多数执行长度>4。请求→模板瓶颈回应
+- source_claim_zh: 评估还显示设计显著改善MINER的序列构造；MINER将大多数执行分配给长度大于4的序列。
+- matrix_syntax: 矩阵evaluation shows；that补语判断设计改善；which assigns语义施事为MINER，非“评估”或无生命的抽象改善。最近中心短语sequence construction of MINER可能令附着难读，应说明语义回指。
+- discourse_foreground: 序列构造改善由执行分配的具体表现来承载。
+- first_new_information: 先新增构造改善评价，再给大多数执行落在>4序列这一具体证据。
+- contextual_grounds: 前句通过率说明单个请求生成；P3和P4给长序列动机/设计。
+- conventional_expression: 证据名词作矩阵主语＋that评估＋which行为补充；also连接第二上游瓶颈。
+- relative_length_role: 较长句把评估结论和行为量接一起；关系回指和嵌套是阅读成本。
+- writer_selection_and_reader_inference: 读者得知系统实际把预算花到较长序列，而不只是理论上能生成；执行占比不等于多数不同模板或覆盖状态的比例。
+- actual_refinement: 旧条目易读成“大多数序列长度>4”；精确为执行分配，并解析which施事与量词分母。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 35501a420f7b52297f32ccf0f355cb2be4c394b7407b94cdae7c21a458b973ee
+  - source_span_word_count: 2
+  - span_locator_zh: p.2右栏，P5第七句，长度分布量词宾语；所分析局部表达
+  - replacement: the majority of executions
+  - use_condition: 需要明确多数含义而不改变分母时。
+  - cost_or_risk: 中性展开；禁止用most sequences替换，这会从执行次数变成序列对象数量。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 评估还表明，我们的设计显著改善了MINER的序列构造：MINER把大多数执行分配给长度大于4的序列。
+  - use_condition: 需要消除关系从句施事回指负担时。
+  - cost_or_risk: 冒号把后一事实显式用作说明；此解释关系是编辑显化，不能声称独立充分证明。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q5
+
+## P5.S8
+
+- locator: p.2右栏，P5末句，比较宾语名词组
+- source_unit:
+  - sha256: ea548c2bc650ae461a6f1c7b90b0fd44fdb66e5bb255e1d0158e982e323cd129
+  - word_count: 17
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: MINER比RESTler发现多142.86%的可复现错误，其中包括五个访问已删除资源的安全错误。
+- retained_entry: S8 递加、可复现错误相对+142.86%，包括五删除资源错误。中间行为→终端安全结果
+- source_claim_zh: MINER比RESTler发现多142.86%的可复现错误，其中包括五个访问已删除资源的安全错误。
+- matrix_syntax: 矩阵MINER discovers comparative对象；including附加子集，that access为security bugs关系从句。
+- discourse_foreground: 从上游代理能力落到可复现找错，并以安全子类恢复P1的价值。
+- first_new_information: 首次给终端可复现错误比较；随后说明五个安全子类。
+- contextual_grounds: 请求通过和长链分配前两句已有；P3举过依赖状态序列的安全错误。
+- conventional_expression: 递加连接＋相对比较＋including子集＋关系从句具体化危害。
+- relative_length_role: 相较前两句更短的结果收束句，同时给比较总量和安全子类，内容较密；五个是总数中的子集。
+- writer_selection_and_reader_inference: 可复现比原始响应更贴后续分析/修复用途；为什么引言选它而摘要兼报原始unique增幅，属于编辑解释而非作者自述动机。
+- actual_refinement: 旧账本已有终端效果；新增including子集语义与错误可复现的应用后续价值。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: eca57f64e031b1404d109028e8890e1441304b8085511db6ace265006c1291a5
+  - source_span_word_count: 3
+  - span_locator_zh: p.2右栏，P5末句，比较宾语名词组；所分析局部表达
+  - replacement: more errors that can be reproduced
+  - use_condition: 当读者不熟reproducible形容词时，可用关系从句解释。
+  - cost_or_risk: 关系从句展开会拉长more与than RESTler的距离，并可能让读者短暂把比较接到reproduced；与后续安全子类关系从句重叠，增加阅读成本。若无需术语解释，保留原形容词较紧凑。142.86%和including的范围不变。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 此外，MINER发现的可复现错误比RESTler多142.86%，其中包括五个会访问已删除资源的安全错误。
+  - use_condition: 结果段需要从生成能力落到找错价值时。
+  - cost_or_risk: 不把所有发现都写成安全漏洞或厂家已确认；保留包含关系。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q4
+  - Q6
+
+## B1.S1
+
+- locator: p.2右栏，贡献1首句，第一个嵌入谓语
+- source_unit:
+  - sha256: 0625cfbf427d2a920e1d169866be76643c30d20a3def22eb6c8c3ceaf5078941
+  - word_count: 21
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者发现REST API fuzzers难生成包含高质量请求的长序列，并不能发现参数误用错误。
+- retained_entry: S1 作者发现长有效序列困难和参数误用盲点。方案讲完→重新归纳问题知识，后者是较晚补足的gap
+- source_claim_zh: 作者发现REST API fuzzers难生成包含高质量请求的长序列，并不能发现参数误用错误。
+- matrix_syntax: 矩阵we find；that内共享fuzzers主语并列have trouble与cannot find；两项力度不同。
+- discourse_foreground: 把已知长链质量问题与较晚引入的参数误用盲点合为发现贡献。
+- first_new_information: 长链问题是回收；不能发现参数误用的诊断在此成为清晰的贡献级缺口表述。
+- contextual_grounds: P3只充分诊断前者，P4第三设计已引入后一错误类。
+- conventional_expression: 研究者发现＋that双谓语＋困难/绝对否定不对称。
+- relative_length_role: 比后一个三设计长句短，先给研究认识，再把方案作为回应。
+- writer_selection_and_reader_inference: 作者将问题识别作为贡献之一；但不能倒推P3本来已经同样铺垫所有第三设计依据。
+- actual_refinement: 旧profile已有晚补gap；新增cannot力度必须在忠实转述中保留，另处核验范围。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 7f037f5dec783e5d949934ec7f5d8921a3921b960aa0da8da03269e11b015a9d
+  - source_span_word_count: 3
+  - span_locator_zh: p.2右栏，贡献1首句，第一个嵌入谓语；所分析局部表达
+  - replacement: struggle to generate
+  - use_condition: 需要动词式困难表达时。
+  - cost_or_risk: 只替第一谓语，不动第二cannot；别把两项统一成may miss。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 我们发现，REST API模糊测试器难以生成由高质量请求构成的长序列，并且无法发现参数使用不当的错误。
+  - use_condition: 忠实展示作者贡献主张时。
+  - cost_or_risk: 绝对否定作为作者原主张保留；不是分析者对所有现有工具独立做过穷尽检查。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q7
+
+## B1.S2
+
+- locator: p.2右栏，贡献1第二句，设计的新颖性修饰
+- source_unit:
+  - sha256: b2ea76dc3633f0d21655c1f6b6c9ef58d3ec8380e3114bfa4b94fd441db52d37
+  - word_count: 57
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 基于发现，作者提出新方案MINER，含三项新颖数据驱动设计：历史指导、attention预测参数值、未定义参数发现新类错误。
+- retained_entry: S2 基于发现、作者提出三设计；并列分项历史、attention预测、未定义参数。问题→可运行方案，方法与作用同条
+- source_claim_zh: 基于发现，作者提出新方案MINER，含三项新颖数据驱动设计：历史指导、attention预测参数值、未定义参数发现新类错误。
+- matrix_syntax: 矩阵we propose；Motivated为与we共指的过去分词附加语；i.e.后三个-ing结构解释designs，不是三个有限主句。
+- discourse_foreground: 一套方案及三个有不同用途的研究设计作为方法贡献。
+- first_new_information: 贡献级新内容主要是将已述设计组织为新方案/新颖设计的主张；不是技术首次披露。
+- contextual_grounds: B1.S1给发现；P4已详细介绍相同设计。
+- conventional_expression: 原因/动机前置＋提出新方案＋i.e.三并列非限定项；with/by写实现手段。
+- relative_length_role: 本段最长句将三设计收在一个方案身份下；长并列保留用途，代价是局部层级多。
+- writer_selection_and_reader_inference: 条目用方法贡献而非模块数量组织；三个技术不必各占一条，读者先看到共同研究交付。
+- actual_refinement: 旧profile已保留三设计整合；新增贡献重述与首次新信息不等价，以及novel不可静默删掉。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 4466bb6e1280354467471ef0c548d7d598a8f627ef18e66794849f40c7bb365d
+  - source_span_word_count: 4
+  - span_locator_zh: p.2右栏，贡献1第二句，设计的新颖性修饰；所分析局部表达
+  - replacement: three new data-driven designs
+  - use_condition: 需要降低词汇修饰浓度而仍保留new新颖性主张时。
+  - cost_or_risk: new比novel口气普通但仍主张新；不能变成three designs删新颖性，也不能加first。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 受上述发现启发，我们提出新方案MINER，包括三项新颖的数据驱动设计：利用历史数据指导序列构造，以注意力模型预测合意参数值来改善请求生成，以及用带未定义参数的请求探索一种新的错误类别。
+  - use_condition: 贡献列表需要保持方案整体性和各设计用途时。
+  - cost_or_risk: 三并列仍较长；“新”是作者定位，独立新颖性核验不由这一句完成。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+
+
+## B2.S2
+
+- locator: p.2右栏，贡献2第二句，已知错误证据角色
+- source_unit:
+  - sha256: 6c7fc66e9ac34806ef581152da96e758e1e188cbf0174cbe4f3347a5ed704240
+  - word_count: 24
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者使用GitLab公开错误作为真值，证明MINER在严重错误发现方面优于RESTler。
+- retained_entry: S2 额外、以公开GitLab错误作真值证明严重缺陷能力。平均效果→有外部定义的验证任务
+- source_claim_zh: 作者使用GitLab公开错误作为真值，证明MINER在严重错误发现方面优于RESTler。
+- matrix_syntax: 矩阵we utilize published bugs as ground truth；to demonstrate目的项，that内为比较判断。
+- discourse_foreground: 对外部已知目标的发现能力验证，比继续重复平均指标增加不同证据职责。
+- first_new_information: 新的是使用已公开错误作真值这一验证任务。
+- contextual_grounds: B2.S1已有一般性能评估，P5已报发现数量。
+- conventional_expression: 递加＋use X as Y＋目的验证＋that比较内容。
+- relative_length_role: 中长句把数据来源、认识角色与要证明的结果同时给出。
+- writer_selection_and_reader_inference: 读者知道评价不仅依赖本工具报出的候选；外部已知案例让是否触达复杂逻辑可判别。
+- actual_refinement: 旧profile已有独立真值；新增目的从句仍含作者要证明的强比较主张，不能偷改成仅“尝试”。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: ff19f48c138b6f09115d6ab97d458a2cdb9e5fd309b70b54f2ef01bf2bb31d00
+  - source_span_word_count: 4
+  - span_locator_zh: p.2右栏，贡献2第二句，已知错误证据角色；所分析局部表达
+  - replacement: as ground truth
+  - use_condition: 把ground truth按不可数证据角色使用时，可省冠词。
+  - cost_or_risk: 中性语法风格选项，保留the也可；不改变样本选择或比较强度。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 此外，我们以GitLab已公开的错误作为真值，证明MINER在严重错误发现方面优于RESTler。
+  - use_condition: 忠实概括作者这一验证贡献时。
+  - cost_or_risk: 目的“证明”保留作者强度；四个筛选案例与特定grammar的科学适用范围另列，不能暗示每种错误都更快。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q8
+
+## B2.S3
+
+- locator: p.2右栏，贡献2第三句，证据主语后的谓语
+- source_unit:
+  - sha256: 62a34ac1cee340e0ee04e293a46ec746fb118311a2ca611bfd11b331fc650863
+  - word_count: 15
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 逐步分析展示各设计对通过率和错误发现的贡献。
+- retained_entry: S3 逐步分析主语、显示设计对通过率/找错贡献。联合系统→归因
+- source_claim_zh: 逐步分析展示各设计对通过率和错误发现的贡献。
+- matrix_syntax: 矩阵stepwise analysis shows contribution；of/designs和to/两个结果为名词补足关系。
+- discourse_foreground: 联合系统有效之外，还要说明设计贡献。
+- first_new_information: 新增归因性分析职责，并同时保留中间通过率与最终找错两个结果。
+- contextual_grounds: 前文整套方案结果和已知错误验证均未独立说明组件作用。
+- conventional_expression: 证据/分析名词作主语＋shows＋贡献名词化；两个结果并列。
+- relative_length_role: 短句用具体分析名词代替作者we，快速补齐验证维度而不复述实验数值。
+- writer_selection_and_reader_inference: 读者可期待读正文时区分某设计提升的是门槛指标还是错误发现；不能从此句推出每组件都必不可少。§5.1主要拆前两个生成设计，checker另由§4的MINER_PART/MINER比较承担验证，三项设计不必由同一组消融逐项证明。
+- actual_refinement: 修正旧profile“缺一不可”的必要性外推；保留贡献/互补性而不增加数学必要条件。
+- local_alternative:
+  - kind: context_sensitive_evaluative_shift
+  - source_span_sha256: 40fcc2d69fa0fc5544e515056bd9f0c77e327b3b4dcdd4c3b2999c5e32b2b3d5
+  - source_span_word_count: 4
+  - span_locator_zh: p.2右栏，贡献2第三句，证据主语后的谓语；所分析局部表达
+  - replacement: demonstrates the contribution of
+  - use_condition: 仅在编辑希望在当前论证语境中采用可能更强调展示证据的动词时使用；忠实转述优先保留源shows。
+  - cost_or_risk: 可能提高读者感知的证据/评价力度，所以不标严格保义；show与demonstrate没有脱离语境的一刀切强度等级，更不等于证明普遍必要性。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 逐步分析展示了这些设计对请求通过率和错误发现的贡献。
+  - use_condition: 贡献列表需单独交代机制贡献证据时。
+  - cost_or_risk: 不能扩写为已证每项都不可替代；正文结果具有目标与指标差异。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q9
+
+## B2.S4
+
+- locator: p.2右栏，贡献2末句，三项证据中的时间负担
+- source_unit:
+  - sha256: a22fc58ed7f911e49e80e618d7730fdfa10534ce79b9525f3ef2a0ef26f52b06
+  - word_count: 23
+  - normalization: 源raw文本连续空白折为一个空格；M INER字距恢复MINER；源拼写、标点、编号与引文数字其余保留。
+  - boundary_zh: 作者进行广泛分析，展示MINER较高代码行覆盖、较低时间开销及多样请求执行分布。
+- retained_entry: S4 作者广泛分析主句、覆盖/耗时/分布为结果宾语。归因→采用和探索广度；不只是重复“有效”
+- source_claim_zh: 作者进行广泛分析，展示MINER较高代码行覆盖、较低时间开销及多样请求执行分布。
+- matrix_syntax: 矩阵we conduct extensive analysis；to show目的语含三个并列名词组；achieved by MINER修饰报告的结果集合。
+- discourse_foreground: 采用负担与探索广度补全找错主张。
+- first_new_information: 覆盖、时间开销、请求执行多样性作为最后新增的证据维度。
+- contextual_grounds: 先前已有错误发现与组件贡献；这些维度不能被错误总数替代。
+- conventional_expression: 作者动作＋目的展示＋三项评价性名词组并列；high/low/diverse各有不同方向。
+- relative_length_role: 中等长度收束证据列表，三项压成一句是避免逐项复述结果而非它们不重要。
+- writer_selection_and_reader_inference: 覆盖回答走到哪里，执行分布回答尝试多广，开销回答改善代价；正文单独量化，引言贡献句只列职责。
+- actual_refinement: 旧账本已有维度；新增评价方向与并列形式的采用逻辑，防止低开销被改无开销。
+- local_alternative:
+  - kind: local_meaning_preserving
+  - source_span_sha256: 8424a7f9da5a4f25f721f1b422024cce6288d5450427cd98edbb956e1f99b247
+  - source_span_word_count: 3
+  - span_locator_zh: p.2右栏，贡献2末句，三项证据中的时间负担；所分析局部表达
+  - replacement: small time overhead
+  - use_condition: 若全稿以small描述额外时间负担，可作词汇统一。
+  - cost_or_risk: 中性用词，可能较不惯常；不能把low改negligible或zero。
+  - outside_span_changes: 无
+  - gain_claim: 只说明选择条件；不声称替换后写作质量提高。
+- full_contextual_variant_zh:
+  - text: 我们还开展了广泛分析，展示MINER实现的较高代码行覆盖、较低时间开销，以及多样的请求执行分布。
+  - use_condition: 需要用一句交代补充评价维度而不重复前段数据时。
+  - cost_or_risk: 保留extensive和三项评价，不能只保留性能更好而删除成本维度。
+  - semantic_changes: 无科学范围变动；中文编辑变体并非源文引句。
+  - strength_handling: 保留作者原有比较对象、数量/模态和评价力度；科学核验另见qualifications。
+- qualification_ids:
+  - Q10
+

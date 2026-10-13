@@ -1,0 +1,758 @@
+{
+  "source_id": "sj-2deb60c210",
+  "source_pdf_sha256": "fc961abb45f9b373e5fd01e44d81b1b524be14b498aea1317d31dda3c264b7d8",
+  "normalized_text_sha256": "36d006697cbf66e41f6a47537098859d140ecc57a09500b09c0207d708b0e4b6",
+  "offset_semantics": "Unicode code points in the source-normalized Introduction identified by normalized_text_sha256; separating spaces are outside spans. This normalized source text is not distributed here; offsets are provenance locators, not an included replay artifact.",
+  "coordinates": "61 unchanged published-map units; P3.S3 expanded locally into lead-in a and findings b; 62 orthographic source-sentence spans. No new default-map coordinates.",
+  "normalization": "Section I only; remove corresponding-author footnote and venue footer; join page continuation; preserve lexical mutation-based, fine-grained, non-negligible; remove other line-break hyphens; collapse whitespace; remove bullet glyphs. Original spelling otherwise preserved.",
+  "spans": [
+    {
+      "coordinate": "P1.S1",
+      "published_map_coordinate": "P1.S1",
+      "source_sentence_ordinal": 1,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 0,
+      "char_end_exclusive": 212,
+      "text_sha256": "3d595066f2d36b9454fdb7791e1aaecdbc99bb85a9a660db0630bb6807765410",
+      "space_split_word_count": 27
+    },
+    {
+      "coordinate": "P1.S2",
+      "published_map_coordinate": "P1.S2",
+      "source_sentence_ordinal": 2,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 213,
+      "char_end_exclusive": 399,
+      "text_sha256": "60b8aa5b79226bdad6b6eaea077ef15b9b03f4fbc97f13fadd9ea0424c6a6c63",
+      "space_split_word_count": 29
+    },
+    {
+      "coordinate": "P1.S3",
+      "published_map_coordinate": "P1.S3",
+      "source_sentence_ordinal": 3,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 400,
+      "char_end_exclusive": 544,
+      "text_sha256": "5f0a5028af896137727eddce4183f0b1dd535ec902dbdb2a08635651996fc7f1",
+      "space_split_word_count": 21
+    },
+    {
+      "coordinate": "P1.S4",
+      "published_map_coordinate": "P1.S4",
+      "source_sentence_ordinal": 4,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 545,
+      "char_end_exclusive": 760,
+      "text_sha256": "0082bf7b7ec1e37594d9ac93ed5dc02ab2121c32b548f93a8fc2890f7876817f",
+      "space_split_word_count": 32
+    },
+    {
+      "coordinate": "P1.S5",
+      "published_map_coordinate": "P1.S5",
+      "source_sentence_ordinal": 5,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 761,
+      "char_end_exclusive": 835,
+      "text_sha256": "ad78d0639844171d89d412b53fc68f81f21b39f1eed39ad0beb2dd2574339437",
+      "space_split_word_count": 10
+    },
+    {
+      "coordinate": "P1.S6",
+      "published_map_coordinate": "P1.S6",
+      "source_sentence_ordinal": 6,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 836,
+      "char_end_exclusive": 1185,
+      "text_sha256": "5a14ad1494de3f7217970cbfee720d851ff4b96e5c39dee18544a8618a2acfac",
+      "space_split_word_count": 53
+    },
+    {
+      "coordinate": "P1.S7",
+      "published_map_coordinate": "P1.S7",
+      "source_sentence_ordinal": 7,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 1186,
+      "char_end_exclusive": 1452,
+      "text_sha256": "461ac36c05e2c75041a3cf6ff692300cb625ff82411fc1ad9d1b5b890be56788",
+      "space_split_word_count": 36
+    },
+    {
+      "coordinate": "P2.S1",
+      "published_map_coordinate": "P2.S1",
+      "source_sentence_ordinal": 8,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 1453,
+      "char_end_exclusive": 1639,
+      "text_sha256": "7886f454fff0012721ccef0fa1cc12ac538eeb53de541908ef878d3fd3d27213",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P2.S2",
+      "published_map_coordinate": "P2.S2",
+      "source_sentence_ordinal": 9,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 1640,
+      "char_end_exclusive": 1779,
+      "text_sha256": "0bd4ee6f427eaed0e25a4758b28b413ef7ed79025f0b053b422544e7d5f9f135",
+      "space_split_word_count": 23
+    },
+    {
+      "coordinate": "P2.S3",
+      "published_map_coordinate": "P2.S3",
+      "source_sentence_ordinal": 10,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 1780,
+      "char_end_exclusive": 1927,
+      "text_sha256": "8eeb23485da9f0b3ad1389eb40372e2be78523123152a6adbecb952301e1a83d",
+      "space_split_word_count": 22
+    },
+    {
+      "coordinate": "P2.S4",
+      "published_map_coordinate": "P2.S4",
+      "source_sentence_ordinal": 11,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 1928,
+      "char_end_exclusive": 2051,
+      "text_sha256": "8298dd2b5ca6cd28d55eef45c418abb20c674dc56091a4739ebdfa0a91614a4c",
+      "space_split_word_count": 19
+    },
+    {
+      "coordinate": "P2.S5",
+      "published_map_coordinate": "P2.S5",
+      "source_sentence_ordinal": 12,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2052,
+      "char_end_exclusive": 2302,
+      "text_sha256": "65fff52749bb584ee7ec3f8bd726fa8695732e47d4e2087c822188516a5887fc",
+      "space_split_word_count": 39
+    },
+    {
+      "coordinate": "P2.S6",
+      "published_map_coordinate": "P2.S6",
+      "source_sentence_ordinal": 13,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2303,
+      "char_end_exclusive": 2422,
+      "text_sha256": "34fcd3b8b3d4ca1a8de6c8681ff37d4f9162030a0212b23143d52701d8cc3798",
+      "space_split_word_count": 16
+    },
+    {
+      "coordinate": "P2.S7",
+      "published_map_coordinate": "P2.S7",
+      "source_sentence_ordinal": 14,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2423,
+      "char_end_exclusive": 2624,
+      "text_sha256": "c05a7a15c493a7f199b69a7f6dff107a3ed8ddf37d93f51c4e1473eeb5dd49c3",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P2.S8",
+      "published_map_coordinate": "P2.S8",
+      "source_sentence_ordinal": 15,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2625,
+      "char_end_exclusive": 2744,
+      "text_sha256": "add11f4f05b50a99eb79d1da4af96a3cbd4a9b54d8a88f0d53cfe920cbaae73d",
+      "space_split_word_count": 18
+    },
+    {
+      "coordinate": "P3.S1",
+      "published_map_coordinate": "P3.S1",
+      "source_sentence_ordinal": 16,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2745,
+      "char_end_exclusive": 2826,
+      "text_sha256": "5dc9d3967472d93ead11ec1b2c8a9f6d80b7e0c2ee8ddde6d677621d0cb59ba6",
+      "space_split_word_count": 13
+    },
+    {
+      "coordinate": "P3.S2",
+      "published_map_coordinate": "P3.S2",
+      "source_sentence_ordinal": 17,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2827,
+      "char_end_exclusive": 2983,
+      "text_sha256": "7286fd6f5e6ad8fb964a0c84196a2d8364195815e665905fb7581d5578f348ff",
+      "space_split_word_count": 23
+    },
+    {
+      "coordinate": "P3.S3a",
+      "published_map_coordinate": "P3.S3",
+      "source_sentence_ordinal": 18,
+      "physical_pages": [
+        1
+      ],
+      "char_start": 2984,
+      "char_end_exclusive": 3026,
+      "text_sha256": "71d9a23cda7cdc98aa8209651dd7244717f24557d7aa28583bd3e1966e2da061",
+      "space_split_word_count": 7
+    },
+    {
+      "coordinate": "P3.S3b",
+      "published_map_coordinate": "P3.S3",
+      "source_sentence_ordinal": 19,
+      "physical_pages": [
+        1,
+        2
+      ],
+      "char_start": 3027,
+      "char_end_exclusive": 3348,
+      "text_sha256": "33c99495f5332b28c211f986f54405375a76c9cfbc78d504d1f6aa4c2ca92297",
+      "space_split_word_count": 51
+    },
+    {
+      "coordinate": "P3.S4",
+      "published_map_coordinate": "P3.S4",
+      "source_sentence_ordinal": 20,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3349,
+      "char_end_exclusive": 3510,
+      "text_sha256": "a28752408a943cb6138bf7f3b0a8e3f13e9e19568e8b2622adff2f752edcbcf1",
+      "space_split_word_count": 27
+    },
+    {
+      "coordinate": "P3.S5",
+      "published_map_coordinate": "P3.S5",
+      "source_sentence_ordinal": 21,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3511,
+      "char_end_exclusive": 3576,
+      "text_sha256": "a2d3f7ad8ea81a90a6c546e46ce00ed1a4a92c96e4d4b5537f1dfec396aaf11b",
+      "space_split_word_count": 11
+    },
+    {
+      "coordinate": "P3.S6",
+      "published_map_coordinate": "P3.S6",
+      "source_sentence_ordinal": 22,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3577,
+      "char_end_exclusive": 3720,
+      "text_sha256": "83cb7077fe2668affd042ce2ad9794d616ce4b54e4410c8a4b5b775d163f0e02",
+      "space_split_word_count": 22
+    },
+    {
+      "coordinate": "P3.S7",
+      "published_map_coordinate": "P3.S7",
+      "source_sentence_ordinal": 23,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3721,
+      "char_end_exclusive": 3836,
+      "text_sha256": "92df34b49c4888c0bcec351b416c963adfb9fbefc1c96edc0626bd2b3088fbcc",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P3.S8",
+      "published_map_coordinate": "P3.S8",
+      "source_sentence_ordinal": 24,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3837,
+      "char_end_exclusive": 3894,
+      "text_sha256": "de3f86904943be598086f3ea8809487700c044e5fcdb3e2b52c76bc7aea28aab",
+      "space_split_word_count": 8
+    },
+    {
+      "coordinate": "P3.S9",
+      "published_map_coordinate": "P3.S9",
+      "source_sentence_ordinal": 25,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 3895,
+      "char_end_exclusive": 4162,
+      "text_sha256": "85e4d74079cc5bbcdf14d283ffc098d5d536916c7656d0dd214ae7cd0a5d3a76",
+      "space_split_word_count": 40
+    },
+    {
+      "coordinate": "P4.S1",
+      "published_map_coordinate": "P4.S1",
+      "source_sentence_ordinal": 26,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 4163,
+      "char_end_exclusive": 4350,
+      "text_sha256": "54e34ab2ee5722980b12c470794dc3c8e1d65e1e9c8dc61b3206ac32e6c437ff",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P4.S2",
+      "published_map_coordinate": "P4.S2",
+      "source_sentence_ordinal": 27,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 4351,
+      "char_end_exclusive": 4600,
+      "text_sha256": "054c1fb8ad20107ed60f65019c78c85fb0a3318ad9e61f31b73acb9ff3c0b676",
+      "space_split_word_count": 44
+    },
+    {
+      "coordinate": "P4.S3",
+      "published_map_coordinate": "P4.S3",
+      "source_sentence_ordinal": 28,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 4601,
+      "char_end_exclusive": 4849,
+      "text_sha256": "c32ca9cfa4a7be89a0d0846d27eb1215bd1ced451f1bb0e87c3e68f9786fa0a1",
+      "space_split_word_count": 39
+    },
+    {
+      "coordinate": "P4.S4",
+      "published_map_coordinate": "P4.S4",
+      "source_sentence_ordinal": 29,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 4850,
+      "char_end_exclusive": 5013,
+      "text_sha256": "32bddd47445b9f0c88fd5ff5fffdef13b4e39e4088cc28ac5542a3ff2718d929",
+      "space_split_word_count": 26
+    },
+    {
+      "coordinate": "P4.S5",
+      "published_map_coordinate": "P4.S5",
+      "source_sentence_ordinal": 30,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5014,
+      "char_end_exclusive": 5122,
+      "text_sha256": "ad8d3325de797fd8ec1f46cbcd63129498560bccf84c936ccf3dd7a8dd3b6f39",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P5.S1",
+      "published_map_coordinate": "P5.S1",
+      "source_sentence_ordinal": 31,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5123,
+      "char_end_exclusive": 5326,
+      "text_sha256": "b4e2261d42c42ac43afc6976f5ae751b3a9ea22fc79d04e8d1852390891b0f25",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P5.S2",
+      "published_map_coordinate": "P5.S2",
+      "source_sentence_ordinal": 32,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5327,
+      "char_end_exclusive": 5437,
+      "text_sha256": "fa0d23ea4fb6994a8cc1cb96f5d1d5d8a4726a59393b2bded17ff8a1700405df",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P5.S3",
+      "published_map_coordinate": "P5.S3",
+      "source_sentence_ordinal": 33,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5438,
+      "char_end_exclusive": 5609,
+      "text_sha256": "d225b325cf68a6065b5c80e67130197764e67074781eaa5b0674ff592aa33e99",
+      "space_split_word_count": 28
+    },
+    {
+      "coordinate": "P5.S4",
+      "published_map_coordinate": "P5.S4",
+      "source_sentence_ordinal": 34,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5610,
+      "char_end_exclusive": 5721,
+      "text_sha256": "5d13ac75ff2371941c3dbb2d5ea2f4f082b50123639ed0240a3b59ae4dc4495a",
+      "space_split_word_count": 21
+    },
+    {
+      "coordinate": "P5.S5",
+      "published_map_coordinate": "P5.S5",
+      "source_sentence_ordinal": 35,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5722,
+      "char_end_exclusive": 5799,
+      "text_sha256": "828cee441c821e7c3ab27454ff1ba0885419023410b8308e85ffc35c737d52ff",
+      "space_split_word_count": 13
+    },
+    {
+      "coordinate": "P5.S6",
+      "published_map_coordinate": "P5.S6",
+      "source_sentence_ordinal": 36,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5800,
+      "char_end_exclusive": 5910,
+      "text_sha256": "7f282ef160e0e63c8b82072b4c3b4aa614c7017fe22c0478795091b502d85816",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P5.S7",
+      "published_map_coordinate": "P5.S7",
+      "source_sentence_ordinal": 37,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 5911,
+      "char_end_exclusive": 6066,
+      "text_sha256": "274463e5c65f0a45fe9265706d6f7ec317a2b5a743408dbb7b2515911b8e0d32",
+      "space_split_word_count": 23
+    },
+    {
+      "coordinate": "P5.S8",
+      "published_map_coordinate": "P5.S8",
+      "source_sentence_ordinal": 38,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6067,
+      "char_end_exclusive": 6165,
+      "text_sha256": "7cd898c2918f4deebe2226b278bfb84c6543dc69bdf5a9d11b9e10a76ad63dde",
+      "space_split_word_count": 16
+    },
+    {
+      "coordinate": "P6.S1",
+      "published_map_coordinate": "P6.S1",
+      "source_sentence_ordinal": 39,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6166,
+      "char_end_exclusive": 6345,
+      "text_sha256": "5f23b15852030d986e8b5bccc71d26ac9b39efd1407832f1af4e558b7fb5958b",
+      "space_split_word_count": 23
+    },
+    {
+      "coordinate": "P7.S1",
+      "published_map_coordinate": "P7.S1",
+      "source_sentence_ordinal": 40,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6346,
+      "char_end_exclusive": 6479,
+      "text_sha256": "eff48f4b83c19f12d67ba78ed1ec7c84e13ee4ba46b272663e2b420090fe4fbf",
+      "space_split_word_count": 20
+    },
+    {
+      "coordinate": "P7.S2",
+      "published_map_coordinate": "P7.S2",
+      "source_sentence_ordinal": 41,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6480,
+      "char_end_exclusive": 6685,
+      "text_sha256": "35e2da25240b5bc5f905185d5366af987f178528a9c52faf2303b01afe22e965",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P7.S3",
+      "published_map_coordinate": "P7.S3",
+      "source_sentence_ordinal": 42,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6686,
+      "char_end_exclusive": 6818,
+      "text_sha256": "9370ba90a0fdf7568c652feb8aba63c4bb2a94dede958f5d793d11596898bbed",
+      "space_split_word_count": 20
+    },
+    {
+      "coordinate": "P8.S1",
+      "published_map_coordinate": "P8.S1",
+      "source_sentence_ordinal": 43,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6819,
+      "char_end_exclusive": 6897,
+      "text_sha256": "c08919c5bc4b642b05b3c98aa3e4a9e522c0a9392e87995a0a745f66477ba5f3",
+      "space_split_word_count": 13
+    },
+    {
+      "coordinate": "P8.S2",
+      "published_map_coordinate": "P8.S2",
+      "source_sentence_ordinal": 44,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6898,
+      "char_end_exclusive": 6996,
+      "text_sha256": "2c152acb9a0745d1d6efc1016c2389d6b61525540c9ac946805d7fea1ba53178",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P8.S3",
+      "published_map_coordinate": "P8.S3",
+      "source_sentence_ordinal": 45,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 6997,
+      "char_end_exclusive": 7098,
+      "text_sha256": "b68aaf3a5ea0834f29b2a57c0abd2dc20dd689c167a52fe6db96c9d6c2548ea5",
+      "space_split_word_count": 16
+    },
+    {
+      "coordinate": "P8.S4",
+      "published_map_coordinate": "P8.S4",
+      "source_sentence_ordinal": 46,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7099,
+      "char_end_exclusive": 7150,
+      "text_sha256": "06fcb9c72a1f7262ddecbc7f7f2ac9bf5c57971f7971b12fd6d72acb2f42fb23",
+      "space_split_word_count": 7
+    },
+    {
+      "coordinate": "P8.S5",
+      "published_map_coordinate": "P8.S5",
+      "source_sentence_ordinal": 47,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7151,
+      "char_end_exclusive": 7439,
+      "text_sha256": "9a2d2936cd578dcd6b4be8409c53e0b5a93c0993a9b0bb6fd2fccd2567507d2a",
+      "space_split_word_count": 42
+    },
+    {
+      "coordinate": "P9.S1",
+      "published_map_coordinate": "P9.S1",
+      "source_sentence_ordinal": 48,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7440,
+      "char_end_exclusive": 7488,
+      "text_sha256": "748660fc47994dbe588d76ac38128360f252dd9b474d82b5595d4ae109194012",
+      "space_split_word_count": 7
+    },
+    {
+      "coordinate": "P10.S1",
+      "published_map_coordinate": "P10.S1",
+      "source_sentence_ordinal": 49,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7489,
+      "char_end_exclusive": 7659,
+      "text_sha256": "de7edd6b21a3033508a16472fa26f2283c0f2649c310851bffc91107c07fdf41",
+      "space_split_word_count": 27
+    },
+    {
+      "coordinate": "P10.S2",
+      "published_map_coordinate": "P10.S2",
+      "source_sentence_ordinal": 50,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7660,
+      "char_end_exclusive": 7847,
+      "text_sha256": "1f1c8a04b86737f03dede0cbb476fddfed8d0e0eb8ee3ae45c466b9a08b410ba",
+      "space_split_word_count": 27
+    },
+    {
+      "coordinate": "P11.S1",
+      "published_map_coordinate": "P11.S1",
+      "source_sentence_ordinal": 51,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 7848,
+      "char_end_exclusive": 8003,
+      "text_sha256": "58924ffa23b57d8af1b6e98b66cdba022b4cafcedb5019f40bac0bc8625d90ff",
+      "space_split_word_count": 24
+    },
+    {
+      "coordinate": "P11.S2",
+      "published_map_coordinate": "P11.S2",
+      "source_sentence_ordinal": 52,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8004,
+      "char_end_exclusive": 8204,
+      "text_sha256": "6f4edb8f03ef4ca1d9512fef3dd8d55e7cba4fb14c5ac78a7281115e715082d8",
+      "space_split_word_count": 30
+    },
+    {
+      "coordinate": "P12.S1",
+      "published_map_coordinate": "P12.S1",
+      "source_sentence_ordinal": 53,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8205,
+      "char_end_exclusive": 8299,
+      "text_sha256": "70f3befe140c9acfabc5e2e6a336147c17022aaa9f222cf161e497a70f8d21cf",
+      "space_split_word_count": 15
+    },
+    {
+      "coordinate": "P12.S2",
+      "published_map_coordinate": "P12.S2",
+      "source_sentence_ordinal": 54,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8300,
+      "char_end_exclusive": 8402,
+      "text_sha256": "1b7a33f822913a05cff1eb449c392ba95f1313682aab032e7be45060e855abe8",
+      "space_split_word_count": 17
+    },
+    {
+      "coordinate": "P12.S3",
+      "published_map_coordinate": "P12.S3",
+      "source_sentence_ordinal": 55,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8403,
+      "char_end_exclusive": 8521,
+      "text_sha256": "f2a228dd2a3050aa295b8e655f4c27b1cc86d1ff67cb846324fe4a68643965d4",
+      "space_split_word_count": 18
+    },
+    {
+      "coordinate": "P12.S4",
+      "published_map_coordinate": "P12.S4",
+      "source_sentence_ordinal": 56,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8522,
+      "char_end_exclusive": 8622,
+      "text_sha256": "f4a3dc939bf2ae3984f414f38461b9ee4fe9736d80a371ca114c2d0ebe5ece30",
+      "space_split_word_count": 14
+    },
+    {
+      "coordinate": "P12.S5",
+      "published_map_coordinate": "P12.S5",
+      "source_sentence_ordinal": 57,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8623,
+      "char_end_exclusive": 8736,
+      "text_sha256": "36d19c2ca60a40d05b637bc418f59fcce497b9dd1c1e3088b3e0e597cc7c5ac1",
+      "space_split_word_count": 16
+    },
+    {
+      "coordinate": "P12.S6",
+      "published_map_coordinate": "P12.S6",
+      "source_sentence_ordinal": 58,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8737,
+      "char_end_exclusive": 8916,
+      "text_sha256": "d14fa846fe5fcf05dafe969c648aa3257cc87a1b57af2ec9220e502a89474052",
+      "space_split_word_count": 25
+    },
+    {
+      "coordinate": "P12.S7",
+      "published_map_coordinate": "P12.S7",
+      "source_sentence_ordinal": 59,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 8917,
+      "char_end_exclusive": 9068,
+      "text_sha256": "ef0737e4d1bac17db5385bfea4ff328fde4e7a5b3690b5ea0b3543f8f73274b3",
+      "space_split_word_count": 24
+    },
+    {
+      "coordinate": "P12.S8",
+      "published_map_coordinate": "P12.S8",
+      "source_sentence_ordinal": 60,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 9069,
+      "char_end_exclusive": 9154,
+      "text_sha256": "cfc5c52f6650885aeb4756585d351a2158a4a71bc14092372743e5456b762fa0",
+      "space_split_word_count": 14
+    },
+    {
+      "coordinate": "P13.S1",
+      "published_map_coordinate": "P13.S1",
+      "source_sentence_ordinal": 61,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 9155,
+      "char_end_exclusive": 9252,
+      "text_sha256": "d802aaa17269db1c3353dd4ecedb9e84707799ca1375d40b7dd62237feb73ce3",
+      "space_split_word_count": 15
+    },
+    {
+      "coordinate": "P13.S2",
+      "published_map_coordinate": "P13.S2",
+      "source_sentence_ordinal": 62,
+      "physical_pages": [
+        2
+      ],
+      "char_start": 9253,
+      "char_end_exclusive": 9370,
+      "text_sha256": "0651232f2c10d3728e4f63850e3806bda7fdbc2aa9ccd58337f642b01ff0742b",
+      "space_split_word_count": 16
+    }
+  ],
+  "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/ems.pdf",
+  "source_version": "18-page author-hosted NDSS 2022 proceedings-format PDF",
+  "coordinate_namespace": "Published-map P/S coordinates are unchanged. Only P3.S3 has two local analytical labels, P3.S3a and P3.S3b; both map to P3.S3. They are not accepted new units in the default --unit reader."
+}

@@ -1,0 +1,425 @@
+# VFL：51单元来源定位
+
+这里保留分析单元顺序、页码及哈希；P9是组织语，51单元包含它。原文缓存不随技能分发。
+
+- source_pdf_sha256: f6a91e25e8f5436f49353162917e2a491d3c7c8c2005064931f5e3a8d0c52d69
+- convention: P/B identifiers retain all 51 prior analytical units; P9 is organizer, not a scientific sentence. Printed page = physical page + 1395. No renumbering.
+- units:
+  - 
+    - unit: P1.S1
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 1
+    - baseline_analysis_sha256: acd00797caf3b5a5953b0c1ee6228a6d612d617ad199bbd6fbfbbe49890c6a6e
+  - 
+    - unit: P1.S2
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 2
+    - baseline_analysis_sha256: f09930ccc8a1d4b1e28b808ac3b6208c89c5c5c784a47420e8fa10c79502cb15
+  - 
+    - unit: P1.S3
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 3
+    - baseline_analysis_sha256: 53202d23bd967a9f274f52078400c86413b82a90c0ae1baff0f4d7b81abdff21
+  - 
+    - unit: P1.S4
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 4
+    - baseline_analysis_sha256: 70723dfaa72ac1a1c2aff348004b6509658d1ccbd3eea87caff3d7ecdf2cedaa
+  - 
+    - unit: P1.S5
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 5
+    - baseline_analysis_sha256: 2f4de6c048b5b3a4a834c061ede017d09abcd685d963c588b0feed418c8b3682
+  - 
+    - unit: P1.S6
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 6
+    - baseline_analysis_sha256: 9be0745af5b6a0dd217998fa1ada064359c9d5bf8bc8d82d642b9e0000025418
+  - 
+    - unit: P2.S1
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 7
+    - baseline_analysis_sha256: 1b4432858acafa5b80fadcef5cede013378452369c1bb6b8b2ad7fee26177ae7
+  - 
+    - unit: P2.S2
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 8
+    - baseline_analysis_sha256: 7390c6f6cd84023fb212cd231bfd04cfd8894b7897d85d891a29cacc87ba2e69
+  - 
+    - unit: P2.S3
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 9
+    - baseline_analysis_sha256: 8f384cd7aee42bb78facfdabfa731443df9d544ba7bc044d0ed1c2a7938655d4
+  - 
+    - unit: P2.S4
+    - physical_pages:
+      - 2
+    - printed_pages:
+      - 1397
+    - source_order: 10
+    - baseline_analysis_sha256: 121dc20293ffe26b5e22258b8e9ecd77c0460370433d01be3bc8d5b21c971e06
+  - 
+    - unit: P3.S1
+    - physical_pages:
+      - 2
+      - 3
+    - printed_pages:
+      - 1397
+      - 1398
+    - source_order: 11
+    - baseline_analysis_sha256: 376d168061fdf194f13d354c9a8485daf9e94e80b51891f4b2c9fd5b540110d7
+  - 
+    - unit: P3.S2
+    - physical_pages:
+      - 2
+      - 3
+    - printed_pages:
+      - 1397
+      - 1398
+    - source_order: 12
+    - baseline_analysis_sha256: 88c4325bbd611b1182b467deef5ec26622852e2d06ec0e46498d72e76f0e20e3
+  - 
+    - unit: P3.S3
+    - physical_pages:
+      - 2
+      - 3
+    - printed_pages:
+      - 1397
+      - 1398
+    - source_order: 13
+    - baseline_analysis_sha256: 6f2b063f31f1dbf5d8434bf223eb855a9b0151134224ebf78804f049a572b694
+  - 
+    - unit: P3.S4
+    - physical_pages:
+      - 2
+      - 3
+    - printed_pages:
+      - 1397
+      - 1398
+    - source_order: 14
+    - baseline_analysis_sha256: b3fb806863f870edddfd1431bd5f0329adbdd04a3ef26daaa13299c712105927
+  - 
+    - unit: P3.S5
+    - physical_pages:
+      - 2
+      - 3
+    - printed_pages:
+      - 1397
+      - 1398
+    - source_order: 15
+    - baseline_analysis_sha256: 12fffe372c9f2bcdb9d5d6e7a137aa6c01ef6a2afcf6e5643c305423da5adc4d
+  - 
+    - unit: P4.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 16
+    - baseline_analysis_sha256: 86aa44b9f61aed8d48a38d2a02025936e0a511a15f243b50f42063f0451d300c
+  - 
+    - unit: P4.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 17
+    - baseline_analysis_sha256: 784cabb369932c540bdfbeecd541548bd0668e2c16d77495e833a409d06a672c
+  - 
+    - unit: P4.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 18
+    - baseline_analysis_sha256: 36fad0685acedd6ae407d03053d1363a5c2f96411aca0929424612b219758f0c
+  - 
+    - unit: P4.S4
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 19
+    - baseline_analysis_sha256: 7cf91242613c3185eb90794fd83054257f085259b2ca9cda1722407efc7d08eb
+  - 
+    - unit: P4.S5
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 20
+    - baseline_analysis_sha256: 2261b51890f5cc5094b22258834c607af1a668ed586220b777969bd2c59262e2
+  - 
+    - unit: P5.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 21
+    - baseline_analysis_sha256: 189f0303502a9f03a8bb9a1b29cf6da2eba1bf443035098d79715904e8adc39f
+  - 
+    - unit: P5.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 22
+    - baseline_analysis_sha256: 957c1a2da1212c812b8f366279d21c42777ac75affa6ef7b722a0f70e079568a
+  - 
+    - unit: P5.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 23
+    - baseline_analysis_sha256: d69100a18d64f4f3ee10ea0c650d8f5753dbd36c3e405e25a36583a134649a85
+  - 
+    - unit: P6.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 24
+    - baseline_analysis_sha256: 081fc59b2bfa7ea7b10e218737057e9eb66ec91e610f2d7846090f7d84623ee7
+  - 
+    - unit: P6.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 25
+    - baseline_analysis_sha256: 254d41867a54032db309336d982811fa099eafad277a8cfdad5da48a160acbeb
+  - 
+    - unit: P6.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 26
+    - baseline_analysis_sha256: 9ccaa1311541dc011c723278f391ad79ac9a0f2e544b99e7c472991d97a05cfe
+  - 
+    - unit: P6.S4
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 27
+    - baseline_analysis_sha256: a58e0a32954cc11480046ca2aca5a974f748fb3439b44d5aa1be2a4d484021f3
+  - 
+    - unit: P6.S5
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 28
+    - baseline_analysis_sha256: f2026da4c0a6d6a1a98b563ae61058a5c907e4f59a282d6f1329e650942b712a
+  - 
+    - unit: P6.S6
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 29
+    - baseline_analysis_sha256: 792ce0aa677fb14031c6ac2302e34db5323c1f607a85c6df13016654e27b44c4
+  - 
+    - unit: P6.S7
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 30
+    - baseline_analysis_sha256: daf57f9d775c7c93f022dd22919090d292ff0a242f87b4d89a5166fc62e2d155
+  - 
+    - unit: P7.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 31
+    - baseline_analysis_sha256: 78bcba2bc9619223ea3d81b43212cc3d63da5c27f84534d6f19f6b70247c94c9
+  - 
+    - unit: P7.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 32
+    - baseline_analysis_sha256: 8ab081f7d4084ed1ac1ee7546e70dd4ccf835e7a51d2750ead5b7de9d4891446
+  - 
+    - unit: P7.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 33
+    - baseline_analysis_sha256: 534e6bad8e851a3dd9ee46b4f74174dd4d512939c3327969e0541f7abecf2908
+  - 
+    - unit: P7.S4
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 34
+    - baseline_analysis_sha256: 41cd537952c41def3a1dfa985cb072e7370371bd0414fb47b865b1305252c62f
+  - 
+    - unit: P7.S5
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 35
+    - baseline_analysis_sha256: 6826a1298c5ee103afb62a1cecb0c1d7828bb93070dc1982ede1974214f65898
+  - 
+    - unit: P7.S6
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 36
+    - baseline_analysis_sha256: 8cfd56d07c18720fcea91e4086e0cccbf7be5b113f4609b496fa4070e4ad475e
+  - 
+    - unit: P7.S7
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 37
+    - baseline_analysis_sha256: 5b7a4e9bbd5fbd80307c14d755ed0185dbdb2beb31032b7d218ca952134e2354
+  - 
+    - unit: P7.S8
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 38
+    - baseline_analysis_sha256: 98abf4a3a6bd821c4c63e9a64ca12eedeb2c672dfe5b615bcd4bbdad78201f54
+  - 
+    - unit: P7.S9
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 39
+    - baseline_analysis_sha256: bb95e52f86d339bf12190a9ebee45052e3b6132555fc424677f4f0b9b43370a6
+  - 
+    - unit: P7.S10
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 40
+    - baseline_analysis_sha256: 9f54b2e3caf1c339e82f3e54a8c9356a6b9c1f6b90fb3b341d9a7348a1f9826d
+  - 
+    - unit: P8.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 41
+    - baseline_analysis_sha256: 2c42281986ba2a90a91fa545c284adf2036a9aefe9f14e3451f9e7e44f43a769
+  - 
+    - unit: P8.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 42
+    - baseline_analysis_sha256: 2c9b4b455af49d0563e00f4f1accbfac7b1a22d05ece7ce1561955d25b59b5b2
+  - 
+    - unit: P8.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 43
+    - baseline_analysis_sha256: 9929c4155aefb22c257ac8bf242a9edce5b88f2693cbdfdde46a2f389be0209f
+  - 
+    - unit: P9
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 44
+    - baseline_analysis_sha256: 91987b44cfe7324ebd2b441cd79bae4d6fdef6dd26c68f4892afb1f038a5d66c
+  - 
+    - unit: B1.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 45
+    - baseline_analysis_sha256: c110c09a62c101ab03b56d9eba1ad4b04f06b7503cc4699a8622bcfe5dc8c02c
+  - 
+    - unit: B1.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 46
+    - baseline_analysis_sha256: 50835c0ba353b36776aad5369cae5a855a19e47399a79095da66c2e63b1b474c
+  - 
+    - unit: B2.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 47
+    - baseline_analysis_sha256: 627bbfabcc82de9f5f9846c9b20cdf47bce2f2e67672fdd13dfeb993984ae737
+  - 
+    - unit: B2.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 48
+    - baseline_analysis_sha256: 2c4b8555e5289dd9dc66bc8a432a1a5e7d895fbc8984cb3d150d0b5e87494bbe
+  - 
+    - unit: B3.S1
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 49
+    - baseline_analysis_sha256: 9862f3d08b3a6b78e392edee81e11ed770996ec90cf4d00fe4d989cd445d945b
+  - 
+    - unit: B3.S2
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 50
+    - baseline_analysis_sha256: 1151fdae798f3a0a95a0491e94714898ab0754236df930bf494ecf17f13ec9b6
+  - 
+    - unit: B3.S3
+    - physical_pages:
+      - 3
+    - printed_pages:
+      - 1398
+    - source_order: 51
+    - baseline_analysis_sha256: 4f99b5bb6cd2ca25b9e9032ecd665379924aed062418e6fb74689651c9bd54b6

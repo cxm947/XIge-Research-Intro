@@ -1,0 +1,125 @@
+{
+  "purpose": "Separate scientific/source qualifications from the positive writing-methodology profile. No experimental validation or attack generation.",
+  "items": [
+    {
+      "id": "Q1",
+      "origin": "source hypothesis and scope; not an error introduced by old reconstruction",
+      "source_coordinates": [
+        "P3.S2–S3",
+        "B1.S1",
+        "§3.2 p.3 Figure 1",
+        "§3.3 pp.3–4"
+      ],
+      "source_claim_attributed": "作者把两阶段训练与知识／指令几何差异联系起来，并在贡献声称有效区分。",
+      "what_is_supported": "指定版本有理论建模、谱差异假设和一个底模／指令模型的PCA可视化，以及检测实验。",
+      "qualification": "这些材料支持该研究的假设驱动设计及所测条件下的区分能力；不把训练阶段的普遍因果解释当无条件定理。",
+      "preserved_strong_claim": "作者确实给出表征视角并据此构建检测方案。",
+      "writing_consequence": "保留假设主句与其方法后果；不可把所有强动词统一降级或剥掉假设框架。"
+    },
+    {
+      "id": "Q2",
+      "origin": "resource meaning and inconsistent sample reporting in primary source",
+      "source_coordinates": [
+        "P4.S1",
+        "§3.1 p.3",
+        "§4.1 pp.5–6",
+        "A.4 pp.12–13",
+        "A.5 p.14"
+      ],
+      "source_claim_attributed": "方法段称无需训练；主文估计投影称随机200个样本；A.4列200良性与200恶意样本。",
+      "what_is_supported": "底模保持固定；存在有标签样本的估计与阈值校准，白盒隐藏态访问、外部边界知识、额外检测计算。",
+      "qualification": "训练自由不等于完全无数据、无拟合或无成本；200总量与400总量表述未解，不能选其中一个作为已核实成本。",
+      "preserved_strong_claim": "方法无需更新底模权重这一资源属性可成立；数据效率有专门实验讨论。",
+      "writing_consequence": "按新稿的核心资源约束决定是否在方案段补一句，不将全部设置细节强塞引言。"
+    },
+    {
+      "id": "Q3",
+      "origin": "attributed mechanism claim versus guarantee strength",
+      "source_coordinates": [
+        "P4.S5",
+        "§3.4.3 p.4",
+        "§3.5 pp.4–5",
+        "Figure 4 p.7",
+        "Limitations p.9"
+      ],
+      "source_claim_attributed": "作者称持续信号条件能消除瞬时噪声引发的误报。",
+      "what_is_supported": "源文提出硬／软聚合并提供与单层比较；目标和机制解释明确。",
+      "qualification": "不能转述为所有工作负载零误报；独立性与层相关性影响理论界，经验FPR也非零。",
+      "preserved_strong_claim": "多层证据是回应局部噪声问题的实质设计，实验报告其稳定性价值。",
+      "writing_consequence": "分析应记录原文的强结果分词。目的式替代仅适合计划或证据不足语境，不作为全篇强制降级规则。"
+    },
+    {
+      "id": "Q4",
+      "origin": "theoretical scope and proof-strength distinction",
+      "source_coordinates": [
+        "B2.S2",
+        "§3.5–3.6 pp.4–5",
+        "A.1 pp.11–12",
+        "A.2–A.3 p.12",
+        "Limitations p.9",
+        "A.4 p.13"
+      ],
+      "source_claim_attributed": "作者在硬投票模式下给近似独立层的指数误报概率界，并写潜在空间集成半径等于层半径的顺序统计量；这两项形式分析均限定于硬投票。",
+      "what_is_supported": "§3.5/A.1在硬投票模式下用独立有界二元决策推导误报界，且要求正的共识门槛差Γ>Lβ。§3.6/A.3同样针对硬投票，给从正确良性分类出发、范数小于该顺序统计量时仍安全的充分条件。A.2另讨论软投票的信号／噪声累积；A.4选择软投票作为默认实验聚合。",
+      "qualification": "硬投票的上述误报界与半径结果不能原样视作默认软投票配置的保证；A.2的信噪讨论不等于同一形式结论。半径分析保护对象是良性点不变为检测阳性，不能当作恶意离散文本无法逃过检测的证书。A.3展示充分性；其证明未另给共享扰动达到多层阈值的可达性论证，因此本分析不替作者认证精确等式。近似独立可不成立是作者明确限制。",
+      "preserved_strong_claim": "误报分析和潜在空间稳定性分析仍是实质理论贡献，适用对象明确后无需删除。",
+      "writing_consequence": "引言可并列不同分析对象；引用特定定理时才需携带对应条件，不能合成无边界的鲁棒保证。"
+    },
+    {
+      "id": "Q5",
+      "origin": "primary-source comparison rhetoric versus tabulated cells",
+      "source_coordinates": [
+        "B3.S1",
+        "§4.2 p.6",
+        "Table 1 p.6"
+      ],
+      "source_claim_attributed": "贡献称检测表现突出；正文进一步称持续优于基线并获SOTA准确率。",
+      "what_is_supported": "Table 1中AEGIS的ACC为0.9847–0.9855，八攻击均超过98%；FNR为0–0.0021。六个攻击的最高ACC属于AEGIS。",
+      "qualification": "NeuralExec与Universal Injection行，InjecGuard ACC为0.9879，AEGIS为0.9847和0.9850；AEGIS并非每行所有指标均最优。低FPR也非每个基线都优。",
+      "preserved_strong_claim": "八类攻击下稳定的高准确率与低漏检是表内清楚支持的结果。",
+      "writing_consequence": "保留高检测性能；不要将覆盖词或显著形容词翻译为逐项无例外胜出。"
+    },
+    {
+      "id": "Q6",
+      "origin": "unresolved contradiction in the primary source, already correctly identified by old reconstruction",
+      "source_coordinates": [
+        "B3.S2 p.2",
+        "§4.2 p.6",
+        "Table 1 p.6",
+        "Figure 6 p.8"
+      ],
+      "source_claim_attributed": "贡献称良性FPR低于1%；正文写0.29%；表1列0.0290。",
+      "what_is_supported": "版面目视确认表1AEGIS列确为0.0290（比例换算2.90%），不是解析列错位。Figure 6另有0.0029，但不能据此替主表选择作者本意。",
+      "qualification": "确切总体FPR未解；不自行改数或把一处声明当全篇一致结果。",
+      "preserved_strong_claim": "作者确实将良性误拒率作为贡献结尾的焦点；其正确与否不取消这一可观察的取舍。",
+      "writing_consequence": "保留源文实际选择及其任务价值解释；在新的事实性引用里标明冲突或暂不搬运该数，不编一个调和均值。"
+    },
+    {
+      "id": "Q7",
+      "origin": "comparison setup qualifications in primary appendix",
+      "source_coordinates": [
+        "A.4 p.13",
+        "A.5 pp.13–14"
+      ],
+      "source_claim_attributed": "A.4给AEGIS校准目标0.05 FPR；A.5概述各方法阈值在同一良性验证集按1%目标调整，同时外部分类型小节又称采用原始默认阈值；PIShield使用小样本以匹配作者设置。",
+      "what_is_supported": "作者明示训练／测试不重合，五个随机种子均值；A.5承认全数据PIShield表现接近但低于AEGIS。",
+      "qualification": "不能据本文断言所有比较方法在完全一致误报操作点或各自最强资源配置下被击败。样本数歧义见Q2。",
+      "preserved_strong_claim": "本文报告了广泛比较与数据资源设定；有限样本下的比较有其研究意义。",
+      "writing_consequence": "若使用数据效率作为结尾，必须带相应资源条件；否则不要让十基线这一数量替代公平性解释。"
+    },
+    {
+      "id": "Q8",
+      "origin": "attributed class-level prior-work characterization",
+      "source_coordinates": [
+        "P2.S2–S5 p.1",
+        "§2.3 pp.2–3",
+        "§4.2 p.6"
+      ],
+      "source_claim_attributed": "作者概括净化会有处理／语义代价，检测常严重误拒。",
+      "what_is_supported": "这些概括组织了本文的研究缺口；本文只选择检测方法作为实验比较范围。",
+      "qualification": "这是2026-08-23指定版本的作者定位，不是该历史分析独立验证所有净化或检测方法的普遍缺陷，更不能证明新稿当前新颖性。",
+      "preserved_strong_claim": "先介绍两类既有方法及其目标功能，再按作者所述未满足的联合目标引出研究方向，是真实且有用的内容选择；不把尝试／目标先行升级为已确证的完成能力。",
+      "writing_consequence": "迁移其组织方式时应重新查目标稿的强近邻；不删掉所有前人成立功能，也不照搬类别贬低。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+# VideoEraser：段落依赖、贡献归组与结果选择
+
+- chains:
+  - 
+    - id: D1
+    - value: 保留模型有用生成能力，同时指定内容少出现
+    - given: P1高质量生成、P2.S3明确目标
+    - gap: P2.S8损伤无关能力；§3.1/3.2不分对象的干预
+    - design: P3.S2–S3 SPEA定位相关token；ARNG针对噪声层且避免无关引导
+    - evidence: Table2目标/无关检测；Table11显露过强抑制的保留代价
+    - reason_status: 主源明确选择性理由；从两端结果读任务成功是编辑综合
+    - not_claimed: 所有近邻都无token选择；无损生成
+  - 
+    - id: D2
+    - value: 可用于视频的输出，而不是仅目标不被检测
+    - gap: P3.S5、P4说明帧/步骤约束和漏评其他方面；§3.2说明失真风险
+    - design: 一致性目标服务去噪步骤及视频帧
+    - evidence: Table12质量/多样性；Figure6时序可视化说明
+    - reason_status: 作者明确设计目标；非独立量化证明全部时序性质
+    - not_claimed: ACCu就是时序保真指标
+  - 
+    - id: D3
+    - value: 在不同请求条件下维持抑制
+    - gap: P1.S7/P2.S9明确提示或对抗性提示仍须控制
+    - design: 文本与噪声两层、ARNG的稳健目标
+    - evidence: Table4已测攻击、Table10car例及源限制
+    - reason_status: 作者明确；无法推出所有攻击保证
+  - 
+    - id: D4
+    - value: 可接受的模型接入/更新成本
+    - gap: P2.S1/.S6/.S7重训/联合微调/逐概念副本
+    - design: P3.S6/.S7使用已有模型语义，无模型更新
+    - evidence: 模型集成/表14及表13成本
+    - reason_status: 作者明确资源理由；免训练与推理成本分开
+- paragraph_dependencies:
+  - 
+    - coordinates: P1
+    - responsibility: 能力→风险→即使提示也须抑制的任务需要
+    - handoff: 让P2能比较解决路线
+  - 
+    - coordinates: P2
+    - responsibility: 直接路线、现有能力与四类剩余
+    - handoff: 为P3机制选择提供多对多责任
+  - 
+    - coordinates: P3
+    - responsibility: 总体方案、选择性与噪声干预、视频一致性、部署条件
+    - handoff: P4将隐含目标转为清楚评判标准
+  - 
+    - coordinates: P4
+    - responsibility: 评估缺口及五个不同判断
+    - handoff: 贡献组可以压缩重用，不必重复定义
+- contributions:
+  - 
+    - coordinates:
+      - B1.S1
+      - B1.S2
+    - words_descriptive: 54
+    - role: 问题与交付范围+视频特有挑战认识
+    - first_factual_disclosure: B1.S1在Introduction正文首次集中给出四任务清单；四类已见Figure1，后三类由P1风险例子铺垫。范围集中披露与贡献归组并存。
+    - do_not_split: 四概念任务不是四项创新
+  - 
+    - coordinates:
+      - B2.S1
+      - B2.S2
+    - words_descriptive: 33
+    - role: 方法身份+四维取舍所得
+    - first_factual_disclosure: 名词与机制已给，此处归为贡献
+    - not_claimed: Pareto最优、所有指标全赢
+  - 
+    - coordinates:
+      - B3.S1
+    - words_descriptive: 23
+    - role: 经验基线比较+多模型适用性
+    - first_factual_disclosure: B3在Introduction正文首次明说基准上的经验基线优势及其benchmark/empirically证据身份；P3.S7已给模型适配性，五准则只给判断标准。摘要先前报告不算此前Introduction正文。
+    - not_claimed: B3逐项五维结果、46%复算、每模型完整五轴
+- result_choices:
+  - 
+    - pool: 摘要46%
+    - foreground: 跨四任务的目标抑制聚合
+    - cost: 异质测量/口径未足；不能代五维
+  - 
+    - pool: Table2成对目标/无关值
+    - foreground: 选择性任务答案
+    - cost: 仍不能代视频品质
+  - 
+    - pool: Table12
+    - foreground: 输出可用质量
+    - cost: 不能证明目标消失或所有时序指标
+  - 
+    - pool: Table4
+    - foreground: 困难输入条件
+    - cost: 已测攻击范围
+  - 
+    - pool: Table14/D.4
+    - foreground: 模型迁移与示例覆盖
+    - cost: 量化两物体场景、两指标，原表标头冲突
+  - 
+    - pool: Table13
+    - foreground: 运行成本
+    - cost: 不能把免训练改成零推理开销；优化parity另是文字声称
+- result_selection_status: 作者确实在贡献中未选46%；为何这样取舍是编辑解释，不是作者心理事实
+- no_structural_quota: True

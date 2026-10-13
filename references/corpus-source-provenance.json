@@ -1,0 +1,2852 @@
+{
+  "scope": "Source-version authorship and affiliation facts for the existing selected 121 corpus identities. This is not an exhaustive bibliography, a venue-quality or subject-area classification, proof of individual writing responsibility, or evidence of writing efficacy.",
+  "checked_on": "2026-10-04",
+  "identity_cross_reference": {
+    "key": "source_id",
+    "corpus": "corpus-index.json",
+    "introduction_maps": "intro-source-index.json"
+  },
+  "criterion": "Shouling Ji is listed as an author and the first-listed author has Zhejiang University among the affiliations printed in the inspected source version. Joint affiliations qualify. Explicit shared-first authors and their affiliations are recorded separately; not all co-first authors need a ZJU affiliation.",
+  "counts": {
+    "source_identities": 121,
+    "shouling_ji_listed": 121,
+    "first_listed_author_has_zju_affiliation": 121,
+    "explicit_shared_first_sets": 29,
+    "shared_first_sets_with_non_zju_members": 10
+  },
+  "limitations": [
+    "These checks establish author/affiliation identity at the recorded version, not that every source is a security paper, a top-venue paper, or a final published paper.",
+    "An author-hosted or arXiv version is not promoted to a publisher version from venue-like formatting; version-specific qualifications remain in each source_version.",
+    "An empty shared-first set means no explicit declaration was observed at the recorded location, not that shared contributions are absent everywhere. Unknown means that designation could not be checked.",
+    "Authorship checks do not establish full-introduction reading. The current 113 complete maps (including 1 alternate-primary map) and 8 unavailable/no-map records retain their source-specific reading states; the base 2026-10-04 states are not retroactively redated.",
+    "Source IDs join existing title labels and maps. actual_source_title is supplied only where an exact source title was recorded; it does not certify an official published canonical title."
+  ],
+  "sources": {
+    "sj-458e6724c4": {
+      "source_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+      "source_version": "USENIX Security 2025 final proceedings, 6159–6178; 21 physical PDF pages including cover",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf#page=2",
+        "location": "Physical p.2 / printed p.6159: visually inspected article author block and corresponding-author footnote; physical p.1 is the USENIX cover."
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lingming Zhang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "No explicit shared-first declaration was observed on the inspected article first page; this does not establish absence in every source.",
+        "Coauthorship and corresponding-author identity do not establish individual responsibility for Introduction prose.",
+        "Full-Introduction reading is recorded separately for 2026-10-07; the old 2026-10-04 unavailable/no-map status remains historical."
+      ],
+      "checked_on": "2026-10-07",
+      "authors": [
+        "Lingming Zhang",
+        "Binbin Zhao",
+        "Jiacheng Xu",
+        "Peiyu Liu",
+        "Qinge Xie",
+        "Yuan Tian",
+        "Jianhai Chen",
+        "Shouling Ji"
+      ],
+      "corresponding_author": {
+        "name": "Shouling Ji",
+        "basis": "Explicit article first-page footnote on physical p.2 / printed p.6159"
+      },
+      "primary_sha256": "895c4507b1a21b745ab4dc1729df693402beedc8db4b07911bd9701f8ec16885",
+      "identity_history": [
+        {
+          "checked_on": "2026-10-04",
+          "source_record": {
+            "source_url": "https://www.usenix.org/system/files/usenixsecurity25-zhang-lingming.pdf",
+            "source_version": "USENIX Security 2025正式版，6159–6178；含封面",
+            "evidence": {
+              "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-lingming",
+              "location": "Official USENIX presentation author-affiliation block and BibTeX; final-PDF cover"
+            },
+            "shouling_ji_listed": true,
+            "first_listed_author": {
+              "name": "Lingming Zhang",
+              "affiliations": [
+                "Zhejiang University"
+              ]
+            },
+            "actual_source_title": "Waltzz: WebAssembly Runtime Fuzzing with Stack-Invariant Transformation",
+            "shared_first": {
+              "status": "unknown"
+            },
+            "limitations": [
+              "The final PDF could not be directly inspected. The official paper record and indexed cover support authorship/affiliations; the article footnote and co-first status remain unverified."
+            ]
+          }
+        }
+      ]
+    },
+    "sj-177bf3c33e": {
+      "source_url": "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf",
+      "source_version": "Official NDSS 2024 proceedings-format PDF, 15 pages, PDF creation/modification 2023-09-04",
+      "evidence": {
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf",
+        "location": "Physical p.1; author block and corresponding-author footnote"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiacheng Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-2deb60c210": {
+      "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/ems.pdf",
+      "source_version": "Complete 18-page author-hosted NDSS 2022 proceedings-format PDF",
+      "evidence": {
+        "url": "https://www-users.cse.umn.edu/~kjlu/papers/ems.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenyang Lyu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "EMS: History-Driven Mutation for Coverage-based Fuzzing",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-1f315ef889": {
+      "source_url": "https://www.usenix.org/system/files/sec21-wang-qinying.pdf",
+      "source_version": "USENIX Security 2021正式版，4205–4222；含1封面",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec21-wang-qinying.pdf#page=1",
+        "location": "physical p.1 (cover) and p.2 (article first page), author blocks and footnotes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Qinying Wang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "MPInspector: A Systematic and Automatic Approach for Evaluating the Security of IoT Messaging Protocols",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-a36437c84c": {
+      "source_url": "https://arxiv.org/pdf/2306.11206v1",
+      "source_version": "arXiv:2306.11206v1，2023-06-20；关联USENIX Security 2023",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2306.11206v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Binbin Zhao",
+        "affiliations": [
+          "Georgia Institute of Technology",
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "UVSCAN: Detecting Third-Party Component Usage Violations in IoT Firmware",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-341a3df6b4": {
+      "source_url": "https://arxiv.org/pdf/2212.13716v2",
+      "source_version": "arXiv:2212.13716v2，2022-12-29；不是2024 TDSC最终版",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2212.13716v2#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Binbin Zhao",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology"
+        ]
+      },
+      "actual_source_title": "One Bad Apple Spoils the Barrel: Understanding the Security Risks Introduced by Third-Party Components in IoT Firmware",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Source simultaneously prints joint ZJU/Georgia Tech affiliations and historical partial-work-at-ZJU note; both retained. No inference that ZJU was the current employer on submission date."
+      ]
+    },
+    "sj-1b6614ac62": {
+      "source_url": "https://arxiv.org/pdf/2205.12709v1",
+      "source_version": "arXiv:2205.12709v1，2022-05-25；不是2024 TDSC最终版",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2205.12709v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xiangshan Gao",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "VERIFI: Towards Verifiable Federated Unlearning",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-2d9d102d0d": {
+      "source_url": "https://nesa.zju.edu.cn/download/chunyi_truvrf.pdf",
+      "source_version": "TIFS 20 (2025)出版版，4844–4859；current version 2025-05-15",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/chunyi_truvrf.pdf",
+        "location": "PDF physical p.1 / printed p.4844, author block and individual affiliation paragraphs"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chunyi Zhou",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology"
+        ]
+      },
+      "actual_source_title": "TruVRF: Toward Triple-Granularity Verification on Machine Unlearning",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Chunyi Zhou",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University",
+              "School of Computer Science and Engineering, Nanjing University of Science and Technology"
+            ]
+          },
+          {
+            "name": "Yansong Gao",
+            "affiliations": [
+              "School of Computer Science and Software Engineering, The University of Western Australia"
+            ]
+          }
+        ],
+        "evidence": "Printed p.4844 expressly identifies Chunyi Zhou and Yansong Gao as co-first authors; individual affiliation paragraphs map each author."
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-af4d22b295": {
+      "source_url": "https://www.usenix.org/system/files/sec22-fu-chong.pdf",
+      "source_version": "USENIX Security 2022正式版，1397–1414；含1封面",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec22-fu-chong.pdf",
+        "location": "PDF physical pp.1–2, cover and article author block; article p.1397 footnote"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chong Fu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Label Inference Attacks Against Vertical Federated Learning",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Chong Fu",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Xuhong Zhang",
+            "affiliations": [
+              "Zhejiang University",
+              "Binjiang Institute of Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Article first page footnote identifies Chong Fu and Xuhong Zhang as co-first authors; 1 and 1,2 superscripts map affiliations."
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-8c4c252662": {
+      "source_url": "https://arxiv.org/pdf/2606.09151v1",
+      "source_version": "arXiv:2606.09151v1，2026-06-08；CCS 2026格式作者稿",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2606.09151v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiahao Chen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Customization under Fire: Plugin Poisoning in Text-to-Image Ecosystem",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Jiahao Chen",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Xing He",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Both Jiahao Chen and Xing He carry asterisks, defined by the p.1 equal-contribution footnote."
+      }
+    },
+    "sj-9fe6898db0": {
+      "source_url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf",
+      "source_version": "作者auto_20260921_CCS2026_IntraGuard_1_.pdf；CCS 2026格式，非已出版推定",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/auto_20260921_CCS2026_IntraGuard_1_.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Oubo Ma",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "IntraGuard: Committee-Side Defenses Against Review Outsourcing to Commercial Chatbots",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-b1d0179073": {
+      "source_url": "https://arxiv.org/pdf/2606.18673v1",
+      "source_version": "arXiv:2606.18673v1，2026-06-17预印本",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2606.18673v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yong Yang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-446d78ec82": {
+      "source_url": "https://arxiv.org/pdf/2410.18483v1",
+      "source_version": "arXiv:2410.18483v1, 24 October 2024",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2410.18483v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Boyu Chang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "FirmRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-e1dfbd274e": {
+      "source_url": "https://nesa.zju.edu.cn/download/auto_20260903_boyutdsc2026.pdf",
+      "source_version": "IEEE TDSC version of record, vol.23 no.5, September/October 2026, pp.11308-11325",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/auto_20260903_boyutdsc2026.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Boyu Chang",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "State Key Laboratory of Internet Architecture, Tsinghua University"
+        ]
+      },
+      "actual_source_title": "The Last Mile of Fuzzing: An Efficient Fault Localization Framework for ARM Embedded Firmware",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Boyu Chang",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University",
+              "State Key Laboratory of Internet Architecture, Tsinghua University"
+            ]
+          },
+          {
+            "name": "Binbin Zhao",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Printed p.11308 footnote states Boyu Chang and Binbin Zhao contributed equally; separate affiliation paragraphs map both."
+      }
+    },
+    "sj-bdd6754e02": {
+      "source_url": "https://www.usenix.org/system/files/sec24summer-prepub-301-xiang-yi.pdf",
+      "source_version": "Official USENIX Security 2024 summer-prepublication PDF, 16 pages, no final proceedings page numbers",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec24summer-prepub-301-xiang-yi.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yi Xiang",
+        "affiliations": [
+          "Zhejiang University",
+          "Zhejiang University NGICS Platform"
+        ]
+      },
+      "actual_source_title": "Critical Code Guided Directed Greybox Fuzzing for Commits",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Both listed first-author affiliations are Zhejiang University units, not evidence of a second independent institution."
+      ]
+    },
+    "sj-74a13898b9": {
+      "source_url": "https://arxiv.org/pdf/2409.01193v2",
+      "source_version": "arXiv:2409.01193v2, 11 September 2024",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2409.01193v2#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Rui Zeng",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "CLIBE: Detecting Dynamic Backdoors in Transformer-based NLP Models",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-b3ea90f06d": {
+      "source_url": "https://arxiv.org/pdf/2302.05892v1",
+      "source_version": "arXiv:2302.05892v1, 12 February 2023",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2302.05892v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lujia Shen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "TextDefense: Adversarial Text Detection based on Word Importance Entropy",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-4ef65862d0": {
+      "source_url": "https://www.usenix.org/system/files/sec20-li-jinfeng.pdf",
+      "source_version": "Official 29th USENIX Security Symposium 2020 proceedings PDF",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec20-li-jinfeng.pdf",
+        "location": "PDF physical pp.1–2, cover and article author block; article first-page co-first footnote"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jinfeng Li",
+        "affiliations": [
+          "Zhejiang University",
+          "Alibaba Group"
+        ]
+      },
+      "actual_source_title": "TextShield: Robust Text Classification Based on Multimodal Embedding and Neural Machine Translation",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Jinfeng Li",
+            "affiliations": [
+              "Zhejiang University",
+              "Alibaba Group"
+            ]
+          },
+          {
+            "name": "Tianyu Du",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Article first page explicitly identifies Jinfeng Li and Tianyu Du as co-first authors."
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-52f8920eaa": {
+      "source_url": "https://arxiv.org/pdf/2402.03741v4",
+      "source_version": "arXiv:2402.03741v4, 31 August 2026",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2402.03741v4#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Oubo Ma",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-361d2d7137": {
+      "source_url": "https://nesa.zju.edu.cn/download/auto_20260921_TIFS2026_ADAPDOOR.pdf",
+      "source_version": "14-page NESA author-hosted TIFS manuscript",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/auto_20260921_TIFS2026_ADAPDOOR.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Oubo Ma",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Action-Level Backdoor Attacks against Deep Reinforcement Learning Systems via Adaptive Reward Exploration",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-6eeb51e521": {
+      "source_url": "https://arxiv.org/pdf/2309.03081v1",
+      "source_version": "arXiv:2309.03081v1, 6 September 2023",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2309.03081v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Linkang Du",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "ORL-AUDITOR: Dataset Auditing in Offline Deep Reinforcement Learning",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Linkang Du",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Min Chen",
+            "affiliations": [
+              "CISPA Helmholtz Center for Information Security"
+            ]
+          }
+        ],
+        "evidence": "Linkang Du and Min Chen carry asterisks; p.1 footnote says the first two authors made equal contribution."
+      }
+    },
+    "sj-9042a938b2": {
+      "source_url": "https://arxiv.org/pdf/2303.18174v1",
+      "source_version": "arXiv:2303.18174v1, submitted 2023-03-30",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2303.18174v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chuer Yu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Diff-ID: An Explainable Identity Difference Quantification Framework for DeepFake Detection",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-2079f71014": {
+      "source_url": "https://nesa.zju.edu.cn/download/Invisible-Face_Rethinking_Facial_Attribute_Privacy_in_Social_Media_Photo_Sharing.pdf",
+      "source_version": "Published IEEE TIFS volume 20 (2025), pp. 6101–6116",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Invisible-Face_Rethinking_Facial_Attribute_Privacy_in_Social_Media_Photo_Sharing.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yong Yang",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Invisible-Face: Rethinking Facial Attribute Privacy in Social Media Photo Sharing",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-6787cd9815": {
+      "source_url": "https://www.usenix.org/system/files/sec22-li-changjiang.pdf",
+      "source_version": "Final USENIX Security 2022 proceedings, printed pp. 2673–2690",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec22-li-changjiang.pdf#page=1",
+        "location": "physical p.1 (cover) and p.2 (article first page), author blocks and footnotes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Changjiang Li",
+        "affiliations": [
+          "Pennsylvania State University",
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Seeing is Living? Rethinking the Security of Facial Liveness Verification in the Deepfake Era",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Changjiang Li",
+            "affiliations": [
+              "Pennsylvania State University",
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Li Wang",
+            "affiliations": [
+              "Shandong University"
+            ]
+          }
+        ],
+        "evidence": "Printed p.2673 footnote expressly identifies Changjiang Li and Li Wang as co-first authors."
+      },
+      "limitations": [
+        "Source simultaneously prints joint Penn State/ZJU affiliations and partial-work-at-ZJU footnote; current employment is not inferred."
+      ]
+    },
+    "sj-3698195c5a": {
+      "source_url": "https://arxiv.org/pdf/2303.02545v1",
+      "source_version": "arXiv:2303.02545v1, 5 March 2023",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2303.02545v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenyang Lyu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "MINER: A Hybrid Data-Driven Approach for REST API Fuzzing",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-390b20426f": {
+      "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/cpscan.pdf",
+      "source_version": "Coauthor-hosted ACM CCS '21 proceedings-typeset copy, printed pp. 794–810, 17 physical pages. No byte/content equality with a separately retrieved ACM VOR asserted.",
+      "evidence": {
+        "url": "https://www-users.cse.umn.edu/~kjlu/papers/cpscan.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lirong Fu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "CPscan: Detecting Bugs Caused by Code Pruning in IoT Kernels",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-689896e985": {
+      "source_url": "https://arxiv.org/pdf/2309.14742v1",
+      "source_version": "arXiv:2309.14742v1, 26 September 2023, submitted by Boyu Chang",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2309.14742v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Qinying Wang",
+        "affiliations": [
+          "Zhejiang University",
+          "EPFL"
+        ]
+      },
+      "actual_source_title": "SyzTrust: State-aware Fuzzing on Trusted OS Designed for IoT Devices",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-e48360a284": {
+      "source_url": "https://arxiv.org/pdf/2507.07056v2",
+      "source_version": "arXiv:2507.07056v2, 29 June 2026",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2507.07056v2#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiahao Chen",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "LoRAShield: Data-Free Editing Alignment for Secure Personalized LoRA Sharing",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Jiahao Chen",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Junhao Li",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Jiahao Chen and Junhao Li carry asterisks; p.1 footnote defines equal contribution."
+      }
+    },
+    "sj-56ed062ba0": {
+      "source_url": "https://arxiv.org/pdf/2608.01373v1",
+      "source_version": "arXiv:2608.01373v1, 2 August 2026",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2608.01373v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shuo Shi",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "The Boy Who Cried Wolf: Adversarial Misclassification of Safe Inputs as Unsafe in Multimodal Guardrails",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-385d46e392": {
+      "source_url": "https://arxiv.org/pdf/2512.10402v2",
+      "source_version": "arXiv:2512.10402v2, 17 December 2025",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2512.10402v2#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zhou Feng",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "The Eminence in Shadow: Exploiting Feature Boundary Ambiguity for Robust Backdoor Attacks",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-6a7f688210": {
+      "source_url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/13026.pdf",
+      "source_version": "ECCV 2026 conference-hosted author PDF, metadata produced 2026-06-29",
+      "evidence": {
+        "url": "https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/13026.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yiming Wang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "FaceArmor: A Universal Facial Image Protection Against Diffusion-Based Manipulations",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-cc51b110bc": {
+      "source_url": "https://aclanthology.org/2025.emnlp-main.304.pdf",
+      "source_version": "Official EMNLP 2025 ACL proceedings PDF, pp.5954-5983",
+      "evidence": {
+        "url": "https://aclanthology.org/2025.emnlp-main.304.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Naen Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "VideoEraser: Concept Erasure in Text-to-Video Diffusion Models",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Naen Xu",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Jinghuai Zhang",
+            "affiliations": [
+              "University of California, Los Angeles"
+            ]
+          }
+        ],
+        "evidence": "Naen Xu and Jinghuai Zhang carry asterisks; printed p.5954 footnote defines equal contribution."
+      }
+    },
+    "sj-07015463d4": {
+      "source_url": "https://arxiv.org/pdf/2405.05846v3",
+      "source_version": "arXiv:2405.05846v3 [cs.CR], 31 July 2025",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2405.05846v3#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zhe Ma",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "An Inversion-based Measure of Memorization for Diffusion Models",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-a68da04b3f": {
+      "source_url": "https://nesa.zju.edu.cn/download/Quantifying%20Graph%20Anonymity%2C%20Utility%2C%20and%20De-anonymity.pdf",
+      "source_version": "Author/lab-hosted INFOCOM2018 9-page manuscript, no final proceedings pagination",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Quantifying%20Graph%20Anonymity%2C%20Utility%2C%20and%20De-anonymity.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Quantifying Graph Anonymity, Utility, and De-anonymity",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Evidence refers to the recorded source version; byte-equivalence to a subsequently retrieved copy is not established."
+      ]
+    },
+    "sj-afda94caf1": {
+      "source_url": "https://nesa.zju.edu.cn/download/Graph%20Data%20Anonymization%2C%20De-anonymization%20Attacks%2C%20and%20De-anonymizability%20Quantification%20A%20Survey.pdf",
+      "source_version": "IEEE accepted-not-fully-edited manuscript, 22 physical pages, DOI 10.1109/COMST.2016.2633620",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Graph%20Data%20Anonymization%2C%20De-anonymization%20Attacks%2C%20and%20De-anonymizability%20Quantification%20A%20Survey.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology"
+        ]
+      },
+      "actual_source_title": "Graph Data Anonymization, De-anonymization Attacks, and De-anonymizability Quantification: A Survey",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-354b8db00c": {
+      "source_url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf",
+      "source_version": "IEEE/ACM ToN early-access typeset article, 14 physical pages, stated content-final except pagination",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Structural%20Data%20De-Anonymization%20Theory%20and%20Practice.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology"
+        ]
+      },
+      "actual_source_title": "Structural Data De-Anonymization: Theory and Practice",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-d5ccc8652b": {
+      "source_url": "https://aclanthology.org/2026.acl-long.457.pdf",
+      "source_version": "Official ACL 2026 Volume 1 long-paper proceedings",
+      "evidence": {
+        "url": "https://aclanthology.org/2026.acl-long.457.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Hengyu An",
+        "affiliations": [
+          "Zhejiang University",
+          "State Key Laboratory of Internet Architecture, Tsinghua University"
+        ]
+      },
+      "actual_source_title": "ACIArena: Toward Unified Evaluation for Agent Cascading Injection",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Hengyu An",
+            "affiliations": [
+              "Zhejiang University",
+              "State Key Laboratory of Internet Architecture, Tsinghua University"
+            ]
+          },
+          {
+            "name": "Minxi Li",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "Hengyu An and Minxi Li carry asterisks; printed p.10049 footnote defines equal contribution."
+      }
+    },
+    "sj-4391324662": {
+      "source_url": "https://aclanthology.org/2025.emnlp-main.53.pdf",
+      "source_version": "Official EMNLP 2025 proceedings",
+      "evidence": {
+        "url": "https://aclanthology.org/2025.emnlp-main.53.pdf#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Hengyu An",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "actual_source_title": "IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents",
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Hengyu An",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Jinghuai Zhang",
+            "affiliations": [
+              "University of California, Los Angeles"
+            ]
+          }
+        ],
+        "evidence": "Hengyu An and Jinghuai Zhang carry asterisks; printed p.1023 footnote defines equal contribution."
+      }
+    },
+    "sj-c1e338ca9f": {
+      "source_url": "https://arxiv.org/pdf/2608.30686v1",
+      "source_version": "arXiv:2608.30686v1 [cs.CR], 2026-08-31",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2608.30686v1#page=1",
+        "location": "physical p.1, article author block and affiliation footnote/legend"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Fukang Zhu",
+        "affiliations": [
+          "Zhejiang University",
+          "State Key Laboratory of Internet Architecture, Tsinghua University"
+        ]
+      },
+      "actual_source_title": "Beyond the Payload: How User Invocation Shapes Coding Agent Vulnerability to Repository Poisoning",
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-d1fc8dd7b9": {
+      "source_url": "https://nesa.zju.edu.cn/download/Privacy-Preserving_Triangle_Counting_in_Directed_Graphs.pdf",
+      "source_version": "ICDE 2025 proceedings PDF, 13 physical pages, printed 2588-2600, DOI 10.1109/ICDE65448.2025.00195",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Privacy-Preserving_Triangle_Counting_in_Directed_Graphs.pdf",
+        "location": "PDF physical p.1 / printed p.2588, numbered author-affiliation block"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Ziyao Wei",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "actual_source_title": "Privacy-preserving Triangle Counting in Directed Graphs",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-7271bf4af3": {
+      "source_url": "https://arxiv.org/pdf/2505.06651v1",
+      "source_version": "arXiv:2505.06651v1 [cs.LG], 10 May 2025, 22-page author PDF with Appendices A-G",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2505.06651v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zehan Zhu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-dc32e376bc": {
+      "source_url": "https://nesa.zju.edu.cn/download/AsgLDP%20Collecting%20and%20Generating%20Decentralized%20Attributed%20Graphs%20with%20Local%20Differential%20Privacy.pdf",
+      "source_version": "IEEE TIFS 15 (2020) published-format PDF, 16 pages, pp.3239–3254",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/AsgLDP%20Collecting%20and%20Generating%20Decentralized%20Attributed%20Graphs%20with%20Local%20Differential%20Privacy.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chengkun Wei",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-33b7f0ad03": {
+      "source_url": "https://arxiv.org/pdf/2302.14500v1",
+      "source_version": "arXiv:2302.14500v1, 28 February 2023",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2302.14500v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chong Fu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-f612de4bf1": {
+      "source_url": "https://arxiv.org/pdf/2209.01782v1",
+      "source_version": "arXiv:2209.01782v1, 5 September 2022",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2209.01782v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuyou Gan",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Yuyou Gan",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Yuhao Mao",
+            "affiliations": [
+              "Zhejiang University",
+              "ETH Zürich"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly says Yuyou Gan and Yuhao Mao contributed equally."
+      }
+    },
+    "sj-1e819403d4": {
+      "source_url": "https://arxiv.org/pdf/2112.05588v1",
+      "source_version": "arXiv:2112.05588v1, 10 December 2021",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2112.05588v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jialuo Chen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-8d71597fb2": {
+      "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/ippo.pdf",
+      "source_version": "Coauthor-hosted ACM CCS2021-formatted manuscript, 18 pages",
+      "evidence": {
+        "url": "https://www-users.cse.umn.edu/~kjlu/papers/ippo.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Dinghao Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-049fb65998": {
+      "source_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf",
+      "source_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-detecting.pdf#page=2",
+        "location": "Physical p.1,2; Official cover plus article first page"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Dinghao Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-23809d776d": {
+      "source_url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-improving.pdf",
+      "source_version": "Official USENIX Security 2024 proceedings PDF, 1 cover plus 18 article pages",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/usenixsecurity24-liu-dinghao-improving.pdf#page=2",
+        "location": "Physical p.1,2; Official cover plus article first page"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Dinghao Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c153987a94": {
+      "source_url": "https://users.cs.northwestern.edu/~ychen/Papers/issta24main-p723-CameraReady.pdf",
+      "source_version": "Coauthor-hosted ISSTA2024 camera-ready manuscript, 12 pages",
+      "evidence": {
+        "url": "https://users.cs.northwestern.edu/~ychen/Papers/issta24main-p723-CameraReady.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiashui Wang",
+        "affiliations": [
+          "Zhejiang University",
+          "Ant Group"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Jiashui Wang",
+            "affiliations": [
+              "Zhejiang University",
+              "Ant Group"
+            ]
+          },
+          {
+            "name": "Peng Qian",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly identifies Jiashui Wang and Peng Qian as co-first authors."
+      }
+    },
+    "sj-e82106495c": {
+      "source_url": "https://zhexwang.github.io/papers/slime.pdf",
+      "source_version": "Coauthor-hosted ISSTA2022-formatted manuscript, 13 pages",
+      "evidence": {
+        "url": "https://zhexwang.github.io/papers/slime.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenyang Lyu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-e0e45fc435": {
+      "source_url": "https://nesa.zju.edu.cn/download/V-Fuzz%20Vulnerability%20Prediction-Assisted%20Evolutionary%20Fuzzing%20for%20Binary%20Programs.pdf",
+      "source_version": "IEEE Transactions on Cybernetics early-access PDF; content final except pagination; 12 pages",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/V-Fuzz%20Vulnerability%20Prediction-Assisted%20Evolutionary%20Fuzzing%20for%20Binary%20Programs.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuwei Li",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Yuwei Li",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Shouling Ji",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University",
+              "School of Electrical and Computer Engineering, Georgia Institute of Technology"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly identifies Yuwei Li and Shouling Ji as co-first authors."
+      }
+    },
+    "sj-bee854378e": {
+      "source_url": "https://arxiv.org/pdf/2608.22248v1",
+      "source_version": "arXiv:2608.22248v1 [cs.CR], 2026-08-23, 16 pages",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2608.22248v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiahao Chen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5d2b368fef": {
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/096347b4efc264ae7f07742fea34af1f-Paper-Conference.pdf",
+      "source_version": "Official ICLR 2026 proceedings PDF, 24 physical/printed pages",
+      "evidence": {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/096347b4efc264ae7f07742fea34af1f-Paper-Conference.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuyou Gan",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-3f8dd6be89": {
+      "source_url": "https://arxiv.org/pdf/2412.18123v3",
+      "source_version": "arXiv:2412.18123v3 [cs.CR], 2025-12-09, 15 pages, seven authors",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2412.18123v3#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yiming Wang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5f4c0a6a8e": {
+      "source_url": "https://arxiv.org/pdf/2309.01866v2",
+      "source_version": "arxiv_v2_2023-09-06_camera_ready_format",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2309.01866v2#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Ping He",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-4355bf5c6a": {
+      "source_url": "https://discovery.ucl.ac.uk/id/eprint/10230562/1/Defending_against_Adversarial_Malware_Attacks_on_ML-based_Android_Malware_Detection_Methods.pdf",
+      "source_version": "UCL institutional accepted-author manuscript; TIFS DOI10.1109/TIFS.2026.3729519; 16 pages",
+      "evidence": {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10230562/1/Defending_against_Adversarial_Malware_Attacks_on_ML-based_Android_Malware_Detection_Methods.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Ping He",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-81630a3e7e": {
+      "source_url": "https://arxiv.org/pdf/2310.17304v2",
+      "source_version": "arXiv:2310.17304v2, 19 April 2024, 21 pages; ESORICS-style author manuscript",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2310.17304v2#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yifan Xia",
+        "affiliations": [
+          "Zhejiang University",
+          "Zhejiang University NGICS Platform"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5408c8ca01": {
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29388/30622",
+      "source_version": "Official AAAI2024 proceedings PDF, 9 pages, pp.14704–14712",
+      "evidence": {
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29388/30622#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Pengyu Qiu",
+        "affiliations": [
+          "Zhejiang University",
+          "Ant Group"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-e3479d788f": {
+      "source_url": "https://arxiv.org/pdf/2212.00322v2",
+      "source_version": "arXiv:2212.00322v2, 16 February 2024",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2212.00322v2#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Pengyu Qiu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-2ada62afcb": {
+      "source_url": "https://arxiv.org/pdf/2408.13741v2",
+      "source_version": "arXiv:2408.13741v2, 20 December 2024",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2408.13741v2#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xing He",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Xing He",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Jiahao Chen",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "First-page equal-contribution footnote is keyed to the stars on Xing He and Jiahao Chen; affiliation number 1 maps both to Zhejiang University."
+      }
+    },
+    "sj-79aa4ab765": {
+      "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2cc14599eb447444a2efee58aa0a5ec7-Paper-Conference.pdf",
+      "source_version": "Official ICLR 2026 proceedings PDF, 26 pages",
+      "evidence": {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/2cc14599eb447444a2efee58aa0a5ec7-Paper-Conference.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jianing Liu",
+        "affiliations": [
+          "Zhejiang University",
+          "State Key Laboratory of Internet Architecture, Tsinghua University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-b3c120b511": {
+      "source_url": "https://aclanthology.org/2026.acl-long.295.pdf",
+      "source_version": "Official ACL2026 proceedings PDF, 21 pages, pp.6519–6539",
+      "evidence": {
+        "url": "https://aclanthology.org/2026.acl-long.295.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Huawei Zheng",
+        "affiliations": [
+          "School of Software Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c44bf3b6f8": {
+      "source_url": "https://nesa.zju.edu.cn/download/dazhen_adversaflow.pdf",
+      "source_version": "IEEE TVCG 31(1), January2025, pp.492–502, final-format 11-page PDF",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/dazhen_adversaflow.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Dazhen Deng",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c5e66ab4fe": {
+      "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/docker.pdf",
+      "source_version": "Coauthor-hosted 20-page LNCS-style author manuscript",
+      "evidence": {
+        "url": "https://www-users.cse.umn.edu/~kjlu/papers/docker.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Peiyu Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-601d126363": {
+      "source_url": "https://nesa.zju.edu.cn/download/lpy_pdf_sp23.pdf",
+      "source_version": "NESA-hosted 17-page manuscript, actual title uses Re-using",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/lpy_pdf_sp23.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Peiyu Liu",
+        "affiliations": [
+          "Zhejiang University",
+          "Zhejiang University NGICS Platform"
+        ]
+      },
+      "actual_source_title": "How IoT Re-using Threatens Your Sensitive Data: Exploring the User-Data Disposal in Used IoT Devices",
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "The inspected 17-page source title uses Re-using; Recycling is retained as a legacy index alias. The official published canonical title is not established by this record."
+      ]
+    },
+    "sj-ac970c8450": {
+      "source_url": "https://liu-junming.github.io/paper/ChatGPT-VM/Paper-Exploring_ChatGPT%27s_Capabilities_on_Vulnerability_Management.pdf",
+      "source_version": "Coauthor-hosted 18-page manuscript without proceedings cover",
+      "evidence": {
+        "url": "https://liu-junming.github.io/paper/ChatGPT-VM/Paper-Exploring_ChatGPT%27s_Capabilities_on_Vulnerability_Management.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Peiyu Liu",
+        "affiliations": [
+          "Zhejiang University",
+          "Zhejiang University NGICS Platform"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Peiyu Liu",
+            "affiliations": [
+              "Zhejiang University",
+              "Zhejiang University NGICS Platform"
+            ]
+          },
+          {
+            "name": "Junming Liu",
+            "affiliations": [
+              "Zhejiang University",
+              "Zhejiang University NGICS Platform"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly says Peiyu Liu and Junming Liu contributed equally."
+      }
+    },
+    "sj-99f5cc87cc": {
+      "source_url": "https://nesa.zju.edu.cn/download/usenixsecurity25-yang-yong.pdf",
+      "source_version": "USENIX Security 2025 proceedings, 21 PDF pages incl. cover",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/usenixsecurity25-yang-yong.pdf#page=2",
+        "location": "Physical p.1,2; Official cover plus article first page"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yong Yang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-a904202f3c": {
+      "source_url": "https://arxiv.org/pdf/2110.07505v1",
+      "source_version": "arXiv:2110.07505v1, 2021-10-14",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2110.07505v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Linkang Du",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-d51010872e": {
+      "source_url": "https://www.usenix.org/system/files/sec19-lyu.pdf",
+      "source_version": "USENIX Security 2019 official proceedings PDF, 19 physical pages including cover; printed 1949–1966; introduction physical 2–3",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec19-lyu.pdf#page=2",
+        "location": "Physical p.1,2; Official cover plus article first page"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenyang Lyu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-26271ecf21": {
+      "source_url": "https://www.usenix.org/system/files/sec21-li-yuwei.pdf",
+      "source_version": "USENIX Security 2021 official proceedings PDF, 19 physical pages including cover; introduction physical 2–3 / printed 2777–2778",
+      "evidence": {
+        "url": "https://www.usenix.org/system/files/sec21-li-yuwei.pdf#page=2",
+        "location": "Physical p.1,2; Official cover plus article first page"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuwei Li",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-f6b808ce92": {
+      "source_url": "https://arxiv.org/pdf/2401.02615v3",
+      "source_version": "arXiv:2401.02615v3，2024-01-09；作者稿",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2401.02615v3#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zhenqing Qu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Zhenqing Qu",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Xiang Ling",
+            "affiliations": [
+              "Institute of Software, Chinese Academy of Science"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly says Zhenqing Qu and Xiang Ling contribute equally; affiliation prose assigns their institutions separately."
+      }
+    },
+    "sj-3419195084": {
+      "source_url": "https://arxiv.org/pdf/2212.00325v2",
+      "source_version": "arXiv:2212.00325v2, 2024-01-22",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2212.00325v2#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Pengyu Qiu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-4666101c6f": {
+      "source_url": "https://nesa.zju.edu.cn/download/sp2025c2-final59.pdf",
+      "source_version": "NESA-hosted sp2025c2-final59.pdf author manuscript, 18 pages",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/sp2025c2-final59.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuan Chen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Yuan Chen",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Qinying Wang",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "First-page equal-contribution footnote is keyed to the stars on Yuan Chen and Qinying Wang."
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-1966c7bea7": {
+      "source_url": "https://arxiv.org/pdf/2411.09523v1",
+      "source_version": "arXiv:2411.09523v1 [cs.AI], 2024-11-14, 48 pages",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2411.09523v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuyou Gan",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-b318fccf43": {
+      "source_url": "https://arxiv.org/pdf/2501.16165v3",
+      "source_version": "arXiv:2501.16165v3 [cs.CR], 2025-12-04, 38 pages",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2501.16165v3#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiacheng Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-097f6290bf": {
+      "source_url": "https://arxiv.org/pdf/2204.04063v1",
+      "source_version": "arXiv:2204.04063v1, 2022-04-07, 17-page author manuscript accepted to IEEE S&P 2022",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2204.04063v1#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuhao Mao",
+        "affiliations": [
+          "Zhejiang University",
+          "ETH Zürich"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-ba26f30f1b": {
+      "source_url": "https://arxiv.org/pdf/1901.01223v4",
+      "source_version": "arXiv:1901.01223v4, 2019-09-14, 17 pages, p.1 states TDSC acceptance",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/1901.01223v4#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xurong Li",
+        "affiliations": [
+          "Institute of Cyberspace Research, Zhejiang University",
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-299c65ef97": {
+      "source_url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf",
+      "source_version": "NESA-hosted 18-page author manuscript; actual title has singular Model",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/DEEPSEC%20A%20Uniform%20Platform%20for%20Security%20Analysis%20of%20Deep%20Learning%20Model.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xiang Ling",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Xiang Ling",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Shouling Ji",
+            "affiliations": [
+              "Zhejiang University",
+              "Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies"
+            ]
+          }
+        ],
+        "evidence": "First-page footnote explicitly identifies Xiang Ling and Shouling Ji as co-first authors."
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-f181e99eae": {
+      "source_url": "https://nesa.zju.edu.cn/download/De-Health%20All%20Your%20Online%20Health%20Information%20Are%20Belong%20to%20Us.pdf",
+      "source_version": "NESA-hosted 12-page nine-author manuscript; first-page publication status not established",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/De-Health%20All%20Your%20Online%20Health%20Information%20Are%20Belong%20to%20Us.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "Zhejiang University",
+          "Alibaba-Zhejiang University Joint Institute of Frontier Technologies"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5c5bf79d86": {
+      "source_url": "https://nesa.zju.edu.cn/download/De-SAG%20On%20the%20De-anonymization%20of%20Structure-Attribute%20Graph%20Data.pdf",
+      "source_version": "NESA-hosted 14-page accepted/unfinalized TDSC manuscript; DOI10.1109/TDSC.2017.2712150",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/De-SAG%20On%20the%20De-anonymization%20of%20Structure-Attribute%20Graph%20Data.pdf#page=1",
+        "location": "Physical p.1; Article first page, author block and affiliation/contribution notes"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-1ab158f15f": {
+      "source_url": "https://nesa.zju.edu.cn/download/OB-WSPES%20A%20Uniform%20Evaluation%20System%20for%20Obfuscation-based%20Web%20Search%20Privacy.pdf",
+      "source_version": "Author-hosted undated manuscript; p.1 has no publication imprint. Date/venue not established from this version.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/OB-WSPES%20A%20Uniform%20Evaluation%20System%20for%20Obfuscation-based%20Web%20Search%20Privacy.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chengkun Wei",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-4418753cee": {
+      "source_url": "https://nesa.zju.edu.cn/download/LH_TIFS_2025_FINAL.pdf",
+      "source_version": "IEEE TIFS20 (2025), p.11728; published17Oct2025/current6Nov2025; DOI10.1109/TIFS.2025.3622956.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/LH_TIFS_2025_FINAL.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Hong Liang",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-0f6adb9f11": {
+      "source_url": "https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf",
+      "source_version": "Author-hosted CCS2021-formatted copy; p.1 cites15–19Nov2021 and DOI10.1145/3460120.3484811. No independent byte-equality to VOR claim.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/pgn_pdf_V-SHUTTLE.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Gaoning Pan",
+        "affiliations": [
+          "Zhejiang University",
+          "Ant Group"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-10097c51e8": {
+      "source_url": "https://www-users.cse.umn.edu/~kjlu/papers/ifizz.pdf",
+      "source_version": "Coauthor-hosted author PDF; no first-page publisher imprint/date. Venue/date not established from this version.",
+      "evidence": {
+        "url": "https://www-users.cse.umn.edu/~kjlu/papers/ifizz.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Peiyu Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-acbc08a57a": {
+      "source_url": "https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf",
+      "source_version": "NESA manuscript p.1 identifies CCS2021,14–19Nov2021 but retains placeholder ISBN and DOI10.1145/1122445.1122456. Do not reuse placeholder as real bibliographic DOI.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/dty_pdf_cert_rnn.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Tianyu Du",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-593cbfaf86": {
+      "source_url": "https://nesa.zju.edu.cn/download/lcj_pdf_tdsc21.pdf",
+      "source_version": "NESA author manuscript; no final issue/date proof. Footnote additionally says work was partially conducted when C.Li was at ZJU; both affiliations are explicitly printed.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/lcj_pdf_tdsc21.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Changjiang Li",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University",
+          "College of Information Science and Technology, Pennsylvania State University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-64e052ffcd": {
+      "source_url": "https://arxiv.org/pdf/2311.17400v2",
+      "source_version": "arXiv2311.17400v2,30Nov2023. P.1 also has NDSS2024 imprint DOI10.14722/ndss.2024.24115; inspected copy remains arXiv version.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2311.17400v2#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lujia Shen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-92070abe8e": {
+      "source_url": "https://arxiv.org/pdf/2503.23718v2",
+      "source_version": "arXiv2503.23718v2,28Sep2025; author manuscript, no peer-review inference.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2503.23718v2#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xingshuang Lin",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Xingshuang Lin",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Qinge Xie",
+            "affiliations": [
+              "Georgia Institute of Technology"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 author key and diamond footnote explicitly co-first"
+      }
+    },
+    "sj-fa1fc1d2fa": {
+      "source_url": "https://arxiv.org/pdf/2106.09282v1",
+      "source_version": "arXiv2106.09282v1,17Jun2021; source is author preprint.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2106.09282v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zhenguang Liu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Zhenguang Liu",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Peng Qian",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 numbered affiliations and first-two-equal-contribution footnote"
+      }
+    },
+    "sj-a7b06c257f": {
+      "source_url": "https://arxiv.org/pdf/2508.15606v1",
+      "source_version": "arXiv2508.15606v1,21Aug2025; author preprint.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2508.15606v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yu Yang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-318347dd2f": {
+      "source_url": "https://arxiv.org/pdf/2111.00197v1",
+      "source_version": "arXiv2111.00197v1,30Oct2021; p.1 CCS2021-style publication reference, DOI10.1145/3460120.3485370; inspected copy remains arXiv version.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2111.00197v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lujia Shen",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5322b1646f": {
+      "source_url": "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf",
+      "source_version": "IEEE TDSC21(6),Nov/Dec2024,5431–5447; p.1 published18Mar2024/current13Nov2024, DOI10.1109/TDSC.2024.3376790.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Towards_Practical_Backdoor_Attacks_on_Federated_Learning_Systems.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenghui Shi",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-b5a1988e4d": {
+      "source_url": "https://aclanthology.org/2025.emnlp-main.497.pdf",
+      "source_version": "Official EMNLP2025 proceedings p.9825–9838,4–9Nov2025.",
+      "evidence": {
+        "url": "https://aclanthology.org/2025.emnlp-main.497.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Tong Zhang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Tong Zhang",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Kuofeng Gao",
+            "affiliations": [
+              "Tsinghua University"
+            ]
+          },
+          {
+            "name": "Jiawang Bai",
+            "affiliations": [
+              "Tsinghua University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 numbered affiliation key and equal-contribution footnote"
+      }
+    },
+    "sj-c423d986aa": {
+      "source_url": "https://arxiv.org/pdf/2507.12932v2",
+      "source_version": "arXiv2507.12932v2,15Sep2025; p.1 MM2025 author-copy imprint, DOI10.1145/3746027.3755629; not independently established as VOR.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2507.12932v2#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zhou Feng",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-879f8c1810": {
+      "source_url": "https://par.nsf.gov/servlets/purl/10174631",
+      "source_version": "NSF-hosted ASIA CCS2020 proceedings-formatted copy; p.1 cites5–9Oct2020 Taipei and DOI10.1145/3320269.3384733.",
+      "evidence": {
+        "url": "https://par.nsf.gov/servlets/purl/10174631#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Tianyu Du",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-e8edda9d3a": {
+      "source_url": "https://www.ijcai.org/proceedings/2024/0037.pdf",
+      "source_version": "Official IJCAI2024 proceedings p.331–339; p.1 imprint.",
+      "evidence": {
+        "url": "https://www.ijcai.org/proceedings/2024/0037.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Han Bao",
+        "affiliations": [
+          "School of Software Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-5dc666fe14": {
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26iy/wang26iy.pdf",
+      "source_version": "PMLR306/ICML2026 publisher-repository PDF; p.1 proceedings imprint, Seoul2026.",
+      "evidence": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26iy/wang26iy.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yiming Wang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-43466107a4": {
+      "source_url": "https://aclanthology.org/2025.acl-long.541.pdf",
+      "source_version": "Official ACL2025 Vol1 Long Papers,11025–11041,27Jul–1Aug2025, p.1 imprint.",
+      "evidence": {
+        "url": "https://aclanthology.org/2025.acl-long.541.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Xindi Li",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-69a91ca701": {
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26w/ma26w.pdf",
+      "source_version": "PMLR306/ICML2026 publisher-repository PDF; p.1 proceedings imprint, Seoul2026.",
+      "evidence": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/ma26w/ma26w.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Oubo Ma",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-cc3b714b43": {
+      "source_url": "https://arxiv.org/pdf/2509.03985v3",
+      "source_version": "arXiv2509.03985v3,29Aug2026; TVCG-style author manuscript with placeholder dates/DOI, not publication proof.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2509.03985v3#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chuhan Zhang",
+        "affiliations": [
+          "State Key Lab of CAD&CG, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c7b0f8c968": {
+      "source_url": "https://aclanthology.org/2026.acl-long.1206.pdf",
+      "source_version": "Official ACL2026 long proceedings,26228–26245,2–7Jul2026, p.1 footer.",
+      "evidence": {
+        "url": "https://aclanthology.org/2026.acl-long.1206.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Rui Yin",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-a68fd421b9": {
+      "source_url": "https://arxiv.org/pdf/2509.21011v1",
+      "source_version": "arXiv2509.21011v1,25Sep2025; author preprint.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2509.21011v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Ping He",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-54704a792c": {
+      "source_url": "https://arxiv.org/pdf/1901.01107v1",
+      "source_version": "arXiv1901.01107v1,4Jan2019. Inspected version does not establish final journal issue/year.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/1901.01107v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenghui Shi",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-ff8570d878": {
+      "source_url": "https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf",
+      "source_version": "Author-hosted 16-page manuscript; official CCS2020 program independently associates title with conference; no final pagination on inspected source.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Text%20Captcha%20Is%20Dead%20A%20Large%20Scale%20Deployment%20and%20Empirical%20Study.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Chenghui Shi",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Chenghui Shi",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Shouling Ji",
+            "affiliations": [
+              "Zhejiang University",
+              "Alibaba–Zhejiang University Joint Institute of Frontier Technologies"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 author key and footnote1 explicitly co-first"
+      }
+    },
+    "sj-7fbc935f66": {
+      "source_url": "https://nesa.zju.edu.cn/download/lqj_pdf_tifs2021.pdf",
+      "source_version": "NESA author manuscript; p.1 does not establish final TIFS issue/date.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/lqj_pdf_tifs2021.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Qianjun Liu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-c723f714dd": {
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lin26r/lin26r.pdf",
+      "source_version": "Publisher-repository PMLR306/ICML2026 PDF; official PMLR metadata confirms74535–74559,6–11Jul2026.",
+      "evidence": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/lin26r/lin26r.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Ruixiao Lin",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-beba53e0f9": {
+      "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25k/zhu25k.pdf",
+      "source_version": "Publisher-repository PMLR267/ICML2025 PDF; p.1 Vancouver2025 proceedings imprint.",
+      "evidence": {
+        "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25k/zhu25k.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yao Zhu",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Yao Zhu",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Zhenyuan Li",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University",
+              "College of Software Technology, Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 equal-contribution footnote and numbered affiliation key"
+      }
+    },
+    "sj-906728a4eb": {
+      "source_url": "https://arxiv.org/pdf/2407.16576v2",
+      "source_version": "arXiv-hosted publisher-typeset PACMSE2(ISSTA),ArticleISSTA006,Jul2025; cover says published22Jun2025/accepted31Mar2025/received30Sep2024; DOI10.1145/3728875. Download date17Mar2026 is not publication date.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2407.16576v2#page=2",
+        "location": "physical p.2 / article p.1; publisher cover p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yifan Xia",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-a258b38871": {
+      "source_url": "https://drive.google.com/uc?export=download&id=1X2g81djDVI1u4n5N4J1s8wLGP8tFi4os",
+      "source_version": "IEEE ICDE2021 industrial paper; p.1 proceedings imprint and DOI10.1109/ICDE51399.2021.00289; printed2583–2594.",
+      "evidence": {
+        "url": "https://drive.google.com/uc?export=download&id=1X2g81djDVI1u4n5N4J1s8wLGP8tFi4os#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Sihao Hu",
+        "affiliations": [
+          "Zhejiang University",
+          "Alibaba Group"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-056bd3713f": {
+      "source_url": "https://arxiv.org/pdf/2601.22485v1",
+      "source_version": "arXiv2601.22485v1,30Jan2026; p.1 WWW2026 reference13–17Apr2026 and DOI10.1145/3774904.3792199. Inspected source remains author arXiv copy.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2601.22485v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Naen Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Naen Xu",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Jinghuai Zhang",
+            "affiliations": [
+              "University of California, Los Angeles"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 author blocks and both-authors-equal footnote"
+      }
+    },
+    "sj-9aee30689b": {
+      "source_url": "https://nesa.zju.edu.cn/download/Password%20Correlation%20Quantification%2C%20Evaluation%20and%20Application.pdf",
+      "source_version": "Author/lab-hosted 9-page proceedings-formatted manuscript; no first-page final imprint/date observed. Designated corpus labels INFOCOM2017; not independently verified here.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/Password%20Correlation%20Quantification%2C%20Evaluation%20and%20Application.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Shouling Ji",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-e64a3bfbe3": {
+      "source_url": "https://arxiv.org/pdf/2408.09469v4",
+      "source_version": "arXiv2408.09469v4,19Oct2025; author extended/revised version with AAAI2025 copyright; copyright alone does not establish final published version.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2408.09469v4#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jiahao Chen",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Jiahao Chen",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Zhou Feng",
+            "affiliations": [
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 numbered affiliations and equal-contribution footnote"
+      }
+    },
+    "sj-ed7c58b655": {
+      "source_url": "https://www.ijcai.org/proceedings/2024/0048.pdf",
+      "source_version": "Official IJCAI2024 proceedings p.431–439; p.1 imprint.",
+      "evidence": {
+        "url": "https://www.ijcai.org/proceedings/2024/0048.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Zeyu Li",
+        "affiliations": [
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-238a78de63": {
+      "source_url": "https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-5_Li_paper.pdf",
+      "source_version": "Official NDSS2019 PDF; conference24–27Feb2019; source affiliation from p.1. Star is affiliation, not equal-contribution designation.",
+      "evidence": {
+        "url": "https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_03A-5_Li_paper.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Jinfeng Li",
+        "affiliations": [
+          "Institute of Cyberspace Research and College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-b3dda6f2a5": {
+      "source_url": "https://arxiv.org/pdf/2512.21871v1",
+      "source_version": "arXiv2512.21871v1,26Dec2025; author preprint.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2512.21871v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Naen Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c89935c6fb": {
+      "source_url": "https://aclanthology.org/2026.findings-acl.320.pdf",
+      "source_version": "Official Findings of ACL2026 proceedings,6415–6433,2–7Jul2026. Findings is recorded distinctly from ACL main conference.",
+      "evidence": {
+        "url": "https://aclanthology.org/2026.findings-acl.320.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Hengyu An",
+        "affiliations": [
+          "Zhejiang University",
+          "State Key Laboratory of Internet Architecture, Tsinghua University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Hengyu An",
+            "affiliations": [
+              "Zhejiang University",
+              "State Key Laboratory of Internet Architecture, Tsinghua University"
+            ]
+          },
+          {
+            "name": "Minxi Li",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 numbered affiliations and Equal Contribution footnote"
+      }
+    },
+    "sj-1e368cddf8": {
+      "source_url": "https://nesa.zju.edu.cn/download/tce26_suyuan.pdf",
+      "source_version": "Accepted-not-fully-edited IEEE TCE author manuscript; p.1 footer gives DOI10.1109/TCE.2026.3656205/2026IEEE. Header JOURNAL OF LATEX CLASS FILES/Aug2025 and receivedXX are placeholders, not venue or publication-date evidence.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/tce26_suyuan.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Yuan Su",
+        "affiliations": [
+          "Cancer Institute, Second Affiliated Hospital, School of Medicine, Zhejiang University",
+          "State Key Laboratory of Cryptography and Digital Economy Security",
+          "College of Computer Science and Technology, Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Yuan Su",
+            "affiliations": [
+              "Cancer Institute, Second Affiliated Hospital, School of Medicine, Zhejiang University",
+              "State Key Laboratory of Cryptography and Digital Economy Security",
+              "College of Computer Science and Technology, Zhejiang University"
+            ]
+          },
+          {
+            "name": "Jiahui Li",
+            "affiliations": [
+              "School of Mathematics and Statistics, Xidian University"
+            ]
+          }
+        ],
+        "evidence": "Physical p.1; author block, affiliation key and equal-contribution footnote"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-0010159902": {
+      "source_url": "https://nesa.zju.edu.cn/download/zbb_pdf_issta22.pdf",
+      "source_version": "Author-hosted ISSTA2022 proceedings-formatted copy; first-page venue reference identifies18–22Jul2022; printed442–454 per source version.",
+      "evidence": {
+        "url": "https://nesa.zju.edu.cn/download/zbb_pdf_issta22.pdf#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Binbin Zhao",
+        "affiliations": [
+          "Zhejiang University",
+          "Georgia Institute of Technology"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      },
+      "limitations": [
+        "Author/affiliation evidence is from extracted primary-PDF text; source-byte identity was not established."
+      ]
+    },
+    "sj-f4f8acaf2d": {
+      "source_url": "https://arxiv.org/pdf/2602.00428v2",
+      "source_version": "arXiv2602.00428v2,1Mar2026; p.1 says published conference paper ICLR2026; independent official proceedings verification not performed.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2602.00428v2#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Naen Xu",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-c87b27b4a0": {
+      "source_url": "https://arxiv.org/pdf/2602.09690v1",
+      "source_version": "arXiv2602.09690v1,10Feb2026; p.1 says published conference paper ICLR2026; independent official proceedings verification not performed.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2602.09690v1#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Lingpei Zhang",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "none_observed"
+      }
+    },
+    "sj-db9fe86207": {
+      "source_url": "https://arxiv.org/pdf/2405.16133v3",
+      "source_version": "arXiv2405.16133v3,16Dec2024; p.1 AAAI2025 copyright. No assertion that this is publisher version of record.",
+      "evidence": {
+        "url": "https://arxiv.org/pdf/2405.16133v3#page=1",
+        "location": "physical p.1 / article p.1"
+      },
+      "shouling_ji_listed": true,
+      "first_listed_author": {
+        "name": "Tong Ye",
+        "affiliations": [
+          "Zhejiang University"
+        ]
+      },
+      "shared_first": {
+        "status": "explicit",
+        "authors": [
+          {
+            "name": "Tong Ye",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          },
+          {
+            "name": "Yangkai Du",
+            "affiliations": [
+              "Zhejiang University"
+            ]
+          }
+        ],
+        "evidence": "PDF p.1 numbered affiliation key and equal-contribution footnote"
+      }
+    }
+  },
+  "checked_on_scope": "Base identity-check date; a source-level checked_on records a later source-specific check without redating other sources."
+}

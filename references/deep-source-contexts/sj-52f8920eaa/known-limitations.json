@@ -1,0 +1,75 @@
+{
+  "scientific_scope": [
+    {
+      "id": "S01",
+      "boundary": "Two-team mixed MARL, teammate cooperation/opponent competition; not all multi-agent games",
+      "source": "§3.1 footnote 2"
+    },
+    {
+      "id": "S02",
+      "boundary": "Own-team control, known number of victim agents, repeated interactions, partial environmental observations, no environment manipulation; base victim fixed",
+      "source": "§3.1, §6"
+    },
+    {
+      "id": "S03",
+      "boundary": "Two simulated environments; uncertainty/distance in Predator-prey, region in World Communication; not a full 3×2 environment cross",
+      "source": "§5.1"
+    },
+    {
+      "id": "S04",
+      "boundary": "Aggregate Equation 15 attack improvement is not attack success rate; cost ratios have distinct comparison denominators",
+      "source": "§5.1, §5.6"
+    },
+    {
+      "id": "S05",
+      "boundary": "Algorithm-agnostic is author structural claim across paradigms; experiments use DDPG/MADDPG representatives",
+      "source": "§2.1, §5.1"
+    },
+    {
+      "id": "S06",
+      "boundary": "t-SNE activation difference is diagnostic observation, not causal identification of a vulnerability",
+      "source": "P5.S2 and §5.2; causal distinction is editorial/epistemic interpretation"
+    },
+    {
+      "id": "S07",
+      "boundary": "33%-access ensembles reduce attack in many configurations, not every table cell; updates/diversity/switching directions are not universal safety guarantees",
+      "source": "§5.7, Table 5"
+    },
+    {
+      "id": "S08",
+      "boundary": "Transfer to substantially different heuristic victims does not lower catch rate; collision frequency not lower in every Table 3 row either",
+      "source": "§5.4, Table 3; region .807 versus .802"
+    }
+  ],
+  "analysis_limitations": [
+    {
+      "id": "A01",
+      "boundary": "Fixed supplied arXiv v4 identity; no assertion of byte equivalence to CCS 2024 publication"
+    },
+    {
+      "id": "A02",
+      "boundary": "No full proof verification, model reproduction, attack execution, or contemporary novelty search"
+    },
+    {
+      "id": "A03",
+      "boundary": "Appendix D reported counts read, not independently recomputed from all Table 6–10 rows"
+    },
+    {
+      "id": "A04",
+      "boundary": "37 analytical units do not exactly equal orthographic sentences or printed paragraphs; exact crosswalk provided"
+    },
+    {
+      "id": "A05",
+      "boundary": "Choice rationales, presumed reader questions, and benefits/costs of variants are editorial hypotheses, not author-intention reports or experimentally demonstrated writing gains"
+    },
+    {
+      "id": "A06",
+      "boundary": "Source-conditioned examples are not a new submission-ready target introduction; no exact universal length prescriptions"
+    },
+    {
+      "id": "A07",
+      "boundary": "Plain PDF extraction has font artifacts in plots and source hyphenation artifacts; rendered checks cover declared pages, not all 20 rendered pages"
+    }
+  ],
+  "not_a_restrictions_catalog": "These entries constrain specific scientific claims and audit identity; affirmative task conclusions remain intact in profile/examples."
+}

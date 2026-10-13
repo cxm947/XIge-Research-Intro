@@ -1,0 +1,661 @@
+{
+  "source_id": "sj-bee854378e",
+  "scope": "Complete Introduction and contribution set; 25 substantive sentences plus organizational bridge T1. Coordinates extend the retained map without renumbering its P/S/B units.",
+  "knowledge_rule": "Only preceding Introduction statements enter prior_reader_knowledge. All later body readings are separately labeled.",
+  "rows": [
+    {
+      "id": "P1.S1",
+      "physical_page": "1",
+      "preceding_intro_refs": [],
+      "prior_reader_knowledge": "Introduction尚无先前命题；不假设读者已知本文的表征假设或实验。",
+      "matrix_clause_observed": "发展过程作名词化主语；完成时谓语评价其在NLP任务中的表现。",
+      "semantic_foreground_editorial": "模型角色由被动文本生成转为主动代理。",
+      "new_information_in_this_unit": "研究入口同时给技术发展与能力广度。",
+      "clause_and_diction_observed": "角色转变嵌于主语修饰；任务范围作状语。",
+      "task_value_and_information_choice_editorial": "先选将产生有后果行为的能力变化，使下一句生态整合有目的，而不是先报榜单。",
+      "author_explicit_rationale": "未明确解释为何选此开头。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "Intro P1.S2–S5（后续回答，不是此前知识）"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P1.S2",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S1"
+      ],
+      "prior_reader_knowledge": "模型已从生成器发展为代理，并在多种语言任务表现良好。",
+      "matrix_clause_observed": "LLM作主语，系于复杂应用生态中的核心角色。",
+      "semantic_foreground_editorial": "外部检索与工具接入后可执行代码、管理数据。",
+      "new_information_in_this_unit": "模型活动与外部信息和真实事务联系起来。",
+      "clause_and_diction_observed": "方式状语前置；能力短语后置；例子嵌于工具说明。",
+      "task_value_and_information_choice_editorial": "把后果可感知化，给风险段必要的作用路径；不另起用户画像或营销意义段。",
+      "author_explicit_rationale": "作者明示通过外部整合获得应用角色。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.1威胁模型"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P1.S3",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S1",
+        "P1.S2"
+      ],
+      "prior_reader_knowledge": "模型与外部检索／工具结合，能参与有实际后果的事务。",
+      "matrix_clause_observed": "回指整合作主语，主句说该整合暴露严重漏洞。",
+      "semantic_foreground_editorial": "冒号后的控制指令／外部知识无显式区分。",
+      "new_information_in_this_unit": "引入外部内容的风险根因，而非仅报告攻击存在。",
+      "clause_and_diction_observed": "转折前景化代价；冒号后为名词性阐释，不是新的独立主句。",
+      "task_value_and_information_choice_editorial": "读者需这条区分关系才能理解下一句为何普通数据通道可改变行为。",
+      "author_explicit_rationale": "作者明确把漏洞归到指令与知识边界。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.1–3.3"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P1.S4",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S3"
+      ],
+      "prior_reader_knowledge": "指令和外部知识缺少显式区分。",
+      "matrix_clause_observed": "歧义回指作主语，谓语引出间接提示注入。",
+      "semantic_foreground_editorial": "相对从句中的外部载体与行为改变路径。",
+      "new_information_in_this_unit": "攻击术语被连接到数据入口及攻击目标。",
+      "clause_and_diction_observed": "主句命名；关系从句解释参与者、载体与目的；不是次要装饰。",
+      "task_value_and_information_choice_editorial": "以一个可理解路径让后续防御任务有对象，不需在引言生成攻击实例。",
+      "author_explicit_rationale": "作者明确歧义使这种攻击成为可能。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.1"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P1.S5",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S4"
+      ],
+      "prior_reader_knowledge": "外部数据中的恶意指令可能改变模型行为。",
+      "matrix_clause_observed": "攻击作回指主语，情态谓语列举可导致的严重后果。",
+      "semantic_foreground_editorial": "后果类别而非检测机制。",
+      "new_information_in_this_unit": "危害扩展到数据、越权行为与有害内容。",
+      "clause_and_diction_observed": "可能性情态限制后果陈述；列举并非实验结果列表。",
+      "task_value_and_information_choice_editorial": "选足以说明保护价值的后果，不要求贡献项逐一重复三类危害。",
+      "author_explicit_rationale": "作者明示攻击可能造成这些后果。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.1目标；§4.1实际测量对象"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P1.S6",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S3",
+        "P1.S4",
+        "P1.S5"
+      ],
+      "prior_reader_knowledge": "边界歧义、攻击路径和可能后果已交代。",
+      "matrix_clause_observed": "防御需求作主语，完成时系词结构给重要性判断。",
+      "semantic_foreground_editorial": "需要有效保护。",
+      "new_information_in_this_unit": "把先前事实收束成研究需求。",
+      "clause_and_diction_observed": "抽象需求回指全段；强评价词承担结论而非新证据。",
+      "task_value_and_information_choice_editorial": "由于具体路径已铺垫，短结句可转向已有回答；单独摘用会只剩口号。",
+      "author_explicit_rationale": "作者直接强调防御需求。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "Intro P2"
+      ],
+      "context_variant_group": "V1",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P2.S1",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S6"
+      ],
+      "prior_reader_knowledge": "防御需求已成立；尚未介绍具体已有方案或效用损失。",
+      "matrix_clause_observed": "已有对策作主语，困难谓语引入安全与效用的协调。",
+      "semantic_foreground_editorial": "保护与正常使用之间的联合目标。",
+      "new_information_in_this_unit": "评价不止是否能识别攻击。",
+      "clause_and_diction_observed": "转折连接前段需求；名词化权衡后续由两类代价具体解释。",
+      "task_value_and_information_choice_editorial": "预设共同比较轴，让近邻的选取围绕任务损失而非文献数量。",
+      "author_explicit_rationale": "作者明示现有对策难协调两者。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§4.1指标；§4.2结果"
+      ],
+      "context_variant_group": "V2",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P2.S2",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P2.S1"
+      ],
+      "prior_reader_knowledge": "已有方案需协调安全和效用。",
+      "matrix_clause_observed": "净化方法作主语，尝试中和威胁为谓语。",
+      "semantic_foreground_editorial": "既有净化方法尝试通过改写／清理输入中和威胁。",
+      "new_information_in_this_unit": "首个已有答案及其操作类型。",
+      "clause_and_diction_observed": "例子嵌于类别主语；方式关系接输入处理。",
+      "task_value_and_information_choice_editorial": "先交前人的目标功能，为后句损失判断提供明确参照；此句没有先确证目标已实现。",
+      "author_explicit_rationale": "作者明示中和威胁的目的。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§2.3净化类"
+      ],
+      "context_variant_group": "V2",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P2.S3",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P2.S1",
+        "P2.S2"
+      ],
+      "prior_reader_knowledge": "净化方法尝试通过重构或清理输入中和威胁，安全／效用是共同轴。",
+      "matrix_clause_observed": "方法作主语，主句给较大的效用代价。",
+      "semantic_foreground_editorial": "逐输入严格过滤与成本／语义完整性之间的关系。",
+      "new_information_in_this_unit": "解释该类已有回答为什么未满足联合目标。",
+      "clause_and_diction_observed": "原因从句前置；主句抽象代价；后接分词具体化计算与语义后果。",
+      "task_value_and_information_choice_editorial": "用因果解释替代仅说方法不够好；类别概括的实证边界另列Q8。",
+      "author_explicit_rationale": "作者明示逐输入过滤导致代价。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§2.3；Q8"
+      ],
+      "context_variant_group": "V2",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P2.S4",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P2.S2",
+        "P2.S3"
+      ],
+      "prior_reader_knowledge": "净化的处理方式和所述代价已知。",
+      "matrix_clause_observed": "检测防护作主语，目的谓语为识别并阻断恶意输入。",
+      "semantic_foreground_editorial": "另一类已有回答改变的是是否接受输入。",
+      "new_information_in_this_unit": "区分检测与修改内容。",
+      "clause_and_diction_observed": "对照连接词切换已有答案；简短目的结构不抢后句篇幅。",
+      "task_value_and_information_choice_editorial": "让本文随后选择检测的路线可辨认，避免把所有防御当同一输出。",
+      "author_explicit_rationale": "作者明示检测类的任务。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§2.3评价聚焦检测"
+      ],
+      "context_variant_group": "V2",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P2.S5",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P2.S1",
+        "P2.S4"
+      ],
+      "prior_reader_knowledge": "检测方法旨在识别并阻断恶意输入，但与效用的关系尚未具体化。",
+      "matrix_clause_observed": "方法作主语，两并列谓语给严重误拒绝和可用性／帮助性损失。",
+      "semantic_foreground_editorial": "拒绝正常内容会损害使用价值。",
+      "new_information_in_this_unit": "无论外部分类还是内部方法，作者认为该代价仍存在。",
+      "clause_and_diction_observed": "让步式选择结构前置；主句用损失动词，不只是指出机制差异。",
+      "task_value_and_information_choice_editorial": "为内部几何方案建立需要改善的具体后果；不暗称此前已经证明所有检测都如此。",
+      "author_explicit_rationale": "作者直接关联误拒绝与可用性。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§4.2；Q8"
+      ],
+      "context_variant_group": "V2",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P3.S1",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P1.S3",
+        "P2.S1",
+        "P2.S5"
+      ],
+      "prior_reader_knowledge": "输入边界歧义和误拒绝问题已在Introduction出现。",
+      "matrix_clause_observed": "作者作主语，挑战旧假设。",
+      "semantic_foreground_editorial": "内部是否能分开指令与数据这一认识分歧。",
+      "new_information_in_this_unit": "将先前被视作固有困难的问题重新开放。",
+      "clause_and_diction_observed": "宾语名词为假设；其补语给被挑战内容。",
+      "task_value_and_information_choice_editorial": "先交研究分歧，避免下一句几何名词突现为任意技术偏好。",
+      "author_explicit_rationale": "作者明确挑战该假设。",
+      "required_but_not_previously_established": "此前引言未建立潜在可分性；本句仅引出问题，尚未证明。",
+      "later_body_evidence_not_prior_knowledge": [
+        "§2.1；§3.2"
+      ],
+      "context_variant_group": "V3",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P3.S2",
+      "physical_page": "1",
+      "preceding_intro_refs": [
+        "P3.S1",
+        "P2.S1"
+      ],
+      "prior_reader_knowledge": "作者要重新考察可分性，并解决安全／效用问题。",
+      "matrix_clause_observed": "作者判断作主句，宾语从句将关键定位于潜在几何。",
+      "semantic_foreground_editorial": "训练过程与内部几何的联系。",
+      "new_information_in_this_unit": "给出新的解释层级和其来源。",
+      "clause_and_diction_observed": "主句是立场行为；后置分词修饰潜在空间或几何形成背景。",
+      "task_value_and_information_choice_editorial": "把新视角连接到可认识的训练阶段，为下句对照提供骨架。",
+      "author_explicit_rationale": "作者明确认为几何是解决权衡的关键。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.2"
+      ],
+      "context_variant_group": "V3",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P3.S3",
+      "physical_page": "1–2",
+      "preceding_intro_refs": [
+        "P3.S2"
+      ],
+      "prior_reader_knowledge": "关键被定位到两阶段训练形成的潜在几何，但两类几何尚未说明。",
+      "matrix_clause_observed": "作者提出假设；冒号后两个并列命题分别以预训练／指令调优为施事。",
+      "semantic_foreground_editorial": "知识高维高熵与指令紧致子空间的对照。",
+      "new_information_in_this_unit": "提出可指导判别的表示差异。",
+      "clause_and_diction_observed": "假设主干保认识状态；转折式对照使训练、表示对象与几何性质对齐。",
+      "task_value_and_information_choice_editorial": "同时交两种参照才能理解分离信号，不能只保更吸引人的紧致性。",
+      "author_explicit_rationale": "作者明示此为提出的假设，并陈述训练造成几何差异的解释。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.2 Figure 1；§3.3；Q1"
+      ],
+      "context_variant_group": "V3",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P3.S4",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P3.S3"
+      ],
+      "prior_reader_knowledge": "指令紧致子空间与知识表示之间的差异刚作为假设提出。",
+      "matrix_clause_observed": "检测作主语，规范性情态谓语选择检测根据。",
+      "semantic_foreground_editorial": "改用紧致指令表示中的信号。",
+      "new_information_in_this_unit": "从认识假设转向方法方向。",
+      "clause_and_diction_observed": "因果连接词；否定旧路径与肯定新路径平行组织。",
+      "task_value_and_information_choice_editorial": "设计选择依赖具体差异，不因内部方法这个标签本身更好。",
+      "author_explicit_rationale": "作者明确把几何假设作为该检测方向的依据。",
+      "required_but_not_previously_established": "新方向尚未给出可实现的投影，不能当作已完成算法。",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.1"
+      ],
+      "context_variant_group": "V3",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P4.S1",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P3.S2",
+        "P3.S3",
+        "P3.S4"
+      ],
+      "prior_reader_knowledge": "已有几何假设及应寻找内部指令信号的方向。",
+      "matrix_clause_observed": "作者作主语，引入名为AEGIS的方案。",
+      "semantic_foreground_editorial": "对前述问题的总体交付。",
+      "new_information_in_this_unit": "方案名称、轻量检测类别及无训练属性首次出现。",
+      "clause_and_diction_observed": "动机分词短语前置；展开名称后接同位身份说明及关系从句属性。",
+      "task_value_and_information_choice_editorial": "让名称有记忆锚点；首次交付不必一口气列阈值、层号和全部参数。",
+      "author_explicit_rationale": "作者明确由上述洞察得到启发。",
+      "required_but_not_previously_established": "此前未说明所需样本或隐藏态访问；这些不是此刻读者先验。",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4；§4.1；A.4；Q2"
+      ],
+      "context_variant_group": "V4",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P4.S2",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P3.S3",
+        "P3.S4",
+        "P4.S1"
+      ],
+      "prior_reader_knowledge": "已知AEGIS要依据内部信号进行检测。",
+      "matrix_clause_observed": "AEGIS作主语，主句给区别恶意指令与良性数据的功能。",
+      "semantic_foreground_editorial": "排除表面措辞差别、抽取指令意图的方式。",
+      "new_information_in_this_unit": "把几何路线变成可理解的判别操作。",
+      "clause_and_diction_observed": "功能在矩阵，方式成分给过程，目的成分给保留对象。",
+      "task_value_and_information_choice_editorial": "正常内容与表面词语被区分，用户价值和信号选择在同句接合。",
+      "author_explicit_rationale": "作者明示过滤措辞差异是为了隔离核心意图。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.1"
+      ],
+      "context_variant_group": "V4",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P4.S3",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P2.S5",
+        "P4.S1",
+        "P4.S2"
+      ],
+      "prior_reader_knowledge": "误拒绝损害效用；方案已交第一层信号区别。",
+      "matrix_clause_observed": "作者作主语，引入统一多层共识机制。",
+      "semantic_foreground_editorial": "第二级设计以稳健和低误拒为共同目的。",
+      "new_information_in_this_unit": "引入聚合机制，而非新的应用任务。",
+      "clause_and_diction_observed": "目的不定式前置；机制名称为宾语。",
+      "task_value_and_information_choice_editorial": "用原来的使用目标引出新部件，不靠组件数暗示贡献数。",
+      "author_explicit_rationale": "作者明确为进一步稳健且不过拒绝引入该机制。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.3；§4.3"
+      ],
+      "context_variant_group": "V5",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P4.S4",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P4.S3"
+      ],
+      "prior_reader_knowledge": "已知作者提出跨层共识，但尚不知道单层为何不足。",
+      "matrix_clause_observed": "AEGIS作主语，聚合多个深度的证据。",
+      "semantic_foreground_editorial": "单层噪声与跨层证据的对比。",
+      "new_information_in_this_unit": "给出第二级机制的直接动机及操作。",
+      "clause_and_diction_observed": "替代关系前置；修饰单层的关系从句给噪声理由；主句交实际动作。",
+      "task_value_and_information_choice_editorial": "仅需局部可靠性问题即可证明部件有解释职责，不需额外造宏观挑战。",
+      "author_explicit_rationale": "作者明确单层可能有噪声。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.3；Figure 4"
+      ],
+      "context_variant_group": "V5",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "P4.S5",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P4.S3",
+        "P4.S4"
+      ],
+      "prior_reader_knowledge": "机制聚合多个深度，单层可能受噪声影响。",
+      "matrix_clause_observed": "回指机制作主语，保证动词引出判断条件从句。",
+      "semantic_foreground_editorial": "持续信号是判为攻击的条件；正常误报是结果焦点。",
+      "new_information_in_this_unit": "将跨层聚合返回安全／效用关系。",
+      "clause_and_diction_observed": "嵌入条件有only-if必要条件；句末分词为作者主张的结果，并非全部噪声都被证明消除。",
+      "task_value_and_information_choice_editorial": "让读者记住为什么聚合有任务价值，需保留源文强主张并在Q3限定科学范围。",
+      "author_explicit_rationale": "作者声称持续信号判据消除瞬时噪声误报。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.3；§3.5；Figure 4；Q3"
+      ],
+      "context_variant_group": "V5",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "T1",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P4.S1",
+        "P4.S2",
+        "P4.S3",
+        "P4.S4",
+        "P4.S5"
+      ],
+      "prior_reader_knowledge": "方案及其动机已经交付。",
+      "matrix_clause_observed": "贡献作主语，被动总结谓语预告列表。",
+      "semantic_foreground_editorial": "组织转换。",
+      "new_information_in_this_unit": "没有新增技术事实。",
+      "clause_and_diction_observed": "冒号引列表；与前一句同属排印段落但另记组织句。",
+      "task_value_and_information_choice_editorial": "缩短从方案到贡献的转场；不算第四项贡献或额外方法能力。",
+      "author_explicit_rationale": "无技术理由；明确列表预告。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [],
+      "context_variant_group": "none",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "B1.S1",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P3.S2",
+        "P3.S3",
+        "P3.S4",
+        "P4.S2"
+      ],
+      "prior_reader_knowledge": "几何假设和指令／知识判别方向已讲过。",
+      "matrix_clause_observed": "作者作主语，刻画两类表示几何关系。",
+      "semantic_foreground_editorial": "认识所得及其可区分能力。",
+      "new_information_in_this_unit": "把此前假设／动机收束成本文贡献的认识结果。",
+      "clause_and_diction_observed": "主句刻画对象；结果分词解释为何该认识对任务有用。",
+      "task_value_and_information_choice_editorial": "不把一张观察图当价值终点，也不重复全部场景危害。",
+      "author_explicit_rationale": "作者明确声称该刻画可有效区分两类表示。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.2–3.4.1；Q1"
+      ],
+      "context_variant_group": "V3",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "B2.S1",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P4.S1",
+        "P4.S3",
+        "P4.S4",
+        "B1.S1"
+      ],
+      "prior_reader_knowledge": "AEGIS和多层共识已知；良性效用问题已知。",
+      "matrix_clause_observed": "作者作主语，提出AEGIS。",
+      "semantic_foreground_editorial": "分布感知阈值校准和多层投票的组合。",
+      "new_information_in_this_unit": "校准作为具体命名部件首次出现在引言。",
+      "clause_and_diction_observed": "关系从句给方法组成，不把组成全部提升为独立贡献。",
+      "task_value_and_information_choice_editorial": "方案段留机制细节，贡献压缩主要组合；若校准是核心新意，另稿需提前补一句理由。",
+      "author_explicit_rationale": "作者明示组合这两个机制。",
+      "required_but_not_previously_established": "具体阈值依赖哪类数据在此前Intro未交代；不能将§3.4.2写入本句之前的已知知识。",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.4.2–3.4.3"
+      ],
+      "context_variant_group": "V6",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "B2.S2",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "B2.S1",
+        "P4.S5"
+      ],
+      "prior_reader_knowledge": "已有方法组合及低误报意图；尚未承诺形式分析。",
+      "matrix_clause_observed": "作者作主语，两个并列谓语分别给误报界与几何分析。",
+      "semantic_foreground_editorial": "经验之外还提供分析性结果。",
+      "new_information_in_this_unit": "概率误报分析及潜在扰动半径两个不同对象。",
+      "clause_and_diction_observed": "前置范围扩展语；并列动词保两种贡献身份。",
+      "task_value_and_information_choice_editorial": "用额外分析解释方法可靠性，但不与实验或普遍安全混为一项证书。",
+      "author_explicit_rationale": "作者明确超越经验效果给这两项分析。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§3.5–3.6；A.1–A.3；Q4"
+      ],
+      "context_variant_group": "V7",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "B3.S1",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P4.S1",
+        "P4.S2",
+        "B1.S1",
+        "B2.S1",
+        "B2.S2"
+      ],
+      "prior_reader_knowledge": "方案、认识及理论分析承诺已知；实验覆盖未给出。",
+      "matrix_clause_observed": "大规模评估作主语，展示动词引出AEGIS的检测表现。",
+      "semantic_foreground_editorial": "跨八类攻击和十个基线的检测证据覆盖。",
+      "new_information_in_this_unit": "经验评价范围及检测有效性的作者判断。",
+      "clause_and_diction_observed": "范围介词成分修饰评估；方案处于宾语从句；评价性形容词不替代指标证据。",
+      "task_value_and_information_choice_editorial": "先交完整任务的检测答案，再让下一句重点转到良性代价。",
+      "author_explicit_rationale": "作者明示这些评估展示检测表现。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§4.1；Table 1；Q5"
+      ],
+      "context_variant_group": "V8",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    },
+    {
+      "id": "B3.S2",
+      "physical_page": "2",
+      "preceding_intro_refs": [
+        "P2.S1",
+        "P2.S5",
+        "P4.S5",
+        "B3.S1"
+      ],
+      "prior_reader_knowledge": "安全／效用目标、误拒后果和实验覆盖已建立。",
+      "matrix_clause_observed": "方案回指作主语，改善安全／效用关系。",
+      "semantic_foreground_editorial": "标准良性工作负载下的误拒绝代价。",
+      "new_information_in_this_unit": "作者给出低于1%的FPR陈述作为特定效用答案。",
+      "clause_and_diction_observed": "重要性副词调整焦点；工作负载是范围；结果分词带指标与数字。",
+      "task_value_and_information_choice_editorial": "选能回收标题与P2的结果，避免以孤立最高准确率结束；确切数字的矛盾由Q6处理。",
+      "author_explicit_rationale": "作者明确将该良性FPR结果称为关键。",
+      "required_but_not_previously_established": "无需引入正文中的额外事实来理解本句",
+      "later_body_evidence_not_prior_knowledge": [
+        "§4.2；Table 1；Figure 6；Q6"
+      ],
+      "context_variant_group": "V8",
+      "basis_labels": {
+        "observed": "O: grammar, order, overt wording or stated relation",
+        "author": "A: author-stated proposition or reason; not automatically established truth",
+        "editorial": "I: inferred reading responsibility and transfer choice, not author-intent evidence"
+      }
+    }
+  ]
+}

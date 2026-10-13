@@ -1,0 +1,2162 @@
+{
+  "scope": "Runtime lookup of sentence-duty relationships and bounded source units. Exact refers to support for the content/rhetorical relationship, not quoted wording or writing efficacy. Boundary examples are not positive evidence for the full fact package.",
+  "bindings": [
+    {
+      "group_id": "P1.1",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P1.S1",
+        "P2.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact high-level importance-to-specific-object opening; the scale/risk sentences are not needed for this duty.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p1-s1",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "P1.1",
+      "source_label": "FirmRCA",
+      "source_id": "sj-446d78ec82",
+      "units": [
+        "P1.S1",
+        "P1.S2",
+        "P1.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The firmware functions and consequential deployment ground the opening value statement.",
+      "map_file": "intro-source-maps/sj-446d78ec82.md",
+      "entry_anchor": "p1-s1",
+      "high_level_card": "research-choice-evidence-map.md#firmrca"
+    },
+    {
+      "group_id": "P1.1",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P1.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The protocol connection role directly grounds broad domain importance.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p1-s1",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "P1.2",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P2.S1",
+        "P2.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The original two sentences give the object hierarchy and practical supporting function.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p2-s1",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "P1.2",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P2.S1",
+        "P2.S2",
+        "P2.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P2.S1–S2 supply a concrete component role inside firmware; S3 transitions to specification burden rather than another supporting benefit.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p2-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "P1.2",
+      "source_label": "HashVFL",
+      "source_id": "sj-3419195084",
+      "units": [
+        "P1.S3",
+        "P1.S4",
+        "P2.S1",
+        "P2.S4",
+        "P2.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The specific VFL layer supplies intermediate representations for collaboration under a privacy-motivated data-flow restriction.",
+      "map_file": "intro-source-maps/sj-3419195084.md",
+      "entry_anchor": "p1-s3",
+      "high_level_card": "research-choice-evidence-map.md#hashvfl"
+    },
+    {
+      "group_id": "P1.3",
+      "source_label": "FirmRCA",
+      "source_id": "sj-446d78ec82",
+      "units": [
+        "P3.S1",
+        "P8.S1",
+        "P8.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The linked paragraphs provide the named task, crash input and faulty-instruction output.",
+      "map_file": "intro-source-maps/sj-446d78ec82.md",
+      "entry_anchor": "p3-s1",
+      "high_level_card": "research-choice-evidence-map.md#firmrca"
+    },
+    {
+      "group_id": "P1.3",
+      "source_label": "ORL-Auditor",
+      "source_id": "sj-6eeb51e521",
+      "units": [
+        "P2.S7",
+        "P2.S10",
+        "P1.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P2.S10 gives the audit question and entities; P1.S4 supplies the offline data condition. No method success is asserted.",
+      "map_file": "intro-source-maps/sj-6eeb51e521.md",
+      "entry_anchor": "p2-s7",
+      "high_level_card": "research-choice-evidence-map.md#orl-auditor"
+    },
+    {
+      "group_id": "P1.3",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P1.S2",
+        "P1.S4",
+        "P8.S4",
+        "P8.S13"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P1 supports naming the task; the full reference-input/decision-output realization requires P8.S4 and P8.S13. These are method-specific conditions, not a universal definition of every detector.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p1-s2",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "P1.3",
+      "source_label": "AsgLDP",
+      "source_id": "sj-dc32e376bc",
+      "units": [
+        "P1.S4",
+        "P1.S5",
+        "P1.S7",
+        "P3.S1",
+        "P4.S1",
+        "P4.S2",
+        "P4.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P1 establishes local-input/privacy conditions; P3.S1 and P4.S1–S3 are needed for the named generation task and explicit output chain.",
+      "map_file": "intro-source-maps/sj-dc32e376bc.md",
+      "entry_anchor": "p1-s4",
+      "high_level_card": "research-choice-evidence-map.md#asgldp"
+    },
+    {
+      "group_id": "P1.4",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P9.S6",
+        "P9.S7",
+        "P9.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The report-to-remediation chain is the precise output/use evidence. P2 supplies risk motivation only.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p9-s6",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "P1.4",
+      "source_label": "Password Correlation",
+      "source_id": "sj-9aee30689b",
+      "units": [
+        "P5.S2",
+        "P5.S3",
+        "P5.S4",
+        "P5.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The usages paragraph explicitly connects previously defined outputs to distinct beneficiaries and decisions.",
+      "map_file": "intro-source-maps/sj-9aee30689b.md",
+      "entry_anchor": "p5-s2",
+      "high_level_card": "research-choice-evidence-map.md#password-correlation"
+    },
+    {
+      "group_id": "P1.4",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P2.S5",
+        "P2.S6",
+        "P2.S7",
+        "P2.S8"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "任务重要性参照；未直接给出产物→使用者动作",
+      "support_relation": "These units explain the significance of detection through harm and spread. They do not explicitly say a delivered output enables a specified user to take a consequential action.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p2-s5",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "P1.5",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P1.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The quantitative scale example fits when all candidates use projects rather than reports for the forecast.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p1-s2",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "P1.5",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P1.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact forecast-style scale evidence; it is not a measured deployment count.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p1-s2",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "P1.5",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P2.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports a scoped empirical quantitative example about customization. A time-year field is not established in this map and should be omitted rather than invented.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p2-s3",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "P2.1",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P1.S2",
+        "P1.S3",
+        "P2.S1",
+        "P2.S2",
+        "P2.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source links a real manufacturer practice to cost and resource purposes, while preserving legitimate customization.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p1-s2",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "P2.1",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P2.S2",
+        "P2.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "TPC reuse and its development purpose are established practice, not an isolated case.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p2-s2",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "P2.2",
+      "source_label": "ORL-Auditor",
+      "source_id": "sj-6eeb51e521",
+      "units": [
+        "P3.S2",
+        "P3.S5",
+        "P3.S7",
+        "P3.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The map preserves real audit capabilities together with timing, learning setting and reference-data conditions.",
+      "map_file": "intro-source-maps/sj-6eeb51e521.md",
+      "entry_anchor": "p3-s2",
+      "high_level_card": "research-choice-evidence-map.md#orl-auditor"
+    },
+    {
+      "group_id": "P2.2",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P2.S1",
+        "P2.S2",
+        "P4.S3",
+        "P4.S4",
+        "P5.S4",
+        "P5.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Existing capability is retained within its training/input conditions rather than recast as complete failure.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p2-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "P2.2",
+      "source_label": "MeTFA",
+      "source_id": "sj-f612de4bf1",
+      "units": [
+        "P4.S3",
+        "P4.S4",
+        "P4.S5",
+        "P5.S2",
+        "P5.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source explicitly strengthens existing smoothing to include asymptotic quantification before giving its sample-size condition.",
+      "map_file": "intro-source-maps/sj-f612de4bf1.md",
+      "entry_anchor": "p4-s3",
+      "high_level_card": "research-choice-evidence-map.md#metfa"
+    },
+    {
+      "group_id": "P2.3",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P4.S3",
+        "P4.S4",
+        "P4.S5",
+        "P4.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "A stronger route improves the earlier generalization shortcoming while retaining dependence on known trace priors.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p4-s3",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "P2.3",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P5.S2",
+        "P5.S3",
+        "P5.S4"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：已有无数据方法仍有限制，未建立保留必要输入H",
+      "support_relation": "The passage supports progress plus residual capability boundaries, but does not establish a necessary resource/condition H retained after solving the old problem.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p5-s2",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "P2.3",
+      "source_label": "V-SHUTTLE",
+      "source_id": "sj-0f6adb9f11",
+      "units": [
+        "P3.S7",
+        "P3.S8",
+        "P3.S9",
+        "P3.S11",
+        "P3.S12"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Nyx is the exact stronger-neighbor example: it supplies structure-aware fuzzing but retains a manual-specification requirement.",
+      "map_file": "intro-source-maps/sj-0f6adb9f11.md",
+      "entry_anchor": "p3-s7",
+      "high_level_card": "research-choice-evidence-map.md#v-shuttle"
+    },
+    {
+      "group_id": "P2.3",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P3.S6",
+        "P3.S7"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：孤立Wasm检测遗漏交互，不是本组的进步后残余条件",
+      "support_relation": "The cited sentence rejects a complementary isolated detector; it does not assert that this detector solves the prior deficiency through K and then retains a necessary H.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p3-s6",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "P2.4",
+      "source_label": "ORL-Auditor",
+      "source_id": "sj-6eeb51e521",
+      "units": [
+        "P3.S8",
+        "P3.S9",
+        "P3.S11",
+        "P3.S12"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Both same-route pairs connect a required resource to its absence in the target setting. Keep each route and access role separate.",
+      "map_file": "intro-source-maps/sj-6eeb51e521.md",
+      "entry_anchor": "p3-s8",
+      "high_level_card": "research-choice-evidence-map.md#orl-auditor"
+    },
+    {
+      "group_id": "P2.4",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P3.S3",
+        "P3.S4",
+        "P3.S5",
+        "P3.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Closed implementation visibility is connected to the inability to directly use the cited program-analysis route.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p3-s3",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "P2.4",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P3.S3",
+        "P3.S4",
+        "P5.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The platform-maintainer access role is the same across missing samples and the prior detectors’ requirement. Data-free does not mean black-box model access.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p3-s3",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "P2.5",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P2.S5",
+        "P2.S7",
+        "P2.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Dynamic detection capability is acknowledged before deployment overhead motivates another route. Configuration sensitivity is a separate limitation, not itself the cost.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p2-s5",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "P2.5",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P3.S2",
+        "P3.S3",
+        "P3.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The overhead branch gives capability-versus-cost support. Preserve the source’s disjunction: specific-condition limits and high overhead need not apply to every listed method.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p3-s2",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "P2.5",
+      "source_label": "SyzTrust",
+      "source_id": "sj-689896e985",
+      "units": [
+        "P3.S4",
+        "P3.S6",
+        "P3.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source preserves the enabling capability while specifying concrete execution and engineering costs in constrained IoT systems.",
+      "map_file": "intro-source-maps/sj-689896e985.md",
+      "entry_anchor": "p3-s4",
+      "high_level_card": "research-choice-evidence-map.md#syztrust"
+    },
+    {
+      "group_id": "P2.6",
+      "source_label": "ChatGPT-VM",
+      "source_id": "sj-ac970c8450",
+      "units": [
+        "P3.S3",
+        "P3.S4",
+        "P3.S5",
+        "P4.Q0",
+        "P4.RQ1",
+        "P4.RQ2",
+        "P4.RQ3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source distinguishes established partial-task results from precise unanswered whole-lifecycle/comparison/condition questions.",
+      "map_file": "intro-source-maps/sj-ac970c8450.md",
+      "entry_anchor": "p3-s3",
+      "high_level_card": "research-choice-evidence-map.md#chatgpt-vm"
+    },
+    {
+      "group_id": "P2.6",
+      "source_label": "Quantifying",
+      "source_id": "sj-a68da04b3f",
+      "units": [
+        "P2.S6",
+        "P3.S1",
+        "P3.S3",
+        "P3.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The existing-results side is P2.S6; P3 contains the new relational and improvement questions. The questions are not merely detector failure statements.",
+      "map_file": "intro-source-maps/sj-a68da04b3f.md",
+      "entry_anchor": "p2-s6",
+      "high_level_card": "research-choice-evidence-map.md#quantifying"
+    },
+    {
+      "group_id": "P2.6",
+      "source_label": "VERIFI",
+      "source_id": "sj-1b6614ac62",
+      "units": [
+        "P2.S3",
+        "P2.S4",
+        "P3.S1",
+        "P3.S2",
+        "P3.S7",
+        "P4.S1",
+        "P4.S2",
+        "P4.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source preserves unlearning capabilities and separates them from verification questions. P4’s question bullets provide the exact question endpoints.",
+      "map_file": "intro-source-maps/sj-1b6614ac62.md",
+      "entry_anchor": "p2-s3",
+      "high_level_card": "research-choice-evidence-map.md#verifi"
+    },
+    {
+      "group_id": "P2.6",
+      "source_label": "MeTFA",
+      "source_id": "sj-f612de4bf1",
+      "units": [
+        "P4.S5",
+        "P5.S2",
+        "P5.S7",
+        "P5.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Known convergence/asymptotic results are separated from the unresolved small-sample uncertainty question.",
+      "map_file": "intro-source-maps/sj-f612de4bf1.md",
+      "entry_anchor": "p4-s5",
+      "high_level_card": "research-choice-evidence-map.md#metfa"
+    },
+    {
+      "group_id": "P2.7",
+      "source_label": "TextBugger",
+      "source_id": "sj-238a78de63",
+      "units": [
+        "P6.S1",
+        "P6.S2",
+        "P6.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The source gives a positive operational scope and explicit knowledge conditions; it does not require adding an unqualified no-one-has-studied claim.",
+      "map_file": "intro-source-maps/sj-238a78de63.md",
+      "entry_anchor": "p6-s1",
+      "high_level_card": "research-choice-evidence-map.md#textbugger"
+    },
+    {
+      "group_id": "P2.7",
+      "source_label": "Enkidu",
+      "source_id": "sj-c423d986aa",
+      "units": [
+        "P3.S5",
+        "P3.S6",
+        "P4.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P3 states remaining joint requirements; P4.S1 is the actual author/work announcement that completes a positive operational study-scope realization.",
+      "map_file": "intro-source-maps/sj-c423d986aa.md",
+      "entry_anchor": "p3-s5",
+      "high_level_card": "research-choice-evidence-map.md#enkidu"
+    },
+    {
+      "group_id": "P2.8",
+      "source_label": "ORL-Auditor",
+      "source_id": "sj-6eeb51e521",
+      "units": [
+        "P3.S2",
+        "P3.S8",
+        "P3.S11"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The linked alternatives have concrete required timing/input resources. None is asserted to guarantee success by itself.",
+      "map_file": "intro-source-maps/sj-6eeb51e521.md",
+      "entry_anchor": "p3-s2",
+      "high_level_card": "research-choice-evidence-map.md#orl-auditor"
+    },
+    {
+      "group_id": "P2.8",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P5.S1",
+        "P3.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P5.S1 directly states the earlier detectors’ necessary sample input; P3.S3 supplies context only. The statement excludes the acknowledged data-free DF-TND alternative.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "P2.8",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P3.S1",
+        "P3.S3",
+        "P3.S5",
+        "P3.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P3.S1 directly establishes the required verification object. P3.S3–S6 supports implementation-visibility requirements only for the compared program-analysis route.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p3-s1",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "P2.8",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P8.S4",
+        "P8.S5",
+        "P8.S9"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The genuine same-identity reference is an explicit method input; availability arguments do not erase the requirement or guarantee access in every deployment.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p8-s4",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "CH.1",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P4.S1",
+        "P4.S3",
+        "P6.S1",
+        "P6.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Directly supports deriving a required operation from task/deployment conditions: specifications before checking and binary analysis for closed-source firmware.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p4-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "CH.1",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P7.F1",
+        "P7.S2",
+        "P7.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Version-specific vulnerability identification motivates the version-level operation and version-to-vulnerability relation; it is not a generic preference for finer granularity.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p7-f1",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "CH.1",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P3.S1",
+        "P3.S3",
+        "P3.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P3 directly derives necessary model content and black-box operation from the verification task and source-access condition.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p3-s1",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "CH.2",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P7.S1",
+        "P7.S4",
+        "P7.E1",
+        "P7.S7",
+        "P7.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports the root-cause explanation for why direct distance cannot reliably isolate identity loss. Keep the target operation narrow; the source does not say computing a distance or all detection is impossible.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p7-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "CH.2",
+      "source_label": "Cert-RNN",
+      "source_id": "sj-acbc08a57a",
+      "units": [
+        "P3.S2",
+        "P3.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": "直接迁移受计算依赖限制；不把较松认证界写成无法认证",
+      "support_relation": "P3.S2–S3 explains why a feed-forward bound computation cannot directly transfer to recurrent dependencies; P3.S5 bound looseness is a different, weaker claim.",
+      "map_file": "intro-source-maps/sj-acbc08a57a.md",
+      "entry_anchor": "p3-s2",
+      "high_level_card": "research-choice-evidence-map.md#cert-rnn"
+    },
+    {
+      "group_id": "CH.2",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P4.S5",
+        "P4.S6",
+        "P4.S9",
+        "P4.S10",
+        "P4.S11"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports structural transformation as the cause of failure to accurately locate deleted safety operations with natural comparison routes. This is not a claim that these tools cannot emit any diff.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p4-s5",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "CH.3",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P4.S7"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：可能不准与误报，未建立必然阻止使用者动作",
+      "support_relation": "Exact evidence for a possible failure→inaccurate rules→false positives chain, but no definite actor/action-prevention relation is established.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p4-s7",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "CH.3",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P2.S6",
+        "P2.S8",
+        "P2.S9",
+        "P5.S3"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：有条件的错误状态与安全后果，不是必然动作受阻",
+      "support_relation": "Supports conditional error-state and security-bug consequences of deleting protections. The condition and possibility are explicit; it does not establish that the resulting harm always blocks an actor’s task.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p2-s6",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "CH.3",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P2.S3",
+        "P2.S4",
+        "P2.S5"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：风险继承及传播，不是已证实的动作阻断",
+      "support_relation": "Supports risk inheritance and amplification from a deployment practice; no fixed consequence that prevents a specified actor operation is identified.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p2-s3",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "CH.4",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P5.S1",
+        "P5.S2",
+        "P5.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "An explicit obstacle→required positive capability chain: translate human-readable rules into checker-consumable expressions.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "CH.4",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P3.S3",
+        "P3.S5",
+        "P3.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct evidence for converting a stated access obstacle into a positive analysis requirement.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p3-s3",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "CH.4",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P6.S2",
+        "P6.S3",
+        "P6.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P6.S3 is a positive requirement derived from semantic differences. P6.S4 preserves the further unsolved feature-definition task, rather than pretending the requirement itself proves a novel solution.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p6-s2",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "CH.5",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P4.S5",
+        "P4.S6",
+        "P4.S2",
+        "P7.S5",
+        "P7.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P4.S6 supplies the minimal witness for a natural method’s inaccurate localization. Figure 1/P7 instead witness why a particular deletion is consequential; those are two different examples and duties.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p4-s5",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "CH.5",
+      "source_label": "Amoeba",
+      "source_id": "sj-593cbfaf86",
+      "units": [
+        "P3.S5",
+        "P4.S1",
+        "P4.E1",
+        "P4.S3",
+        "P4.S4",
+        "P4.S5"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "表示范围的最小对照；不代表原算法不能运行",
+      "support_relation": "A genuine minimal comparison witness for additional representational freedom. It does not describe an algorithm unable to run; the limitation is that a symmetric region cannot express the larger asymmetric safe region.",
+      "map_file": "intro-source-maps/sj-593cbfaf86.md",
+      "entry_anchor": "p3-s5",
+      "high_level_card": "research-choice-evidence-map.md#amoeba"
+    },
+    {
+      "group_id": "CH.5",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P7.E1",
+        "P7.S7",
+        "P7.S8"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "属性混杂的条件化形式见证；不声称实测必然失败",
+      "support_relation": "P6 illustrates why identity loss exists; P7 supplies a formal confounding witness for inaccurate direct measurement. These are useful examples but do not themselves establish a categorical inability of a natural method in an observed case.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p7-e1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "CH.6",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P5.S5",
+        "P6.S3",
+        "P6.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Explicit residual relation: satisfying interaction/semantic coverage does not yet provide the detector’s usable malicious features.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p5-s5",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "CH.6",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "P4.S1",
+        "P5.S1",
+        "P5.S2",
+        "P5.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Directly supports a second required judgment after the first succeeds: locating a deletion does not establish that it is harmful.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "p4-s1",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "CH.6",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P5.S1",
+        "P5.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Explicit residual relation between already extracted rules and the additional representation needed for checking.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "CH.7",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P2.S5",
+        "P2.S6",
+        "P3.S1",
+        "P3.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The paragraph pair establishes coexisting implementation-fidelity and workflow/black-box requirements for the same verification task. It does not posit success on one as a temporal prerequisite for the other.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p2-s5",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "CH.7",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P4.S6",
+        "P4.S8",
+        "P6.S1",
+        "P6.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct support for simultaneous but distinct cross-manipulation and propagation-robustness requirements.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p4-s6",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "CH.8",
+      "source_label": "HashVFL",
+      "source_id": "sj-3419195084",
+      "units": [
+        "P5.S1",
+        "P5.S3",
+        "P5.S4",
+        "P5.S5",
+        "P8.S2",
+        "P8.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Strong direct example: hashing is introduced before the learning/information burdens it creates. P8 adds a separate chosen-route cost obstacle; do not merge the distinct causes into one fact package.",
+      "map_file": "intro-source-maps/sj-3419195084.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#hashvfl"
+    },
+    {
+      "group_id": "CH.8",
+      "source_label": "SUB-PLAY",
+      "source_id": "sj-52f8920eaa",
+      "units": [
+        "P4.S2",
+        "P4.S5",
+        "P4.S6",
+        "P4.S7",
+        "P4.S8",
+        "P4.S9"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct design→allocation imbalance→undertraining/possible ineffectiveness chain, with the remedy after the cause.",
+      "map_file": "intro-source-maps/sj-52f8920eaa.md",
+      "entry_anchor": "p4-s2",
+      "high_level_card": "research-choice-evidence-map.md#sub-play"
+    },
+    {
+      "group_id": "CH.8",
+      "source_label": "FaceArmor",
+      "source_id": "sj-6a7f688210",
+      "units": [
+        "P4.S1",
+        "P5.S1",
+        "P5.S2",
+        "P5.S3",
+        "P5.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact example of a chosen joint design creating a new interference problem that can weaken its intended capability.",
+      "map_file": "intro-source-maps/sj-6a7f688210.md",
+      "entry_anchor": "p4-s1",
+      "high_level_card": "research-choice-evidence-map.md#facearmor"
+    },
+    {
+      "group_id": "CH.8",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P5.S13",
+        "P7.S1",
+        "P7.S2",
+        "P7.S3",
+        "P8.S1",
+        "P8.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P5.S13→P8.S1 gives a direct chosen-verification-route obstacle. P7.S1–S3 shows failure while applying the selected learner, but nondeterministic replies are environmental, not created by the learner.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p5-s13",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "M.1",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P8.S1",
+        "P8.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports method introduction with task and relevant input conditions, with the condition supplied in a later sentence rather than an obligatory single packed clause.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p8-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "M.1",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P7.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct artifact/task announcement after the two challenges. The observed map does not require every metadata slot to appear in that same sentence.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p7-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.1",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P7.S1",
+        "P7.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct aim→named system/task/condition entry. Preserve the completed implementation state; do not infer unverified novelty from the source’s first/practical language.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p7-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "M.1",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "P5.S1",
+        "P5.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Direct named framework and task announcement; the subsequent design philosophy can be a separate sentence.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "M.2",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P8.S3",
+        "P9.S1",
+        "P9.S5",
+        "P9.S7",
+        "P10.S2",
+        "P10.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports actual design actions and their intended capabilities: reconstruct an accepted representation so mature detection knowledge can be reused.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p8-s3",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.2",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P8.S1",
+        "P8.S2",
+        "P8.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "A direct central-action→purpose chain, distinct from an empirical performance result.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p8-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "M.2",
+      "source_label": "Cert-RNN",
+      "source_id": "sj-acbc08a57a",
+      "units": [
+        "P4.S2",
+        "P4.S3",
+        "P4.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Concrete method actions and their certification outputs answer the previously stated correlation and computation obstacles.",
+      "map_file": "intro-source-maps/sj-acbc08a57a.md",
+      "entry_anchor": "p4-s2",
+      "high_level_card": "research-choice-evidence-map.md#cert-rnn"
+    },
+    {
+      "group_id": "M.3",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P8.S3",
+        "P8.S7",
+        "P8.S8"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：两路表示构造及消费，未建立单次变换的Q保持",
+      "support_relation": "Supports representation construction and downstream consumption on two different inputs. The map does not explicitly establish a single transformation that preserves a named Q; that stronger invariant is an additional claim.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p8-s3",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "M.3",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P9.S2",
+        "P9.S3",
+        "P9.S4",
+        "P9.S5",
+        "P9.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Strong representation-chain example: construction→represented semantic relationships→consumer operation. Keep preserves limited to the relations the source claims to capture, not complete equivalence of all behavior.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p9-s2",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.3",
+      "source_label": "EMS",
+      "source_id": "sj-2deb60c210",
+      "units": [
+        "P5.S3",
+        "P5.S4",
+        "P5.S5",
+        "P5.S6",
+        "P5.S7",
+        "P7.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Supports a history-record→mapping representation that retains actionable byte-to-strategy associations and feeds mutation. The retained relation is an empirical association with successful samples, not a causal guarantee for each mutation.",
+      "map_file": "intro-source-maps/sj-2deb60c210.md",
+      "entry_anchor": "p5-s3",
+      "high_level_card": "research-choice-evidence-map.md#ems"
+    },
+    {
+      "group_id": "M.4",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P9.S4",
+        "P9.S5"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：同一检测器的互补特征，未分配两个独立操作",
+      "support_relation": "Illustrates complementary information sources within one detector. The map does not assign separate operations v1 and v2 to two parallel components.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p9-s4",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "M.4",
+      "source_label": "AsgLDP",
+      "source_id": "sj-dc32e376bc",
+      "units": [
+        "P3.S2",
+        "P4.S1",
+        "P4.S2",
+        "C2.S2"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "边界例：联合信息对象，不直接建立组件与操作的一一分工",
+      "support_relation": "Supports complementary structure/attribute obligations and different techniques, but the introduction map does not spell out the complete one-to-one A→v1, B→v2 pairing or claim computational parallelism.",
+      "map_file": "intro-source-maps/sj-dc32e376bc.md",
+      "entry_anchor": "p3-s2",
+      "high_level_card": "research-choice-evidence-map.md#asgldp"
+    },
+    {
+      "group_id": "M.4",
+      "source_label": "MOCK",
+      "source_id": "sj-177bf3c33e",
+      "units": [
+        "P5.S4",
+        "P5.S6",
+        "P5.S7",
+        "P5.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "P5.S8 directly pairs complementary strategy responsibilities without a temporal order. Model-guided call choice and scheduler task-family allocation are separate control levels and should not be conflated.",
+      "map_file": "intro-source-maps/sj-177bf3c33e.md",
+      "entry_anchor": "p5-s4",
+      "high_level_card": "research-choice-evidence-map.md#mock"
+    },
+    {
+      "group_id": "M.5",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "P8.S1",
+        "P8.S2",
+        "P8.S3",
+        "P8.S6",
+        "P8.S7",
+        "P8.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Filtered documents feed MRC specification extraction; extracted natural-language rules become programming expressions, which the rule-driven binary engine consumes for violation checking. The producer–intermediate–consumer dependency is explicit; P8.S4–S5 are supporting firmware preparation, not a fabricated linear dependency.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "p8-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "M.5",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P9.S2",
+        "P9.S3",
+        "P9.S4",
+        "P9.S5",
+        "P9.S6",
+        "P9.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Abstraction rules produce JS-like Wasm units; those units combine with JS PDG into IPDG; IPDG enables pure-JS reconstruction, and the resulting program is consumed by existing AV to judge the original program.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p9-s2",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.5",
+      "source_label": "VERIFI",
+      "source_id": "sj-1b6614ac62",
+      "units": [
+        "P5.S5",
+        "P5.S6",
+        "P5.S7",
+        "P5.S8",
+        "P6.S12"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Marking chooses/designs samples as markers; checking uses model/marker metrics to judge forgetting, with P5.S8 supplying the temporal and actor contract. P6.S12 identifies the measured changes. This is actual evidence production/consumption, not a claim that marking itself performs unlearning.",
+      "map_file": "intro-source-maps/sj-1b6614ac62.md",
+      "entry_anchor": "p5-s5",
+      "high_level_card": "research-choice-evidence-map.md#verifi"
+    },
+    {
+      "group_id": "M.6",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P9.S7",
+        "P10.S2",
+        "P10.S3",
+        "P10.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Reconstructed pure JavaScript is explicitly sent to existing AV to judge the original multilingual program; task reduction and unchanged consumers explain the output contract. The map does not turn AV detection into an exploitability guarantee.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p9-s7",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.6",
+      "source_label": "FirmSec",
+      "source_id": "sj-0010159902",
+      "units": [
+        "P9.S6",
+        "P9.S7",
+        "P9.S8"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "TPC/version identification feeds database version checking, then per-firmware risk reports and repair suggestions. This supports a final judgment/output interface and downstream action; findings remain potential vulnerabilities, not verified exploitability.",
+      "map_file": "intro-source-maps/sj-0010159902.md",
+      "entry_anchor": "p9-s6",
+      "high_level_card": "research-choice-evidence-map.md#firmsec"
+    },
+    {
+      "group_id": "M.6",
+      "source_label": "Mars",
+      "source_id": "sj-a7b06c257f",
+      "units": [
+        "P4.S7",
+        "P4.S8",
+        "P5.S4",
+        "P5.S5"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "证据报告交给人工评估；不声称机器已确认最终处置",
+      "support_relation": "Filtered app evidence produces a machine summary and human-readable evidence chain; expert recipients assess the reports. Map discussion ties reports to human review and warns against automatic high-consequence disposition. This illustrates the intended handoff; P4.S8 alone does not state a completed reviewer decision.",
+      "map_file": "intro-source-maps/sj-a7b06c257f.md",
+      "entry_anchor": "p4-s7",
+      "high_level_card": "research-choice-evidence-map.md#mars"
+    },
+    {
+      "group_id": "M.7",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P6.S3",
+        "P6.S4",
+        "P6.S5",
+        "P6.S6",
+        "P6.S7",
+        "P6.S8",
+        "P6.S9",
+        "P6.S10",
+        "P6.S11"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The identity-loss observation is introduced at P6.S3, explained through source identity/target-attribute entanglement at S4–S8 and grounded in paired-generator examples at S9–S10; S11 closes the mechanism. The observed scope and source-author reasoning must not be generalized to all future generators.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p6-s3",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "M.7",
+      "source_label": "EMS",
+      "source_id": "sj-2deb60c210",
+      "units": [
+        "P2.S2",
+        "P2.S3",
+        "P2.S4",
+        "P2.S7",
+        "P2.S8",
+        "P3.S1",
+        "P3.S2",
+        "P3.S3",
+        "P3.S4",
+        "P3.S5",
+        "P3.S6"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "A candidate historical-reuse observation is followed by the code-reuse assumption and two case studies: recurring immediates and shared basic blocks. P3.S6 explicitly limits the examples. These provide examinable evidence, while P2.S2 alone would only announce an observation.",
+      "map_file": "intro-source-maps/sj-2deb60c210.md",
+      "entry_anchor": "p2-s2",
+      "high_level_card": "research-choice-evidence-map.md#ems"
+    },
+    {
+      "group_id": "M.7",
+      "source_label": "Code Rewriting Detector",
+      "source_id": "sj-db9fe86207",
+      "units": [
+        "P5.S1",
+        "P5.S2",
+        "P5.S3",
+        "P5.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "After identifying token-likelihood limitations, the map records that synthetic code remains similar under rewriting whereas human code diverges; a paired figure supports the contrast. P6.S1 is separately labeled as the detection hypothesis, preserving observation versus inference.",
+      "map_file": "intro-source-maps/sj-db9fe86207.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#code-rewriting"
+    },
+    {
+      "group_id": "M.7",
+      "source_label": "Dynamic Attention",
+      "source_id": "sj-64e052ffcd",
+      "units": [
+        "P6.S1",
+        "P6.S2",
+        "P6.S3",
+        "P6.S4",
+        "P6.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The diagnostic study finds attention on irrelevant words, then replaces attacked attention with clean attention and observes classification recovery. Observation, intervention and interpretation occupy separate units; the result is scoped to the examined attacks.",
+      "map_file": "intro-source-maps/sj-64e052ffcd.md",
+      "entry_anchor": "p6-s1",
+      "high_level_card": "research-choice-evidence-map.md#dynamic-attention"
+    },
+    {
+      "group_id": "M.8",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P6.S3",
+        "P6.S8",
+        "P6.S9",
+        "P6.S10",
+        "P6.S11",
+        "P7.S1",
+        "P7.S2",
+        "P7.S3",
+        "P7.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Identity-loss evidence motivates a natural real-reference embedding comparison and threshold detector; P7.S4 immediately introduces attribute confounding. This supports observation-to-design opportunity while keeping the natural metric’s limitations visible.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p6-s3",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "M.8",
+      "source_label": "EMS",
+      "source_id": "sj-2deb60c210",
+      "units": [
+        "P2.S3",
+        "P2.S4",
+        "P2.S5",
+        "P2.S6",
+        "P2.S7",
+        "P2.S8",
+        "P3.S6",
+        "P3.S7",
+        "P3.S8",
+        "P3.S9"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Possible shared mutation strategies and recurring branch behavior suggest reusing implicit partial-constraint solutions. The map explicitly marks benefit as potential, adds code-reuse premises, and bounds case-study evidence before extending to current and prior histories.",
+      "map_file": "intro-source-maps/sj-2deb60c210.md",
+      "entry_anchor": "p2-s3",
+      "high_level_card": "research-choice-evidence-map.md#ems"
+    },
+    {
+      "group_id": "M.8",
+      "source_label": "CLIBE",
+      "source_id": "sj-74a13898b9",
+      "units": [
+        "P6.S1",
+        "P6.S2",
+        "P6.S3",
+        "P6.S4",
+        "P6.S5",
+        "P6.S6",
+        "P7.S1",
+        "P7.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Neuron behavior and perturbation activation motivate predictions about confidence maxima; figure/theory evidence supports two properties, few-shot access and held-out generalization. Those properties license the parameter-space detection opportunity without asserting that all future dynamic backdoors are guaranteed detectable.",
+      "map_file": "intro-source-maps/sj-74a13898b9.md",
+      "entry_anchor": "p6-s1",
+      "high_level_card": "research-choice-evidence-map.md#clibe"
+    },
+    {
+      "group_id": "M.8",
+      "source_label": "Code Rewriting",
+      "source_id": "sj-db9fe86207",
+      "units": [
+        "P5.S2",
+        "P5.S3",
+        "P5.S4",
+        "P6.S1",
+        "P6.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The observed contrast between synthetic and human rewriting is explicitly followed by the hypothesis that original/rewrite similarity might detect synthetic code. The source separates this hypothesized use from the P7 implemented method and P8 measured gains.",
+      "map_file": "intro-source-maps/sj-db9fe86207.md",
+      "entry_anchor": "p5-s2",
+      "high_level_card": "research-choice-evidence-map.md#code-rewriting"
+    },
+    {
+      "group_id": "M.9",
+      "source_label": "MeTFA",
+      "source_id": "sj-f612de4bf1",
+      "units": [
+        "P5.S4",
+        "P5.S5",
+        "P5.S6",
+        "P5.S7",
+        "P6.S4",
+        "P6.S5",
+        "P6.S11",
+        "P6.S12",
+        "supplement-body-rationale"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The original full-introduction map supplies the median/finite-sample selection context; the separately verified body supplement supplies the exact M.9 central-subset construction and extreme-score filtering reason in §4.2/§5.3.1. The PDF pages and body sections are preserved instead of inventing introduction sentence coordinates.",
+      "map_file": "intro-source-maps/sj-f612de4bf1.md",
+      "entry_anchor": "supplement-body-rationale",
+      "high_level_card": "research-choice-evidence-map.md#metfa"
+    },
+    {
+      "group_id": "M.9",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P8.S1",
+        "P8.S2",
+        "P8.S3",
+        "P9.S5",
+        "P9.S6",
+        "P9.S7",
+        "P10.S2",
+        "P10.S3",
+        "P10.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Shared high-level features and JS-origin privileged functions license reconstruction; JavaScript-based IPDG syntax naturally maps back to JS, and choosing this output lets unchanged monolingual AV reuse known patterns instead of inventing multilingual heuristics. The property-to-choice-to-consumer chain is explicit.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p8-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "M.10",
+      "source_label": "IoT Re-using",
+      "source_id": "sj-601d126363",
+      "units": [
+        "P5.S1",
+        "P5.S2",
+        "P5.S3",
+        "P6.S1",
+        "P6.S2",
+        "P6.S3",
+        "P6.S4",
+        "P6.S5",
+        "P6.S6",
+        "P6.S7",
+        "P6.S8",
+        "P6.S9",
+        "P6.S10"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The introduction declares a mixed-method investigation, then specifies the 277-person study, firmware-scale collection analysis, empirical device study, disposal-method inventory and forensic tests. User results motivate both follow-through and device-category sampling; these units support announcing the completed empirical study.",
+      "map_file": "intro-source-maps/sj-601d126363.md",
+      "entry_anchor": "p5-s1",
+      "high_level_card": "research-choice-evidence-map.md#iot"
+    },
+    {
+      "group_id": "C.1",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P9.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact contribution-list introduction. The map separates this organizer from the four substantive contribution bullets.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p9-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "C.1",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P12"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact rhetorical duty, but the map supplies only a paragraph label for the lead-in.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p12",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "C.2",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "B1.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact overall research-capability contribution. Firstness in the source is not required by the template.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "b1-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "C.2",
+      "source_label": "UVSCAN",
+      "source_id": "sj-a36437c84c",
+      "units": [
+        "B1.S1",
+        "B1.S2",
+        "B1.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact overall artifact/task contribution; B1.S1 names the capability while B1.S2–S3 supply bounded support.",
+      "map_file": "intro-source-maps/sj-a36437c84c.md",
+      "entry_anchor": "b1-s1",
+      "high_level_card": "research-choice-evidence-map.md#uvscan"
+    },
+    {
+      "group_id": "C.2",
+      "source_label": "IPPO",
+      "source_id": "sj-8d71597fb2",
+      "units": [
+        "C1.S1",
+        "C1.S2",
+        "C1.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact overall advancement and its operative condition; do not read candidate inconsistency reports as automatically confirmed bugs.",
+      "map_file": "intro-source-maps/sj-8d71597fb2.md",
+      "entry_anchor": "c1-s1",
+      "high_level_card": "research-choice-evidence-map.md#ippo"
+    },
+    {
+      "group_id": "C.2",
+      "source_label": "MPInspector",
+      "source_id": "sj-1f315ef889",
+      "units": [
+        "C1.S1",
+        "C1.S2",
+        "P9.S1",
+        "P9.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact artifact plus bounded task-capability contribution.",
+      "map_file": "intro-source-maps/sj-1f315ef889.md",
+      "entry_anchor": "c1-s1",
+      "high_level_card": "research-choice-evidence-map.md#mpinspector"
+    },
+    {
+      "group_id": "C.3",
+      "source_label": "Cert-RNN",
+      "source_id": "sj-acbc08a57a",
+      "units": [
+        "B2.S1",
+        "B2.S2",
+        "B2.S3",
+        "P3.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact technical contribution linked to established obstacles. The domain and transformers have distinct mechanism-level duties.",
+      "map_file": "intro-source-maps/sj-acbc08a57a.md",
+      "entry_anchor": "b2-s1",
+      "high_level_card": "research-choice-evidence-map.md#cert-rnn"
+    },
+    {
+      "group_id": "C.3",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "C2.S1",
+        "C2.S2",
+        "P4.S12",
+        "P5.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact technically substantive contribution, with separate support for localization and conservative impact inference.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "c2-s1",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "C.3",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "B2.S1",
+        "P7.S2",
+        "P9.S1",
+        "P10.S3"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact implemented technical contribution with mechanisms and challenge-response context.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "b2-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "C.3",
+      "source_label": "Turbo",
+      "source_id": "sj-a258b38871",
+      "units": [
+        "B1.S1",
+        "B1.S2",
+        "B2.S1",
+        "P6.S4",
+        "P6.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact substantive technology contribution; B1.S1–S2 support uncertainty-aware representation and B2.S1, with P6 context, supports adaptive operators.",
+      "map_file": "intro-source-maps/sj-a258b38871.md",
+      "entry_anchor": "b1-s1",
+      "high_level_card": "research-choice-evidence-map.md#turbo"
+    },
+    {
+      "group_id": "C.4",
+      "source_label": "CPscan",
+      "source_id": "sj-390b20426f",
+      "units": [
+        "C2.S1",
+        "C2.S2",
+        "P4.S1",
+        "P7.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact two-technique grouping: localization supplies correspondence for downstream impact inference, so it is not an arbitrary module pairing.",
+      "map_file": "intro-source-maps/sj-390b20426f.md",
+      "entry_anchor": "c2-s1",
+      "high_level_card": "research-choice-evidence-map.md#cpscan"
+    },
+    {
+      "group_id": "C.4",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "B2.S1",
+        "P9.S4",
+        "P9.S7"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact example of two techniques grouped by their substantive joint capability.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "b2-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "C.4",
+      "source_label": "AsgLDP",
+      "source_id": "sj-dc32e376bc",
+      "units": [
+        "P2.S4",
+        "P2.S5",
+        "C2.S1",
+        "C2.S2",
+        "C2.S3"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "联合对象与新／已有技术组合，不把两个对象称为两项新技术",
+      "support_relation": "Illustrates a justified joint object and collection-to-generation combination, but attributes and structure are information objects, not themselves two newly designed techniques. Use C2.S1–S3 for the technical combination and retain new-versus-borrowed attribution.",
+      "map_file": "intro-source-maps/sj-dc32e376bc.md",
+      "entry_anchor": "p2-s4",
+      "high_level_card": "research-choice-evidence-map.md#asgldp"
+    },
+    {
+      "group_id": "E.1",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P7.S8",
+        "P7.S9",
+        "P11.S1"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "支撑范围与对手类别；共同协议仍需正文根据",
+      "support_relation": "Supports experimental scope and identified comparator classes. It does not state a precise shared comparison protocol in the introduction map.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p7-s8",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "E.1",
+      "source_label": "UniFuzz",
+      "source_id": "sj-26271ecf21",
+      "units": [
+        "C2.S1",
+        "C1.S4",
+        "C1.S7",
+        "P2.S5",
+        "P2.S12"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact comparative-evaluation duty when M/B are evaluated tools and P is the actual unified setup. This source evaluates tools rather than proving that a newly proposed fuzzer wins.",
+      "map_file": "intro-source-maps/sj-26271ecf21.md",
+      "entry_anchor": "c2-s1",
+      "high_level_card": "research-choice-evidence-map.md#unifuzz"
+    },
+    {
+      "group_id": "E.1",
+      "source_label": "V-Fuzz",
+      "source_id": "sj-e0e45fc435",
+      "units": [
+        "P7.S1",
+        "P7.S2"
+      ],
+      "source_role": "broader_illustrative",
+      "scope_note": "支撑评价范围；引言图未给完整基线与同协议",
+      "support_relation": "Directly illustrates reporting evaluation scope, but the contribution map does not identify a baseline set or common protocol. The surrounding paper has an evaluation section, but those exact comparative details are not mapped here.",
+      "map_file": "intro-source-maps/sj-e0e45fc435.md",
+      "entry_anchor": "p7-s1",
+      "high_level_card": "research-choice-evidence-map.md#v-fuzz"
+    },
+    {
+      "group_id": "E.2",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P11.S3",
+        "P11.S4",
+        "P11.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact paired quantitative comparison. The two measures must be reported separately; do not merge the percentage and engine-count outcomes.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p11-s3",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "E.2",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P7.S8",
+        "P7.S9",
+        "P11.S1"
+      ],
+      "source_role": "contrast_boundary",
+      "scope_note": "定性比较边界，属于E.3；不支持本组配对数值",
+      "support_relation": "Qualitative comparison provides a contrast boundary for E.2; it is not evidence of paired numeric values. Use E.3 for this source relationship.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p7-s8",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "E.3",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P7.S9",
+        "P11.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact bounded qualitative comparison. Preserve some and the stated evaluation/attack scope.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p7-s9",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "E.4",
+      "source_label": "Diff-ID",
+      "source_id": "sj-9042a938b2",
+      "units": [
+        "P9.C3.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact pair of parallel task capabilities; the map explicitly warns that this is the first introduction-level positive performance answer, not a redundant summary.",
+      "map_file": "intro-source-maps/sj-9042a938b2.md",
+      "entry_anchor": "p9-c3-s1",
+      "high_level_card": "research-choice-evidence-map.md#diff-id"
+    },
+    {
+      "group_id": "E.5",
+      "source_label": "HashVFL",
+      "source_id": "sj-3419195084",
+      "units": [
+        "P9.S1",
+        "C3.S1",
+        "P5.S5"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact benefit-with-preservation pattern when the new benefit is bounded reconstruction resistance and U is measured main-task performance. P9.S1 directly closes the prior utility concern.",
+      "map_file": "intro-source-maps/sj-3419195084.md",
+      "entry_anchor": "p9-s1",
+      "high_level_card": "research-choice-evidence-map.md#hashvfl"
+    },
+    {
+      "group_id": "E.5",
+      "source_label": "Invisible-Face",
+      "source_id": "sj-2079f71014",
+      "units": [
+        "P8.S3",
+        "P8.S6",
+        "P11.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact preservation relationship with two possible, separately scoped fact packages: improved naturalness while maintaining effectiveness (P8.S3), or privacy protection while maintaining natural appearance (P8.S6/P11.S2). Do not mix their directions or settings.",
+      "map_file": "intro-source-maps/sj-2079f71014.md",
+      "entry_anchor": "p8-s3",
+      "high_level_card": "research-choice-evidence-map.md#invisible-face"
+    },
+    {
+      "group_id": "E.6",
+      "source_label": "UniFuzz",
+      "source_id": "sj-26271ecf21",
+      "units": [
+        "C3.S2",
+        "C3.S3",
+        "C2.S2",
+        "C2.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact substantive empirical-knowledge duty; C3.S2–S3 is the precise source for the library’s evaluation-factors cue.",
+      "map_file": "intro-source-maps/sj-26271ecf21.md",
+      "entry_anchor": "c3-s2",
+      "high_level_card": "research-choice-evidence-map.md#unifuzz"
+    },
+    {
+      "group_id": "E.6",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P11.S9"
+      ],
+      "source_role": "exact",
+      "scope_note": "厂商之间的收益差异；内部机制分析产物另见E.8",
+      "support_relation": "P11.S9 reports that AV vendors favor different JWMM variants; this is an empirical heterogeneity finding, unlike the analysis product in B3.S1.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p11-s9",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "E.6",
+      "source_label": "EMS",
+      "source_id": "sj-2deb60c210",
+      "units": [
+        "P3.S3",
+        "P3.S4",
+        "P3.S6",
+        "P10.S1",
+        "P10.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact scoped empirical/knowledge finding. P3.S3–S4 supply observed facts and P3.S6 limits extrapolation; P10.S1–S2 are the contribution-level synthesis.",
+      "map_file": "intro-source-maps/sj-2deb60c210.md",
+      "entry_anchor": "p3-s3",
+      "high_level_card": "research-choice-evidence-map.md#ems"
+    },
+    {
+      "group_id": "E.6",
+      "source_label": "IoT Re-using",
+      "source_id": "sj-601d126363",
+      "units": [
+        "P5.S6",
+        "P6.S14",
+        "P6.S15",
+        "P6.S7",
+        "supplement-disposal-action-findings"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "The intro supports the broader scoped finding; the separately verified primary-body supplement supplies the exact recovery and same-device disposal-action difference named by the library. Cases, devices, identified items, recovered data and code-risk examples are distinguished.",
+      "map_file": "intro-source-maps/sj-601d126363.md",
+      "entry_anchor": "supplement-disposal-action-findings",
+      "high_level_card": "research-choice-evidence-map.md#iot"
+    },
+    {
+      "group_id": "E.7",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "P11.S10"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact average-cost plus average-input-size duty. Does not establish an upper bound or a separately specified deployment budget.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "p11-s10",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "E.8",
+      "source_label": "JWBinder",
+      "source_id": "sj-81630a3e7e",
+      "units": [
+        "B3.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": null,
+      "support_relation": "Exact analysis-product duty. The source map itself cautions that previous vendor variation is not a complete account of that analysis.",
+      "map_file": "intro-source-maps/sj-81630a3e7e.md",
+      "entry_anchor": "b3-s1",
+      "high_level_card": "research-choice-evidence-map.md#jwbinder"
+    },
+    {
+      "group_id": "E.0",
+      "source_label": "TextBugger",
+      "source_id": "sj-238a78de63",
+      "units": [
+        "C2.S1",
+        "C2.S2",
+        "C2.S3",
+        "C2.S4"
+      ],
+      "source_role": "exact",
+      "scope_note": "支持完整评价贡献中总评与结果的组织职责；不证明任意目标论文的性质、数字或写作效果。",
+      "support_relation": "Evaluation scope and effectiveness/efficiency synthesis are followed by a representative numerical task outcome and transferability. This is the second contribution, not the last.",
+      "map_file": "intro-source-maps/sj-238a78de63.md",
+      "entry_anchor": "c2-s1",
+      "high_level_card": "research-choice-evidence-map.md#textbugger"
+    },
+    {
+      "group_id": "E.0",
+      "source_label": "TextShield",
+      "source_id": "sj-4ef65862d0",
+      "units": [
+        "C3.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": "支持完整评价贡献中总评与结果的组织职责；不证明任意目标论文的性质、数字或写作效果。",
+      "support_relation": "Final evaluation contribution joins its main comparative advantage with a representative relative attack-success-rate reduction. Not a percentage-point drop or an average.",
+      "map_file": "intro-source-maps/sj-4ef65862d0.md",
+      "entry_anchor": "c3-s1",
+      "high_level_card": "research-choice-evidence-map.md#textshield"
+    },
+    {
+      "group_id": "E.0",
+      "source_label": "CAMH",
+      "source_id": "sj-2ada62afcb",
+      "units": [
+        "C3.S1",
+        "C3.S2"
+      ],
+      "source_role": "exact",
+      "scope_note": "支持完整评价贡献中总评与结果的组织职责；不证明任意目标论文的性质、数字或写作效果。",
+      "support_relation": "Final evaluation contribution connects overall validation with a quantified result under two alternative important conditions; preserve the source OR relationship and ER ratio meaning.",
+      "map_file": "intro-source-maps/sj-2ada62afcb.md",
+      "entry_anchor": "c3-s1",
+      "high_level_card": "research-choice-evidence-map.md#camh"
+    },
+    {
+      "group_id": "E.0",
+      "source_label": "FreeEagle",
+      "source_id": "sj-33b7f0ad03",
+      "units": [
+        "P11.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": "支持完整评价贡献中总评与结果的组织职责；不证明任意目标论文的性质、数字或写作效果。",
+      "support_relation": "Concise final evaluation conclusion is a valid alternative when it completes the source paper duty. It does not imply a no-numbers rule.",
+      "map_file": "intro-source-maps/sj-33b7f0ad03.md",
+      "entry_anchor": "p11-s1",
+      "high_level_card": "research-choice-evidence-map.md#freeeagle"
+    },
+    {
+      "group_id": "E.0",
+      "source_label": "HashVFL",
+      "source_id": "sj-3419195084",
+      "units": [
+        "C3.S1"
+      ],
+      "source_role": "exact",
+      "scope_note": "支持完整评价贡献中总评与结果的组织职责；不证明任意目标论文的性质、数字或写作效果。",
+      "support_relation": "Task-level effectiveness/usability/versatility synthesis, not a mandatory numeric inventory. Properties remain specific to this source.",
+      "map_file": "intro-source-maps/sj-3419195084.md",
+      "entry_anchor": "c3-s1",
+      "high_level_card": "research-choice-evidence-map.md#hashvfl"
+    }
+  ]
+}

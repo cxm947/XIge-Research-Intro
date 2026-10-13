@@ -1,0 +1,864 @@
+{
+  "source_id": "sj-56ed062ba0",
+  "title": "The Boy Who Cried Wolf: Adversarial Misclassification of Safe Inputs as Unsafe in Multimodal Guardrails",
+  "designated_version": "arXiv:2608.01373v1 [cs.CR], margin date 2 August 2026",
+  "designated_url": "https://arxiv.org/pdf/2608.01373v1",
+  "pdf_sha256": "03c2270f488dcd196f5eb98d3a0568bd0eb864b32152962a759dcfa8a22a5b36",
+  "pdf_bytes": 9024493,
+  "physical_pages": 12,
+  "pdf_creation_metadata": "D:20260804012914+00'00'",
+  "source_reading_utc": "2026-10-06T05:00:26.764267+00:00",
+  "version_note": "Local hash matches original manifest and access record; KDD metadata in PDF does not make this a independently retrieved DOI edition. PDF creation metadata is not arXiv version date.",
+  "primary_reading": {
+    "complete_introduction_and_contributions": [
+      1,
+      2
+    ],
+    "necessary_body": [
+      "Sections 2–6, physical pages 2–9",
+      "Appendix B–C, physical pages 11–12"
+    ],
+    "visual_review": [
+      "Historically inspected p1 (2026-10-06): version and title",
+      "Historically inspected p2 (2026-10-06): column continuation, paragraph/sentence boundaries",
+      "Historically inspected pp7–9 (2026-10-06): tables and figure scopes"
+    ]
+  },
+  "coordinate_convention": {
+    "unit_names": "Analytical locators retained from original profile; 29 scientific sentences, two challenge labels and contribution organizer excluded. P5.S4 remains one sentence containing two semicolon-linked mechanism clauses.",
+    "normalization": "Read PyMuPDF blocks. Remove alphabetic lowercase continuation hyphen-newline; collapse whitespace; join p1 block23, p2 block32, p2 block33 with one space. This is deterministic extraction normalization, not an assertion that line-wrap hyphenation exactly reconstructs typography.",
+    "sentence_spans": "Half-open zero-based character offsets into that normalized joined text; contributions use normalized p2 block34. Actual source text is not redistributed.",
+    "token_count": "ASCII alphanumeric wordlike token regex permits internal hyphens/apostrophes. Includes citation numerals. Descriptive extraction counts, not quality scores, prescriptions or editorial targets."
+  },
+  "blocks": [
+    {
+      "physical_page": 1,
+      "block_index_zero_based": 23,
+      "bbox": [
+        317.62298583984375,
+        470.4837646484375,
+        559.810546875,
+        709.561279296875
+      ],
+      "normalized_combined_span": [
+        0,
+        1446
+      ],
+      "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+      "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+    },
+    {
+      "physical_page": 2,
+      "block_index_zero_based": 32,
+      "bbox": [
+        53.46699905395508,
+        317.0061340332031,
+        295.6534118652344,
+        709.60302734375
+      ],
+      "normalized_combined_span": [
+        1447,
+        3772
+      ],
+      "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+      "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+    },
+    {
+      "physical_page": 2,
+      "block_index_zero_based": 33,
+      "bbox": [
+        316.9419860839844,
+        86.85242462158203,
+        559.7132568359375,
+        227.39280700683594
+      ],
+      "normalized_combined_span": [
+        3773,
+        4575
+      ],
+      "raw_block_sha256": "b1ec12e92d4491ce573d07064c935861af10755df10c1ee966ebde2a19f2f616",
+      "normalized_block_sha256": "e2196a8424a81ac5d6bd4e6bf67bf89917106b1b2db5bc66529a993879f6de5f"
+    }
+  ],
+  "units": [
+    {
+      "unit": "P1.S1",
+      "normalized_span": [
+        0,
+        175
+      ],
+      "normalized_text_sha256": "550773351ccf78555e948fb78c278f1354224f10ee865804c7cc73ee8cda30ab",
+      "wordlike_tokens": 23,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P1.S2",
+      "normalized_span": [
+        176,
+        373
+      ],
+      "normalized_text_sha256": "f683f0b79f353a4c93c2a83f91c74d789009f18977224d00aad29b3cf7f710b9",
+      "wordlike_tokens": 24,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P1.S3",
+      "normalized_span": [
+        374,
+        658
+      ],
+      "normalized_text_sha256": "6e591010051a0ac576b97c9b098239b0bfa7998f5303654f3981c37c36ffd0a0",
+      "wordlike_tokens": 41,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P1.S4",
+      "normalized_span": [
+        659,
+        845
+      ],
+      "normalized_text_sha256": "b2321cce96a28f84a68dcb72f9a791f4b9b48ec028eb34104ca124adb2bdea4c",
+      "wordlike_tokens": 24,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P2.S1",
+      "normalized_span": [
+        846,
+        930
+      ],
+      "normalized_text_sha256": "f7b53d913b6d3cf71a369238bef5fe8cbaa33053db6fd6e8bd2807299d3e0086",
+      "wordlike_tokens": 11,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P2.S2",
+      "normalized_span": [
+        931,
+        1142
+      ],
+      "normalized_text_sha256": "f9a6ab77043f7bde32a9e99b81310691afe59d498f7a46539806037ae8dbfda9",
+      "wordlike_tokens": 30,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P2.S3",
+      "normalized_span": [
+        1143,
+        1326
+      ],
+      "normalized_text_sha256": "c92b9893e72219cc071a822e74199cac8c477a6f1432c3fef2d4a74354229f75",
+      "wordlike_tokens": 26,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        }
+      ]
+    },
+    {
+      "unit": "P2.S4",
+      "normalized_span": [
+        1327,
+        1500
+      ],
+      "normalized_text_sha256": "4d1bdd59709698e6f59a006eecccf09482cc9f7cb2eec8ce2a27a284afa17d03",
+      "wordlike_tokens": 22,
+      "source_blocks": [
+        {
+          "physical_page": 1,
+          "block_index_zero_based": 23,
+          "bbox": [
+            317.62298583984375,
+            470.4837646484375,
+            559.810546875,
+            709.561279296875
+          ],
+          "raw_block_sha256": "87563017114d1ffe721b4e7b6ba61321bc6627da08bd68f4558a4ba056700bf2",
+          "normalized_block_sha256": "587d78c7b0b478b9968eb3ccf087b63e92ed8725872efe46e0d8278dfd0ff898"
+        },
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P2.S5",
+      "normalized_span": [
+        1501,
+        1642
+      ],
+      "normalized_text_sha256": "b84fb74011d25836065cd1e196c24f4c789fa764fefb5905c791498a05051410",
+      "wordlike_tokens": 20,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P3.S1",
+      "normalized_span": [
+        1643,
+        1716
+      ],
+      "normalized_text_sha256": "4d01ab830b03d52b87f85db8e9ae7ef25cb964b7091b2644f47f32c034ffa503",
+      "wordlike_tokens": 11,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P3.S2",
+      "normalized_span": [
+        1717,
+        1891
+      ],
+      "normalized_text_sha256": "61cbd17b0ac7f93e1ec35219b0a35d4823808a90c8a813a657166d511163cb04",
+      "wordlike_tokens": 25,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P3.S3",
+      "normalized_span": [
+        1892,
+        2017
+      ],
+      "normalized_text_sha256": "cb9f4e59758864d56abc4a7592fbcdbf93d027d4b5d82e1d619f47de2d919668",
+      "wordlike_tokens": 17,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P3.S4",
+      "normalized_span": [
+        2018,
+        2269
+      ],
+      "normalized_text_sha256": "1871ec88792095397fb8bb8a287a71dde8c8fd4b56c05c340daa1f764f478e2e",
+      "wordlike_tokens": 31,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P3.S5",
+      "normalized_span": [
+        2270,
+        2407
+      ],
+      "normalized_text_sha256": "9eab2dbc575f2773787b2791006f34d26d34ec3f1b4695779d52817132d1aedd",
+      "wordlike_tokens": 23,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P4.S1",
+      "normalized_span": [
+        2408,
+        2546
+      ],
+      "normalized_text_sha256": "e6b95edb1f7856e63742eb065f22480bcfe13f53cb81dde9e232321f2621230a",
+      "wordlike_tokens": 16,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P4.S2",
+      "normalized_span": [
+        2588,
+        2711
+      ],
+      "normalized_text_sha256": "1730941cf0d3e23bb4680ce5100029ff237f76719c0b3b9ffde8cf1751a5e4c2",
+      "wordlike_tokens": 17,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P4.S3",
+      "normalized_span": [
+        2712,
+        2863
+      ],
+      "normalized_text_sha256": "d14e13b495eda970588a09e2c1daa1c19f802772c89628f8c05495fbc27e0736",
+      "wordlike_tokens": 20,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P4.S4",
+      "normalized_span": [
+        2911,
+        3043
+      ],
+      "normalized_text_sha256": "cca96f91cba71699d77db0c48e96324cac7a0ef3ed4af1fdf763c945ca46702d",
+      "wordlike_tokens": 16,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P4.S5",
+      "normalized_span": [
+        3044,
+        3256
+      ],
+      "normalized_text_sha256": "2a625182568fc8005411db46a010561a8e556c86de8e536233a6bdb2e3956d98",
+      "wordlike_tokens": 30,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S1",
+      "normalized_span": [
+        3257,
+        3403
+      ],
+      "normalized_text_sha256": "d7d53dc24481ba8487fbb5dd7174f2085bbd6072313f3e603c8aa617b04f9aa8",
+      "wordlike_tokens": 17,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S2",
+      "normalized_span": [
+        3404,
+        3577
+      ],
+      "normalized_text_sha256": "a310d995be2ed77a1feb8e543459196dd5ae9fac29eeab93b601530ce8296f90",
+      "wordlike_tokens": 26,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S3",
+      "normalized_span": [
+        3578,
+        3648
+      ],
+      "normalized_text_sha256": "55c993b080d19c491e4da5dba52442bfd06e11a1000190296eaaf9ab0f821331",
+      "wordlike_tokens": 9,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S4",
+      "normalized_span": [
+        3649,
+        4164
+      ],
+      "normalized_text_sha256": "d8100ef2ab8f97404fc05f3a4340af382a8282205f0243ba8a64d040d3f891a2",
+      "wordlike_tokens": 65,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 32,
+          "bbox": [
+            53.46699905395508,
+            317.0061340332031,
+            295.6534118652344,
+            709.60302734375
+          ],
+          "raw_block_sha256": "2cd656dac68f521d49a477233e995a720ddf657123352c9b9422103991b6c325",
+          "normalized_block_sha256": "6522752121cf0196dad2079e0bb916cb0839abce41cf983ae7453fe0d88a9fe7"
+        },
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 33,
+          "bbox": [
+            316.9419860839844,
+            86.85242462158203,
+            559.7132568359375,
+            227.39280700683594
+          ],
+          "raw_block_sha256": "b1ec12e92d4491ce573d07064c935861af10755df10c1ee966ebde2a19f2f616",
+          "normalized_block_sha256": "e2196a8424a81ac5d6bd4e6bf67bf89917106b1b2db5bc66529a993879f6de5f"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S5",
+      "normalized_span": [
+        4165,
+        4322
+      ],
+      "normalized_text_sha256": "83c1a1b22678199e00f5d0ace2670408f38198790ff592f518e5c2af227dd1ba",
+      "wordlike_tokens": 19,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 33,
+          "bbox": [
+            316.9419860839844,
+            86.85242462158203,
+            559.7132568359375,
+            227.39280700683594
+          ],
+          "raw_block_sha256": "b1ec12e92d4491ce573d07064c935861af10755df10c1ee966ebde2a19f2f616",
+          "normalized_block_sha256": "e2196a8424a81ac5d6bd4e6bf67bf89917106b1b2db5bc66529a993879f6de5f"
+        }
+      ]
+    },
+    {
+      "unit": "P5.S6",
+      "normalized_span": [
+        4323,
+        4530
+      ],
+      "normalized_text_sha256": "8706db5674df8bc73739414eec5a6a77fe4fae52dcb952b9e51bdd89425a596d",
+      "wordlike_tokens": 28,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 33,
+          "bbox": [
+            316.9419860839844,
+            86.85242462158203,
+            559.7132568359375,
+            227.39280700683594
+          ],
+          "raw_block_sha256": "b1ec12e92d4491ce573d07064c935861af10755df10c1ee966ebde2a19f2f616",
+          "normalized_block_sha256": "e2196a8424a81ac5d6bd4e6bf67bf89917106b1b2db5bc66529a993879f6de5f"
+        }
+      ]
+    },
+    {
+      "unit": "B1.S1",
+      "normalized_contribution_block_span": [
+        31,
+        278
+      ],
+      "normalized_text_sha256": "54785475273d104819e49f01a761795e4b0ce3faa6ffab0f5aa3b9f07a1c88f4",
+      "wordlike_tokens": 33,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 34,
+          "bbox": [
+            333.9219970703125,
+            233.75222778320312,
+            559.7214965820312,
+            407.7518005371094
+          ],
+          "raw_block_sha256": "f385cfd6199d706231837a20051beef5728835c16060468021df581d4870f423"
+        }
+      ]
+    },
+    {
+      "unit": "B2.S1",
+      "normalized_contribution_block_span": [
+        310,
+        539
+      ],
+      "normalized_text_sha256": "c79029d1f86ead77540a0245bf94fdc550ff7a0a4704e1d32998fa15ff047621",
+      "wordlike_tokens": 27,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 34,
+          "bbox": [
+            333.9219970703125,
+            233.75222778320312,
+            559.7214965820312,
+            407.7518005371094
+          ],
+          "raw_block_sha256": "f385cfd6199d706231837a20051beef5728835c16060468021df581d4870f423"
+        }
+      ]
+    },
+    {
+      "unit": "B3.S1",
+      "normalized_contribution_block_span": [
+        568,
+        692
+      ],
+      "normalized_text_sha256": "4b85970232d3eda60c11dabf3fd8fae6ffc57409b948b638a9a22921b4889890",
+      "wordlike_tokens": 16,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 34,
+          "bbox": [
+            333.9219970703125,
+            233.75222778320312,
+            559.7214965820312,
+            407.7518005371094
+          ],
+          "raw_block_sha256": "f385cfd6199d706231837a20051beef5728835c16060468021df581d4870f423"
+        }
+      ]
+    },
+    {
+      "unit": "B3.S2",
+      "normalized_contribution_block_span": [
+        693,
+        834
+      ],
+      "normalized_text_sha256": "176ed91b973954c24119842d9605415d6cc6d2cc5aa68840ebb7e4752caa854a",
+      "wordlike_tokens": 18,
+      "source_blocks": [
+        {
+          "physical_page": 2,
+          "block_index_zero_based": 34,
+          "bbox": [
+            333.9219970703125,
+            233.75222778320312,
+            559.7214965820312,
+            407.7518005371094
+          ],
+          "raw_block_sha256": "f385cfd6199d706231837a20051beef5728835c16060468021df581d4870f423"
+        }
+      ]
+    }
+  ],
+  "descriptive_wordlike_counts": {
+    "P1": 112,
+    "P2": 109,
+    "P3": 107,
+    "P4": 99,
+    "P5": 164,
+    "B1": 33,
+    "B2": 27,
+    "B3": 34
+  },
+  "supplemental_neighbor": {
+    "title": "LLM Safeguard is a Double-Edged Sword: Exploiting False Positives for Denial-of-Service Attacks",
+    "url": "https://arxiv.org/html/2410.02916v3",
+    "abstract_url": "https://arxiv.org/abs/2410.02916",
+    "version": "arXiv:2410.02916v3, submitted revision 9 April 2025",
+    "read_scope": [
+      "abstract",
+      "complete Introduction",
+      "Section 3 problem statement, especially control assumptions"
+    ],
+    "why_read": "Primary paper reference [49] directly challenges an overbroad gap; targeted read only.",
+    "mode": "web tool source, not saved PDF",
+    "exact_raw_source_hash": null,
+    "hash_limitation": "No raw HTML/PDF bytes downloaded; URL/version/sections identify auxiliary evidence, not exact-byte proof. The primary designated PDF and all authored deliverables have hashes.",
+    "publication_date_note": "Rendered HTML displays a later standalone date; arXiv version marker and submission history are used for version identity.",
+    "claim_used": "General false-positive DoS was previously studied. In the template-injection setting the user already writes the substantive request independently; independence of user text is shared, not alone a novelty difference. The primary-source control difference is the image carrier without modification of the text template or guard model. No algorithm transfer or implementation extracted."
+  },
+  "claims_and_evidence": [
+    {
+      "claim": "Main success with unknown user requests",
+      "source": "Section 5.2 and Table 1 p7; Appendix C.2 p12",
+      "finding": "ASRr uses 10 image-specific, generated requests disjoint from development prompts; prompts triggering clean false alarms filtered/regenerated."
+    },
+    {
+      "claim": "Introduction 78–84 range",
+      "source": "B3.S2 p2; Table 1 p7",
+      "finding": "Not all-table extrema: USD ASRr total range 70.4–85.9; Llama four cells 78.4–84.3, but introduction does not identify that subset."
+    },
+    {
+      "claim": "Best baseline same-cell comparison",
+      "source": "Table 1 and Section 5.3 p7",
+      "finding": "Llama/TextVQA/larger budget: USD 82.8, MLLM-Refusal 68.7, CoA 62.2; correct best-baseline delta 14.1 percentage points; prose calls CoA best inconsistently."
+    },
+    {
+      "claim": "Method relation",
+      "source": "Section 4.3.1–4.3.4 pp5–6",
+      "finding": "Distribution-level visual objective accompanied by shadow-prompt decision verification; no prompt-free training claim."
+    },
+    {
+      "claim": "Category extension",
+      "source": "Table 2 p8",
+      "finding": "Two models, four evaluated categories, targeted ASRr 76.7–80.6."
+    },
+    {
+      "claim": "Cross-model specificity",
+      "source": "Figure 4 and Section 5.5 p8",
+      "finding": "Diagonal 75.6–85.9; off-diagonal 0.7–3.7; source treats low transfer as desirable for competitor-service scenario."
+    },
+    {
+      "claim": "Image-only support",
+      "source": "Table 3 p8",
+      "finding": "Llama model TextVQA 75.0 and VQAv2 78.0; supports visual-signal interpretation, not every-prompt theorem."
+    },
+    {
+      "claim": "Other candidate evidence",
+      "source": "Table 4 p8, Table 5 p9, Figure 6 p9, Appendix B pp11–12",
+      "finding": "Perceptual and preprocessing evidence plus parameter trends and t-SNE; interpretation and scope kept separate in profile."
+    }
+  ],
+  "quotation_policy": "No complete primary-source sentences in authored analysis; new English alternatives are marked editorial. Technical names and bibliographic titles retained. Source PDF is referenced, not repackaged as authored prose.",
+  "actual_primary_url": "https://arxiv.org/pdf/2608.01373v1",
+  "source_map": "../../intro-source-maps/sj-56ed062ba0.md",
+  "historical_analysis_date": "2026-10-06",
+  "historical_review_date": "2026-10-06",
+  "distribution_cleanup_date": "2026-10-07",
+  "historical_review_status": {
+    "closed_required": [
+      "R1",
+      "R2",
+      "R3"
+    ],
+    "open_required": [],
+    "scope": "Independent reread covered the historical final input bytes, not the derived distribution bytes."
+  },
+  "distribution_boundary": {
+    "new_distillation_count": 0,
+    "new_public_primary_source_reread_count": 0,
+    "primary_and_page_artifacts_included": false,
+    "historical_evidence_note": "Primary PDF, page renders, historical baseline/access records and private verification artifacts are not included. Source/page/block hashes and coordinates are retained from the 2026-10-06 analysis; they are not fresh checks and cannot be fully replayed from this distribution alone.",
+    "scientific_analysis_and_editorial_options": "Retained; cleanup changes only historical workflow wording, routing and distribution metadata.",
+    "historical_original_sha256": "2f148d59bc0e9a14275e8cec76c91a1a924d5669644badf37619d3f721d6b71f"
+  }
+}
