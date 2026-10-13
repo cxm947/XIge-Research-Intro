@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="172" height="32" viewBox="0 0 172 32" role="img" aria-labelledby="title">
+  <title id="title">8-STEP HANDBOOK</title>
+  <rect x=".5" y=".5" width="171" height="31" rx="7" fill="#172B42" stroke="#39516B"/>
+  <g transform="translate(10 6)" fill="none" stroke="#E4ADD0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="1" width="7" height="7" rx="1.5"/><rect x="12" y="1" width="7" height="7" rx="1.5"/><rect x="1" y="12" width="7" height="7" rx="1.5"/><rect x="12" y="12" width="7" height="7" rx="1.5"/></g>
+  <text x="40" y="20.5" fill="#F3F6FA" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".35">8-STEP HANDBOOK</text>
+</svg>

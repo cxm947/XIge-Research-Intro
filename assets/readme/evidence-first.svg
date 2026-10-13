@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="32" viewBox="0 0 156 32" role="img" aria-labelledby="title">
+  <title id="title">EVIDENCE FIRST</title>
+  <rect x=".5" y=".5" width="155" height="31" rx="7" fill="#172B42" stroke="#39516B"/>
+  <g transform="translate(10 6)" fill="none" stroke="#ABBDFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 1l8 3v5c0 5-5 9-8 10-3-1-8-5-8-10V4z"/><path d="M6 10l3 3 5-6"/></g>
+  <text x="40" y="20.5" fill="#F3F6FA" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing=".35">EVIDENCE FIRST</text>
+</svg>
